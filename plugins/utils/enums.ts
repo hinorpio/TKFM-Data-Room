@@ -1,0 +1,148 @@
+export enum Locale {
+    zh = 'zh',
+    cn = 'cn',
+    en = 'en',
+    jp = 'jp',
+    ko = 'ko',
+}
+
+export enum Element {
+    FIRE = 'FIRE',
+    WATER = 'WATER',
+    WIND = 'WIND',
+    LIGHT = 'LIGHT',
+    DARK = 'DARK',
+}
+
+export enum Position {
+    ATTACKER = 'ATTACKER',
+    OBSTRUCTER = 'OBSTRUCTER',
+    PROTECTOR = 'PROTECTOR',
+    HEALER = 'HEALER',
+    SUPPORTER = 'SUPPORTER',
+}
+
+export enum Rarity {
+    SSR = 'SSR',
+    SR = 'SR',
+    R = 'R',
+    N = 'N',
+}
+
+export enum SkillType {
+    BASE_STAT = 'BASE_STAT',
+    SKILL_S = 'SKILL_S',
+    SKILL_1 = 'SKILL_1',
+    SKILL_2 = 'SKILL_2',
+    SKILL_3 = 'SKILL_3',
+    SKILL_4 = 'SKILL_4',
+    SKILL_5 = 'SKILL_5',
+    ATTACK = 'ATTACK',
+    LEADER = 'LEADER',
+    PASSIVE_1 = 'PASSIVE_1',
+    PASSIVE_2 = 'PASSIVE_2',
+    PASSIVE_3 = 'PASSIVE_3',
+    GENERAL = 'GENERAL',
+    DISPATCH = 'DISPATCH',
+}
+
+export enum LiberationStage {
+    LIBERATION_0 = 'LIBERATION_0',
+    LIBERATION_1 = 'LIBERATION_1',
+    LIBERATION_2 = 'LIBERATION_2',
+    LIBERATION_3 = 'LIBERATION_3',
+}
+
+export enum TagType {
+    ELEMENT = 'ELEMENT',
+    POSITION = 'POSITION',
+    SPECIES = 'SPECIES',
+    BODY = 'BODY',
+    BREAST = 'BREAST',
+    CLASS = 'CLASS',
+    OTHER = 'OTHER',
+}
+
+export enum PotentialType {
+    ATTACK = 'ATTACK',
+    DEFENCE = 'DEFENCE',
+    BALANCE = 'BALANCE',
+    NR = 'NR',
+}
+
+export enum PotentialBuffType {
+    ATK = 'ATK',
+    HP = 'HP',
+    PASSIVE = 'PASSIVE',
+}
+
+export enum ItemType {
+    GENERAL = 'GENERAL',
+    EVOLVE = 'EVOLVE',
+    POTENTIAL = 'POTENTIAL',
+    POTENTIAL_ADVANCED = 'POTENTIAL_ADVANCED',
+}
+
+export enum ItemCode {
+    SLIVER_COIN = 'SLIVER_COIN',
+    NAMELESS = 'NAMELESS',
+    LIBERATE_STONE = 'LIBERATE_STONE',
+    FLAWLESS = 'FLAWLESS',
+    SKILL_FRAGMENT = 'SKILL_FRAGMENT',
+    SKILL_STONE = 'SKILL_STONE',
+    EVOLVE_FIRE_LV1 = 'EVOLVE_FIRE_LV1',
+    EVOLVE_FIRE_LV2 = 'EVOLVE_FIRE_LV2',
+    EVOLVE_FIRE_LV3 = 'EVOLVE_FIRE_LV3',
+    EVOLVE_FIRE_LV4 = 'EVOLVE_FIRE_LV4',
+    EVOLVE_WATER_LV1 = 'EVOLVE_WATER_LV1',
+    EVOLVE_WATER_LV2 = 'EVOLVE_WATER_LV2',
+    EVOLVE_WATER_LV3 = 'EVOLVE_WATER_LV3',
+    EVOLVE_WATER_LV4 = 'EVOLVE_WATER_LV4',
+    EVOLVE_WIND_LV1 = 'EVOLVE_WIND_LV1',
+    EVOLVE_WIND_LV2 = 'EVOLVE_WIND_LV2',
+    EVOLVE_WIND_LV3 = 'EVOLVE_WIND_LV3',
+    EVOLVE_WIND_LV4 = 'EVOLVE_WIND_LV4',
+    EVOLVE_LIGHT_LV1 = 'EVOLVE_LIGHT_LV1',
+    EVOLVE_LIGHT_LV2 = 'EVOLVE_LIGHT_LV2',
+    EVOLVE_LIGHT_LV3 = 'EVOLVE_LIGHT_LV3',
+    EVOLVE_LIGHT_LV4 = 'EVOLVE_LIGHT_LV4',
+    EVOLVE_DARK_LV1 = 'EVOLVE_DARK_LV1',
+    EVOLVE_DARK_LV2 = 'EVOLVE_DARK_LV2',
+    EVOLVE_DARK_LV3 = 'EVOLVE_DARK_LV3',
+    EVOLVE_DARK_LV4 = 'EVOLVE_DARK_LV4',
+    CLAW_LV1 = 'CLAW_LV1',
+    CLAW_LV2 = 'CLAW_LV2',
+    CLAW_LV3 = 'CLAW_LV3',
+    IRON_LV1 = 'IRON_LV1',
+    IRON_LV2 = 'IRON_LV2',
+    IRON_LV3 = 'IRON_LV3',
+    WATER_LV1 = 'WATER_LV1',
+    WATER_LV2 = 'WATER_LV2',
+    WATER_LV3 = 'WATER_LV3',
+    MIXTURE_LV1 = 'MIXTURE_LV1',
+    MIXTURE_LV2 = 'MIXTURE_LV2',
+    MIXTURE_LV3 = 'MIXTURE_LV3',
+    DUST_LV1 = 'DUST_LV1',
+    DUST_LV2 = 'DUST_LV2',
+    DUST_LV3 = 'DUST_LV3',
+    HORN_LV1 = 'HORN_LV1',
+    HORN_LV2 = 'HORN_LV2',
+    SLIVER_LV1 = 'SLIVER_LV1',
+    SLIVER_LV2 = 'SLIVER_LV2',
+    OIL_LV1 = 'OIL_LV1',
+    OIL_LV2 = 'OIL_LV2',
+    CRYSTAL_LV1 = 'CRYSTAL_LV1',
+    CRYSTAL_LV2 = 'CRYSTAL_LV2',
+    FANG_LV1 = 'FANG_LV1',
+    FANG_LV2 = 'FANG_LV2',
+    BEAK_LV1 = 'BEAK_LV1',
+    BEAK_LV2 = 'BEAK_LV2',
+    SKIN_LV1 = 'SKIN_LV1',
+    SKIN_LV2 = 'SKIN_LV2',
+    BOOK_LV1 = 'BOOK_LV1',
+    BOOK_LV2 = 'BOOK_LV2',
+    FEATHER_LV1 = 'FEATHER_LV1',
+    FEATHER_LV2 = 'FEATHER_LV2',
+    WEB_LV1 = 'WEB_LV1',
+    WEB_LV2 = 'WEB_LV2',
+}

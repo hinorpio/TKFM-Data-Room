@@ -1,0 +1,57 @@
+import { 
+    Element, 
+    Position, 
+    Rarity, 
+    SkillType, 
+    LiberationStage, 
+    PotentialBuffType
+} from './enums';
+import { 
+    ElementIcon, 
+    PositionIcon, 
+    RarityIcon, 
+    SkillIcon,
+    LiberateIcon,
+    PotentialBuffIcon 
+} from '@/static/data/UI';
+
+export default {
+    showPreLineText(text: string): string{
+        return text.replace(/\n/g, '<br>');
+    },
+    getErrorImage(code: string): string{
+        switch (code) {
+            case "CANNOT_FIND_CHARACTER":
+                return require("@/assets/error.png")
+            default:
+                return require("@/assets/error.png")
+        }
+    },
+    getAllElement(): { [key: string]: string }[] {
+        return Object.entries(ElementIcon).map(([key, value]) => ({ code: key, icon: value }));
+    },
+    getAllPosition(): { [key: string]: string }[] {
+        return Object.entries(PositionIcon).map(([key, value]) => ({ code: key, icon: value }));
+    },
+    getAllRarity(): { [key: string]: string }[] {
+        return Object.entries(RarityIcon).map(([key, value]) => ({ code: key, icon: value }));
+    },
+    getElementIcon(code: Element): string {
+        return ElementIcon[code] || '';
+    },
+    getPositionIcon(code: Position): string {
+        return PositionIcon[code] || '';
+    },
+    getRarityIcon(code: Rarity): string | undefined{
+        return RarityIcon[code] || '';
+    },
+    getSkillIcon(type: SkillType): string | undefined{
+        return SkillIcon[type] || '';
+    },
+    getLiberateIcon(stage: LiberationStage): string | undefined{
+        return LiberateIcon[stage] || '';
+    },
+    getPotentialBuffType(type: PotentialBuffType): string | undefined{
+        return PotentialBuffIcon[type] || '';
+    },
+}
