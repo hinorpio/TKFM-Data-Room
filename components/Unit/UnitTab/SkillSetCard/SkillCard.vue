@@ -3,7 +3,7 @@
         <v-toolbar color="#f0b023" height="50em">
             <v-row class="align-center">
                 <v-avatar size="1.5em" tile class="ml-2">
-                    <v-img :src="$util.getSkillSetIcon('SKILL')"  />
+                    <v-img :src="getIcon()"  />
                 </v-avatar>
                 <span class="ml-4 body-1 font-weight-bold">
                     {{showVersion['SKILL_S'].name}}
@@ -49,25 +49,31 @@
         </v-card-text>
     </v-card>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
-export default Vue.extend({
-    props: {
-        showVersion: {
-            type: Object,
-            required: true,
-            default: {},
-        },
-        isLiberation: {
-            type: Boolean,
-            required: false,
-            default: false
-        }
-    },
-    data(){
-        return{
-            isDetail: false
-        }
+import { Component, Prop } from "vue-property-decorator";
+import { SkillType } from '@/plugins/utils/enums'
+import { Skill } from '@/interface/unit/skillset';
+
+@Component
+export default class SkillCard extends Vue {
+    @Prop({ type: Object, required: true, default: {} }) readonly showVersion!: { [key in SkillType]: Skill };
+    @Prop({ type: Boolean, required: false, default: false }) isLiberation!: Boolean;
+
+    skilltype: SkillType = SkillType.SKILL_S
+    isDetail: Boolean = false
+
+    getIcon(): string{
+        return this.$util.getSkillIcon(this.skilltype) ?? ''
     }
-})
+
+    getSkillName(): string{
+        return this.showVersion[this.skilltype].name ?? '';
+    }
+
+    getSkillDescription(): string{
+        return this.$util.showPreLineText(this.showVersion[this.skilltype].description) ?? '';
+    }
+
+}
 </script>

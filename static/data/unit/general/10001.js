@@ -1,35 +1,35 @@
-import { Rarity, Element, Position, PotentialType } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType } from '@/plugins/utils/enums';
 
 export default {
     ID: "10001",
     metaCode: "baal",
     prefix: {
-        "zh": "魔王",
-        "cn": null,
-        "en": "Archdemon",
-        "jp": null,
-        "ko": null
+        [Locale.zh]: "魔王",
+        [Locale.cn]: null,
+        [Locale.en]: "Archdemon",
+        [Locale.jp]: null,
+        [Locale.ko]: null
     },
     name: {
-        "zh": "巴爾",
-        "cn": null,
-        "en": "Ba'al",
-        "jp": null,
-        "ko": null
+        [Locale.zh]: "巴爾",
+        [Locale.cn]: null,
+        [Locale.en]: "Ba'al",
+        [Locale.jp]: null,
+        [Locale.ko]: null
     },
     abbreviation: {
-        "zh": [ "巴爾", "普巴", "82" ],
-        "cn": [],
-        "en": [],
-        "jp": [],
-        "ko": []
+        [Locale.zh]: [ "巴爾", "普巴", "82" ],
+        [Locale.cn]: [],
+        [Locale.en]: [],
+        [Locale.jp]: [],
+        [Locale.ko]: []
     },
     background: {
-        "zh": "巴爾是魔界現存的四名魔王之一，善於經營的她掌有魔界商業發展最蓬勃、最富饒的領地。她的性格狡猾，只要對自己有利，就算要對比自身地位低下的人獻媚也不會有一丁點猶豫。不過要是因此對她掉以輕心那就犯下大錯了，一旦情勢不對，巴爾就會把麻煩推給同盟或信任她的人，自己則溜之大吉。巴爾擅長用言語以及幻術將他人玩弄於股掌，然而她的小聰明一旦遇到不講道理的對象，往往會讓巴爾自食惡果……\n\n『凱薩？嘻嘻，追得到我就來呀？』",
-        "cn": null,
-        "en": null,
-        "jp": null,
-        "ko": null
+        [Locale.zh]: "巴爾是魔界現存的四名魔王之一，善於經營的她掌有魔界商業發展最蓬勃、最富饒的領地。她的性格狡猾，只要對自己有利，就算要對比自身地位低下的人獻媚也不會有一丁點猶豫。不過要是因此對她掉以輕心那就犯下大錯了，一旦情勢不對，巴爾就會把麻煩推給同盟或信任她的人，自己則溜之大吉。巴爾擅長用言語以及幻術將他人玩弄於股掌，然而她的小聰明一旦遇到不講道理的對象，往往會讓巴爾自食惡果……\n\n『凱薩？嘻嘻，追得到我就來呀？』",
+        [Locale.cn]: null,
+        [Locale.en]: null,
+        [Locale.jp]: null,
+        [Locale.ko]: null
     },
     rarity: Rarity.SSR,
     element: Element.FIRE,
@@ -56,5 +56,5 @@ export default {
         require("@/assets/character/fullbody/10001_2-Lv3.png"),
     ],
     tagList: [ 1, 6, 12, 15, 21, 22 ],
-    otherVersion: [ "10002", "10003" ]
+    otherVersion: [ 10002, 10003 ]
 }

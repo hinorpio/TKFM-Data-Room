@@ -1,8 +1,9 @@
 import { Item } from '@/interface/global/item';
+import { ItemCode } from './enums';
 import itemData from '@/static/data/items';
 
 export default {
-    getItem(code: string): Item | undefined {
+    getItem(code: ItemCode): Item | undefined {
         const foundItem = itemData.find((item: Item) => item.code === code);
         if (foundItem) {
             return foundItem;
@@ -11,7 +12,7 @@ export default {
         }
     },
 
-    getItemIcon(code: string): string | undefined {
+    getItemIcon(code: ItemCode): string | undefined {
         const item = itemData.find((item: Item) => item.code === code);
         return item ? item.icon : undefined;
     },

@@ -3,7 +3,7 @@
         <v-toolbar color="#085bad" height="50em">
             <v-row class="align-center">
                 <v-avatar size="1.5em" tile class="ml-2">
-                    <v-img :src="$util.getSkillSetIcon('LEADER')"  />
+                    <v-img :src="$util.getSkillIcon('LEADER')"  />
                 </v-avatar>
                 <span class="ml-4 body-1 font-weight-bold">
                     {{showVersion['LEADER'].name}}

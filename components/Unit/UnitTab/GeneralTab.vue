@@ -3,7 +3,7 @@
         <v-col>
             <h3>{{$t('Background')}}</h3>
             <div class="ml-4 pl-2">
-                <h2 class="body-1" v-html="$util.showPreLineText(unit.background[$i18n.locale])"></h2>
+                <h2 class="body-1" v-html="$util.showPreLineText(getBackgroundText(unit))"></h2>
             </div>
             
         </v-col>
@@ -29,7 +29,7 @@
             <v-col>
                 <h3>{{$t('Abbreviation')}}</h3>
                 <div>
-                    <v-chip v-for="(f, index) in unit.abbreviation[$i18n.locale]" :key="index" class="ma-2" color="primary" >
+                    <v-chip v-for="(f, index) in getUnitAbbreviation(unit)" :key="index" class="ma-2" color="primary" >
                         {{f}}
                     </v-chip>
                 </div>
@@ -76,6 +76,18 @@ export default class GeneralTab extends Vue {
         } catch (error) {
             return '';
         }
+    }
+
+    getUnitAbbreviation(unit: Unit): string[]{
+        const locale = this.$i18n.locale as keyof typeof Locale;
+        const abbreviations = unit.abbreviation[locale];
+        return abbreviations ?? []
+    }
+
+    getBackgroundText(unit: Unit): string{
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const background = unit.background[locale];
+        return background ?? ''
     }
 }
 </script>

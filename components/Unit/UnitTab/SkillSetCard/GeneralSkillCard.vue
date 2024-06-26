@@ -1,6 +1,6 @@
 <template>
     <v-card>
-        <v-toolbar :color="color" height="50em">
+        <v-toolbar :color="getSkillColor()" height="50em">
             <v-row class="align-center">
                 <v-avatar size="1.5em" tile class="ml-2">
                     <v-img :src="getIcon()"  />
@@ -12,7 +12,7 @@
         </v-toolbar>
         <v-card-text>
             <div class="ml-4">
-                <span class="body-1 font-weight-bold" v-html="$util.showPreLineText(showVersion['ATTACK'].description)" ></span>
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription()" ></span>
             </div>
         </v-card-text>
     </v-card>
@@ -20,16 +20,13 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { SkillType } from '@/plugins/utils/enums'
-import { Skill, SkillSet } from '@/interface/unit/skillset';
+import { SkillType, SkillTypeColor } from '@/plugins/utils/enums'
+import { Skill } from '@/interface/unit/skillset';
 
 @Component
-export default class SkillCard extends Vue {
-    @Prop({ type: Object, required: true, default: {} }) 
-    readonly showVersion!: { [key in SkillType]: Skill };
-
-    color = '#c60244'
-    skilltype = SkillType.ATTACK
+export default class GeneralSkillCard extends Vue {
+    @Prop({ type: Object, required: true, default: {} }) readonly showVersion!: { [key in SkillType]: Skill };
+    @Prop({ type: String, required: true, default: '' }) readonly skilltype!: SkillType;
 
     getIcon(): string{
         return this.$util.getSkillIcon(this.skilltype) ?? ''
@@ -41,6 +38,10 @@ export default class SkillCard extends Vue {
 
     getSkillDescription(): string{
         return this.$util.showPreLineText(this.showVersion[this.skilltype].description) ?? '';
+    }
+
+    getSkillColor(): string{
+        return this.$util.getSkillColor(this.skilltype) ?? ''
     }
 
 }

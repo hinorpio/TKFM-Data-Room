@@ -11,7 +11,7 @@
         />
     </v-row>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Unit } from '@/interface/unit'

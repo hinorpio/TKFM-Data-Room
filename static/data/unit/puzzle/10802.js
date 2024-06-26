@@ -1,26 +1,28 @@
+import { Locale } from '@/plugins/utils/enums';
+
 export default{
-    "puzzle": [
+    puzzle: [
         {
-            "preview": require("@/assets/character/puzzle/scg00012s.png"),
-            "name": {
-                "zh": "魔王出巡。兔躍新程",
-                "cn": null,
-                "en": null,
-                "jp": null,
-                "ko": null
+            preview: require("@/assets/character/puzzle/scg00012s.png"),
+            name: {
+                [Locale.cn]: "魔王出巡。兔躍新程",
+                [Locale.cn]: null,
+                [Locale.en]: null,
+                [Locale.jp]: null,
+                [Locale.ko]: null
             },
-            "fullImage": require("@/assets/character/puzzle/scg00012.png")
+            fullImage: require("@/assets/character/puzzle/scg00012.png")
         },
         {
-            "preview": require("@/assets/character/puzzle/scg00013s.png"),
-            "name": {
-                "zh": "巴爾的悠哉時光",
-                "cn": null,
-                "en": null,
-                "jp": null,
-                "ko": null
+            preview: require("@/assets/character/puzzle/scg00013s.png"),
+            name: {
+                [Locale.cn]: "巴爾的悠哉時光",
+                [Locale.cn]: null,
+                [Locale.en]: null,
+                [Locale.jp]: null,
+                [Locale.ko]: null
             },
-            "fullImage": require("@/assets/character/puzzle/scg00013.png")
+            fullImage: require("@/assets/character/puzzle/scg00013.png")
         },
     ]
 }

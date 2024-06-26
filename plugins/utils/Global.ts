@@ -12,7 +12,8 @@ import {
     RarityIcon, 
     SkillIcon,
     LiberateIcon,
-    PotentialBuffIcon 
+    PotentialBuffIcon,
+    SkillTypeColor
 } from '@/static/data/UI';
 
 export default {
@@ -47,6 +48,9 @@ export default {
     },
     getSkillIcon(type: SkillType): string | undefined{
         return SkillIcon[type] || '';
+    },
+    getSkillColor(type: SkillType): string | undefined{
+        return SkillTypeColor[type] || '';
     },
     getLiberateIcon(stage: LiberationStage): string | undefined{
         return LiberateIcon[stage] || '';

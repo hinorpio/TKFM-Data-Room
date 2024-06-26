@@ -57,29 +57,32 @@ export default {
     },
     getSkillSetData(id: number): SkillSet[] {
         try {
-            return require(`@/static/data/unit/skillset/${id}`).default as SkillSet[];
+            return require(`@/static/data/unit/skillset/${id}`).default.skillSet as SkillSet[];
         } catch (error) {
             throw new Error(CANNOT_FIND_CHARACTER);
         }
     },
     getDisciplineData(id: number): Discipline[] {
         try {
-            return require(`@/static/data/unit/discipline/${id}`).default as Discipline[];
+            return require(`@/static/data/unit/discipline/${id}`).default.discipline as Discipline[];
         } catch (error) {
+            console.log(error);
             return [];
         }
     },
     getLiberateSkillSetData(id: number): LiberateSkillSet[] {
         try {
-            return require(`@/static/data/unit/liberate/${id}`).default as LiberateSkillSet[];
+            return require(`@/static/data/unit/liberate/${id}`).default.liberateSkillSet as LiberateSkillSet[];
         } catch (error) {
+            console.log(error);
             return [];
         }
     },
     getPuzzleData(id: number): Puzzle[] {
         try {
-            return require(`@/static/data/unit/puzzle/${id}`).default as Puzzle[];
+            return require(`@/static/data/unit/puzzle/${id}`).default.puzzle as Puzzle[];
         } catch (error) {
+            console.log(error);
             return [];
         }
     }

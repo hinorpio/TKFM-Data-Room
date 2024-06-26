@@ -33,7 +33,7 @@ export interface Unit {
     cloth_two: string[];
     cloth_three: string[];
     tagList: number[];
-    otherVersion: string[];
+    otherVersion: number[];
     skillSet: SkillSet[];
     discipline?: Discipline[];
     liberateSkillSet?: LiberateSkillSet[];

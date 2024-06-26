@@ -42,8 +42,27 @@ export enum SkillType {
     PASSIVE_1 = 'PASSIVE_1',
     PASSIVE_2 = 'PASSIVE_2',
     PASSIVE_3 = 'PASSIVE_3',
-    GENERAL = 'GENERAL',
+    GENERAL_1 = 'GENERAL_1',
+    GENERAL_2 = 'GENERAL_2',
     DISPATCH = 'DISPATCH',
+}
+
+export enum SkillTypeColor {
+    BASE_STAT = '#925be6',
+    SKILL_S = '#f0b023',
+    SKILL_1 = '#f0b023',
+    SKILL_2 = '#f0b023',
+    SKILL_3 = '#f0b023',
+    SKILL_4 = '#f0b023',
+    SKILL_5 = '#f0b023',
+    ATTACK = '#c60244',
+    LEADER = '#085bad',
+    PASSIVE_1 = '#43be57',
+    PASSIVE_2 = '#43be57',
+    PASSIVE_3 = '#43be57',
+    GENERAL_1 = '#e591ea',
+    GENERAL_2 = '#e591ea',
+    DISPATCH = '#e591ea',
 }
 
 export enum LiberationStage {

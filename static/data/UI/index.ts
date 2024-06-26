@@ -44,7 +44,8 @@ export const SkillIcon = {
     [SkillType.PASSIVE_1]: Icon.SKILL_PASSIVE,
     [SkillType.PASSIVE_2]: Icon.SKILL_PASSIVE,
     [SkillType.PASSIVE_3]: Icon.SKILL_PASSIVE,
-    [SkillType.GENERAL]: Icon.SKILL_GENERAL,
+    [SkillType.GENERAL_1]: Icon.SKILL_GENERAL,
+    [SkillType.GENERAL_2]: Icon.SKILL_GENERAL,
     [SkillType.DISPATCH]: Icon.SKILL_DISPATCH,
 }
 
@@ -59,4 +60,22 @@ export const PotentialBuffIcon = {
     [PotentialBuffType.ATK]: Icon.POTENTIAL_BUFF_ATK,
     [PotentialBuffType.HP]: Icon.POTENTIAL_BUFF_HP,
     [PotentialBuffType.PASSIVE]: Icon.POTENTIAL_BUFF_PASSIVE,
+}
+
+export const SkillTypeColor = {
+    [SkillType.BASE_STAT]: '#925be6',
+    [SkillType.SKILL_S]: '#f0b023',
+    [SkillType.SKILL_1]: '#f0b023',
+    [SkillType.SKILL_2]: '#f0b023',
+    [SkillType.SKILL_3]: '#f0b023',
+    [SkillType.SKILL_4]: '#f0b023',
+    [SkillType.SKILL_5]: '#f0b023',
+    [SkillType.ATTACK]: '#c60244',
+    [SkillType.LEADER]: '#085bad',
+    [SkillType.PASSIVE_1]: '#43be57',
+    [SkillType.PASSIVE_2]: '#43be57',
+    [SkillType.PASSIVE_3]: '#43be57',
+    [SkillType.GENERAL_1]: '#e591ea',
+    [SkillType.GENERAL_2]: '#e591ea',
+    [SkillType.DISPATCH]: '#e591ea',
 }

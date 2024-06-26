@@ -5,7 +5,7 @@
                 <v-col :cols="12">
                     <v-img :src="puzzle.preview" :lazy-src="puzzle.preview" max-width="100%" />
                     <v-row class="pa-4">
-                        <span :class="titleClass">{{ puzzle.name[$i18n.locale] }}</span>
+                        <span :class="titleClass">{{ getPuzzleName(puzzle) }}</span>
                         <v-spacer></v-spacer>
                         <v-btn icon @click="handleImageDialog(puzzle)">
                             <v-icon large>mdi-magnify-plus-outline</v-icon>
@@ -19,7 +19,7 @@
                 </v-col>
                 <v-col :cols="8">
                     <v-row class="pa-4">
-                        <span :class="titleClass">{{ puzzle.name[$i18n.locale] }}</span>
+                        <span :class="titleClass">{{ getPuzzleName(puzzle) }}</span>
                         <v-spacer></v-spacer>
                         <v-btn icon @click="handleImageDialog(puzzle)">
                             <v-icon x-large>mdi-magnify-plus-outline</v-icon>
@@ -71,6 +71,14 @@ export default class PuzzleTab extends Vue {
         this.currentTitle = puzzle.name[locale] ?? '';
         this.currentPhoto = puzzle.fullImage;
         this.visible = true;
+    }
+
+    getPuzzleName(puzzle: Puzzle): string{
+        const locale = this.$i18n.locale as keyof typeof Locale;
+        const result = puzzle.name[locale];
+        console.log(puzzle.name);
+        
+        return result ?? ''
     }
 }
 </script>

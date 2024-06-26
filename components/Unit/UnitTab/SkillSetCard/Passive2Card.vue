@@ -3,7 +3,7 @@
         <v-toolbar color="#43be57" height="50em">
             <v-row class="align-center">
                 <v-avatar size="1.5em" tile class="ml-2">
-                    <v-img :src="$util.getSkillSetIcon('PASSIVE')"  />
+                    <v-img :src="$util.getSkillIcon('PASSIVE')"  />
                 </v-avatar>
                 <span class="ml-4 body-1 font-weight-bold">
                     {{showVersion['PASSIVE_2'].name}}

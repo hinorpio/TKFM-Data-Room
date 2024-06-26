@@ -3,7 +3,7 @@
         <v-toolbar color="#925be6" height="50em">
             <v-row class="align-center">
                 <v-avatar size="1.5em" tile class="ml-2">
-                    <v-img :src="$util.getSkillSetIcon('BASE_STAT')"  />
+                    <v-img :src="$util.getSkillIcon('BASE_STAT')"  />
                 </v-avatar>
                 <span class="ml-4 body-1 font-weight-bold">
                     {{showVersion['BASE_STAT'].name}}
@@ -19,6 +19,7 @@
 </template>
 <script lang="js">
 import Vue from "vue";
+import { SkillType } from "~/plugins/utils/enums";
 export default Vue.extend({
     props: {
         showVersion: {
@@ -26,6 +27,16 @@ export default Vue.extend({
             required: true,
             default: {},
         },
+        color: {
+            type: String,
+            required: true,
+            default: '',
+        },
+        SkillType: {
+            type: String,
+            required: true,
+            default: '',
+        }
     }
 })
 </script>

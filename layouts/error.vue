@@ -27,9 +27,6 @@ export default Vue.extend({
       default: null
     }
   },
-  mounted(){
-    console.log(this.$util);
-  },
   computed:{
     titleClass(){
       switch (this.$vuetify.breakpoint.name) {

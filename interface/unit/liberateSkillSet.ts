@@ -1,9 +1,9 @@
 
-import { Locale, SkillType, LiberationStage } from '@/plugins/utils/enums';
+import { Locale, SkillType, LiberationStage, ItemCode } from '@/plugins/utils/enums';
 import { Skill }  from './skillset';
 
 interface RequiredItem {
-    code: string;
+    code: ItemCode | string;
     quantity: number
 }
 
