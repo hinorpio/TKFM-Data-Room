@@ -6,8 +6,11 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - tkfm-data-room',
+    titleTemplate: 'tkfm-data-room',
     title: 'tkfm-data-room',
+    htmlAttrs: {
+      lang: 'zh'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -81,7 +84,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'zh'
     }
   },
 

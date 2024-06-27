@@ -38,18 +38,20 @@
         </v-tabs-items>
     </div>
 </template>
-<script lang="js">
-import Vue from "vue";
-import GeneralTab from "./GeneralTab.vue";
-import SkillSetTab from "./SkillSetTab.vue";
-import LiberationTab from "./LiberationTab.vue";
-import DisciplineTab from "./DisciplineTab.vue";
-import PotentialTab from "./PotentialTab.vue";
-import PuzzleTab from "./PuzzleTab.vue";
-import OtherVersionTab from "./OtherVersionTab.vue";
-import AnalysisTab from "./AnalysisTab.vue";
+<script lang="ts">
+import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
+import GeneralTab from './GeneralTab.vue';
+import SkillSetTab from './SkillSetTab.vue';
+import LiberationTab from './LiberationTab.vue';
+import DisciplineTab from './DisciplineTab.vue';
+import PotentialTab from './PotentialTab.vue';
+import PuzzleTab from './PuzzleTab.vue';
+import OtherVersionTab from './OtherVersionTab.vue';
+import AnalysisTab from './AnalysisTab.vue';
+import { Unit } from '@/interface/unit'
 
-export default Vue.extend({
+@Component({
     components: {
         GeneralTab,
         SkillSetTab,
@@ -60,24 +62,18 @@ export default Vue.extend({
         OtherVersionTab,
         AnalysisTab,
     },
-    props: {
-        unit: {
-            type: Object,
-            required: true,
-            default: {},
-        },
-    },
-    computed: {
-        isLiberate(){
-            return this.unit.liberateSkillSet.length > 0
-        },
-    },
-    data() {
-        return {
-            activeTab: 0,
-        }
-    }
 })
+export default class UnitTab extends Vue {
+    @Prop({ type: Object, required: true, default: () => ({}) })
+    unit!: Unit;
+
+    activeTab = 0;
+
+    get isLiberate(): Boolean {
+        const liberateSkillSet = this.unit.liberateSkillSet
+        return (liberateSkillSet) ?liberateSkillSet.length > 0 :false;
+    }
+}
 </script>
 <style lang="sass" scoped>
 ::v-deep  .v-tabs:not(.v-tabs--vertical):not(.v-tabs--right) > .v-slide-group--is-overflowing.v-tabs-bar--is-mobile:not(.v-slide-group--has-affixes) .v-slide-group__prev

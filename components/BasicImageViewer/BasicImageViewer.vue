@@ -20,44 +20,30 @@
 
     </div>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
+import { Component, Prop } from "vue-property-decorator";
 
-export default Vue.extend({
+@Component
+export default class BasicImageViewer extends Vue {
+    @Prop({ type: Boolean, required: true, default: false })
+    visible!: Boolean;
 
-    props: {
-        visible: {
-            type: Boolean,
-            required: true,
-            default: false,
-        },
-        title: {
-            type: String,
-            required: true,
-            default: "",
-        },
-        src: {
-            type: String,
-            required: true,
-            default: "",
-        }
-    },
-    methods: {
-        handleCloseDialog(){
-            this.$emit('update:title', "")
-            this.$emit('update:src', "")
-            this.$emit('update:visible', false)
-        },
-        
+    @Prop({ type: String, required: true, default: '' })
+    title!: String;
 
-    },
-    data() {
-        return {
-            dialogWidth: '85%',
-            dialogHeight: '80%'
-        }
+    @Prop({ type: String, required: true, default: '' })
+    src!: String;
+
+    dialogWidth: String = '85%'
+    dialogHeight: String = '80%'
+
+    handleCloseDialog(): void{
+        this.$emit('update:title', "")
+        this.$emit('update:src', "")
+        this.$emit('update:visible', false)
     }
-})
+}
 </script>
 <style lang="sass" scoped>
 

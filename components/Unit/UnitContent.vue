@@ -5,24 +5,21 @@
         <unit-tab :unit="unit" />
     </div>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
+import { Component, Prop } from "vue-property-decorator";
 import UnitHeader from "./UnitHeader.vue";
 import UnitTab from "./UnitTab/UnitTab.vue";
+import { Unit } from '@/interface/unit';
 
-export default Vue.extend({
+@Component({
     components: {
         UnitHeader,
-        UnitTab
-    },
-    props: {
-        unit: {
-            type: Object,
-            required: true,
-            default: {},
-        },
+        UnitTab,
     },
 })
+export default class UnitContent extends Vue {
+    @Prop({ required: true, default: {} })
+    unit!: Unit;
+}
 </script>
-
-./UnitTab/OtherVersionTab.vue

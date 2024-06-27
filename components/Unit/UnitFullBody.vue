@@ -17,34 +17,29 @@
         </v-carousel-item>
     </v-carousel>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
+import { Component, Prop } from "vue-property-decorator";
+import { Unit } from '@/interface/unit';
 
-export default Vue.extend({
-    props: {
-        unit: {
-            type: Object,
-            required: true,
-            default: {},
-        },
-    },
-    computed: {
-        imgHeight(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return '50vh'
-                case 'sm': return '30vh'
-                case 'md': return '70vh'
-                case 'lg': return '80vh'
-                case 'xl': return '80vh'
-            }
-        },
-    },
-    data() {
-        return {
-            fullBody: 0,
+@Component
+export default class UnitFullBody extends Vue {
+    @Prop({ required: true, default: {} })
+    unit!: Unit;
+
+    fullBody: Number = 0
+
+    get imgHeight(): string{
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return '50vh'
+            case 'sm': return '30vh'
+            case 'md': return '70vh'
+            case 'lg': return '80vh'
+            case 'xl': return '80vh'
+            default: return '80vh'
         }
     }
-})
+}
 </script>
 <style lang="sass" scoped>
 .image-container

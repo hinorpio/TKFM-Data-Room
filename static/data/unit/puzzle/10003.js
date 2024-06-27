@@ -5,7 +5,7 @@ export default{
         {
             preview: require("@/assets/character/puzzle/scg00012s.png"),
             name: {
-                [Locale.cn]: "魔王出巡。兔躍新程",
+                [Locale.zh]: "魔王出巡。兔躍新程",
                 [Locale.cn]: null,
                 [Locale.en]: null,
                 [Locale.jp]: null,
@@ -16,7 +16,7 @@ export default{
         {
             preview: require("@/assets/character/puzzle/scg00013s.png"),
             name: {
-                [Locale.cn]: "巴爾的悠哉時光",
+                [Locale.zh]: "巴爾的悠哉時光",
                 [Locale.cn]: null,
                 [Locale.en]: null,
                 [Locale.jp]: null,

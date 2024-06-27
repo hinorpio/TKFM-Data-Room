@@ -15,10 +15,10 @@
                     <v-col v-for="(item, index) in summary" :key="index" :cols="6" :xl="3" :lg="4" :md="4" :sm="4" :xs="4">
                         <v-row class="align-center px-1"> 
                             <v-avatar size="2em" tile>
-                                <v-img :src="$util.getItem(item.code).icon"  />
+                                <v-img :src="showMaterialIcon(item)"  />
                             </v-avatar>
                             <span :class="itemFontSize">
-                                {{`${$util.getItem(item.code).name[$i18n.locale]}`}}
+                                {{ showMaterialText(item) }}
                             </span>
                             <v-spacer></v-spacer>
                             <span :class="itemFontSize">
@@ -31,51 +31,56 @@
         </v-card>
     </div>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
-export default Vue.extend({
-    props: {
-        summary: {
-            type: Array,
-            required: true,
-            default: [],
-        },
-        showCombined: {
-            type: Boolean,
-            required: true,
-            default: false,
-        },
-    },
-    watch: {
-        localShowCombined(newVal) {
-            this.$emit("update:showCombined", newVal);
-        },
-    },
-    computed: {
-        itemFontSize(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return 'body-2 font-weight-bold'
-                case 'sm': return 'body-2 font-weight-bold'
-                case 'md': return 'body-2 font-weight-bold'
-                case 'lg': return 'body-1 font-weight-bold'
-                case 'xl': return 'body-1 font-weight-bold'
-            }
-        },
-        showCombinedText(){
-            return (this.showCombined)
-                ? this.$t('Show Combined Material')
-                : this.$t('Show Actual Material')
-        }
-    },
-    methods: {
-        toggleShowCombined(){
-            this.localShowCombined = !this.localShowCombined;
-        }
-    },
-    data(){
-        return {
-            localShowCombined: this.showCombined,
+import { Component, Prop, Watch } from "vue-property-decorator";
+import { Locale } from '@/plugins/utils/enums'
+import { MaterialSummary } from '@/interface/global/potential'
+
+@Component
+export default class MaterialResult extends Vue {
+    @Prop({ type: Array, required: true, default: [] })
+    summary!: MaterialSummary[];
+
+    @Prop({ type: Boolean, required: true, default: false })
+    showCombined!: boolean;
+
+    localShowCombined: boolean = this.showCombined;
+
+    get itemFontSize(): string {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return 'body-2 font-weight-bold'
+            case 'sm': return 'body-2 font-weight-bold'
+            case 'md': return 'body-2 font-weight-bold'
+            case 'lg': return 'body-1 font-weight-bold'
+            case 'xl': return 'body-1 font-weight-bold'
+            default: return 'body-1 font-weight-bold';
         }
     }
-})
+
+    get showCombinedText(): string {
+        return (this.showCombined)
+            ? this.$t('Show Combined Material')
+            : this.$t('Show Actual Material')
+    }
+
+    showMaterialIcon(item: MaterialSummary): string {
+        return this.$util.getItemIcon(item.code) ?? ''
+    }
+
+    showMaterialText(item: MaterialSummary): string {
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const material = this.$util.getItem(item.code)
+        return material?.name[locale] ?? ''
+    }
+
+    @Watch('localShowCombined')
+    onLocalShowCombinedChange(newVal: boolean): void {
+        this.$emit("update:showCombined", newVal);
+    }
+
+    toggleShowCombined(): void {
+        this.localShowCombined = !this.localShowCombined;
+    }
+}
 </script>

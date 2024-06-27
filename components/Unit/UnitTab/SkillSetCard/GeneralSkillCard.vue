@@ -20,7 +20,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { SkillType, SkillTypeColor } from '@/plugins/utils/enums'
+import { SkillType } from '@/plugins/utils/enums'
 import { Skill } from '@/interface/unit/skillset';
 
 @Component

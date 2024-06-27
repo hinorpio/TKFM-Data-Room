@@ -21,7 +21,6 @@ export interface MaterialSummary {
     code: ItemCode,
     quantity: number,
 }
-
 export interface StatSummary {
     code: PotentialBuffType,
     value: number,
@@ -30,4 +29,9 @@ export interface StatSummary {
 export interface CalculatedSummary {
     materialSummary: MaterialSummary[],
     statSummary: StatSummary[]
+}
+
+export interface PotentialSelectGroup {
+    level: number;
+    slot: boolean[];
 }

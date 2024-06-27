@@ -1,7 +1,7 @@
 <template>
-    <v-row v-if="isMounted" class="mt-4">
+    <v-row class="mt-4">
         <v-img 
-            v-for="(form, index) in otherVersion" 
+            v-for="(form, index) in handleGetOtherVersion()" 
             :key="index" 
             @click="handleSelect(form)" 
             :src="form.selection" 
@@ -18,11 +18,8 @@ import { Unit } from '@/interface/unit'
 
 @Component
 export default class OtherVersionTab extends Vue {
-    @Prop({ type: Object, required: true, default: () => ({}) })
+    @Prop({ type: Object, required: true, default: {} })
     unit!: Unit;
-
-    isMounted: boolean = false;
-    otherVersion: Unit[] = [];
 
     get imgWidth(): string {
         switch (this.$vuetify.breakpoint.name) {
@@ -35,14 +32,14 @@ export default class OtherVersionTab extends Vue {
         }
     }
 
-    get titleClass(): string {
+    get titleClass(): string  {
         switch (this.$vuetify.breakpoint.name) {
             case 'xs': return 'title font-weight-bold';
             case 'sm': return 'title font-weight-bold';
             case 'md': return 'title font-weight-bold';
             case 'lg': return 'title font-weight-bold';
             case 'xl': return 'headline font-weight-bold';
-            default: return 'title font-weight-bold';
+            default: return 'headline font-weight-bold';
         }
     }
 
@@ -52,8 +49,9 @@ export default class OtherVersionTab extends Vue {
         });
     }
 
-    mounted(): void {
-        this.otherVersion = this.$util.getUnitsByIDs(this.unit.otherVersion);
-        this.isMounted = true;
+    handleGetOtherVersion(): Unit[]{
+        return this.$util.getUnitsByIDs(this.unit.otherVersion);
     }
 }
+
+</script>

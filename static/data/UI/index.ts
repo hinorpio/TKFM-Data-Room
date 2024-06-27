@@ -1,4 +1,6 @@
 import { 
+    ErrorCode,
+    ErrorMessage,
     Element, 
     Rarity, 
     Position, 
@@ -7,6 +9,7 @@ import {
     PotentialBuffType 
 } from '@/plugins/utils/enums';
 import * as Icon from './icon';
+import { NuxtError } from '@nuxt/types';
 
 export const ElementIcon = {
     [Element.FIRE]: Icon.ELEMENT_FIRE,
@@ -78,4 +81,22 @@ export const SkillTypeColor = {
     [SkillType.GENERAL_1]: '#e591ea',
     [SkillType.GENERAL_2]: '#e591ea',
     [SkillType.DISPATCH]: '#e591ea',
+}
+
+export const CustomError: {[code in ErrorCode]: NuxtError} = {
+    [ErrorCode.PAGE_NOT_FOUND]: 
+        {
+            statusCode: ErrorCode.PAGE_NOT_FOUND,
+            message: ErrorMessage.PAGE_NOT_FOUND
+        },
+    [ErrorCode.UNKNOWN_ERROR]: 
+        {
+            statusCode: ErrorCode.UNKNOWN_ERROR,
+            message: ErrorMessage.UNKNOWN_ERROR
+        },
+    [ErrorCode.CANNOT_FIND_CHARACTER]: 
+        {
+            statusCode: ErrorCode.CANNOT_FIND_CHARACTER,
+            message: ErrorMessage.CANNOT_FIND_CHARACTER
+        },
 }

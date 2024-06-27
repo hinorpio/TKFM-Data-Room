@@ -40,24 +40,10 @@
 import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
 import { LiberationStage, ItemCode, SkillType } from '@/plugins/utils/enums'
-import SkillCard from '@/components/Unit/UnitTab/SkillSetCard/SkillCard.vue';
-import AttackCard from '@/components/Unit/UnitTab/SkillSetCard/AttackCard.vue';
-import LeaderCard from '@/components/Unit/UnitTab/SkillSetCard/LeaderCard.vue';
-import Passive1Card from '@/components/Unit/UnitTab/SkillSetCard/Passive1Card.vue';
-import Passive2Card from '@/components/Unit/UnitTab/SkillSetCard/Passive2Card.vue';
-import Passive3Card from '@/components/Unit/UnitTab/SkillSetCard/Passive3Card.vue';
-import BaseStatCard from '@/components/Unit/UnitTab/SkillSetCard/BaseStatCard.vue';
 import GeneralSkillCard from "@/components/Unit/UnitTab/SkillSetCard/GeneralSkillCard.vue";
 
 @Component({
     components: {
-        SkillCard,
-        AttackCard,
-        LeaderCard,
-        Passive1Card,
-        Passive2Card,
-        Passive3Card,
-        BaseStatCard,
         GeneralSkillCard
     },
 })

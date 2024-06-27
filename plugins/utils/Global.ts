@@ -1,4 +1,6 @@
+import { NuxtError } from '@nuxt/types';
 import { 
+    ErrorCode,
     Element, 
     Position, 
     Rarity, 
@@ -13,7 +15,8 @@ import {
     SkillIcon,
     LiberateIcon,
     PotentialBuffIcon,
-    SkillTypeColor
+    SkillTypeColor,
+    CustomError,
 } from '@/static/data/UI';
 
 export default {
@@ -55,7 +58,10 @@ export default {
     getLiberateIcon(stage: LiberationStage): string | undefined{
         return LiberateIcon[stage] || '';
     },
-    getPotentialBuffType(type: PotentialBuffType): string | undefined{
+    getPotentialBuffIcon(type: PotentialBuffType): string | undefined{
         return PotentialBuffIcon[type] || '';
     },
+    getCustomError(code: ErrorCode): NuxtError{
+        return CustomError[code]
+    }
 }

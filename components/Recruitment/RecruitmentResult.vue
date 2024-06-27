@@ -49,120 +49,116 @@
         </v-card-text>
     </v-card>
 </template>
-<script lang="js">
-import Vue from "vue";
+<script lang="ts">
+import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
+import { Locale } from '@/plugins/utils/enums'
+import { Unit } from '@/interface/unit';
+import { Tag } from '@/interface/global/tag';
 
-export default Vue.extend({
-    props: {
-        value: {
-            type: Array,
-            required: true
-        },
-        tagList: {
-            type: Array,
-            required: true,
-            default: {},
-        },
-        unitList: {
-            type: Array,
-            required: true,
-            default: {},
-        },
-        recruitmentTime: {
-            type: Object,
-            required: true,
-            default: {
-                hours: 9, minutes: '00'
-            }
-        }
-    },
-    computed: {
-        selectedTag: {
-            get() {
-                return this.value;
-            },
-            set(tags) {
-                this.$emit("input", tags);
-            },
-        },
-        filterResult(){
-            return this.unitList
-                .filter(unit => unit.tagList.some(tag => this.selectedTag.includes(tag))) // Filter unit that contain tag in selectedTag
-                .filter(r => // Filter the SSR if LEADER tag didnt selected or recruitment hours are less than 4 hours
-                    (r.rarity !== 'SSR' && r.rarity !== 'SR') || 
-                    (r.rarity === 'SSR' && this.recruitmentTime.hours >= 4 && this.selectedTag.includes(21)) ||
-                    (r.rarity === 'SR' && this.recruitmentTime.hours >= 4)
-                ) 
-                .map(unit => {  // Map the array for display so that the row will show the tagList of unit that the selectedTag contained
-                    var showTag = this.handleShowTag(unit.tagList)
-                    return {
-                        icon: unit.thumbnail,
-                        prefix: unit.prefix[this.$i18n.locale],
-                        name: unit.name[this.$i18n.locale],
-                        rarity: unit.rarity,
-                        tag: showTag.map(tag => tag[this.$i18n.locale]),
-                        isUnique: this.$util.checkIsTagListUnique(showTag.map(tag => tag.ID), this.unitList),
-                        isGuaranteeSR: this.$util.checkIsTagListGuaranteeSR(showTag.map(tag => tag.ID), this.unitList),
-                    }
-                })
-                .sort((a, b) => b.tag.length - a.tag.length)
-                .sort((a, b) => b.rarity.localeCompare(a.rarity))
-                .sort((a, b) => b.isUnique - a.isUnique)
-        },
-        tableStringClass(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return 'caption'
-                case 'sm': return 'subtitle-2'
-                case 'md': return 'subtitle-2'
-                case 'lg': return 'subtitle-1'
-                case 'xl': return 'subtitle-1'
-            }
-        },
-        thumbnailSize(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return '2.5em'
-                case 'sm': return '4em'
-                case 'md': return '3.5em'
-                case 'lg': return '5em'
-                case 'xl': return '5em'
-            }
-        },
-        raritySize(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return '2em'
-                case 'sm': return '2.5em'
-                case 'md': return '2.5em'
-                case 'lg': return '2.5em'
-                case 'xl': return '2.5em'
-            }
-        },
-    },
-    methods: {
-        handleShowTag(unitTagList){
-            return this.tagList
-                .filter(tag => this.selectedTag.includes(tag.ID) && unitTagList.includes(tag.ID))
-        },
-        getTagColumWidth(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return "10%"
-                case 'sm': return "50%"
-                case 'md': return "20%"
-                case 'lg': return "30%"
-                case 'xl': return "50%"
-            }
-        },
-    },
-    data(){
-        return {
-            headers: [
-                {text: this.$t('Unit Name'), value: 'icon', class: 'px-0', cellClass: 'px-0', width: '10%', sortable: false,},
-                {value: 'fullname', sortable: false},
-                {text: this.$t('Rarity'), value: 'rarity', class: 'px-0', cellClass: 'px-0', sortable: false},
-                {text: this.$t('Tag'), value: 'tag', sortable: false, class: 'px-0', cellClass: 'px-0', width: this.getTagColumWidth()},
-            ]
+@Component
+export default class RecruitmentResult extends Vue {
+    @Prop({ type: Array, required: true })
+    value!: number[];
+
+    @Prop({ type: Array, required: true, default: {} })
+    tagList!: Tag[];
+
+    @Prop({ type: Array, required: true, default: {} })
+    unitList!: Unit[];
+
+    @Prop({ type: Object, required: true, default: { hours: 9, minutes: '00' } })
+    readonly recruitmentTime!: { hours: number; minutes: string };
+
+    headers = [
+        {text: this.$t('Unit Name'), value: 'icon', class: 'px-0', cellClass: 'px-0', width: '10%', sortable: false,},
+        {value: 'fullname', sortable: false},
+        {text: this.$t('Rarity'), value: 'rarity', class: 'px-0', cellClass: 'px-0', sortable: false},
+        {text: this.$t('Tag'), value: 'tag', sortable: false, class: 'px-0', cellClass: 'px-0', width: this.getTagColumWidth()},
+    ]
+
+    get selectedTag(): number[] {
+        return this.value;
+    }
+
+    set selectedTag(tags: number[]) {
+        this.$emit("input", tags);
+    }
+
+    get filterResult(): object {
+        const locale = this.$i18n.locale as keyof typeof Locale
+        return this.unitList
+            .filter(unit => unit.tagList.some(tag => this.selectedTag.includes(tag))) // Filter unit that contain tag in selectedTag
+            .filter(r => // Filter the SSR if LEADER tag didnt selected or recruitment hours are less than 4 hours
+                (r.rarity !== 'SSR' && r.rarity !== 'SR') || 
+                (r.rarity === 'SSR' && this.recruitmentTime.hours >= 4 && this.selectedTag.includes(21)) ||
+                (r.rarity === 'SR' && this.recruitmentTime.hours >= 4)
+            ) 
+            .map(unit => {  // Map the array for display so that the row will show the tagList of unit that the selectedTag contained
+                const showTag = this.handleShowTag(unit.tagList);
+                return {
+                    icon: unit.thumbnail,
+                    prefix: unit.prefix[locale],
+                    name: unit.name[locale],
+                    rarity: unit.rarity,
+                    tag: showTag.map((tag: Tag) => tag.name[locale]),
+                    isUnique: this.$util.checkIsTagListUnique(showTag.map(tag => tag.ID), this.unitList),
+                    isGuaranteeSR: this.$util.checkIsTagListGuaranteeSR(showTag.map(tag => tag.ID), this.unitList),
+                };
+            })
+            .sort((a, b) => b.tag.length - a.tag.length)
+            .sort((a, b) => b.rarity.localeCompare(a.rarity))
+            .sort((a, b) => b.isUnique ? 1 : -1);
+    }
+
+    get tableStringClass(): string {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return 'caption';
+            case 'sm': return 'subtitle-2';
+            case 'md': return 'subtitle-2';
+            case 'lg': return 'subtitle-1';
+            case 'xl': return 'subtitle-1';
+            default: return 'subtitle-1';
         }
     }
-})
+
+    get thumbnailSize(): string {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return '2.5em';
+            case 'sm': return '4em';
+            case 'md': return '3.5em';
+            case 'lg': return '5em';
+            case 'xl': return '5em';
+            default: return '5em';
+        }
+    }
+
+    get raritySize(): string {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return '2em';
+            case 'sm': return '2.5em';
+            case 'md': return '2.5em';
+            case 'lg': return '2.5em';
+            case 'xl': return '2.5em';
+            default: return '2.5em';
+        };
+    }
+
+    handleShowTag(unitTagList: number[]): Tag[] {
+        return this.tagList.filter(tag => this.selectedTag.includes(tag.ID) && unitTagList.includes(tag.ID));
+    }
+
+    getTagColumWidth(): string {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return "10%";
+            case 'sm': return "50%";
+            case 'md': return "20%";
+            case 'lg': return "30%";
+            case 'xl': return "50%";
+            default: return "50%";
+        };
+    }
+}
 </script>
 <style lang="sass" scoped>
 .outline-box

@@ -23,7 +23,7 @@
                                         <v-icon class="mr-1">
                                             {{ tag.icon }}
                                         </v-icon>
-                                        {{ tag[$i18n.locale] }}
+                                        {{ tag.name[$i18n.locale] }}
                                     </v-btn>    
                                 </v-col>
                             </v-row>
@@ -49,70 +49,64 @@
         </v-card>
     </div>
 </template>
-<script lang="js">
-import Vue from "vue";
+<script lang="ts">
+import Vue from 'vue';
+import { Component, Prop } from 'vue-property-decorator';
+import { TagType } from '@/plugins/utils/enums'
+import { Tag } from '@/interface/global/tag';
 
-export default Vue.extend({
-    props: {
-        value: {
-            type: Array,
-            required: true
-        },
-        tagList: {
-            type: Array,
-            required: true,
-            default: {},
-        },
-        recruitmentTime: {
-            type: Object,
-            required: true,
-            default: {
-                hours: 9, minutes: '00'
-            }
-        }
-    },
-    computed: {
-        selectedTag: {
-            get() {
-                return this.value;
-            },
-            set(tags) {
-                this.$emit("input", tags);
-            },
-        },
-        showBtnSize(){
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return true
-                case 'sm': return true
-                case 'md': return true
-                case 'lg': return false
-                case 'xl': return false
-            }
-        },
-    },
-    methods: {
-        filterTagByType(type){
-            return this.tagList.filter(tag => tag.type == type)
-        },
-        handleUpdateRecruitmentHours(val){
-            this.recruitmentTime.hours = val
-            this.$emit("update:recruitmentTime", this.recruitmentTime)
-        },
-        handleUpdateRecruitmentMinutes(val){
-            this.recruitmentTime.minutes = val
-            this.$emit("update:recruitmentTime", this.recruitmentTime)
-        },
-    },
-    data(){
-        return {
-            tagTypeList: ['ELEMENT', 'POSITION', 'SPECIES', 'BODY', 'BREAST', 'CLASS', 'OTHER'],
-            hourList: [9, 8, 7, 6, 5, 4, 3, 2, 1],
-            minuteList: ['00', '10', '20', '30', '40', '50', '60'],
-            alertVisible: false,
-            timeout: 2000
+@Component
+export default class TagSelectTable extends Vue {
+    @Prop({ type: Array, required: true }) readonly value!: number[];
+    @Prop({ type: Array, required: true, default: {} }) readonly tagList!: Tag[];
+    @Prop({ type: Object, required: true, default: { hours: 9, minutes: '00' } })
+    readonly recruitmentTime!: { hours: number; minutes: string };
+
+    tagTypeList: TagType[] = Object.values(TagType);
+    hourList: number[] = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+    minuteList: string[] = ['00', '10', '20', '30', '40', '50', '60'];
+    alertVisible: boolean = false;
+    timeout: number = 2000;
+
+    get selectedTag(): number[] {
+        return this.value;
+    }
+
+    set selectedTag(tags: number[]) {
+        this.$emit('input', tags);
+    }
+
+    get showBtnSize(): boolean {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs':
+                return true;
+            case 'sm':
+                return true;
+            case 'md':
+                return true;
+            case 'lg':
+                return false;
+            case 'xl':
+                return false;
+            default:
+                return false;
         }
     }
-})
+
+    filterTagByType(type: TagType): any[] {
+        return this.tagList.filter((tag) => tag.type === type);
+    }
+
+    handleUpdateRecruitmentHours(val: number): void {
+        this.recruitmentTime.hours = val;
+        this.$emit('update:recruitmentTime', this.recruitmentTime);
+    }
+
+    handleUpdateRecruitmentMinutes(val: string): void {
+        this.recruitmentTime.minutes = val;
+        this.$emit('update:recruitmentTime', this.recruitmentTime);
+    }
+}
 </script>
 <style lang="sass" scoped>
 .outline-box

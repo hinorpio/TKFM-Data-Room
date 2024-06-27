@@ -58,10 +58,23 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
+import { Rarity, Element, Position } from '@/plugins/utils/enums'
+import { Unit } from '@/interface/unit';
 
 @Component
 export default class NoUnitSelected extends Vue{
-    get itemsForShow(): any[] {
+    showFilter: Boolean = true;
+    dataset: Unit[] = [];
+    rarityList: { [key: string]: string }[] = [];
+    elementList: { [key: string]: string }[] = [];
+    positionList: { [key: string]: string }[] = [];
+    selectedRarities: Rarity[] = [];
+    selectedElements: Element[] = [];
+    selectedPositions: Position[] = [];
+    dialogWidth: String = '75em';
+    dialogHeight: String = '80%';
+
+    get itemsForShow(): Unit[] {
         return this.dataset
             .filter(unit =>
                 this.selectedRarities.length === 0
@@ -113,7 +126,7 @@ export default class NoUnitSelected extends Vue{
         }
     }
 
-    created() {
+    mounted(): void {
         this.dataset = this.$util.getAllUnitGeneralData();
         this.handleCustomRefresh();
         this.rarityList = this.$util.getAllRarity();
@@ -121,7 +134,7 @@ export default class NoUnitSelected extends Vue{
         this.positionList = this.$util.getAllPosition();
     }
 
-    handleCustomRefresh() {
+    handleCustomRefresh(): void {
         const result: any[] = [];
         for (let index = 0; index < 50; index++) {
             this.dataset.forEach(element => {
@@ -131,22 +144,11 @@ export default class NoUnitSelected extends Vue{
         this.dataset = result;
     }
 
-    handleSelectUnit(unit: any) {
+    handleSelectUnit(unit: Unit): void {
         this.$router.push({
             path: `/unit/${unit.metaCode}`,
         });
     }
-
-    showFilter: boolean = true;
-    dataset: any[] = [];
-    rarityList: { [key: string]: string }[] = [];
-    elementList: { [key: string]: string }[] = [];
-    positionList: { [key: string]: string }[] = [];
-    selectedRarities: string[] = [];
-    selectedElements: string[] = [];
-    selectedPositions: string[] = [];
-    dialogWidth: string = '75em';
-    dialogHeight: string = '80%';
 }
 
 </script>

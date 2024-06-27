@@ -15,72 +15,72 @@
         </v-col>
     </v-row>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
-export default Vue.extend({
-    props: {
-        potentialData: {
-            type: Object,
-            required: true,
-            default: [],
-        },
-        currentPotential: {
-            type: Object,
-            required: true,
-            default: {},
-        },
-        targetPotential: {
-            type: Object,
-            required: true,
-            default: {},
-        },
-    },
-    watch: {
-        'currentPotential.level'(value){
-            this.targetPotential.level = (this.targetPotential.level < value) ?value :this.targetPotential.level
-        },
-        'currentPotential.slot'(value){
-            for (let i = 0; i < value.length; i++) {
-                this.targetPotential.slot[i] = (value[i] && this.isSameLevel)?value[i] :this.targetPotential.slot[i]
-            }
-        },
-        'targetPotential.level'(value){
-            var currentSlot = this.currentPotential.slot
-            var targetSlot = this.targetPotential.slot
-            for (let i = 0; i < targetSlot.length; i++) {
-                this.targetPotential.slot[i] = (currentSlot[i] && this.isSameLevel)?currentSlot[i] :this.targetPotential.slot[i]
-            }
-        },
-    },
-    computed: {
-        currentLevelOptions(){
-            return this.potentialData.detail.map((level, index) => index+1)
-        },
-        targetLevelOptions(){
-            return this.currentLevelOptions.filter(level => level >= this.currentPotential.level )
-        },
-        isSameLevel(){
-            return this.currentPotential.level == this.targetPotential.level
-        },
-    },
-    methods: {
-        handleCheckBoxDisabled(index){
-            return this.currentPotential.slot[index] && this.isSameLevel
-        },
-        checkBoxColor(slot, type){
-            var level = (type == 'TARGET')?this.targetPotential.level-1 :this.currentPotential.level-1
-            var type = this.potentialData.detail[level][slot].type
-            switch (type) {
-                case 'ATK':
-                    return 'red accent-2'
-                case 'HP':
-                    return 'green accent-2'
-                case 'PASSIVE':
-                    return 'purple accent-2'
-                default:
-                    break;
-            }
-        },
-    },
-})
+import { Component, Prop, Watch } from "vue-property-decorator";
+import { Potential, PotentialSelectGroup } from '@/interface/global/potential'
+
+@Component
+export default class PotentialSelection extends Vue {
+  @Prop({ type: Object, required: true, default: [] })
+  potentialData!: Potential;
+
+  @Prop({ type: Object, required: true, default: {} })
+  currentPotential!: PotentialSelectGroup;
+
+  @Prop({ type: Object, required: true, default: {} })
+  targetPotential!: PotentialSelectGroup;
+
+  @Watch("currentPotential.level")
+  onCurrentPotentialLevelChange(value: number): void {
+    this.targetPotential.level = this.targetPotential.level < value ? value : this.targetPotential.level;
+  }
+
+  @Watch("currentPotential.slot")
+  onCurrentPotentialSlotChange(value: boolean[]): void {
+    for (let i = 0; i < value.length; i++) {
+      this.targetPotential.slot[i] = value[i] && this.isSameLevel ? value[i] : this.targetPotential.slot[i];
+    }
+  }
+
+  @Watch("targetPotential.level")
+  onTargetPotentialLevelChange(value: number): void {
+    const currentSlot = this.currentPotential.slot;
+    const targetSlot = this.targetPotential.slot;
+    for (let i = 0; i < targetSlot.length; i++) {
+      this.targetPotential.slot[i] = currentSlot[i] && this.isSameLevel ? currentSlot[i] : this.targetPotential.slot[i];
+    }
+  }
+
+  get currentLevelOptions(): number[] {
+    return this.potentialData.detail.map((_, index) => index + 1);
+  }
+
+  get targetLevelOptions(): number[] {
+    return this.currentLevelOptions.filter((level) => level >= this.currentPotential.level);
+  }
+
+  get isSameLevel(): boolean {
+    return this.currentPotential.level === this.targetPotential.level;
+  }
+
+  handleCheckBoxDisabled(index: number): boolean {
+    return this.currentPotential.slot[index] && this.isSameLevel;
+  }
+
+  checkBoxColor(slot: number, type: string): string {
+    const level = type === "TARGET" ? this.targetPotential.level - 1 : this.currentPotential.level - 1;
+    const slotType = this.potentialData.detail[level][slot].type;
+    switch (slotType) {
+      case "ATK":
+        return "red accent-2";
+      case "HP":
+        return "green accent-2";
+      case "PASSIVE":
+        return "purple accent-2";
+      default:
+        return "";
+    }
+  }
+}
 </script>

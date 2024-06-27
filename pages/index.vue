@@ -31,22 +31,19 @@
       </v-layout>
   </v-container>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
+import { Component } from 'vue-property-decorator';
 
-export default Vue.extend({
-  methods: {
-      toogleShowDetail(){
-          this.showDetail = !this.showDetail
-      }
-  },
-  data() {
-      return {
-          showDetail: false,
-          dialogWidth: '75em',
-      }
-  }
-})
+@Component
+export default class IndexPage extends Vue {
+    showDetail: Boolean = false
+    dialogWidth: String = '75em'
+
+    toogleShowDetail(): void{
+        this.showDetail = !this.showDetail
+    }
+}
 </script>
 <style lang="sass" scoped>
 

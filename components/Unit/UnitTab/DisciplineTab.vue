@@ -43,7 +43,6 @@ export default class DisciplineTab extends Vue {
     }
 
     getRoomName(room: Discipline): string{
-        
         const locale = this.$i18n.locale as keyof typeof Locale;
         const result = room.name[locale];
         return result ?? ''

@@ -62,106 +62,109 @@
         </v-dialog>
     </div>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
+import { Component, Prop } from "vue-property-decorator";
+import { Rarity, Element, Position } from '@/plugins/utils/enums'
+import { Unit } from '@/interface/unit';
 
-export default Vue.extend({
-    props: {
-        visible: {
-            type: Boolean,
-            required: true,
-            default: false,
-        },
-    },
-    computed: {
-        itemsForShow(){
-            return this.dataset
-                .filter(unit =>  
-                    (this.selectedRarities.length == 0)
-                        ?true 
-                        :this.selectedRarities.includes(unit.rarity) 
-                    )
-                .filter(unit =>  
-                    (this.selectedElements.length == 0)
-                        ?true 
-                        :this.selectedElements.includes(unit.element) 
-                    )
-                .filter(unit =>  
-                    (this.selectedPositions.length == 0)
-                        ?true 
-                        :this.selectedPositions.includes(unit.position) 
-                    )
-        },
-        itemsPerRow () {
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return 4
-                case 'sm': return 6
-                case 'md': return 12
-                case 'lg': return 12
-                case 'xl': return 12
-            }
-        },
-        itemSize () {
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return '4.5em'
-                case 'sm': return '4.5em'
-                case 'md': return '4.5em'
-                case 'lg': return '5.5em'
-                case 'xl': return '5.5em'
-            }
-        },
-        filterPropsPerRow () {
-            switch (this.$vuetify.breakpoint.name) {
-                case 'xs': return 1
-                case 'sm': return 2
-                case 'md': return 2
-                case 'lg': return 3
-                case 'xl': return 3
-            }
-        },
-    },
-    mounted(){
+@Component
+export default class CharacterSearchDialog extends Vue {
+    @Prop({ type: Boolean, required: true, default: false })
+    visible!: Boolean;
+
+    showFilter: Boolean = true;
+    dataset: Unit[] = [];
+    rarityList: { [key: string]: string }[] = [];
+    elementList: { [key: string]: string }[] = [];
+    positionList: { [key: string]: string }[] = [];
+    selectedRarities: Rarity[] = [];
+    selectedElements: Element[] = [];
+    selectedPositions: Position[] = [];
+    dialogWidth: String = '75em';
+    dialogHeight: String = '80%';
+
+    get itemsForShow(): Unit[]{
+        return this.dataset
+            .filter(unit =>  
+                (this.selectedRarities.length == 0)
+                    ?true 
+                    :this.selectedRarities.includes(unit.rarity as Rarity) 
+                )
+            .filter(unit =>  
+                (this.selectedElements.length == 0)
+                    ?true 
+                    :this.selectedElements.includes(unit.element as Element) 
+                )
+            .filter(unit =>  
+                (this.selectedPositions.length == 0)
+                    ?true 
+                    :this.selectedPositions.includes(unit.position as Position) 
+                )
+    }
+
+    get itemsPerRow (): number {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return 4
+            case 'sm': return 6
+            case 'md': return 12
+            case 'lg': return 12
+            case 'xl': return 12
+            default: return 12
+        }
+    }
+
+    get itemSize (): string {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return '4.5em'
+            case 'sm': return '4.5em'
+            case 'md': return '4.5em'
+            case 'lg': return '5.5em'
+            case 'xl': return '5.5em'
+            default: return '5.5em'
+        }
+    }
+
+    get filterPropsPerRow (): number {
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': return 1
+            case 'sm': return 2
+            case 'md': return 2
+            case 'lg': return 3
+            case 'xl': return 3
+            default: return 3
+        }
+    }
+
+    mounted(): void{
         this.dataset = this.$util.getAllUnitGeneralData()
         this.handleCustomRefresh()
         this.rarityList = this.$util.getAllRarity()
         this.elementList = this.$util.getAllElement()
         this.positionList = this.$util.getAllPosition()
-    },
-    methods: {
-        handleCustomRefresh(){
-            var result = []
-            for (let index = 0; index < 50; index++) {
-                this.dataset.forEach(element => {
-                    result.push(element)
-                });
-            }
-            this.dataset = result
-        },
-        handleCloseDialog(){
-            this.$emit('update:visible', false)
-        },
-        handleSelectUnit(unit){
-            this.$router.push({
-                path: `/unit/${unit.metaCode}`,
-            });
-            this.handleCloseDialog()
-        }
-    },
-    data() {
-        return {
-            showFilter: true,
-            dataset: [],
-            rarityList: [],
-            elementList: [],
-            positionList: [],
-            selectedRarities: [],
-            selectedElements: [],
-            selectedPositions: [],
-            dialogWidth: '75em',
-            dialogHeight: '80%',
-        }
     }
-})
+
+    handleCustomRefresh(): void {
+        const result: Unit[] = [];
+        for (let index = 0; index < 50; index++) {
+            this.dataset.forEach(element => {
+                result.push(element);
+            });
+        }
+        this.dataset = result;
+    }
+
+    handleCloseDialog(): void {
+        this.$emit('update:visible', false);
+    }
+
+    handleSelectUnit(unit: Unit): void {
+        this.$router.push({
+            path: `/unit/${unit.metaCode}`,
+        });
+        this.handleCloseDialog();
+    }
+}
 </script>
 <style lang="sass" scoped>
 .button-content

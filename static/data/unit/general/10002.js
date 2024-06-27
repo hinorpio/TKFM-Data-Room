@@ -35,7 +35,7 @@ export default {
     element: Element.DARK,
     position: Position.PROTECTOR,
     isLimited: false,
-    potential: PotentialType.HP,
+    potential: PotentialType.DEFENCE,
     releaseDate: "2020-12-14",
     essence: require("@/assets/character/icon/IP10002.png"),
     thumbnail: require("@/assets/character/icon/IP10002.png"),

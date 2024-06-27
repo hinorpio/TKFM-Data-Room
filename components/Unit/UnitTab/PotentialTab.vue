@@ -8,66 +8,66 @@
         </v-col>
     </div>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
+import Component from "vue-class-component";
+import { Prop } from "vue-property-decorator";
 import PotentialSelection from "./Potential/PotentialSelection.vue";
 import MaterialResult from "./Potential/MaterialResult.vue";
 import BuffResult from "./Potential/BuffResult.vue";
-export default Vue.extend({
-    props: {
-        unit: {
-            type: Object,
-            required: true,
-            default: {},
-        },
-    },
+import { Unit } from '@/interface/unit';
+import { PotentialSelectGroup } from '@/interface/global/potential'
+
+@Component({
     components: {
         PotentialSelection,
         MaterialResult,
         BuffResult
-    },
-    mounted(){
-        this.potentialData = this.$util.getPotential(this.unit.potential)
-        this.isMounted = true
-    },
-    computed: {
-        calculatedResult(){
-            var requiredSlotList = []
-            var startIndex = this.currentPotential.level-1
-            var endIndex = this.targetPotential.level-1
-            var detail = this.potentialData.detail
-            for (let level = startIndex; level <= endIndex; level++) {  // loop each potential level
-                var condition = false
-                var currentSlot = this.currentPotential.slot
-                var targetSlot = this.targetPotential.slot
-                if(startIndex == endIndex){     // if current and target are at same level
-                    condition = 'SAME_LEVEL' 
-                }else if(level == startIndex){  // if looping the first level
-                    condition = 'FIRST_LEVEL'
-                }else if(level == endIndex){    // if looping the last level
-                    condition = 'LAST_LEVEL'
-                }else{                          // if looping the level in between
-                    condition = 'BETWEEN_LEVEL'
-                }
-                for (let index = 0; index < detail[level].length; index++) {       // loop all 6 slots
-                    if(this.$util.getCalculateCondition(condition, index, currentSlot, targetSlot)){ 
-                        requiredSlotList.push(detail[level][index]);
-                    } 
-                }
-            }
-            return this.$util.getCalculatedSummary(requiredSlotList, this.showCombined)
-        },
-    },
-    data(){
-        return {
-            isMounted: false,
-            showCombined: false,
-            potentialData: {},
-            currentPotential: { level: 1, slot: [false, false, false, false, false, false] },
-            targetPotential: { level: 1, slot: [false, false, false, false, false, false] },
-        }
     }
 })
+export default class PotentialTab extends Vue {
+    @Prop({ required: true, default: {} })
+    unit!: Unit;
+
+    isMounted: boolean = false;
+    showCombined: boolean = false;
+    potentialData: any = {};
+    currentPotential: PotentialSelectGroup = { level: 1, slot: [false, false, false, false, false, false] };
+    targetPotential: PotentialSelectGroup = { level: 1, slot: [false, false, false, false, false, false] };
+
+    mounted(): void {
+        this.potentialData = this.$util.getPotential(this.unit.potential);
+        this.isMounted = true;
+    }
+
+    get calculatedResult() {
+        const requiredSlotList = [];
+        const startIndex = this.currentPotential.level - 1;
+        const endIndex = this.targetPotential.level - 1;
+        const detail = this.potentialData.detail;
+
+        for (let level = startIndex; level <= endIndex; level++) {
+            let condition: 'SAME_LEVEL' | 'FIRST_LEVEL' | 'LAST_LEVEL' | 'BETWEEN_LEVEL';
+            if (startIndex === endIndex) {
+                condition = 'SAME_LEVEL';
+            } else if (level === startIndex) {
+                condition = 'FIRST_LEVEL';
+            } else if (level === endIndex) {
+                condition = 'LAST_LEVEL';
+            } else {
+                condition = 'BETWEEN_LEVEL';
+            }
+
+            for (let index = 0; index < detail[level].length; index++) {
+                if (this.$util.getCalculateCondition(condition, index, this.currentPotential.slot, this.targetPotential.slot)) {
+                    requiredSlotList.push(detail[level][index]);
+                }
+            }
+        }
+
+        return this.$util.getCalculatedSummary(requiredSlotList, this.showCombined);
+    }
+}
 </script>
 <style lang="sass" scoped>
 .outline-box

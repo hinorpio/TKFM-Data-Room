@@ -2,7 +2,7 @@
   <v-container :style="{background: '#424242'}">
     <v-row class="pt-4" :max-height="imageHeight">
       <v-col :xl="6" :lg="6" :md="6" :sm="6" :xs="12">
-        <!-- <v-img :src="$util.getErrorImage(error.message)" :max-height="imageHeight" contain class="px-4"/> -->
+        <v-img :src="getErrorImage()" :max-height="imageHeight" contain class="px-4"/>
       </v-col>
       <v-col :xl="6" :lg="6" :md="6" :sm="6" :xs="12">
         <div :class="contentPaddingTop">
@@ -18,72 +18,72 @@
   </v-container>   
 </template>
 
-<script>
+<script lang="ts">
 import Vue from "vue";
-export default Vue.extend({
-  props: {
-    error: {
-      type: Object,
-      default: null
+import { NuxtError } from "@nuxt/types";
+import { Component, Prop } from "vue-property-decorator";
+
+@Component
+export default class ErrorLayout extends Vue {
+  @Prop({ type: Object, required: true, default: {} })
+  error!: NuxtError;
+
+  errorImg: String = require("@/assets/error.png")
+
+  get titleClass(): string {
+    switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return 'headline font-weight-bold'
+        case 'sm': return 'headline font-weight-bold'
+        case 'md': return 'display-1 font-weight-bold'
+        case 'lg': return 'display-1 font-weight-bold'
+        case 'xl': return 'display-1 font-weight-bold'
+        default: return 'display-1 font-weight-bold'
     }
-  },
-  computed:{
-    titleClass(){
-      switch (this.$vuetify.breakpoint.name) {
-          case 'xs': return 'headline font-weight-bold'
-          case 'sm': return 'headline font-weight-bold'
-          case 'md': return 'display-1 font-weight-bold'
-          case 'lg': return 'display-1 font-weight-bold'
-          case 'xl': return 'display-1 font-weight-bold'
-      }
-    },
-    subtitleClass(){
-      switch (this.$vuetify.breakpoint.name) {
-          case 'xs': return 'subtitle-2'
-          case 'sm': return 'subtitle-2'
-          case 'md': return 'subtitle-1'
-          case 'lg': return 'subtitle-1'
-          case 'xl': return 'subtitle-1'
-      }
-    },
-    imageHeight(){
-      switch (this.$vuetify.breakpoint.name) {
-          case 'xs': return '40vh'
-          case 'sm': return '70vh'
-          case 'md': return '70vh'
-          case 'lg': return '70vh'
-          case 'xl': return '70vh'
-      }
-    },
-    contentPaddingTop(){
-      switch (this.$vuetify.breakpoint.name) {
-          case 'xs': return 'pt-6'
-          case 'sm': return 'pt-6'
-          case 'md': return 'pt-10'
-          case 'lg': return 'pt-12'
-          case 'xl': return 'pt-12'
-      }
-    },
-    errorMessage(){
-      var message = (this.error.customError)
-        ? this.error.message
-        : (this.error.statusCode == 404)
-          ? 'PAGE_NOT_FOUND'
-          : 'UNKNOWN_ERROR'
-      return `ERROR: ${message}`
+  }
+  get subtitleClass(): string {
+    switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return 'subtitle-2'
+        case 'sm': return 'subtitle-2'
+        case 'md': return 'subtitle-1'
+        case 'lg': return 'subtitle-1'
+        case 'xl': return 'subtitle-1'
+        default: return 'subtitle-1'
     }
-  },
-  methods: {
-    goPrevPage(){
-      this.$router.go(-1);
+  }
+  get imageHeight(): string {
+    switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return '40vh'
+        case 'sm': return '70vh'
+        case 'md': return '70vh'
+        case 'lg': return '70vh'
+        case 'xl': return '70vh'
+        default: return '70vh'
     }
-  },
-  data () {
-    return {
-      errorImg: require("@/assets/error.png"),
+  }
+  get contentPaddingTop(): string {
+    switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return 'pt-6'
+        case 'sm': return 'pt-6'
+        case 'md': return 'pt-10'
+        case 'lg': return 'pt-12'
+        case 'xl': return 'pt-12'
+        default: return 'pt-12'
     }
-  },
-})
+  }
+
+  get errorMessage(): string {
+    const error = this.$util.getCustomError(this.error.statusCode ?? 500)
+    return `ERROR: ${error.message}`
+  }
+
+  getErrorImage(): string {
+    return (this.error.message)?this.$util.getErrorImage(this.error.message) : ''
+  }
+
+  goPrevPage(): void{
+    this.$router.go(-1);
+  }
+}
 </script>
 
 <style lang="sass" scoped>

@@ -25,19 +25,30 @@
         </v-container>
     </v-layout>
 </template>
-<script lang="js">
+<script lang="ts">
 import Vue from "vue";
-import NoUnitSelected from "@/components/Unit/NoUnitSelected";
-import UnitContent from "@/components/Unit/UnitContent";
-import UnitFullBody from "@/components/Unit/UnitFullBody";
-import CharacterSearchDialog from "@/components/Unit/CharacterSearchDialog/CharacterSearchDialog";
+import { Component } from "vue-property-decorator";
+import { ErrorCode } from '@/plugins/utils/enums'
+import { Unit } from '@/interface/unit';
+import NoUnitSelected from "@/components/Unit/NoUnitSelected.vue";
+import UnitContent from "@/components/Unit/UnitContent.vue";
+import UnitFullBody from "@/components/Unit/UnitFullBody.vue";
+import CharacterSearchDialog from "@/components/Unit/CharacterSearchDialog/CharacterSearchDialog.vue";
 
-export default Vue.extend({
+@Component({
     components: {
         NoUnitSelected,
         UnitContent,
+        UnitFullBody,
         CharacterSearchDialog,
     },
+})
+export default class UnitPage extends Vue {
+    isMounted: boolean = false
+    isNoUnitSelected: boolean = false
+    visible: boolean = false
+    unit: Unit | undefined
+
     async mounted() {
         const metaCode = this.$route.params.metaCode
         if(metaCode === undefined){
@@ -47,18 +58,11 @@ export default Vue.extend({
                 this.unit = this.$util.getUnitByMetacode(metaCode)
             } catch (error) {
                 console.log(error);
-                this.$nuxt.error({ statusCode: 500, message: error.message, customError: true })
+                const customError = this.$util.getCustomError(ErrorCode.CANNOT_FIND_CHARACTER)
+                this.$nuxt.error(customError)
             }
         }
         this.isMounted = true    
-    },
-    data() {
-        return {
-            isMounted: false,
-            isNoUnitSelected: false,
-            unit: {},
-            visible: false,
-        }
     }
-})
+}
 </script>

@@ -20,7 +20,7 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Locale, SkillType } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit'
-import { Skill, SkillSet } from '@/interface/unit/skillset';
+import { Skill } from '@/interface/unit/skillset';
 import SkillCard from "@/components/Unit/UnitTab/SkillSetCard/SkillCard.vue";
 import GeneralSkillCard from "@/components/Unit/UnitTab/SkillSetCard/GeneralSkillCard.vue";
 
@@ -45,7 +45,7 @@ export default class SkillSetTab extends Vue {
         return version.skill[locale] as { SkillType: Skill };
     }
 
-    async mounted() {
+    mounted(): void {
         this.versionList = this.unit.skillSet.map((set: any, index: number) => ({
             label: `${this.$t('Version')} ${set.version}${this.getLastDate(set.lastDate)}`,
             value: index,
@@ -53,7 +53,7 @@ export default class SkillSetTab extends Vue {
         this.isMounted = true;
     }
 
-    getLastDate(date: string | null) {
+    getLastDate(date: string | null): String {
         return date === null
         ? ` - ${this.$t('Current Version')}`
         : ` - ${this.$t('As of')} ${date}`;

@@ -1,10 +1,10 @@
 import idMap from '@/static/data/unit/idMap';
+import { ErrorMessage } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
 import { Discipline } from '@/interface/unit/discipline';
 import { LiberateSkillSet } from '@/interface/unit/liberateSkillSet';
 import { Puzzle } from '@/interface/unit/puzzle';
 import { SkillSet } from '@/interface/unit/skillset';
-import { CANNOT_FIND_CHARACTER } from './Error';
 
 export default {
     getAllUnitGeneralData(): Unit[]{
@@ -49,17 +49,14 @@ export default {
         try {
             return require(`@/static/data/unit/general/${id}`).default as Unit;
         } catch (error) {
-            console.log(require(`@/static/data/unit/general/${id}`));
-            console.log(id);
-            
-            throw new Error(CANNOT_FIND_CHARACTER);
+            throw new Error(ErrorMessage.CANNOT_FIND_CHARACTER);
         }
     },
     getSkillSetData(id: number): SkillSet[] {
         try {
             return require(`@/static/data/unit/skillset/${id}`).default.skillSet as SkillSet[];
         } catch (error) {
-            throw new Error(CANNOT_FIND_CHARACTER);
+            throw new Error(ErrorMessage.CANNOT_FIND_CHARACTER);
         }
     },
     getDisciplineData(id: number): Discipline[] {

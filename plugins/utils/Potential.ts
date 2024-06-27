@@ -35,7 +35,8 @@ export default {
         const handleItem = (item: Item, quantity: number) => {
             if (item.type === ItemType.POTENTIAL_ADVANCED && showCombined && item.combined) {
                 item.combined.forEach((combinedItem: CombinedItem) => {
-                    const combinedItemData = ItemService.getItem(combinedItem.code);
+                    const itemCode = combinedItem.code as ItemCode
+                    const combinedItemData = ItemService.getItem(itemCode);
                     if (combinedItemData) {
                         handleItem(combinedItemData, combinedItem.quantity * quantity);
                     }

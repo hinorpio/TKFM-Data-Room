@@ -6,6 +6,18 @@ export enum Locale {
     ko = 'ko',
 }
 
+export enum ErrorCode{
+    PAGE_NOT_FOUND = 404,
+    UNKNOWN_ERROR = 500,
+    CANNOT_FIND_CHARACTER = 801,
+}
+
+export enum ErrorMessage{
+    PAGE_NOT_FOUND = 'PAGE_NOT_FOUND',
+    UNKNOWN_ERROR = 'UNKNOWN_ERROR',
+    CANNOT_FIND_CHARACTER = 'CANNOT_FIND_CHARACTER',
+}
+
 export enum Element {
     FIRE = 'FIRE',
     WATER = 'WATER',
