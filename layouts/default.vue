@@ -73,6 +73,11 @@ export default class DefaultLayout extends Vue {
       icon: 'mdi-timeline-text',
       title: this.$t('Event Timeline'),
       to: '/' + this.$i18n.locale + '/event/'
+    },
+    {
+      icon: 'mdi-truck',
+      title: this.$t('Dispatch'),
+      to: '/' + this.$i18n.locale + '/dispatch/'
     }
   ]
 }

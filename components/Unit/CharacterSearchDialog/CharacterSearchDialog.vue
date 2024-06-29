@@ -53,7 +53,7 @@
                     <v-row class="fill-height overflow-auto" id="container">
                         <v-col v-for="(unit, index) in itemsForShow" :key="index" :cols="(12/itemsPerRow)" class="py-2" > 
                             <v-btn class="pa-0 character-button" outlined color="indigo" block :height="itemSize" @click="handleSelectUnit(unit)">
-                                <v-img :src="unit.essence" :height="itemSize" :width="itemSize" contain/>
+                                <v-img :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/>
                             </v-btn>
                         </v-col>
                     </v-row>

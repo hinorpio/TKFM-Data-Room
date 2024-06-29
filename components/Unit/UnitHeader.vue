@@ -1,13 +1,13 @@
 <template>
     <v-row class="align-center" >
-        <v-avatar :size="iconSize" class="ml-3" tile>
-            <v-img :src="$util.getRarityIcon(unit.rarity)"  />
+        <v-avatar :size="iconSize" class="ml-3" tile >
+            <v-img :src="$util.getRarityIcon(unit.rarity)" contain />
         </v-avatar>
         <v-avatar :size="iconSize" class="ml-3" tile>
-            <v-img :src="$util.getElementIcon(unit.element)"  />
+            <v-img :src="$util.getElementIcon(unit.element)" contain />
         </v-avatar>
         <v-avatar :size="iconSize" class="ml-3" tile>
-            <v-img :src="$util.getPositionIcon(unit.position)"  />
+            <v-img :src="$util.getPositionIcon(unit.position)" contain />
         </v-avatar>
         <v-col v-if="strLengthExceedWidth()" class="ml-2">
             <span :class="titleClass">{{ `${getPrefix()}` }}</span>

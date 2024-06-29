@@ -1,12 +1,12 @@
 import { Item } from '@/interface/global/item';
 import { ItemType, ItemCode } from '@/plugins/utils/enums';
-
+import { ItemIcon } from '~/static/data/ImageSrc';
 
 const items: Item[] = [
     {
         type: ItemType.GENERAL,
         code: ItemCode.SLIVER_COIN,
-        icon: require("@/assets/item/IP00001.png"),
+        icon: ItemIcon.SLIVER_COIN,
         name: {
             zh: "銀幣",
             cn: "",
@@ -18,7 +18,7 @@ const items: Item[] = [
     {
         type: ItemType.GENERAL,
         code: ItemCode.NAMELESS,
-        icon: require("@/assets/item/IP28002.png"),
+        icon: ItemIcon.NAMELESS,
         name: {
             zh: "無名的記憶碎片",
             cn: "",
@@ -30,7 +30,7 @@ const items: Item[] = [
     {
         type: ItemType.GENERAL,
         code: ItemCode.LIBERATE_STONE,
-        icon: require("@/assets/item/IP31903.png"),
+        icon: ItemIcon.LIBERATE_STONE,
         name: {
             zh: "解放晶石",
             cn: "",
@@ -42,7 +42,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_FIRE_LV1,
-        icon: require("@/assets/item/IP31001.png"),
+        icon: ItemIcon.EVOLVE_FIRE_LV1,
         name: {
             zh: "火焰碎片",
             cn: "",
@@ -54,7 +54,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_FIRE_LV2,
-        icon: require("@/assets/item/IP31002.png"),
+        icon: ItemIcon.EVOLVE_FIRE_LV2,
         name: {
             zh: "火焰之石",
             cn: "",
@@ -66,7 +66,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_FIRE_LV3,
-        icon: require("@/assets/item/IP31003.png"),
+        icon: ItemIcon.EVOLVE_FIRE_LV3,
         name: {
             zh: "緋紅結晶",
             cn: "",
@@ -78,7 +78,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_FIRE_LV4,
-        icon: require("@/assets/item/IP31004.png"),
+        icon: ItemIcon.EVOLVE_FIRE_LV4,
         name: {
             zh: "緋紅靈魂",
             cn: "",
@@ -90,7 +90,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WATER_LV1,
-        icon: require("@/assets/item/IP31011.png"),
+        icon: ItemIcon.EVOLVE_WATER_LV1,
         name: {
             zh: "洪水碎片",
             cn: "",
@@ -102,7 +102,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WATER_LV2,
-        icon: require("@/assets/item/IP31012.png"),
+        icon: ItemIcon.EVOLVE_WATER_LV2,
         name: {
             zh: "洪水之石",
             cn: "",
@@ -114,7 +114,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WATER_LV3,
-        icon: require("@/assets/item/IP31013.png"),
+        icon: ItemIcon.EVOLVE_WATER_LV3,
         name: {
             zh: "蒼藍結晶",
             cn: "",
@@ -126,7 +126,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WATER_LV4,
-        icon: require("@/assets/item/IP31014.png"),
+        icon: ItemIcon.EVOLVE_WATER_LV4,
         name: {
             zh: "蒼藍靈魂",
             cn: "",
@@ -138,7 +138,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WIND_LV1,
-        icon: require("@/assets/item/IP31021.png"),
+        icon: ItemIcon.EVOLVE_WIND_LV1,
         name: {
             zh: "烈風碎片",
             cn: "",
@@ -150,7 +150,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WIND_LV2,
-        icon: require("@/assets/item/IP31022.png"),
+        icon: ItemIcon.EVOLVE_WIND_LV2,
         name: {
             zh: "烈風之石",
             cn: "",
@@ -162,7 +162,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WIND_LV3,
-        icon: require("@/assets/item/IP31023.png"),
+        icon: ItemIcon.EVOLVE_WIND_LV3,
         name: {
             zh: "翠綠結晶",
             cn: "",
@@ -174,7 +174,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_WIND_LV4,
-        icon: require("@/assets/item/IP31024.png"),
+        icon: ItemIcon.EVOLVE_WIND_LV4,
         name: {
             zh: "翠綠靈魂",
             cn: "",
@@ -186,7 +186,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_LIGHT_LV1,
-        icon: require("@/assets/item/IP31031.png"),
+        icon: ItemIcon.EVOLVE_LIGHT_LV1,
         name: {
             zh: "光明碎片",
             cn: "",
@@ -198,7 +198,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_LIGHT_LV2,
-        icon: require("@/assets/item/IP31032.png"),
+        icon: ItemIcon.EVOLVE_LIGHT_LV2,
         name: {
             zh: "光明之石",
             cn: "",
@@ -210,7 +210,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_LIGHT_LV3,
-        icon: require("@/assets/item/IP31033.png"),
+        icon: ItemIcon.EVOLVE_LIGHT_LV3,
         name: {
             zh: "雪白結晶",
             cn: "",
@@ -222,7 +222,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_LIGHT_LV4,
-        icon: require("@/assets/item/IP31034.png"),
+        icon: ItemIcon.EVOLVE_LIGHT_LV4,
         name: {
             zh: "雪白靈魂",
             cn: "",
@@ -234,7 +234,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_DARK_LV1,
-        icon: require("@/assets/item/IP31041.png"),
+        icon: ItemIcon.EVOLVE_DARK_LV1,
         name: {
             zh: "黑暗碎片",
             cn: "",
@@ -246,7 +246,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_DARK_LV2,
-        icon: require("@/assets/item/IP31042.png"),
+        icon: ItemIcon.EVOLVE_DARK_LV2,
         name: {
             zh: "黑暗之石",
             cn: "",
@@ -258,7 +258,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_DARK_LV3,
-        icon: require("@/assets/item/IP31043.png"),
+        icon: ItemIcon.EVOLVE_DARK_LV3,
         name: {
             zh: "靛紫結晶",
             cn: "",
@@ -270,7 +270,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.EVOLVE_DARK_LV4,
-        icon: require("@/assets/item/IP31044.png"),
+        icon: ItemIcon.EVOLVE_DARK_LV4,
         name: {
             zh: "靛紫靈魂",
             cn: "",
@@ -282,7 +282,7 @@ const items: Item[] = [
     {
         type: ItemType.EVOLVE,
         code: ItemCode.FLAWLESS,
-        icon: require("@/assets/item/IP31501.png"),
+        icon: ItemIcon.FLAWLESS,
         name: {
             zh: "無暇魂魄",
             cn: "",
@@ -294,7 +294,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.CLAW_LV1,
-        icon: require("@/assets/item/IP30001.png"),
+        icon: ItemIcon.CLAW_LV1,
         name: {
             zh: "野獸之爪",
             cn: "",
@@ -306,7 +306,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.CLAW_LV2,
-        icon: require("@/assets/item/IP30002.png"),
+        icon: ItemIcon.CLAW_LV2,
         name: {
             zh: "巨獸之爪",
             cn: "",
@@ -318,7 +318,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.CLAW_LV3,
-        icon: require("@/assets/item/IP30003.png"),
+        icon: ItemIcon.CLAW_LV3,
         name: {
             zh: "惡魔之爪",
             cn: "",
@@ -330,7 +330,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.IRON_LV1,
-        icon: require("@/assets/item/IP30004.png"),
+        icon: ItemIcon.IRON_LV1,
         name: {
             zh: "鐵錠",
             cn: "",
@@ -342,7 +342,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.IRON_LV2,
-        icon: require("@/assets/item/IP30005.png"),
+        icon: ItemIcon.IRON_LV2,
         name: {
             zh: "鍛鐵錠",
             cn: "",
@@ -354,7 +354,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.IRON_LV3,
-        icon: require("@/assets/item/IP30006.png"),
+        icon: ItemIcon.IRON_LV3,
         name: {
             zh: "純源鋼錠",
             cn: "",
@@ -366,7 +366,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.WATER_LV1,
-        icon: require("@/assets/item/IP30007.png"),
+        icon: ItemIcon.WATER_LV1,
         name: {
             zh: "純淨水",
             cn: "",
@@ -378,7 +378,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.WATER_LV2,
-        icon: require("@/assets/item/IP30008.png"),
+        icon: ItemIcon.WATER_LV2,
         name: {
             zh: "月光水",
             cn: "",
@@ -390,7 +390,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.WATER_LV3,
-        icon: require("@/assets/item/IP30009.png"),
+        icon: ItemIcon.WATER_LV3,
         name: {
             zh: "精靈露水",
             cn: "",
@@ -402,7 +402,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.MIXTURE_LV1,
-        icon: require("@/assets/item/IP30010.png"),
+        icon: ItemIcon.MIXTURE_LV1,
         name: {
             zh: "史萊姆殘液",
             cn: "",
@@ -414,7 +414,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.MIXTURE_LV2,
-        icon: require("@/assets/item/IP30011.png"),
+        icon: ItemIcon.MIXTURE_LV2,
         name: {
             zh: "高級合劑",
             cn: "",
@@ -426,7 +426,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.MIXTURE_LV3,
-        icon: require("@/assets/item/IP30012.png"),
+        icon: ItemIcon.MIXTURE_LV3,
         name: {
             zh: "彩虹合劑",
             cn: "",
@@ -438,7 +438,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.DUST_LV1,
-        icon: require("@/assets/item/IP30013.png"),
+        icon: ItemIcon.DUST_LV1,
         name: {
             zh: "毒之粉",
             cn: "",
@@ -450,7 +450,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.DUST_LV2,
-        icon: require("@/assets/item/IP30014.png"),
+        icon: ItemIcon.DUST_LV2,
         name: {
             zh: "星之粉",
             cn: "",
@@ -462,7 +462,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.DUST_LV3,
-        icon: require("@/assets/item/IP30015.png"),
+        icon: ItemIcon.DUST_LV3,
         name: {
             zh: "暗之粉",
             cn: "",
@@ -474,7 +474,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.HORN_LV1,
-        icon: require("@/assets/item/IP30016.png"),
+        icon: ItemIcon.HORN_LV1,
         name: {
             zh: "堅固之角",
             cn: "",
@@ -490,7 +490,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.HORN_LV2,
-        icon: require("@/assets/item/IP30017.png"),
+        icon: ItemIcon.HORN_LV2,
         name: {
             zh: "狂牛之角",
             cn: "",
@@ -506,7 +506,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.SLIVER_LV1,
-        icon: require("@/assets/item/IP30018.png"),
+        icon: ItemIcon.SLIVER_LV1,
         name: {
             zh: "銀錠",
             cn: "",
@@ -522,7 +522,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.SLIVER_LV2,
-        icon: require("@/assets/item/IP30019.png"),
+        icon: ItemIcon.SLIVER_LV2,
         name: {
             zh: "聖銀錠",
             cn: "",
@@ -538,7 +538,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.OIL_LV1,
-        icon: require("@/assets/item/IP30020.png"),
+        icon: ItemIcon.OIL_LV1,
         name: {
             zh: "儀式之油",
             cn: "",
@@ -554,7 +554,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.OIL_LV2,
-        icon: require("@/assets/item/IP30021.png"),
+        icon: ItemIcon.OIL_LV2,
         name: {
             zh: "聖油",
             cn: "",
@@ -570,7 +570,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.CRYSTAL_LV1,
-        icon: require("@/assets/item/IP30022.png"),
+        icon: ItemIcon.CRYSTAL_LV1,
         name: {
             zh: "腐蝕之塵",
             cn: "",
@@ -586,7 +586,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.CRYSTAL_LV2,
-        icon: require("@/assets/item/IP30023.png"),
+        icon: ItemIcon.CRYSTAL_LV2,
         name: {
             zh: "暗龍結晶",
             cn: "",
@@ -602,7 +602,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.FANG_LV1,
-        icon: require("@/assets/item/IP30024.png"),
+        icon: ItemIcon.FANG_LV1,
         name: {
             zh: "劇毒蛇牙",
             cn: "",
@@ -618,7 +618,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.FANG_LV2,
-        icon: require("@/assets/item/IP30025.png"),
+        icon: ItemIcon.FANG_LV2,
         name: {
             zh: "邪龍毒牙",
             cn: "",
@@ -634,7 +634,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.BEAK_LV1,
-        icon: require("@/assets/item/IP30026.png"),
+        icon: ItemIcon.BEAK_LV1,
         name: {
             zh: "獅鷲之喙",
             cn: "",
@@ -650,7 +650,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.BEAK_LV2,
-        icon: require("@/assets/item/IP30027.png"),
+        icon: ItemIcon.BEAK_LV2,
         name: {
             zh: "聖鷲之喙",
             cn: "",
@@ -666,7 +666,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.SKIN_LV1,
-        icon: require("@/assets/item/IP30028.png"),
+        icon: ItemIcon.SKIN_LV1,
         name: {
             zh: "熊皮",
             cn: "",
@@ -682,7 +682,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.SKIN_LV2,
-        icon: require("@/assets/item/IP30029.png"),
+        icon: ItemIcon.SKIN_LV2,
         name: {
             zh: "巨鹿毛皮",
             cn: "",
@@ -698,7 +698,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.BOOK_LV1,
-        icon: require("@/assets/item/IP30030.png"),
+        icon: ItemIcon.BOOK_LV1,
         name: {
             zh: "邪語之書",
             cn: "",
@@ -714,7 +714,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.BOOK_LV2,
-        icon: require("@/assets/item/IP30031.png"),
+        icon: ItemIcon.BOOK_LV2,
         name: {
             zh: "墮天之書",
             cn: "",
@@ -730,7 +730,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.FEATHER_LV1,
-        icon: require("@/assets/item/IP30032.png"),
+        icon: ItemIcon.FEATHER_LV1,
         name: {
             zh: "精緻尾羽",
             cn: "",
@@ -746,7 +746,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.FEATHER_LV2,
-        icon: require("@/assets/item/IP30033.png"),
+        icon: ItemIcon.FEATHER_LV2,
         name: {
             zh: "女妖尾羽",
             cn: "",
@@ -762,7 +762,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.WEB_LV1,
-        icon: require("@/assets/item/IP30034.png"),
+        icon: ItemIcon.WEB_LV1,
         name: {
             zh: "蟲巢之絲",
             cn: "",
@@ -778,7 +778,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL_ADVANCED,
         code: ItemCode.WEB_LV2,
-        icon: require("@/assets/item/IP30035.png"),
+        icon: ItemIcon.WEB_LV2,
         name: {
             zh: "蛛后之絲",
             cn: "",
@@ -794,7 +794,7 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.SKILL_FRAGMENT,
-        icon: require("@/assets/item/IP31901.png"),
+        icon: ItemIcon.SKILL_FRAGMENT,
         name: {
             zh: "技之碎片",
             cn: "",
@@ -806,11 +806,191 @@ const items: Item[] = [
     {
         type: ItemType.POTENTIAL,
         code: ItemCode.SKILL_STONE,
-        icon: require("@/assets/item/IP31902.png"),
+        icon: ItemIcon.SKILL_STONE,
         name: {
             zh: "技之原石",
             cn: "",
             en: "Skill Stone",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_FIRE_LV1,
+        icon: ItemIcon.DISCIPLINE_FIRE_LV1,
+        name: {
+            zh: "按摩棒",
+            cn: "",
+            en: "Vibrator",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_FIRE_LV2,
+        icon: ItemIcon.DISCIPLINE_FIRE_LV2,
+        name: {
+            zh: "觸手",
+            cn: "",
+            en: "Tentacle",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_FIRE_LV3,
+        icon: ItemIcon.DISCIPLINE_FIRE_LV3,
+        name: {
+            zh: "蠟燭",
+            cn: "",
+            en: "Candle",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_WATER_LV1,
+        icon: ItemIcon.DISCIPLINE_WATER_LV1,
+        name: {
+            zh: "冰棒",
+            cn: "",
+            en: "Popsicle",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_WATER_LV2,
+        icon: ItemIcon.DISCIPLINE_WATER_LV2,
+        name: {
+            zh: "史萊姆",
+            cn: "",
+            en: "Slime",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_WATER_LV3,
+        icon: ItemIcon.DISCIPLINE_WATER_LV3,
+        name: {
+            zh: "榨乳器",
+            cn: "",
+            en: "Milker",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_WIND_LV1,
+        icon: ItemIcon.DISCIPLINE_WIND_LV1,
+        name: {
+            zh: "乳頭陰蒂夾",
+            cn: "",
+            en: "Nipple Clamp",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_WIND_LV2,
+        icon: ItemIcon.DISCIPLINE_WIND_LV2,
+        name: {
+            zh: "藤蔓",
+            cn: "",
+            en: "Vines",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_WIND_LV3,
+        icon: ItemIcon.DISCIPLINE_WIND_LV3,
+        name: {
+            zh: "皮鞭",
+            cn: "",
+            en: "Whip",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_LIGHT_LV1,
+        icon: ItemIcon.DISCIPLINE_LIGHT_LV1,
+        name: {
+            zh: "貓尾肛塞",
+            cn: "",
+            en: "Kitty Cass Plug",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_LIGHT_LV2,
+        icon: ItemIcon.DISCIPLINE_LIGHT_LV2,
+        name: {
+            zh: "八目鰻",
+            cn: "",
+            en: "Lamprey",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_LIGHT_LV3,
+        icon: ItemIcon.DISCIPLINE_LIGHT_LV3,
+        name: {
+            zh: "電擊棒",
+            cn: "",
+            en: "Electric Prod",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_DARK_LV1,
+        icon: ItemIcon.DISCIPLINE_DARK_LV1,
+        name: {
+            zh: "跳蛋",
+            cn: "",
+            en: "Sex Egg",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_DARK_LV2,
+        icon: ItemIcon.DISCIPLINE_DARK_LV2,
+        name: {
+            zh: "淫魔蟲",
+            cn: "",
+            en: "Lude Buggers",
+            jp: "",
+            ko: ""
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_DARK_LV3,
+        icon: ItemIcon.DISCIPLINE_DARK_LV3,
+        name: {
+            zh: "匕首",
+            cn: "",
+            en: "Dagger",
             jp: "",
             ko: ""
         },

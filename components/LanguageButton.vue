@@ -43,7 +43,7 @@ export default class LanguageButton extends Vue {
       //     path: "/" + lang + '/' + this.$router.history.current.path.split("/").filter((f,index) => index > 1 ).join("/") + query,
       //     query: this.$router.history.current.query
       // })
-      location.reload()
+      // location.reload()
   }
 }
 </script>

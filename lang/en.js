@@ -2,6 +2,8 @@ export default {
     "Home Page": "Home Page",
     "Unit Info": "Unit Info",
     "Recruitment": "Recruitment",
+    "Event Timeline": "Event Timeline",
+    "Dispatch": "Dispatch",
     "Potential Calculator": "Potential Calculator",
     "Maxed Data": "Maxed Data",
     "Maxed HP": "Maxed HP",
@@ -57,5 +59,4 @@ export default {
     "Buff": "Buff",
     "Show Actual Material": "Show Actual Material",
     "Show Combined Material": "Show Combined Material",
-    "Event Timeline": "Event Timeline",
 }

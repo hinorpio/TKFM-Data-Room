@@ -2,6 +2,8 @@ export default {
     "Home Page": "首頁",
     "Unit Info": "角色資訊",
     "Recruitment": "全境徵才",
+    "Event Timeline": "活動時序",
+    "Dispatch": "派遣",
     "Potential Calculator": "潛力計算",
     "Maxed Data": "完全體數據",
     "Maxed HP": "HP",
@@ -57,5 +59,4 @@ export default {
     "Buff": "增益",
     "Show Actual Material": "換算初/中/高級素材與道具",
     "Show Combined Material": "實際需求素材與道具",
-    "Event Timeline": "活動時序",
 }
