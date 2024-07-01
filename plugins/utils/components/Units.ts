@@ -1,4 +1,3 @@
-import idMap from '@/static/data/unit/idMap';
 import { ErrorMessage, UnitID } from '../enums'
 import { Unit } from '@/interface/unit';
 import { Discipline } from '@/interface/unit/discipline';

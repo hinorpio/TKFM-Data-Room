@@ -36,8 +36,8 @@ export const GENERAL_10003: Unit = {
     rarity: Rarity.SSR,
     element: Element.LIGHT,
     position: Position.ATTACKER,
-    isLimited: false,
     potential: PotentialType.ATTACK,
+    isLimited: false,
     releaseDate: "2020-12-14",
     essence: UnitEssenceIcon[UnitID.iblis],
     thumbnail: UnitEssenceIcon[UnitID.iblis],
@@ -45,5 +45,6 @@ export const GENERAL_10003: Unit = {
     clothes: UnitFullImage[UnitID.iblis],
     tagList: [ 4, 6, 12, 15, 21, 22, 30, 32 ],
     otherVersion: [ UnitID.baal, UnitID.satan ],
-    puzzle: [ PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2023_SUMMER_1 ]
+    puzzle: [ PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2023_SUMMER_1 ],
+    skillSet: []
 }

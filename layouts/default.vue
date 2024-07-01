@@ -50,6 +50,21 @@ interface MenuItem {
 @Component
 export default class DefaultLayout extends Vue {
 
+  mounted(){
+    this.drawer = this.isDrawerOpen()
+  }
+
+  isDrawerOpen(): boolean{
+    switch (this.$vuetify.breakpoint.name) {
+        case 'xs': return false;
+        case 'sm': return false;
+        case 'md': return true;
+        case 'lg': return true;
+        case 'xl': return true;
+        default: return true;
+    }
+  }
+
   drawer: Boolean = false
   miniVariant: Boolean = false
   title: String = 'TKFM Reference Room'
@@ -68,11 +83,6 @@ export default class DefaultLayout extends Vue {
       icon: 'mdi-book-edit',
       title: this.$t('Recruitment'),
       to: '/' + this.$i18n.locale + '/recruitment/'
-    },
-    {
-      icon: 'mdi-timeline-text',
-      title: this.$t('Event Timeline'),
-      to: '/' + this.$i18n.locale + '/event/'
     },
     {
       icon: 'mdi-truck',

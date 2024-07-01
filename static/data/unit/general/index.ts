@@ -5,6 +5,7 @@ import { GENERAL_10001 } from "./10001";
 import { GENERAL_10002 } from "./10002";
 import { GENERAL_10003 } from "./10003";
 import { GENERAL_10802 } from "./10802";
+import { Rarity, Element, Position, PotentialType } from "@/plugins/utils/enums";
 
 export const DefaultUnit: Unit = {
     ID: "",
@@ -13,7 +14,11 @@ export const DefaultUnit: Unit = {
     name: {},
     abbreviation: {},
     background: {},
+    rarity: Rarity.SSR,
+    element: Element.FIRE,
+    position: Position.ATTACKER,
     isLimited: false,
+    potential: PotentialType.ATTACK,
     releaseDate: "2020-12-14",
     essence: '',
     thumbnail: '',
@@ -22,7 +27,7 @@ export const DefaultUnit: Unit = {
     tagList: [],
     otherVersion: [],
     puzzle: [],
-
+    skillSet: []
 }
 
 export const UnitGeneral: { [key in UnitID]?: Unit } = {

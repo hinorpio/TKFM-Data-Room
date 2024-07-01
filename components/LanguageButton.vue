@@ -21,29 +21,17 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-import { Component } from "vue-property-decorator";
-import { Locale } from '@/plugins/utils/enums'
-
-@Component
-export default class LanguageButton extends Vue {
-  handleSetLanguage(lang: Locale) {
-      this.$i18n.locale = lang
-
-      // if(this.$router.history.current.query != {}){
-      //   var query = '?'
-      //   for (const [key, value] of Object.entries(this.$router.history.current.query)) {
-      //     query += `${key}` + '=' + `${value}`
-      //   }
-      // }
-      // console.log(query);
-      // this.$store.dispatch('setLocale', lang)
-      // this.$router.push({
-      //     path: "/" + lang + '/' + this.$router.history.current.path.split("/").filter((f,index) => index > 1 ).join("/") + query,
-      //     query: this.$router.history.current.query
-      // })
-      // location.reload()
+<script>
+export default {
+  methods: {
+    handleSetLanguage(lang) {
+        this.$store.dispatch('setLocale', lang)
+        const langPrefix = (lang === 'zh')?`` :`/${lang}`
+        const path = this.$router.history.current.path.split("/")
+          .filter((f,index) => (lang !== 'zh')? index > 0 : index > 1)
+          .join("/")
+        location.replace(`${langPrefix}/${path}`)
+    },
   }
 }
 </script>

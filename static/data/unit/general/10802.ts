@@ -36,8 +36,8 @@ export const GENERAL_10802: Unit = {
     rarity: Rarity.R,
     element: Element.WIND,
     position: Position.ATTACKER,
-    isLimited: false,
     potential: PotentialType.NR,
+    isLimited: false,
     releaseDate: "2020-12-14",
     essence: UnitEssenceIcon[UnitID.nana],
     thumbnail: UnitEssenceIcon[UnitID.nana],
@@ -45,5 +45,6 @@ export const GENERAL_10802: Unit = {
     clothes: UnitFullImage[UnitID.nana],
     tagList: [ 3, 6, 12, 14, 16, 22 ],
     otherVersion: [],
-    puzzle: [ PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2023_SUMMER_1 ]
+    puzzle: [ PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2023_SUMMER_1 ],
+    skillSet: []
 }

@@ -2,7 +2,6 @@ export default {
     "Home Page": "Home Page",
     "Unit Info": "Unit Info",
     "Recruitment": "Recruitment",
-    "Event Timeline": "Event Timeline",
     "Dispatch": "Dispatch",
     "Potential Calculator": "Potential Calculator",
     "Maxed Data": "Maxed Data",

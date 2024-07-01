@@ -146,7 +146,7 @@ export default class NoUnitSelected extends Vue{
 
     handleSelectUnit(unit: Unit): void {
         this.$router.push({
-            path: `/unit/${unit.metaCode}`,
+            path: `/${this.$i18n.locale}/unit/${unit.metaCode}`,
         });
     }
 }

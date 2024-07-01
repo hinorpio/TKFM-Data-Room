@@ -20,11 +20,11 @@ export interface Unit {
     background: {
       [lang in Locale]?: string | null;
     };
-    rarity?: Rarity;
-    element?: Element;
-    position?: Position;
+    rarity: Rarity;
+    element: Element;
+    position: Position;
+    potential: PotentialType;
     isLimited: boolean;
-    potential?: PotentialType;
     releaseDate: string;
     essence: string;
     thumbnail: string;
@@ -32,7 +32,7 @@ export interface Unit {
     clothes: string[];
     tagList: number[];
     otherVersion: UnitID[];
-    skillSet?: SkillSet[];
+    skillSet: SkillSet[];
     discipline?: Discipline[];
     liberateSkillSet?: LiberateSkillSet[];
     puzzle?: PuzzleCode[];

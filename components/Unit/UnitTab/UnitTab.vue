@@ -23,13 +23,13 @@
             <v-tab-item>
                 <potential-tab :unit="unit" />
             </v-tab-item>
-            <v-tab-item>
+            <v-tab-item v-if="isDiscipline">
                 <discipline-tab :unit="unit" />
             </v-tab-item>
-            <v-tab-item>
+            <v-tab-item v-if="isPuzzle">
                 <puzzle-tab :unit="unit" />
             </v-tab-item>
-            <v-tab-item>
+            <v-tab-item v-if="isOtherVersion">
                 <other-version-tab :unit="unit" />
             </v-tab-item>
             <!-- <v-tab-item>
@@ -72,6 +72,21 @@ export default class UnitTab extends Vue {
     get isLiberate(): Boolean {
         const liberateSkillSet = this.unit.liberateSkillSet
         return (liberateSkillSet) ?liberateSkillSet.length > 0 :false;
+    }
+
+    get isDiscipline(): Boolean {
+        const discipline = this.unit.discipline
+        return (discipline) ?discipline.length > 0 :false;
+    }
+
+    get isPuzzle(): Boolean {
+        const puzzle = this.unit.puzzle
+        return (puzzle) ?puzzle.length > 0 :false;
+    }
+
+    get isOtherVersion(): Boolean {
+        const otherVersion = this.unit.otherVersion
+        return (otherVersion) ?otherVersion.length > 0 :false;
     }
 }
 </script>

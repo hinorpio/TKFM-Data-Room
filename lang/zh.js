@@ -2,7 +2,6 @@ export default {
     "Home Page": "首頁",
     "Unit Info": "角色資訊",
     "Recruitment": "全境徵才",
-    "Event Timeline": "活動時序",
     "Dispatch": "派遣",
     "Potential Calculator": "潛力計算",
     "Maxed Data": "完全體數據",

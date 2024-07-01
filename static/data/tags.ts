@@ -8,7 +8,7 @@ const tags: Tag[] = [
         name: {
             zh: "火屬性",
             cn: "火属性",
-            en: "Fire attribute",
+            en: "Fire Attr.",
             jp: "火属性",
             ko: "화속성",
         }

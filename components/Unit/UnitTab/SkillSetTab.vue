@@ -54,7 +54,7 @@ export default class SkillSetTab extends Vue {
     }
 
     getLastDate(date: string | null): String {
-        return date === null
+        return date === ''
         ? ` - ${this.$t('Current Version')}`
         : ` - ${this.$t('As of')} ${date}`;
     }
