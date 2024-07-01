@@ -23,7 +23,7 @@ export interface LiberateSkillSet {
         [lang in Locale]?: null | string;
     };
     detail: {
-        [stage in LiberationStage]: LiberateStage;
+        [stage in LiberationStage]?: LiberateStage;
     };
   }
   

@@ -1,9 +1,9 @@
-import { Locale, Rarity, Element, Position, PotentialType } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitID } from '@/plugins/utils/enums';
 import { Tag } from './global/tag';
 import { SkillSet } from './unit/skillset';
 import { LiberateSkillSet } from './unit/liberateSkillSet';
 import { Discipline } from './unit/discipline';
-import { Puzzle } from './unit/puzzle';
+import { Puzzle } from './global/puzzle';
 
 export interface Unit {
     ID: string;
@@ -20,22 +20,20 @@ export interface Unit {
     background: {
       [lang in Locale]?: string | null;
     };
-    rarity: Rarity;
-    element: Element;
-    position: Position;
+    rarity?: Rarity;
+    element?: Element;
+    position?: Position;
     isLimited: boolean;
-    potential: PotentialType;
+    potential?: PotentialType;
     releaseDate: string;
     essence: string;
     thumbnail: string;
     selection: string;
-    cloth_one: string[];
-    cloth_two: string[];
-    cloth_three: string[];
+    clothes: string[];
     tagList: number[];
-    otherVersion: number[];
-    skillSet: SkillSet[];
+    otherVersion: UnitID[];
+    skillSet?: SkillSet[];
     discipline?: Discipline[];
     liberateSkillSet?: LiberateSkillSet[];
-    puzzle?: Puzzle[];
+    puzzle?: PuzzleCode[];
 }

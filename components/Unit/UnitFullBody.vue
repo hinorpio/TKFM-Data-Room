@@ -1,18 +1,8 @@
 <template>
     <v-carousel v-model="fullBody" width="100%" :height="imgHeight" hide-delimiter-background>
-        <v-carousel-item>
+        <v-carousel-item v-for="(clothes, index) in unit.clothes" :key="index">
             <div class="image-container">
-                <v-img :src="unit.cloth_one[0]" :lazy-src="unit.cloth_one[0]" height="100%" width="100%" contain />
-            </div>
-        </v-carousel-item>
-        <v-carousel-item>
-            <div class="image-container">
-                <v-img :src="unit.cloth_two[0]" :lazy-src="unit.cloth_two[0]" height="100%" width="100%" contain   />
-            </div>
-        </v-carousel-item>
-        <v-carousel-item>
-            <div class="image-container">
-                <v-img :src="unit.cloth_three[0]" :lazy-src="unit.cloth_three[0]" height="100%" width="100%" contain  />
+                <v-img :src="clothes" :lazy-src="clothes" height="100%" width="100%" contain />
             </div>
         </v-carousel-item>
     </v-carousel>

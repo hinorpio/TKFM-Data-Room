@@ -10,9 +10,12 @@ import {
     PotentialBuffType,
     ItemCode,
     DispatchType,
+    PuzzleCode,
+    UnitID
 } from '@/plugins/utils/enums';
 import * as Icon from './icon';
 import * as Image from './image';
+import * as Preview from './preview';
 import { NuxtError } from '@nuxt/types';
 
 export const CustomError: {[code in ErrorCode]: NuxtError} = {
@@ -220,4 +223,128 @@ export const DispatchImage = {
         [Locale.jp]: Image.DISPATCH_SEALED_CHAMBER_JP,
         [Locale.ko]: Image.DISPATCH_SEALED_CHAMBER_KO,
     },
+}
+
+export const PuzzlePreview = {
+    [PuzzleCode.EVENT_2021_SUMMER_1]: Preview.PUZZLE_EVENT_2021_SUMMER_1,
+    [PuzzleCode.EVENT_2021_SUMMER_1_DMM]: Preview.PUZZLE_EVENT_2021_SUMMER_1_DMM,
+    [PuzzleCode.EVENT_2021_SUMMER_2]: Preview.PUZZLE_EVENT_2021_SUMMER_2,
+    [PuzzleCode.EVENT_2021_SUMMER_3]: Preview.PUZZLE_EVENT_2021_SUMMER_3,
+    [PuzzleCode.EVENT_2021_SUMMER_4]: Preview.PUZZLE_EVENT_2021_SUMMER_4,
+    [PuzzleCode.EVENT_2021_XMAS_1]: Preview.PUZZLE_EVENT_2021_XMAS_1,
+    [PuzzleCode.EVENT_2021_XMAS_2]: Preview.PUZZLE_EVENT_2021_XMAS_2,
+    [PuzzleCode.EVENT_2022_SUMMER_1]: Preview.PUZZLE_EVENT_2022_SUMMER_1,
+    [PuzzleCode.EVENT_2022_SUMMER_2]: Preview.PUZZLE_EVENT_2022_SUMMER_2,
+    [PuzzleCode.EVENT_2022_SUMMER_3]: Preview.PUZZLE_EVENT_2022_SUMMER_3,
+    [PuzzleCode.EVENT_2022_SUMMER_4]: Preview.PUZZLE_EVENT_2022_SUMMER_4,
+    [PuzzleCode.EVENT_2022_XMAS_1]: Preview.PUZZLE_EVENT_2022_XMAS_1,
+    [PuzzleCode.EVENT_2023_CNY_1]: Preview.PUZZLE_EVENT_2023_CNY_1,
+    [PuzzleCode.EVENT_2023_SUMMER_1]: Preview.PUZZLE_EVENT_2023_SUMMER_1,
+    [PuzzleCode.EVENT_2023_SUMMER_2]: Preview.PUZZLE_EVENT_2023_SUMMER_2,
+    [PuzzleCode.EVENT_2023_SUMMER_3]: Preview.PUZZLE_EVENT_2023_SUMMER_3,
+    [PuzzleCode.EVENT_2023_SUMMER_4]: Preview.PUZZLE_EVENT_2023_SUMMER_4,
+    [PuzzleCode.EVENT_2023_XMAS_1]: Preview.PUZZLE_EVENT_2023_XMAS_1,
+    [PuzzleCode.EVENT_2023_XMAS_2]: Preview.PUZZLE_EVENT_2023_XMAS_2,
+    [PuzzleCode.EVENT_2024_SUMMER_1]: Preview.PUZZLE_EVENT_2024_SUMMER_1,
+    [PuzzleCode.EVENT_2024_SUMMER_2]: Preview.PUZZLE_EVENT_2024_SUMMER_2,
+    [PuzzleCode.EVENT_2024_SUMMER_3]: Preview.PUZZLE_EVENT_2024_SUMMER_3,
+    [PuzzleCode.EVENT_2024_SUMMER_4]: Preview.PUZZLE_EVENT_2024_SUMMER_4,
+    [PuzzleCode.HUMAN_SARIA]: Preview.PUZZLE_HUMAN_SARIA,
+    [PuzzleCode.HUMAN_PETRA]: Preview.PUZZLE_HUMAN_PETRA,
+    [PuzzleCode.HUMAN_KIKYOU]: Preview.PUZZLE_HUMAN_KIKYOU,
+    [PuzzleCode.HUMAN_KAEDE]: Preview.PUZZLE_HUMAN_KAEDE,
+    [PuzzleCode.HUMAN_OLA]: Preview.PUZZLE_HUMAN_OLA,
+    [PuzzleCode.HUMAN_KANI]: Preview.PUZZLE_HUMAN_KANI,
+    [PuzzleCode.HUMAN_CHARLENE]: Preview.PUZZLE_HUMAN_CHARLENE,
+    [PuzzleCode.HUMAN_MARTINA]: Preview.PUZZLE_HUMAN_MARTINA,
+    [PuzzleCode.HUMAN_CLARIE]: Preview.PUZZLE_HUMAN_CLARIE,
+    [PuzzleCode.HUMAN_ANNA]: Preview.PUZZLE_HUMAN_ANNA,
+    [PuzzleCode.HUMAN_BLAIRE]: Preview.PUZZLE_HUMAN_BLAIRE,
+    [PuzzleCode.HUMAN_NATASHA]: Preview.PUZZLE_HUMAN_NATASHA,
+    [PuzzleCode.DEMON_FLAY]: Preview.PUZZLE_DEMON_FLAY,
+    [PuzzleCode.DEMON_MANUELLA]: Preview.PUZZLE_DEMON_MANUELLA,
+    [PuzzleCode.DEMON_LORI]: Preview.PUZZLE_DEMON_LORI,
+    [PuzzleCode.DEMON_MINNOW]: Preview.PUZZLE_DEMON_MINNOW,
+    [PuzzleCode.DEMON_LAMIA]: Preview.PUZZLE_DEMON_LAMIA,
+    [PuzzleCode.DEMON_HARPY]: Preview.PUZZLE_DEMON_HARPY,
+    [PuzzleCode.DEMON_STEED]: Preview.PUZZLE_DEMON_STEED,
+    [PuzzleCode.DEMON_MUMU]: Preview.PUZZLE_DEMON_MUMU,
+    [PuzzleCode.SKY_PUNISHMENT]: Preview.PUZZLE_SKY_PUNISHMENT,
+    [PuzzleCode.SKY_BLISS]: Preview.PUZZLE_SKY_BLISS,
+}
+
+export const PuzzleImage = {
+    [PuzzleCode.EVENT_2021_SUMMER_1]: Image.PUZZLE_EVENT_2021_SUMMER_1,
+    [PuzzleCode.EVENT_2021_SUMMER_1_DMM]: Image.PUZZLE_EVENT_2021_SUMMER_1_DMM,
+    [PuzzleCode.EVENT_2021_SUMMER_2]: Image.PUZZLE_EVENT_2021_SUMMER_2,
+    [PuzzleCode.EVENT_2021_SUMMER_3]: Image.PUZZLE_EVENT_2021_SUMMER_3,
+    [PuzzleCode.EVENT_2021_SUMMER_4]: Image.PUZZLE_EVENT_2021_SUMMER_4,
+    [PuzzleCode.EVENT_2021_XMAS_1]: Image.PUZZLE_EVENT_2021_XMAS_1,
+    [PuzzleCode.EVENT_2021_XMAS_2]: Image.PUZZLE_EVENT_2021_XMAS_2,
+    [PuzzleCode.EVENT_2022_SUMMER_1]: Image.PUZZLE_EVENT_2022_SUMMER_1,
+    [PuzzleCode.EVENT_2022_SUMMER_2]: Image.PUZZLE_EVENT_2022_SUMMER_2,
+    [PuzzleCode.EVENT_2022_SUMMER_3]: Image.PUZZLE_EVENT_2022_SUMMER_3,
+    [PuzzleCode.EVENT_2022_SUMMER_4]: Image.PUZZLE_EVENT_2022_SUMMER_4,
+    [PuzzleCode.EVENT_2022_XMAS_1]: Image.PUZZLE_EVENT_2022_XMAS_1,
+    [PuzzleCode.EVENT_2023_CNY_1]: Image.PUZZLE_EVENT_2023_CNY_1,
+    [PuzzleCode.EVENT_2023_SUMMER_1]: Image.PUZZLE_EVENT_2023_SUMMER_1,
+    [PuzzleCode.EVENT_2023_SUMMER_2]: Image.PUZZLE_EVENT_2023_SUMMER_2,
+    [PuzzleCode.EVENT_2023_SUMMER_3]: Image.PUZZLE_EVENT_2023_SUMMER_3,
+    [PuzzleCode.EVENT_2023_SUMMER_4]: Image.PUZZLE_EVENT_2023_SUMMER_4,
+    [PuzzleCode.EVENT_2023_XMAS_1]: Image.PUZZLE_EVENT_2023_XMAS_1,
+    [PuzzleCode.EVENT_2023_XMAS_2]: Image.PUZZLE_EVENT_2023_XMAS_2,
+    [PuzzleCode.EVENT_2024_SUMMER_1]: Image.PUZZLE_EVENT_2024_SUMMER_1,
+    [PuzzleCode.EVENT_2024_SUMMER_2]: Image.PUZZLE_EVENT_2024_SUMMER_2,
+    [PuzzleCode.EVENT_2024_SUMMER_3]: Image.PUZZLE_EVENT_2024_SUMMER_3,
+    [PuzzleCode.EVENT_2024_SUMMER_4]: Image.PUZZLE_EVENT_2024_SUMMER_4,
+    [PuzzleCode.HUMAN_SARIA]: Image.PUZZLE_HUMAN_SARIA,
+    [PuzzleCode.HUMAN_PETRA]: Image.PUZZLE_HUMAN_PETRA,
+    [PuzzleCode.HUMAN_KIKYOU]: Image.PUZZLE_HUMAN_KIKYOU,
+    [PuzzleCode.HUMAN_KAEDE]: Image.PUZZLE_HUMAN_KAEDE,
+    [PuzzleCode.HUMAN_OLA]: Image.PUZZLE_HUMAN_OLA,
+    [PuzzleCode.HUMAN_KANI]: Image.PUZZLE_HUMAN_KANI,
+    [PuzzleCode.HUMAN_CHARLENE]: Image.PUZZLE_HUMAN_CHARLENE,
+    [PuzzleCode.HUMAN_MARTINA]: Image.PUZZLE_HUMAN_MARTINA,
+    [PuzzleCode.HUMAN_CLARIE]: Image.PUZZLE_HUMAN_CLARIE,
+    [PuzzleCode.HUMAN_ANNA]: Image.PUZZLE_HUMAN_ANNA,
+    [PuzzleCode.HUMAN_BLAIRE]: Image.PUZZLE_HUMAN_BLAIRE,
+    [PuzzleCode.HUMAN_NATASHA]: Image.PUZZLE_HUMAN_NATASHA,
+    [PuzzleCode.DEMON_FLAY]: Image.PUZZLE_DEMON_FLAY,
+    [PuzzleCode.DEMON_MANUELLA]: Image.PUZZLE_DEMON_MANUELLA,
+    [PuzzleCode.DEMON_LORI]: Image.PUZZLE_DEMON_LORI,
+    [PuzzleCode.DEMON_MINNOW]: Image.PUZZLE_DEMON_MINNOW,
+    [PuzzleCode.DEMON_LAMIA]: Image.PUZZLE_DEMON_LAMIA,
+    [PuzzleCode.DEMON_HARPY]: Image.PUZZLE_DEMON_HARPY,
+    [PuzzleCode.DEMON_STEED]: Image.PUZZLE_DEMON_STEED,
+    [PuzzleCode.DEMON_MUMU]: Image.PUZZLE_DEMON_MUMU,
+    [PuzzleCode.SKY_PUNISHMENT]: Image.PUZZLE_SKY_PUNISHMENT,
+    [PuzzleCode.SKY_BLISS]: Image.PUZZLE_SKY_BLISS,
+}
+
+export const UnitDisciplinePreview = {
+    [UnitID.baal]: [ Preview.DISCIPLINE_10001_1, Preview.DISCIPLINE_10001_2, Preview.DISCIPLINE_10001_3 ],
+    [UnitID.satan]: [ Preview.DISCIPLINE_10002_1, Preview.DISCIPLINE_10002_2, Preview.DISCIPLINE_10002_3 ],
+    [UnitID.iblis]: [ Preview.DISCIPLINE_10003_1, Preview.DISCIPLINE_10003_2, Preview.DISCIPLINE_10003_3 ],
+    [UnitID.nana]: [ Preview.DISCIPLINE_10802_1, Preview.DISCIPLINE_10802_2, Preview.DISCIPLINE_10802_3 ],
+}
+
+export const UnitEssenceIcon = {
+    [UnitID.baal]: Icon.ESSENCE_10001,
+    [UnitID.satan]: Icon.ESSENCE_10002,
+    [UnitID.iblis]: Icon.ESSENCE_10003,
+    [UnitID.nana]: Icon.ESSENCE_10802,
+}
+
+export const UnitSelectionPreview = {
+    [UnitID.baal]: Preview.SELECTION_10001,
+    [UnitID.satan]: Preview.SELECTION_10002,
+    [UnitID.iblis]: Preview.SELECTION_10003,
+    [UnitID.nana]: Preview.SELECTION_10802,
+}
+
+export const UnitFullImage = {
+    [UnitID.baal]: [ Image.FULLIMAGE_10001_0, Image.FULLIMAGE_10001_1, Image.FULLIMAGE_10001_2 ],
+    [UnitID.satan]: [ Image.FULLIMAGE_10002_0, Image.FULLIMAGE_10002_1, Image.FULLIMAGE_10002_2 ],
+    [UnitID.iblis]: [ Image.FULLIMAGE_10002_0, Image.FULLIMAGE_10003_1, Image.FULLIMAGE_10003_2 ],
+    [UnitID.nana]: [ Image.FULLIMAGE_10802_0, Image.FULLIMAGE_10802_1, Image.FULLIMAGE_10802_2 ],
 }

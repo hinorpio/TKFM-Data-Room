@@ -59,4 +59,6 @@ export default {
     "Buff": "Buff",
     "Show Actual Material": "Show Actual Material",
     "Show Combined Material": "Show Combined Material",
+    "Potential Material": "Potential Material",
+    "Discipline Item": "Discipline Item",
 }

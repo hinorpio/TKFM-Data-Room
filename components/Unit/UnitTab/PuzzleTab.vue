@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-8">
-        <div v-for="(puzzle, index) in unit.puzzle" :key="index">
+    <div v-if="isMounted" class="mt-8">
+        <div v-for="(puzzle, index) in puzzleData" :key="index">
             <v-row v-if="$vuetify.breakpoint.name == 'xs'">
                 <v-col :cols="12">
                     <v-img :src="puzzle.preview" :lazy-src="puzzle.preview" max-width="100%" />
@@ -37,9 +37,9 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { Locale } from '@/plugins/utils/enums'
+import { Locale, PuzzleCode } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit'
-import { Puzzle } from '@/interface/unit/puzzle'
+import { Puzzle } from '@/interface/global/puzzle'
 import BasicIamgeViewer from "@/components/Unit/UnitTab/LiberationTab.vue";
 
 @Component({
@@ -51,9 +51,20 @@ export default class PuzzleTab extends Vue {
     @Prop({ type: Object, required: true, default: () => ({}) })
     unit!: Unit;
 
+    isMounted: boolean = false;
+    puzzleData: Puzzle[] = []
     visible: boolean = false;
     currentTitle: string = "";
     currentPhoto: string = "";
+
+    mounted(): void{
+        this.unit.puzzle?.forEach((puzzleCode: PuzzleCode) => {
+            const puzzle = this.$util.getPuzzle(puzzleCode)
+            if(puzzle)
+                this.puzzleData.push(puzzle)
+        })
+        this.isMounted = true
+    }
 
     get titleClass(): string {
         switch (this.$vuetify.breakpoint.name) {
@@ -76,8 +87,6 @@ export default class PuzzleTab extends Vue {
     getPuzzleName(puzzle: Puzzle): string{
         const locale = this.$i18n.locale as keyof typeof Locale;
         const result = puzzle.name[locale];
-        console.log(puzzle.name);
-        
         return result ?? ''
     }
 }

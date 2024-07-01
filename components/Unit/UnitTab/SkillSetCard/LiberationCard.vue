@@ -18,7 +18,7 @@
             <div v-show="showDetail">
                 <v-card-text>
                     <v-row>
-                        <v-col v-for="(material, index) in showVersion[section].material" :key="index" :cols="(12/itemsPerRow)">
+                        <v-col v-for="(material, index) in showVersion.detail[section].material" :key="index" :cols="(12/itemsPerRow)">
                                 <v-avatar size="2em" tile class="ml-2">
                                     <v-img :src="getItemIcon(material.code)"  />
                                 </v-avatar>
@@ -28,8 +28,8 @@
                         </v-col>
                     </v-row>
                     <v-divider class="mt-4"></v-divider>
-                    <div v-for="(skillset, key) in showVersion[section].skill[$i18n.locale]" :key="key" class="mb-2">
-                        <general-skill-card class="mb-4" :showVersion="showVersion[section].skill[$i18n.locale]" :skilltype="getSkillType(key)" color="#c60244" />
+                    <div v-for="(skillset, key) in showVersion.detail[section].skill[$i18n.locale]" :key="key" class="mb-2">
+                        <general-skill-card class="mb-4" :showVersion="showVersion.detail[section].skill[$i18n.locale]" :skilltype="getSkillType(key)" color="#c60244" />
                     </div>
                 </v-card-text>
             </div>

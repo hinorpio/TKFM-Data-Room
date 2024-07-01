@@ -1,16 +1,20 @@
 import Vue from 'vue'
 
-import Potential from "./Potential";
-import Global from "./Global";
-import Items from "./Items";
-import Tags from "./Tags";
-import Units from "./Units";
+import Potential from "./components/Potential";
+import Global from "./components/Global";
+import Items from "./components/Items";
+import Dispatch from "./components/Dispatch";
+import Tags from "./components/Tags";
+import Puzzles from "./components/Puzzles";
+import Units from "./components/Units";
 
 const util = {
     ...Global,
     ...Items,
+    ...Dispatch,
     ...Potential,
     ...Tags,
+    ...Puzzles,
     ...Units
 }
 
