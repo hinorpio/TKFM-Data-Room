@@ -1,4 +1,4 @@
-import { Tag } from '@/interface/global/tag';
+import { Tag } from '@/interface/tag';
 import { Unit } from '@/interface/unit';
 import tagData from '@/static/data/tags';
 

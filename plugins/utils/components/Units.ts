@@ -1,4 +1,4 @@
-import { ErrorMessage, UnitID } from '../enums'
+import { ErrorMessage, UnitCode } from '../enums'
 import { Unit } from '@/interface/unit';
 import { Discipline } from '@/interface/unit/discipline';
 import { LiberateSkillSet } from '@/interface/unit/liberateSkillSet';
@@ -9,7 +9,7 @@ export default {
     getAllUnitGeneralData(): Unit[]{
         try {
             const result: Unit[] = [];
-            Object.entries(UnitID).forEach((character) => {
+            Object.entries(UnitCode).forEach((character) => {
                 const id = character[1] 
                 result.push(this.getGeneralUnitData(id))               
             });
@@ -19,7 +19,7 @@ export default {
             return [];
         }
     },
-    getUnitsByIDs(ids: UnitID[]): Unit[]{
+    getUnitsByIDs(ids: UnitCode[]): Unit[]{
         try {
             const result: Unit[] = [];
             ids.forEach(id => {
@@ -32,29 +32,30 @@ export default {
     },
     getUnitByMetacode(metaCode: string): Unit {
         try {
-            console.log();
-            if((UnitID as any)[metaCode] === undefined)
+            console.log(metaCode);
+            
+            if((UnitCode as any)[metaCode] === undefined)
                 throw new Error(ErrorMessage.CANNOT_FIND_CHARACTER);
             return {
-                ...this.getGeneralUnitData((UnitID as any)[metaCode]),
-                discipline: this.getDisciplineData((UnitID as any)[metaCode]),
-                liberateSkillSet: this.getLiberateSkillSetData((UnitID as any)[metaCode]),
-                skillSet: this.getSkillSetData((UnitID as any)[metaCode]),
+                ...this.getGeneralUnitData((UnitCode as any)[metaCode]),
+                discipline: this.getDisciplineData((UnitCode as any)[metaCode]),
+                liberateSkillSet: this.getLiberateSkillSetData((UnitCode as any)[metaCode]),
+                skillSet: this.getSkillSetData((UnitCode as any)[metaCode]),
             };
         } catch (error) {
             throw error;
         }
     },
-    getGeneralUnitData(code: UnitID): Unit {
+    getGeneralUnitData(code: UnitCode): Unit {
         return UnitGeneral[code] ?? DefaultUnit;
     },
-    getSkillSetData(code: UnitID): SkillSet[] {
+    getSkillSetData(code: UnitCode): SkillSet[] {
         return UnitSkillSet[code] ?? [];
     },
-    getDisciplineData(code: UnitID): Discipline[] {
+    getDisciplineData(code: UnitCode): Discipline[] {
         return UnitDiscipline[code] ?? [];
     },
-    getLiberateSkillSetData(code: UnitID): LiberateSkillSet[] {
+    getLiberateSkillSetData(code: UnitCode): LiberateSkillSet[] {
         return UnitLiberateSkillSet[code] ?? [];
     },
 }

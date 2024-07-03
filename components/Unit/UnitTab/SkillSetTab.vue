@@ -9,6 +9,7 @@
             <general-skill-card class="mb-4" :showVersion="showVersion" :skilltype="getSkillType('PASSIVE_1')" />
             <general-skill-card class="mb-4" :showVersion="showVersion" :skilltype="getSkillType('PASSIVE_2')" />
             <general-skill-card class="mb-4" :showVersion="showVersion" :skilltype="getSkillType('PASSIVE_3')" />
+            <general-skill-card class="mb-4" :showVersion="showVersion" :skilltype="getSkillType('DISPATCH')" />
             <general-skill-card class="mb-4" :showVersion="showVersion" :skilltype="getSkillType('GENERAL_1')" />
             <general-skill-card class="mb-4" :showVersion="showVersion" :skilltype="getSkillType('GENERAL_2')" />
         </v-col>

@@ -1,4 +1,4 @@
-import { Item } from '@/interface/global/item';
+import { Item } from '@/interface/item';
 import { ItemCode } from '../enums';
 import itemData from '@/static/data/items';
 

@@ -35,7 +35,7 @@
 import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
 import { Locale } from '@/plugins/utils/enums'
-import { MaterialSummary } from '@/interface/global/potential'
+import { MaterialSummary } from '@/interface/potential'
 
 @Component
 export default class MaterialResult extends Vue {

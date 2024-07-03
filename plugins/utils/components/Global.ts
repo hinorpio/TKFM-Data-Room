@@ -17,7 +17,7 @@ import {
     PotentialBuffIcon,
     SkillTypeColor,
     CustomError,
-} from '~/static/data/ImageSrc';
+} from '~/static/const';
 
 export default {
     showPreLineText(text: string): string{

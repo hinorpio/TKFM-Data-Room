@@ -6,6 +6,7 @@ import Items from "./components/Items";
 import Dispatch from "./components/Dispatch";
 import Tags from "./components/Tags";
 import Puzzles from "./components/Puzzles";
+import Events from "./components/Events";
 import Units from "./components/Units";
 
 const util = {
@@ -15,6 +16,7 @@ const util = {
     ...Potential,
     ...Tags,
     ...Puzzles,
+    ...Events,
     ...Units
 }
 

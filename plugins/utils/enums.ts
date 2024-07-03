@@ -1,9 +1,9 @@
 export enum Locale {
-    zh = 'zh',
-    cn = 'cn',
+    tc = 'tc',
+    sc = 'sc',
     en = 'en',
     jp = 'jp',
-    ko = 'ko',
+    kr = 'kr',
 }
 
 export enum ErrorCode{
@@ -57,24 +57,6 @@ export enum SkillType {
     GENERAL_1 = 'GENERAL_1',
     GENERAL_2 = 'GENERAL_2',
     DISPATCH = 'DISPATCH',
-}
-
-export enum SkillTypeColor {
-    BASE_STAT = '#925be6',
-    SKILL_S = '#f0b023',
-    SKILL_1 = '#f0b023',
-    SKILL_2 = '#f0b023',
-    SKILL_3 = '#f0b023',
-    SKILL_4 = '#f0b023',
-    SKILL_5 = '#f0b023',
-    ATTACK = '#c60244',
-    LEADER = '#085bad',
-    PASSIVE_1 = '#43be57',
-    PASSIVE_2 = '#43be57',
-    PASSIVE_3 = '#43be57',
-    GENERAL_1 = '#e591ea',
-    GENERAL_2 = '#e591ea',
-    DISPATCH = '#e591ea',
 }
 
 export enum LiberationStage {
@@ -258,9 +240,22 @@ export enum PuzzleCode {
     SKY_BLISS = 'SKY_BLISS',
 }
 
-export enum UnitID {
-    baal = '10001',
-    satan = '10002',
-    iblis = '10003',
-    nana = '10802',
+export enum EventType {
+    CHALLENGE = 'CHALLENGE',
+    POINT = 'POINT',
+    STONE = 'STONE',
+    DISCIPLINE = 'DISCIPLINE',
+    MATERIAL = 'MATERIAL',
+    SLIVER = 'SLIVER',
+    SIDESTORY = 'SIDESTORY',
+    SPIRE = 'SPIRE',
+    TIMERIFT = 'TIMERIFT',
+    SPECIAL = 'SPECIAL',
+}
+
+export enum UnitCode {
+    baal = 'SSR-001',
+    satan = 'SSR-002',
+    iblis = 'SSR-003',
+    nana = 'R-001',
 }

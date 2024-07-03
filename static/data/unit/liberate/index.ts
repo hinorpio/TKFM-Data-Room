@@ -1,12 +1,12 @@
 import { LiberateSkillSet } from "@/interface/unit/liberateSkillSet";
-import { UnitID } from "@/plugins/utils/enums";
+import { UnitCode } from "@/plugins/utils/enums";
 
-import { LiberateSkillSet_10001 } from "./10001";
-import { LiberateSkillSet_10002 } from "./10002";
-import { LiberateSkillSet_10003 } from "./10003";
+import { LiberateSkillSet_10001 } from "./SSR-001";
+import { LiberateSkillSet_10002 } from "./SSR-002";
+import { LiberateSkillSet_10003 } from "./SSR-003";
 
-export const UnitLiberateSkillSet: { [key in UnitID]?: LiberateSkillSet[] } = {
-    [UnitID.baal]: LiberateSkillSet_10001,
-    [UnitID.satan]: LiberateSkillSet_10002,
-    [UnitID.iblis]: LiberateSkillSet_10003,
+export const UnitLiberateSkillSet: { [key in UnitCode]?: LiberateSkillSet[] } = {
+    [UnitCode.baal]: LiberateSkillSet_10001,
+    [UnitCode.satan]: LiberateSkillSet_10002,
+    [UnitCode.iblis]: LiberateSkillSet_10003,
 };

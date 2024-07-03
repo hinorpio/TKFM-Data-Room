@@ -1,23 +1,23 @@
-import { Dispatch } from '@/interface/global/dispatch';
+import { Dispatch } from '@/interface/dispatch';
 import { DispatchType, ItemCode } from '@/plugins/utils/enums';
-import { DispatchImage } from '~/static/data/ImageSrc';
+import { DispatchImage } from '~/static/const';
 
 const dispatch: Dispatch[] = [
     {
         type: DispatchType.CAESAR_ROOM,
         image: {
-            zh: DispatchImage.CAESAR_ROOM.zh,
-            cn: DispatchImage.CAESAR_ROOM.cn,
+            tc: DispatchImage.CAESAR_ROOM.tc,
+            sc: DispatchImage.CAESAR_ROOM.sc,
             en: DispatchImage.CAESAR_ROOM.en,
             jp: DispatchImage.CAESAR_ROOM.jp,
-            ko: DispatchImage.CAESAR_ROOM.ko,
+            kr: DispatchImage.CAESAR_ROOM.kr,
         },
         name: {
-            zh: "魔王寢室",
-            cn: "",
+            tc: "魔王寢室",
+            sc: "",
             en: "Caesar's Room",
             jp: "",
-            ko: "",
+            kr: "",
         },
         item: [
             ItemCode.IRON_LV1,
@@ -30,18 +30,18 @@ const dispatch: Dispatch[] = [
     {
         type: DispatchType.DUNGEON,
         image: {
-            zh: DispatchImage.DUNGEON.zh,
-            cn: DispatchImage.DUNGEON.cn,
+            tc: DispatchImage.DUNGEON.tc,
+            sc: DispatchImage.DUNGEON.sc,
             en: DispatchImage.DUNGEON.en,
             jp: DispatchImage.DUNGEON.jp,
-            ko: DispatchImage.DUNGEON.ko,
+            kr: DispatchImage.DUNGEON.kr,
         },
         name: {
-            zh: "地牢",
-            cn: "",
+            tc: "地牢",
+            sc: "",
             en: "Dungeon",
             jp: "",
-            ko: "",
+            kr: "",
         },
         item: [
             ItemCode.WATER_LV1,
@@ -54,18 +54,18 @@ const dispatch: Dispatch[] = [
     {
         type: DispatchType.TRAINING_CENTER,
         image: {
-            zh: DispatchImage.TRAINING_CENTER.zh,
-            cn: DispatchImage.TRAINING_CENTER.cn,
+            tc: DispatchImage.TRAINING_CENTER.tc,
+            sc: DispatchImage.TRAINING_CENTER.sc,
             en: DispatchImage.TRAINING_CENTER.en,
             jp: DispatchImage.TRAINING_CENTER.jp,
-            ko: DispatchImage.TRAINING_CENTER.ko,
+            kr: DispatchImage.TRAINING_CENTER.kr,
         },
         name: {
-            zh: "訓練所",
-            cn: "",
+            tc: "訓練所",
+            sc: "",
             en: "Training Center",
             jp: "",
-            ko: "",
+            kr: "",
         },
         item: [
             ItemCode.CLAW_LV1,
@@ -78,18 +78,18 @@ const dispatch: Dispatch[] = [
     {
         type: DispatchType.TREASURE_ROOM,
         image: {
-            zh: DispatchImage.TREASURE_ROOM.zh,
-            cn: DispatchImage.TREASURE_ROOM.cn,
+            tc: DispatchImage.TREASURE_ROOM.tc,
+            sc: DispatchImage.TREASURE_ROOM.sc,
             en: DispatchImage.TREASURE_ROOM.en,
             jp: DispatchImage.TREASURE_ROOM.jp,
-            ko: DispatchImage.TREASURE_ROOM.ko,
+            kr: DispatchImage.TREASURE_ROOM.kr,
         },
         name: {
-            zh: "寶藏庫",
-            cn: "",
+            tc: "寶藏庫",
+            sc: "",
             en: "Treasure Room",
             jp: "",
-            ko: "",
+            kr: "",
         },
         item: [
             ItemCode.MIXTURE_LV1,
@@ -102,18 +102,18 @@ const dispatch: Dispatch[] = [
     {
         type: DispatchType.SEALED_CHAMBER,
         image: {
-            zh: DispatchImage.SEALED_CHAMBER.zh,
-            cn: DispatchImage.SEALED_CHAMBER.cn,
+            tc: DispatchImage.SEALED_CHAMBER.tc,
+            sc: DispatchImage.SEALED_CHAMBER.sc,
             en: DispatchImage.SEALED_CHAMBER.en,
             jp: DispatchImage.SEALED_CHAMBER.jp,
-            ko: DispatchImage.SEALED_CHAMBER.ko,
+            kr: DispatchImage.SEALED_CHAMBER.kr,
         },
         name: {
-            zh: "封印密室",
-            cn: "",
+            tc: "封印密室",
+            sc: "",
             en: "Sealed Chamber",
             jp: "",
-            ko: "",
+            kr: "",
         },
         item: [
             ItemCode.DUST_LV1,

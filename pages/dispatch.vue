@@ -9,7 +9,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
-import { Dispatch } from '@/interface/global/dispatch'
+import { Dispatch } from '@/interface/dispatch'
 import DispatchSummary from "@/components/Dispatch/DispatchSummary.vue";
 import DispatchPassive from "@/components/Dispatch/DispatchPassive.vue";
 

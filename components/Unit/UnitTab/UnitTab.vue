@@ -5,9 +5,9 @@
             <v-tab>{{$t('Skill Set')}}</v-tab>
             <v-tab v-if="isLiberate">{{$t('Liberation')}}</v-tab>
             <v-tab>{{$t('Potential Calculator')}}</v-tab>
-            <v-tab>{{$t('Discipline')}}</v-tab>
-            <v-tab>{{$t('Puzzle')}}</v-tab>
-            <v-tab>{{$t('Other Form')}}</v-tab>
+            <v-tab v-if="isDiscipline">{{$t('Discipline')}}</v-tab>
+            <v-tab v-if="isPuzzle">{{$t('Puzzle')}}</v-tab>
+            <v-tab v-if="isOtherVersion">{{$t('Other Form')}}</v-tab>
             <!-- <v-tab>{{$t('Analysis')}}</v-tab> -->
         </v-tabs>
         <v-tabs-items v-model="activeTab" :show-arrows="false">

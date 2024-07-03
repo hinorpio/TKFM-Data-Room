@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card v-if="isSkillTypeExist">
         <v-toolbar :color="getSkillColor()" height="50em">
             <v-row class="align-center">
                 <v-avatar size="1.5em" tile class="ml-2">
@@ -25,19 +25,25 @@ import { Skill } from '@/interface/unit/skillset';
 
 @Component
 export default class GeneralSkillCard extends Vue {
-    @Prop({ type: Object, required: true, default: {} }) readonly showVersion!: { [key in SkillType]: Skill };
+    @Prop({ type: Object, required: true, default: {} }) readonly showVersion!: { [key in SkillType]?: Skill };
     @Prop({ type: String, required: true, default: '' }) readonly skilltype!: SkillType;
+
+    get isSkillTypeExist(): boolean{
+        return this.showVersion[this.skilltype] !== undefined
+    }
 
     getIcon(): string{
         return this.$util.getSkillIcon(this.skilltype) ?? ''
     }
 
     getSkillName(): string{
-        return this.showVersion[this.skilltype].name ?? '';
+        const skillName = this.showVersion[this.skilltype]?.name
+        return (skillName !== undefined)? skillName :'';
     }
 
     getSkillDescription(): string{
-        return this.$util.showPreLineText(this.showVersion[this.skilltype].description) ?? '';
+        const skillDescription = this.showVersion[this.skilltype]?.description
+        return (skillDescription !== undefined)? this.$util.showPreLineText(skillDescription) : '';
     }
 
     getSkillColor(): string{

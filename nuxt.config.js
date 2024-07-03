@@ -9,7 +9,7 @@ export default {
     titleTemplate: 'tkfm-data-room',
     title: 'tkfm-data-room',
     htmlAttrs: {
-      lang: 'zh'
+      lang: 'tc'
     },
     meta: [
       { charset: 'utf-8' },
@@ -63,20 +63,20 @@ export default {
             },
             {
                 name: "繁體中文",
-                code: "zh",
-                iso: "zh",
-                file: "zh.js",
+                code: "tc",
+                iso: "tc",
+                file: "tc.js",
             },
             {
                 name: "簡體中文",
-                code: "cn",
-                iso: "cn",
-                file: "cn.js",
+                code: "sc",
+                iso: "sc",
+                file: "sc.js",
             },
           ],
           langDir: "lang/",
           lazy: true,
-          defaultLocale: "zh",
+          defaultLocale: "tc",
       },
     ],
   ],

@@ -1,4 +1,4 @@
-import { Tag } from '@/interface/global/tag';
+import { Tag } from '@/interface/tag';
 import { TagType } from '@/plugins/utils/enums';
 const tags: Tag[] = [
     {
@@ -6,11 +6,11 @@ const tags: Tag[] = [
         type: TagType.ELEMENT,
         icon: "mdi-fire",
         name: {
-            zh: "火屬性",
-            cn: "火属性",
+            tc: "火屬性",
+            sc: "火属性",
             en: "Fire Attr.",
             jp: "火属性",
-            ko: "화속성",
+            kr: "화속성",
         }
     },
     {
@@ -18,11 +18,11 @@ const tags: Tag[] = [
         type: TagType.ELEMENT,
         icon: "mdi-water-outline",
         name: {
-            zh: "水屬性",
-            cn: null,
+            tc: "水屬性",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -30,11 +30,11 @@ const tags: Tag[] = [
         type: TagType.ELEMENT,
         icon: "mdi-weather-windy",
         name: {
-            zh: "風屬性",
-            cn: null,
+            tc: "風屬性",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -42,11 +42,11 @@ const tags: Tag[] = [
         type: TagType.ELEMENT,
         icon: "mdi-weather-sunny",
         name: {
-            zh: "光屬性",
-            cn: null,
+            tc: "光屬性",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -54,11 +54,11 @@ const tags: Tag[] = [
         type: TagType.ELEMENT,
         icon: "mdi-weather-night",
         name: {
-            zh: "闇屬性",
-            cn: null,
+            tc: "闇屬性",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -66,11 +66,11 @@ const tags: Tag[] = [
         type: TagType.POSITION,
         icon: "mdi-sword",
         name: {
-            zh: "攻擊者",
-            cn: null,
+            tc: "攻擊者",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -78,11 +78,11 @@ const tags: Tag[] = [
         type: TagType.POSITION,
         icon: "mdi-shield-half-full",
         name: {
-            zh: "守護者",
-            cn: null,
+            tc: "守護者",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -90,11 +90,11 @@ const tags: Tag[] = [
         type: TagType.POSITION,
         icon: "mdi-heart-outline",
         name: {
-            zh: "治療者",
-            cn: null,
+            tc: "治療者",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -102,11 +102,11 @@ const tags: Tag[] = [
         type: TagType.POSITION,
         icon: "mdi-tangram",
         name: {
-            zh: "妨礙者",
-            cn: null,
+            tc: "妨礙者",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -114,11 +114,11 @@ const tags: Tag[] = [
         type: TagType.POSITION,
         icon: "mdi-magic-staff",
         name: {
-            zh: "輔助者",
-            cn: null,
+            tc: "輔助者",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -126,11 +126,11 @@ const tags: Tag[] = [
         type: TagType.SPECIES,
         icon: "mdi-account",
         name: {
-            zh: "人類",
-            cn: null,
+            tc: "人類",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -138,11 +138,11 @@ const tags: Tag[] = [
         type: TagType.SPECIES,
         icon: "mdi-account",
         name: {
-            zh: "魔族",
-            cn: null,
+            tc: "魔族",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -150,11 +150,11 @@ const tags: Tag[] = [
         type: TagType.SPECIES,
         icon: "mdi-account",
         name: {
-            zh: "亞人",
-            cn: null,
+            tc: "亞人",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -162,11 +162,11 @@ const tags: Tag[] = [
         type: TagType.BODY,
         icon: "mdi-ruler",
         name: {
-            zh: "小體型",
-            cn: null,
+            tc: "小體型",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -174,11 +174,11 @@ const tags: Tag[] = [
         type: TagType.BODY,
         icon: "mdi-ruler",
         name: {
-            zh: "中體型",
-            cn: null,
+            tc: "中體型",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -186,11 +186,11 @@ const tags: Tag[] = [
         type: TagType.BREAST,
         icon: "mdi-record-circle-outline",
         name: {
-            zh: "貧乳",
-            cn: null,
+            tc: "貧乳",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -198,11 +198,11 @@ const tags: Tag[] = [
         type: TagType.BREAST,
         icon: "mdi-record-circle-outline",
         name: {
-            zh: "美乳",
-            cn: null,
+            tc: "美乳",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -210,11 +210,11 @@ const tags: Tag[] = [
         type: TagType.BREAST,
         icon: "mdi-record-circle-outline",
         name: {
-            zh: "巨乳",
-            cn: null,
+            tc: "巨乳",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -222,11 +222,11 @@ const tags: Tag[] = [
         type: TagType.CLASS,
         icon: "mdi-medal-outline",
         name: {
-            zh: "士兵",
-            cn: null,
+            tc: "士兵",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -234,11 +234,11 @@ const tags: Tag[] = [
         type: TagType.CLASS,
         icon: "mdi-medal-outline",
         name: {
-            zh: "菁英",
-            cn: null,
+            tc: "菁英",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -246,11 +246,11 @@ const tags: Tag[] = [
         type: TagType.CLASS,
         icon: "mdi-medal-outline",
         name: {
-            zh: "領袖",
-            cn: null,
+            tc: "領袖",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -258,11 +258,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "輸出",
-            cn: null,
+            tc: "輸出",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -270,11 +270,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "保護",
-            cn: null,
+            tc: "保護",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -282,11 +282,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "防禦",
-            cn: null,
+            tc: "防禦",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -294,11 +294,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "回復",
-            cn: null,
+            tc: "回復",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -306,11 +306,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "干擾",
-            cn: null,
+            tc: "干擾",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -318,11 +318,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "支援",
-            cn: null,
+            tc: "支援",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -330,11 +330,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "削弱",
-            cn: null,
+            tc: "削弱",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -342,11 +342,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "爆發力",
-            cn: null,
+            tc: "爆發力",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -354,11 +354,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "生存力",
-            cn: null,
+            tc: "生存力",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -366,11 +366,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "越戰越強",
-            cn: null,
+            tc: "越戰越強",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -378,11 +378,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "群體攻擊",
-            cn: null,
+            tc: "群體攻擊",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     },
     {
@@ -390,11 +390,11 @@ const tags: Tag[] = [
         type: TagType.OTHER,
         icon: "mdi-dots-horizontal",
         name: {
-            zh: "回擊",
-            cn: null,
+            tc: "回擊",
+            sc: null,
             en: null,
             jp: null,
-            ko: null
+            kr: null
         }
     }
 ]

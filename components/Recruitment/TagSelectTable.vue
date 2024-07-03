@@ -53,7 +53,7 @@
 import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
 import { TagType } from '@/plugins/utils/enums'
-import { Tag } from '@/interface/global/tag';
+import { Tag } from '@/interface/tag';
 
 @Component
 export default class TagSelectTable extends Vue {

@@ -27,7 +27,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { StatSummary } from '@/interface/global/potential'
+import { StatSummary } from '@/interface/potential'
 
 
 @Component

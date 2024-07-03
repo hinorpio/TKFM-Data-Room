@@ -6,7 +6,7 @@
                     <v-img :src="getIcon()"  />
                 </v-avatar>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{showVersion['SKILL_S'].name}}
+                    {{getSkillName()}}
                 </span>
                 <v-spacer></v-spacer>
                 <v-switch v-if="!isLiberation" v-model="isDetail" class="mt-5" inset ></v-switch>
@@ -16,33 +16,33 @@
             <div v-if="isDetail && !isLiberation">
                 <h3>{{$t('Level 1')}}</h3>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{showVersion['SKILL_1'].description}}
+                    {{getSkillDescription(skilltype_1)}}
                 </span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 2')}}</h3>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{showVersion['SKILL_2'].description}}
+                    {{getSkillDescription(skilltype_2)}}
                 </span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 3')}}</h3>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{showVersion['SKILL_3'].description}}
+                    {{getSkillDescription(skilltype_3)}}
                 </span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 4')}}</h3>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{showVersion['SKILL_4'].description}}
+                    {{getSkillDescription(skilltype_4)}}
                 </span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 5')}}</h3>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{showVersion['SKILL_5'].description}}
+                    {{getSkillDescription(skilltype_5)}}
                 </span>
             </div>
             <div v-else>
                 <div class="ml-4">
                     <span class="body-1 font-weight-bold">
-                        {{showVersion['SKILL_S'].description}}
+                        {{getSkillDescription(skilltype)}}
                     </span>
                 </div>
             </div>
@@ -57,10 +57,16 @@ import { Skill } from '@/interface/unit/skillset';
 
 @Component
 export default class SkillCard extends Vue {
-    @Prop({ type: Object, required: true, default: {} }) readonly showVersion!: { [key in SkillType]: Skill };
+    @Prop({ type: Object, required: true, default: {} }) readonly showVersion!: { [key in SkillType]?: Skill };
     @Prop({ type: Boolean, required: false, default: false }) isLiberation!: Boolean;
 
     skilltype: SkillType = SkillType.SKILL_S
+    skilltype_1: SkillType = SkillType.SKILL_1
+    skilltype_2: SkillType = SkillType.SKILL_2
+    skilltype_3: SkillType = SkillType.SKILL_3
+    skilltype_4: SkillType = SkillType.SKILL_4
+    skilltype_5: SkillType = SkillType.SKILL_5
+
     isDetail: Boolean = false
 
     getIcon(): string{
@@ -68,11 +74,13 @@ export default class SkillCard extends Vue {
     }
 
     getSkillName(): string{
-        return this.showVersion[this.skilltype].name ?? '';
+        const skillName = this.showVersion[this.skilltype]?.name
+        return (skillName !== undefined)? skillName :'';
     }
 
-    getSkillDescription(): string{
-        return this.$util.showPreLineText(this.showVersion[this.skilltype].description) ?? '';
+    getSkillDescription(type: SkillType): string{
+        const skillDescription = this.showVersion[type]?.description
+        return (skillDescription !== undefined)? this.$util.showPreLineText(skillDescription) : '';
     }
 
 }

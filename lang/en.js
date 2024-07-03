@@ -1,6 +1,7 @@
 export default {
     "Home Page": "Home Page",
     "Unit Info": "Unit Info",
+    "Event Timeline": "Event Timeline",
     "Recruitment": "Recruitment",
     "Dispatch": "Dispatch",
     "Potential Calculator": "Potential Calculator",
@@ -60,4 +61,6 @@ export default {
     "Show Combined Material": "Show Combined Material",
     "Potential Material": "Potential Material",
     "Discipline Item": "Discipline Item",
+    "New Character": "New Character",
+    "Event Date": "Event Date",
 }

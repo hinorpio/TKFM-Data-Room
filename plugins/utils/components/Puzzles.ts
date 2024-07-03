@@ -1,4 +1,4 @@
-import { Puzzle } from '@/interface/global/puzzle';
+import { Puzzle } from '@/interface/puzzle';
 import { PuzzleCode, PuzzleType } from '../enums';
 import puzzleData from '@/static/data/puzzle';
 

@@ -1,6 +1,6 @@
 import { PotentialType, ItemType, ItemCode, PotentialBuffType } from '../enums';
-import { Potential, Slot, CalculatedSummary, MaterialSummary, StatSummary } from '@/interface/global/potential';
-import { Item, CombinedItem } from '@/interface/global/item';
+import { Potential, Slot, CalculatedSummary, MaterialSummary, StatSummary } from '@/interface/potential';
+import { Item, CombinedItem } from '@/interface/item';
 import potentialData from '@/static/data/potential';
 import ItemService from './Items';
 

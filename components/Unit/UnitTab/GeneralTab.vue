@@ -56,7 +56,7 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Locale } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit'
-import { Tag } from '@/interface/global/tag'
+import { Tag } from '@/interface/tag'
 
 @Component
 export default class GeneralTab extends Vue {

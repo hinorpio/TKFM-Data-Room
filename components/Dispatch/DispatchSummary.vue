@@ -28,7 +28,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { Dispatch } from '@/interface/global/dispatch'
+import { Dispatch } from '@/interface/dispatch'
 import { Locale, ItemType } from "@/plugins/utils/enums";
 
 @Component

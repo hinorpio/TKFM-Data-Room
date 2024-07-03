@@ -39,7 +39,7 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Locale, PuzzleCode } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit'
-import { Puzzle } from '@/interface/global/puzzle'
+import { Puzzle } from '@/interface/puzzle'
 import BasicIamgeViewer from "@/components/Unit/UnitTab/LiberationTab.vue";
 
 @Component({

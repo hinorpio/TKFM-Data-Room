@@ -11,10 +11,10 @@
           <v-list-item-title @click="handleSetLanguage('en')">English</v-list-item-title>
         </v-list-item>
         <v-list-item>
-          <v-list-item-title @click="handleSetLanguage('zh')">繁體中文</v-list-item-title>
+          <v-list-item-title @click="handleSetLanguage('tc')">繁體中文</v-list-item-title>
         </v-list-item>
         <v-list-item>
-          <v-list-item-title @click="handleSetLanguage('cn')">簡體中文</v-list-item-title>
+          <v-list-item-title @click="handleSetLanguage('sc')">簡體中文</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>
@@ -26,9 +26,9 @@ export default {
   methods: {
     handleSetLanguage(lang) {
         this.$store.dispatch('setLocale', lang)
-        const langPrefix = (lang === 'zh')?`` :`/${lang}`
+        const langPrefix = (lang === 'tc')?`` :`/${lang}`
         const path = this.$router.history.current.path.split("/")
-          .filter((f,index) => (lang !== 'zh')? index > 0 : index > 1)
+          .filter((f,index) => (lang !== 'tc')? index > 0 : index > 1)
           .join("/")
         location.replace(`${langPrefix}/${path}`)
     },

@@ -1,4 +1,4 @@
-import { Dispatch } from '@/interface/global/dispatch';
+import { Dispatch } from '@/interface/dispatch';
 import { DispatchType } from '../enums';
 import dispatchData from '@/static/data/dispatch';
 

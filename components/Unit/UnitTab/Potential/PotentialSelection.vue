@@ -18,7 +18,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
-import { Potential, PotentialSelectGroup } from '@/interface/global/potential'
+import { Potential, PotentialSelectGroup } from '@/interface/potential'
 
 @Component
 export default class PotentialSelection extends Vue {

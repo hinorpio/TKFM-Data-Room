@@ -16,7 +16,7 @@ import PotentialSelection from "./Potential/PotentialSelection.vue";
 import MaterialResult from "./Potential/MaterialResult.vue";
 import BuffResult from "./Potential/BuffResult.vue";
 import { Unit } from '@/interface/unit';
-import { PotentialSelectGroup } from '@/interface/global/potential'
+import { PotentialSelectGroup } from '@/interface/potential'
 
 @Component({
     components: {
