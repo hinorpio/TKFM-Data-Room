@@ -20,7 +20,7 @@ export const GENERAL_10004: Unit = {
         [Locale.kr]: null
     },
     abbreviation: {
-        [Locale.tc]: [ "精靈王", "普精", "解精", "精", "跳蛋" ],
+        [Locale.tc]: [ "精靈王", "普精", "解精", "大王", "精", "跳蛋" ],
         [Locale.sc]: [],
         [Locale.en]: [],
         [Locale.jp]: [],
@@ -44,7 +44,7 @@ export const GENERAL_10004: Unit = {
     selection: UnitSelection[UnitCode.salucia],
     clothes: UnitFullImage[UnitCode.salucia],
     tagList: [ 3, 10, 13, 15, 18, 21, 27, 29 ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.h_salucia ],
     puzzle: [],
     skillSet: []
 }

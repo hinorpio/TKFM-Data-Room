@@ -22,6 +22,28 @@ import { SkillSet_10032 } from "./SSR-018";
 import { SkillSet_10007 } from "./SSR-019";
 import { SkillSet_10034 } from "./SSR-020";
 import { SkillSet_10035 } from "./SSR-021";
+import { SkillSet_10033 } from "./SSR-022";
+import { SkillSet_10039 } from "./SSR-023";
+import { SkillSet_10058 } from "./SSR-024";
+import { SkillSet_10060 } from "./SSR-025";
+import { SkillSet_10056 } from "./SSR-026";
+import { SkillSet_10045 } from "./SSR-027";
+import { SkillSet_10040 } from "./SSR-028";
+import { SkillSet_10043 } from "./SSR-029";
+import { SkillSet_10059 } from "./SSR-030";
+import { SkillSet_10083 } from "./SSR-031";
+import { SkillSet_10052 } from "./SSR-032";
+import { SkillSet_10053 } from "./SSR-033";
+import { SkillSet_10054 } from "./SSR-034";
+import { SkillSet_10067 } from "./SSR-035";
+import { SkillSet_10079 } from "./SSR-036";
+import { SkillSet_10072 } from "./SSR-037";
+import { SkillSet_10081 } from "./SSR-038";
+import { SkillSet_10082 } from "./SSR-039";
+import { SkillSet_10084 } from "./SSR-040";
+import { SkillSet_10018 } from "./SSR-041";
+import { SkillSet_10019 } from "./SSR-042";
+import { SkillSet_10020 } from "./SSR-043";
 import { SkillSet_10802 } from "./R-001";
 
 export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {
@@ -46,5 +68,27 @@ export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.milae]: SkillSet_10007,
     [UnitCode.asida]: SkillSet_10034,
     [UnitCode.asina]: SkillSet_10035,
+    [UnitCode.aridya]: SkillSet_10033,
+    [UnitCode.lotiya]: SkillSet_10039,
+    [UnitCode.fufu]: SkillSet_10058,
+    [UnitCode.hm_fiora]: SkillSet_10060,
+    [UnitCode.karina]: SkillSet_10056,
+    [UnitCode.ibuki]: SkillSet_10045,
+    [UnitCode.h_britney]: SkillSet_10040,
+    [UnitCode.h_salucia]: SkillSet_10043,
+    [UnitCode.inori]: SkillSet_10059,
+    [UnitCode.sakuya]: SkillSet_10083,
+    [UnitCode.x_aiko]: SkillSet_10052,
+    [UnitCode.x_lana]: SkillSet_10053,
+    [UnitCode.evie]: SkillSet_10054,
+    [UnitCode.tm_minayomi]: SkillSet_10067,
+    [UnitCode.tm_ritsuki]: SkillSet_10079,
+    [UnitCode.b_baal]: SkillSet_10072,
+    [UnitCode.b_iblis]: SkillSet_10081,
+    [UnitCode.b_satan]: SkillSet_10082,
+    [UnitCode.miru]: SkillSet_10084,
+    [UnitCode.uruta]: SkillSet_10018,
+    [UnitCode.ayane]: SkillSet_10019,
+    [UnitCode.muila]: SkillSet_10020,
     [UnitCode.nana]: SkillSet_10802,
 };

@@ -8,14 +8,14 @@ export const GENERAL_10057: Unit = {
     prefix: {
         [Locale.tc]: "煌星",
         [Locale.sc]: null,
-        [Locale.en]: "Queen Daphne",
+        [Locale.en]: "Queen",
         [Locale.jp]: null,
         [Locale.kr]: null
     },
     name: {
         [Locale.tc]: "妲絲艾菲娜",
         [Locale.sc]: null,
-        [Locale.en]: "Bloom",
+        [Locale.en]: "Daphne Bloom",
         [Locale.jp]: null,
         [Locale.kr]: null
     },

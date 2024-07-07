@@ -44,7 +44,7 @@ export const GENERAL_10003: Unit = {
     selection: UnitSelection[UnitCode.iblis],
     clothes: UnitFullImage[UnitCode.iblis],
     tagList: [ 4, 6, 12, 15, 21, 22, 30, 32 ],
-    otherVersion: [ UnitCode.i_iblis ],
+    otherVersion: [ UnitCode.i_iblis, UnitCode.b_iblis ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

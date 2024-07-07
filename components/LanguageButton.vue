@@ -25,12 +25,15 @@
 export default {
   methods: {
     handleSetLanguage(lang) {
-        this.$store.dispatch('setLocale', lang)
-        const langPrefix = (lang === 'tc')?`` :`/${lang}`
-        const path = this.$router.history.current.path.split("/")
-          .filter((f,index) => (lang !== 'tc')? index > 0 : index > 1)
-          .join("/")
-        location.replace(`${langPrefix}/${path}`)
+        if(lang !== this.$i18n.locale){
+          this.$store.dispatch('setLocale', lang)
+          const langPrefix = (lang === 'tc')?`` :`/${lang}`
+          const path = this.$router.history.current.path
+            .split("/")
+            .filter((f,index) => (lang !== 'tc')? index > 0 : index > 1)
+            .join("/")
+          location.replace(`${langPrefix}/${path}`)
+        }
     },
   }
 }

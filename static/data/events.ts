@@ -94,7 +94,7 @@ const events: Event[][] = [
             endDate: '2024/07/03',
             color: EventTypeColor.CHALLENGE,
             name: {
-                [Locale.tc]: "【Vkdgrz ri Wkh Vxsuhph Rqh】",
+                [Locale.tc]: "【乙姬的怒火】",
                 [Locale.sc]: "",
                 [Locale.en]: "",
                 [Locale.jp]: "",

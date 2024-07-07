@@ -44,7 +44,7 @@ export const GENERAL_10001: Unit = {
     selection: UnitSelection[UnitCode.baal],
     clothes: UnitFullImage[UnitCode.baal],
     tagList: [ 1, 6, 12, 15, 21, 22 ],
-    otherVersion: [ UnitCode.f_baal ],
+    otherVersion: [ UnitCode.f_baal, UnitCode.b_baal ],
     puzzle: [ PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

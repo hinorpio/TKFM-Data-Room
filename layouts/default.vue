@@ -50,6 +50,37 @@ interface MenuItem {
 @Component
 export default class DefaultLayout extends Vue {
 
+  drawer: Boolean = false
+  miniVariant: Boolean = false
+  title: String = 'TKFM Reference Room'
+  items: MenuItem[] = [
+    {
+      icon: 'mdi-apps',
+      title: this.$t('Home Page'),
+      to: `${this.langPrefix}/`
+    },
+    {
+      icon: 'mdi-account-group',
+      title: this.$t('Unit Info'),
+      to: `${this.langPrefix}/unit/`
+    },
+    {
+      icon: 'mdi-book-edit',
+      title: this.$t('Recruitment'),
+      to: `${this.langPrefix}/recruitment/`
+    },
+    {
+      icon: 'mdi-timeline-text',
+      title: this.$t('Event Timeline'),
+      to: `${this.langPrefix}/event/`
+    },
+    {
+      icon: 'mdi-truck',
+      title: this.$t('Dispatch'),
+      to: `${this.langPrefix}/dispatch/`
+    }
+  ]
+
   mounted(){
     this.drawer = this.isDrawerOpen()
   }
@@ -65,36 +96,11 @@ export default class DefaultLayout extends Vue {
     }
   }
 
-  drawer: Boolean = false
-  miniVariant: Boolean = false
-  title: String = 'TKFM Reference Room'
-  items: MenuItem[] = [
-    {
-      icon: 'mdi-apps',
-      title: this.$t('Home Page'),
-      to: '/' + this.$i18n.locale + '/'
-    },
-    {
-      icon: 'mdi-account-group',
-      title: this.$t('Unit Info'),
-      to: '/' + this.$i18n.locale + '/unit/'
-    },
-    {
-      icon: 'mdi-book-edit',
-      title: this.$t('Recruitment'),
-      to: '/' + this.$i18n.locale + '/recruitment/'
-    },
-    {
-      icon: 'mdi-timeline-text',
-      title: this.$t('Event Timeline'),
-      to: '/' + this.$i18n.locale + '/event/'
-    },
-    {
-      icon: 'mdi-truck',
-      title: this.$t('Dispatch'),
-      to: '/' + this.$i18n.locale + '/dispatch/'
-    }
-  ]
+  get langPrefix(): string{
+    const locale = this.$i18n.locale
+    const langPrefix = (locale === 'tc')?`` :`/${locale}`
+    return langPrefix
+  }
 }
 </script>
 <style lang="sass" scoped>
