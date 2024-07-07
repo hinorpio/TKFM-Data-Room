@@ -19,14 +19,14 @@
                     <v-col class="py-0 px-0">
                         <v-row>
                             <v-col :cols="9" class="align-self-center">
-                                <v-row class="px-0">
+                                <v-row>
                                     <span :class="tableStringClass">{{`${item.prefix}`}}</span>
                                 </v-row>
                                 <v-row>
                                     <span :class="tableStringClass">{{`${item.name}`}}</span>
                                 </v-row>
                             </v-col>
-                            <v-col class="mx-0 px-0">
+                            <v-col class="mx-0 px-0 align-self-center">
                                 <v-icon small class="mx-0 px-0" v-if="item.isUnique">
                                     mdi-star-circle
                                 </v-icon>

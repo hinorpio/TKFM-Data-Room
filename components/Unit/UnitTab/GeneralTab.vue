@@ -40,10 +40,13 @@
         <v-row class="pt-4 px-2">
             <v-col>
                 <h3>{{$t('Tag')}}</h3>
-                <div>
+                <div v-if="unit.tagList.length > 0">
                     <v-chip v-for="(f, index) in unit.tagList" :key="index" class="ma-2" color="green" >
                         {{showTag(f)}}
                     </v-chip>
+                </div>
+                <div v-else class="mt-2 ml-4">
+                    <span class="font-weight-bold">{{ $t('Not available from recruitment') }}</span>
                 </div>
             </v-col>
         </v-row>

@@ -38,13 +38,13 @@ export const GENERAL_10001: Unit = {
     position: Position.ATTACKER,
     potential: PotentialType.ATTACK,
     isLimited: false,
-    releaseDate: "2020-12-14",
+    releaseDate: "2020/12/14",
     essence: UnitEssence[UnitCode.baal],
     thumbnail: UnitEssence[UnitCode.baal],
     selection: UnitSelection[UnitCode.baal],
     clothes: UnitFullImage[UnitCode.baal],
     tagList: [ 1, 6, 12, 15, 21, 22 ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.f_baal ],
     puzzle: [ PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

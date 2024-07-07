@@ -1,0 +1,611 @@
+import { Locale, SkillType } from '@/plugins/utils/enums';
+import { SkillSet } from '@/interface/unit/skillset';
+
+export const SkillSet_10027: SkillSet[] =  [
+    {
+        version: 2,
+        lastDate: "",
+        remark: {
+            [Locale.tc]: "",
+            [Locale.sc]: "",
+            [Locale.en]: "",
+            [Locale.jp]: "",
+            [Locale.kr]: ""
+        },
+        skill: {
+            [Locale.tc]: {
+                [SkillType.BASE_STAT]: {
+                    name: "完全體數據",
+                    description: "HP：4,947,106\nATK：522,490"
+                },
+                [SkillType.SKILL_S]: {
+                    name: "殺意誘惑",
+                    description: "使目標受到觸發技傷害增加60/70/80/90/100%(3回合)，並使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加60/70/80/90/100%(1回合)、被攻擊時，觸發「以攻擊力30/35/40/45/50%對自身進行治療」(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_1]: {
+                    name: "殺意誘惑",
+                    description: "使目標受到觸發技傷害增加60%(3回合)，並使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加60%(1回合)、被攻擊時，觸發「以攻擊力30%對自身進行治療」(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_2]: {
+                    name: "殺意誘惑",
+                    description: "使目標受到觸發技傷害增加70%(3回合)，並使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加70%(1回合)、被攻擊時，觸發「以攻擊力35%對自身進行治療」(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_3]: {
+                    name: "殺意誘惑",
+                    description: "使目標受到觸發技傷害增加80%(3回合)，並使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加80%(1回合)、被攻擊時，觸發「以攻擊力40%對自身進行治療」(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_4]: {
+                    name: "殺意誘惑",
+                    description: "使目標受到觸發技傷害增加90%(3回合)，並使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加90%(1回合)、被攻擊時，觸發「以攻擊力45%對自身進行治療」(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_5]: {
+                    name: "殺意誘惑",
+                    description: "使目標受到觸發技傷害增加100%(3回合)，並使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加100%(1回合)、被攻擊時，觸發「以攻擊力50%對自身進行治療」(1回合)，CD: 3"
+                },
+                [SkillType.ATTACK]: {
+                    name: "撕裂",
+                    description: "以攻擊力80%對目標造成傷害，並使自身攻擊力增加25%(2回合)"
+                },
+                [SkillType.LEADER]: {
+                    name: "血月的災厄",
+                    description: "使自身必殺技最大CD減少1回合，攻擊力增加33%"
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "痛楚與狂喜",
+                    description: "被攻擊時，觸發「使自身攻擊力增加10%(最多5層)」效果"
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "縱慾廝殺",
+                    description: "被攻擊時，觸發「以攻擊力100%對目標進行反擊」效果"
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "殺戮衝動",
+                    description: "防禦減傷效果增加10%\n造成傷害增加35%"
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "回復量+ (6潛)",
+                    description: "使自身被治療時回復量增加15%"
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "免疫睡眠 (12潛)",
+                    description: "使自身免疫睡眠"
+                }
+            },
+            [Locale.sc]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.en]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.jp]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.kr]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            }
+        }
+    },
+    {
+        version: 1,
+        lastDate: "2022/04/13",
+        remark: {
+            [Locale.tc]: "",
+            [Locale.sc]: "",
+            [Locale.en]: "",
+            [Locale.jp]: "",
+            [Locale.kr]: ""
+        },
+        skill: {
+            [Locale.tc]: {
+                [SkillType.BASE_STAT]: {
+                    name: "完全體數據",
+                    description: "HP：4,947,106\nATK：522,490"
+                },
+                [SkillType.SKILL_S]: {
+                    name: "殺意誘惑",
+                    description: "使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加60/80/100/100/100%(1回合)、被攻擊時，觸發\"以攻擊力30/30/30/40/50%對自身進行治療\"效果(1回合)，但防禦減傷效果減少25%(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_1]: {
+                    name: "殺意誘惑",
+                    description: "使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加60%(1回合)、被攻擊時，觸發\"以攻擊力30%對自身進行治療\"效果(1回合)，但防禦減傷效果減少25%(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_2]: {
+                    name: "殺意誘惑",
+                    description: "使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加80%(1回合)、被攻擊時，觸發\"以攻擊力30%對自身進行治療\"效果(1回合)，但防禦減傷效果減少25%(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_3]: {
+                    name: "殺意誘惑",
+                    description: "使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加100%(1回合)、被攻擊時，觸發\"以攻擊力30%對自身進行治療\"效果(1回合)，但防禦減傷效果減少25%(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_4]: {
+                    name: "殺意誘惑",
+                    description: "使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加100%(1回合)、被攻擊時，觸發\"以攻擊力40%對自身進行治療\"效果(1回合)，但防禦減傷效果減少25%(1回合)，CD: 3"
+                },
+                [SkillType.SKILL_5]: {
+                    name: "殺意誘惑",
+                    description: "使自身獲得嘲諷(1回合)並變為防禦狀態且攻擊力增加100%(1回合)、被攻擊時，觸發\"以攻擊力50%對自身進行治療\"效果(1回合)，但防禦減傷效果減少25%(1回合)，CD: 3"
+                },
+                [SkillType.ATTACK]: {
+                    name: "撕裂",
+                    description: "以攻擊力50%對目標造成傷害，並使自身攻擊力增加25%(2回合)"
+                },
+                [SkillType.LEADER]: {
+                    name: "血月的災厄",
+                    description: "使自身必殺技最大CD減少1回合，攻擊力增加33%"
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "痛楚與狂喜",
+                    description: "被攻擊時，觸發\"使自身攻擊力增加2%(最多25層)\"效果"
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "縱慾廝殺",
+                    description: "使自身免疫必殺技CD變動效果；被攻擊時，觸發\"以攻擊力100%對目標進行反擊\"效果"
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "殺戮衝動",
+                    description: "必殺時，觸發\"自身造成傷害增加33%(1回合)\"效果"
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "回復量+ (6潛)",
+                    description: "使自身被治療時回復量增加15%"
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "免疫睡眠 (12潛)",
+                    description: "使自身免疫睡眠"
+                }
+            },
+            [Locale.sc]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.en]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.jp]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.kr]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            }
+        }
+    },
+]

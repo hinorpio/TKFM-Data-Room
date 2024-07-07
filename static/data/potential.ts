@@ -300,7 +300,7 @@ const potentials: Potential[] = [
             {type: PotentialBuffType.ATK, value: 3, required: [{code: ItemCode.SLIVER_COIN, quantity: 96000}, {code: ItemCode.BOOK_LV2, quantity: 1}, {code: ItemCode.WEB_LV2, quantity: 1}]},
             {type: PotentialBuffType.ATK, value: 3, required: [{code: ItemCode.SLIVER_COIN, quantity: 96000}, {code: ItemCode.BOOK_LV2, quantity: 1}, {code: ItemCode.WEB_LV2, quantity: 1}]},
             {type: PotentialBuffType.HP, value: 3, required: [{code: ItemCode.SLIVER_COIN, quantity: 96000}, {code: ItemCode.BOOK_LV2, quantity: 1}, {code: ItemCode.FEATHER_LV2, quantity: 1}]},
-            {type: PotentialBuffType.HP, value: 3, required: [{code: ItemCode.SLIVER_COIN, quantity: 96000}, {code: ItemCode.BOOK_LV2, quantity: 1}, {code: ItemCode.FEATHER_LV2, quantity: 1}]},
+            {type: PotentialBuffType.ATK, value: 3, required: [{code: ItemCode.SLIVER_COIN, quantity: 96000}, {code: ItemCode.BOOK_LV2, quantity: 1}, {code: ItemCode.WEB_LV2, quantity: 1}]},
             {type: PotentialBuffType.HP, value: 3, required: [{code: ItemCode.SLIVER_COIN, quantity: 96000}, {code: ItemCode.BOOK_LV2, quantity: 1}, {code: ItemCode.FEATHER_LV2, quantity: 1}]},
         ],
     ]

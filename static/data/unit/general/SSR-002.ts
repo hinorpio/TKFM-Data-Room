@@ -38,13 +38,13 @@ export const GENERAL_10002: Unit = {
     position: Position.PROTECTOR,
     potential: PotentialType.DEFENCE,
     isLimited: false,
-    releaseDate: "2020-12-14",
+    releaseDate: "2020/12/14",
     essence: UnitEssence[UnitCode.satan],
     thumbnail: UnitEssence[UnitCode.satan],
     selection: UnitSelection[UnitCode.satan],
     clothes: UnitFullImage[UnitCode.satan],
     tagList: [ 5, 7, 12, 15, 18, 21, 24, 30, 33 ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.e_satan ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

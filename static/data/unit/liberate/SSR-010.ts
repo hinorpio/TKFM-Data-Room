@@ -1,0 +1,90 @@
+import { Locale, SkillType, LiberationStage, ItemCode } from '@/plugins/utils/enums';
+import { LiberateSkillSet } from '@/interface/unit/liberateSkillSet';
+
+export const LiberateSkillSet_10008: LiberateSkillSet[] = [
+    {
+        version: 1,
+        lastDate: "",
+        remark: {
+            [Locale.tc]: null,
+            [Locale.sc]: null,
+            [Locale.en]: null,
+            [Locale.jp]: null,
+            [Locale.kr]: null
+        },
+        detail: {
+            [LiberationStage.LIBERATION_1]:{
+                material: [
+                    { code: ItemCode.LIBERATE_STONE, "quantity": 1 },
+                    { code: "ESSENCE", "quantity": 10 },
+                    { code: ItemCode.FLAWLESS, "quantity": 1 },
+                    { code: ItemCode.SLIVER_COIN, "quantity": 300000 },
+                ],
+                skill: {
+                    [Locale.tc]: {
+                        [SkillType.LEADER]: {
+                            name: "最終兵器少女模式",
+                            description: `我方全體攻擊力增加70%\n自身獲得《最終兵器·解放》\n\n《最終兵器·解放》\n第1回合時，觸發「使自身當前必殺技CD減少4回合、必殺技最大CD減少3回合(6回合)、攻擊力增加450%(6回合) 、普攻傷害增加100%(6回合)、必殺技傷害增加100%(6回合)」`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: "自我學習戰鬥系統",
+                            description: `攻擊時，觸發「使自身造成傷害增加10%(最多5層)」`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: "防禦模式。切換",
+                            description: `防禦時，觸發「以自身最大HP50%對自身施放護盾(3回合)」\n防禦時，觸發「減少自身《自我學習戰鬥系統》的造成傷害增加效果2層」`
+                        },
+                    },
+                    [Locale.sc]: {},
+                    [Locale.en]: {},
+                    [Locale.jp]: {},
+                    [Locale.kr]: {}
+                }
+            },
+            [LiberationStage.LIBERATION_2]:{
+                material: [
+                    { code: ItemCode.LIBERATE_STONE, "quantity": 1 },
+                    { code: ItemCode.EVOLVE_DARK_LV3, "quantity": 20 },
+                    { code: ItemCode.SKILL_FRAGMENT, "quantity": 150 },
+                    { code: ItemCode.SLIVER_COIN, "quantity": 400000 },
+                ],
+                skill: {
+                    [Locale.tc]: {
+                        [SkillType.BASE_STAT]: {
+                            name: "完全體數據",
+                            description: "HP與ATK將永久提升10%\n\nHP：3,353,438\nATK：934,149"
+                        },
+                    },
+                    [Locale.sc]: {},
+                    [Locale.en]: {},
+                    [Locale.jp]: {},
+                    [Locale.kr]: {}
+                }
+            },
+            [LiberationStage.LIBERATION_3]:{
+                material: [
+                    { code: ItemCode.LIBERATE_STONE, "quantity": 1 },
+                    { code: "ESSENCE", "quantity": 10 },
+                    { code: ItemCode.FLAWLESS, "quantity": 1 },
+                    { code: ItemCode.SLIVER_COIN, "quantity": 500000 },
+                ],
+                skill: {
+                    [Locale.tc]: {
+                        [SkillType.SKILL_S]: {
+                            name: "全域殲滅模式。啟動",
+                            description: "使自身攻擊力增加150%(最多2層)，再以攻擊力100%對目標造成傷害，CD: 4"
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: "精神感應機砲。啟動",
+                            description: "攻擊時，觸發「以攻擊力25%對目標進行4次傷害」"
+                        },
+                    },
+                    [Locale.sc]: {},
+                    [Locale.en]: {},
+                    [Locale.jp]: {},
+                    [Locale.kr]: {}
+                }
+            }
+        }
+    },
+]

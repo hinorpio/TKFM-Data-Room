@@ -38,13 +38,13 @@ export const GENERAL_10802: Unit = {
     position: Position.ATTACKER,
     potential: PotentialType.NR,
     isLimited: false,
-    releaseDate: "2020-12-14",
+    releaseDate: "2020/12/14",
     essence: UnitEssence[UnitCode.nana],
     thumbnail: UnitEssence[UnitCode.nana],
     selection: UnitSelection[UnitCode.nana],
     clothes: UnitFullImage[UnitCode.nana],
     tagList: [ 3, 6, 12, 14, 16, 22 ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.s_nana ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1 ],
     skillSet: []
 }

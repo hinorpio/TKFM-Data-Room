@@ -4,7 +4,7 @@ import { LiberateSkillSet } from '@/interface/unit/liberateSkillSet';
 export const LiberateSkillSet_10002: LiberateSkillSet[] = [
     {
         version: 1,
-        lastDate: '',
+        lastDate: "",
         remark: {
             [Locale.tc]: null,
             [Locale.sc]: null,

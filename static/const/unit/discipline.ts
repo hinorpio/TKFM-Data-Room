@@ -50,7 +50,6 @@ import DISCIPLINE_10016_1 from "@/assets/character/discipline/cgs10016_1.png"
 import DISCIPLINE_10016_2 from "@/assets/character/discipline/cgs10016_2.png"
 import DISCIPLINE_10016_3 from "@/assets/character/discipline/cgs10016_3.png"
 import DISCIPLINE_10017_1 from "@/assets/character/discipline/cgs10017_1.png"
-import DISCIPLINE_10017_2 from "@/assets/character/discipline/cgs10017_2.png"
 import DISCIPLINE_10017_3 from "@/assets/character/discipline/cgs10017_3.png"
 import DISCIPLINE_10018_1 from "@/assets/character/discipline/cgs10018_1.png"
 import DISCIPLINE_10018_2 from "@/assets/character/discipline/cgs10018_2.png"
@@ -74,13 +73,11 @@ import DISCIPLINE_10024_1 from "@/assets/character/discipline/cgs10024_1.png"
 import DISCIPLINE_10024_2 from "@/assets/character/discipline/cgs10024_2.png"
 import DISCIPLINE_10024_3 from "@/assets/character/discipline/cgs10024_3.png"
 import DISCIPLINE_10025_1 from "@/assets/character/discipline/cgs10025_1.png"
-import DISCIPLINE_10025_2 from "@/assets/character/discipline/cgs10025_2.png"
 import DISCIPLINE_10025_3 from "@/assets/character/discipline/cgs10025_3.png"
 import DISCIPLINE_10026_1 from "@/assets/character/discipline/cgs10026_1.png"
 import DISCIPLINE_10026_2 from "@/assets/character/discipline/cgs10026_2.png"
 import DISCIPLINE_10026_3 from "@/assets/character/discipline/cgs10026_3.png"
 import DISCIPLINE_10027_1 from "@/assets/character/discipline/cgs10027_1.png"
-import DISCIPLINE_10027_2 from "@/assets/character/discipline/cgs10027_2.png"
 import DISCIPLINE_10027_3 from "@/assets/character/discipline/cgs10027_3.png"
 import DISCIPLINE_10028_1 from "@/assets/character/discipline/cgs10028_1.png"
 import DISCIPLINE_10028_2 from "@/assets/character/discipline/cgs10028_2.png"
@@ -510,5 +507,23 @@ export const DisciplinePreview = {
     [UnitCode.baal]: [ DISCIPLINE_10001_1, DISCIPLINE_10001_2, DISCIPLINE_10001_3 ],
     [UnitCode.satan]: [ DISCIPLINE_10002_1, DISCIPLINE_10002_2, DISCIPLINE_10002_3 ],
     [UnitCode.iblis]: [ DISCIPLINE_10003_1, DISCIPLINE_10003_2, DISCIPLINE_10003_3 ],
+    [UnitCode.salucia]: [ DISCIPLINE_10004_1, DISCIPLINE_10004_2, DISCIPLINE_10004_3 ],
+    [UnitCode.lana]: [ DISCIPLINE_10005_1, DISCIPLINE_10005_2, DISCIPLINE_10005_3 ],
+    [UnitCode.lulu]: [ DISCIPLINE_10006_1, DISCIPLINE_10006_2, DISCIPLINE_10006_3 ],
+    [UnitCode.f_baal]: [ DISCIPLINE_10017_1, DISCIPLINE_PRESENT, DISCIPLINE_10017_3 ],
+    [UnitCode.i_iblis]: [ DISCIPLINE_10025_1, DISCIPLINE_PRESENT, DISCIPLINE_10025_3 ],
+    [UnitCode.noel]: [ DISCIPLINE_10026_1, DISCIPLINE_10026_2, DISCIPLINE_10026_3 ],
+    [UnitCode.ks8]: [ DISCIPLINE_10008_1, DISCIPLINE_10008_2, DISCIPLINE_10008_3 ],
+    [UnitCode.mesmiia]: [ DISCIPLINE_10037_1, DISCIPLINE_10037_2, DISCIPLINE_10037_3 ],
+    [UnitCode.e_satan]: [ DISCIPLINE_10027_1, DISCIPLINE_PRESENT, DISCIPLINE_10027_3 ],
+    [UnitCode.chizuru]: [ DISCIPLINE_10028_1, DISCIPLINE_10028_2, DISCIPLINE_10028_3 ],
+    [UnitCode.daphne]: [ DISCIPLINE_10057_1, DISCIPLINE_10057_2, DISCIPLINE_10057_3 ],
+    [UnitCode.s_shizuka]: [ DISCIPLINE_10029_1, DISCIPLINE_10029_2, DISCIPLINE_10029_3 ],
+    [UnitCode.s_lulu]: [ DISCIPLINE_10030_1, DISCIPLINE_10030_2, DISCIPLINE_10030_3 ],
+    [UnitCode.s_ks8]: [ DISCIPLINE_10031_1, DISCIPLINE_10031_2, DISCIPLINE_10031_3 ],
+    [UnitCode.s_nana]: [ DISCIPLINE_10032_1, DISCIPLINE_10032_2, DISCIPLINE_10032_3 ],
+    [UnitCode.milae]: [ DISCIPLINE_10007_1, DISCIPLINE_10007_2, DISCIPLINE_10007_3 ],
+    [UnitCode.asida]: [ DISCIPLINE_10034_1, DISCIPLINE_10034_2, DISCIPLINE_10034_3 ],
+    [UnitCode.asina]: [ DISCIPLINE_10035_1, DISCIPLINE_10035_2, DISCIPLINE_10035_3 ],
     [UnitCode.nana]: [ DISCIPLINE_10802_1, DISCIPLINE_PRESENT, DISCIPLINE_10802_3 ],
 }

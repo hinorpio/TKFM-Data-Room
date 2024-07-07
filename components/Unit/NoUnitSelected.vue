@@ -128,25 +128,16 @@ export default class NoUnitSelected extends Vue{
 
     mounted(): void {
         this.dataset = this.$util.getAllUnitGeneralData();
-        this.handleCustomRefresh();
         this.rarityList = this.$util.getAllRarity();
         this.elementList = this.$util.getAllElement();
         this.positionList = this.$util.getAllPosition();
     }
 
-    handleCustomRefresh(): void {
-        const result: any[] = [];
-        for (let index = 0; index < 50; index++) {
-            this.dataset.forEach(element => {
-                result.push(element);
-            });
-        }
-        this.dataset = result;
-    }
-
     handleSelectUnit(unit: Unit): void {
+        const locale = this.$i18n.locale
+        const langPrefix = (locale === 'tc')?`` :`/${locale}`
         this.$router.push({
-            path: `/${this.$i18n.locale}/unit/${unit.metaCode}`,
+            path: `${langPrefix}/unit/${unit.metaCode}`,
         });
     }
 }

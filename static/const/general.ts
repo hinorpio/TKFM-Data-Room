@@ -167,13 +167,14 @@ export const DispatchImage = {
 export const EventTypeColor = {
     [EventType.POINT]: 'light-blue lighten-2',
     [EventType.CHALLENGE]: 'indigo darken-1',
-    [EventType.STONE]: 'red lighten-1',
-    [EventType.MATERIAL]: 'deep-purple lighten-1',
+    [EventType.EVOLVE]: 'red lighten-1',
+    [EventType.POTENTIAL]: 'deep-purple lighten-1',
     [EventType.DISCIPLINE]: 'pink lighten-2',
-    [EventType.SLIVER]: '#925be6',
+    [EventType.SLIVER]: 'grey',
     [EventType.SIDESTORY]: 'teal accent-4',
     [EventType.SPIRE]: 'pink darken-4',
     [EventType.TIMERIFT]: 'red darken-4',
+    [EventType.GUILDBOSS]: 'green',
     [EventType.SPECIAL]: 'blue-grey darken-2',
 }
 
@@ -192,14 +193,14 @@ export const EventTypeString = {
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
-    [EventType.STONE]: {
+    [EventType.EVOLVE]: {
         [Locale.tc]: '屬性礦+',
         [Locale.sc]: '',
         [Locale.en]: '',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
-    [EventType.MATERIAL]: {
+    [EventType.POTENTIAL]: {
         [Locale.tc]: '潛力素材+',
         [Locale.sc]: '',
         [Locale.en]: '',
@@ -236,6 +237,13 @@ export const EventTypeString = {
     },
     [EventType.TIMERIFT]: {
         [Locale.tc]: '時之裂縫',
+        [Locale.sc]: '',
+        [Locale.en]: '',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [EventType.GUILDBOSS]: {
+        [Locale.tc]: '協會戰',
         [Locale.sc]: '',
         [Locale.en]: '',
         [Locale.jp]: '',

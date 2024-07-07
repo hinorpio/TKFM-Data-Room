@@ -63,4 +63,5 @@ export default {
     "Discipline Item": "Discipline Item",
     "New Character": "New Character",
     "Event Date": "Event Date",
+    "Not available from recruitment": "Not available from recruitment",
 }

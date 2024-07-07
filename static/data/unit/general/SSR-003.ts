@@ -38,13 +38,13 @@ export const GENERAL_10003: Unit = {
     position: Position.ATTACKER,
     potential: PotentialType.ATTACK,
     isLimited: false,
-    releaseDate: "2020-12-14",
+    releaseDate: "2020/12/14",
     essence: UnitEssence[UnitCode.iblis],
     thumbnail: UnitEssence[UnitCode.iblis],
     selection: UnitSelection[UnitCode.iblis],
     clothes: UnitFullImage[UnitCode.iblis],
     tagList: [ 4, 6, 12, 15, 21, 22, 30, 32 ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.i_iblis ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

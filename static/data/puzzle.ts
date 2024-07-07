@@ -20,7 +20,7 @@ const puzzles: Puzzle[] = [
         type: PuzzleType.EVENT,
         preview: PuzzlePreview.EVENT_2021_SUMMER_1_DMM,
         name: {
-            [Locale.tc]: "最刺激的水上活動",
+            [Locale.tc]: "最刺激的水上活動 (DMM)",
             [Locale.sc]: '',
             [Locale.en]: '',
             [Locale.jp]: '',

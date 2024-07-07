@@ -4,19 +4,19 @@ import { SkillSet } from '@/interface/unit/skillset';
 export const SkillSet_10002: SkillSet[] =  [
     {
         version: 1,
-        lastDate: '',
+        lastDate: "",
         remark: {
-            [Locale.tc]: '',
-            [Locale.sc]: '',
-            [Locale.en]: '',
-            [Locale.jp]: '',
-            [Locale.kr]: ''
+            [Locale.tc]: "",
+            [Locale.sc]: "",
+            [Locale.en]: "",
+            [Locale.jp]: "",
+            [Locale.kr]: ""
         },
         skill: {
             [Locale.tc]: {
                 [SkillType.BASE_STAT]: {
                     name: "完全體數據",
-                    description: "HP：4,498,024 | ATK：575,747"
+                    description: "HP：4,498,024\nATK：575,747"
                 },
                 [SkillType.SKILL_S]: {
                     name: "暴戾恣睢",
@@ -73,234 +73,234 @@ export const SkillSet_10002: SkillSet[] =  [
             },
             [Locale.sc]: {
                 [SkillType.BASE_STAT]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_S]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_4]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_5]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.ATTACK]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.LEADER]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 }
             },
             [Locale.en]: {
                 [SkillType.BASE_STAT]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_S]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_4]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_5]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.ATTACK]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.LEADER]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 }
             },
             [Locale.jp]: {
                 [SkillType.BASE_STAT]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_S]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_4]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_5]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.ATTACK]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.LEADER]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 }
             },
             [Locale.kr]: {
                 [SkillType.BASE_STAT]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_S]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_4]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.SKILL_5]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.ATTACK]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.LEADER]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_1]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 },
                 [SkillType.GENERAL_2]: {
-                    name: '',
-                    description: ''
+                    name: "",
+                    description: ""
                 }
             }
         }

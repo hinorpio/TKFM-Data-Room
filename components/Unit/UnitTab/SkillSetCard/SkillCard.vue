@@ -13,38 +13,24 @@
             </v-row>
         </v-toolbar>
         <v-card-text>
-            <div v-if="isDetail && !isLiberation">
+            <div v-if="isDetail && !isLiberation" class="ml-4">
                 <h3>{{$t('Level 1')}}</h3>
-                <span class="ml-4 body-1 font-weight-bold">
-                    {{getSkillDescription(skilltype_1)}}
-                </span>
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_1)"></span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 2')}}</h3>
-                <span class="ml-4 body-1 font-weight-bold">
-                    {{getSkillDescription(skilltype_2)}}
-                </span>
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_2)"></span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 3')}}</h3>
-                <span class="ml-4 body-1 font-weight-bold">
-                    {{getSkillDescription(skilltype_3)}}
-                </span>
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_3)"></span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 4')}}</h3>
-                <span class="ml-4 body-1 font-weight-bold">
-                    {{getSkillDescription(skilltype_4)}}
-                </span>
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_4)"></span>
                 <v-divider class="my-2"></v-divider>
                 <h3>{{$t('Level 5')}}</h3>
-                <span class="ml-4 body-1 font-weight-bold">
-                    {{getSkillDescription(skilltype_5)}}
-                </span>
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_5)"></span>
             </div>
-            <div v-else>
-                <div class="ml-4">
-                    <span class="body-1 font-weight-bold">
-                        {{getSkillDescription(skilltype)}}
-                    </span>
-                </div>
+            <div v-else class="ml-4">
+                <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype)"></span>
             </div>
         </v-card-text>
     </v-card>

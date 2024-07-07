@@ -63,4 +63,5 @@ export default {
     "Discipline Item": "調教道具",
     "New Character": "新增角色",
     "Event Date": "活動日期",
+    "Not available from recruitment": "徵才目前無法取得",
 }

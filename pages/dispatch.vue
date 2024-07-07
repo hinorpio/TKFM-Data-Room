@@ -14,7 +14,7 @@ import DispatchSummary from "@/components/Dispatch/DispatchSummary.vue";
 import DispatchPassive from "@/components/Dispatch/DispatchPassive.vue";
 
 @Component({
-    components:{
+    components: {
         DispatchSummary,
         DispatchPassive
     }
