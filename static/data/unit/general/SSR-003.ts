@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10003: Unit = {
+export const General_10003: Unit = {
     ID: "10003",
     metaCode: "iblis",
     prefix: {
@@ -43,8 +43,17 @@ export const GENERAL_10003: Unit = {
     thumbnail: UnitEssence[UnitCode.iblis],
     selection: UnitSelection[UnitCode.iblis],
     clothes: UnitFullImage[UnitCode.iblis],
-    tagList: [ 4, 6, 12, 15, 21, 22, 30, 32 ],
-    otherVersion: [ UnitCode.i_iblis, UnitCode.b_iblis ],
+    tagList: [ 
+        TagID.ELEMENT_LIGHT, 
+        TagID.POSITION_ATTACKER, 
+        TagID.SPECIES_DEMON, 
+        TagID.BODY_MEDIUM_SIZED, 
+        TagID.CLASS_LEADER, 
+        TagID.OTHER_DAMAGE_OUTPUT, 
+        TagID.OTHER_SURVIVABILLITY, 
+        TagID.OTHER_AOE,
+    ],
+    otherVersion: [ UnitCode.i_iblis, UnitCode.b_iblis, UnitCode.s_iblis ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

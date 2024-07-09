@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10060: Unit = {
+export const General_10060: Unit = {
     ID: "10060",
     metaCode: "hm_fiora",
     prefix: {

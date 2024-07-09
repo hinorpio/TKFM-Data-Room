@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10052: Unit = {
+export const General_10052: Unit = {
     ID: "10052",
     metaCode: "x_aiko",
     prefix: {
@@ -20,7 +20,7 @@ export const GENERAL_10052: Unit = {
         [Locale.kr]: null
     },
     abbreviation: {
-        [Locale.tc]: [ "黑艾" ],
+        [Locale.tc]: [ "黑艾", "聖艾" ],
         [Locale.sc]: [],
         [Locale.en]: [],
         [Locale.jp]: [],
@@ -44,7 +44,7 @@ export const GENERAL_10052: Unit = {
     selection: UnitSelection[UnitCode.x_aiko],
     clothes: UnitFullImage[UnitCode.x_aiko],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.xx_aiko ],
     puzzle: [],
     skillSet: []
 }

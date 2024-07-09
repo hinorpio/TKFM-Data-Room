@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10002: Unit = {
+export const General_10002: Unit = {
     ID: "10002",
     metaCode: "satan",
     prefix: {
@@ -43,7 +43,17 @@ export const GENERAL_10002: Unit = {
     thumbnail: UnitEssence[UnitCode.satan],
     selection: UnitSelection[UnitCode.satan],
     clothes: UnitFullImage[UnitCode.satan],
-    tagList: [ 5, 7, 12, 15, 18, 21, 24, 30, 33 ],
+    tagList: [ 
+        TagID.ELEMENT_DARK, 
+        TagID.POSITION_PROTECTER, 
+        TagID.SPECIES_DEMON, 
+        TagID.BODY_MEDIUM_SIZED, 
+        TagID.BREAST_GIANT_TITS, 
+        TagID.CLASS_LEADER, 
+        TagID.OTHER_DEFENSE, 
+        TagID.OTHER_SURVIVABILLITY, 
+        TagID.OTHER_COUNTERSTRIKE,
+    ],
     otherVersion: [ UnitCode.e_satan, UnitCode.b_satan ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []

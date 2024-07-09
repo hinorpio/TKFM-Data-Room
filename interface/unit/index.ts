@@ -1,4 +1,4 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { SkillSet } from './skillset';
 import { LiberateSkillSet } from './liberateSkillSet';
 import { Discipline } from './discipline';
@@ -28,7 +28,7 @@ export interface Unit {
     thumbnail: string;
     selection: string;
     clothes: string[];
-    tagList: number[];
+    tagList: TagID[];
     otherVersion: UnitCode[];
     skillSet: SkillSet[];
     discipline?: Discipline[];

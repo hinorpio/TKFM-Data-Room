@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10802: Unit = {
+export const General_10802: Unit = {
     ID: "10802",
     metaCode: "nana",
     prefix: {
@@ -43,8 +43,15 @@ export const GENERAL_10802: Unit = {
     thumbnail: UnitEssence[UnitCode.nana],
     selection: UnitSelection[UnitCode.nana],
     clothes: UnitFullImage[UnitCode.nana],
-    tagList: [ 3, 6, 12, 14, 16, 22 ],
-    otherVersion: [ UnitCode.s_nana ],
+    tagList: [ 
+        TagID.ELEMENT_WIND, 
+        TagID.POSITION_ATTACKER, 
+        TagID.SPECIES_DEMON, 
+        TagID.BODY_SMALL_SIZED, 
+        TagID.BREAST_FLAT_TITS, 
+        TagID.OTHER_DAMAGE_OUTPUT,
+    ],
+    otherVersion: [ UnitCode.s_nana, UnitCode.c1_nana ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1 ],
     skillSet: []
 }

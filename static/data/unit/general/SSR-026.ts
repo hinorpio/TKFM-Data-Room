@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10056: Unit = {
+export const General_10056: Unit = {
     ID: "10056",
     metaCode: "karina",
     prefix: {
@@ -43,7 +43,17 @@ export const GENERAL_10056: Unit = {
     thumbnail: UnitEssence[UnitCode.karina],
     selection: UnitSelection[UnitCode.karina],
     clothes: UnitFullImage[UnitCode.karina],
-    tagList: [ 2, 7, 13, 15, 18, 21, 23, 24, 33 ],
+    tagList: [
+        TagID.ELEMENT_WATER,
+        TagID.POSITION_PROTECTER,
+        TagID.SPECIES_DEMIHUMAN,
+        TagID.BODY_MEDIUM_SIZED,
+        TagID.BREAST_GIANT_TITS,
+        TagID.CLASS_LEADER,
+        TagID.OTHER_PROTECTION,
+        TagID.OTHER_DEFENSE,
+        TagID.OTHER_COUNTERSTRIKE,
+    ],
     otherVersion: [],
     puzzle: [],
     skillSet: []

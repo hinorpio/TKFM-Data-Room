@@ -44,6 +44,31 @@ import { Discipline_10084 } from "./SSR-040";
 import { Discipline_10018 } from "./SSR-041";
 import { Discipline_10019 } from "./SSR-042";
 import { Discipline_10020 } from "./SSR-043";
+import { Discipline_10050 } from "./SSR-044";
+import { Discipline_10075 } from "./SSR-045";
+import { Discipline_10076 } from "./SSR-046";
+import { Discipline_10049 } from "./SSR-047";
+import { Discipline_10100 } from "./SSR-048";
+import { Discipline_10042 } from "./SSR-049";
+import { Discipline_10090 } from "./SSR-050";
+import { Discipline_10091 } from "./SSR-051";
+import { Discipline_10092 } from "./SSR-052";
+import { Discipline_10074 } from "./SSR-053";
+import { Discipline_10085 } from "./SSR-054";
+import { Discipline_10088 } from "./SSR-055";
+import { Discipline_10089 } from "./SSR-056";
+import { Discipline_10063 } from "./SSR-057";
+import { Discipline_10066 } from "./SSR-058";
+import { Discipline_10093 } from "./SSR-059";
+import { Discipline_10094 } from "./SSR-060";
+import { Discipline_10068 } from "./SSR-061";
+import { Discipline_10047 } from "./SSR-062";
+import { Discipline_10095 } from "./SSR-063";
+import { Discipline_10096 } from "./SSR-064";
+import { Discipline_10062 } from "./SSR-065";
+import { Discipline_10024 } from "./SSR-066";
+import { Discipline_10097 } from "./SSR-067";
+import { Discipline_10098 } from "./SSR-068";
 import { Discipline_10802 } from "./R-001";
 
 export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
@@ -90,5 +115,30 @@ export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.uruta]: Discipline_10018,
     [UnitCode.ayane]: Discipline_10019,
     [UnitCode.muila]: Discipline_10020,
+    [UnitCode.f_caesar]: Discipline_10050,
+    [UnitCode.w_chizuru]: Discipline_10075,
+    [UnitCode.w_lulu]: Discipline_10076,
+    [UnitCode.faya]: Discipline_10049,
+    [UnitCode.usagihime]: Discipline_10100,
+    [UnitCode.s_iblis]: Discipline_10042,
+    [UnitCode.s_milae]: Discipline_10090,
+    [UnitCode.s_noel]: Discipline_10091,
+    [UnitCode.s_aridya]: Discipline_10092,
+    [UnitCode.ichika]: Discipline_10074,
+    [UnitCode.kana]: Discipline_10085,
+    [UnitCode.q_asida]: Discipline_10088,
+    [UnitCode.q_asina]: Discipline_10089,
+    [UnitCode.emily]: Discipline_10063,
+    [UnitCode.anjelica]: Discipline_10066,
+    [UnitCode.c1_nana]: Discipline_10093,
+    [UnitCode.geneva]: Discipline_10094,
+    [UnitCode.lotus]: Discipline_10068,
+    [UnitCode.didi]: Discipline_10047,
+    [UnitCode.h_leona]: Discipline_10095,
+    [UnitCode.h_lotiya]: Discipline_10096,
+    [UnitCode.sherana]: Discipline_10062,
+    [UnitCode.elizabeth]: Discipline_10024,
+    [UnitCode.xx_aiko]: Discipline_10097,
+    [UnitCode.x_shizuka]: Discipline_10098,
     [UnitCode.nana]: Discipline_10802,
 };

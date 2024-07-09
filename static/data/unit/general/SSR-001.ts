@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10001: Unit = {
+export const General_10001: Unit = {
     ID: "10001",
     metaCode: "baal",
     prefix: {
@@ -43,7 +43,14 @@ export const GENERAL_10001: Unit = {
     thumbnail: UnitEssence[UnitCode.baal],
     selection: UnitSelection[UnitCode.baal],
     clothes: UnitFullImage[UnitCode.baal],
-    tagList: [ 1, 6, 12, 15, 21, 22 ],
+    tagList: [
+        TagID.ELEMENT_FIRE, 
+        TagID.POSITION_ATTACKER, 
+        TagID.SPECIES_DEMON, 
+        TagID.BODY_MEDIUM_SIZED, 
+        TagID.CLASS_LEADER, 
+        TagID.OTHER_DAMAGE_OUTPUT,
+    ], 
     otherVersion: [ UnitCode.f_baal, UnitCode.b_baal ],
     puzzle: [ PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []

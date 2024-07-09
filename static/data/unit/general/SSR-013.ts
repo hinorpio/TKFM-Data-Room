@@ -1,8 +1,8 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
-export const GENERAL_10028: Unit = {
+export const General_10028: Unit = {
     ID: "10028",
     metaCode: "chizuru",
     prefix: {
@@ -20,7 +20,7 @@ export const GENERAL_10028: Unit = {
         [Locale.kr]: null
     },
     abbreviation: {
-        [Locale.tc]: [ "普千", "普鶴", "解鶴", "鶴" ],
+        [Locale.tc]: [ "普千", "普鶴", "解鶴", "鶴", "千" ],
         [Locale.sc]: [],
         [Locale.en]: [],
         [Locale.jp]: [],
@@ -43,8 +43,16 @@ export const GENERAL_10028: Unit = {
     thumbnail: UnitEssence[UnitCode.chizuru],
     selection: UnitSelection[UnitCode.chizuru],
     clothes: UnitFullImage[UnitCode.chizuru],
-    tagList: [ 3, 6, 12, 15, 21, 22, 29 ],
-    otherVersion: [],
+    tagList: [
+        TagID.ELEMENT_WIND,
+        TagID.POSITION_ATTACKER,
+        TagID.SPECIES_DEMON,
+        TagID.BODY_MEDIUM_SIZED,
+        TagID.CLASS_LEADER,
+        TagID.OTHER_DAMAGE_OUTPUT,
+        TagID.OTHER_EXPLOSIVENESS,
+    ],
+    otherVersion: [ UnitCode.w_chizuru ],
     puzzle: [],
     skillSet: []
 }
