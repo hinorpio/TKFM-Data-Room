@@ -505,7 +505,19 @@ import FULLIMAGE_10933_0 from "@/assets/character/fullbody/10933_0-Lv1.png"
 import FULLIMAGE_10933_1 from "@/assets/character/fullbody/10933_1-Lv1.png"
 import FULLIMAGE_10933_2 from "@/assets/character/fullbody/10933_2-Lv1.png"
 
-export const FullImage = {
+const N = {
+
+}
+
+const R = {
+    [UnitCode.nana]: [ FULLIMAGE_10802_0, FULLIMAGE_10802_1, FULLIMAGE_10802_2 ],
+}
+
+const SR = {
+
+}
+
+const SSR = {
     [UnitCode.baal]: [ FULLIMAGE_10001_0, FULLIMAGE_10001_1, FULLIMAGE_10001_2 ],
     [UnitCode.satan]: [ FULLIMAGE_10002_0, FULLIMAGE_10002_1, FULLIMAGE_10002_2 ],
     [UnitCode.iblis]: [ FULLIMAGE_10003_0, FULLIMAGE_10003_1, FULLIMAGE_10003_2 ],
@@ -574,5 +586,35 @@ export const FullImage = {
     [UnitCode.elizabeth]: [ FULLIMAGE_10024_0, FULLIMAGE_10024_1, FULLIMAGE_10024_2 ],
     [UnitCode.xx_aiko]: [ FULLIMAGE_10097_0, FULLIMAGE_10097_1, FULLIMAGE_10097_2 ],
     [UnitCode.x_shizuka]: [ FULLIMAGE_10098_0, FULLIMAGE_10098_1, FULLIMAGE_10098_2 ],
-    [UnitCode.nana]: [ FULLIMAGE_10802_0, FULLIMAGE_10802_1, FULLIMAGE_10802_2 ],
+    [UnitCode.shiro]: [ FULLIMAGE_10021_0, FULLIMAGE_10021_1, FULLIMAGE_10021_2 ],
+    [UnitCode.ny_salucia]: [ FULLIMAGE_10106_0, FULLIMAGE_10106_1, FULLIMAGE_10106_2 ],
+    [UnitCode.ny_lana]: [ FULLIMAGE_10107_0, FULLIMAGE_10107_1, FULLIMAGE_10107_2 ],
+    [UnitCode.v_baal]: [ FULLIMAGE_10108_0, FULLIMAGE_10108_1, FULLIMAGE_10108_2 ],
+    [UnitCode.v_iblis]: [ FULLIMAGE_10109_0, FULLIMAGE_10109_1, FULLIMAGE_10109_2 ],
+    [UnitCode.v_satan]: [ FULLIMAGE_10110_0, FULLIMAGE_10110_1, FULLIMAGE_10110_2 ],
+    [UnitCode.lillane]: [ FULLIMAGE_10069_0, FULLIMAGE_10069_1, FULLIMAGE_10069_2 ],
+    [UnitCode.c_lulu]: [ FULLIMAGE_10078_0, FULLIMAGE_10078_1, FULLIMAGE_10078_2 ],
+    [UnitCode.m_juneau]: [ FULLIMAGE_10114_0, FULLIMAGE_10114_1, FULLIMAGE_10114_2 ],
+    [UnitCode.m_britney]: [ FULLIMAGE_10115_0, FULLIMAGE_10115_1, FULLIMAGE_10115_2 ],
+    [UnitCode.momo]: [ FULLIMAGE_10048_0, FULLIMAGE_10048_1, FULLIMAGE_10048_2 ],
+    [UnitCode.n_caesar]: [ FULLIMAGE_10113_0, FULLIMAGE_10113_1, FULLIMAGE_10113_2 ],
+    [UnitCode.d_irene]: [ FULLIMAGE_10111_0, FULLIMAGE_10111_1, FULLIMAGE_10111_2 ],
+    [UnitCode.s_ayane]: [ FULLIMAGE_10116_0, FULLIMAGE_10116_1, FULLIMAGE_10116_2 ],
+    [UnitCode.s_baal]: [ FULLIMAGE_10117_0, FULLIMAGE_10117_1, FULLIMAGE_10117_2 ],
+    [UnitCode.s_fiora]: [ FULLIMAGE_10118_0, FULLIMAGE_10118_1, FULLIMAGE_10118_2 ],
+    [UnitCode.s_aiko]: [ FULLIMAGE_10119_0, FULLIMAGE_10119_1, FULLIMAGE_10119_2 ],
+    [UnitCode.o_lana]: [ FULLIMAGE_10120_0, FULLIMAGE_10120_1, FULLIMAGE_10120_2 ],
+    [UnitCode.o_nana]: [ FULLIMAGE_10121_0, FULLIMAGE_10121_1, FULLIMAGE_10121_2 ],
+    [UnitCode.sasha]: [ FULLIMAGE_10071_0, FULLIMAGE_10071_1, FULLIMAGE_10071_2 ],
+    [UnitCode.bayliss]: [ FULLIMAGE_10077_0, FULLIMAGE_10077_1, FULLIMAGE_10077_2 ],
+    [UnitCode.a_usagihime]: [ FULLIMAGE_10122_0, FULLIMAGE_10122_1, FULLIMAGE_10122_2 ],
+    [UnitCode.d_miru]: [ FULLIMAGE_10123_0, FULLIMAGE_10123_1, FULLIMAGE_10123_2 ],
+    [UnitCode.nyoro]: [ FULLIMAGE_10124_0, FULLIMAGE_10124_1, FULLIMAGE_10124_2 ],
+}
+
+export const FullImage = {
+    ...N,
+    ...R,
+    ...SR,
+    ...SSR
 }

@@ -54,7 +54,7 @@ export const General_10002: Unit = {
         TagID.OTHER_SURVIVABILLITY, 
         TagID.OTHER_COUNTERSTRIKE,
     ],
-    otherVersion: [ UnitCode.e_satan, UnitCode.b_satan ],
+    otherVersion: [ UnitCode.e_satan, UnitCode.b_satan, UnitCode.v_satan ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

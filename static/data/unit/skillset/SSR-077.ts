@@ -1,0 +1,308 @@
+import { Locale, SkillType } from '@/plugins/utils/enums';
+import { SkillSet } from '@/interface/unit/skillset';
+
+export const SkillSet_10114: SkillSet[] =  [
+    {
+        version: 1,
+        lastDate: "",
+        remark: {
+            [Locale.tc]: "",
+            [Locale.sc]: "",
+            [Locale.en]: "",
+            [Locale.jp]: "",
+            [Locale.kr]: ""
+        },
+        skill: {
+            [Locale.tc]: {
+                [SkillType.BASE_STAT]: {
+                    name: "完全體數據",
+                    description: "HP：3,284,637\nATK：897,938"
+                },
+                [SkillType.SKILL_S]: {
+                    name: "全力全開！星光粉碎毆打！",
+                    description: "我方站位5的角色必殺技傷害增加30/40/50/60/70%(2回合)，再以自身攻擊388/445/503/560/618%對目標造成傷害，CD:4"
+                },
+                [SkillType.SKILL_1]: {
+                    name: "全力全開！星光粉碎毆打！",
+                    description: "我方站位5的角色必殺技傷害增加30%(2回合)，再以自身攻擊388%對目標造成傷害，CD:4"
+                },
+                [SkillType.SKILL_2]: {
+                    name: "全力全開！星光粉碎毆打！",
+                    description: "我方站位5的角色必殺技傷害增加40%(2回合)，再以自身攻擊455%對目標造成傷害，CD:4"
+                },
+                [SkillType.SKILL_3]: {
+                    name: "全力全開！星光粉碎毆打！",
+                    description: "我方站位5的角色必殺技傷害增加50%(2回合)，再以自身攻擊503%對目標造成傷害，CD:4"
+                },
+                [SkillType.SKILL_4]: {
+                    name: "全力全開！星光粉碎毆打！",
+                    description: "我方站位5的角色必殺技傷害增加60%(2回合)，再以自身攻擊560%對目標造成傷害，CD:4"
+                },
+                [SkillType.SKILL_5]: {
+                    name: "全力全開！星光粉碎毆打！",
+                    description: "我方站位5的角色必殺技傷害增加70%(2回合)，再以自身攻擊618%對目標造成傷害，CD:4"
+                },
+                [SkillType.ATTACK]: {
+                    name: "非、非常抱歉！",
+                    description: "以自身攻擊力100%對目標造成傷害"
+                },
+                [SkillType.LEADER]: {
+                    name: "美艷動人♡性感魔法少女",
+                    description: "我方全體最大HP增加30%\n我方全體獲得「隊伍中至少有3名暗屬性角色時，發動《源初魔法少女》」\n我方全體獲得「隊伍中至少有2名光屬性角色時，發動《星月的祝福》」\n我方站位1的角色獲得「《力量增幅》」 \n\n《源初魔法少女》\n攻擊力增加40%\n行動時，觸發「使目標受到傷害增加2.5%(最多12層)」\n行動時，觸發「使目標受到觸發技傷害增加5%(最多12層)」\n\n《星月的祝福》\n造成傷害增加20%\n必殺時，觸發「使目標受到暗屬性傷害增加17.5%(最多2層)」\n必殺時，觸發「使目標受到光屬性傷害增加17.5%(最多2層)」\n\n《力量增幅》\n攻擊力增加80%\n普攻傷害增加60%\n必殺技傷害增加40%\n必殺時，觸發「以自身攻擊力150%對目標造成傷害」"
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "別靠近人家！",
+                    description: "攻擊力增加40%\n必殺技傷害增加20%"
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "驅散黑暗之光",
+                    description: "我方站位5的角色獲得《重見光明》\n\n《重見光明》\n必殺技傷害增加40%\n造成傷害增加40%"
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "魔法少女的『根』源之力",
+                    description: "觸發技傷害增加100%\n必殺時，觸發「以自身攻擊力180%對目標造成傷害」"
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "攻擊+ (6潛)",
+                    description: "使自身攻擊力增加10%"
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "免疫麻痺 (12潛)",
+                    description: "使自身免疫麻痺"
+                }
+            },
+            [Locale.sc]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.en]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.jp]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            },
+            [Locale.kr]: {
+                [SkillType.BASE_STAT]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_S]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_4]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.SKILL_5]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.ATTACK]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.LEADER]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_2]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.PASSIVE_3]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_1]: {
+                    name: "",
+                    description: ""
+                },
+                [SkillType.GENERAL_2]: {
+                    name: "",
+                    description: ""
+                }
+            }
+        }
+    },
+]

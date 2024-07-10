@@ -169,7 +169,19 @@ import ESSENCE_10923 from "@/assets/character/essence/IP10923.png"
 import ESSENCE_10924 from "@/assets/character/essence/IP10924.png"
 import ESSENCE_10933 from "@/assets/character/essence/IP10933.png"
 
-export const Essence = {
+const N = {
+
+}
+
+const R = {
+    [UnitCode.nana]: ESSENCE_10802,
+}
+
+const SR = {
+
+}
+
+const SSR = {
     [UnitCode.baal]: ESSENCE_10001,
     [UnitCode.satan]: ESSENCE_10002,
     [UnitCode.iblis]: ESSENCE_10003,
@@ -238,5 +250,35 @@ export const Essence = {
     [UnitCode.elizabeth]: ESSENCE_10024,
     [UnitCode.xx_aiko]: ESSENCE_10097,
     [UnitCode.x_shizuka]: ESSENCE_10098,
-    [UnitCode.nana]: ESSENCE_10802,
+    [UnitCode.shiro]: ESSENCE_10021,
+    [UnitCode.ny_salucia]: ESSENCE_10106,
+    [UnitCode.ny_lana]: ESSENCE_10107,
+    [UnitCode.v_baal]: ESSENCE_10108,
+    [UnitCode.v_iblis]: ESSENCE_10109,
+    [UnitCode.v_satan]: ESSENCE_10110,
+    [UnitCode.lillane]: ESSENCE_10069,
+    [UnitCode.c_lulu]: ESSENCE_10078,
+    [UnitCode.m_juneau]: ESSENCE_10114,
+    [UnitCode.m_britney]: ESSENCE_10115,
+    [UnitCode.momo]: ESSENCE_10048,
+    [UnitCode.n_caesar]: ESSENCE_10113,
+    [UnitCode.d_irene]: ESSENCE_10111,
+    [UnitCode.s_ayane]: ESSENCE_10116,
+    [UnitCode.s_baal]: ESSENCE_10117,
+    [UnitCode.s_fiora]: ESSENCE_10118,
+    [UnitCode.s_aiko]: ESSENCE_10119,
+    [UnitCode.o_lana]: ESSENCE_10120,
+    [UnitCode.o_nana]: ESSENCE_10121,
+    [UnitCode.sasha]: ESSENCE_10071,
+    [UnitCode.bayliss]: ESSENCE_10077,
+    [UnitCode.a_usagihime]: ESSENCE_10122,
+    [UnitCode.d_miru]: ESSENCE_10123,
+    [UnitCode.nyoro]: ESSENCE_10124,
+}
+
+export const Essence = {
+    ...N,
+    ...R,
+    ...SR,
+    ...SSR
 }

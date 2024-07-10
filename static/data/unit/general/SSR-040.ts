@@ -15,7 +15,7 @@ export const General_10084: Unit = {
     name: {
         [Locale.tc]: "杏仁咪嚕",
         [Locale.sc]: null,
-        [Locale.en]: "Miru",
+        [Locale.en]: "Annin Miru",
         [Locale.jp]: null,
         [Locale.kr]: null
     },
@@ -50,7 +50,7 @@ export const General_10084: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
         TagID.OTHER_SURVIVABILLITY,
     ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.d_miru ],
     puzzle: [],
     skillSet: []
 }

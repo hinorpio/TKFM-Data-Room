@@ -51,7 +51,7 @@ export const General_10001: Unit = {
         TagID.CLASS_LEADER, 
         TagID.OTHER_DAMAGE_OUTPUT,
     ], 
-    otherVersion: [ UnitCode.f_baal, UnitCode.b_baal ],
+    otherVersion: [ UnitCode.f_baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal ],
     puzzle: [ PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
     skillSet: []
 }

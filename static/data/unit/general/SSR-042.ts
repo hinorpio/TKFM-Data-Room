@@ -52,7 +52,7 @@ export const General_10019: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.s_ayane ],
     puzzle: [],
     skillSet: []
 }

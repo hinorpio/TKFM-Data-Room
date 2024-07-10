@@ -169,7 +169,19 @@ import SELECTION_10923 from "@/assets/character/selection/cs10923_0_0.png"
 import SELECTION_10924 from "@/assets/character/selection/cs10924_0_0.png"
 import SELECTION_10933 from "@/assets/character/selection/cs10933_0_0.png"
 
-export const Selection = {
+const N = {
+
+}
+
+const R = {
+    [UnitCode.nana]: SELECTION_10802,
+}
+
+const SR = {
+
+}
+
+const SSR = {
     [UnitCode.baal]: SELECTION_10001,
     [UnitCode.satan]: SELECTION_10002,
     [UnitCode.iblis]: SELECTION_10003,
@@ -238,5 +250,35 @@ export const Selection = {
     [UnitCode.elizabeth]: SELECTION_10024,
     [UnitCode.xx_aiko]: SELECTION_10097,
     [UnitCode.x_shizuka]: SELECTION_10098,
-    [UnitCode.nana]: SELECTION_10802,
+    [UnitCode.shiro]: SELECTION_10021,
+    [UnitCode.ny_salucia]: SELECTION_10106,
+    [UnitCode.ny_lana]: SELECTION_10107,
+    [UnitCode.v_baal]: SELECTION_10108,
+    [UnitCode.v_iblis]: SELECTION_10109,
+    [UnitCode.v_satan]: SELECTION_10110,
+    [UnitCode.lillane]: SELECTION_10069,
+    [UnitCode.c_lulu]: SELECTION_10078,
+    [UnitCode.m_juneau]: SELECTION_10114,
+    [UnitCode.m_britney]: SELECTION_10115,
+    [UnitCode.momo]: SELECTION_10048,
+    [UnitCode.n_caesar]: SELECTION_10113,
+    [UnitCode.d_irene]: SELECTION_10111,
+    [UnitCode.s_ayane]: SELECTION_10116,
+    [UnitCode.s_baal]: SELECTION_10117,
+    [UnitCode.s_fiora]: SELECTION_10118,
+    [UnitCode.s_aiko]: SELECTION_10119,
+    [UnitCode.o_lana]: SELECTION_10120,
+    [UnitCode.o_nana]: SELECTION_10121,
+    [UnitCode.sasha]: SELECTION_10071,
+    [UnitCode.bayliss]: SELECTION_10077,
+    [UnitCode.a_usagihime]: SELECTION_10122,
+    [UnitCode.d_miru]: SELECTION_10123,
+    [UnitCode.nyoro]: SELECTION_10124,
+}
+
+export const Selection = {
+    ...N,
+    ...R,
+    ...SR,
+    ...SSR
 }

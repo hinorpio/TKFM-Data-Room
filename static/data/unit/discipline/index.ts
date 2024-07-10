@@ -1,6 +1,7 @@
 import { Discipline } from "@/interface/unit/discipline";
 import { UnitCode } from "@/plugins/utils/enums";
 
+import { Discipline_10802 } from "./R-002";
 import { Discipline_10001 } from "./SSR-001";
 import { Discipline_10002 } from "./SSR-002";
 import { Discipline_10003 } from "./SSR-003";
@@ -69,9 +70,44 @@ import { Discipline_10062 } from "./SSR-065";
 import { Discipline_10024 } from "./SSR-066";
 import { Discipline_10097 } from "./SSR-067";
 import { Discipline_10098 } from "./SSR-068";
-import { Discipline_10802 } from "./R-001";
+import { Discipline_10021 } from "./SSR-069";
+import { Discipline_10106 } from "./SSR-070";
+import { Discipline_10107 } from "./SSR-071";
+import { Discipline_10108 } from "./SSR-072";
+import { Discipline_10109 } from "./SSR-073";
+import { Discipline_10110 } from "./SSR-074";
+import { Discipline_10069 } from "./SSR-075";
+import { Discipline_10078 } from "./SSR-076";
+import { Discipline_10114 } from "./SSR-077";
+import { Discipline_10115 } from "./SSR-078";
+import { Discipline_10048 } from "./SSR-079";
+import { Discipline_10113 } from "./SSR-080";
+import { Discipline_10111 } from "./SSR-081";
+import { Discipline_10116 } from "./SSR-082";
+import { Discipline_10117 } from "./SSR-083";
+import { Discipline_10118 } from "./SSR-084";
+import { Discipline_10119 } from "./SSR-085";
+import { Discipline_10120 } from "./SSR-086";
+import { Discipline_10121 } from "./SSR-087";
+import { Discipline_10071 } from "./SSR-088";
+import { Discipline_10077 } from "./SSR-089";
+import { Discipline_10122 } from "./SSR-090";
+import { Discipline_10123 } from "./SSR-091";
+import { Discipline_10124 } from "./SSR-092";
 
-export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
+const N: { [key in UnitCode]?: Discipline[] } = {
+    [UnitCode.nana]: Discipline_10802,
+}
+
+const R: { [key in UnitCode]?: Discipline[] } = {
+
+}
+
+const SR: { [key in UnitCode]?: Discipline[] } = {
+
+}
+
+const SSR: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.baal]: Discipline_10001,
     [UnitCode.satan]: Discipline_10002,
     [UnitCode.iblis]: Discipline_10003,
@@ -140,5 +176,35 @@ export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.elizabeth]: Discipline_10024,
     [UnitCode.xx_aiko]: Discipline_10097,
     [UnitCode.x_shizuka]: Discipline_10098,
-    [UnitCode.nana]: Discipline_10802,
+    [UnitCode.shiro]: Discipline_10021,
+    [UnitCode.ny_salucia]: Discipline_10106,
+    [UnitCode.ny_lana]: Discipline_10107,
+    [UnitCode.v_baal]: Discipline_10108,
+    [UnitCode.v_iblis]: Discipline_10109,
+    [UnitCode.v_satan]: Discipline_10110,
+    [UnitCode.lillane]: Discipline_10069,
+    [UnitCode.c_lulu]: Discipline_10078,
+    [UnitCode.m_juneau]: Discipline_10114,
+    [UnitCode.m_britney]: Discipline_10115,
+    [UnitCode.momo]: Discipline_10048,
+    [UnitCode.n_caesar]: Discipline_10113,
+    [UnitCode.d_irene]: Discipline_10111,
+    [UnitCode.s_ayane]: Discipline_10116,
+    [UnitCode.s_baal]: Discipline_10117,
+    [UnitCode.s_fiora]: Discipline_10118,
+    [UnitCode.s_aiko]: Discipline_10119,
+    [UnitCode.o_lana]: Discipline_10120,
+    [UnitCode.o_nana]: Discipline_10121,
+    [UnitCode.sasha]: Discipline_10071,
+    [UnitCode.bayliss]: Discipline_10077,
+    [UnitCode.a_usagihime]: Discipline_10122,
+    [UnitCode.d_miru]: Discipline_10123,
+    [UnitCode.nyoro]: Discipline_10124,
+}
+
+export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
+    ...N,
+    ...R,
+    ...SR,
+    ...SSR
 };

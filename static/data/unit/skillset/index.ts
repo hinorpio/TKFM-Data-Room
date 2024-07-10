@@ -1,6 +1,7 @@
 import { SkillSet } from "@/interface/unit/skillset";
 import { UnitCode } from "@/plugins/utils/enums";
 
+import { SkillSet_10802 } from "./R-002";
 import { SkillSet_10001 } from "./SSR-001";
 import { SkillSet_10002 } from "./SSR-002";
 import { SkillSet_10003 } from "./SSR-003";
@@ -69,9 +70,44 @@ import { SkillSet_10062 } from "./SSR-065";
 import { SkillSet_10024 } from "./SSR-066";
 import { SkillSet_10097 } from "./SSR-067";
 import { SkillSet_10098 } from "./SSR-068";
-import { SkillSet_10802 } from "./R-001";
+import { SkillSet_10021 } from "./SSR-069";
+import { SkillSet_10106 } from "./SSR-070";
+import { SkillSet_10107 } from "./SSR-071";
+import { SkillSet_10108 } from "./SSR-072";
+import { SkillSet_10109 } from "./SSR-073";
+import { SkillSet_10110 } from "./SSR-074";
+import { SkillSet_10069 } from "./SSR-075";
+import { SkillSet_10078 } from "./SSR-076";
+import { SkillSet_10114 } from "./SSR-077";
+import { SkillSet_10115 } from "./SSR-078";
+import { SkillSet_10048 } from "./SSR-079";
+import { SkillSet_10113 } from "./SSR-080";
+import { SkillSet_10111 } from "./SSR-081";
+import { SkillSet_10116 } from "./SSR-082";
+import { SkillSet_10117 } from "./SSR-083";
+import { SkillSet_10118 } from "./SSR-084";
+import { SkillSet_10119 } from "./SSR-085";
+import { SkillSet_10120 } from "./SSR-086";
+import { SkillSet_10121 } from "./SSR-087";
+import { SkillSet_10071 } from "./SSR-088";
+import { SkillSet_10077 } from "./SSR-089";
+import { SkillSet_10122 } from "./SSR-090";
+import { SkillSet_10123 } from "./SSR-091";
+import { SkillSet_10124 } from "./SSR-092";
 
-export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {
+const N: { [key in UnitCode]?: SkillSet[] } = {
+    [UnitCode.nana]: SkillSet_10802,
+}
+
+const R: { [key in UnitCode]?: SkillSet[] } = {
+
+}
+
+const SR: { [key in UnitCode]?: SkillSet[] } = {
+
+}
+
+const SSR: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.baal]: SkillSet_10001,
     [UnitCode.satan]: SkillSet_10002,
     [UnitCode.iblis]: SkillSet_10003,
@@ -140,5 +176,35 @@ export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.elizabeth]: SkillSet_10024,
     [UnitCode.xx_aiko]: SkillSet_10097,
     [UnitCode.x_shizuka]: SkillSet_10098,
-    [UnitCode.nana]: SkillSet_10802,
+    [UnitCode.shiro]: SkillSet_10021,
+    [UnitCode.ny_salucia]: SkillSet_10106,
+    [UnitCode.ny_lana]: SkillSet_10107,
+    [UnitCode.v_baal]: SkillSet_10108,
+    [UnitCode.v_iblis]: SkillSet_10109,
+    [UnitCode.v_satan]: SkillSet_10110,
+    [UnitCode.lillane]: SkillSet_10069,
+    [UnitCode.c_lulu]: SkillSet_10078,
+    [UnitCode.m_juneau]: SkillSet_10114,
+    [UnitCode.m_britney]: SkillSet_10115,
+    [UnitCode.momo]: SkillSet_10048,
+    [UnitCode.n_caesar]: SkillSet_10113,
+    [UnitCode.d_irene]: SkillSet_10111,
+    [UnitCode.s_ayane]: SkillSet_10116,
+    [UnitCode.s_baal]: SkillSet_10117,
+    [UnitCode.s_fiora]: SkillSet_10118,
+    [UnitCode.s_aiko]: SkillSet_10119,
+    [UnitCode.o_lana]: SkillSet_10120,
+    [UnitCode.o_nana]: SkillSet_10121,
+    [UnitCode.sasha]: SkillSet_10071,
+    [UnitCode.bayliss]: SkillSet_10077,
+    [UnitCode.a_usagihime]: SkillSet_10122,
+    [UnitCode.d_miru]: SkillSet_10123,
+    [UnitCode.nyoro]: SkillSet_10124,
+}
+
+export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {
+    ...N,
+    ...R,
+    ...SR,
+    ...SSR
 };

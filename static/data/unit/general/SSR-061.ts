@@ -54,6 +54,6 @@ export const General_10068: Unit = {
         TagID.OTHER_SUPPORT,
     ],
     otherVersion: [],
-    puzzle: [],
+    puzzle: [ PuzzleCode.EVENT_2023_XMAS_2 ],
     skillSet: []
 }

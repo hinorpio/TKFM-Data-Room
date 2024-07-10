@@ -54,7 +54,7 @@ export const General_10005: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
         TagID.OTHER_MORE_POWER,
     ],
-    otherVersion: [ UnitCode.x_lana ],
+    otherVersion: [ UnitCode.x_lana, UnitCode.ny_lana, UnitCode.o_lana ],
     puzzle: [],
     skillSet: []
 }
