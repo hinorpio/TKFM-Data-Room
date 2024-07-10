@@ -31,25 +31,11 @@ export default class UnitHeader extends Vue {
     unit!: Unit;
 
     get iconSize(): string{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return '2em'
-            case 'sm': return '2em'
-            case 'md': return '2em'
-            case 'lg': return '2.5em'
-            case 'xl': return '3em'
-            default: return '3em'
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2em', '2em', '2em', '2.5em', '3em')
     }
 
     get titleClass(): string{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return 'title font-weight-bold'
-            case 'sm': return 'title font-weight-bold'
-            case 'md': return 'title font-weight-bold'
-            case 'lg': return 'headline font-weight-bold'
-            case 'xl': return 'display-1 font-weight-bold'
-            default: return 'display-1 font-weight-bold'
-        }
+        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'title', 'title', 'title', 'headline', 'display-1')} font-weight-bold`
     }
 
     strLengthExceedWidth(): boolean{

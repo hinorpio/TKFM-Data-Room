@@ -1,23 +1,24 @@
 <template>
   <div class="text-center">
-    <v-menu offset-y>
-      <template v-slot:activator="{ on, attrs }">
-          <v-btn v-bind="attrs" v-on="on" icon>
+    <v-menu left bottom >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon v-bind="attrs" v-on="on" >
               <v-icon> mdi-translate </v-icon>
           </v-btn>
-      </template>
-      <v-list>
-        <v-list-item>
-          <v-list-item-title @click="handleSetLanguage('en')">English</v-list-item-title>
-        </v-list-item>
-        <v-list-item>
-          <v-list-item-title @click="handleSetLanguage('tc')">繁體中文</v-list-item-title>
-        </v-list-item>
-        <v-list-item>
-          <v-list-item-title @click="handleSetLanguage('sc')">簡體中文</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu>
+        </template>
+
+        <v-list>
+          <v-list-item>
+            <v-list-item-title @click="handleSetLanguage('en')">English</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title @click="handleSetLanguage('tc')">繁體中文</v-list-item-title>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-title @click="handleSetLanguage('sc')">簡體中文</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
   </div>
 </template>
 

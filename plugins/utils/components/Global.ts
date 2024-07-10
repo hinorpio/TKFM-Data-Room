@@ -34,6 +34,16 @@ export default {
                 return require("@/assets/error.png")
         }
     },
+    getValueByBreakPoint(breakpoint: string, xs: any, sm: any, md: any, lg: any, xl: any): any{
+        switch (breakpoint) {
+            case 'xs': return xs;
+            case 'sm': return sm;
+            case 'md': return md;
+            case 'lg': return lg;
+            case 'xl': return xl;
+            default: return xl;
+        }
+    },
     getAllElement(): { [key: string]: string }[] {
         return Object.entries(ElementIcon).map(([key, value]) => ({ code: key, icon: value }));
     },

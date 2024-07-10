@@ -18,16 +18,9 @@ export default class UnitFullBody extends Vue {
     unit!: Unit;
 
     fullBody: Number = 0
-
+    
     get imgHeight(): string{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return '50vh'
-            case 'sm': return '30vh'
-            case 'md': return '70vh'
-            case 'lg': return '80vh'
-            case 'xl': return '80vh'
-            default: return '80vh'
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '50vh', '30vh', '70vh', '80vh', '80vh')
     }
 }
 </script>

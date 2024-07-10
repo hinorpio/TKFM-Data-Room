@@ -60,14 +60,7 @@ export default class LiberationCard extends Vue {
     showDetail: boolean = false;
 
     get itemsPerRow(): number {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return 1;
-            case 'sm': return 2;
-            case 'md': return 2;
-            case 'lg': return 2;
-            case 'xl': return 2;
-            default: return 2;
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 1, 2, 2, 2, 2)
     }
 
     toggleShowDetail(): void {

@@ -112,36 +112,15 @@ export default class RecruitmentResult extends Vue {
     }
 
     get tableStringClass(): string {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return 'caption';
-            case 'sm': return 'subtitle-2';
-            case 'md': return 'subtitle-2';
-            case 'lg': return 'subtitle-1';
-            case 'xl': return 'subtitle-1';
-            default: return 'subtitle-1';
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'caption', 'subtitle-2', 'subtitle-2', 'subtitle-1', 'subtitle-1')
     }
 
     get thumbnailSize(): string {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return '2.5em';
-            case 'sm': return '4em';
-            case 'md': return '3.5em';
-            case 'lg': return '5em';
-            case 'xl': return '5em';
-            default: return '5em';
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2.5em', '4em', '3.5em', '5em', '5em')
     }
 
     get raritySize(): string {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return '2em';
-            case 'sm': return '2.5em';
-            case 'md': return '2.5em';
-            case 'lg': return '2.5em';
-            case 'xl': return '2.5em';
-            default: return '2.5em';
-        };
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2em', '2.5em', '2.5em', '2.5em', '2.5em')
     }
 
     handleShowTag(unitTagList: number[]): Tag[] {
@@ -149,14 +128,7 @@ export default class RecruitmentResult extends Vue {
     }
 
     getTagColumWidth(): string {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return "10%";
-            case 'sm': return "50%";
-            case 'md': return "20%";
-            case 'lg': return "30%";
-            case 'xl': return "50%";
-            default: return "50%";
-        };
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '10%', '50%', '20%', '30%', '50%')
     }
 }
 </script>

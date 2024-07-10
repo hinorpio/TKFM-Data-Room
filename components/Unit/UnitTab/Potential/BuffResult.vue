@@ -36,14 +36,7 @@ export default class BuffResult extends Vue {
     summary!: StatSummary[];
 
     get itemFontSize(): string {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return 'body-2 font-weight-bold';
-            case 'sm': return 'body-2 font-weight-bold';
-            case 'md': return 'body-1 font-weight-bold';
-            case 'lg': return 'body-1 font-weight-bold';
-            case 'xl': return 'body-1 font-weight-bold';
-            default: return 'body-1 font-weight-bold';
-        }
+        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'body-2', 'body-2', 'body-1', 'body-1', 'body-1')} font-weight-bold`
     }
 
     showBuffIcon(buff: StatSummary): string {

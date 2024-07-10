@@ -77,20 +77,7 @@ export default class TagSelectTable extends Vue {
     }
 
     get showBtnSize(): boolean {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs':
-                return true;
-            case 'sm':
-                return true;
-            case 'md':
-                return true;
-            case 'lg':
-                return false;
-            case 'xl':
-                return false;
-            default:
-                return false;
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, true, false, false)
     }
 
     filterTagByType(type: TagType): any[] {
@@ -113,5 +100,4 @@ export default class TagSelectTable extends Vue {
     padding: 1px
 ::v-deep .v-btn--active.no-active::before
     opacity: 0 !important
-      
 </style>

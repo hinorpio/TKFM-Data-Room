@@ -3,7 +3,7 @@
         <v-container>
             <v-row v-if="isNoUnitSelected">
                 <v-spacer></v-spacer>
-                <no-unit-selected />
+                <character-search />
                 <v-spacer></v-spacer>
             </v-row>
             <div v-else>
@@ -20,7 +20,9 @@
                         <v-icon large>mdi-magnify</v-icon>
                     </v-btn>
                 </v-fab-transition>
-                <character-search-dialog :visible.sync="visible" />
+                <v-dialog v-model="visible" :max-width="dialogWidth" :max-height="dialogHeight" @click:outside="visible = false" >
+                    <character-search @close="visible = false"/>
+                </v-dialog>
             </div>
         </v-container>
     </v-layout>
@@ -30,17 +32,15 @@ import Vue from "vue";
 import { Component } from "vue-property-decorator";
 import { ErrorCode } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
-import NoUnitSelected from "@/components/Unit/NoUnitSelected.vue";
 import UnitContent from "@/components/Unit/UnitContent.vue";
 import UnitFullBody from "@/components/Unit/UnitFullBody.vue";
-import CharacterSearchDialog from "@/components/Unit/CharacterSearchDialog/CharacterSearchDialog.vue";
+import CharacterSearch from "~/components/Unit/CharacterSearch/CharacterSearch.vue";
 
 @Component({
     components: {
-        NoUnitSelected,
         UnitContent,
         UnitFullBody,
-        CharacterSearchDialog,
+        CharacterSearch
     },
 })
 export default class UnitPage extends Vue {
@@ -48,6 +48,8 @@ export default class UnitPage extends Vue {
     isNoUnitSelected: boolean = false
     visible: boolean = false
     unit: Unit | undefined
+    dialogWidth: String = '80em';
+    dialogHeight: String = '80%';
 
     async mounted() {
         const metaCode = this.$route.params.metaCode

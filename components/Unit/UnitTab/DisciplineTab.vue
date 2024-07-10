@@ -32,14 +32,7 @@ export default class DisciplineTab extends Vue {
     unit!: Unit;
 
     get titleClass(): string  {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return 'title font-weight-bold';
-            case 'sm': return 'title font-weight-bold';
-            case 'md': return 'title font-weight-bold';
-            case 'lg': return 'title font-weight-bold';
-            case 'xl': return 'headline font-weight-bold';
-            default: return 'headline font-weight-bold';
-        }
+        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'title', 'title', 'title', 'title', 'headline')} font-weight-bold`
     }
 
     getRoomName(room: Discipline): string{

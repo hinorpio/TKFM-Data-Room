@@ -36,48 +36,20 @@ export default class EventCard extends Vue {
     @Prop({ type: Object, required: true, default: {} })
     event!: Event;
 
-    get isChipSmall(): boolean{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return false
-            case 'sm': return false
-            case 'md': return true
-            case 'lg': return true
-            case 'xl': return true
-            default: return true
-        }
+    get isChipSmall(): boolean {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, false, false, true, true, true)
     }
 
     get isChipXSmall(): boolean{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return true
-            case 'sm': return true
-            case 'md': return false
-            case 'lg': return false
-            case 'xl': return false
-            default: return false
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, false, false, false)
     }
 
     get iconSize(): string{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return '2em'
-            case 'sm': return '2.5em'
-            case 'md': return '2.5em'
-            case 'lg': return '2.5em'
-            case 'xl': return '2.5em'
-            default: return '2.5em'
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2em', '2.5em', '2.5em', '2.5em', '2.5em')
     }
 
     get titleClass(): string{
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return 'caption'
-            case 'sm': return 'subtitle-1'
-            case 'md': return 'subtitle-1'
-            case 'lg': return 'subtitle-1'
-            case 'xl': return 'subtitle-1'
-            default: return 'subtitle-1'
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'caption', 'subtitle-1', 'subtitle-1', 'subtitle-1', 'subtitle-1')
     }
 
     getEventBanner(event: Event): string{

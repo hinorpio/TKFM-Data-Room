@@ -37,14 +37,7 @@ export default class DispatchSummary extends Vue {
     data!: Dispatch[];
 
     get imgWidth(): string {
-        switch (this.$vuetify.breakpoint.name) {
-            case 'xs': return '45%';
-            case 'sm': return '47.5%';
-            case 'md': return '18%';
-            case 'lg': return '18%';
-            case 'xl': return '19%';
-            default: return '10%';
-        }
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '45%', '47.5%', '18%', '18%', '19%')
     }
 
     getBannerImage(dispatch: Dispatch): string{
