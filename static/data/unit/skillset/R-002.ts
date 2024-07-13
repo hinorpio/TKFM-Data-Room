@@ -16,7 +16,7 @@ export const SkillSet_10802: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.BASE_STAT]: {
                     name: "完全體數據",
-                    description: "HP：2,083,484 | ATK：630,443"
+                    description: "HP：2,083,484\nATK：630,443"
                 },
                 [SkillType.SKILL_S]: {
                     name: "貓體術。疾風爪",

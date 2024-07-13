@@ -51,7 +51,7 @@ export const General_10802: Unit = {
         TagID.BREAST_FLAT_TITS, 
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
-    otherVersion: [ UnitCode.s_nana, UnitCode.c1_nana, UnitCode.o_nana ],
+    otherVersion: [ UnitCode.s_nana, UnitCode.c1_nana, UnitCode.o_nana, UnitCode.a_nana ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_XMAS_2 ],
     skillSet: []
 }

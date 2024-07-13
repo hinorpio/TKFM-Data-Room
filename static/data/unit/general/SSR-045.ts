@@ -44,7 +44,7 @@ export const General_10075: Unit = {
     selection: UnitSelection[UnitCode.w_chizuru],
     clothes: UnitFullImage[UnitCode.w_chizuru],
     tagList: [],
-    otherVersion: [ UnitCode.chizuru ],
+    otherVersion: [ UnitCode.chizuru, UnitCode.s_chizuru ],
     puzzle: [],
     skillSet: []
 }

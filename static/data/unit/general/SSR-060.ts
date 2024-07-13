@@ -8,7 +8,7 @@ export const General_10094: Unit = {
     prefix: {
         [Locale.tc]: "未知生命體",
         [Locale.sc]: null,
-        [Locale.en]: "Chosen One",
+        [Locale.en]: "Unknown Organism",
         [Locale.jp]: null,
         [Locale.kr]: null
     },

@@ -3,6 +3,21 @@ import { UnitCode } from "@/plugins/utils/enums";
 import { Rarity, Element, Position, PotentialType } from "@/plugins/utils/enums";
 
 import { General_10802 } from "./R-002";
+import { General_10009 } from "./SR-001";
+import { General_10010 } from "./SR-002";
+import { General_10011 } from "./SR-003";
+import { General_10012 } from "./SR-004";
+import { General_10013 } from "./SR-005";
+import { General_10014 } from "./SR-006";
+import { General_10015 } from "./SR-007";
+import { General_10016 } from "./SR-008";
+import { General_10036 } from "./SR-009";
+import { General_10038 } from "./SR-010";
+import { General_10061 } from "./SR-011";
+import { General_10051 } from "./SR-012";
+import { General_10046 } from "./SR-013";
+import { General_10055 } from "./SR-014";
+import { General_10041 } from "./SR-015";
 import { General_10001 } from "./SSR-001";
 import { General_10002 } from "./SSR-002";
 import { General_10003 } from "./SSR-003";
@@ -95,18 +110,55 @@ import { General_10077 } from "./SSR-089";
 import { General_10122 } from "./SSR-090";
 import { General_10123 } from "./SSR-091";
 import { General_10124 } from "./SSR-092";
+import { General_10125 } from "./SSR-093";
+import { General_10126 } from "./SSR-094";
+import { General_10131 } from "./SSR-095";
+import { General_10132 } from "./SSR-096";
+import { General_10127 } from "./SSR-097";
+import { General_10128 } from "./SSR-098";
+import { General_10129 } from "./SSR-099";
+import { General_10130 } from "./SSR-100";
+import { General_10022 } from "./SSR-101";
+import { General_10023 } from "./SSR-102";
+import { General_10133 } from "./SSR-103";
+import { General_10134 } from "./SSR-104";
+import { General_10135 } from "./SSR-105";
+import { General_10136 } from "./SSR-106";
+import { General_10137 } from "./SSR-107";
+import { General_10138 } from "./SSR-108";
+import { General_10139 } from "./SSR-109";
+import { General_10140 } from "./SSR-110";
+import { General_10141 } from "./SSR-111";
+import { General_10142 } from "./SSR-112";
+import { General_10143 } from "./SSR-113";
+import { General_10144 } from "./SSR-114";
+import { General_10145 } from "./SSR-115";
 
 
 const N: { [key in UnitCode]?: Unit } = {
-    [UnitCode.nana]: General_10802,
+
 }
 
 const R: { [key in UnitCode]?: Unit } = {
-
+    [UnitCode.nana]: General_10802,
 }
 
 const SR: { [key in UnitCode]?: Unit } = {
-
+    [UnitCode.aiko]: General_10009,
+    [UnitCode.leona]: General_10010,
+    [UnitCode.fiora]: General_10011,
+    [UnitCode.ritsuki]: General_10012,
+    [UnitCode.minayomi]: General_10013,
+    [UnitCode.shizuka]: General_10014,
+    [UnitCode.juneau]: General_10015,
+    [UnitCode.britney]: General_10016,
+    [UnitCode.nafrala]: General_10036,
+    [UnitCode.tyrella]: General_10038,
+    [UnitCode.teresa]: General_10061,
+    [UnitCode.pulicia]: General_10051,
+    [UnitCode.janelle]: General_10046,
+    [UnitCode.tanocia]: General_10055,
+    [UnitCode.yingying]: General_10041,
 }
 
 const SSR: { [key in UnitCode]?: Unit } = {
@@ -202,6 +254,29 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.a_usagihime]: General_10122,
     [UnitCode.d_miru]: General_10123,
     [UnitCode.nyoro]: General_10124,
+    [UnitCode.h_ayane]: General_10125,
+    [UnitCode.h_shiro]: General_10126,
+    [UnitCode.inase]: General_10131,
+    [UnitCode.cartilla]: General_10132,
+    [UnitCode.x_aridya]: General_10127,
+    [UnitCode.x_iblis]: General_10128,
+    [UnitCode.w_evie]: General_10129,
+    [UnitCode.salina]: General_10130,
+    [UnitCode.noma]: General_10022,
+    [UnitCode.belladonna]: General_10023,
+    [UnitCode.nanami]: General_10133,
+    [UnitCode.w_noel]: General_10134,
+    [UnitCode.w_mesmiia]: General_10135,
+    [UnitCode.angelina]: General_10136,
+    [UnitCode.w_lillane]: General_10137,
+    [UnitCode.p_lulu]: General_10138,
+    [UnitCode.p_tyrella]: General_10139,
+    [UnitCode.lelya]: General_10140,
+    [UnitCode.a_nana]: General_10141,
+    [UnitCode.s_chizuru]: General_10142,
+    [UnitCode.s_salucia]: General_10143,
+    [UnitCode.s_caesar]: General_10144,
+    [UnitCode.s_satan]: General_10145,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {

@@ -44,7 +44,7 @@ export const General_10079: Unit = {
     selection: UnitSelection[UnitCode.tm_ritsuki],
     clothes: UnitFullImage[UnitCode.tm_ritsuki],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.ritsuki ],
     puzzle: [],
     skillSet: []
 }

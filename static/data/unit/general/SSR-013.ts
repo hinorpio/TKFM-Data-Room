@@ -52,7 +52,7 @@ export const General_10028: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
         TagID.OTHER_EXPLOSIVENESS,
     ],
-    otherVersion: [ UnitCode.w_chizuru ],
+    otherVersion: [ UnitCode.w_chizuru, UnitCode.s_chizuru ],
     puzzle: [],
     skillSet: []
 }

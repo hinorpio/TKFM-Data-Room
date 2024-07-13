@@ -44,7 +44,7 @@ export const General_10091: Unit = {
     selection: UnitSelection[UnitCode.s_noel],
     clothes: UnitFullImage[UnitCode.s_noel],
     tagList: [],
-    otherVersion: [ UnitCode.noel ],
+    otherVersion: [ UnitCode.noel, UnitCode.w_noel ],
     puzzle: [ PuzzleCode.EVENT_2022_SUMMER_3 ],
     skillSet: []
 }

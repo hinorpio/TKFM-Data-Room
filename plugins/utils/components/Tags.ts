@@ -1,9 +1,10 @@
 import { Tag } from '@/interface/tag';
 import { Unit } from '@/interface/unit';
+import { Rarity, TagID } from '@/plugins/utils/enums';
 import tagData from '@/static/data/tags';
 
 export default {
-    getTag(id: number): Tag {
+    getTag(id: TagID): Tag {
         const foundTag = tagData.find((tag: Tag) => tag.ID === id);
         if (foundTag) {
             return foundTag;
@@ -12,7 +13,7 @@ export default {
         }
     },
 
-    getTagByIDs(ids: number[]): Tag[] {
+    getTagByIDs(ids: TagID[]): Tag[] {
         return tagData.filter((tag: Tag) => ids.includes(tag.ID));
     },
 
@@ -20,14 +21,14 @@ export default {
         return tagData;
     },
 
-    checkIsTagListUnique(ids: number[], unitList: Unit[]): boolean {
+    checkIsTagListUnique(ids: TagID[], unitList: Unit[]): boolean {
         return unitList.filter((unit: Unit) => ids.every(tagID => unit.tagList.includes(tagID))).length === 1;
     },
 
-    checkIsTagListGuaranteeSR(ids: number[], unitList: Unit[]): boolean {
-        const list = unitList.filter(unit => ids.every(tagID => unit.tagList.includes(tagID)));
+    checkIsTagListGuaranteeSR(ids: TagID[], unitList: Unit[]): boolean {
+        const list = unitList.filter(unit => ids.every(tagID => unit.tagList.includes(tagID)) && unit.rarity !== Rarity.SSR)
         for (const unit of list) {
-            if (unit.rarity !== 'SSR') {   // testing
+            if (unit.rarity !== Rarity.SR) {
                 return false;
             }
         }

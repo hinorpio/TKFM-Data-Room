@@ -44,7 +44,7 @@ export const General_10069: Unit = {
     selection: UnitSelection[UnitCode.lillane],
     clothes: UnitFullImage[UnitCode.lillane],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.w_lillane ],
     puzzle: [],
     skillSet: []
 }

@@ -178,7 +178,21 @@ const R = {
 }
 
 const SR = {
-
+    [UnitCode.aiko]: ESSENCE_10009,
+    [UnitCode.leona]: ESSENCE_10010,
+    [UnitCode.fiora]: ESSENCE_10011,
+    [UnitCode.ritsuki]: ESSENCE_10012,
+    [UnitCode.minayomi]: ESSENCE_10013,
+    [UnitCode.shizuka]: ESSENCE_10014,
+    [UnitCode.juneau]: ESSENCE_10015,
+    [UnitCode.britney]: ESSENCE_10016,
+    [UnitCode.nafrala]: ESSENCE_10036,
+    [UnitCode.tyrella]: ESSENCE_10038,
+    [UnitCode.teresa]: ESSENCE_10061,
+    [UnitCode.pulicia]: ESSENCE_10051,
+    [UnitCode.janelle]: ESSENCE_10046,
+    [UnitCode.tanocia]: ESSENCE_10055,
+    [UnitCode.yingying]: ESSENCE_10041,
 }
 
 const SSR = {
@@ -274,6 +288,29 @@ const SSR = {
     [UnitCode.a_usagihime]: ESSENCE_10122,
     [UnitCode.d_miru]: ESSENCE_10123,
     [UnitCode.nyoro]: ESSENCE_10124,
+    [UnitCode.h_ayane]: ESSENCE_10125,
+    [UnitCode.h_shiro]: ESSENCE_10126,
+    [UnitCode.inase]: ESSENCE_10131,
+    [UnitCode.cartilla]: ESSENCE_10132,
+    [UnitCode.x_aridya]: ESSENCE_10127,
+    [UnitCode.x_iblis]: ESSENCE_10128,
+    [UnitCode.w_evie]: ESSENCE_10129,
+    [UnitCode.salina]: ESSENCE_10130,
+    [UnitCode.noma]: ESSENCE_10022,
+    [UnitCode.belladonna]: ESSENCE_10023,
+    [UnitCode.nanami]: ESSENCE_10133,
+    [UnitCode.w_noel]: ESSENCE_10134,
+    [UnitCode.w_mesmiia]: ESSENCE_10135,
+    [UnitCode.angelina]: ESSENCE_10136,
+    [UnitCode.w_lillane]: ESSENCE_10137,
+    [UnitCode.p_lulu]: ESSENCE_10138,
+    [UnitCode.p_tyrella]: ESSENCE_10139,
+    [UnitCode.lelya]: ESSENCE_10140,
+    [UnitCode.a_nana]: ESSENCE_10141,
+    [UnitCode.s_chizuru]: ESSENCE_10142,
+    [UnitCode.s_salucia]: ESSENCE_10143,
+    [UnitCode.s_caesar]: ESSENCE_10144,
+    [UnitCode.s_satan]: ESSENCE_10145,
 }
 
 export const Essence = {

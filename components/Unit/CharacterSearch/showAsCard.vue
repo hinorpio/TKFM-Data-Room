@@ -6,10 +6,10 @@
                     <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/>
                     <v-spacer></v-spacer>
                     <v-col class="pr-6" :cols="8">
-                        <v-row :class="fontClass">
+                        <v-row :class="prefixClass">
                             <span>{{ getPrefix(unit) }}</span>
                         </v-row>
-                        <v-row :class="fontClass">
+                        <v-row :class="nameClass">
                             <span>{{ getName(unit) }}</span>
                         </v-row>
                     </v-col>
@@ -37,8 +37,12 @@ export default class ShowAsCard extends Vue {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '4.5em', '4.5em', '4.5em', '5.5em', '5.5em')
     }
 
-    get fontClass (): string {
-        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'subtitle-2', 'subtitle-2', 'subtitle-2', 'subtitle-2', 'subtitle-1')} justify-end py-2 white--text`
+    get prefixClass (): string {
+        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'caption', 'caption', 'caption', 'caption', 'subtitle-2')} justify-end pt-1 white--text`
+    }
+
+    get nameClass (): string {
+        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'subtitle-1', 'subtitle-1', 'subtitle-1', 'subtitle-1', 'title')} justify-end pb-1 white--text`
     }
 
     handleSelectUnit(unit: Unit): void {

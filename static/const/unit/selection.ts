@@ -178,7 +178,21 @@ const R = {
 }
 
 const SR = {
-
+    [UnitCode.aiko]: SELECTION_10009,
+    [UnitCode.leona]: SELECTION_10010,
+    [UnitCode.fiora]: SELECTION_10011,
+    [UnitCode.ritsuki]: SELECTION_10012,
+    [UnitCode.minayomi]: SELECTION_10013,
+    [UnitCode.shizuka]: SELECTION_10014,
+    [UnitCode.juneau]: SELECTION_10015,
+    [UnitCode.britney]: SELECTION_10016,
+    [UnitCode.nafrala]: SELECTION_10036,
+    [UnitCode.tyrella]: SELECTION_10038,
+    [UnitCode.teresa]: SELECTION_10061,
+    [UnitCode.pulicia]: SELECTION_10051,
+    [UnitCode.janelle]: SELECTION_10046,
+    [UnitCode.tanocia]: SELECTION_10055,
+    [UnitCode.yingying]: SELECTION_10041,
 }
 
 const SSR = {
@@ -274,6 +288,29 @@ const SSR = {
     [UnitCode.a_usagihime]: SELECTION_10122,
     [UnitCode.d_miru]: SELECTION_10123,
     [UnitCode.nyoro]: SELECTION_10124,
+    [UnitCode.h_ayane]: SELECTION_10125,
+    [UnitCode.h_shiro]: SELECTION_10126,
+    [UnitCode.inase]: SELECTION_10131,
+    [UnitCode.cartilla]: SELECTION_10132,
+    [UnitCode.x_aridya]: SELECTION_10127,
+    [UnitCode.x_iblis]: SELECTION_10128,
+    [UnitCode.w_evie]: SELECTION_10129,
+    [UnitCode.salina]: SELECTION_10130,
+    [UnitCode.noma]: SELECTION_10022,
+    [UnitCode.belladonna]: SELECTION_10023,
+    [UnitCode.nanami]: SELECTION_10133,
+    [UnitCode.w_noel]: SELECTION_10134,
+    [UnitCode.w_mesmiia]: SELECTION_10135,
+    [UnitCode.angelina]: SELECTION_10136,
+    [UnitCode.w_lillane]: SELECTION_10137,
+    [UnitCode.p_lulu]: SELECTION_10138,
+    [UnitCode.p_tyrella]: SELECTION_10139,
+    [UnitCode.lelya]: SELECTION_10140,
+    [UnitCode.a_nana]: SELECTION_10141,
+    [UnitCode.s_chizuru]: SELECTION_10142,
+    [UnitCode.s_salucia]: SELECTION_10143,
+    [UnitCode.s_caesar]: SELECTION_10144,
+    [UnitCode.s_satan]: SELECTION_10145,
 }
 
 export const Selection = {

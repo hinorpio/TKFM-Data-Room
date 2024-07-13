@@ -44,7 +44,7 @@ export const General_10092: Unit = {
     selection: UnitSelection[UnitCode.s_aridya],
     clothes: UnitFullImage[UnitCode.s_aridya],
     tagList: [],
-    otherVersion: [ UnitCode.aridya ],
+    otherVersion: [ UnitCode.aridya, UnitCode.x_aridya ],
     puzzle: [ PuzzleCode.EVENT_2022_SUMMER_4 ],
     skillSet: []
 }

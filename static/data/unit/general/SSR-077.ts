@@ -44,7 +44,7 @@ export const General_10114: Unit = {
     selection: UnitSelection[UnitCode.m_juneau],
     clothes: UnitFullImage[UnitCode.m_juneau],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.juneau ],
     puzzle: [],
     skillSet: []
 }

@@ -51,7 +51,7 @@ export const General_10021: Unit = {
         TagID.OTHER_RECOVERY,
         TagID.OTHER_SUPPORT,
     ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.h_shiro ],
     puzzle: [],
     skillSet: []
 }

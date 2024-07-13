@@ -52,7 +52,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
-import { Locale } from '@/plugins/utils/enums'
+import { Locale, Rarity, TagID } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
 import { Tag } from '@/interface/tag';
 
@@ -90,9 +90,9 @@ export default class RecruitmentResult extends Vue {
         return this.unitList
             .filter(unit => unit.tagList.some(tag => this.selectedTag.includes(tag))) // Filter unit that contain tag in selectedTag
             .filter(r => // Filter the SSR if LEADER tag didnt selected or recruitment hours are less than 4 hours
-                (r.rarity !== 'SSR' && r.rarity !== 'SR') || 
-                (r.rarity === 'SSR' && this.recruitmentTime.hours >= 4 && this.selectedTag.includes(21)) ||
-                (r.rarity === 'SR' && this.recruitmentTime.hours >= 4)
+                (r.rarity !== Rarity.SSR && r.rarity !== Rarity.SR) || 
+                (r.rarity === Rarity.SSR && this.recruitmentTime.hours >= 4 && this.selectedTag.includes(TagID.CLASS_LEADER)) ||
+                (r.rarity === Rarity.SR && this.recruitmentTime.hours >= 4)
             ) 
             .map(unit => {  // Map the array for display so that the row will show the tagList of unit that the selectedTag contained
                 const showTag = this.handleShowTag(unit.tagList);
@@ -103,11 +103,12 @@ export default class RecruitmentResult extends Vue {
                     rarity: unit.rarity,
                     tag: showTag.map((tag: Tag) => tag.name[locale]),
                     isUnique: this.$util.checkIsTagListUnique(showTag.map(tag => tag.ID), this.unitList),
-                    isGuaranteeSR: this.$util.checkIsTagListGuaranteeSR(showTag.map(tag => tag.ID), this.unitList),
+                    isGuaranteeSR: (unit.rarity !== Rarity.SSR)?this.$util.checkIsTagListGuaranteeSR(showTag.map(tag => tag.ID), this.unitList) :false,
                 };
             })
             .sort((a, b) => b.tag.length - a.tag.length)
             .sort((a, b) => b.rarity.localeCompare(a.rarity))
+            .sort((a, b) => b.isGuaranteeSR ? 1 : -1)
             .sort((a, b) => b.isUnique ? 1 : -1);
     }
 

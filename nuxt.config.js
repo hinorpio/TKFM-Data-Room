@@ -30,7 +30,9 @@ export default {
   plugins: [
     { src: "@/plugins/utils/util.ts", mode: "client", ssr:false },
   ],
-
+  router:{
+    base: '/'
+  },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
