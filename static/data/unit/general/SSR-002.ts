@@ -45,7 +45,7 @@ export const General_10002: Unit = {
     clothes: UnitFullImage[UnitCode.satan],
     tagList: [ 
         TagID.ELEMENT_DARK, 
-        TagID.POSITION_PROTECTER, 
+        TagID.POSITION_PROTECTOR, 
         TagID.SPECIES_DEMON, 
         TagID.BODY_MEDIUM_SIZED, 
         TagID.BREAST_GIANT_TITS, 

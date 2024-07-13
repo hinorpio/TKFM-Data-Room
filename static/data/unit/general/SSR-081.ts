@@ -44,7 +44,7 @@ export const General_10111: Unit = {
     selection: UnitSelection[UnitCode.d_irene],
     clothes: UnitFullImage[UnitCode.d_irene],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.irene ],
     puzzle: [],
     skillSet: []
 }

@@ -45,7 +45,7 @@ export const General_10010: Unit = {
     clothes: UnitFullImage[UnitCode.leona],
     tagList: [
         TagID.ELEMENT_WATER, 
-        TagID.POSITION_PROTECTER, 
+        TagID.POSITION_PROTECTOR, 
         TagID.SPECIES_HUMAN, 
         TagID.BODY_MEDIUM_SIZED, 
         TagID.BREAST_HOT_TITS, 
@@ -55,6 +55,6 @@ export const General_10010: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ], 
     otherVersion: [ UnitCode.h_leona ],
-    puzzle: [],
+    puzzle: [ PuzzleCode.HUMAN_MARTINA ],
     skillSet: []
 }

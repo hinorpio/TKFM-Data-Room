@@ -45,7 +45,7 @@ export const General_10056: Unit = {
     clothes: UnitFullImage[UnitCode.karina],
     tagList: [
         TagID.ELEMENT_WATER,
-        TagID.POSITION_PROTECTER,
+        TagID.POSITION_PROTECTOR,
         TagID.SPECIES_DEMIHUMAN,
         TagID.BODY_MEDIUM_SIZED,
         TagID.BREAST_GIANT_TITS,

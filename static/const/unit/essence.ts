@@ -170,11 +170,47 @@ import ESSENCE_10924 from "@/assets/character/essence/IP10924.png"
 import ESSENCE_10933 from "@/assets/character/essence/IP10933.png"
 
 const N = {
-
+    [UnitCode.saria]: ESSENCE_10901,
+    [UnitCode.petra]: ESSENCE_10902,
+    [UnitCode.flay]: ESSENCE_10903,
+    [UnitCode.manuella]: ESSENCE_10904,
+    [UnitCode.kikyou]: ESSENCE_10905,
+    [UnitCode.kaede]: ESSENCE_10906,
+    [UnitCode.ola]: ESSENCE_10907,
+    [UnitCode.kani]: ESSENCE_10908,
+    [UnitCode.charlene]: ESSENCE_10909,
+    [UnitCode.martina]: ESSENCE_10910,
+    [UnitCode.clarie]: ESSENCE_10911,
+    [UnitCode.lori]: ESSENCE_10912,
+    [UnitCode.minnow]: ESSENCE_10913,
+    [UnitCode.lamia]: ESSENCE_10914,
+    [UnitCode.harpy]: ESSENCE_10915,
+    [UnitCode.anna]: ESSENCE_10916,
+    [UnitCode.blaire]: ESSENCE_10917,
+    [UnitCode.natasha]: ESSENCE_10918,
+    [UnitCode.prototype]: ESSENCE_10922,
+    [UnitCode.punishment]: ESSENCE_10919,
+    [UnitCode.bliss]: ESSENCE_10920,
+    [UnitCode.steed]: ESSENCE_10923,
+    [UnitCode.mumu]: ESSENCE_10924,
+    [UnitCode.molly]: ESSENCE_10921,
+    [UnitCode.anya]: ESSENCE_10933,
 }
 
 const R = {
+    [UnitCode.irene]: ESSENCE_10801,
     [UnitCode.nana]: ESSENCE_10802,
+    [UnitCode.iris]: ESSENCE_10803,
+    [UnitCode.dora]: ESSENCE_10804,
+    [UnitCode.sable]: ESSENCE_10805,
+    [UnitCode.marlene]: ESSENCE_10806,
+    [UnitCode.yoi]: ESSENCE_10807,
+    [UnitCode.shiraka]: ESSENCE_10808,
+    [UnitCode.panana]: ESSENCE_10812,
+    [UnitCode.sophie]: ESSENCE_10810,
+    [UnitCode.jolina]: ESSENCE_10811,
+    [UnitCode.mia]: ESSENCE_10809,
+    [UnitCode.iyan]: ESSENCE_10813,
 }
 
 const SR = {

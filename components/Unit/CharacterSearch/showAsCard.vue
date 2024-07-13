@@ -30,7 +30,7 @@ export default class ShowAsCard extends Vue {
     itemsForShow!: Unit[];
 
     get itemsPerRow (): number {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 1, 2, 4, 4, 4)
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 1, 2, 3, 4, 4)
     }
 
     get itemSize (): string {

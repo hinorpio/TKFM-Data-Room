@@ -2,7 +2,44 @@ import { Unit } from "@/interface/unit";
 import { UnitCode } from "@/plugins/utils/enums";
 import { Rarity, Element, Position, PotentialType } from "@/plugins/utils/enums";
 
+import { General_10901 } from "./N-001";
+import { General_10902 } from "./N-002";
+import { General_10903 } from "./N-003";
+import { General_10904 } from "./N-004";
+import { General_10905 } from "./N-005";
+import { General_10906 } from "./N-006";
+import { General_10907 } from "./N-007";
+import { General_10908 } from "./N-008";
+import { General_10909 } from "./N-009";
+import { General_10910 } from "./N-010";
+import { General_10911 } from "./N-011";
+import { General_10912 } from "./N-012";
+import { General_10913 } from "./N-013";
+import { General_10914 } from "./N-014";
+import { General_10915 } from "./N-015";
+import { General_10916 } from "./N-016";
+import { General_10917 } from "./N-017";
+import { General_10918 } from "./N-018";
+import { General_10922 } from "./N-019";
+import { General_10919 } from "./N-020";
+import { General_10920 } from "./N-021";
+import { General_10923 } from "./N-022";
+import { General_10924 } from "./N-023";
+import { General_10921 } from "./N-024";
+import { General_10933 } from "./N-025";
+import { General_10801 } from "./R-001";
 import { General_10802 } from "./R-002";
+import { General_10803 } from "./R-003";
+import { General_10804 } from "./R-004";
+import { General_10805 } from "./R-005";
+import { General_10806 } from "./R-006";
+import { General_10807 } from "./R-007";
+import { General_10808 } from "./R-008";
+import { General_10812 } from "./R-009";
+import { General_10810 } from "./R-010";
+import { General_10811 } from "./R-011";
+import { General_10809 } from "./R-012";
+import { General_10813 } from "./R-013";
 import { General_10009 } from "./SR-001";
 import { General_10010 } from "./SR-002";
 import { General_10011 } from "./SR-003";
@@ -136,11 +173,47 @@ import { General_10145 } from "./SSR-115";
 
 
 const N: { [key in UnitCode]?: Unit } = {
-
+    [UnitCode.saria]: General_10901,
+    [UnitCode.petra]: General_10902,
+    [UnitCode.flay]: General_10903,
+    [UnitCode.manuella]: General_10904,
+    [UnitCode.kikyou]: General_10905,
+    [UnitCode.kaede]: General_10906,
+    [UnitCode.ola]: General_10907,
+    [UnitCode.kani]: General_10908,
+    [UnitCode.charlene]: General_10909,
+    [UnitCode.martina]: General_10910,
+    [UnitCode.clarie]: General_10911,
+    [UnitCode.lori]: General_10912,
+    [UnitCode.minnow]: General_10913,
+    [UnitCode.lamia]: General_10914,
+    [UnitCode.harpy]: General_10915,
+    [UnitCode.anna]: General_10916,
+    [UnitCode.blaire]: General_10917,
+    [UnitCode.natasha]: General_10918,
+    [UnitCode.prototype]: General_10922,
+    [UnitCode.punishment]: General_10919,
+    [UnitCode.bliss]: General_10920,
+    [UnitCode.steed]: General_10923,
+    [UnitCode.mumu]: General_10924,
+    [UnitCode.molly]: General_10921,
+    [UnitCode.anya]: General_10933,
 }
 
 const R: { [key in UnitCode]?: Unit } = {
+    [UnitCode.irene]: General_10801,
     [UnitCode.nana]: General_10802,
+    [UnitCode.iris]: General_10803,
+    [UnitCode.dora]: General_10804,
+    [UnitCode.sable]: General_10805,
+    [UnitCode.marlene]: General_10806,
+    [UnitCode.yoi]: General_10807,
+    [UnitCode.shiraka]: General_10808,
+    [UnitCode.panana]: General_10812,
+    [UnitCode.sophie]: General_10810,
+    [UnitCode.jolina]: General_10811,
+    [UnitCode.mia]: General_10809,
+    [UnitCode.iyan]: General_10813,
 }
 
 const SR: { [key in UnitCode]?: Unit } = {

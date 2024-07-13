@@ -389,43 +389,30 @@ import DISCIPLINE_10145_1 from "@/assets/character/discipline/cgs10145_1.png"
 import DISCIPLINE_10145_2 from "@/assets/character/discipline/cgs10145_2.png"
 import DISCIPLINE_10145_3 from "@/assets/character/discipline/cgs10145_3.png"
 import DISCIPLINE_10801_1 from "@/assets/character/discipline/cgs10801_1.png"
-import DISCIPLINE_10801_2 from "@/assets/character/discipline/cgs10801_2.png"
 import DISCIPLINE_10801_3 from "@/assets/character/discipline/cgs10801_3.png"
 import DISCIPLINE_10802_1 from "@/assets/character/discipline/cgs10802_1.png"
-import DISCIPLINE_10802_2 from "@/assets/character/discipline/cgs10802_2.png"
 import DISCIPLINE_10802_3 from "@/assets/character/discipline/cgs10802_3.png"
 import DISCIPLINE_10803_1 from "@/assets/character/discipline/cgs10803_1.png"
-import DISCIPLINE_10803_2 from "@/assets/character/discipline/cgs10803_2.png"
 import DISCIPLINE_10803_3 from "@/assets/character/discipline/cgs10803_3.png"
 import DISCIPLINE_10804_1 from "@/assets/character/discipline/cgs10804_1.png"
-import DISCIPLINE_10804_2 from "@/assets/character/discipline/cgs10804_2.png"
 import DISCIPLINE_10804_3 from "@/assets/character/discipline/cgs10804_3.png"
 import DISCIPLINE_10805_1 from "@/assets/character/discipline/cgs10805_1.png"
-import DISCIPLINE_10805_2 from "@/assets/character/discipline/cgs10805_2.png"
 import DISCIPLINE_10805_3 from "@/assets/character/discipline/cgs10805_3.png"
 import DISCIPLINE_10806_1 from "@/assets/character/discipline/cgs10806_1.png"
-import DISCIPLINE_10806_2 from "@/assets/character/discipline/cgs10806_2.png"
 import DISCIPLINE_10806_3 from "@/assets/character/discipline/cgs10806_3.png"
 import DISCIPLINE_10807_1 from "@/assets/character/discipline/cgs10807_1.png"
-import DISCIPLINE_10807_2 from "@/assets/character/discipline/cgs10807_2.png"
 import DISCIPLINE_10807_3 from "@/assets/character/discipline/cgs10807_3.png"
 import DISCIPLINE_10808_1 from "@/assets/character/discipline/cgs10808_1.png"
-import DISCIPLINE_10808_2 from "@/assets/character/discipline/cgs10808_2.png"
 import DISCIPLINE_10808_3 from "@/assets/character/discipline/cgs10808_3.png"
 import DISCIPLINE_10809_1 from "@/assets/character/discipline/cgs10809_1.png"
-import DISCIPLINE_10809_2 from "@/assets/character/discipline/cgs10809_2.png"
 import DISCIPLINE_10809_3 from "@/assets/character/discipline/cgs10809_3.png"
 import DISCIPLINE_10810_1 from "@/assets/character/discipline/cgs10810_1.png"
-import DISCIPLINE_10810_2 from "@/assets/character/discipline/cgs10810_2.png"
 import DISCIPLINE_10810_3 from "@/assets/character/discipline/cgs10810_3.png"
 import DISCIPLINE_10811_1 from "@/assets/character/discipline/cgs10811_1.png"
-import DISCIPLINE_10811_2 from "@/assets/character/discipline/cgs10811_2.png"
 import DISCIPLINE_10811_3 from "@/assets/character/discipline/cgs10811_3.png"
 import DISCIPLINE_10812_1 from "@/assets/character/discipline/cgs10812_1.png"
-import DISCIPLINE_10812_2 from "@/assets/character/discipline/cgs10812_2.png"
 import DISCIPLINE_10812_3 from "@/assets/character/discipline/cgs10812_3.png"
 import DISCIPLINE_10813_1 from "@/assets/character/discipline/cgs10813_1.png"
-import DISCIPLINE_10813_2 from "@/assets/character/discipline/cgs10813_2.png"
 import DISCIPLINE_10813_3 from "@/assets/character/discipline/cgs10813_3.png"
 import DISCIPLINE_10901_1 from "@/assets/character/discipline/cgs10901_1.png"
 import DISCIPLINE_10901_2 from "@/assets/character/discipline/cgs10901_2.png"
@@ -503,12 +490,20 @@ import DISCIPLINE_10933_1 from "@/assets/character/discipline/cgs10933_1.png"
 import DISCIPLINE_10933_2 from "@/assets/character/discipline/cgs10933_2.png"
 import DISCIPLINE_10933_3 from "@/assets/character/discipline/cgs10933_3.png"
 
-const N = {
-
-}
-
 const R = {
+    [UnitCode.irene]: [ DISCIPLINE_10801_1, DISCIPLINE_PRESENT, DISCIPLINE_10801_3 ],
     [UnitCode.nana]: [ DISCIPLINE_10802_1, DISCIPLINE_PRESENT, DISCIPLINE_10802_3 ],
+    [UnitCode.iris]: [ DISCIPLINE_10803_1 , DISCIPLINE_PRESENT, DISCIPLINE_10803_3],
+    [UnitCode.dora]: [ DISCIPLINE_10804_1, DISCIPLINE_PRESENT, DISCIPLINE_10804_3 ],
+    [UnitCode.sable]: [ DISCIPLINE_10805_1, DISCIPLINE_PRESENT, DISCIPLINE_10805_3 ],
+    [UnitCode.marlene]: [ DISCIPLINE_10806_1, DISCIPLINE_PRESENT, DISCIPLINE_10806_3 ],
+    [UnitCode.yoi]: [ DISCIPLINE_10807_1, DISCIPLINE_PRESENT, DISCIPLINE_10807_3 ],
+    [UnitCode.shiraka]: [ DISCIPLINE_10808_1, DISCIPLINE_PRESENT, DISCIPLINE_10808_3 ],
+    [UnitCode.panana]: [ DISCIPLINE_10812_1, DISCIPLINE_PRESENT, DISCIPLINE_10812_3 ],
+    [UnitCode.sophie]: [ DISCIPLINE_10810_1, DISCIPLINE_PRESENT, DISCIPLINE_10810_3 ],
+    [UnitCode.jolina]: [ DISCIPLINE_10811_1, DISCIPLINE_PRESENT, DISCIPLINE_10811_3 ],
+    [UnitCode.mia]: [ DISCIPLINE_10809_1, DISCIPLINE_PRESENT, DISCIPLINE_10809_3 ],
+    [UnitCode.iyan]: [ DISCIPLINE_10813_1, DISCIPLINE_PRESENT, DISCIPLINE_10813_3 ],
 }
 
 const SR = {
@@ -648,7 +643,6 @@ const SSR = {
 }
 
 export const DisciplinePreview = {
-    ...N,
     ...R,
     ...SR,
     ...SSR

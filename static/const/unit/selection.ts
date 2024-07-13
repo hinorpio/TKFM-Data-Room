@@ -170,11 +170,47 @@ import SELECTION_10924 from "@/assets/character/selection/cs10924_0_0.png"
 import SELECTION_10933 from "@/assets/character/selection/cs10933_0_0.png"
 
 const N = {
-
+    [UnitCode.saria]: SELECTION_10901,
+    [UnitCode.petra]: SELECTION_10902,
+    [UnitCode.flay]: SELECTION_10903,
+    [UnitCode.manuella]: SELECTION_10904,
+    [UnitCode.kikyou]: SELECTION_10905,
+    [UnitCode.kaede]: SELECTION_10906,
+    [UnitCode.ola]: SELECTION_10907,
+    [UnitCode.kani]: SELECTION_10908,
+    [UnitCode.charlene]: SELECTION_10909,
+    [UnitCode.martina]: SELECTION_10910,
+    [UnitCode.clarie]: SELECTION_10911,
+    [UnitCode.lori]: SELECTION_10912,
+    [UnitCode.minnow]: SELECTION_10913,
+    [UnitCode.lamia]: SELECTION_10914,
+    [UnitCode.harpy]: SELECTION_10915,
+    [UnitCode.anna]: SELECTION_10916,
+    [UnitCode.blaire]: SELECTION_10917,
+    [UnitCode.natasha]: SELECTION_10918,
+    [UnitCode.prototype]: SELECTION_10922,
+    [UnitCode.punishment]: SELECTION_10919,
+    [UnitCode.bliss]: SELECTION_10920,
+    [UnitCode.steed]: SELECTION_10923,
+    [UnitCode.mumu]: SELECTION_10924,
+    [UnitCode.molly]: SELECTION_10921,
+    [UnitCode.anya]: SELECTION_10933,
 }
 
 const R = {
+    [UnitCode.irene]: SELECTION_10801,
     [UnitCode.nana]: SELECTION_10802,
+    [UnitCode.iris]: SELECTION_10803,
+    [UnitCode.dora]: SELECTION_10804,
+    [UnitCode.sable]: SELECTION_10805,
+    [UnitCode.marlene]: SELECTION_10806,
+    [UnitCode.yoi]: SELECTION_10807,
+    [UnitCode.shiraka]: SELECTION_10808,
+    [UnitCode.panana]: SELECTION_10812,
+    [UnitCode.sophie]: SELECTION_10810,
+    [UnitCode.jolina]: SELECTION_10811,
+    [UnitCode.mia]: SELECTION_10809,
+    [UnitCode.iyan]: SELECTION_10813,
 }
 
 const SR = {

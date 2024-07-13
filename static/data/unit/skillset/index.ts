@@ -1,7 +1,44 @@
 import { SkillSet } from "@/interface/unit/skillset";
 import { UnitCode } from "@/plugins/utils/enums";
 
+import { SkillSet_10901 } from "./N-001";
+import { SkillSet_10902 } from "./N-002";
+import { SkillSet_10903 } from "./N-003";
+import { SkillSet_10904 } from "./N-004";
+import { SkillSet_10905 } from "./N-005";
+import { SkillSet_10906 } from "./N-006";
+import { SkillSet_10907 } from "./N-007";
+import { SkillSet_10908 } from "./N-008";
+import { SkillSet_10909 } from "./N-009";
+import { SkillSet_10910 } from "./N-010";
+import { SkillSet_10911 } from "./N-011";
+import { SkillSet_10912 } from "./N-012";
+import { SkillSet_10913 } from "./N-013";
+import { SkillSet_10914 } from "./N-014";
+import { SkillSet_10915 } from "./N-015";
+import { SkillSet_10916 } from "./N-016";
+import { SkillSet_10917 } from "./N-017";
+import { SkillSet_10918 } from "./N-018";
+import { SkillSet_10922 } from "./N-019";
+import { SkillSet_10919 } from "./N-020";
+import { SkillSet_10920 } from "./N-021";
+import { SkillSet_10923 } from "./N-022";
+import { SkillSet_10924 } from "./N-023";
+import { SkillSet_10921 } from "./N-024";
+import { SkillSet_10933 } from "./N-025";
+import { SkillSet_10801 } from "./R-001";
 import { SkillSet_10802 } from "./R-002";
+import { SkillSet_10803 } from "./R-003";
+import { SkillSet_10804 } from "./R-004";
+import { SkillSet_10805 } from "./R-005";
+import { SkillSet_10806 } from "./R-006";
+import { SkillSet_10807 } from "./R-007";
+import { SkillSet_10808 } from "./R-008";
+import { SkillSet_10812 } from "./R-009";
+import { SkillSet_10810 } from "./R-010";
+import { SkillSet_10811 } from "./R-011";
+import { SkillSet_10809 } from "./R-012";
+import { SkillSet_10813 } from "./R-013";
 import { SkillSet_10009 } from "./SR-001";
 import { SkillSet_10010 } from "./SR-002";
 import { SkillSet_10011 } from "./SR-003";
@@ -134,11 +171,47 @@ import { SkillSet_10144 } from "./SSR-114";
 import { SkillSet_10145 } from "./SSR-115";
 
 const N: { [key in UnitCode]?: SkillSet[] } = {
-
+    [UnitCode.saria]: SkillSet_10901,
+    [UnitCode.petra]: SkillSet_10902,
+    [UnitCode.flay]: SkillSet_10903,
+    [UnitCode.manuella]: SkillSet_10904,
+    [UnitCode.kikyou]: SkillSet_10905,
+    [UnitCode.kaede]: SkillSet_10906,
+    [UnitCode.ola]: SkillSet_10907,
+    [UnitCode.kani]: SkillSet_10908,
+    [UnitCode.charlene]: SkillSet_10909,
+    [UnitCode.martina]: SkillSet_10910,
+    [UnitCode.clarie]: SkillSet_10911,
+    [UnitCode.lori]: SkillSet_10912,
+    [UnitCode.minnow]: SkillSet_10913,
+    [UnitCode.lamia]: SkillSet_10914,
+    [UnitCode.harpy]: SkillSet_10915,
+    [UnitCode.anna]: SkillSet_10916,
+    [UnitCode.blaire]: SkillSet_10917,
+    [UnitCode.natasha]: SkillSet_10918,
+    [UnitCode.prototype]: SkillSet_10922,
+    [UnitCode.punishment]: SkillSet_10919,
+    [UnitCode.bliss]: SkillSet_10920,
+    [UnitCode.steed]: SkillSet_10923,
+    [UnitCode.mumu]: SkillSet_10924,
+    [UnitCode.molly]: SkillSet_10921,
+    [UnitCode.anya]: SkillSet_10933,
 }
 
 const R: { [key in UnitCode]?: SkillSet[] } = {
+    [UnitCode.irene]: SkillSet_10801,
     [UnitCode.nana]: SkillSet_10802,
+    [UnitCode.iris]: SkillSet_10803,
+    [UnitCode.dora]: SkillSet_10804,
+    [UnitCode.sable]: SkillSet_10805,
+    [UnitCode.marlene]: SkillSet_10806,
+    [UnitCode.yoi]: SkillSet_10807,
+    [UnitCode.shiraka]: SkillSet_10808,
+    [UnitCode.panana]: SkillSet_10812,
+    [UnitCode.sophie]: SkillSet_10810,
+    [UnitCode.jolina]: SkillSet_10811,
+    [UnitCode.mia]: SkillSet_10809,
+    [UnitCode.iyan]: SkillSet_10813,
 }
 
 const SR: { [key in UnitCode]?: SkillSet[] } = {

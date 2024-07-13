@@ -1,7 +1,19 @@
 import { Discipline } from "@/interface/unit/discipline";
 import { UnitCode } from "@/plugins/utils/enums";
 
+import { Discipline_10801 } from "./R-001";
 import { Discipline_10802 } from "./R-002";
+import { Discipline_10803 } from "./R-003";
+import { Discipline_10804 } from "./R-004";
+import { Discipline_10805 } from "./R-005";
+import { Discipline_10806 } from "./R-006";
+import { Discipline_10807 } from "./R-007";
+import { Discipline_10808 } from "./R-008";
+import { Discipline_10812 } from "./R-009";
+import { Discipline_10810 } from "./R-010";
+import { Discipline_10811 } from "./R-011";
+import { Discipline_10809 } from "./R-012";
+import { Discipline_10813 } from "./R-013";
 import { Discipline_10009 } from "./SR-001";
 import { Discipline_10010 } from "./SR-002";
 import { Discipline_10011 } from "./SR-003";
@@ -133,12 +145,20 @@ import { Discipline_10143 } from "./SSR-113";
 import { Discipline_10144 } from "./SSR-114";
 import { Discipline_10145 } from "./SSR-115";
 
-const N: { [key in UnitCode]?: Discipline[] } = {
-
-}
-
 const R: { [key in UnitCode]?: Discipline[] } = {
+    [UnitCode.irene]: Discipline_10801,
     [UnitCode.nana]: Discipline_10802,
+    [UnitCode.iris]: Discipline_10803,
+    [UnitCode.dora]: Discipline_10804,
+    [UnitCode.sable]: Discipline_10805,
+    [UnitCode.marlene]: Discipline_10806,
+    [UnitCode.yoi]: Discipline_10807,
+    [UnitCode.shiraka]: Discipline_10808,
+    [UnitCode.panana]: Discipline_10812,
+    [UnitCode.sophie]: Discipline_10810,
+    [UnitCode.jolina]: Discipline_10811,
+    [UnitCode.mia]: Discipline_10809,
+    [UnitCode.iyan]: Discipline_10813,
 }
 
 const SR: { [key in UnitCode]?: Discipline[] } = {
@@ -278,7 +298,6 @@ const SSR: { [key in UnitCode]?: Discipline[] } = {
 }
 
 export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
-    ...N,
     ...R,
     ...SR,
     ...SSR

@@ -45,8 +45,7 @@ export const General_10018: Unit = {
     clothes: UnitFullImage[UnitCode.uruta],
     tagList: [
         TagID.ELEMENT_WIND,
-        TagID.POSITION_PROTECTER,
-        TagID.POSITION_PROTECTER,
+        TagID.POSITION_PROTECTOR,
         TagID.SPECIES_HUMAN,
         TagID.BODY_MEDIUM_SIZED,
         TagID.CLASS_LEADER,

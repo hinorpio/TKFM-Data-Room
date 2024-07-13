@@ -45,7 +45,7 @@ export const General_10036: Unit = {
     clothes: UnitFullImage[UnitCode.nafrala],
     tagList: [
         TagID.ELEMENT_WIND, 
-        TagID.POSITION_PROTECTER, 
+        TagID.POSITION_PROTECTOR, 
         TagID.SPECIES_DEMON, 
         TagID.BODY_MEDIUM_SIZED, 
         TagID.BREAST_GIANT_TITS, 
