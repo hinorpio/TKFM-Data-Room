@@ -85,7 +85,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0136,
-            newUnit: []
+            newUnit: [ UnitCode.s_chizuru, UnitCode.s_salucia, UnitCode.s_caesar, UnitCode.s_satan ]
         },
         {
             code: '0137',
@@ -153,7 +153,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0132,
-            newUnit: []
+            newUnit: [ UnitCode.lelya, UnitCode.a_nana ]
         },
         {
             code: '0133',
@@ -239,7 +239,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0127,
-            newUnit: []
+            newUnit: [ UnitCode.p_lulu, UnitCode.p_tyrella ]
         },
         {
             code: '0128',
@@ -325,7 +325,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0124,
-            newUnit: []
+            newUnit: [ UnitCode.angelina, UnitCode.w_lillane ]
         },
         {
             code: '0125',
@@ -377,7 +377,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0119,
-            newUnit: []
+            newUnit: [ UnitCode.nanami, UnitCode.w_noel, UnitCode.w_mesmiia ]
         },
         {
             code: '0120',
@@ -443,7 +443,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0117,
-            newUnit: []
+            newUnit: [ UnitCode.noma, UnitCode.belladonna ]
         },
         {
             code: '0118',
@@ -495,7 +495,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0116,
-            newUnit: []
+            newUnit: [ UnitCode.x_aridya, UnitCode.x_iblis, UnitCode.w_evie, UnitCode.salina ]
         },
     ],
     [
@@ -547,7 +547,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0112,
-            newUnit: []
+            newUnit: [ UnitCode.inase, UnitCode.cartilla ]
         },
         {
             code: '0113',
@@ -615,7 +615,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0109,
-            newUnit: []
+            newUnit: [ UnitCode.h_ayane, UnitCode.h_shiro ]
         },
         {
             code: '0110',
@@ -685,7 +685,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0105,
-            newUnit: []
+            newUnit: [ UnitCode.a_usagihime, UnitCode.d_miru, UnitCode.nyoro ]
         },
         {
             code: '0106',
@@ -771,7 +771,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0101,
-            newUnit: []
+            newUnit: [ UnitCode.sasha, UnitCode.bayliss ]
         },
         {
             code: '0102',
@@ -798,7 +798,7 @@ const events: Event[][] = [
             endDate: '2023/08/09',
             color: EventTypeColor.DISCIPLINE,
             name: {
-                [Locale.tc]: "【魔法少女☆托特拉】",
+                [Locale.tc]: "【魔法少女☆托特拉-復刻-】",
                 [Locale.sc]: "",
                 [Locale.en]: "",
                 [Locale.jp]: "",
@@ -823,7 +823,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0097,
-            newUnit: []
+            newUnit: [ UnitCode.o_lana, UnitCode.o_nana ]
         },
         {
             code: '0098',
@@ -891,7 +891,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0094,
-            newUnit: []
+            newUnit: [ UnitCode.s_ayane, UnitCode.s_baal, UnitCode.s_fiora, UnitCode.s_aiko ]
         },
         {
             code: '0095',
@@ -959,7 +959,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0091,
-            newUnit: []
+            newUnit: [ UnitCode.n_caesar, UnitCode.d_irene ]
         },
         {
             code: '0092',
@@ -986,7 +986,7 @@ const events: Event[][] = [
             endDate: '2023/05/10',
             color: EventTypeColor.POINT,
             name: {
-                [Locale.tc]: "【凱薩魔王事件簿】",
+                [Locale.tc]: "【凱薩魔王事件簿-復刻-】",
                 [Locale.sc]: "",
                 [Locale.en]: "",
                 [Locale.jp]: "",
@@ -1002,7 +1002,7 @@ const events: Event[][] = [
             endDate: '2023/05/10',
             color: EventTypeColor.CHALLENGE,
             name: {
-                [Locale.tc]: "【事件現場】",
+                [Locale.tc]: "【事件現場-復刻-】",
                 [Locale.sc]: "",
                 [Locale.en]: "",
                 [Locale.jp]: "",
@@ -1043,7 +1043,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0086,
-            newUnit: []
+            newUnit: [ UnitCode.juneau, UnitCode.britney ]
         },
         {
             code: '0087',
@@ -1111,7 +1111,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0082,
-            newUnit: []
+            newUnit: [ UnitCode.lillane, UnitCode.c_lulu ]
         },
         {
             code: '0083',
@@ -1179,7 +1179,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0079,
-            newUnit: []
+            newUnit: [ UnitCode.v_baal, UnitCode.v_iblis, UnitCode.v_satan ]
         },
         {
             code: '0080',
@@ -1231,7 +1231,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0076,
-            newUnit: []
+            newUnit: [ UnitCode.ny_salucia, UnitCode.ny_lana ]
         },
         {
             code: '0077',
@@ -1317,7 +1317,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0072,
-            newUnit: []
+            newUnit: [ UnitCode.xx_aiko, UnitCode.x_shizuka ]
         },
         {
             code: '0073',
@@ -1344,7 +1344,7 @@ const events: Event[][] = [
             endDate: '2022/12/14',
             color: EventTypeColor.POINT,
             name: {
-                [Locale.tc]: "【復活節蛋蛋大進擊】",
+                [Locale.tc]: "【復活節蛋蛋大進擊-復刻-】",
                 [Locale.sc]: "",
                 [Locale.en]: "",
                 [Locale.jp]: "",
@@ -1360,7 +1360,7 @@ const events: Event[][] = [
             endDate: '2022/12/14',
             color: EventTypeColor.CHALLENGE,
             name: {
-                [Locale.tc]: "【十倍怨念大奉還】",
+                [Locale.tc]: "【十倍怨念大奉還-復刻-】",
                 [Locale.sc]: "",
                 [Locale.en]: "",
                 [Locale.jp]: "",
@@ -1403,7 +1403,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0068,
-            newUnit: []
+            newUnit: [ UnitCode.sherana, UnitCode.iyan ]
         },
     ],
     [
@@ -1439,7 +1439,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0065,
-            newUnit: []
+            newUnit: [ UnitCode.h_leona, UnitCode.h_lotiya ]
         },
         {
             code: '0066',
@@ -1491,7 +1491,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0064,
-            newUnit: []
+            newUnit: [ UnitCode.didi, UnitCode.yingying ]
         },
     ],
     [
@@ -1595,7 +1595,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0057,
-            newUnit: []
+            newUnit: [ UnitCode.c1_nana, UnitCode.geneva ]
         },
         {
             code: '0058',
@@ -1629,7 +1629,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0056,
-            newUnit: []
+            newUnit: [ UnitCode.emily, UnitCode.anjelica ]
         },
     ],
     [
@@ -1647,7 +1647,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0054,
-            newUnit: []
+            newUnit: [ UnitCode.q_asida, UnitCode.asina ]
         },
         {
             code: '0055',
@@ -1697,7 +1697,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0053,
-            newUnit: []
+            newUnit: [ UnitCode.ichika, UnitCode.kana ]
         },
     ],
     [
@@ -1733,7 +1733,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0050,
-            newUnit: []
+            newUnit: [ UnitCode.s_iblis, UnitCode.s_milae, UnitCode.s_noel, UnitCode.s_aridya ]
         },
         {
             code: '0051',
@@ -1785,7 +1785,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0049,
-            newUnit: []
+            newUnit: [ UnitCode.usagihime ]
         },
     ],
     [
@@ -1803,7 +1803,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0048,
-            newUnit: []
+            newUnit: [ UnitCode.faya, UnitCode.tanocia ]
         },
     ],
     [
@@ -1821,7 +1821,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0046,
-            newUnit: []
+            newUnit: [ UnitCode.w_chizuru, UnitCode.w_lulu ]
         },
         {
             code: '0047',
@@ -1873,7 +1873,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0043,
-            newUnit: []
+            newUnit: [ UnitCode.f_caesar ]
         },
         {
             code: '0044',
@@ -1925,7 +1925,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0042,
-            newUnit: []
+            newUnit: [ UnitCode.miru, UnitCode.uruta, UnitCode.ayane, UnitCode.muila ]
         },
     ],
     [
@@ -1943,7 +1943,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0039,
-            newUnit: []
+            newUnit: [ UnitCode.b_baal, UnitCode.b_iblis, UnitCode.b_satan ]
         },
         {
             code: '0040',
@@ -1977,7 +1977,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0037,
-            newUnit: []
+            newUnit: [ UnitCode.tm_minayomi, UnitCode.tm_ritsuki ]
         },
         {
             code: '0038',
@@ -2079,7 +2079,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0034,
-            newUnit: []
+            newUnit: [ UnitCode.x_aiko, UnitCode.x_lana, UnitCode.evie ]
         },
         {
             code: '0035',
@@ -2113,7 +2113,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0033,
-            newUnit: []
+            newUnit: [ UnitCode.sakuya ]
         },
         
     ],
@@ -2132,7 +2132,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0031,
-            newUnit: []
+            newUnit: [ UnitCode.inori ]
         },
     ],
     [
@@ -2150,7 +2150,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0029,
-            newUnit: []
+            newUnit: [ UnitCode.h_britney, UnitCode.h_salucia ]
         },
         {
             code: '0030',
@@ -2184,7 +2184,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0028,
-            newUnit: []
+            newUnit: [ UnitCode.ibuki ]
         },
         {
             code: 'TIMERIFT_002',
@@ -2218,7 +2218,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0027,
-            newUnit: []
+            newUnit: [ UnitCode.karina ]
         },
     ],
     [
@@ -2254,7 +2254,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0024,
-            newUnit: []
+            newUnit: [ UnitCode.hm_fiora, UnitCode.fufu, UnitCode.teresa ]
         },
         {
             code: '0025',
@@ -2288,7 +2288,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0023,
-            newUnit: []
+            newUnit: [ UnitCode.aridya, UnitCode.lotiya ]
         },
     ],
     [
@@ -2306,7 +2306,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0021,
-            newUnit: []
+            newUnit: [ UnitCode.asida, UnitCode.asina ]
         },
         {
             code: '0022',
@@ -2358,7 +2358,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0019,
-            newUnit: []
+            newUnit: [ UnitCode.tyrella ]
         },
     ],
     [
@@ -2394,7 +2394,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0015,
-            newUnit: []
+            newUnit: [ UnitCode.s_shizuka, UnitCode.s_lulu, UnitCode.s_ks8, UnitCode.s_nana ]
         },
         {
             code: '0016',
@@ -2444,7 +2444,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0014,
-            newUnit: []
+            newUnit: [ UnitCode.daphne ]
         },
     ],
     [
@@ -2480,7 +2480,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0012,
-            newUnit: []
+            newUnit: [ UnitCode.chizuru ]
         },
     ],
     [
@@ -2498,7 +2498,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0010,
-            newUnit: [ UnitCode.satan ]
+            newUnit: [ UnitCode.e_satan ]
         },
         {
             code: '0011',
@@ -2532,7 +2532,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0008,
-            newUnit: []
+            newUnit: [ UnitCode.mesmiia ]
         },
         {
             code: '0009',
@@ -2584,7 +2584,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0005,
-            newUnit: [ UnitCode.baal, UnitCode.iblis ]
+            newUnit: [ UnitCode.noel, UnitCode.i_iblis ]
         },
         {
             code: '0006',
@@ -2652,7 +2652,7 @@ const events: Event[][] = [
                 [Locale.kr]: ""
             },
             image: EventBanner.EVENT_0001,
-            newUnit: [ UnitCode.baal ]
+            newUnit: [ UnitCode.f_baal ]
         },
         {
             code: '0003',

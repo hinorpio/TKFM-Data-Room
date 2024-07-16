@@ -1,4 +1,4 @@
-import { Locale, SkillType } from '@/plugins/utils/enums';
+import { DispatchSkillType, Locale, SkillType } from '@/plugins/utils/enums';
 import { SkillSet } from '@/interface/unit/skillset';
 
 export const SkillSet_10118: SkillSet[] =  [

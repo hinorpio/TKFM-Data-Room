@@ -1,4 +1,4 @@
-import { Locale, SkillType } from '@/plugins/utils/enums';
+import { DispatchSkillType, Locale, SkillType } from '@/plugins/utils/enums';
 import { SkillSet } from '@/interface/unit/skillset';
 
 export const SkillSet_10911: SkillSet[] =  [
@@ -12,6 +12,7 @@ export const SkillSet_10911: SkillSet[] =  [
             [Locale.jp]: "",
             [Locale.kr]: ""
         },
+        dispatchSkill: { type: DispatchSkillType.NORMAL_SEX_TOY, level: 1 },
         skill: {
             [Locale.tc]: {
                 [SkillType.BASE_STAT]: {
@@ -64,7 +65,7 @@ export const SkillSet_10911: SkillSet[] =  [
                 },
                 [SkillType.DISPATCH]: {
                     name: "天生淫蕩(普通調教道具↑) (3潛)",
-                    description: "進行派遣時，微量提升普通調教道具雙倍獲得機率Lv1(全域效果)"
+                    description: "進行派遣時，微量提升普通調教道具雙倍獲得機率Lv1(全域效果)",
                 },
                 [SkillType.GENERAL_2]: {
                     name: "免疫睡眠 (6潛)",

@@ -30,11 +30,13 @@ export const CustomError: {[code in ErrorCode]: NuxtError} = {
 export const ElementIcon = General.ElementIcon
 export const PositionIcon = General.PositionIcon
 export const RarityIcon = General.RarityIcon
+export const RarityColor = General.RarityColor
 export const SkillIcon = General.SkillIcon
 export const SkillTypeColor = General.SkillTypeColor
 export const LiberateIcon = General.LiberateIcon
 export const PotentialBuffIcon = General.PotentialBuffIcon
 export const DispatchImage = General.DispatchImage
+export const DispatchSkillTypeString = General.DispatchSkillTypeString
 
 export const ItemIcon = Item.Icon
 

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mx-0">
         <v-card class="outline-box" outline color="white">
             <v-card-text>
                 <v-row class="ma-2 align-center">
@@ -17,13 +17,15 @@
                     <v-col>
                         <div v-for="type in tagTypeList" :key="type" >
                             <span class="font-weight-bold">{{ $t(type) }}</span>
-                            <v-row class="ma-2">
-                                <v-col v-for="(tag, index) in filterTagByType(type)" :key="index" :cols="6" :xl="2" :lg="4" :md="4" :sm="4" :xs="4" class="pa-1">
-                                    <v-btn label active-class="blue lighten-1" block height="2.5em" :value="tag.ID" :small="showBtnSize">
-                                        <v-icon class="mr-1">
-                                            {{ tag.icon }}
-                                        </v-icon>
-                                        {{ tag.name[$i18n.locale] }}
+                            <v-row class="my-2">
+                                <v-col v-for="(tag, index) in filterTagByType(type)" :key="index" :cols="6" :xl="2" :lg="4" :md="4" :sm="4" :xs="6" class="pa-1">
+                                    <v-btn label active-class="blue lighten-1" block height="2.5em" :value="tag.ID" :small="showBtnSize" :disabled="(selectedTag.length >= 5 && !selectedTag.includes(tag.ID))">
+                                        <v-row class="align-center justify-center">
+                                            <v-icon class="mr-1">
+                                                {{ tag.icon }}
+                                            </v-icon>
+                                            <span v-html="$util.showPreLineText(getTagName(tag))"></span>
+                                        </v-row>     
                                     </v-btn>    
                                 </v-col>
                             </v-row>
@@ -52,7 +54,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
-import { TagType } from '@/plugins/utils/enums'
+import { Locale, TagType } from '@/plugins/utils/enums'
 import { Tag } from '@/interface/tag';
 
 @Component
@@ -80,7 +82,12 @@ export default class TagSelectTable extends Vue {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, true, false, false)
     }
 
-    filterTagByType(type: TagType): any[] {
+    getTagName(tag: Tag): string{
+        const locale = this.$i18n.locale as keyof typeof Locale
+        return (tag.name[locale]) ?? ''
+    }
+
+    filterTagByType(type: TagType): Tag[] {
         return this.tagList.filter((tag) => tag.type === type);
     }
 
@@ -98,6 +105,6 @@ export default class TagSelectTable extends Vue {
 <style lang="sass" scoped>
 .outline-box
     padding: 1px
-::v-deep .v-btn--active.no-active::before
-    opacity: 0 !important
+::v-deep .v-btn
+    text-transform: unset !important
 </style>

@@ -45,7 +45,7 @@ export const General_10057: Unit = {
     clothes: UnitFullImage[UnitCode.daphne],
     tagList: [
         TagID.ELEMENT_DARK,
-        TagID.OTHER_SUPPORT,
+        TagID.POSITION_SUPPORTER,
         TagID.SPECIES_HUMAN,
         TagID.BODY_MEDIUM_SIZED,
         TagID.BREAST_FLAT_TITS,

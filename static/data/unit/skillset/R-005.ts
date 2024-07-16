@@ -1,4 +1,4 @@
-import { Locale, SkillType } from '@/plugins/utils/enums';
+import { DispatchSkillType, Locale, SkillType } from '@/plugins/utils/enums';
 import { SkillSet } from '@/interface/unit/skillset';
 
 export const SkillSet_10805: SkillSet[] =  [
@@ -12,6 +12,7 @@ export const SkillSet_10805: SkillSet[] =  [
             [Locale.jp]: "",
             [Locale.kr]: ""
         },
+        dispatchSkill: { type: DispatchSkillType.RARE_NORMAL_SEX_TOY, level: 1 },
         skill: {
             [Locale.tc]: {
                 [SkillType.BASE_STAT]: {

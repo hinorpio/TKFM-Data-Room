@@ -6,6 +6,19 @@ import { SkillSet } from '@/interface/unit/skillset';
 import { DefaultUnit, UnitGeneral, UnitSkillSet, UnitLiberateSkillSet, UnitDiscipline } from '@/static/data/unit'
 
 export default {
+    getAllUnitData(): Unit[]{
+        try {
+            const result: Unit[] = [];
+            Object.entries(UnitCode).forEach((character) => {
+                const metaCode = character[0] 
+                result.push(this.getUnitByMetacode(metaCode))               
+            });
+            return result
+        } catch (error) {
+            console.error(error);
+            return [];
+        }
+    },
     getAllUnitGeneralData(): Unit[]{
         try {
             const result: Unit[] = [];
@@ -32,8 +45,6 @@ export default {
     },
     getUnitByMetacode(metaCode: string): Unit {
         try {
-            console.log(metaCode);
-            
             if((UnitCode as any)[metaCode] === undefined)
                 throw new Error(ErrorMessage.CANNOT_FIND_CHARACTER);
             return {

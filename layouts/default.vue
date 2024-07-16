@@ -21,8 +21,9 @@
       </v-btn>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title color="white">
-        {{ $vuetify.breakpoint.name }}
-        {{ $i18n.locale }}
+        <h5>天下布魔資料室</h5>
+        <!-- {{ $vuetify.breakpoint.name }} -->
+        <!-- {{ $i18n.locale }} -->
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <language-button />
@@ -74,11 +75,16 @@ export default class DefaultLayout extends Vue {
       title: this.$t('Event Timeline'),
       to: `${this.langPrefix}/event/`
     },
+    // {
+    //   icon: 'mdi-book-open-variant',
+    //   title: this.$t('Main Story'),
+    //   to: `${this.langPrefix}/mainStory/`
+    // },
     {
       icon: 'mdi-truck',
       title: this.$t('Dispatch'),
       to: `${this.langPrefix}/dispatch/`
-    }
+    },
   ]
 
   mounted(){
@@ -89,7 +95,7 @@ export default class DefaultLayout extends Vue {
     switch (this.$vuetify.breakpoint.name) {
         case 'xs': return false;
         case 'sm': return false;
-        case 'md': return true;
+        case 'md': return false;
         case 'lg': return true;
         case 'xl': return true;
         default: return true;

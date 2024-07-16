@@ -19,7 +19,7 @@
                     <v-col class="py-0 px-0">
                         <v-row>
                             <v-col :cols="9" class="align-self-center">
-                                <v-row>
+                                <v-row v-if="showPrefix">
                                     <span :class="tableStringClass">{{`${item.prefix}`}}</span>
                                 </v-row>
                                 <v-row>
@@ -27,12 +27,22 @@
                                 </v-row>
                             </v-col>
                             <v-col class="mx-0 px-0 align-self-center">
-                                <v-icon small class="mx-0 px-0" v-if="item.isUnique">
-                                    mdi-star-circle
-                                </v-icon>
-                                <v-icon small class="mx-0 px-0" v-if="item.isGuaranteeSR">
-                                    mdi-tag
-                                </v-icon>
+                                <v-tooltip v-if="item.isUnique" bottom>
+                                    <template v-slot:activator="{ on, attrs }">
+                                        <v-icon small class="mx-0 px-0" v-bind="attrs" v-on="on" >
+                                            mdi-star-circle
+                                        </v-icon>
+                                    </template>
+                                    <span v-html="$util.showPreLineText(showCombinationString(item.combination.uniqueList, true))"></span>
+                                </v-tooltip>
+                                <v-tooltip v-if="item.isGuaranteeSR" bottom>
+                                    <template v-slot:activator="{ on, attrs }">
+                                        <v-icon small class="mx-0 px-0" v-bind="attrs" v-on="on" >
+                                            mdi-tag
+                                        </v-icon>
+                                    </template>
+                                    <span v-html="$util.showPreLineText(showCombinationString(item.combination.SRList, false))"></span>
+                                </v-tooltip>
                             </v-col>
                         </v-row>
                     </v-col>
@@ -71,8 +81,8 @@ export default class RecruitmentResult extends Vue {
     readonly recruitmentTime!: { hours: number; minutes: string };
 
     headers = [
-        {text: this.$t('Unit Name'), value: 'icon', class: 'px-0', cellClass: 'px-0', width: '10%', sortable: false,},
-        {value: 'fullname', sortable: false},
+        {value: 'icon', class: 'px-0', cellClass: 'px-0', width: '10%', sortable: false,},
+        {text: this.$t('Unit Name'), value: 'fullname', sortable: false},
         {text: this.$t('Rarity'), value: 'rarity', class: 'px-0', cellClass: 'px-0', sortable: false},
         {text: this.$t('Tag'), value: 'tag', sortable: false, class: 'px-0', cellClass: 'px-0', width: this.getTagColumWidth()},
     ]
@@ -96,32 +106,54 @@ export default class RecruitmentResult extends Vue {
             ) 
             .map(unit => {  // Map the array for display so that the row will show the tagList of unit that the selectedTag contained
                 const showTag = this.handleShowTag(unit.tagList);
+                const isUnique = this.$util.checkIsTagListUnique(showTag.map(tag => tag.ID), this.unitList, unit.rarity === Rarity.SSR)
+                const isGuaranteeSR = (unit.rarity !== Rarity.SSR)?this.$util.checkIsTagListGuaranteeSR(showTag.map(tag => tag.ID), this.unitList) :false
                 return {
                     icon: unit.thumbnail,
                     prefix: unit.prefix[locale],
                     name: unit.name[locale],
                     rarity: unit.rarity,
                     tag: showTag.map((tag: Tag) => tag.name[locale]),
-                    isUnique: this.$util.checkIsTagListUnique(showTag.map(tag => tag.ID), this.unitList),
-                    isGuaranteeSR: (unit.rarity !== Rarity.SSR)?this.$util.checkIsTagListGuaranteeSR(showTag.map(tag => tag.ID), this.unitList) :false,
+                    isUnique: isUnique,
+                    isGuaranteeSR: isGuaranteeSR,
+                    combination: (isUnique || isGuaranteeSR)?this.$util.getTagCombination(showTag.map(tag => tag.ID), unit, this.unitList) :null
                 };
             })
-            .sort((a, b) => b.tag.length - a.tag.length)
             .sort((a, b) => b.rarity.localeCompare(a.rarity))
-            .sort((a, b) => b.isGuaranteeSR ? 1 : -1)
-            .sort((a, b) => b.isUnique ? 1 : -1);
+            .sort((a, b) => b.tag.length - a.tag.length)
+            .sort((a, b) => a.isGuaranteeSR === b.isGuaranteeSR ? 0 :a.isGuaranteeSR? -1 : 1)
+            .sort((a, b) => a.isUnique === b.isUnique ? 0 :a.isUnique? -1 : 1)
     }
 
     get tableStringClass(): string {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'caption', 'subtitle-2', 'subtitle-2', 'subtitle-1', 'subtitle-1')
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'caption', 'subtitle-2', 'caption', 'subtitle-1', 'subtitle-1')
     }
 
     get thumbnailSize(): string {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2.5em', '4em', '3.5em', '5em', '5em')
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2.5em', '4em', '3em', '5em', '5em')
     }
 
     get raritySize(): string {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2em', '2.5em', '2.5em', '2.5em', '2.5em')
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2em', '2em', '2em', '2.5em', '2.5em')
+    }
+
+    get showPrefix(): boolean{
+        return this.$vuetify.breakpoint.name !== 'xs'
+    }
+
+    showCombinationString(combination: TagID[][], isUnique: boolean): string {
+        const beginText = (isUnique)?this.$t("Tag Guarantee") :this.$t("Tag Guarantee SR");
+        var result = ""
+        combination.forEach(tagIDs => {
+            const locale = this.$i18n.locale as keyof typeof Locale
+            var tagNameArr = this.$util.getTagByIDs(tagIDs).map(tag => tag.name[locale])
+            result += '\n'
+            tagNameArr.forEach((tagName, index) => {
+                result += (index !== 0)?',':''
+                result += (tagName) ?.replace(/\n/g, ' '); // there is a korean tag that is shit ton long 전투하면\n할수록 강해진다
+            })
+        })
+        return `${beginText}${result}`
     }
 
     handleShowTag(unitTagList: number[]): Tag[] {
@@ -129,7 +161,7 @@ export default class RecruitmentResult extends Vue {
     }
 
     getTagColumWidth(): string {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '10%', '50%', '20%', '30%', '50%')
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '10%', '30%', '20%', '30%', '50%')
     }
 }
 </script>

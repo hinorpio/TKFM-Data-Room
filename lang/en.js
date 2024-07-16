@@ -2,8 +2,10 @@ export default {
     "Home Page": "Home Page",
     "Unit Info": "Unit Info",
     "Event Timeline": "Event Timeline",
+    "Main Story": "Main Story",
     "Recruitment": "Recruitment",
     "Dispatch": "Dispatch",
+    "External Website": "External Website",
     "Potential Calculator": "Potential Calculator",
     "Maxed Data": "Maxed Data",
     "Maxed HP": "Maxed HP",
@@ -61,7 +63,8 @@ export default {
     "Show Combined Material": "Show Combined Material",
     "Potential Material": "Potential Material",
     "Discipline Item": "Discipline Item",
-    "New Character": "New Character",
     "Event Date": "Event Date",
     "Not available from recruitment": "Not available from recruitment",
+    "Tag Guarantee": "Tag Guarantee",
+    "Tag Guarantee SR": "Tag Guarantee SR"
 }

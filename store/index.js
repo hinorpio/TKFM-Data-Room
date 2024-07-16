@@ -1,7 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import Vuetify from 'vuetify'
-import BaseStore from "@/plugins/BaseStore.js";
 Vue.use(Vuex);
 
 const store = () => new Vuex.Store({

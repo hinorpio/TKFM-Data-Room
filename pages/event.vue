@@ -3,7 +3,7 @@
         <v-container>
             <v-timeline dense>
                 <v-timeline-item v-for="(events, i) in eventData" :key="i" :color="getTimeLineColor(events)" small >
-                  <v-row class="py-4">
+                  <v-row class="py-2">
                     <v-col v-for="(event, index) in events" :key="index" :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
                       <event-card :event="event" />
                     </v-col>
@@ -24,7 +24,7 @@ import EventCard from "@/components/Event/EventCard.vue";
         EventCard
     }
 })
-export default class DispatchPage extends Vue {
+export default class EventPage extends Vue {
 
     isMounted: boolean = false 
     eventData: Event[][] = []

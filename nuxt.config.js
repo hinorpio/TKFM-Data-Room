@@ -75,6 +75,18 @@ export default {
                 iso: "sc",
                 file: "sc.js",
             },
+            {
+              name: "日本語",
+              code: "jp",
+              iso: "jp",
+              file: "jp.js",
+            },
+            {
+              name: "한국어",
+              code: "kr",
+              iso: "kr",
+              file: "kr.js",
+            },
           ],
           langDir: "lang/",
           lazy: true,

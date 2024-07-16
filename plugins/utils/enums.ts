@@ -6,13 +6,13 @@ export enum Locale {
     kr = 'kr',
 }
 
-export enum ErrorCode{
+export enum ErrorCode {
     PAGE_NOT_FOUND = 404,
     UNKNOWN_ERROR = 500,
     CANNOT_FIND_CHARACTER = 801,
 }
 
-export enum ErrorMessage{
+export enum ErrorMessage {
     PAGE_NOT_FOUND = 'PAGE_NOT_FOUND',
     UNKNOWN_ERROR = 'UNKNOWN_ERROR',
     CANNOT_FIND_CHARACTER = 'CANNOT_FIND_CHARACTER',
@@ -183,6 +183,16 @@ export enum DispatchType {
     TRAINING_CENTER = 'TRAINING_CENTER',
     TREASURE_ROOM = 'TREASURE_ROOM',
     SEALED_CHAMBER = 'SEALED_CHAMBER',
+}
+
+export enum DispatchSkillType {
+    EMPTY_HAND = 'EMPTY_HAND',
+    ENHANCE_MATERIAL = 'ENHANCE_MATERIAL',
+    NORMAL_SEX_TOY = 'NORMAL_SEX_TOY',
+    RARE_SEX_TOY = 'RARE_SEX_TOY',
+    RARE_NORMAL_SEX_TOY = 'RARE_NORMAL_SEX_TOY',
+    EXPERIENCE_POTION = 'EXPERIENCE_POTION',
+    PURCHASE_PERMITS = 'PURCHASE_PERMITS',
 }
 
 export enum TagID {

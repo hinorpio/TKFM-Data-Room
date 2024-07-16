@@ -1,27 +1,26 @@
 <template>
     <div>
         <!-- {{ getEventName(event) }} -->
+        <span :class="titleClass">{{ `${event.startDate} ~ ${event.endDate}` }}</span>
         <v-tooltip top>
             <template v-slot:activator="{ on, attrs }">
                 <v-img v-bind="attrs" v-on="on" :src="getEventBanner(event)" :lazy-src="getEventBanner(event)" contain />
             </template>
             {{ getEventName(event) }}
         </v-tooltip>
-        <v-row class="align-center px-4 pt-4">
-        <v-chip :color="event.color" :small="isChipSmall" :x-small="isChipXSmall" >
-            {{getEventTypeString(event)}}
-        </v-chip>
-        <v-spacer></v-spacer>
-        <span :class="titleClass">{{ `${event.startDate} ~ ${event.endDate}` }}</span>
-        </v-row>
-        <v-row v-if="event.newUnit.length > 0" class="align-center px-4" >
-        <v-chip :color="event.color" :small="isChipSmall" :x-small="isChipXSmall" outlined>
-            {{ $t('New Character') }}
-        </v-chip>
-        <v-spacer></v-spacer>
-        <v-avatar v-for="(unitIcon, unitIndex) in getNewUnitIcon(event.newUnit)" :key="unitIndex" :size="iconSize" tile >
-            <v-img :src="unitIcon" contain />
-        </v-avatar>
+        <v-row class="align-start px-4 mt-1">
+            <v-chip :color="event.color" :small="isChipSmall" :x-small="isChipXSmall" >
+                {{getEventTypeString(event)}}
+            </v-chip>
+            <v-spacer></v-spacer>
+            <!-- <v-avatar class="pb-3" v-for="(unit, unitIndex) in getNewUnit(event.newUnit)" :key="unitIndex" :size="iconSize" tile >
+                <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                        <v-img v-bind="attrs" v-on="on" :src="unit.thumbnail" contain />
+                    </template>
+                    {{ unit.name }}
+                </v-tooltip>
+            </v-avatar> -->
         </v-row>
     </div>
 </template>
@@ -68,9 +67,15 @@ export default class EventCard extends Vue {
         return this.$util.getEventTypeString(event.type, this.$i18n.locale)
     }
 
-    getNewUnitIcon(unitcode: UnitCode[]): string[]{
+    getNewUnit(unitcode: UnitCode[]): any{
       const unit = this.$util.getUnitsByIDs(unitcode)
-      return unit.map(newUnit => newUnit.thumbnail)
+      const locale = this.$i18n.locale as keyof typeof Locale
+      return unit.map(newUnit => {
+        return {
+            thumbnail: newUnit.thumbnail,
+            name: `${newUnit.rarity} - ${newUnit.prefix[locale]} ${newUnit.name[locale]}`
+        }
+      })
     }
 }
 

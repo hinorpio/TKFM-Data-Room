@@ -21,7 +21,7 @@
                     </v-btn>
                 </v-fab-transition>
                 <v-dialog v-model="visible" :max-width="dialogWidth" :max-height="dialogHeight" @click:outside="visible = false" >
-                    <character-search @close="visible = false"/>
+                    <character-search isDialog @close="visible = false"/>
                 </v-dialog>
             </div>
         </v-container>

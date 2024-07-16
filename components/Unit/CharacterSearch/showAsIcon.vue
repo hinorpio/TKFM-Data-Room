@@ -1,7 +1,7 @@
 <template>
     <v-row>
         <v-col v-for="(unit, index) in itemsForShow" :key="index" :cols="(12/itemsPerRow)" class="py-2" > 
-            <v-btn class="pa-0 character-button" outlined color="indigo" block :height="itemSize" @click="handleSelectUnit(unit)">
+            <v-btn class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" @click="handleSelectUnit(unit)">
                 <v-img :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/>
             </v-btn>
         </v-col>
@@ -11,6 +11,7 @@
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Unit } from '@/interface/unit'
+import { RarityColor } from "@/static/const";
 
 @Component
 export default class ShowAsIcon extends Vue {
@@ -25,8 +26,16 @@ export default class ShowAsIcon extends Vue {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '4.5em', '4.5em', '4.5em', '5.5em', '5.5em')
     }
 
+    getRarityColor (unit: Unit): string {
+        return RarityColor[unit.rarity]
+    }
+
     handleSelectUnit(unit: Unit): void {
         this.$emit('select', unit)
     }
 }
 </script>
+<style lang="sass" scoped>
+::v-deep .v-btn
+    border-width: 1.5px !important
+</style>

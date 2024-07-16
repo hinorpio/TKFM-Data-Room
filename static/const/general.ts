@@ -1,4 +1,4 @@
-import { Locale, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, EventType } from '@/plugins/utils/enums';
+import { Locale, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType } from '@/plugins/utils/enums';
 
 import ELEMENT_FIRE from "@/assets/general/element_fire.png"
 import ELEMENT_WATER from "@/assets/general/element_water.png"
@@ -164,6 +164,65 @@ export const DispatchImage = {
     },
 }
 
+export const RarityColor = {
+    [Rarity.N]: '#cad0d7',
+    [Rarity.R]: '#96a7e7',
+    [Rarity.SR]: '#fef4d3',
+    [Rarity.SSR]: '#efaadd',
+}
+
+export const DispatchSkillTypeString = {
+    [DispatchSkillType.EMPTY_HAND]: {
+        [Locale.tc]: '空手而歸',
+        [Locale.sc]: '',
+        [Locale.en]: 'Empty Hand',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [DispatchSkillType.ENHANCE_MATERIAL]: {
+        [Locale.tc]: '強化素材',
+        [Locale.sc]: '',
+        [Locale.en]: 'Enhance Material',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [DispatchSkillType.NORMAL_SEX_TOY]: {
+        [Locale.tc]: '普通調教',
+        [Locale.sc]: '',
+        [Locale.en]: 'Normal Sex Toy',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [DispatchSkillType.RARE_SEX_TOY]: {
+        [Locale.tc]: '稀有調教',
+        [Locale.sc]: '',
+        [Locale.en]: 'Rare Sex Toy',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [DispatchSkillType.RARE_NORMAL_SEX_TOY]: {
+        [Locale.tc]: '稀有＆普通調教',
+        [Locale.sc]: '',
+        [Locale.en]: 'Rare/Normal Sex Toy',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [DispatchSkillType.EXPERIENCE_POTION]: {
+        [Locale.tc]: '經驗藥水',
+        [Locale.sc]: '',
+        [Locale.en]: 'Experience Potion',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+    [DispatchSkillType.PURCHASE_PERMITS]: {
+        [Locale.tc]: '購買許可',
+        [Locale.sc]: '',
+        [Locale.en]: 'Purchase Permits',
+        [Locale.jp]: '',
+        [Locale.kr]: '',
+    },
+}
+
 export const EventTypeColor = {
     [EventType.POINT]: 'light-blue lighten-2',
     [EventType.CHALLENGE]: 'indigo darken-1',
@@ -175,84 +234,84 @@ export const EventTypeColor = {
     [EventType.SPIRE]: 'pink darken-4',
     [EventType.TIMERIFT]: 'red darken-4',
     [EventType.GUILDBOSS]: 'green',
-    [EventType.SPECIAL]: 'blue-grey darken-2',
+    [EventType.SPECIAL]: 'blue-grey lighten-3',
 }
 
 export const EventTypeString = {
     [EventType.POINT]: {
         [Locale.tc]: '積分活動',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Point',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.CHALLENGE]: {
         [Locale.tc]: '高難關卡',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Challenge',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.EVOLVE]: {
-        [Locale.tc]: '屬性礦+',
+        [Locale.tc]: '屬性礦',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Evolve',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.POTENTIAL]: {
-        [Locale.tc]: '潛力素材+',
+        [Locale.tc]: '潛力素材',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Potential',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.DISCIPLINE]: {
-        [Locale.tc]: '調教道具+',
+        [Locale.tc]: '調教道具',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Discipline',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.SLIVER]: {
         [Locale.tc]: '銀幣+',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Sliver',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.SIDESTORY]: {
         [Locale.tc]: '外傳故事',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Side Story',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.SPIRE]: {
         [Locale.tc]: '魔獄塔',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Demon Spire',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.TIMERIFT]: {
         [Locale.tc]: '時之裂縫',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Time Rift',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.GUILDBOSS]: {
         [Locale.tc]: '協會戰',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Guild Boss',
         [Locale.jp]: '',
         [Locale.kr]: '',
     },
     [EventType.SPECIAL]: {
         [Locale.tc]: '特殊',
         [Locale.sc]: '',
-        [Locale.en]: '',
+        [Locale.en]: 'Special',
         [Locale.jp]: '',
         [Locale.kr]: '',
     }

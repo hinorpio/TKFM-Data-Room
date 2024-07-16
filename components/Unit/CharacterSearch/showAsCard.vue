@@ -1,20 +1,7 @@
 <template>
     <v-row>
         <v-col v-for="(unit, index) in itemsForShow" :key="index" :cols="(12/itemsPerRow)" class="pa-1" > 
-            <v-btn class="pa-0 character-button" outlined color="indigo" block :height="itemSize" @click="handleSelectUnit(unit)">
-                <v-row class="align-center px-0 mx-0">
-                    <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/>
-                    <v-spacer></v-spacer>
-                    <v-col class="pr-6" :cols="8">
-                        <v-row :class="prefixClass">
-                            <span>{{ getPrefix(unit) }}</span>
-                        </v-row>
-                        <v-row :class="nameClass">
-                            <span>{{ getName(unit) }}</span>
-                        </v-row>
-                    </v-col>
-                </v-row>
-            </v-btn>
+            <unit-card :unit="unit" @select="handleSelectUnit" />
         </v-col>
     </v-row>
 </template>
@@ -23,8 +10,14 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Locale } from "~/plugins/utils/enums";
 import { Unit } from '@/interface/unit'
+import { RarityColor } from "@/static/const";
+import UnitCard from "../UnitCard.vue";
 
-@Component
+@Component({
+    components:{
+        UnitCard
+    }
+})
 export default class ShowAsCard extends Vue {
     @Prop({ type: Array, required: true })
     itemsForShow!: Unit[];
@@ -33,36 +26,15 @@ export default class ShowAsCard extends Vue {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 1, 2, 3, 4, 4)
     }
 
-    get itemSize (): string {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '4.5em', '4.5em', '4.5em', '5.5em', '5.5em')
-    }
-
-    get prefixClass (): string {
-        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'caption', 'caption', 'caption', 'caption', 'subtitle-2')} justify-end pt-1 white--text`
-    }
-
-    get nameClass (): string {
-        return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'subtitle-1', 'subtitle-1', 'subtitle-1', 'subtitle-1', 'title')} justify-end pb-1 white--text`
-    }
-
     handleSelectUnit(unit: Unit): void {
         this.$emit('select', unit)
     }
 
-    getPrefix(unit: Unit): string{
-        const locale = this.$i18n.locale as keyof typeof Locale;
-        const result = unit.prefix[locale];
-        return result ?? ''
-    }
-
-    getName(unit: Unit): string{
-        const locale = this.$i18n.locale as keyof typeof Locale;
-        const result = unit.name[locale];
-        return result ?? ''
-    }
 }
 </script>
 <style lang="sass" scoped>
 ::v-deep .v-btn
     text-transform: unset !important
+::v-deep .v-btn
+    border-width: 1.5px !important
 </style>

@@ -1,5 +1,10 @@
 
-import { Locale, SkillType } from '@/plugins/utils/enums';
+import { Locale, SkillType, DispatchSkillType } from '@/plugins/utils/enums';
+
+interface DispatchSkill {
+    type: DispatchSkillType;
+    level: number;
+}
 
 export interface Skill {
     name: string;
@@ -12,10 +17,11 @@ export interface SkillSet {
     remark: {
         [lang in Locale]?: null | string;
     };
+    dispatchSkill?: DispatchSkill;
     skill: {
         [lang in Locale]: {
             [key in SkillType]?: Skill
         };
     };
-  }
+}
   

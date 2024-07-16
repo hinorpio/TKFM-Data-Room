@@ -1,56 +1,16 @@
 <template>
     <v-card :style="{background: '#424242', width: dialogWidth}" :elevation="0">
-        <v-card-title> 
-            {{ $t('Search Character') }}
-            <v-spacer></v-spacer>
-            <v-btn icon @click="handleSwitchDisplay()">
-                <v-icon>mdi-format-list-bulleted</v-icon>
-            </v-btn>
-            <v-btn icon @click="showFilter = !showFilter">
-                <v-icon>mdi-filter</v-icon>
-            </v-btn>
-            <v-btn icon @click="handleCloseDialog">
-                <v-icon>mdi-close</v-icon>
-            </v-btn>
-        </v-card-title>
+        <header-bar :isDialog="isDialog" :showFilter.sync="showFilter" :isDisplayIcon.sync="isDisplayIcon" @close="handleCloseDialog()" />
         <v-card-text>
             <v-expand-transition>
                 <div v-show="showFilter">
-                    <v-row>
-                        <v-col :cols="(12/filterPropsPerRow)" class="py-0">
-                            <v-chip-group v-model="selectedRarities" multiple>
-                                <v-chip v-for="(rarity, index) in rarityList" :key="index" :value="rarity.code" active-class="blue lighten-2" >
-                                    <v-btn class="pa-0 character-button" outlined color="transparent" block >
-                                        <v-img :src="rarity.icon" height="2em" width="2em" contain/>
-                                    </v-btn>
-                                </v-chip>
-                            </v-chip-group>
-                        </v-col>
-                        <v-col :cols="(12/filterPropsPerRow)" class="py-0">
-                            <v-chip-group v-model="selectedElements" multiple>
-                                <v-chip v-for="(element, index) in elementList" :key="index" :value="element.code" active-class="blue lighten-2" >
-                                    <v-btn class="pa-0 character-button" outlined color="transparent" block >
-                                        <v-img :src="element.icon" height="2em" width="2em" contain/>
-                                    </v-btn>
-                                </v-chip>
-                            </v-chip-group>
-                        </v-col>
-                        <v-col :cols="(12/filterPropsPerRow)" class="py-0">
-                            <v-chip-group v-model="selectedPositions" multiple>
-                                <v-chip v-for="(position, index) in positionList" :key="index" :value="position.code" active-class="blue lighten-2" >
-                                    <v-btn class="pa-0 character-button" outlined color="transparent" block >
-                                        <v-img :src="position.icon" height="2em" width="2em" contain/>
-                                    </v-btn>
-                                </v-chip>
-                            </v-chip-group>
-                        </v-col>
-                    </v-row>
+                    <filter-bar :selectedRarities.sync="selectedRarities" :selectedElements.sync="selectedElements" :selectedPositions.sync="selectedPositions" />
                 </div>
             </v-expand-transition>
             
             <v-divider class="my-4"></v-divider>
 
-            <show-as-icon v-if="isShowAsIcon" :itemsForShow="itemsForShow" @select="handleSelectUnit" />
+            <show-as-icon v-if="isDisplayIcon" :itemsForShow="itemsForShow" @select="handleSelectUnit" />
             <show-as-card v-else :itemsForShow="itemsForShow" @select="handleSelectUnit" />
           
         </v-card-text>
@@ -61,26 +21,29 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Rarity, Element, Position } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
+import HeaderBar from "./headerBar.vue";
+import FilterBar from "./filterBar.vue";
 import ShowAsIcon from "./showAsIcon.vue";
 import ShowAsCard from "./showAsCard.vue";
 
 @Component({
     components:{
+        HeaderBar,
+        FilterBar,
         ShowAsIcon,
-        ShowAsCard
+        ShowAsCard,
     }
 })
 export default class CharacterSearch extends Vue {
+    @Prop({ type: Boolean, required: false, default: false })
+    isDialog!: Boolean;
 
     showFilter: Boolean = true;
-    isShowAsIcon: Boolean = true;
     dataset: Unit[] = [];
-    rarityList: { [key: string]: string }[] = [];
-    elementList: { [key: string]: string }[] = [];
-    positionList: { [key: string]: string }[] = [];
     selectedRarities: Rarity[] = [];
     selectedElements: Element[] = [];
     selectedPositions: Position[] = [];
+    isDisplayIcon: Boolean = true;
     dialogWidth: String = '80em';
 
     get itemsForShow(): Unit[]{
@@ -100,6 +63,8 @@ export default class CharacterSearch extends Vue {
                     ?true 
                     :this.selectedPositions.includes(unit.position as Position) 
                 )
+            .sort((a, b) => b.ID.localeCompare(a.ID))
+            .sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
     }
 
     get filterPropsPerRow (): number {
@@ -108,9 +73,6 @@ export default class CharacterSearch extends Vue {
 
     mounted(): void{
         this.dataset = this.$util.getAllUnitGeneralData()
-        this.rarityList = this.$util.getAllRarity()
-        this.elementList = this.$util.getAllElement()
-        this.positionList = this.$util.getAllPosition()
     }
 
     handleCloseDialog(): void {
@@ -123,10 +85,6 @@ export default class CharacterSearch extends Vue {
         this.$router.push({
             path: `${langPrefix}/unit/${unit.metaCode}`,
         });
-    }
-
-    handleSwitchDisplay(){
-        this.isShowAsIcon = !this.isShowAsIcon
     }
 }
 </script>

@@ -8,7 +8,7 @@ const tags: Tag[] = [
         name: {
             tc: "火屬性",
             sc: "火属性",
-            en: "Fire attribute",
+            en: "Fire Attr.",
             jp: "火属性",
             kr: "화속성",
         }
@@ -20,7 +20,7 @@ const tags: Tag[] = [
         name: {
             tc: "水屬性",
             sc: "",
-            en: "Water attribute",
+            en: "Water Attr.",
             jp: "水属性",
             kr: "수속성"
         }
@@ -32,7 +32,7 @@ const tags: Tag[] = [
         name: {
             tc: "風屬性",
             sc: "",
-            en: "Wind attribute",
+            en: "Wind Attr.",
             jp: "風属性",
             kr: "풍속성"
         }
@@ -44,7 +44,7 @@ const tags: Tag[] = [
         name: {
             tc: "光屬性",
             sc: "",
-            en: "Light attribute",
+            en: "Light Attr.",
             jp: "光属性",
             kr: "광속성"
         }
@@ -56,7 +56,7 @@ const tags: Tag[] = [
         name: {
             tc: "闇屬性",
             sc: "",
-            en: "Dark attribute",
+            en: "Dark Attr.",
             jp: "闇属性",
             kr: "암속성"
         }
@@ -260,7 +260,7 @@ const tags: Tag[] = [
         name: {
             tc: "輸出",
             sc: "",
-            en: "Damage Output",
+            en: "Dmg. Output",
             jp: "出力",
             kr: "데미지"
         }
@@ -370,7 +370,7 @@ const tags: Tag[] = [
             sc: "",
             en: "More Power",
             jp: "持続強化",
-            kr: "전투하면 할수록 강해진다"
+            kr: "전투하면\n할수록 강해진다"
         }
     },
     {

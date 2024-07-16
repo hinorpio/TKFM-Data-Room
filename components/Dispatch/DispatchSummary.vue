@@ -1,29 +1,36 @@
 <template>
-    <v-row>
-        <v-spacer></v-spacer>
-        <v-col v-for="(dispatch, index) in data" :key="index" :cols="6" :xl="2" :lg="3" :md="3" :sm="6" :xs="6">
-            <v-card class="outline-box" outline color="grey darken-4" >
-                <v-card-text class="pa-0">
-                    <v-col>
+    <div>
+        <v-card v-for="(dispatch, index) in data" :key="index" class="outline-box mb-2" outline color="grey darken-4" >
+            <v-card-text>
+                <v-row class="align-center">
+                    <v-col :cols="12" :xl="6" :lg="7" :md="12" :sm="7" :xs="12">
                         <v-img :src="getBannerImage(dispatch)" contain></v-img>
-                        <v-btn color="green" outlined block small>
-                            {{$t('Potential Material')}}
-                        </v-btn>
-                        <v-row class="justify-space-between py-4">
-                            <v-img v-for="(icon, index) in getItemIcons(dispatch, 'POTENTIAL')" :key="index" :src="icon" height="3em" width="3em" contain/>
-                        </v-row>
-                        <v-btn color="pink lighten-3" outlined block small>
-                            {{$t('Discipline Item')}}
-                        </v-btn>
-                        <v-row class="justify-space-between py-4">
-                            <v-img v-for="(icon, index) in getItemIcons(dispatch, 'DISCIPLINE')" :key="index" :src="icon" height="3em" width="3em" contain/>
+                    </v-col>
+                    <v-col :cols="12" :xl="6" :lg="5" :md="12" :sm="5" :xs="12">
+                        <v-row>
+                            <v-col class="py-0 my-1" :cols="12" :xl="6" :lg="12" :md="6" :sm="12" :xs="12">
+                                <v-btn color="green" outlined block small>
+                                    {{$t('Potential Material')}}
+                                </v-btn>
+                                <v-row class="justify-space-between my-1">
+                                    <v-img v-for="(icon, index) in getItemIcons(dispatch, 'POTENTIAL')" :key="index" :src="icon" :height="iconSize" :width="iconSize" contain/>
+                                </v-row>
+                            </v-col>
+                            <v-col class="py-0 my-1" :cols="12" :xl="6" :lg="12" :md="6" :sm="12" :xs="12">
+                                <v-btn color="pink lighten-3" outlined block small>
+                                    {{$t('Discipline Item')}}
+                                </v-btn>
+                                <v-row class="justify-space-between my-1">
+                                    <v-img v-for="(icon, index) in getItemIcons(dispatch, 'DISCIPLINE')" :key="index" :src="icon" :height="iconSize" :width="iconSize" contain/>
+                                </v-row>
+                            </v-col>
                         </v-row>
                     </v-col>
-                </v-card-text>
-            </v-card>
-        </v-col>
-        <v-spacer></v-spacer>
-    </v-row>
+                    
+                </v-row>
+            </v-card-text>
+        </v-card>
+    </div>
 </template>
 <script lang="ts">
 import Vue from "vue";
@@ -38,6 +45,10 @@ export default class DispatchSummary extends Vue {
 
     get imgWidth(): string {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '45%', '47.5%', '18%', '18%', '19%')
+    }
+
+    get iconSize(): string {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '2.5em', '3em', '3em', '3em', '3em')
     }
 
     getBannerImage(dispatch: Dispatch): string{
