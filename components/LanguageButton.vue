@@ -47,7 +47,8 @@ export default {
         console.log(this.$router.history.current.path);
         const path = this.$router.history.current.path
           .split("/")
-          .filter((f,index) => (originalLocale === 'tc')?index > 0 :index > 1 )
+          .filter((f,index) => (originalLocale === 'tc')?index > 1 :index > 2 )
+          // .filter((f,index) => (originalLocale === 'tc')?index > 0 :index > 1 )
           .join("/")
         location.replace(`${langPrefix}/${path}`)
       }
