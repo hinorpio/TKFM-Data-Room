@@ -686,6 +686,16 @@ import EVENT_0140_SC from "@/assets/event/ln30140_sc.png"
 import EVENT_0140_EN from "@/assets/event/ln30140_en.png"
 import EVENT_0140_JP from "@/assets/event/ln30140_jp.png"
 import EVENT_0140_KR from "@/assets/event/ln30140_kr.png"
+import EVENT_0141_TC from "@/assets/event/ln30141_tc.png"
+import EVENT_0141_SC from "@/assets/event/ln30141_sc.png"
+import EVENT_0141_EN from "@/assets/event/ln30141_en.png"
+import EVENT_0141_JP from "@/assets/event/ln30141_jp.png"
+import EVENT_0141_KR from "@/assets/event/ln30141_kr.png"
+import EVENT_0142_TC from "@/assets/event/ln30142_tc.png"
+import EVENT_0142_SC from "@/assets/event/ln30142_sc.png"
+import EVENT_0142_EN from "@/assets/event/ln30142_en.png"
+import EVENT_0142_JP from "@/assets/event/ln30142_jp.png"
+import EVENT_0142_KR from "@/assets/event/ln30142_kr.png"
 
 export const EVENT_TIMERIFT = {
     [Locale.tc]: EVENT_TIMERIFT_TC,
@@ -1673,4 +1683,18 @@ export const EVENT_0140 = {
     [Locale.en]: EVENT_0140_EN,
     [Locale.jp]: EVENT_0140_JP,
     [Locale.kr]: EVENT_0140_KR,
+}
+export const EVENT_0141 = {
+    [Locale.tc]: EVENT_0141_TC,
+    [Locale.sc]: EVENT_0141_SC,
+    [Locale.en]: EVENT_0141_EN,
+    [Locale.jp]: EVENT_0141_JP,
+    [Locale.kr]: EVENT_0141_KR,
+}
+export const EVENT_0142 = {
+    [Locale.tc]: EVENT_0142_TC,
+    [Locale.sc]: EVENT_0142_SC,
+    [Locale.en]: EVENT_0142_EN,
+    [Locale.jp]: EVENT_0142_JP,
+    [Locale.kr]: EVENT_0142_KR,
 }

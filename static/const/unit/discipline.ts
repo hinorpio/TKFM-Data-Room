@@ -388,6 +388,13 @@ import DISCIPLINE_10144_3 from "@/assets/character/discipline/cgs10144_3.png"
 import DISCIPLINE_10145_1 from "@/assets/character/discipline/cgs10145_1.png"
 import DISCIPLINE_10145_2 from "@/assets/character/discipline/cgs10145_2.png"
 import DISCIPLINE_10145_3 from "@/assets/character/discipline/cgs10145_3.png"
+import DISCIPLINE_10146_1 from "@/assets/character/discipline/cgs10146_1.png"
+import DISCIPLINE_10146_2 from "@/assets/character/discipline/cgs10146_2.png"
+import DISCIPLINE_10146_3 from "@/assets/character/discipline/cgs10146_3.png"
+import DISCIPLINE_10147_1 from "@/assets/character/discipline/cgs10147_1.png"
+import DISCIPLINE_10147_2 from "@/assets/character/discipline/cgs10147_2.png"
+import DISCIPLINE_10147_3 from "@/assets/character/discipline/cgs10147_3.png"
+
 import DISCIPLINE_10801_1 from "@/assets/character/discipline/cgs10801_1.png"
 import DISCIPLINE_10801_3 from "@/assets/character/discipline/cgs10801_3.png"
 import DISCIPLINE_10802_1 from "@/assets/character/discipline/cgs10802_1.png"
@@ -414,6 +421,7 @@ import DISCIPLINE_10812_1 from "@/assets/character/discipline/cgs10812_1.png"
 import DISCIPLINE_10812_3 from "@/assets/character/discipline/cgs10812_3.png"
 import DISCIPLINE_10813_1 from "@/assets/character/discipline/cgs10813_1.png"
 import DISCIPLINE_10813_3 from "@/assets/character/discipline/cgs10813_3.png"
+
 import DISCIPLINE_10901_1 from "@/assets/character/discipline/cgs10901_1.png"
 import DISCIPLINE_10901_2 from "@/assets/character/discipline/cgs10901_2.png"
 import DISCIPLINE_10901_3 from "@/assets/character/discipline/cgs10901_3.png"
@@ -640,6 +648,8 @@ const SSR = {
     [UnitCode.s_salucia]: [ DISCIPLINE_10143_1, DISCIPLINE_10143_2, DISCIPLINE_10143_3 ],
     [UnitCode.s_caesar]: [ DISCIPLINE_10144_1, DISCIPLINE_10144_2, DISCIPLINE_10144_3 ],
     [UnitCode.s_satan]: [ DISCIPLINE_10145_1, DISCIPLINE_10145_2, DISCIPLINE_10145_3 ],
+    [UnitCode.d_minayomi]: [ DISCIPLINE_10146_1, DISCIPLINE_10146_2, DISCIPLINE_10146_3 ],
+    [UnitCode.oniyoiki]: [ DISCIPLINE_10147_1, DISCIPLINE_10147_2, DISCIPLINE_10147_3 ],
 }
 
 export const DisciplinePreview = {

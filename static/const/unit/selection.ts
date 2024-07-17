@@ -130,6 +130,9 @@ import SELECTION_10142 from "@/assets/character/selection/cs10142_0_0.png"
 import SELECTION_10143 from "@/assets/character/selection/cs10143_0_0.png"
 import SELECTION_10144 from "@/assets/character/selection/cs10144_0_0.png"
 import SELECTION_10145 from "@/assets/character/selection/cs10145_0_0.png"
+import SELECTION_10146 from "@/assets/character/selection/cs10146_0_0.png"
+import SELECTION_10147 from "@/assets/character/selection/cs10147_0_0.png"
+
 import SELECTION_10801 from "@/assets/character/selection/cs10801_0_0.png"
 import SELECTION_10802 from "@/assets/character/selection/cs10802_0_0.png"
 import SELECTION_10803 from "@/assets/character/selection/cs10803_0_0.png"
@@ -143,6 +146,7 @@ import SELECTION_10810 from "@/assets/character/selection/cs10810_0_0.png"
 import SELECTION_10811 from "@/assets/character/selection/cs10811_0_0.png"
 import SELECTION_10812 from "@/assets/character/selection/cs10812_0_0.png"
 import SELECTION_10813 from "@/assets/character/selection/cs10813_0_0.png"
+
 import SELECTION_10901 from "@/assets/character/selection/cs10901_0_0.png"
 import SELECTION_10902 from "@/assets/character/selection/cs10902_0_0.png"
 import SELECTION_10903 from "@/assets/character/selection/cs10903_0_0.png"
@@ -347,6 +351,8 @@ const SSR = {
     [UnitCode.s_salucia]: SELECTION_10143,
     [UnitCode.s_caesar]: SELECTION_10144,
     [UnitCode.s_satan]: SELECTION_10145,
+    [UnitCode.d_minayomi]: SELECTION_10146,
+    [UnitCode.oniyoiki]: SELECTION_10147,
 }
 
 export const Selection = {

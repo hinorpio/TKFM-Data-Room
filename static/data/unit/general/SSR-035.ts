@@ -44,7 +44,7 @@ export const General_10067: Unit = {
     selection: UnitSelection[UnitCode.tm_minayomi],
     clothes: UnitFullImage[UnitCode.tm_minayomi],
     tagList: [],
-    otherVersion: [ UnitCode.minayomi ],
+    otherVersion: [ UnitCode.minayomi, UnitCode.d_minayomi ],
     puzzle: [],
     skillSet: []
 }

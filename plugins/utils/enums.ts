@@ -469,4 +469,6 @@ export enum UnitCode {
     s_salucia = 'SSR-113',
     s_caesar = 'SSR-114',
     s_satan = 'SSR-115',
+    d_minayomi = 'SSR-116',
+    oniyoiki = 'SSR-117',
 }

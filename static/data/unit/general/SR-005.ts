@@ -53,7 +53,7 @@ export const General_10013: Unit = {
         TagID.OTHER_WEAKEN,
         TagID.OTHER_MORE_POWER,
     ], 
-    otherVersion: [ UnitCode.tm_minayomi ],
+    otherVersion: [ UnitCode.tm_minayomi, UnitCode.d_minayomi ],
     puzzle: [],
     skillSet: []
 }

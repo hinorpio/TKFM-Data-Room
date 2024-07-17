@@ -130,6 +130,9 @@ import ESSENCE_10142 from "@/assets/character/essence/IP10142.png"
 import ESSENCE_10143 from "@/assets/character/essence/IP10143.png"
 import ESSENCE_10144 from "@/assets/character/essence/IP10144.png"
 import ESSENCE_10145 from "@/assets/character/essence/IP10145.png"
+import ESSENCE_10146 from "@/assets/character/essence/IP10146.png"
+import ESSENCE_10147 from "@/assets/character/essence/IP10147.png"
+
 import ESSENCE_10801 from "@/assets/character/essence/IP10801.png"
 import ESSENCE_10802 from "@/assets/character/essence/IP10802.png"
 import ESSENCE_10803 from "@/assets/character/essence/IP10803.png"
@@ -143,6 +146,7 @@ import ESSENCE_10810 from "@/assets/character/essence/IP10810.png"
 import ESSENCE_10811 from "@/assets/character/essence/IP10811.png"
 import ESSENCE_10812 from "@/assets/character/essence/IP10812.png"
 import ESSENCE_10813 from "@/assets/character/essence/IP10813.png"
+
 import ESSENCE_10901 from "@/assets/character/essence/IP10901.png"
 import ESSENCE_10902 from "@/assets/character/essence/IP10902.png"
 import ESSENCE_10903 from "@/assets/character/essence/IP10903.png"
@@ -347,6 +351,8 @@ const SSR = {
     [UnitCode.s_salucia]: ESSENCE_10143,
     [UnitCode.s_caesar]: ESSENCE_10144,
     [UnitCode.s_satan]: ESSENCE_10145,
+    [UnitCode.d_minayomi]: ESSENCE_10146,
+    [UnitCode.oniyoiki]: ESSENCE_10147,
 }
 
 export const Essence = {

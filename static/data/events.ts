@@ -4,6 +4,40 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0141',
+            type: EventType.POINT,
+            startDate: '2024/07/17',
+            endDate: '2024/08/07',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: "【魔界飯】",
+                [Locale.sc]: "",
+                [Locale.en]: "",
+                [Locale.jp]: "",
+                [Locale.kr]: ""
+            },
+            image: EventBanner.EVENT_0141,
+            newUnit: []
+        },
+        {
+            code: '0142',
+            type: EventType.CHALLENGE,
+            startDate: '2024/07/24',
+            endDate: '2024/08/07',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: "【修行之路】",
+                [Locale.sc]: "",
+                [Locale.en]: "",
+                [Locale.jp]: "",
+                [Locale.kr]: ""
+            },
+            image: EventBanner.EVENT_0142,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0140',
             type: EventType.SPIRE,
             startDate: '2023/07/10',
