@@ -31,7 +31,8 @@ export default {
     { src: "@/plugins/utils/util.ts", mode: "client", ssr:false },
   ],
   router:{
-    base: '/'
+    base: '/TKFM-Data-Room',
+    // base: '/',
   },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
