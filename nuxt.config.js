@@ -37,15 +37,6 @@ export default {
     // base: '/TKFM-Data-Room',
     base: '/',
   },
-  routeParams: {
-    '/unit/:metacode': function () {
-      return Object.entries(UnitCode).map((code) => {
-        return {
-          metacode: code[1]
-        }
-      })
-    }
-  },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 

@@ -83,7 +83,7 @@ export default class CharacterSearch extends Vue {
         const locale = this.$i18n.locale
         const langPrefix = (locale === 'tc')?`` :`/${locale}`
         this.$router.push({
-            path: `${langPrefix}/unit/${unit.metaCode}`,
+            path: `${langPrefix}/unit?code=${unit.metaCode}`,
         });
     }
 }

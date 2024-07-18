@@ -44,12 +44,18 @@ export default {
       if(lang !== this.$i18n.locale){
         const originalLocale = this.$i18n.locale
         const langPrefix = (lang === 'tc')?`` :`/${lang}`
-        console.log(this.$router.history.current.path);
+        var query = ''
+        if(this.$router.history.current.query != {}){
+          var query = '?'
+          for (const [key, value] of Object.entries(this.$router.history.current.query)) {
+            query += `${key}=${value}`
+          }
+        }
         const path = this.$router.history.current.path
           .split("/")
           .filter((f,index) => (originalLocale === 'tc')?index > 0 :index > 1 )
           .join("/")
-        location.replace(`${langPrefix}/${path}`)
+        location.replace(`${langPrefix}/${path}${query}`)
       }
     },
   }

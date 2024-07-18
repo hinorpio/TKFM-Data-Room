@@ -1,6 +1,6 @@
 <template>
-    <v-layout v-if="isMounted">
-        <v-container>
+    <v-layout v-if="isMounted" >
+        <v-container :key="key">
             <v-row v-if="isNoUnitSelected">
                 <v-spacer></v-spacer>
                 <character-search />
@@ -29,7 +29,7 @@
 </template>
 <script lang="ts">
 import Vue from "vue";
-import { Component } from "vue-property-decorator";
+import { Component, Watch } from "vue-property-decorator";
 import { ErrorCode } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
 import UnitContent from "@/components/Unit/UnitContent.vue";
@@ -50,13 +50,31 @@ export default class UnitPage extends Vue {
     unit: Unit | undefined
     dialogWidth: String = '80em';
     dialogHeight: String = '80%';
+    key: number = 0;
+
+    @Watch("watchedQueryParams")
+    onWatchedQueryParamsChangenew(newQueryParams: string): void {
+        this.pageCustomRefresh()
+    }
 
     async mounted() {
-        const metaCode = this.$route.params.metaCode
+        this.pageCustomRefresh()
+        this.isMounted = true    
+    }
+
+    get watchedQueryParams(){
+        return this.$route.query;
+    }
+
+    pageCustomRefresh(){
+        const metaCode = this.watchedQueryParams.code as string
+        
         if(metaCode === undefined){
             this.isNoUnitSelected = true
         }else{
             try {
+                this.isNoUnitSelected = false
+                this.visible = false
                 this.unit = this.$util.getUnitByMetacode(metaCode)
             } catch (error) {
                 console.log(error);
@@ -64,7 +82,7 @@ export default class UnitPage extends Vue {
                 this.$nuxt.error(customError)
             }
         }
-        this.isMounted = true    
+        this.key++
     }
 }
 </script>
