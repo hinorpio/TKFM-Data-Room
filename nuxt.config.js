@@ -1,4 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
+import fs from 'fs'
+import path from 'path'
+import { UnitCode } from './plugins/utils/enums'
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -33,6 +36,15 @@ export default {
   router:{
     // base: '/TKFM-Data-Room',
     base: '/',
+  },
+  routeParams: {
+    '/unit/:metacode': function () {
+      return Object.entries(UnitCode).map((code) => {
+        return {
+          metacode: code[1]
+        }
+      })
+    }
   },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
