@@ -66,6 +66,13 @@ export default class UnitPage extends Vue {
         return this.$route.query;
     }
 
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
+
     pageCustomRefresh(){
         const metaCode = this.watchedQueryParams.code as string
         
@@ -73,6 +80,7 @@ export default class UnitPage extends Vue {
             this.isNoUnitSelected = true
         }else{
             try {
+                this.scrollToTop()
                 this.isNoUnitSelected = false
                 this.visible = false
                 this.unit = this.$util.getUnitByMetacode(metaCode)
