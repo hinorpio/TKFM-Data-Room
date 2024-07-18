@@ -26,8 +26,10 @@ export default class OtherVersionTab extends Vue {
     }
 
     handleSelect(unit: Unit): void {
+        const locale = this.$i18n.locale
+        const langPrefix = (locale === 'tc')?`` :`/${locale}`
         this.$router.push({
-            path: `/unit/${unit.metaCode}`,
+            path: `${langPrefix}/unit?code=${unit.metaCode}`,
         });
     }
 
