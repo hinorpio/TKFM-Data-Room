@@ -8,7 +8,7 @@ export const Discipline_10083: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sakuya][0],
         name: {
             [Locale.tc]: "恭喜中獎",
-            [Locale.sc]: "",
+            [Locale.sc]: "恭喜中奖",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10083: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sakuya][1],
         name: {
             [Locale.tc]: "情趣用品測試員",
-            [Locale.sc]: "",
+            [Locale.sc]: "情趣用品测试员",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10083: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sakuya][2],
         name: {
             [Locale.tc]: "相親相愛～員工慰勞大亂交",
-            [Locale.sc]: "",
+            [Locale.sc]: "相亲相爱～员工慰劳大乱交",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

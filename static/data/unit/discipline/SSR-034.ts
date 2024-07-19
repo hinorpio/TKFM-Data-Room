@@ -8,7 +8,7 @@ export const Discipline_10054: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.evie][0],
         name: {
             [Locale.tc]: "純潔馴鹿的初體驗",
-            [Locale.sc]: "",
+            [Locale.sc]: "纯洁驯鹿的初体验",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10054: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.evie][1],
         name: {
             [Locale.tc]: "純潔馴鹿的乳交侍奉",
-            [Locale.sc]: "",
+            [Locale.sc]: "纯洁驯鹿的乳交侍奉",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10054: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.evie][2],
         name: {
             [Locale.tc]: "白濁的聖誕禮物",
-            [Locale.sc]: "",
+            [Locale.sc]: "白浊的圣诞礼物",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

@@ -8,7 +8,7 @@ export const Discipline_10028: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.chizuru][0],
         name: {
             [Locale.tc]: "初夜要在往生後",
-            [Locale.sc]: "",
+            [Locale.sc]: "初夜要在往生后",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10028: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.chizuru][1],
         name: {
             [Locale.tc]: "野餐是精液的味道",
-            [Locale.sc]: "",
+            [Locale.sc]: "野餐是精液的味道",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10028: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.chizuru][2],
         name: {
             [Locale.tc]: "不死者的極限",
-            [Locale.sc]: "",
+            [Locale.sc]: "不死者的极限",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

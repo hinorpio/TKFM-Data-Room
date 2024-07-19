@@ -8,7 +8,7 @@ export const Discipline_10006: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.lulu][0],
         name: {
             [Locale.tc]: "性的啟蒙",
-            [Locale.sc]: "",
+            [Locale.sc]: "性的启蒙",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10006: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.lulu][1],
         name: {
             [Locale.tc]: "味覺調教",
-            [Locale.sc]: "",
+            [Locale.sc]: "味觉调教",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10006: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.lulu][2],
         name: {
             [Locale.tc]: "嗜精王女",
-            [Locale.sc]: "",
+            [Locale.sc]: "嗜精王女",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

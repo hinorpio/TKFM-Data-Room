@@ -8,7 +8,7 @@ export const Discipline_10124: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.nyoro][0],
         name: {
             [Locale.tc]: "被魔王抓住了！",
-            [Locale.sc]: "",
+            [Locale.sc]: "被魔王抓住了！",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10124: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.nyoro][1],
         name: {
             [Locale.tc]: "二度挑戰",
-            [Locale.sc]: "",
+            [Locale.sc]: "二度挑战",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10124: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.nyoro][2],
         name: {
             [Locale.tc]: "才沒有覺得舒服呢……",
-            [Locale.sc]: "",
+            [Locale.sc]: "才没有觉得舒服呢……",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

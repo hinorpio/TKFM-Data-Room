@@ -8,7 +8,7 @@ export const Discipline_10085: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.kana][0],
         name: {
             [Locale.tc]: "魔王城的茶屋",
-            [Locale.sc]: "",
+            [Locale.sc]: "魔王城的茶屋",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10085: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.kana][1],
         name: {
             [Locale.tc]: "花魁的乳侍奉",
-            [Locale.sc]: "",
+            [Locale.sc]: "花魁的乳侍奉",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10085: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.kana][2],
         name: {
             [Locale.tc]: "花魁的戲耍",
-            [Locale.sc]: "",
+            [Locale.sc]: "花魁的戏耍",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

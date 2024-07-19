@@ -8,7 +8,7 @@ export const Discipline_10807: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.yoi][0],
         name: {
             [Locale.tc]: "為了研究",
-            [Locale.sc]: "",
+            [Locale.sc]: "为了研究",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10807: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.yoi][1],
         name: {
             [Locale.tc]: "尤依的禮物",
-            [Locale.sc]: "",
+            [Locale.sc]: "尤依的礼物",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10807: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.yoi][2],
         name: {
             [Locale.tc]: "魔女的淪陷",
-            [Locale.sc]: "",
+            [Locale.sc]: "魔女的沦陷",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

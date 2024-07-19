@@ -8,7 +8,7 @@ export const Discipline_10140: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.lelya][0],
         name: {
             [Locale.tc]: "來自深淵的誘惑",
-            [Locale.sc]: "",
+            [Locale.sc]: "来自深渊的诱惑",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10140: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.lelya][1],
         name: {
             [Locale.tc]: "墮入瘋狂陷阱的小貓咪",
-            [Locale.sc]: "",
+            [Locale.sc]: "堕入疯狂陷阱的小猫咪",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10140: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.lelya][2],
         name: {
             [Locale.tc]: "這才是世界的真理",
-            [Locale.sc]: "",
+            [Locale.sc]: "这才是世界的真理",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

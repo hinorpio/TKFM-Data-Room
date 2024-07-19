@@ -8,7 +8,7 @@ export const Discipline_10128: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.x_iblis][0],
         name: {
             [Locale.tc]: "乳頭紓壓法",
-            [Locale.sc]: "",
+            [Locale.sc]: "乳头纾压法",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10128: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.x_iblis][1],
         name: {
             [Locale.tc]: "喝著酒，想著他",
-            [Locale.sc]: "",
+            [Locale.sc]: "喝着酒，想着他",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10128: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.x_iblis][2],
         name: {
             [Locale.tc]: "坦露的心意",
-            [Locale.sc]: "",
+            [Locale.sc]: "坦露的心意",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

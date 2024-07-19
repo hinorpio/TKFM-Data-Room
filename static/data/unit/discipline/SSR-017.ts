@@ -8,7 +8,7 @@ export const Discipline_10031: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_ks8][0],
         name: {
             [Locale.tc]: "全新性愛模式解禁",
-            [Locale.sc]: "",
+            [Locale.sc]: "全新性爱模式解禁",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10031: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_ks8][1],
         name: {
             [Locale.tc]: "健身性愛人偶",
-            [Locale.sc]: "",
+            [Locale.sc]: "健身性爱人偶",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10031: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_ks8][2],
         name: {
             [Locale.tc]: "在公主的旁邊……",
-            [Locale.sc]: "",
+            [Locale.sc]: "在公主的旁边……",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

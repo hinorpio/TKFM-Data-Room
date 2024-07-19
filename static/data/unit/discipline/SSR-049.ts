@@ -8,7 +8,7 @@ export const Discipline_10042: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_iblis][0],
         name: {
             [Locale.tc]: "海灘性交",
-            [Locale.sc]: "",
+            [Locale.sc]: "海滩性交",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10042: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_iblis][1],
         name: {
             [Locale.tc]: "忍耐的極限",
-            [Locale.sc]: "",
+            [Locale.sc]: "忍耐的极限",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10042: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_iblis][2],
         name: {
             [Locale.tc]: "極致的高潮",
-            [Locale.sc]: "",
+            [Locale.sc]: "极致的高潮",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

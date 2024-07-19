@@ -8,7 +8,7 @@ export const Discipline_10038: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.tyrella][0],
         name: {
             [Locale.tc]: "VS觸手怪",
-            [Locale.sc]: "",
+            [Locale.sc]: "VS触手怪",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10038: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.tyrella][1],
         name: {
             [Locale.tc]: "VS電動按摩器",
-            [Locale.sc]: "",
+            [Locale.sc]: "VS电动按摩器",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10038: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.tyrella][2],
         name: {
             [Locale.tc]: "魔法少女陷落",
-            [Locale.sc]: "",
+            [Locale.sc]: "魔法少女陷落",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

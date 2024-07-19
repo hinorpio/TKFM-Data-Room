@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'tkfm-data-room',
-    title: 'tkfm-data-room',
+    titleTemplate: 'TKFM Data Room',
+    title: 'TKFM Data Room',
     htmlAttrs: {
       lang: 'tc'
     },

@@ -8,7 +8,7 @@ export const Discipline_10130: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.salina][0],
         name: {
             [Locale.tc]: "青梅竹馬的百合初體驗",
-            [Locale.sc]: "",
+            [Locale.sc]: "青梅竹马的百合初体验",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10130: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.salina][1],
         name: {
             [Locale.tc]: "敗北者，處女喪失！",
-            [Locale.sc]: "",
+            [Locale.sc]: "败北者，处女丧失！",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10130: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.salina][2],
         name: {
             [Locale.tc]: "享受性愛吧，小莎！",
-            [Locale.sc]: "",
+            [Locale.sc]: "享受性爱吧，小莎！",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

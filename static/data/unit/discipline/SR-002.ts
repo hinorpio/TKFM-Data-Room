@@ -8,7 +8,7 @@ export const Discipline_10010: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.leona][0],
         name: {
             [Locale.tc]: "觸手關押",
-            [Locale.sc]: "",
+            [Locale.sc]: "触手关押",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10010: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.leona][1],
         name: {
             [Locale.tc]: "破碎的信仰",
-            [Locale.sc]: "",
+            [Locale.sc]: "破碎的信仰",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10010: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.leona][2],
         name: {
             [Locale.tc]: "虛假的贖罪",
-            [Locale.sc]: "",
+            [Locale.sc]: "虚假的赎罪",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

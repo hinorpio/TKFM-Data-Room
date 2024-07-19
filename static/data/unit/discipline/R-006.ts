@@ -8,7 +8,7 @@ export const Discipline_10806: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.marlene][0],
         name: {
             [Locale.tc]: "想變得更親近",
-            [Locale.sc]: "",
+            [Locale.sc]: "想变得更亲近",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10806: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.marlene][1],
         name: {
             [Locale.tc]: "瑪蓮的禮物",
-            [Locale.sc]: "",
+            [Locale.sc]: "玛莲的礼物",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10806: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.marlene][2],
         name: {
             [Locale.tc]: "為了快樂的結局",
-            [Locale.sc]: "",
+            [Locale.sc]: "为了快乐的结局",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

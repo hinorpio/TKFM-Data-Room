@@ -8,7 +8,7 @@ export const Discipline_10062: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sherana][0],
         name: {
             [Locale.tc]: "有償初夜",
-            [Locale.sc]: "",
+            [Locale.sc]: "有偿初夜",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10062: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sherana][1],
         name: {
             [Locale.tc]: "狐娘的枕營業",
-            [Locale.sc]: "",
+            [Locale.sc]: "狐娘的枕营业",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10062: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sherana][2],
         name: {
             [Locale.tc]: "令人羞恥的快感",
-            [Locale.sc]: "",
+            [Locale.sc]: "令人羞耻的快感",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

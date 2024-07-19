@@ -8,7 +8,7 @@ export const Discipline_10809: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.mia][0],
         name: {
             [Locale.tc]: "拘禁調教",
-            [Locale.sc]: "",
+            [Locale.sc]: "拘禁调教",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10809: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.mia][1],
         name: {
             [Locale.tc]: "米雅的禮物",
-            [Locale.sc]: "",
+            [Locale.sc]: "米雅的礼物",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10809: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.mia][2],
         name: {
             [Locale.tc]: "怪盜的淫謀",
-            [Locale.sc]: "",
+            [Locale.sc]: "怪盗的淫谋",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

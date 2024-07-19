@@ -8,7 +8,7 @@ export const Discipline_10061: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.teresa][0],
         name: {
             [Locale.tc]: "地方的媽媽需要……",
-            [Locale.sc]: "",
+            [Locale.sc]: "地方的妈妈需要……",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10061: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.teresa][1],
         name: {
             [Locale.tc]: "母性濃厚(意味深)",
-            [Locale.sc]: "",
+            [Locale.sc]: "母性浓厚(意味深)",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10061: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.teresa][2],
         name: {
             [Locale.tc]: "媽媽覺得你需要",
-            [Locale.sc]: "",
+            [Locale.sc]: "妈妈觉得你需要",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

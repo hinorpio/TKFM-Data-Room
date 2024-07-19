@@ -8,7 +8,7 @@ export const Discipline_10003: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.iblis][0],
         name: {
             [Locale.tc]: "後庭開發",
-            [Locale.sc]: "",
+            [Locale.sc]: "后庭开发",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10003: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.iblis][1],
         name: {
             [Locale.tc]: "伊布力斯的侍寢",
-            [Locale.sc]: "",
+            [Locale.sc]: "伊布力斯的侍寝",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10003: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.iblis][2],
         name: {
             [Locale.tc]: "菊穴奴隸伊布力斯",
-            [Locale.sc]: "",
+            [Locale.sc]: "菊穴奴隶伊布力斯",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

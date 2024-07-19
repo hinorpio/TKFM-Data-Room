@@ -8,7 +8,7 @@ export const Discipline_10147: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.oniyoiki][0],
         name: {
             [Locale.tc]: "待宰羔羊",
-            [Locale.sc]: "",
+            [Locale.sc]: "待宰羔羊",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10147: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.oniyoiki][1],
         name: {
             [Locale.tc]: "特製女體盛",
-            [Locale.sc]: "",
+            [Locale.sc]: "特制女体盛",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10147: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.oniyoiki][2],
         name: {
             [Locale.tc]: "品嘗做愛的滋味",
-            [Locale.sc]: "",
+            [Locale.sc]: "品尝做爱的滋味",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

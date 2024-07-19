@@ -1,6 +1,6 @@
 <template>
     <v-card-title> 
-        {{ $t('Search Character') }}
+        {{ $t('Search') }}
         <v-spacer></v-spacer>
         <v-btn icon @click="handleSwitchDisplay">
             <v-icon v-if="isDisplayIcon">mdi-format-list-text</v-icon>

@@ -8,7 +8,7 @@ export const Discipline_10081: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.b_iblis][0],
         name: {
             [Locale.tc]: "深喉侵犯",
-            [Locale.sc]: "",
+            [Locale.sc]: "深喉侵犯",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10081: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.b_iblis][1],
         name: {
             [Locale.tc]: "公證性奴",
-            [Locale.sc]: "",
+            [Locale.sc]: "公证性奴",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10081: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.b_iblis][2],
         name: {
             [Locale.tc]: "凱薩的彌補",
-            [Locale.sc]: "",
+            [Locale.sc]: "凯萨的弥补",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

@@ -20,8 +20,12 @@
                 </a>
                 <br />
                 <h3><u>Facebook</u></h3>
-                <a class="hyperlink-class" target="_blank" :href="getLocaleLink(youtube)">
-                    <span :class="linkClass">{{$t('Facebook')}}</span>
+                <a class="hyperlink-class" target="_blank" :href="getLocaleLink(facebook_fanpage)">
+                    <span :class="linkClass">{{$t('Facebook Fanpage')}}</span>
+                </a>
+                <br />
+                <a class="hyperlink-class" target="_blank" :href="getLocaleLink(facebook_group)">
+                    <span :class="linkClass">{{$t('Facebook Group')}}</span>
                 </a>
                 <br />
                 <h2 class="mt-8 mb-2">{{ $t('Useful Tools') }}</h2>
@@ -83,6 +87,22 @@ export default class External extends Vue {
         [Locale.kr]: 'https://www.youtube.com/@tenkafumaofficalchannel6558',
     }
 
+    facebook_fanpage: {[lang in Locale]: string} = {
+        [Locale.tc]: 'https://www.facebook.com/TenkafuMA',
+        [Locale.sc]: 'https://www.facebook.com/TenkafuMA',
+        [Locale.en]: 'https://www.facebook.com/TenkafuMA',
+        [Locale.jp]: 'https://www.facebook.com/TenkafuMA',
+        [Locale.kr]: 'https://www.facebook.com/TenkafuMA',
+    }
+
+    facebook_group: {[lang in Locale]: string} = {
+        [Locale.tc]: 'https://www.facebook.com/groups/2707800699549152',
+        [Locale.sc]: 'https://www.facebook.com/groups/2707800699549152',
+        [Locale.en]: 'https://www.facebook.com/groups/2707800699549152',
+        [Locale.jp]: 'https://www.facebook.com/groups/2707800699549152',
+        [Locale.kr]: 'https://www.facebook.com/groups/2707800699549152',
+    }
+
     tkfmtools: {[lang in Locale]: string} = {
         [Locale.tc]: 'https://purindaisuki.github.io/tkfmtools/',
         [Locale.sc]: 'https://purindaisuki.github.io/tkfmtools/',
@@ -98,8 +118,6 @@ export default class External extends Vue {
         [Locale.jp]: 'https://tkfm.vercel.app/',
         [Locale.kr]: 'https://tkfm.vercel.app/',
     }
-
-
     
 }
 </script>

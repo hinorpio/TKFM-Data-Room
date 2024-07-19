@@ -8,7 +8,7 @@ export const Discipline_10051: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.pulicia][0],
         name: {
             [Locale.tc]: "不過是性交",
-            [Locale.sc]: "",
+            [Locale.sc]: "不过是性交",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10051: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.pulicia][1],
         name: {
             [Locale.tc]: "兌現賭注",
-            [Locale.sc]: "",
+            [Locale.sc]: "兑现赌注",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10051: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.pulicia][2],
         name: {
             [Locale.tc]: "為了繁衍",
-            [Locale.sc]: "",
+            [Locale.sc]: "为了繁衍",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

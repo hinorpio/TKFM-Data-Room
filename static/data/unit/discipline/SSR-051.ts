@@ -8,7 +8,7 @@ export const Discipline_10091: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_noel][0],
         name: {
             [Locale.tc]: "海邊x舞台x插入小穴",
-            [Locale.sc]: "",
+            [Locale.sc]: "海边x舞台x插入小穴",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10091: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_noel][1],
         name: {
             [Locale.tc]: "夜晚的性侍奉",
-            [Locale.sc]: "",
+            [Locale.sc]: "夜晚的性侍奉",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10091: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.s_noel][2],
         name: {
             [Locale.tc]: "偶像人偶性愛live",
-            [Locale.sc]: "",
+            [Locale.sc]: "偶像人偶性爱live",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

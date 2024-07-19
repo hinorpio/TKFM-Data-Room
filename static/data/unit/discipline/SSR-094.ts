@@ -8,7 +8,7 @@ export const Discipline_10126: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.h_shiro][0],
         name: {
             [Locale.tc]: "搗蛋之夜",
-            [Locale.sc]: "",
+            [Locale.sc]: "捣蛋之夜",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10126: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.h_shiro][1],
         name: {
             [Locale.tc]: "惡作劇被抓到了！",
-            [Locale.sc]: "",
+            [Locale.sc]: "恶作剧被抓到了！",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10126: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.h_shiro][2],
         name: {
             [Locale.tc]: "學習大人的性技巧",
-            [Locale.sc]: "",
+            [Locale.sc]: "学习大人的性技巧",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

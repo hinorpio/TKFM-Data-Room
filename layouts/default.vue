@@ -21,7 +21,7 @@
       </v-btn>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title color="white">
-        <h5>天下布魔資料室</h5>
+        <h5>{{ $t('TKFM Data Room') }}</h5>
         <!-- {{ $vuetify.breakpoint.name }} -->
         <!-- {{ $i18n.locale }} -->
       </v-toolbar-title>

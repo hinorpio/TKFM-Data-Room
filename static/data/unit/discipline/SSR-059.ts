@@ -8,7 +8,7 @@ export const Discipline_10093: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.c1_nana][0],
         name: {
             [Locale.tc]: "貓娘束縛play",
-            [Locale.sc]: "",
+            [Locale.sc]: "猫娘束缚play",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10093: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.c1_nana][1],
         name: {
             [Locale.tc]: "高空直落三千尺",
-            [Locale.sc]: "",
+            [Locale.sc]: "高空直落三千尺",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10093: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.c1_nana][2],
         name: {
             [Locale.tc]: "努力的理由",
-            [Locale.sc]: "",
+            [Locale.sc]: "努力的理由",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

@@ -1,4 +1,5 @@
 export default {
+    "TKFM Data Room": "TKFM Data Room",
     "Home Page": "Home Page",
     "Unit Info": "Unit Info",
     "Event Timeline": "Event Timeline",
@@ -39,7 +40,7 @@ export default {
     "Current Version": "Current Version",
     "Version": "Version",
     "As of": "As of",
-    "Search Character": "Search Character",
+    "Search": "Search",
     "Opps...Something is wrong Nya": "Opps...Something is wrong Nya",
     "Character Essence": "Character Essence",
     "Previous Page": "Previous Page",

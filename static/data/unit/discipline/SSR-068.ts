@@ -8,7 +8,7 @@ export const Discipline_10098: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.x_shizuka][0],
         name: {
             [Locale.tc]: "不情願的自慰秀",
-            [Locale.sc]: "",
+            [Locale.sc]: "不情愿的自慰秀",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10098: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.x_shizuka][1],
         name: {
             [Locale.tc]: "懲罰小偷",
-            [Locale.sc]: "",
+            [Locale.sc]: "惩罚小偷",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10098: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.x_shizuka][2],
         name: {
             [Locale.tc]: "雪色性誕夜",
-            [Locale.sc]: "",
+            [Locale.sc]: "雪色性诞夜",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

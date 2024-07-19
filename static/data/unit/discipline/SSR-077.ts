@@ -8,7 +8,7 @@ export const Discipline_10114: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.m_juneau][0],
         name: {
             [Locale.tc]: "對魔法少女專用陷阱",
-            [Locale.sc]: "",
+            [Locale.sc]: "对魔法少女专用陷阱",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10114: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.m_juneau][1],
         name: {
             [Locale.tc]: "雌性高潮",
-            [Locale.sc]: "",
+            [Locale.sc]: "雌性高潮",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10114: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.m_juneau][2],
         name: {
             [Locale.tc]: "『它』回來了",
-            [Locale.sc]: "",
+            [Locale.sc]: "『它』回来了",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

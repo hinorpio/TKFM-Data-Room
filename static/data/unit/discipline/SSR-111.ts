@@ -8,7 +8,7 @@ export const Discipline_10141: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.a_nana][0],
         name: {
             [Locale.tc]: "秘密潛入調查",
-            [Locale.sc]: "",
+            [Locale.sc]: "秘密潜入调查",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10141: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.a_nana][1],
         name: {
             [Locale.tc]: "睡眼惺忪的貓娘",
-            [Locale.sc]: "",
+            [Locale.sc]: "睡眼惺忪的猫娘",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10141: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.a_nana][2],
         name: {
             [Locale.tc]: "又是互相親熱的一天",
-            [Locale.sc]: "",
+            [Locale.sc]: "又是互相亲热的一天",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

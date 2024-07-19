@@ -8,7 +8,7 @@ export const Discipline_10120: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.o_lana][0],
         name: {
             [Locale.tc]: "協力轉駝",
-            [Locale.sc]: "",
+            [Locale.sc]: "协力转驼",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10120: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.o_lana][1],
         name: {
             [Locale.tc]: "船頭的羅曼蒂克",
-            [Locale.sc]: "",
+            [Locale.sc]: "船头的罗曼蒂克",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10120: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.o_lana][2],
         name: {
             [Locale.tc]: "船長間的駕駛比試",
-            [Locale.sc]: "",
+            [Locale.sc]: "船长间的驾驶比试",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

@@ -8,7 +8,7 @@ export const Discipline_10138: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.p_lulu][0],
         name: {
             [Locale.tc]: "喚醒瞌睡蟲的好方法",
-            [Locale.sc]: "",
+            [Locale.sc]: "唤醒瞌睡虫的好方法",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10138: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.p_lulu][1],
         name: {
             [Locale.tc]: "公主的腿部鍛鍊課程",
-            [Locale.sc]: "",
+            [Locale.sc]: "公主的腿部锻炼课程",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10138: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.p_lulu][2],
         name: {
             [Locale.tc]: "夢中遇襲",
-            [Locale.sc]: "",
+            [Locale.sc]: "梦中遇袭",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

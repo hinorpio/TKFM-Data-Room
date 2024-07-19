@@ -8,7 +8,7 @@ export const Discipline_10024: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.elizabeth][0],
         name: {
             [Locale.tc]: "活著的實感",
-            [Locale.sc]: "",
+            [Locale.sc]: "活着的实感",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10024: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.elizabeth][1],
         name: {
             [Locale.tc]: "生者的喜悅",
-            [Locale.sc]: "",
+            [Locale.sc]: "生者的喜悦",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10024: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.elizabeth][2],
         name: {
             [Locale.tc]: "反差萌死靈女王",
-            [Locale.sc]: "",
+            [Locale.sc]: "反差萌死灵女王",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

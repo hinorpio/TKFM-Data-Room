@@ -33,7 +33,7 @@ export default class RecruitmentPage extends Vue {
     tagList: Tag[] = []
     unitList: Unit[] = []
     selectedTag: number[] = []
-    recruitmentTime = { hours: 9, minutes: '00'}
+    recruitmentTime = { hours: 9, minutes: '00' }
 
     mounted(): void {
         this.tagList = this.$util.getAllTag();

@@ -8,7 +8,7 @@ export const Discipline_10002: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.satan][0],
         name: {
             [Locale.tc]: "狂野之人",
-            [Locale.sc]: "",
+            [Locale.sc]: "狂野之人",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10002: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.satan][1],
         name: {
             [Locale.tc]: "不受控的雌犬",
-            [Locale.sc]: "",
+            [Locale.sc]: "不受控的雌犬",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10002: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.satan][2],
         name: {
             [Locale.tc]: "強精之計",
-            [Locale.sc]: "",
+            [Locale.sc]: "强精之计",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

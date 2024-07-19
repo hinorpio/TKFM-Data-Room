@@ -8,7 +8,7 @@ export const Discipline_10071: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sasha][0],
         name: {
             [Locale.tc]: "強制辱侵",
-            [Locale.sc]: "",
+            [Locale.sc]: "强制辱侵",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10071: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sasha][1],
         name: {
             [Locale.tc]: "讓凱薩師幫你改運",
-            [Locale.sc]: "",
+            [Locale.sc]: "让凯萨师帮你改运",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10071: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.sasha][2],
         name: {
             [Locale.tc]: "賜予的幸福",
-            [Locale.sc]: "",
+            [Locale.sc]: "赐予的幸福",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

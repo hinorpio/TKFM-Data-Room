@@ -8,7 +8,7 @@ export const Discipline_10076: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.w_lulu][0],
         name: {
             [Locale.tc]: "被兔子襲擊了？！",
-            [Locale.sc]: "",
+            [Locale.sc]: "被兔子袭击了？ ！",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10076: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.w_lulu][1],
         name: {
             [Locale.tc]: "懲罰問答",
-            [Locale.sc]: "",
+            [Locale.sc]: "惩罚问答",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10076: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.w_lulu][2],
         name: {
             [Locale.tc]: "在夢中獨佔最愛的他",
-            [Locale.sc]: "",
+            [Locale.sc]: "在梦中独占最爱的他",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""

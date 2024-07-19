@@ -8,7 +8,7 @@ export const Discipline_10133: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.nanami][0],
         name: {
             [Locale.tc]: "夜晚的握手會",
-            [Locale.sc]: "",
+            [Locale.sc]: "夜晚的握手会",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -18,7 +18,7 @@ export const Discipline_10133: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.nanami][1],
         name: {
             [Locale.tc]: "矛盾大對決",
-            [Locale.sc]: "",
+            [Locale.sc]: "矛盾大对决",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
@@ -28,7 +28,7 @@ export const Discipline_10133: Discipline[] = [
         preview: UnitDisciplinePreview[UnitCode.nanami][2],
         name: {
             [Locale.tc]: "少女偶像的解禁時間",
-            [Locale.sc]: "",
+            [Locale.sc]: "少女偶像的解禁时间",
             [Locale.en]: "",
             [Locale.jp]: "",
             [Locale.kr]: ""
