@@ -19,7 +19,7 @@ const tags: Tag[] = [
         icon: "mdi-water-outline",
         name: {
             tc: "水屬性",
-            sc: "",
+            sc: "水属性",
             en: "Water Attr.",
             jp: "水属性",
             kr: "수속성"
@@ -31,7 +31,7 @@ const tags: Tag[] = [
         icon: "mdi-weather-windy",
         name: {
             tc: "風屬性",
-            sc: "",
+            sc: "风属性",
             en: "Wind Attr.",
             jp: "風属性",
             kr: "풍속성"
@@ -43,7 +43,7 @@ const tags: Tag[] = [
         icon: "mdi-weather-sunny",
         name: {
             tc: "光屬性",
-            sc: "",
+            sc: "光属性",
             en: "Light Attr.",
             jp: "光属性",
             kr: "광속성"
@@ -55,7 +55,7 @@ const tags: Tag[] = [
         icon: "mdi-weather-night",
         name: {
             tc: "闇屬性",
-            sc: "",
+            sc: "暗属性",
             en: "Dark Attr.",
             jp: "闇属性",
             kr: "암속성"
@@ -67,7 +67,7 @@ const tags: Tag[] = [
         icon: "mdi-sword",
         name: {
             tc: "攻擊者",
-            sc: "",
+            sc: "攻击者",
             en: "Attacker",
             jp: "アタッカー",
             kr: "딜러"
@@ -79,7 +79,7 @@ const tags: Tag[] = [
         icon: "mdi-shield-half-full",
         name: {
             tc: "守護者",
-            sc: "",
+            sc: "守护者",
             en: "Protector",
             jp: "ガーディアン",
             kr: "탱커"
@@ -91,7 +91,7 @@ const tags: Tag[] = [
         icon: "mdi-heart-outline",
         name: {
             tc: "治療者",
-            sc: "",
+            sc: "治疗者",
             en: "Healer",
             jp: "ヒーラー",
             kr: "힐러"
@@ -103,7 +103,7 @@ const tags: Tag[] = [
         icon: "mdi-tangram",
         name: {
             tc: "妨礙者",
-            sc: "",
+            sc: "妨碍者",
             en: "Obstructer",
             jp: "デバッファー",
             kr: "디스럽터"
@@ -115,7 +115,7 @@ const tags: Tag[] = [
         icon: "mdi-magic-staff",
         name: {
             tc: "輔助者",
-            sc: "",
+            sc: "辅助者",
             en: "Supporter",
             jp: "サポーター",
             kr: "서포터"
@@ -127,7 +127,7 @@ const tags: Tag[] = [
         icon: "mdi-account",
         name: {
             tc: "人類",
-            sc: "",
+            sc: "人类",
             en: "Human",
             jp: "人類",
             kr: "인간"
@@ -139,7 +139,7 @@ const tags: Tag[] = [
         icon: "mdi-account",
         name: {
             tc: "魔族",
-            sc: "",
+            sc: "魔族",
             en: "Demon",
             jp: "魔族",
             kr: "마족"
@@ -151,7 +151,7 @@ const tags: Tag[] = [
         icon: "mdi-account",
         name: {
             tc: "亞人",
-            sc: "",
+            sc: "亚人",
             en: "Demihuman",
             jp: "亜人",
             kr: "야인"
@@ -163,7 +163,7 @@ const tags: Tag[] = [
         icon: "mdi-ruler",
         name: {
             tc: "小體型",
-            sc: "",
+            sc: "小体型",
             en: "Small Sized",
             jp: "小柄",
             kr: "작은 체형"
@@ -175,7 +175,7 @@ const tags: Tag[] = [
         icon: "mdi-ruler",
         name: {
             tc: "中體型",
-            sc: "",
+            sc: "中体型",
             en: "Medium Sized",
             jp: "中肉中背",
             kr: "표준 체형"
@@ -187,7 +187,7 @@ const tags: Tag[] = [
         icon: "mdi-record-circle-outline",
         name: {
             tc: "貧乳",
-            sc: "",
+            sc: "贫乳",
             en: "Flat Tits",
             jp: "貧乳",
             kr: "빈유"
@@ -199,7 +199,7 @@ const tags: Tag[] = [
         icon: "mdi-record-circle-outline",
         name: {
             tc: "美乳",
-            sc: "",
+            sc: "美乳",
             en: "Hot Tits",
             jp: "美乳",
             kr: "미유"
@@ -211,7 +211,7 @@ const tags: Tag[] = [
         icon: "mdi-record-circle-outline",
         name: {
             tc: "巨乳",
-            sc: "",
+            sc: "巨乳",
             en: "Giant Tits",
             jp: "巨乳",
             kr: "거유"
@@ -223,7 +223,7 @@ const tags: Tag[] = [
         icon: "mdi-medal-outline",
         name: {
             tc: "士兵",
-            sc: "",
+            sc: "士兵",
             en: "Soldier",
             jp: "兵士",
             kr: "병사"
@@ -235,7 +235,7 @@ const tags: Tag[] = [
         icon: "mdi-medal-outline",
         name: {
             tc: "菁英",
-            sc: "",
+            sc: "菁英",
             en: "Elite",
             jp: "エリート",
             kr: "정예"
@@ -247,7 +247,7 @@ const tags: Tag[] = [
         icon: "mdi-medal-outline",
         name: {
             tc: "領袖",
-            sc: "",
+            sc: "领袖",
             en: "Leader",
             jp: "リーダー",
             kr: "리더"
@@ -259,7 +259,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "輸出",
-            sc: "",
+            sc: "输出",
             en: "Dmg. Output",
             jp: "出力",
             kr: "데미지"
@@ -271,7 +271,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "保護",
-            sc: "",
+            sc: "保护",
             en: "Protection",
             jp: "保護",
             kr: "보호"
@@ -283,7 +283,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "防禦",
-            sc: "",
+            sc: "防御",
             en: "Defense",
             jp: "防御",
             kr: "방어"
@@ -295,7 +295,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "回復",
-            sc: "",
+            sc: "回复",
             en: "Recovery",
             jp: "回復",
             kr: "회복"
@@ -307,7 +307,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "干擾",
-            sc: "",
+            sc: "干扰",
             en: "Interference",
             jp: "干渉",
             kr: "방해"
@@ -319,7 +319,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "支援",
-            sc: "",
+            sc: "支援",
             en: "Support",
             jp: "サポート",
             kr: "지원"
@@ -331,7 +331,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "削弱",
-            sc: "",
+            sc: "削弱",
             en: "Weaken",
             jp: "弱体化",
             kr: "쇠약"
@@ -343,7 +343,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "爆發力",
-            sc: "",
+            sc: "爆发力",
             en: "Explosiveness",
             jp: "爆発力",
             kr: "폭발력"
@@ -355,7 +355,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "生存力",
-            sc: "",
+            sc: "生存力",
             en: "Survivability",
             jp: "生存力",
             kr: "생존력"
@@ -367,7 +367,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "越戰越強",
-            sc: "",
+            sc: "越战越强",
             en: "More Power",
             jp: "持続強化",
             kr: "전투하면\n할수록 강해진다"
@@ -379,7 +379,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "群體攻擊",
-            sc: "",
+            sc: "群体攻击",
             en: "AoE",
             jp: "範囲攻撃",
             kr: "범위 공격"
@@ -391,7 +391,7 @@ const tags: Tag[] = [
         icon: "mdi-dots-horizontal",
         name: {
             tc: "回擊",
-            sc: "",
+            sc: "回击",
             en: "Counterstrike",
             jp: "反撃",
             kr: "반격"
