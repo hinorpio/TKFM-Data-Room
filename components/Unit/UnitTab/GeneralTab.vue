@@ -25,7 +25,7 @@
         </v-row>
         <v-divider class="mt-6"></v-divider>
         <!---------------------------------------------------------------------------->
-        <v-row class="pa-2">
+        <v-row class="pa-2" v-if="getUnitAbbreviation(unit).length > 0">
             <v-col>
                 <h3>{{$t('Abbreviation')}}</h3>
                 <div>
@@ -35,7 +35,7 @@
                 </div>
             </v-col>
         </v-row>
-        <v-divider class="mt-1 mb-2"></v-divider>
+        <v-divider class="mt-1 mb-2" v-if="getUnitAbbreviation(unit).length > 0"></v-divider>
         <!---------------------------------------------------------------------------->
         <v-row class="pt-4 px-2">
             <v-col>

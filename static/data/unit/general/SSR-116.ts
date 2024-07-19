@@ -9,20 +9,20 @@ export const General_10146: Unit = {
         [Locale.tc]: "魔獸獵手",
         [Locale.sc]: "魔兽猎手",
         [Locale.en]: "Apex Hunter",
-        [Locale.jp]: null,
-        [Locale.kr]: null
+        [Locale.jp]: "魔獣ハンター",
+        [Locale.kr]: "몬스터헌터"
     },
     name: {
         [Locale.tc]: "神無雪",
         [Locale.sc]: "神无雪",
         [Locale.en]: "Minayomi",
-        [Locale.jp]: null,
-        [Locale.kr]: null
+        [Locale.jp]: "神無雪",
+        [Locale.kr]: "미나요미"
     },
     abbreviation: {
         [Locale.tc]: [ "魔劍", "黑劍" ],
-        [Locale.sc]: [],
-        [Locale.en]: [],
+        [Locale.sc]: [ "魔剑", "黑剑" ],
+        [Locale.en]: [ "D.Mina" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },
