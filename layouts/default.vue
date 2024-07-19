@@ -26,6 +26,7 @@
         <!-- {{ $i18n.locale }} -->
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <download-button />
       <language-button />
     </v-app-bar>
 
@@ -41,6 +42,8 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
+import LanguageButton from "~/components/LanguageButton.vue";
+import DownloadButton from "~/components/DownloadButton.vue";
 
 interface MenuItem {
   icon: string
@@ -48,7 +51,12 @@ interface MenuItem {
   to: string
 }
 
-@Component
+@Component({
+  components:{
+    LanguageButton,
+    DownloadButton
+  }
+})
 export default class DefaultLayout extends Vue {
 
   drawer: Boolean = false
