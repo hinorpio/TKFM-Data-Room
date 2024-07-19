@@ -1,8 +1,8 @@
 <template>
   <div class="text-center">
-      <v-btn v-if="deferredPrompt" ref="addBtn" @click="clickCallback" icon >
-          <v-icon> mdi-download </v-icon>
-      </v-btn>
+    <v-btn v-if="showButton" ref="addBtn" @click="clickCallback" icon>
+      <v-icon>mdi-download</v-icon>
+    </v-btn>
   </div>
 </template>
 
@@ -10,35 +10,36 @@
 export default {
   name: 'AddToHomeScreen',
   data: () => ({
+    showButton: true,
     deferredPrompt: null,
   }),
   mounted() {
-    this.captureEvent()
+    this.captureEvent();
+    this.checkPWAInstallation();
   },
   methods: {
     captureEvent() {
       window.addEventListener('beforeinstallprompt', (e) => {
-        // ! Prevent Chrome 67 and earlier from automatically showing the prompt
-        e.preventDefault()
-        // Stash the event so it can be triggered later.
-        this.deferredPrompt = e
-      })
+        e.preventDefault();
+        this.deferredPrompt = e;
+      });
+    },
+    checkPWAInstallation() {
+      if (window.matchMedia('(display-mode: standalone)').matches) {
+        this.showButton = false;
+      }
     },
     clickCallback() {
-      // Show the prompt
-      this.deferredPrompt.prompt()
-      // Wait for the user to respond to the prompt
-      this.deferredPrompt.userChoice.then((choiceResult) => {
-        if (choiceResult.outcome === 'accepted') {
-          // Call another function?
-        }
-        this.deferredPrompt = null
-      })
+      if (this.deferredPrompt) {
+        this.deferredPrompt.prompt();
+        this.deferredPrompt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            // Call another function?
+          }
+          this.deferredPrompt = null;
+        });
+      }
     },
   },
-}
+};
 </script>
-<style lang="sass" scoped>
-::v-deep .v-btn
-    text-transform: unset !important
-</style>
