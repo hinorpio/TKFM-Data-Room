@@ -9,9 +9,9 @@ export const Discipline_10807: Discipline[] = [
         name: {
             [Locale.tc]: "為了研究",
             [Locale.sc]: "为了研究",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "For Research",
+            [Locale.jp]: "研究のため",
+            [Locale.kr]: "연구를 위해서"
         },
     },
     {
@@ -19,9 +19,9 @@ export const Discipline_10807: Discipline[] = [
         name: {
             [Locale.tc]: "尤依的禮物",
             [Locale.sc]: "尤依的礼物",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Yoi's Gift",
+            [Locale.jp]: "ユイの贈り物",
+            [Locale.kr]: "유이의 선물"
         },
     },
     {
@@ -29,9 +29,9 @@ export const Discipline_10807: Discipline[] = [
         name: {
             [Locale.tc]: "魔女的淪陷",
             [Locale.sc]: "魔女的沦陷",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Demoness' Trap",
+            [Locale.jp]: "魔女の陥落",
+            [Locale.kr]: "마녀의 함락"
         },
     },
 ]

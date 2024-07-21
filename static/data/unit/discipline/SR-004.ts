@@ -9,9 +9,9 @@ export const Discipline_10012: Discipline[] = [
         name: {
             [Locale.tc]: "媚藥吊繩",
             [Locale.sc]: "媚药吊绳",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Aphrodisiatic Leash",
+            [Locale.jp]: "媚薬の縄",
+            [Locale.kr]: "최음제 밧줄"
         },
     },
     {
@@ -19,9 +19,9 @@ export const Discipline_10012: Discipline[] = [
         name: {
             [Locale.tc]: "超絕敏感女忍",
             [Locale.sc]: "超绝敏感女忍",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Super Sensitive Ninja",
+            [Locale.jp]: "超絶敏感な女忍者",
+            [Locale.kr]: "초절정 민감도의 여닌자"
         },
     },
     {
@@ -29,9 +29,9 @@ export const Discipline_10012: Discipline[] = [
         name: {
             [Locale.tc]: "新的使命",
             [Locale.sc]: "新的使命",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "A New Mission",
+            [Locale.jp]: "新たな使命",
+            [Locale.kr]: "새로운 사명"
         },
     },
 ]

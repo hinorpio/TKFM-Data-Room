@@ -9,9 +9,9 @@ export const Discipline_10812: Discipline[] = [
         name: {
             [Locale.tc]: "嫌棄的騎乘侍奉",
             [Locale.sc]: "嫌弃的骑乘侍奉",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Disgusting Service",
+            [Locale.jp]: "嫌がりながらのご奉仕",
+            [Locale.kr]: "불쾌한 기승 봉사"
         },
     },
     {
@@ -19,9 +19,9 @@ export const Discipline_10812: Discipline[] = [
         name: {
             [Locale.tc]: "帕奈奈的禮物",
             [Locale.sc]: "帕奈奈的礼物",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Panana Present",
+            [Locale.jp]: "パナナの贈り物",
+            [Locale.kr]: "파나나의 선물"
         },
     },
     {
@@ -29,9 +29,9 @@ export const Discipline_10812: Discipline[] = [
         name: {
             [Locale.tc]: "仙子自慰套",
             [Locale.sc]: "仙子自慰套",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Panana Panini",
+            [Locale.jp]: "妖精オナホ",
+            [Locale.kr]: "페어리 오나홀"
         },
     },
 ]

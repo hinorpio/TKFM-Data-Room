@@ -9,9 +9,9 @@ export const Discipline_10004: Discipline[] = [
         name: {
             [Locale.tc]: "恥辱會議",
             [Locale.sc]: "耻辱会议",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Shameful Meeting",
+            [Locale.jp]: "恥辱会議",
+            [Locale.kr]: "치욕 회의"
         },
     },
     {
@@ -19,9 +19,9 @@ export const Discipline_10004: Discipline[] = [
         name: {
             [Locale.tc]: "曝露的事",
             [Locale.sc]: "曝露的事",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Exposed",
+            [Locale.jp]: "暴露",
+            [Locale.kr]: "노출"
         },
     },
     {
@@ -29,9 +29,9 @@ export const Discipline_10004: Discipline[] = [
         name: {
             [Locale.tc]: "普通的女人",
             [Locale.sc]: "普通的女人",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "An Average Woman",
+            [Locale.jp]: "平凡な女",
+            [Locale.kr]: "평범한 여인"
         },
     },
 ]

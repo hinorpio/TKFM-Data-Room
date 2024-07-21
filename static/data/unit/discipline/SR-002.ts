@@ -9,9 +9,9 @@ export const Discipline_10010: Discipline[] = [
         name: {
             [Locale.tc]: "觸手關押",
             [Locale.sc]: "触手关押",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Jail of Tentacles",
+            [Locale.jp]: "触手で拘束",
+            [Locale.kr]: "촉수"
         },
     },
     {
@@ -19,9 +19,9 @@ export const Discipline_10010: Discipline[] = [
         name: {
             [Locale.tc]: "破碎的信仰",
             [Locale.sc]: "破碎的信仰",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "Shattered Faith",
+            [Locale.jp]: "砕けた信仰心",
+            [Locale.kr]: "부숴진 신앙"
         },
     },
     {
@@ -29,9 +29,9 @@ export const Discipline_10010: Discipline[] = [
         name: {
             [Locale.tc]: "虛假的贖罪",
             [Locale.sc]: "虚假的赎罪",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.en]: "False Redemption",
+            [Locale.jp]: "偽りの贖罪",
+            [Locale.kr]: "거짓된 속죄"
         },
     },
 ]
