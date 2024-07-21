@@ -194,7 +194,7 @@ const N: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.prototype]: SkillSet_10922,
     [UnitCode.punishment]: SkillSet_10919,
     [UnitCode.bliss]: SkillSet_10920,
-    [UnitCode.steed]: SkillSet_10923,
+    [UnitCode.mareyl]: SkillSet_10923,
     [UnitCode.mumu]: SkillSet_10924,
     [UnitCode.molly]: SkillSet_10921,
     [UnitCode.anya]: SkillSet_10933,

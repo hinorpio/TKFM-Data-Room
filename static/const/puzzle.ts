@@ -41,7 +41,7 @@ import PUZZLE_DEMON_LORI from "@/assets/puzzle/scg10912.png"
 import PUZZLE_DEMON_MINNOW from "@/assets/puzzle/scg10913.png"
 import PUZZLE_DEMON_LAMIA from "@/assets/puzzle/scg10914.png"
 import PUZZLE_DEMON_HARPY from "@/assets/puzzle/scg10915.png"
-import PUZZLE_DEMON_STEED from "@/assets/puzzle/scg10923.png"
+import PUZZLE_DEMON_MAREYL from "@/assets/puzzle/scg10923.png"
 import PUZZLE_DEMON_MUMU from "@/assets/puzzle/scg10924.png"
 import PUZZLE_SKY_PUNISHMENT from "@/assets/puzzle/scg10919.png"
 import PUZZLE_SKY_BLISS from "@/assets/puzzle/scg10920.png"
@@ -85,7 +85,7 @@ import PUZZLE_PREVIEW_DEMON_LORI from "@/assets/puzzle/scg10912s.png"
 import PUZZLE_PREVIEW_DEMON_MINNOW from "@/assets/puzzle/scg10913s.png"
 import PUZZLE_PREVIEW_DEMON_LAMIA from "@/assets/puzzle/scg10914s.png"
 import PUZZLE_PREVIEW_DEMON_HARPY from "@/assets/puzzle/scg10915s.png"
-import PUZZLE_PREVIEW_DEMON_STEED from "@/assets/puzzle/scg10923s.png"
+import PUZZLE_PREVIEW_DEMON_MAREYL from "@/assets/puzzle/scg10923s.png"
 import PUZZLE_PREVIEW_DEMON_MUMU from "@/assets/puzzle/scg10924s.png"
 import PUZZLE_PREVIEW_SKY_PUNISHMENT from "@/assets/puzzle/scg10919s.png"
 import PUZZLE_PREVIEW_SKY_BLISS from "@/assets/puzzle/scg10920s.png"
@@ -132,7 +132,7 @@ export const Preview = {
     [PuzzleCode.DEMON_MINNOW]: PUZZLE_PREVIEW_DEMON_MINNOW,
     [PuzzleCode.DEMON_LAMIA]: PUZZLE_PREVIEW_DEMON_LAMIA,
     [PuzzleCode.DEMON_HARPY]: PUZZLE_PREVIEW_DEMON_HARPY,
-    [PuzzleCode.DEMON_STEED]: PUZZLE_PREVIEW_DEMON_STEED,
+    [PuzzleCode.DEMON_MAREYL]: PUZZLE_PREVIEW_DEMON_MAREYL,
     [PuzzleCode.DEMON_MUMU]: PUZZLE_PREVIEW_DEMON_MUMU,
     [PuzzleCode.SKY_PUNISHMENT]: PUZZLE_PREVIEW_SKY_PUNISHMENT,
     [PuzzleCode.SKY_BLISS]: PUZZLE_PREVIEW_SKY_BLISS,
@@ -180,7 +180,7 @@ export const Image = {
     [PuzzleCode.DEMON_MINNOW]: PUZZLE_DEMON_MINNOW,
     [PuzzleCode.DEMON_LAMIA]: PUZZLE_DEMON_LAMIA,
     [PuzzleCode.DEMON_HARPY]: PUZZLE_DEMON_HARPY,
-    [PuzzleCode.DEMON_STEED]: PUZZLE_DEMON_STEED,
+    [PuzzleCode.DEMON_MAREYL]: PUZZLE_DEMON_MAREYL,
     [PuzzleCode.DEMON_MUMU]: PUZZLE_DEMON_MUMU,
     [PuzzleCode.SKY_PUNISHMENT]: PUZZLE_SKY_PUNISHMENT,
     [PuzzleCode.SKY_BLISS]: PUZZLE_SKY_BLISS,

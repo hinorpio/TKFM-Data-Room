@@ -196,7 +196,7 @@ const N: { [key in UnitCode]?: Unit } = {
     [UnitCode.prototype]: General_10922,
     [UnitCode.punishment]: General_10919,
     [UnitCode.bliss]: General_10920,
-    [UnitCode.steed]: General_10923,
+    [UnitCode.mareyl]: General_10923,
     [UnitCode.mumu]: General_10924,
     [UnitCode.molly]: General_10921,
     [UnitCode.anya]: General_10933,

@@ -195,7 +195,7 @@ const N = {
     [UnitCode.prototype]: ESSENCE_10922,
     [UnitCode.punishment]: ESSENCE_10919,
     [UnitCode.bliss]: ESSENCE_10920,
-    [UnitCode.steed]: ESSENCE_10923,
+    [UnitCode.mareyl]: ESSENCE_10923,
     [UnitCode.mumu]: ESSENCE_10924,
     [UnitCode.molly]: ESSENCE_10921,
     [UnitCode.anya]: ESSENCE_10933,

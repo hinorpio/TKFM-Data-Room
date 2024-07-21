@@ -195,7 +195,7 @@ const N = {
     [UnitCode.prototype]: SELECTION_10922,
     [UnitCode.punishment]: SELECTION_10919,
     [UnitCode.bliss]: SELECTION_10920,
-    [UnitCode.steed]: SELECTION_10923,
+    [UnitCode.mareyl]: SELECTION_10923,
     [UnitCode.mumu]: SELECTION_10924,
     [UnitCode.molly]: SELECTION_10921,
     [UnitCode.anya]: SELECTION_10933,

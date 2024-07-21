@@ -536,9 +536,9 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.DEMON_HARPY,
     },
     {
-        code: PuzzleCode.DEMON_STEED,
+        code: PuzzleCode.DEMON_MAREYL,
         type: PuzzleType.DEMON,
-        preview: PuzzlePreview.DEMON_STEED,
+        preview: PuzzlePreview.DEMON_MAREYL,
         name: {
             [Locale.tc]: "面對面NTR",
             [Locale.sc]: '',
@@ -546,7 +546,7 @@ const puzzles: Puzzle[] = [
             [Locale.jp]: '',
             [Locale.kr]: ''
         },
-        fullImage: PuzzleImage.DEMON_STEED,
+        fullImage: PuzzleImage.DEMON_MAREYL,
     },
     {
         code: PuzzleCode.DEMON_MUMU,
