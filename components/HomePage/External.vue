@@ -36,7 +36,6 @@
                 <a class="hyperlink-class" target="_blank" :href="getLocaleLink(tkfmvercelapp)">
                     <span :class="linkClass">{{$t('TenkafuMA Vercel App')}}</span>
                 </a>
-
             </div>
         </base-expand-card>
         <v-spacer></v-spacer>

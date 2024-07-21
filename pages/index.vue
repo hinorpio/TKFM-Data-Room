@@ -1,23 +1,29 @@
 <template>
     <v-layout>
         <v-container>
-            <external />
+            <pending class="mb-4 pa-2"/>
+            <about class="mb-4 pa-2"/>
+            <external class="mb-4 pa-2"/>
         </v-container>
     </v-layout>
   </template>
 <script lang="ts">
 import Vue from "vue";
 import { Component } from 'vue-property-decorator';
+import Pending from "~/components/HomePage/Pending.vue";
+import About from "~/components/HomePage/About.vue";
 import External from "~/components/HomePage/External.vue";
 
 @Component({
     components:{
+        Pending,
+        About,
         External
     }
 })
 export default class IndexPage extends Vue {
     showDetail: Boolean = false
-    dialogWidth: String = '75em'
+    cardWidth: String = '75em'
 
     toogleShowDetail(): void{
         this.showDetail = !this.showDetail
