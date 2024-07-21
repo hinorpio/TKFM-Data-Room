@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" fixed app clipped color="#323232">
+    <v-navigation-drawer v-if="r18WarningAcknowledged" v-model="drawer" :mini-variant="miniVariant" fixed app clipped color="#323232">
       <v-list shaped>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact >
           <v-list-item-action>
@@ -54,11 +54,12 @@ interface MenuItem {
 @Component({
   components:{
     LanguageButton,
-    DownloadButton
+    DownloadButton,
   }
 })
 export default class DefaultLayout extends Vue {
 
+  showR18Warning: Boolean = true
   drawer: Boolean = false
   miniVariant: Boolean = false
   title: String = 'TKFM Reference Room'
@@ -95,7 +96,20 @@ export default class DefaultLayout extends Vue {
     },
   ]
 
+  get r18WarningAcknowledged():boolean {
+    return this.$cookies.get('r18_warning_acknowledged');
+  }
+
   mounted(){
+    const r18WarningAcknowledged = this.r18WarningAcknowledged
+    const currentPath = this.$route.path
+
+    if (!r18WarningAcknowledged && currentPath !== '/r18-warning') {
+      this.$router.push({
+          path: `/r18-warning`,
+      });
+    }
+
     this.drawer = this.isDrawerOpen()
   }
 
