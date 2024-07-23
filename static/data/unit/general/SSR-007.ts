@@ -9,14 +9,14 @@ export const General_10017: Unit = {
         [Locale.tc]: "祭典狂歡",
         [Locale.sc]: "祭典狂欢",
         [Locale.en]: "Festive",
-        [Locale.jp]: "",
+        [Locale.jp]: "祭りの",
         [Locale.kr]: "광란의 페스티벌"
     },
     name: {
         [Locale.tc]: "巴爾",
         [Locale.sc]: "巴尔",
         [Locale.en]: "Ba'al",
-        [Locale.jp]: "祭りのバル",
+        [Locale.jp]: "バル",
         [Locale.kr]: "바알"
     },
     abbreviation: {

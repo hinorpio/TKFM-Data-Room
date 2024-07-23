@@ -10,14 +10,14 @@ export const General_10005: Unit = {
         [Locale.sc]: "矮人王",
         [Locale.en]: "Dwarf Queen",
         [Locale.jp]: "小人王",
-        [Locale.kr]: "난쟁이의"
+        [Locale.kr]: "난쟁이의 왕"
     },
     name: {
         [Locale.tc]: "蘭兒",
         [Locale.sc]: "兰儿",
         [Locale.en]: "Lana",
         [Locale.jp]: "ラン",
-        [Locale.kr]: "왕 란"
+        [Locale.kr]: "란"
     },
     abbreviation: {
         [Locale.tc]: [ "矮人", "普矮", "解矮", "矮", "腫瘤" ],
