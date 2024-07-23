@@ -22,7 +22,7 @@ export const General_10013: Unit = {
     abbreviation: {
         [Locale.tc]: [ "劍聖", "普劍", "劍", "331" ],
         [Locale.sc]: [ "剑圣", "普剑", "剑", "331" ],
-        [Locale.en]: [],
+        [Locale.en]: [ "Mina", "OG.Mina", "OG.Minayomi" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },
