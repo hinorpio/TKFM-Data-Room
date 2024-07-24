@@ -6,301 +6,281 @@ export const SkillSet_10085: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：3,327,818\nATK：856,424"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "玉指輕拂朱唇笑",
-                    description: "以自身攻擊力165/188/211/234/257%對我方全體進行治療，並獲得受到傷害減少10/12.5/12.5/15/17.5%(1/1/2/2/2回合)、攻擊力增加20/25/25/30/35%(3/3/4/4/4回合)，再使自身獲得普攻傷害增加30/30/40/40/50%(4回合)，CD: 4"
+                    name: `玉指輕拂朱唇笑`,
+                    description: `以自身攻擊力165/188/211/234/257%對我方全體進行治療，並獲得受到傷害減少10/12.5/12.5/15/17.5%(1/1/2/2/2回合)、攻擊力增加20/25/25/30/35%(3/3/4/4/4回合)，再使自身獲得普攻傷害增加30/30/40/40/50%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "玉指輕拂朱唇笑",
-                    description: "以自身攻擊力165%對我方全體進行治療，並獲得受到傷害減少10%(1回合)、攻擊力增加20%(3回合)，再使自身獲得普攻傷害增加30%(4回合)，CD: 4"
+                    name: `玉指輕拂朱唇笑`,
+                    description: `以自身攻擊力165%對我方全體進行治療，並獲得受到傷害減少10%(1回合)、攻擊力增加20%(3回合)，再使自身獲得普攻傷害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "玉指輕拂朱唇笑",
-                    description: "以自身攻擊力188%對我方全體進行治療，並獲得受到傷害減少12.5%(1回合)、攻擊力增加25%(3回合)，再使自身獲得普攻傷害增加30%(4回合)，CD: 4"
+                    name: `玉指輕拂朱唇笑`,
+                    description: `以自身攻擊力188%對我方全體進行治療，並獲得受到傷害減少12.5%(1回合)、攻擊力增加25%(3回合)，再使自身獲得普攻傷害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "玉指輕拂朱唇笑",
-                    description: "以自身攻擊力211%對我方全體進行治療，並獲得受到傷害減少12.5%(2回合)、攻擊力增加25%(4回合)，再使自身獲得普攻傷害增加40%(4回合)，CD: 4"
+                    name: `玉指輕拂朱唇笑`,
+                    description: `以自身攻擊力211%對我方全體進行治療，並獲得受到傷害減少12.5%(2回合)、攻擊力增加25%(4回合)，再使自身獲得普攻傷害增加40%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "玉指輕拂朱唇笑",
-                    description: "以自身攻擊力234%對我方全體進行治療，並獲得受到傷害減少15%(2回合)、攻擊力增加30%(4回合)，再使自身獲得普攻傷害增加40%(4回合)，CD: 4"
+                    name: `玉指輕拂朱唇笑`,
+                    description: `以自身攻擊力234%對我方全體進行治療，並獲得受到傷害減少15%(2回合)、攻擊力增加30%(4回合)，再使自身獲得普攻傷害增加40%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "玉指輕拂朱唇笑",
-                    description: "以自身攻擊力257%對我方全體進行治療，並獲得受到傷害減少17.5%(2回合)、攻擊力增加35%(4回合)，再使自身獲得普攻傷害增加50%(4回合)，CD: 4"
+                    name: `玉指輕拂朱唇笑`,
+                    description: `以自身攻擊力257%對我方全體進行治療，並獲得受到傷害減少17.5%(2回合)、攻擊力增加35%(4回合)，再使自身獲得普攻傷害增加50%(4回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "舞袖",
-                    description: "以自身攻擊力75%使我方全體進行治療"
+                    name: `舞袖`,
+                    description: `以自身攻擊力75%使我方全體進行治療`
                 },
                 [SkillType.LEADER]: {
-                    name: "花落沾吾衣",
-                    description: "我方全體HP增加35%、被治療時回復量增加25%\n我方全體火、閽屬性隊員獲得「被治療時，觸發『使自身造成必殺技傷害增加7.5%(2回合)、造成普攻傷害增加10%(2回合)』」(無法透過觸發技的治療效果發動)\n我方全體火、閽屬性隊員獲得「普攻、必殺時，追加技能 『以自身攻擊力5%對我方全體進行治療』」"
+                    name: `花落沾吾衣`,
+                    description: `我方全體HP增加35%、被治療時回復量增加25%\n我方全體火、閽屬性隊員獲得「被治療時，觸發『使自身造成必殺技傷害增加7.5%(2回合)、造成普攻傷害增加10%(2回合)』」(無法透過觸發技的治療效果發動)\n我方全體火、閽屬性隊員獲得「普攻、必殺時，追加技能 『以自身攻擊力5%對我方全體進行治療』」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "魁首盼佳人",
-                    description: "第1回合時，觸發《如癡如醉》\n\n《如癡如醉》\n使我方全體獲得「被治療時，觸發『使自身攻擊力增加12.5%(2回合)』」(無法透過觸發技的治療效果發動)"
+                    name: `魁首盼佳人`,
+                    description: `第1回合時，觸發《如癡如醉》\n\n《如癡如醉》\n使我方全體獲得「被治療時，觸發『使自身攻擊力增加12.5%(2回合)』」(無法透過觸發技的治療效果發動)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "香徑燕語喧",
-                    description: "第1回合時，觸發《滿園春色》\n\n《滿園春色》\n使我方全體獲得「被治療時，觸發『使自身造成傷害增加5%(2回合)』」(無法透過觸發技的治療效果發動)"
+                    name: `香徑燕語喧`,
+                    description: `第1回合時，觸發《滿園春色》\n\n《滿園春色》\n使我方全體獲得「被治療時，觸發『使自身造成傷害增加5%(2回合)』」(無法透過觸發技的治療效果發動)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "奈何花相落",
-                    description: "第1回合時，觸發「使自身造成治療量增加25%(最多1層)」\n第1回合時，觸發「我方全體被治療時回復量增加12.5%(最多1層)、受到持續型傷害減少30%(最多1層)」\n攻擊時，觸發「使我方當前HP最低者受到傷害減少20%(1回合)，再以攻擊力15%對我方當前HP最低者進行治療"
+                    name: `奈何花相落`,
+                    description: `第1回合時，觸發「使自身造成治療量增加25%(最多1層)」\n第1回合時，觸發「我方全體被治療時回復量增加12.5%(最多1層)、受到持續型傷害減少30%(最多1層)」\n攻擊時，觸發「使我方當前HP最低者受到傷害減少20%(1回合)，再以攻擊力15%對我方當前HP最低者進行治療`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "攻擊+ (6潛)",
-                    description: "攻擊力增加10%"
+                    name: `攻擊+ (6潛)`,
+                    description: `攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫麻痺 (12潛)",
-                    description: "使自身免疫麻痺"
+                    name: `免疫麻痺 (12潛)`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `玉指轻拂朱唇笑`,
+                    description: `以自身攻击力165/188/211/234/257%对我方全体进行治疗，并获得受到伤害减少10/12.5/12.5/15/17.5%(1/1/2/2/2回合)丶攻击力增加20/25/25/30/35%(3/3/4/4/4回合)，再使自身获得普攻伤害增加30/30/40/40/50%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `玉指轻拂朱唇笑`,
+                    description: `以自身攻击力165%对我方全体进行治疗，并获得受到伤害减少10%(1回合)丶攻击力增加20%(3回合)，再使自身获得普攻伤害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `玉指轻拂朱唇笑`,
+                    description: `以自身攻击力188%对我方全体进行治疗，并获得受到伤害减少12.5%(1回合)丶攻击力增加25%(3回合)，再使自身获得普攻伤害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `玉指轻拂朱唇笑`,
+                    description: `以自身攻击力211%对我方全体进行治疗，并获得受到伤害减少12.5%(2回合)丶攻击力增加25%(4回合)，再使自身获得普攻伤害增加40%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `玉指轻拂朱唇笑`,
+                    description: `以自身攻击力234%对我方全体进行治疗，并获得受到伤害减少15%(2回合)丶攻击力增加30%(4回合)，再使自身获得普攻伤害增加40%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `玉指轻拂朱唇笑`,
+                    description: `以自身攻击力257%对我方全体进行治疗，并获得受到伤害减少17.5%(2回合)丶攻击力增加35%(4回合)，再使自身获得普攻伤害增加50%(4回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `舞袖`,
+                    description: `以自身攻击力75%使我方全体进行治疗`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `花落沾吾衣`,
+                    description: `我方全体HP增加35%丶被治疗时回复量增加25%\n我方全体火丶阍属性队员获得「被治疗时，触发『使自身造成必杀技伤害增加7.5%(2回合)丶造成普攻伤害增加10%(2回合)』」(无法透过触发技的治疗效果发动)\n我方全体火丶阍属性队员获得「普攻丶必杀时，追加技能 『以自身攻击力5%对我方全体进行治疗』」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `魁首盼佳人`,
+                    description: `第1回合时，触发《如痴如醉》\n\n《如痴如醉》\n使我方全体获得「被治疗时，触发『使自身攻击力增加12.5%(2回合)』」(无法透过触发技的治疗效果发动)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `香径燕语喧`,
+                    description: `第1回合时，触发《满园春色》\n\n《满园春色》\n使我方全体获得「被治疗时，触发『使自身造成伤害增加5%(2回合)』」(无法透过触发技的治疗效果发动)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `奈何花相落`,
+                    description: `第1回合时，触发「使自身造成治疗量增加25%(最多1层)」\n第1回合时，触发「我方全体被治疗时回复量增加12.5%(最多1层)丶受到持续型伤害减少30%(最多1层)」\n攻击时，触发「使我方当前HP最低者受到伤害减少20%(1回合)，再以攻击力15%对我方当前HP最低者进行治疗`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `攻击+ (6潜)`,
+                    description: `攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫麻痹 (12潜)`,
+                    description: `使自身免疫麻痹`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

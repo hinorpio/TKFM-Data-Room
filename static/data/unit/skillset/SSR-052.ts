@@ -6,301 +6,281 @@ export const SkillSet_10092: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：2,967,975\nATK：961,497"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "巨浪「大瘋狗」",
-                    description: "使自身必殺技傷害增加10/10/12.5/12.5/15%(12回合)，再以攻擊力116/132/149/165/182%對敵方站位2、3、4的敵人造成傷害，CD: 3"
+                    name: `巨浪「大瘋狗」`,
+                    description: `使自身必殺技傷害增加10/10/12.5/12.5/15%(12回合)，再以攻擊力116/132/149/165/182%對敵方站位2、3、4的敵人造成傷害，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "巨浪「大瘋狗」",
-                    description: "使自身必殺技傷害增加10%(12回合)，再以攻擊力116%對敵方站位2、3、4的敵人造成傷害，CD: 3"
+                    name: `巨浪「大瘋狗」`,
+                    description: `使自身必殺技傷害增加10%(12回合)，再以攻擊力116%對敵方站位2、3、4的敵人造成傷害，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "巨浪「大瘋狗」",
-                    description: "使自身必殺技傷害增加10%(12回合)，再以攻擊力132%對敵方站位2、3、4的敵人造成傷害，CD: 3"
+                    name: `巨浪「大瘋狗」`,
+                    description: `使自身必殺技傷害增加10%(12回合)，再以攻擊力132%對敵方站位2、3、4的敵人造成傷害，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "巨浪「大瘋狗」",
-                    description: "使自身必殺技傷害增加12.5%(12回合)，再以攻擊力149%對敵方站位2、3、4的敵人造成傷害，CD: 3"
+                    name: `巨浪「大瘋狗」`,
+                    description: `使自身必殺技傷害增加12.5%(12回合)，再以攻擊力149%對敵方站位2、3、4的敵人造成傷害，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "巨浪「大瘋狗」",
-                    description: "使自身必殺技傷害增加12.5%(12回合)，再以攻擊力165%對敵方站位2、3、4的敵人造成傷害，CD: 3"
+                    name: `巨浪「大瘋狗」`,
+                    description: `使自身必殺技傷害增加12.5%(12回合)，再以攻擊力165%對敵方站位2、3、4的敵人造成傷害，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "巨浪「大瘋狗」",
-                    description: "使自身必殺技傷害增加15%(12回合)，再以攻擊力182%對敵方站位2、3、4的敵人造成傷害，CD: 3"
+                    name: `巨浪「大瘋狗」`,
+                    description: `使自身必殺技傷害增加15%(12回合)，再以攻擊力182%對敵方站位2、3、4的敵人造成傷害，CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: "衝浪",
-                    description: "以攻擊力40%對敵方站位2、3、4的目標造成傷害"
+                    name: `衝浪`,
+                    description: `以攻擊力40%對敵方站位2、3、4的目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "傳奇衝浪手傳承者",
-                    description: "我方全體攻擊力增加50%、受到傷害減少15%\n自身獲得《追浪》、《啟乘》\n\n《追浪》\n每經過3回合，觸發「使自身造成傷害增加125%(1回合)、使敵方全體受到傷害增加50%(1回合)」\n\n《啟乘》\n每經過6回合，觸發「使自身造成必殺技傷害增加125%(1回合)」"
+                    name: `傳奇衝浪手傳承者`,
+                    description: `我方全體攻擊力增加50%、受到傷害減少15%\n自身獲得《追浪》、《啟乘》\n\n《追浪》\n每經過3回合，觸發「使自身造成傷害增加125%(1回合)、使敵方全體受到傷害增加50%(1回合)」\n\n《啟乘》\n每經過6回合，觸發「使自身造成必殺技傷害增加125%(1回合)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "只要呼吸就好…",
-                    description: "自身HP大於75%時，發動「攻擊力增加50%」"
+                    name: `只要呼吸就好…`,
+                    description: `自身HP大於75%時，發動「攻擊力增加50%」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "餘波蕩漾",
-                    description: "必殺時，觸發「以攻擊力30%對敵方站位2、3、4的目標造成傷害」"
+                    name: `餘波蕩漾`,
+                    description: `必殺時，觸發「以攻擊力30%對敵方站位2、3、4的目標造成傷害」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "起床氣",
-                    description: "第4回合時，觸發「使自身攻擊力增加40%(50回合)」\n第7回合時，觸發「使自身攻擊力增加80%(50回合)」"
+                    name: `起床氣`,
+                    description: `第4回合時，觸發「使自身攻擊力增加40%(50回合)」\n第7回合時，觸發「使自身攻擊力增加80%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "攻擊+ (6潛)",
-                    description: "攻擊力增加10%"
+                    name: `攻擊+ (6潛)`,
+                    description: `攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫沉默 (12潛)",
-                    description: "免疫沉默"
+                    name: `免疫沉默 (12潛)`,
+                    description: `免疫沉默`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `巨浪「大疯狗」`,
+                    description: `使自身必杀技伤害增加10/10/12.5/12.5/15%(12回合)，再以攻击力116/132/149/165/182%对敌方站位2丶3丶4的敌人造成伤害，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `巨浪「大疯狗」`,
+                    description: `使自身必杀技伤害增加10%(12回合)，再以攻击力116%对敌方站位2丶3丶4的敌人造成伤害，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `巨浪「大疯狗」`,
+                    description: `使自身必杀技伤害增加10%(12回合)，再以攻击力132%对敌方站位2丶3丶4的敌人造成伤害，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `巨浪「大疯狗」`,
+                    description: `使自身必杀技伤害增加12.5%(12回合)，再以攻击力149%对敌方站位2丶3丶4的敌人造成伤害，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `巨浪「大疯狗」`,
+                    description: `使自身必杀技伤害增加12.5%(12回合)，再以攻击力165%对敌方站位2丶3丶4的敌人造成伤害，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `巨浪「大疯狗」`,
+                    description: `使自身必杀技伤害增加15%(12回合)，再以攻击力182%对敌方站位2丶3丶4的敌人造成伤害，CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `冲浪`,
+                    description: `以攻击力40%对敌方站位2丶3丶4的目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `传奇冲浪手传承者`,
+                    description: `我方全体攻击力增加50%丶受到伤害减少15%\n自身获得《追浪》丶《启乘》\n\n《追浪》\n每经过3回合，触发「使自身造成伤害增加125%(1回合)丶使敌方全体受到伤害增加50%(1回合)」\n\n《启乘》\n每经过6回合，触发「使自身造成必杀技伤害增加125%(1回合)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `只要呼吸就好…`,
+                    description: `自身HP大於75%时，发动「攻击力增加50%」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `馀波荡漾`,
+                    description: `必杀时，触发「以攻击力30%对敌方站位2丶3丶4的目标造成伤害」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `起床气`,
+                    description: `第4回合时，触发「使自身攻击力增加40%(50回合)」\n第7回合时，触发「使自身攻击力增加80%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `攻击+ (6潜)`,
+                    description: `攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫沉默 (12潜)`,
+                    description: `免疫沉默`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

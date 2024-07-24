@@ -6,301 +6,281 @@ export const SkillSet_10036: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：4,472,115\nATK：549,838"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "濕濕黏黏滑滑",
-                    description: "使敵全體攻擊力減少10/12.5/15/15/15%(1回合) [3絆 (2回合)]，每回合以自身攻擊力200%回復自身(2回合)，CD: 5 [5絆 CD: 4]"
+                    name: `濕濕黏黏滑滑`,
+                    description: `使敵全體攻擊力減少10/12.5/15/15/15%(1回合) [3絆 (2回合)]，每回合以自身攻擊力200%回復自身(2回合)，CD: 5 [5絆 CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "濕濕黏黏滑滑",
-                    description: "使敵全體攻擊力減少10%(1回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5"
+                    name: `濕濕黏黏滑滑`,
+                    description: `使敵全體攻擊力減少10%(1回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "濕濕黏黏滑滑",
-                    description: "使敵全體攻擊力減少12.5%(1回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5"
+                    name: `濕濕黏黏滑滑`,
+                    description: `使敵全體攻擊力減少12.5%(1回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "濕濕黏黏滑滑",
-                    description: "使敵全體攻擊力減少15%(1回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5"
+                    name: `濕濕黏黏滑滑`,
+                    description: `使敵全體攻擊力減少15%(1回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "濕濕黏黏滑滑",
-                    description: "使敵全體攻擊力減少15%(2回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5"
+                    name: `濕濕黏黏滑滑`,
+                    description: `使敵全體攻擊力減少15%(2回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "濕濕黏黏滑滑",
-                    description: "使敵全體攻擊力減少15%(2回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 4"
+                    name: `濕濕黏黏滑滑`,
+                    description: `使敵全體攻擊力減少15%(2回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "黏液攻擊",
-                    description: "使目標攻擊力減少20%(1回合)"
+                    name: `黏液攻擊`,
+                    description: `使目標攻擊力減少20%(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "我是善良的史萊姆唷",
-                    description: "使自身最大HP增加30%；每經過4回合，觸發\"使目標受到傷害增加15%(2回合)、使自身被治療時回復量增加30%(2回合)\"效果"
+                    name: `我是善良的史萊姆唷`,
+                    description: `使自身最大HP增加30%；每經過4回合，觸發"使目標受到傷害增加15%(2回合)、使自身被治療時回復量增加30%(2回合)"效果`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "能量果凍",
-                    description: "攻擊時，觸發\"以自身攻擊力100%對我方HP最低者進行治療“效果"
+                    name: `能量果凍`,
+                    description: `攻擊時，觸發"以自身攻擊力100%對我方HP最低者進行治療"效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "引人注目",
-                    description: "使自身防禦減傷效果增加10%；每經過4回合，觸發\"使自身獲得嘲諷(2回合)\"效果"
+                    name: `引人注目`,
+                    description: `使自身防禦減傷效果增加10%；每經過4回合，觸發"使自身獲得嘲諷(2回合)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "史萊姆的韌性",
-                    description: "被攻擊時，觸發\"使自身受到傷害減少15%(1回合)\"效果"
+                    name: `史萊姆的韌性`,
+                    description: `被攻擊時，觸發"使自身受到傷害減少15%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "回復量+ (6潛)",
-                    description: "使自身被治療時回復量增加15%"
+                    name: `回復量+ (6潛)`,
+                    description: `使自身被治療時回復量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫沉默 (12潛)",
-                    description: "使自身免疫沉默"
+                    name: `免疫沉默 (12潛)`,
+                    description: `使自身免疫沉默`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `湿湿黏黏滑滑`,
+                    description: `使敌全体攻击力减少10/12.5/15/15/15%(1回合) [3绊 (2回合)]，每回合以自身攻击力200%回复自身(2回合)，CD: 5 [5绊 CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `湿湿黏黏滑滑`,
+                    description: `使敌全体攻击力减少10%(1回合)，每回合以自身攻击力200%回复自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `湿湿黏黏滑滑`,
+                    description: `使敌全体攻击力减少12.5%(1回合)，每回合以自身攻击力200%回复自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `湿湿黏黏滑滑`,
+                    description: `使敌全体攻击力减少15%(1回合)，每回合以自身攻击力200%回复自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `湿湿黏黏滑滑`,
+                    description: `使敌全体攻击力减少15%(2回合)，每回合以自身攻击力200%回复自身(2回合)，CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `湿湿黏黏滑滑`,
+                    description: `使敌全体攻击力减少15%(2回合)，每回合以自身攻击力200%回复自身(2回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `黏液攻击`,
+                    description: `使目标攻击力减少20%(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `我是善良的史莱姆唷`,
+                    description: `使自身最大HP增加30%；每经过4回合，触发"使目标受到伤害增加15%(2回合)丶使自身被治疗时回复量增加30%(2回合)"效果`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `能量果冻`,
+                    description: `攻击时，触发"以自身攻击力100%对我方HP最低者进行治疗"效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `引人注目`,
+                    description: `使自身防御减伤效果增加10%；每经过4回合，触发"使自身获得嘲讽(2回合)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `史莱姆的韧性`,
+                    description: `被攻击时，触发"使自身受到伤害减少15%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `回复量+ (6潜)`,
+                    description: `使自身被治疗时回复量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫沉默 (12潜)`,
+                    description: `使自身免疫沉默`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

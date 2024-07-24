@@ -6,301 +6,281 @@ export const SkillSet_10032: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：3,147,897\nATK：906,801"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "閃耀沙灘喵～",
-                    description: "使自身攻擊力增加15%(2回合)【**絆5**】，對目標造成\"受到必殺技傷害增加35%(1回合)\"效果，再以攻擊力475/550/625/700/775%對目標造成傷害，CD: 6"
+                    name: `閃耀沙灘喵～`,
+                    description: `使自身攻擊力增加15%(2回合)【**絆5**】，對目標造成"受到必殺技傷害增加35%(1回合)"效果，再以攻擊力475/550/625/700/775%對目標造成傷害，CD: 6`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "閃耀沙灘喵～",
-                    description: "對目標造成\"受到必殺技傷害增加35%(1回合)\"效果，再以攻擊力475%對目標造成傷害，CD: 6"
+                    name: `閃耀沙灘喵～`,
+                    description: `對目標造成"受到必殺技傷害增加35%(1回合)"效果，再以攻擊力475%對目標造成傷害，CD: 6`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "閃耀沙灘喵～",
-                    description: "對目標造成\"受到必殺技傷害增加35%(1回合)\"效果，再以攻擊力550%對目標造成傷害，CD: 6"
+                    name: `閃耀沙灘喵～`,
+                    description: `對目標造成"受到必殺技傷害增加35%(1回合)"效果，再以攻擊力550%對目標造成傷害，CD: 6`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "閃耀沙灘喵～",
-                    description: "對目標造成\"受到必殺技傷害增加35%(1回合)\"效果，再以攻擊力625%對目標造成傷害，CD: 6"
+                    name: `閃耀沙灘喵～`,
+                    description: `對目標造成"受到必殺技傷害增加35%(1回合)"效果，再以攻擊力625%對目標造成傷害，CD: 6`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "閃耀沙灘喵～",
-                    description: "對目標造成\"受到必殺技傷害增加35%(1回合)\"效果，再以攻擊力700%對目標造成傷害，CD: 6"
+                    name: `閃耀沙灘喵～`,
+                    description: `對目標造成"受到必殺技傷害增加35%(1回合)"效果，再以攻擊力700%對目標造成傷害，CD: 6`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "閃耀沙灘喵～",
-                    description: "使自身攻擊力增加15%(2回合)，對目標造成\"受到必殺技傷害增加35%(1回合)\"效果，再以攻擊力775%對目標造成傷害，CD: 6"
+                    name: `閃耀沙灘喵～`,
+                    description: `使自身攻擊力增加15%(2回合)，對目標造成"受到必殺技傷害增加35%(1回合)"效果，再以攻擊力775%對目標造成傷害，CD: 6`
                 },
                 [SkillType.ATTACK]: {
-                    name: "防曬肉球攻擊",
-                    description: "以攻擊力100%對目標造成傷害"
+                    name: `防曬肉球攻擊`,
+                    description: `以攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "貓秘術奧義。狂風沙喵",
-                    description: "第1回合時，使我方全體獲得\"攻擊時，觸發\"以攻擊力65%對目標造成傷害\"效果(50回合)\""
+                    name: `貓秘術奧義。狂風沙喵`,
+                    description: `第1回合時，使我方全體獲得"攻擊時，觸發"以攻擊力65%對目標造成傷害"效果(50回合)"`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "小心曬傷喵",
-                    description: "攻擊時，觸發\"使目標被治療時被回復量減少50%(2回合)\"效果"
+                    name: `小心曬傷喵`,
+                    description: `攻擊時，觸發"使目標被治療時被回復量減少50%(2回合)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "我才沒有鬆懈呢",
-                    description: "必殺時，觸發\"使自身攻擊力增加30%(最多1層)\"效果"
+                    name: `我才沒有鬆懈呢`,
+                    description: `必殺時，觸發"使自身攻擊力增加30%(最多1層)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "迅捷身形",
-                    description: "攻擊時，觸發\"使我方全體必殺技傷害增加5%(最多6層)\"效果"
+                    name: `迅捷身形`,
+                    description: `攻擊時，觸發"使我方全體必殺技傷害增加5%(最多6層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "必殺技+ (6潛)",
-                    description: "使自身必殺技傷害增加10%"
+                    name: `必殺技+ (6潛)`,
+                    description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫睡眠 (12潛)",
-                    description: "使自身免疫睡眠"
+                    name: `免疫睡眠 (12潛)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `闪耀沙滩喵～`,
+                    description: `使自身攻击力增加15%(2回合)【**绊5**】，对目标造成"受到必杀技伤害增加35%(1回合)"效果，再以攻击力475/550/625/700/775%对目标造成伤害，CD: 6`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `闪耀沙滩喵～`,
+                    description: `对目标造成"受到必杀技伤害增加35%(1回合)"效果，再以攻击力475%对目标造成伤害，CD: 6`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `闪耀沙滩喵～`,
+                    description: `对目标造成"受到必杀技伤害增加35%(1回合)"效果，再以攻击力550%对目标造成伤害，CD: 6`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `闪耀沙滩喵～`,
+                    description: `对目标造成"受到必杀技伤害增加35%(1回合)"效果，再以攻击力625%对目标造成伤害，CD: 6`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `闪耀沙滩喵～`,
+                    description: `对目标造成"受到必杀技伤害增加35%(1回合)"效果，再以攻击力700%对目标造成伤害，CD: 6`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `闪耀沙滩喵～`,
+                    description: `使自身攻击力增加15%(2回合)，对目标造成"受到必杀技伤害增加35%(1回合)"效果，再以攻击力775%对目标造成伤害，CD: 6`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `防晒肉球攻击`,
+                    description: `以攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `猫秘术奥义。狂风沙喵`,
+                    description: `第1回合时，使我方全体获得"攻击时，触发"以攻击力65%对目标造成伤害"效果(50回合)"`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `小心晒伤喵`,
+                    description: `攻击时，触发"使目标被治疗时被回复量减少50%(2回合)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `我才没有松懈呢`,
+                    description: `必杀时，触发"使自身攻击力增加30%(最多1层)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `迅捷身形`,
+                    description: `攻击时，触发"使我方全体必杀技伤害增加5%(最多6层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `必杀技+ (6潜)`,
+                    description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫睡眠 (12潜)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

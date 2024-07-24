@@ -6,302 +6,282 @@ export const SkillSet_10902: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         dispatchSkill: { type: DispatchSkillType.PURCHASE_PERMITS, level: 1 },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：1,738,035\nATK：401,085"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "魔力連彈",
-                    description: "以攻擊力238/275/313/350/388%對敵全體造成傷害，CD: 5"
+                    name: `魔力連彈`,
+                    description: `以攻擊力238/275/313/350/388%對敵全體造成傷害，CD: 5`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "魔力連彈",
-                    description: "以攻擊力238%對敵全體造成傷害，CD: 5"
+                    name: `魔力連彈`,
+                    description: `以攻擊力238%對敵全體造成傷害，CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "魔力連彈",
-                    description: "以攻擊力275%對敵全體造成傷害，CD: 5"
+                    name: `魔力連彈`,
+                    description: `以攻擊力275%對敵全體造成傷害，CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "魔力連彈",
-                    description: "以攻擊力313%對敵全體造成傷害，CD: 5"
+                    name: `魔力連彈`,
+                    description: `以攻擊力313%對敵全體造成傷害，CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "魔力連彈",
-                    description: "以攻擊力350%對敵全體造成傷害，CD: 5"
+                    name: `魔力連彈`,
+                    description: `以攻擊力350%對敵全體造成傷害，CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "魔力連彈",
-                    description: "以攻擊力388%對敵全體造成傷害，CD: 5"
+                    name: `魔力連彈`,
+                    description: `以攻擊力388%對敵全體造成傷害，CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: "魔力之刃",
-                    description: "以攻擊力50%對敵全體造成傷害"
+                    name: `魔力之刃`,
+                    description: `以攻擊力50%對敵全體造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "光之鼓舞",
-                    description: "使我方光屬性角色攻擊力增加10%"
+                    name: `光之鼓舞`,
+                    description: `使我方光屬性角色攻擊力增加10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "魔導具",
-                    description: "攻擊時，有25%機率觸發\"使自身攻擊力增加15%(4回合)\"效果"
+                    name: `魔導具`,
+                    description: `攻擊時，有25%機率觸發"使自身攻擊力增加15%(4回合)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "魔力增幅器",
-                    description: "使自身必殺技傷害增加10%"
+                    name: `魔力增幅器`,
+                    description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "蓄力爆發",
-                    description: "每經過5回合，觸發\"使自身攻擊力增加30%(1回合)\"效果"
+                    name: `蓄力爆發`,
+                    description: `每經過5回合，觸發"使自身攻擊力增加30%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: "視財如命(購買許可↑) (3潛)",
-                    description: "進行派遣時，微量提升購買許可雙倍獲得機率Lv1(全域效果)"
+                    name: `視財如命(購買許可↑) (3潛)`,
+                    description: `進行派遣時，微量提升購買許可雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫睡眠 (6潛)",
-                    description: "使自身免疫睡眠"
+                    name: `免疫睡眠 (6潛)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `魔力连弹`,
+                    description: `以攻击力238/275/313/350/388%对敌全体造成伤害，CD: 5`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `魔力连弹`,
+                    description: `以攻击力238%对敌全体造成伤害，CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `魔力连弹`,
+                    description: `以攻击力275%对敌全体造成伤害，CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `魔力连弹`,
+                    description: `以攻击力313%对敌全体造成伤害，CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `魔力连弹`,
+                    description: `以攻击力350%对敌全体造成伤害，CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `魔力连弹`,
+                    description: `以攻击力388%对敌全体造成伤害，CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `魔力之刃`,
+                    description: `以攻击力50%对敌全体造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `光之鼓舞`,
+                    description: `使我方光属性角色攻击力增加10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `魔导具`,
+                    description: `攻击时，有25%机率触发"使自身攻击力增加15%(4回合)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `魔力增幅器`,
+                    description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `蓄力爆发`,
+                    description: `每经过5回合，触发"使自身攻击力增加30%(1回合)"效果`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                [SkillType.DISPATCH]: {
+                    name: `视财如命(购买许可↑) (3潜)`,
+                    description: `进行派遣时，微量提升购买许可双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫睡眠 (6潜)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }
