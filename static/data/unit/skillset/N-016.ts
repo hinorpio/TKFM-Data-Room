@@ -124,56 +124,56 @@ export const SkillSet_10916: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Counter Area`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are attacked during that turn, perform a counter attack on all enemies for 51/58/65/72/79% of your Attack Power. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Counter Area`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are attacked during that turn, perform a counter attack on all enemies for 51% of your Attack Power. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Counter Area`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are attacked during that turn, perform a counter attack on all enemies for 58% of your Attack Power. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Counter Area`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are attacked during that turn, perform a counter attack on all enemies for 65% of your Attack Power. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Counter Area`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are attacked during that turn, perform a counter attack on all enemies for 72% of your Attack Power. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Counter Area`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are attacked during that turn, perform a counter attack on all enemies for 79% of your Attack Power. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Wide Slash`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire's Blessing`,
+                    description: `Increase Fire allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Steel Will`,
+                    description: `While your HP is under 25%, increase your Attack Power by 30% and take 50% less damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Block`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Will to Protect`,
+                    description: `When you are healed, increase your Attack Power by 15% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Naughty (Rare Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10905: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (265/298/331/364/397% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (265% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (298% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (331% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (364% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (397% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Downward Slice`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Fire`,
+                    description: `Increase Fire allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Counterattack`,
+                    description: `When Attacked, there's a 25% chance to perform a counter Attack (100% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Nifty Knives`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Armor Break`,
+                    description: `On Attack, break the target's Guard Stance.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Perfectionist (Experience Potion↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
@@ -292,7 +292,7 @@ export const SkillSet_10905: SkillSet[] =  [
         remark: {
             [Locale.tc]: ``,
             [Locale.sc]: ``,
-            [Locale.en]: ``,
+            [Locale.en]: `Update wording of Chinese version. English version remain unchange.`,
             [Locale.jp]: ``,
             [Locale.kr]: ``
         },
@@ -408,56 +408,56 @@ export const SkillSet_10905: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (265/298/331/364/397% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (265% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (298% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (331% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (364% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ichi Slash`,
+                    description: `Damage target (397% Attack Power). Target takes 15% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Downward Slice`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Fire`,
+                    description: `Increase Fire allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Counterattack`,
+                    description: `When Attacked, there's a 25% chance to perform a counter Attack (100% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Nifty Knives`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Armor Break`,
+                    description: `On Attack, break the target's Guard Stance.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Perfectionist (Experience Potion↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

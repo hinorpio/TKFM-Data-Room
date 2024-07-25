@@ -124,56 +124,56 @@ export const SkillSet_10919: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Godly Counterattack`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are Attacked during that turn, perform a counter-Attack on the target (60/70/80/90/100% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Godly Counterattack`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are Attacked during that turn, perform a counter-Attack on the target (60% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Godly Counterattack`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are Attacked during that turn, perform a counter-Attack on the target (70% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Godly Counterattack`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are Attacked during that turn, perform a counter-Attack on the target (80% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Godly Counterattack`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are Attacked during that turn, perform a counter-Attack on the target (90% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Godly Counterattack`,
+                    description: `Go into Guard Stance and gain Taunt for 1 turn. If you are Attacked during that turn, perform a counter-Attack on the target (100% Attack Power). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heavy Slash`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Light`,
+                    description: `Increase Light allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Heavenly Tactics`,
+                    description: `When Attacked, increase Attack Power by 1%. (Max 25 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Blade`,
+                    description: `Increase Attack Power by 15%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Eternal Light`,
+                    description: `On Ultimate Skill, increase Defense buffs by 25% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Prized Hunter (Boost Mats↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

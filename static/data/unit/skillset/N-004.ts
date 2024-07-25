@@ -124,56 +124,56 @@ export const SkillSet_10904: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Deathwish`,
+                    description: `Damage target (388/445/503/560/618% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Deathwish`,
+                    description: `Damage target (388% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Deathwish`,
+                    description: `Damage target (445% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Deathwish`,
+                    description: `Damage target (503% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Deathwish`,
+                    description: `Damage target (560% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Deathwish`,
+                    description: `Damage target (618% Attack Power) (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Orchestra`,
+                    description: `Increase Dark allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Massacre`,
+                    description: `On Basic Attack, there's a 20% chance to decrease your current Ultimate Skill CD by 1.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Maniac Rush`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Tear Limbs`,
+                    description: `On Attack, increase the target's Ultimate Skill CD by 1.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Corrupted Flesh (Rare Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

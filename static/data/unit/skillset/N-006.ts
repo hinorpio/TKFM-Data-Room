@@ -124,56 +124,56 @@ export const SkillSet_10906: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Kiss of the Gods`,
+                    description: `Heal lowest HP ally equal to 330/376/422/468/514% of your Attack Power. The lowest HP ally takes 10% less damage for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Kiss of the Gods`,
+                    description: `Heal lowest HP ally equal to 330% of your Attack Power. The lowest HP ally takes 10% less damage for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Kiss of the Gods`,
+                    description: `Heal lowest HP ally equal to 376% of your Attack Power. The lowest HP ally takes 10% less damage for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Kiss of the Gods`,
+                    description: `Heal lowest HP ally equal to 422% of your Attack Power. The lowest HP ally takes 10% less damage for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Kiss of the Gods`,
+                    description: `Heal lowest HP ally equal to 468% of your Attack Power. The lowest HP ally takes 10% less damage for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Kiss of the Gods`,
+                    description: `Heal lowest HP ally equal to 514% of your Attack Power. The lowest HP ally takes 10% less damage for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Healing`,
+                    description: `Heal lowest HP ally equal to 100% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind Healing`,
+                    description: `Increase Wind ally's Recovery Rate by 15%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Spirits`,
+                    description: `On Attack, increase party's Attack Power by 5% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Gods' Blessing`,
+                    description: `Increase Recovery Rate by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Possession`,
+                    description: `After every 4 turns, increase your Attack Power by 7.5% (Max 4 Stacks)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lucky One (Empty Handed↓)`,
+                    description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

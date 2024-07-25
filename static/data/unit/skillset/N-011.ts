@@ -124,56 +124,56 @@ export const SkillSet_10911: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Tribute`,
+                    description: `Heal party equal to 165/188/211/234/257% of your max HP and increase amount recovered by 22.5% for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tribute`,
+                    description: `Heal party equal to 165% of your max HP and increase amount recovered by 22.5% for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Tribute`,
+                    description: `Heal party equal to 188% of your max HP and increase amount recovered by 22.5% for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Tribute`,
+                    description: `Heal party equal to 211% of your max HP and increase amount recovered by 22.5% for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Tribute`,
+                    description: `Heal party equal to 234% of your max HP and increase amount recovered by 22.5% for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Tribute`,
+                    description: `Heal party equal to 257% of your max HP and increase amount recovered by 22.5% for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heal`,
+                    description: `Heal party equal to 50% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing Light`,
+                    description: `Increase Light ally's Recovery Rate by 15%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Master's Favor`,
+                    description: `On Ultimate Skill, there's a 50% chance to heal the party equal to 30% of your Attack Power for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Glow`,
+                    description: `Healing skills heal for 10% more.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Rebirth`,
+                    description: `After every 7 turns, recover 50% HP.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bad to the Bone (Normal Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

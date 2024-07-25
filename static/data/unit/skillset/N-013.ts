@@ -124,56 +124,56 @@ export const SkillSet_10913: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Liquid Courage`,
+                    description: `Damage target (330/376/422/468/514% Attack power) and there's a 75% chance of inflicting target with Silence for 1 turn. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Liquid Courage`,
+                    description: `Damage target (330% Attack power) and there's a 75% chance of inflicting target with Silence for 1 turn. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Liquid Courage`,
+                    description: `Damage target (376% Attack power) and there's a 75% chance of inflicting target with Silence for 1 turn. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Liquid Courage`,
+                    description: `Damage target (422% Attack power) and there's a 75% chance of inflicting target with Silence for 1 turn. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Liquid Courage`,
+                    description: `Damage target (468% Attack power) and there's a 75% chance of inflicting target with Silence for 1 turn. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Liquid Courage`,
+                    description: `Damage target (514% Attack power) and there's a 75% chance of inflicting target with Silence for 1 turn. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Knock Out`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind's Blessing`,
+                    description: `Increase Wind allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fortitude`,
+                    description: `When Attacked, take 5% less damage for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Tough Bod`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bruise`,
+                    description: `On Attack, decrease the target's amount recovered by 50% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Prize Hunter (Enhance Materials↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10903: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Big Bully`,
+                    description: `Damage target (265/298/331/364/397% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Big Bully`,
+                    description: `Damage target (265% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Big Bully`,
+                    description: `Damage target (298% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Big Bully`,
+                    description: `Damage target (331% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Big Bully`,
+                    description: `Damage target (364% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Big Bully`,
+                    description: `Damage target (397% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Wallop`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Light's Blessing`,
+                    description: `Increase Light allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Revitalize`,
+                    description: `On Basic Attack, there's a 50% chance to recover 4% of your HP.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Defense Skills`,
+                    description: `Take 10% less damage while in Guard Stance.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Armor`,
+                    description: `On Ultimate Skill, you take 15% less damage for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bad to the Bone (Normal Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

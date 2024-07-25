@@ -124,56 +124,56 @@ export const SkillSet_10921: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 10/15/20/25/30% for 1 turn, then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 10% for 1 turn, then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 15% for 1 turn, then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 20% for 1 turn, then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 25% for 1 turn, then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 30% for 1 turn, then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Single-Round Accuracy`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Hell's Chef`,
+                    description: `Decrease the party's Damage Taken by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Weakness Exposed`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken by 10% for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Shift Fire Position`,
+                    description: `On Basic Attack, increase your Ultimate Skill Power by 20% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Shrapnel Rounds`,
+                    description: `On Ultimate Skill, deal additional damage to the target for 2% of your Attack Power 10 times.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lucky One (Empty Handed↓)`,
+                    description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

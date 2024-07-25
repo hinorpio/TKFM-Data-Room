@@ -124,56 +124,56 @@ export const SkillSet_10901: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Cover`,
+                    description: `Damage target (265/298/331/364/397% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Cover`,
+                    description: `Damage target (265% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Cover`,
+                    description: `Damage target (298% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Cover`,
+                    description: `Damage target (331% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Cover`,
+                    description: `Damage target (364% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Cover`,
+                    description: `Damage target (397% Attack Power), gain Taunt for 1 turn, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Best Wishes`,
+                    description: `Increase Dark allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Quick Reflexes`,
+                    description: `On Basic Attack, there's a 50% chance to enter Guard Stance.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Phasi Protection`,
+                    description: `Take 10% less damage while in Guard Stance.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Minutemen`,
+                    description: `On the first round of each wave, decrease your current Ultimate Skill CD by 3.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Money Matters (Purchase Permits↑)`,
+                    description: `When dispatched, slightly(Lv1) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

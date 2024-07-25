@@ -124,56 +124,56 @@ export const SkillSet_10918: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Arts: EX`,
+                    description: `Damage all enemies for 357/419/480/541/603% Attack Power, then removed any buffs on your Ultimate Skill and Paralyze yourself for 2 turns. (CD:7)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Arts: EX`,
+                    description: `Damage all enemies for 357% Attack Power, then removed any buffs on your Ultimate Skill and Paralyze yourself for 2 turns. (CD:7)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Arts: EX`,
+                    description: `Damage all enemies for 419% Attack Power, then removed any buffs on your Ultimate Skill and Paralyze yourself for 2 turns. (CD:7)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Arts: EX`,
+                    description: `Damage all enemies for 480% Attack Power, then removed any buffs on your Ultimate Skill and Paralyze yourself for 2 turns. (CD:7)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Arts: EX`,
+                    description: `Damage all enemies for 541% Attack Power, then removed any buffs on your Ultimate Skill and Paralyze yourself for 2 turns. (CD:7)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Arts: EX`,
+                    description: `Damage all enemies for 603% Attack Power, then removed any buffs on your Ultimate Skill and Paralyze yourself for 2 turns. (CD:7)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Bullet`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Water`,
+                    description: `Increase Water allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Incantation`,
+                    description: `On Basic Attack, increase your Ultimate Skill Damage by 5% (Max 6 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Advanced Magic`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Protection Spell`,
+                    description: `On Attack, gain a Shield (50% Attack Power) for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lucky One (Empty Handed↓)`,
+                    description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

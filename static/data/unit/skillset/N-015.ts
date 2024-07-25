@@ -124,56 +124,56 @@ export const SkillSet_10915: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Wing`,
+                    description: `Damage target (265/298/331/364/399% Attack Power). 66% chance of inflicting target with Sleep for 2 turns. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Wing`,
+                    description: `Damage target (265% Attack Power). 66% chance of inflicting target with Sleep for 2 turns. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Wing`,
+                    description: `Damage target (298% Attack Power). 66% chance of inflicting target with Sleep for 2 turns. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Wing`,
+                    description: `Damage target (331% Attack Power). 66% chance of inflicting target with Sleep for 2 turns. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Wing`,
+                    description: `Damage target (364% Attack Power). 66% chance of inflicting target with Sleep for 2 turns. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Wing`,
+                    description: `Damage target (399% Attack Power). 66% chance of inflicting target with Sleep for 2 turns. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Smack`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Wind`,
+                    description: `Increase Wind allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fragile Wings`,
+                    description: `On Attack, target takes 10% more damage for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Majestic Flight`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Hunter`,
+                    description: `On Basic Attack, decrease Ultimate Skill CD by 1`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Housekeeper (Purchase Permits↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

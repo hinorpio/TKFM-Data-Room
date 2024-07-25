@@ -124,56 +124,56 @@ export const SkillSet_10909: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Legion Shield`,
+                    description: `Damage all enemies (165/188/211/234/257% Attack Power) and decrease their Attack Power by 10% for 2 turns. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Legion Shield`,
+                    description: `Damage all enemies (165% Attack Power) and decrease their Attack Power by 10% for 2 turns. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Legion Shield`,
+                    description: `Damage all enemies (188% Attack Power) and decrease their Attack Power by 10% for 2 turns. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Legion Shield`,
+                    description: `Damage all enemies (211% Attack Power) and decrease their Attack Power by 10% for 2 turns. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Legion Shield`,
+                    description: `Damage all enemies (234% Attack Power) and decrease their Attack Power by 10% for 2 turns. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Legion Shield`,
+                    description: `Damage all enemies (257% Attack Power) and decrease their Attack Power by 10% for 2 turns. Gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Slash`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire's Blessing`,
+                    description: `Increase Fire allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Disarm`,
+                    description: `When Attacked, there's a 25% chance to decrease the target's Attack Power by 10% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Defense Up`,
+                    description: `Take 10% less damage while in Guard Stance.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Be Prepared`,
+                    description: `In the first round of each wave, decrease your Ultimate Skill CD by 4.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bad to the Bone (Normal Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

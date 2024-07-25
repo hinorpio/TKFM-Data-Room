@@ -124,56 +124,56 @@ export const SkillSet_10923: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Strike`,
+                    description: `Damage the target 2 times (116/129/142/155/168% Attack Power). CD: 2`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Strike`,
+                    description: `Damage the target 2 times (116% Attack Power). CD: 2`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Strike`,
+                    description: `Damage the target 2 times (129% Attack Power). CD: 2`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Strike`,
+                    description: `Damage the target 2 times (142% Attack Power). CD: 2`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Strike`,
+                    description: `Damage the target 2 times (155% Attack Power). CD: 2`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Strike`,
+                    description: `Damage the target 2 times (168% Attack Power). CD: 2`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Trample`,
+                    description: `Damage the target (62.5% Attack Power) 2 times.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dance of the Gale`,
+                    description: `Increase Wind allies' max HP and Attack Power by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Front Foot Thrust`,
+                    description: `On Basic Attack, increase your Ultimate Skill Power by 20% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Rear Foot Tread`,
+                    description: `On Ultimate Skill, increase your Basic Attack Power by 30% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Forward Treadstride`,
+                    description: `On Attack, increase your Attack Power by 5% for 6 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Prized Hunter (Boost Mats↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

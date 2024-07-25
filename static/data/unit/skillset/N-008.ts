@@ -124,56 +124,56 @@ export const SkillSet_10908: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Leaps and Bounds`,
+                    description: `Remove target's Guard Stance then damage target (475/550/625/700/755% Attack) (CD:6)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Leaps and Bounds`,
+                    description: `Remove target's Guard Stance then damage target (475% Attack) (CD:6)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Leaps and Bounds`,
+                    description: `Remove target's Guard Stance then damage target (550% Attack) (CD:6)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Leaps and Bounds`,
+                    description: `Remove target's Guard Stance then damage target (625% Attack) (CD:6)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Leaps and Bounds`,
+                    description: `Remove target's Guard Stance then damage target (700% Attack) (CD:6)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Leaps and Bounds`,
+                    description: `Remove target's Guard Stance then damage target (755% Attack) (CD:6)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Hammer`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Water`,
+                    description: `Increase Water allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dwarven Might`,
+                    description: `When Attacked, increase Attack Power by 3% (Max 10 Stacks)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bombast`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dwarven Justice`,
+                    description: `After every 6 turns, increase your Attack Power by 30% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Perfectionist (Experience Potion↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

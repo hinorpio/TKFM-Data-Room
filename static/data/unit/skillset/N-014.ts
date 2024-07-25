@@ -124,56 +124,56 @@ export const SkillSet_10914: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Numbing Venom`,
+                    description: `Damage target (265/298/331/364/399% Attack Power) and there's a 50% chance of inflicting target with Paralysis for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Numbing Venom`,
+                    description: `Damage target (265% Attack Power) and there's a 50% chance of inflicting target with Paralysis for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Numbing Venom`,
+                    description: `Damage target (298% Attack Power) and there's a 50% chance of inflicting target with Paralysis for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Numbing Venom`,
+                    description: `Damage target (331% Attack Power) and there's a 50% chance of inflicting target with Paralysis for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Numbing Venom`,
+                    description: `Damage target (364% Attack Power) and there's a 50% chance of inflicting target with Paralysis for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Numbing Venom`,
+                    description: `Damage target (399% Attack Power) and there's a 50% chance of inflicting target with Paralysis for 1 turn. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Ravage`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Fire`,
+                    description: `Increase Fire allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Deadly Poison`,
+                    description: `PoisonBOn Attack, decrease the target's Recovery Rate by 25% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Slithering Doom`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Hunter`,
+                    description: `On Basic Attack, decrease Ultimate Skill CD by 1.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Naughty (Rare Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10933: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bayonet Assault`,
+                    description: `Damage the target for 37/42/47/52/58% of your Attack Power in three sets of 3 strikes each (9 strikes total). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bayonet Assault`,
+                    description: `Damage the target for 37% of your Attack Power in three sets of 3 strikes each (9 strikes total). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bayonet Assault`,
+                    description: `Damage the target for 42% of your Attack Power in three sets of 3 strikes each (9 strikes total). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bayonet Assault`,
+                    description: `Damage the target for 47% of your Attack Power in three sets of 3 strikes each (9 strikes total). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bayonet Assault`,
+                    description: `Damage the target for 52% of your Attack Power in three sets of 3 strikes each (9 strikes total). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bayonet Assault`,
+                    description: `Damage the target for 58% of your Attack Power in three sets of 3 strikes each (9 strikes total). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Triple Burst Fire`,
+                    description: `Damage the target (33.3% Attack Power) 3 times.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Lead the Charge`,
+                    description: `Increase the Wind allies' max HP and Attack Power by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Battle-Hardened`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Support`,
+                    description: `On Attack, increase the target's Damage Taken by 5% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The Hound's Name`,
+                    description: `Increase Damage Output by 10%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Prized Hunter (Boost Mats↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

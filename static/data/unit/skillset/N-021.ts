@@ -124,56 +124,56 @@ export const SkillSet_10920: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield of Faith`,
+                    description: `Give the leftmost ally a Shield equal to 265/298/331/364/397% of your Attack Power for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield of Faith`,
+                    description: `Give the leftmost ally a Shield equal to 265% of your Attack Power for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield of Faith`,
+                    description: `Give the leftmost ally a Shield equal to 298% of your Attack Power for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield of Faith`,
+                    description: `Give the leftmost ally a Shield equal to 331% of your Attack Power for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield of Faith`,
+                    description: `Give the leftmost ally a Shield equal to 364% of your Attack Power for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield of Faith`,
+                    description: `Give the leftmost ally a Shield equal to 397% of your Attack Power for 1 turn. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Protection`,
+                    description: `Give the leftmost ally a Shield equal to 80% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Light's Blessing`,
+                    description: `Increase Light allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Love of God`,
+                    description: `On Basic Attack, increase the leftmost ally's Shield Rate by 10% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Evangelisation`,
+                    description: `Increase Basic Attack Power by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sacred Blessing`,
+                    description: `On Ultimate Skill, increase the leftmost ally's Attack Power by 50% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bad to the Bone (Normal Sex Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10917: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sky Strike`,
+                    description: `Attack target for 224/249/273/273/273% of your Attack Power, then go into Guard Stance. Take 10/10/10/15/20% less damage while in Guard Stance for 3 turns, but increase the amount of damage taken by 25% for 1 turn. [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sky Strike`,
+                    description: `Attack target for 224% of your Attack Power, then go into Guard Stance. Take 10% less damage while in Guard Stance for 3 turns, but increase the amount of damage taken by 25% for 1 turn. [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sky Strike`,
+                    description: `Attack target for 249% of your Attack Power, then go into Guard Stance. Take 10% less damage while in Guard Stance for 3 turns, but increase the amount of damage taken by 25% for 1 turn. [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sky Strike`,
+                    description: `Attack target for 273% of your Attack Power, then go into Guard Stance. Take 10% less damage while in Guard Stance for 3 turns, but increase the amount of damage taken by 25% for 1 turn. [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sky Strike`,
+                    description: `Attack target for 273% of your Attack Power, then go into Guard Stance. Take 15% less damage while in Guard Stance for 3 turns, but increase the amount of damage taken by 25% for 1 turn. [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sky Strike`,
+                    description: `Attack target for 273% of your Attack Power, then go into Guard Stance. Take 20% less damage while in Guard Stance for 3 turns, but increase the amount of damage taken by 25% for 1 turn. [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Slash`,
+                    description: `Damage target (75% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Wind`,
+                    description: `Increase Wind allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sword and Shield`,
+                    description: `On Basic Attack, enter Guard Stance.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Blade Training`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Surprise Attack`,
+                    description: `At the start of the first turn, decrease your current Ultimate Skill CD by 3.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Perfectionist (Experience Potion↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10902: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Shot`,
+                    description: `Damage all enemies (238/275/313/350/388% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Shot`,
+                    description: `Damage all enemies (238% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Shot`,
+                    description: `Damage all enemies (275% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Shot`,
+                    description: `Damage all enemies (313% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Shot`,
+                    description: `Damage all enemies (350% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Shot`,
+                    description: `Damage all enemies (388% Attack Power) (CD: 5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blade`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Light`,
+                    description: `Increase Light allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Guidance`,
+                    description: `On Attack, there's a 25% chance to increase your Attack Power by 15% for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Boost`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosion`,
+                    description: `After every 5 turns, increase your Attack Power by 30% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Money Matters (Purchase Permits↑)`,
+                    description: `When dispatched, slightly(Lv1) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

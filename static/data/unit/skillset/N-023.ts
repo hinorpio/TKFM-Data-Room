@@ -124,56 +124,56 @@ export const SkillSet_10924: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Corpse Shroud`,
+                    description: `Damage the target (265/298/331/364/397% Attack Power) and there's a 50% chance of inflicting the target with Paralysis for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Corpse Shroud`,
+                    description: `Damage the target (265% Attack Power) and there's a 50% chance of inflicting the target with Paralysis for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Corpse Shroud`,
+                    description: `Damage the target (298% Attack Power) and there's a 50% chance of inflicting the target with Paralysis for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Corpse Shroud`,
+                    description: `Damage the target (331% Attack Power) and there's a 50% chance of inflicting the target with Paralysis for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Corpse Shroud`,
+                    description: `Damage the target (364% Attack Power) and there's a 50% chance of inflicting the target with Paralysis for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Corpse Shroud`,
+                    description: `Damage the target (397% Attack Power) and there's a 50% chance of inflicting the target with Paralysis for 1 turn. (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tight Bind`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dance of Darkness`,
+                    description: `Increase the Dark allies' max HP and Attack Power by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Undead Creature`,
+                    description: `Reduce Damage Taken by 10%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Durable and Handy`,
+                    description: `Reduce Damage Taken from Basic Attacks by 20%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Securely Bound`,
+                    description: `On Basic Attack, increase the chance of inflicting the target with Paralysis by 10% for 6 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lucky One (Empty Handed↓)`,
+                    description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

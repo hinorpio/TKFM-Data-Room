@@ -124,56 +124,56 @@ export const SkillSet_10907: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready, Aim, Fire`,
+                    description: `Damage target (330/376/422/468/514% Attack Power) and increase Basic Attack damage by 45% for 3 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready, Aim, Fire`,
+                    description: `Damage target (330% Attack Power) and increase Basic Attack damage by 45% for 3 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready, Aim, Fire`,
+                    description: `Damage target (376% Attack Power) and increase Basic Attack damage by 45% for 3 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready, Aim, Fire`,
+                    description: `Damage target (422% Attack Power) and increase Basic Attack damage by 45% for 3 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready, Aim, Fire`,
+                    description: `Damage target (468% Attack Power) and increase Basic Attack damage by 45% for 3 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready, Aim, Fire`,
+                    description: `Damage target (514% Attack Power) and increase Basic Attack damage by 45% for 3 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Shoot`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony of Wind`,
+                    description: `Increase Wind allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Rapid Fire`,
+                    description: `On Basic Attack, there's a 25% chance to damage target (100% Attack Power)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Buck Up`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind's Caress`,
+                    description: `In the first round of each wave, decrease your Ultimate Skill CD by 2.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Prized Hunter (Boost Mats↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

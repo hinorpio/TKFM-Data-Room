@@ -124,56 +124,56 @@ export const SkillSet_10922: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Exertion`,
+                    description: `Damage target (133/149/166/182/199% Attack Power) and increase Attack Power by 12.5% (Max 6 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Exertion`,
+                    description: `Damage target (133% Attack Power) and increase Attack Power by 12.5% (Max 6 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Exertion`,
+                    description: `Damage target (149% Attack Power) and increase Attack Power by 12.5% (Max 6 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Exertion`,
+                    description: `Damage target (166% Attack Power) and increase Attack Power by 12.5% (Max 6 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Exertion`,
+                    description: `Damage target (182% Attack Power) and increase Attack Power by 12.5% (Max 6 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Exertion`,
+                    description: `Damage target (199% Attack Power) and increase Attack Power by 12.5% (Max 6 Stacks). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heavy Hit`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Light Symphony`,
+                    description: `Increase Light allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Battle AI`,
+                    description: `On Basic Attack, increase your Attack Power by 1% (Max 50 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Power Up`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Steel Alloy`,
+                    description: `Take 50% less damage from Basic Attacks, but 25% more damage from Ultimate Skills.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Prize Hunter (Enhance Materials↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

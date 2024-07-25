@@ -124,56 +124,56 @@ export const SkillSet_10910: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Blaze of Glory`,
+                    description: `Heal party equal to 165/188/211/234/257% of your max HP, take 10% less damage for 2 turns, then gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blaze of Glory`,
+                    description: `Heal party equal to 165% of your max HP, take 10% less damage for 2 turns, then gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Blaze of Glory`,
+                    description: `Heal party equal to 188% of your max HP, take 10% less damage for 2 turns, then gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Blaze of Glory`,
+                    description: `Heal party equal to 211% of your max HP, take 10% less damage for 2 turns, then gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Blaze of Glory`,
+                    description: `Heal party equal to 234% of your max HP, take 10% less damage for 2 turns, then gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Blaze of Glory`,
+                    description: `Heal party equal to 257% of your max HP, take 10% less damage for 2 turns, then gain Taunt for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Light's Blessing`,
+                    description: `Increase Light allies' max HP by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Light`,
+                    description: `When healed, there's a 25% chance to gain a Shield equal to 8% of your max HP for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Pious Favor`,
+                    description: `Increase Recovery Rate by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Keeping the Faith`,
+                    description: `When Attacked, increase Recovery Rate by 10% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lucky One (Empty Handed↓)`,
+                    description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
