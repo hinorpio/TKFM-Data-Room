@@ -124,56 +124,56 @@ export const SkillSet_10803: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon's Breath`,
+                    description: `Damage all enemies (200% Attack Power). Then, deal damage equal to 37.5/43.1/48.8/54.4/60.0% of your Attack Power every turn for 20 turns. (CD:5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon's Breath`,
+                    description: `Damage all enemies (200% Attack Power). Then, deal damage equal to 37.5% of your Attack Power every turn for 20 turns. (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon's Breath`,
+                    description: `Damage all enemies (200% Attack Power). Then, deal damage equal to 43.1% of your Attack Power every turn for 20 turns. (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon's Breath`,
+                    description: `Damage all enemies (200% Attack Power). Then, deal damage equal to 48.8% of your Attack Power every turn for 20 turns. (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon's Breath`,
+                    description: `Damage all enemies (200% Attack Power). Then, deal damage equal to 54.4% of your Attack Power every turn for 20 turns. (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon's Breath`,
+                    description: `Damage all enemies (200% Attack Power). Then, deal damage equal to 60.0% of your Attack Power every turn for 20 turns. (CD:5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Ember`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Flame Shield`,
+                    description: `When Fire allies are attacked by Wind enemies, take 12.5% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Force`,
+                    description: `On Attack, increase your Attack Power by 2% (Max 15 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Soul`,
+                    description: `Reduce the max Ultimate Skill CD by 1`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Birth by Flame`,
+                    description: `On Ultimate Skill, increase your Attack Power by 20% (Max 5 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Outgoing (Exp Potion↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

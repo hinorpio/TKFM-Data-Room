@@ -124,56 +124,56 @@ export const SkillSet_10801: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 96.9/111.3/125.6/140/154.4% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 96.9% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 111.3% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 125.6% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 140% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 154.4% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heal`,
+                    description: `Heal lowest HP ally equal to 150% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Fight Darkness`,
+                    description: `When Light allies are attacked by Dark enemies, take 50% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Quick Mend`,
+                    description: `On Basic Attack, heal the lowest HP ally by 25% of your Attack Power every turn for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Embrace`,
+                    description: `After every turn, increase the lowest-HP ally's Recovery Rate by 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Warm Heart`,
+                    description: `On Ultimate Skill, remove any and all Defense or Recovery-Rate debuffs from the lowest-HP ally.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Depraved Wife (Normal Sex Toys↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Common Sex Toys.(Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
@@ -407,56 +407,56 @@ export const SkillSet_10801: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 92.8/105.8/118.7/131.6/144.6% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 92.8% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 105.8% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 118.7% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 131.6% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `True Love`,
+                    description: `Heal lowest HP ally equal to 165% of your Attack Power, then heal them equal to 144.6% of your Attack Power every turn for 4 turns. The lowest HP ally takes 15% less damage for 4 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heal`,
+                    description: `Heal lowest HP ally equal to 100% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Fight Darkness`,
+                    description: `When Light allies are attacked by Dark enemies, take 50% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Quick Mend`,
+                    description: `On Basic Attack, heal the lowest HP ally by 25% of your Attack Power every turn for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Embrace`,
+                    description: `After every turn, increase the lowest-HP ally's Recovery Rate by 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Warm Heart`,
+                    description: `On Ultimate Skill, remove any and all Defense or Recovery-Rate debuffs from the lowest-HP ally.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Depraved Wife (Normal Sex Toys↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Common Sex Toys.(Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10809: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Honor Among Thieves`,
+                    description: `Decrease the target's Basic Attack Damage by 10/12/12/15/15% and Ultimate Skill Damage by 10% for 3 turns, then increase your Basic Attack Damage by 10/12/12/15/15% and Ultimate Skill Damage by 10% for 3 turns. Finally, damage the target for 265/298/331/364/397% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Honor Among Thieves`,
+                    description: `Decrease the target's Basic Attack Damage by 10% and Ultimate Skill Damage by 10% for 3 turns, then increase your Basic Attack Damage by 10% and Ultimate Skill Damage by 10% for 3 turns. Finally, damage the target for 265% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Honor Among Thieves`,
+                    description: `Decrease the target's Basic Attack Damage by 12% and Ultimate Skill Damage by 10% for 3 turns, then increase your Basic Attack Damage by 12% and Ultimate Skill Damage by 10% for 3 turns. Finally, damage the target for 298% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Honor Among Thieves`,
+                    description: `Decrease the target's Basic Attack Damage by 12% and Ultimate Skill Damage by 10% for 3 turns, then increase your Basic Attack Damage by 12% and Ultimate Skill Damage by 10% for 3 turns. Finally, damage the target for 331% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Honor Among Thieves`,
+                    description: `Decrease the target's Basic Attack Damage by 15% and Ultimate Skill Damage by 10% for 3 turns, then increase your Basic Attack Damage by 15% and Ultimate Skill Damage by 10% for 3 turns. Finally, damage the target for 364% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Honor Among Thieves`,
+                    description: `Decrease the target's Basic Attack Damage by 15% and Ultimate Skill Damage by 10% for 3 turns, then increase your Basic Attack Damage by 15% and Ultimate Skill Damage by 10% for 3 turns. Finally, damage the target for 397% Attack Power. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Trick Shot`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sneaky like the Wind`,
+                    description: `Increase all Wind allies' Attack Power by 20%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Carrot Smoke Bomb`,
+                    description: `On Basic Attack, reduce the target's Recovery Rate by 25% and their Shield Rate by 15% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Too Excited`,
+                    description: `On Ultimate Skill, increase your Attack Power by 20% for 3 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny Magic`,
+                    description: `Increase your Basic Attack Damage by 40% and Ultimate Skill Damage by 20%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Horny Disposition (Rare Sex Toys ↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

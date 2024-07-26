@@ -124,56 +124,56 @@ export const SkillSet_10810: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (330/376/422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (330% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (376% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Gan... batte!`,
+                    description: `Increase party's Attack Power by 25% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Tough Body`,
+                    description: `Increase your max HP by 40% and Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Tea`,
+                    description: `On Basic Attack, there's a 50% chance to increase the party's Attack Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Tasteless Soup`,
+                    description: `On Attack, there's a 20% chance to increase your Attack Power by 35% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Unbearable Pain`,
+                    description: `Increase your max HP by 30% and Attack Power by 30%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Fountain (Normal Sex Toys↑↑)`,
+                    description: `When dispatched, slightly increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

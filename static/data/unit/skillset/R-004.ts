@@ -124,56 +124,56 @@ export const SkillSet_10804: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Loyalty`,
+                    description: `Take 10/12.5/15/17.5/20% less damage for 2 turns, gain Taunt for 2 turns, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Loyalty`,
+                    description: `Take 10% less damage for 2 turns, gain Taunt for 2 turns, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Loyalty`,
+                    description: `Take 12.5% less damage for 2 turns, gain Taunt for 2 turns, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Loyalty`,
+                    description: `Take 15% less damage for 2 turns, gain Taunt for 2 turns, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Loyalty`,
+                    description: `Take 17.5% less damage for 2 turns, gain Taunt for 2 turns, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Loyalty`,
+                    description: `Take 20% less damage for 2 turns, gain Taunt for 2 turns, and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tackle`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Silent Cover`,
+                    description: `When Wind allies are attacked by Water enemies, take 12.5% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Best Laid Plans`,
+                    description: `When healed, gain the effect "Heal yourself each turn (25% Attack Power) for 2 turns."`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Contentment`,
+                    description: `Increase Recovery Rate by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Quiet Mind`,
+                    description: `When healed, there's a 50% chance to decrease your current Ultimate Skill CD by 1.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attentive (Empty Handed↓↓)`,
+                    description: `When dispatched, slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

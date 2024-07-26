@@ -124,56 +124,56 @@ export const SkillSet_10802: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazy Claws`,
+                    description: `Damage target (265/398/331/364/397% Attack Power). Target takes 10% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazy Claws`,
+                    description: `Damage target (265% Attack Power). Target takes 10% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazy Claws`,
+                    description: `Damage target (298% Attack Power). Target takes 10% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazy Claws`,
+                    description: `Damage target (331% Attack Power). Target takes 10% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazy Claws`,
+                    description: `Damage target (364% Attack Power). Target takes 10% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazy Claws`,
+                    description: `Damage target (397% Attack Power). Target takes 10% more damage for 1 turn. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Scratch`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Strong Winds`,
+                    description: `Increase Wind allies' Attack Power by 25%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Claw Marks`,
+                    description: `On Attack, there's a 50% chance to increase the target's Damage Taken by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Frenzy`,
+                    description: `On Ultimate Skill, Increase your Basic Attack Damage by 20% for 3 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Double Scratch`,
+                    description: `On Basic Attack, damage the target for 50% of your Attack Power.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Feline Intuition (Empty Handed↓↓)`,
+                    description: `When dispatched, slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

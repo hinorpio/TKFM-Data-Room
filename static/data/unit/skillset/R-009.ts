@@ -124,56 +124,56 @@ export const SkillSet_10812: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Fairy's Magic`,
+                    description: `Heal party equal to 194/223/251/280/309% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fairy's Magic`,
+                    description: `Heal party equal to 194% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fairy's Magic`,
+                    description: `Heal party equal to 223% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Fairy's Magic`,
+                    description: `Heal party equal to 251% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Fairy's Magic`,
+                    description: `Heal party equal to 280% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Fairy's Magic`,
+                    description: `Heal party equal to 309% of your Attack Power. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing Magic`,
+                    description: `Heal party equal to 75% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Force`,
+                    description: `Increase Dark allies' Attack Power by 10% and max HP by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Trick or Treat`,
+                    description: `On Basic Attack, there's a 20% chance to heal the lowest-HP ally (35% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Prank!`,
+                    description: `On Ultimate Skill, there's a 20% chance to increase your Attack Power by 50% for 3 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Retrieved~!`,
+                    description: `On Basic Attack, there's a 20% chance to decrease your current Ultimate Skill CD by 1.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Cock Sleeve Fairy (More Sex Toys)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

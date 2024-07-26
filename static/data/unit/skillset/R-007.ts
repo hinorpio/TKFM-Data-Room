@@ -124,56 +124,56 @@ export const SkillSet_10807: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blast`,
+                    description: `Damage target (330/353/373/399/422% Attack Power) and increase Attack Power by 10% (Max 3 Stacks). (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blast`,
+                    description: `Damage target (330% Attack Power) and increase Attack Power by 10% (Max 3 Stacks). (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blast`,
+                    description: `Damage target (353% Attack Power) and increase Attack Power by 10% (Max 3 Stacks). (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blast`,
+                    description: `Damage target (373% Attack Power) and increase Attack Power by 10% (Max 3 Stacks). (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blast`,
+                    description: `Damage target (399% Attack Power) and increase Attack Power by 10% (Max 3 Stacks). (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Blast`,
+                    description: `Damage target (422% Attack Power) and increase Attack Power by 10% (Max 3 Stacks). (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Fireball`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Reign of Fire`,
+                    description: `Increase Fire allies' Attack Power by 25%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Dance`,
+                    description: `On Attack, there's a 25% chance to increase your Attack Power by 30% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Focus Magic`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Fold Time`,
+                    description: `On Ultimate Skill, there's a 50% chance to decrease your current Ultimate Skill CD by 2.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `For Research (Boost Mats↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

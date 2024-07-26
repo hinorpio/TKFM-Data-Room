@@ -124,56 +124,56 @@ export const SkillSet_10805: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Seduction`,
+                    description: `Damage target (330/376/422/468/514% Attack Power). 75% chance of inflicting target with Silence for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Seduction`,
+                    description: `Damage target (330% Attack Power). 75% chance of inflicting target with Silence for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Seduction`,
+                    description: `Damage target (376% Attack Power). 75% chance of inflicting target with Silence for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Seduction`,
+                    description: `Damage target (422% Attack Power). 75% chance of inflicting target with Silence for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Seduction`,
+                    description: `Damage target (468% Attack Power). 75% chance of inflicting target with Silence for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Seduction`,
+                    description: `Damage target (514% Attack Power). 75% chance of inflicting target with Silence for 1 turn. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Whip`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Embrace`,
+                    description: `When Dark allies are attacked by Light enemies, take 50% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lust`,
+                    description: `When Attacked, there's a 25% chance to increase your Attack Power by 15% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Hand in Hand`,
+                    description: `Increase Basic Attack damage by 12.5%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sable's Skills`,
+                    description: `After every 4 turns, increase your Attack Power by 30% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Naughty (Rare/Normal Toys↑)`,
+                    description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys and the 2x drop rate of Rare Sex Toys. (Global Effect).`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

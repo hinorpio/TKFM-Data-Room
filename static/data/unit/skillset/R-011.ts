@@ -124,56 +124,56 @@ export const SkillSet_10811: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `War Therapy`,
+                    description: `Heal party equal to 165/188/211/234/257% of your Attack Power and heal the ally with the lowest current HP equal to 82.5/94/105.5/117/128.5% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `War Therapy`,
+                    description: `Heal party equal to 165% of your Attack Power and heal the ally with the lowest current HP equal to 82.5% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `War Therapy`,
+                    description: `Heal party equal to 188% of your Attack Power and heal the ally with the lowest current HP equal to 94% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `War Therapy`,
+                    description: `Heal party equal to 211% of your Attack Power and heal the ally with the lowest current HP equal to 105.5% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `War Therapy`,
+                    description: `Heal party equal to 234% of your Attack Power and heal the ally with the lowest current HP equal to 117% of your Attack Power. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `War Therapy`,
+                    description: `Heal party equal to 257% of your Attack Power and heal the ally with the lowest current HP equal to 128.5% of your Attack Power. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Emergency Treatment`,
+                    description: `Heal party equal to 75% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Frontline Doctor`,
+                    description: `Increase your heal effect by 50% and Attack Power by 20%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Firm Judgement`,
+                    description: `On Basic Attack, heal the lowest-HP ally (30% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Deftness`,
+                    description: `Increase your heal effect by 15%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Blasé`,
+                    description: `After every 4 turns, increase your Attack Power by 12% (Max 3 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Queen (EXP Potion ↑↑)`,
+                    description: `When dispatched, slightly increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10808: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Umbra's Arrow`,
+                    description: `Damage target (265/298/331/364/397% Attack Power) and decrease their Attack Power by 10% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Umbra's Arrow`,
+                    description: `Damage target (265% Attack Power) and decrease their Attack Power by 10% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Umbra's Arrow`,
+                    description: `Damage target (298% Attack Power) and decrease their Attack Power by 10% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Umbra's Arrow`,
+                    description: `Damage target (331% Attack Power) and decrease their Attack Power by 10% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Umbra's Arrow`,
+                    description: `Damage target (364% Attack Power) and decrease their Attack Power by 10% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Umbra's Arrow`,
+                    description: `Damage target (397% Attack Power) and decrease their Attack Power by 10% for 3 turns. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack (Target)`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Elf's Blessing`,
+                    description: `Increase Dark allies' Attack Power by 25%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Resistance`,
+                    description: `On Basic Attack, decrease the target's Attack Power by 5% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crippling Shot`,
+                    description: `On Ultimate Skill, decrease the target's Attack Power by 5% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Elven Archer`,
+                    description: `Increase Basic Attack damage by 50%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Withstand (Rare Sex Toys↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -124,56 +124,56 @@ export const SkillSet_10806: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 193.8/222.5/251.3/280/308.8% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 193.8% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 222.5% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 251.3% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 280% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 308.8% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Recovery`,
+                    description: `Heal party equal to 75% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony`,
+                    description: `Party gains immunity to Sleep and takes 10% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Self Medication`,
+                    description: `When Attacked, there's a 15% chance to heal yourself by 100% of your Attack Power.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Convalescence`,
+                    description: `Increase Recovery Rate by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Singalong`,
+                    description: `After every 4 turns, increase the party's Recovery Rate by 20% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tearjerker (Purch. Permits↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
@@ -407,56 +407,56 @@ export const SkillSet_10806: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 165/188/211/234/257% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 165% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 188% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 211% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 234% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Hymn of Healing`,
+                    description: `Heal party equal to 257% of your Attack Power. 66% chance of inflicting target with Sleep for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Recovery`,
+                    description: `Heal party equal to 50% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Symphony`,
+                    description: `Party gains immunity to Sleep and takes 10% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Self Medication`,
+                    description: `When Attacked, there's a 15% chance to heal yourself by 100% of your Attack Power.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Convalescence`,
+                    description: `Increase Recovery Rate by 10%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Singalong`,
+                    description: `After every 4 turns, increase the party's Recovery Rate by 20% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tearjerker (Purch. Permits↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

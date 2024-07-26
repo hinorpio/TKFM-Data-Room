@@ -124,56 +124,56 @@ export const SkillSet_10813: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Seduction`,
+                    description: `Heal all allies for 48.5/55/63/70/77% of your Attack Power for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Seduction`,
+                    description: `Heal all allies for 48.5% of your Attack Power for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Seduction`,
+                    description: `Heal all allies for 55% of your Attack Power for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Seduction`,
+                    description: `Heal all allies for 63% of your Attack Power for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Seduction`,
+                    description: `Heal all allies for 70% of your Attack Power for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Seduction`,
+                    description: `Heal all allies for 77% of your Attack Power for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `A Winning Smile`,
+                    description: `Heal all allies for 75% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Androgynous`,
+                    description: `Reduce all Light and Dark allies' Damage Taken by 10%, and increase their Attack Power by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `The Shortest Skirt`,
+                    description: `Increase your Basic Attack Damage by 10%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `"She's" actually...`,
+                    description: `Increase your Attack Power by 15%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm open to anything...`,
+                    description: `Increase the effectivity of your Regen spells by 20%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sex-Toy Expert (Rare Sex Toys↑↑)`,
+                    description: `When dispatched, slightly(Lv2) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {
