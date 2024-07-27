@@ -123,56 +123,56 @@ export const SkillSet_10019: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Galaxy Destroyer`,
+                    description: `Increase your Attack Power by 30/30/35/40/45% for 3 turns, then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Galaxy Destroyer`,
+                    description: `Increase your Attack Power by 30% for 3 turns, then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Galaxy Destroyer`,
+                    description: `Increase your Attack Power by 30% for 3 turns, then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Galaxy Destroyer`,
+                    description: `Increase your Attack Power by 35% for 3 turns, then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Galaxy Destroyer`,
+                    description: `Increase your Attack Power by 40% for 3 turns, then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Galaxy Destroyer`,
+                    description: `Increase your Attack Power by 45% for 3 turns, then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sliver of Starlight`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `All Together Now`,
+                    description: `Increase the party's Attack Power by 40%.\nWhen an ally other than Ayane Attacks, they "teach" Ayane one of the following lessons for 1 turn, depending on their Role.\n\n"Attack Lessons":\nIncrease your Damage Output by 25%.\nAfter you Attack, perform an additional attack on the enemy (75% Attack Power).\n\n"Defense Lessons":\nOn Attacking or Guarding, reduce the party's Damage Taken by 15%.\n\n"Healing Lessons":\nIncrease your Recovery Output by 50%.\nOn Attack, heal the party (50% Attack Power).\n\n"Support Lessons":\nOn Attack, increase your Attack Power by 50% for 2 turns.\n\n"Obstruction Lessons":\nOn Attack, reduce the target's Recovery Rate by 50% for 1 turn, and increase their Damage Taken by 20% for 2 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Stardust Blade`,
+                    description: `After your Ultimate Skill, perform 10 additional attacks on the target (10% Attack Power each).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Falling Comet`,
+                    description: `On your first turn, give all allies other than yourself "Trails of Stardust" for 50 turns.\n\nTrails of Stardust:\nOn Attack, increase Ayane's Basic Attack Damage by 10% for 1 turn and Ultimate Skill Damage by 4% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Modern Hero`,
+                    description: `Reduce your Damage Taken by 15%.\nOn Basic Attack, give yourself a shield for 1 turn (12.5% Max HP).\nOn Ultimate Skill, increase the target's Damage Taken from Ayane by 17.5% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

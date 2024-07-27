@@ -123,56 +123,56 @@ export const SkillSet_10033: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Irresistible Sleepiness`,
+                    description: `Inflict current enemy with Sleep for 2 turns (100/110/120/130/150% success rate). The target will be unable to attack and will take 100/110/120/130/150% more damage. The target will wake up upon taking damage. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Irresistible Sleepiness`,
+                    description: `Inflict current enemy with Sleep for 2 turns (100% success rate). The target will be unable to attack and will take 100% more damage. The target will wake up upon taking damage. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Irresistible Sleepiness`,
+                    description: `Inflict current enemy with Sleep for 2 turns (110% success rate). The target will be unable to attack and will take 110% more damage. The target will wake up upon taking damage. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Irresistible Sleepiness`,
+                    description: `Inflict current enemy with Sleep for 2 turns (120% success rate). The target will be unable to attack and will take 120% more damage. The target will wake up upon taking damage. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Irresistible Sleepiness`,
+                    description: `Inflict current enemy with Sleep for 2 turns (130% success rate). The target will be unable to attack and will take 130% more damage. The target will wake up upon taking damage. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Irresistible Sleepiness`,
+                    description: `Inflict current enemy with Sleep for 2 turns (150% success rate). The target will be unable to attack and will take 150% more damage. The target will wake up upon taking damage. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Nightmare`,
+                    description: `The current enemy takes 10% more damage from Basic Attack and 5% more damage from Ultimate Skill for 3 turns; Gain a Shield equal to 50% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Strange Bedfellows`,
+                    description: `Grant the party the following effect: "On Basic Attack, there's a 20% chance of putting the target to Sleep for 1 turn. While asleep, the target will be unable to Attack and will take 30% more damage. The target will wake up upon taking damage."\n\nGrant your allies the following effect: "On Basic Attack, increase the target's chance of being put to Sleep by 20% for 1 turn."`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lullab`,
+                    description: `On Basic Attack, increase the target's chance of being put to Sleep by 40% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Snoozing…`,
+                    description: `On Attack, decrease the current target's Attack Power by 15% for 2 turns.\nOn Ultimate Skill, freeze the current target's Ultimate Skill CD for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Endless Dream`,
+                    description: `On the first turn of each wave, decrease all enemies' Damage Output by 10% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

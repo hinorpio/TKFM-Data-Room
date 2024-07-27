@@ -123,56 +123,56 @@ export const SkillSet_10082: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Increase your Ultimate Skill Damage by 20/20/40/40/50% (Max 1 Stack) and Basic Attack Damage by 40/40/80/80/100% (Max 1 Stack), then damage the target (490/568/646/724/802% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Increase your Ultimate Skill Damage by 20% (Max 1 Stack) and Basic Attack Damage by 40% (Max 1 Stack), then damage the target (490% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Increase your Ultimate Skill Damage by 20% (Max 1 Stack) and Basic Attack Damage by 40% (Max 1 Stack), then damage the target (568% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Increase your Ultimate Skill Damage by 40% (Max 1 Stack) and Basic Attack Damage by 80% (Max 1 Stack), then damage the target (646% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Increase your Ultimate Skill Damage by 40% (Max 1 Stack) and Basic Attack Damage by 80% (Max 1 Stack), then damage the target (724% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Increase your Ultimate Skill Damage by 50% (Max 1 Stack) and Basic Attack Damage by 100% (Max 1 Stack), then damage the target (802% Attack Power). CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Hand of Thorns`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Pure Power`,
+                    description: `Increase the party's Max HP by 20%.\nIncrease your Attack Power by 100%.\nIncrease the party's Attack Power by 25%.\nAfter every 5 turns, increase the party's Attack Power by 50% for 3 turns.\nOn the first turn, all other allies gain "Absolute Obedience" for 50 turns.\n\nAbsolute Obedience:\nOn Attack, increase the target's Damage Taken from Dark attacks by 1% (Max 20 Stacks).\nOn Attack, increase the 1st-position ally's Attack Power by 15% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Disgraced Vows`,
+                    description: `On Attack, increase the target's Damage Taken from Dark attacks by 4% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Claws of Consummation`,
+                    description: `When entering Guard Stance, increase your Attack Power by 100% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Archdemon Ascending`,
+                    description: `On Attack, increase the party's Damage Output by 3% (Max 10 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10082: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Damage the target (490/568/646/724/802% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Damage the target (490% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Damage the target (568% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Damage the target (646% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Damage the target (724% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Flowers`,
+                    description: `Damage the target (802% Attack Power). CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Hand of Thorns`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Pure Power`,
+                    description: `Increase the party's Max HP by 15%.\nAfter every 5 turns, increase the party's Attack Power by 150% for 3 turns.\nOn the first turn, all other allies gain "Absolute Obedience" for 50 turns.\n\nAbsolute Obedience:\nOn Attack, increase the target's Damage Taken from Dark attacks by 1% (Max 20 Stacks).\nOn Attack, increase the 1st-position ally's Attack Power by 15% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Disgraced Vows`,
+                    description: `On Basic Attack, increase your Ultimate Skill Damage by 8% (Max 5 Stacks).\nOn Ultimate Skill, increase your Basic Attack Damage by 80% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Claws of Consummation`,
+                    description: `On Attack, increase the target's Damage Taken by Dark attacks by 4% (Max 5 Stacks).\nWhen entering Guard Stance, increase your Damage Output by 40% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Archdemon Ascending`,
+                    description: `On Attack, increase the party's Damage Output by 3% (Max 10 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

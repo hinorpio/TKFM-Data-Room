@@ -123,56 +123,56 @@ export const SkillSet_10043: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Supreme Halloween Elf Queen`,
+                    description: `Damage target (330/376% Attack Power), then increase Attack Power by 20% for 3 turns. CD:4\n\nBond 3-4: Increase Attack Power by 30% for 3 turns, then damage target (422/468% Attack Power). CD:4\n\nBond 5: Increase Attack Power by 30% for 3 turns, target takes 15% more damage from Hallow-Queen Salucia, for 3 turns then damage target (514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Supreme Halloween Elf Queen`,
+                    description: `Damage target (330% Attack Power), then increase Attack Power by 20% for 3 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Supreme Halloween Elf Queen`,
+                    description: `Damage target (376% Attack Power), then increase Attack Power by 20% for 3 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Supreme Halloween Elf Queen`,
+                    description: `Increase Attack Power by 30% for 3 turns, then damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Supreme Halloween Elf Queen`,
+                    description: `Increase Attack Power by 30% for 3 turns, then damage target (468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Supreme Halloween Elf Queen`,
+                    description: `Increase Attack Power by 30% for 3 turns, target takes 15% more damage from Hallow-Queen Salucia, for 3 turns then damage target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Hallow-Queen's Edict`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Stupid Old Hag!`,
+                    description: `Increase all Wind allies' max HP by 35%.\nIf there are 5 Wind characters on your team, increase your Recovery Rate by 25% and Attack Power by 100%.\n\nOn the first turn, increase all Wind allies' Attack Power by 40% of Hallow-Queen Salucia's Attack Power for 50 turns.\n\nDecrease Elf Queen Salucia's Max Ultimate Skill CD by 2.\nOn Ultimate Skill, increase the target's Damage Taken by 20% for 3 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `My Elves, Time to Strike`,
+                    description: `On Basic Attack, increase the target's Damage Taken from allied Attackers by 6% (Max 4 Stacks), and from Elf Queen Salucia by 6% (4 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Candy Wanted`,
+                    description: `On Basic Attack, increase the target's Damage Taken from Basic Attacks by 7.5% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Fight for the Elf Queen`,
+                    description: `On Ultimate Skill, increase all Wind allies' Damage Output by 15% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

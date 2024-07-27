@@ -123,56 +123,56 @@ export const SkillSet_10079: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `True Ninjitsu ‧ Best Wishes`,
+                    description: `Increase Attack Power by 50/65/80/95/110% for [3/3/3/4/4] turns, then deal damage to target with 200% Attack Power. Deal 0/0/10/15/20% more damage (Max 1 Stack) (CD: 4).`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `True Ninjitsu ‧ Best Wishes`,
+                    description: `Increase Attack Power by 50% for 3 turns, then deal damage to target with 200% Attack Power (CD: 4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `True Ninjitsu ‧ Best Wishes`,
+                    description: `Increase Attack Power by 65% for 3 turns, then deal damage to target with 200% Attack Power (CD: 4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `True Ninjitsu ‧ Best Wishes`,
+                    description: `Increase Attack Power by 80% for 3 turns, then deal damage to target with 200% Attack Power. Deal 10% more damage (Max 1 Stack) (CD: 4).`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `True Ninjitsu ‧ Best Wishes`,
+                    description: `Increase Attack Power by 95% for 4 turns, then deal damage to target with 200% Attack Power. Deal 15% more damage (Max 1 Stack) (CD: 4).`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `True Ninjitsu ‧ Best Wishes`,
+                    description: `Increase Attack Power by 110% for 4 turns, then deal damage to target with 200% Attack Power. Deal 20% more damage (Max 1 Stack) (CD: 4).`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `True Kunai`,
+                    description: `Damage target (125% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Festival Promoter`,
+                    description: `Increase party's Attack Power by 50% and Basic Attack Power by 30%\nOn the first turn, trigger the following effect: Ally with the lowest max HP takes 20% less damage (Max 1 stack) and decrease your current Ultimate Skill CD by 4.\nOn the first turn, trigger the following effect: On Ultimate Skill, trigger "Near Year's Blessing" for 1 turn.\n\nNear Year's Blessing\nIncrease your Attack Power with 100% of your Attack Power for 50 turns.\nFreeze your current Ultimate Skill CD for 50 turns and gain immunity to Ultimate Skill CD changes for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ninjitsu ‧ Triumphant Victory`,
+                    description: `On Basic Attack, target takes 20% more damage from all Basic Attacks (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ninjitsu ‧ Secret Support`,
+                    description: `On the first turn, trigger the following effect: increase Party's Basic Attack Power by 30% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ninjitsu ‧ Party Time`,
+                    description: `Deal 10% more damage.\nOn Attack, trigger the following effect: Target takes 5% more damage (Max 5 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10056: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Wall`,
+                    description: `Gain a Shield equal to 40/45/45/50/50% of your max HP for 1 turn and gain 1/1/2/2/3 stacks of the following effect: take 7.5% less damage. Gain Taunt for 1 turn and enter Guard Stance for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Wall`,
+                    description: `Gain a Shield equal to 40% of your max HP for 1 turn and gain 1 stacks of the following effect: take 7.5% less damage. Gain Taunt for 1 turn and enter Guard Stance for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Wall`,
+                    description: `Gain a Shield equal to 45% of your max HP for 1 turn and gain 1 stacks of the following effect: take 7.5% less damage. Gain Taunt for 1 turn and enter Guard Stance for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Wall`,
+                    description: `Gain a Shield equal to 45% of your max HP for 1 turn and gain 2 stacks of the following effect: take 7.5% less damage. Gain Taunt for 1 turn and enter Guard Stance for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Wall`,
+                    description: `Gain a Shield equal to 50% of your max HP for 1 turn and gain 2 stacks of the following effect: take 7.5% less damage. Gain Taunt for 1 turn and enter Guard Stance for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Wall`,
+                    description: `Gain a Shield equal to 50% of your max HP for 1 turn and gain 3 stacks of the following effect: take 7.5% less damage. Gain Taunt for 1 turn and enter Guard Stance for 1 turn. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Dragon Claw`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Meaning of Life`,
+                    description: `Increase your max HP by 60% and decrease your max Ultimate Skill CD by 1.\nOn Ultimate Skill, gain 2 stacks of Crystalis (Max 10 Stacks).\n\nCrystalis: Each stack of Crystalis lowers the damage you take by 7.5%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalis`,
+                    description: `On your first turn, gain 5 stacks of Crystalis (Max 10 Stacks).\nAfter every turn, gain 1 stack of Crystalis (Max 10 Stacks).\n\nCrystalis: Each stack of Crystalis lowers the damage you take by 7.5%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Coexist with Crystal`,
+                    description: `On Basic Attack, gain a Shield equal to 5% of your max HP for 50 turns, and gain 1 stack of Crystalis.\nWhen in Guard Stance, gain Taunt for 1 turn, but take 60% more damage for 1 turn.\nWhen Attacked, lose 1 stack of Crystalis.\n\nCrystalis: Each stack of Crystalis lowers the damage you take by 7.5%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Crystalline Erosion`,
+                    description: `On Ultimate Skill, gain the following effect for 1 turn: "When Attacked, perform a counter Attack on the target (300% Attack Power)".\n\nOn entering Guard Stance, gain the following effect for 1 turn: "When Attacked, perform a counter Attack on the target (100% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

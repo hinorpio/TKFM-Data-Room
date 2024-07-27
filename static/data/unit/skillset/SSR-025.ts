@@ -123,56 +123,56 @@ export const SkillSet_10060: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Harvest Festival`,
+                    description: `Increase party's Attack Power by 0/0/0/15/20% for 2 turn. Decrease your attacker and defender's current Ultimate Skill CD by 1 and increase party's Recovery Rate by 50% for 5 turns. Heal party equal to 80/95/110/110/110% of Fiora's Attack Power every turn for 5 turns. (CD:5).`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Harvest Festival`,
+                    description: `Decrease your attacker and defender's current Ultimate Skill CD by 1 and increase party's Recovery Rate by 50% for 5 turns. Heal party equal to 80% of Fiora's Attack Power every turn for 5 turns. (CD:5).`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Harvest Festival`,
+                    description: `Decrease your attacker and defender's current Ultimate Skill CD by 1 and increase party's Recovery Rate by 50% for 5 turns. Heal party equal to 95% of Fiora's Attack Power every turn for 5 turns. (CD:5).`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Harvest Festival`,
+                    description: `Decrease your attacker and defender's current Ultimate Skill CD by 1 and increase party's Recovery Rate by 50% for 5 turns. Heal party equal to 110% of Fiora's Attack Power every turn for 5 turns. (CD:5).`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Harvest Festival`,
+                    description: `Increase party's Attack Power by 15% for 2 turn. Decrease your attacker and defender's current Ultimate Skill CD by 1 and increase party's Recovery Rate by 50% for 5 turns. Heal party equal to 110% of Fiora's Attack Power every turn for 5 turns. (CD:5).`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Harvest Festival`,
+                    description: `Increase party's Attack Power by 20% for 2 turn. Decrease your attacker and defender's current Ultimate Skill CD by 1 and increase party's Recovery Rate by 50% for 5 turns. Heal party equal to 110% of Fiora's Attack Power every turn for 5 turns. (CD:5).`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Dance of Sex`,
+                    description: `Heal party equal to 25% of your Attack Power, then heal the party equal to 25% of Fiora's Attack Power every turn for 3 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Believers' Revelry`,
+                    description: `Increase party's max HP by 35%. If there are (1/2/3) Attacker(s) on your team, increase the party's Attack Power by (15/15/30)%; If there's at least 1 Defender on your team, increase the party's Basic Attack Power by 40% and Ultimate Skill Power by 20%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Body Cleansing`,
+                    description: `On Basic Attack, increase the party's Regen Rate by 10% (Max 3 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Lupine Lunacy`,
+                    description: `On Attack, increase the party's Attack Power by 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Intense Passion`,
+                    description: `On Attack, increase the party's Damage Output by 5% (Max 5 stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

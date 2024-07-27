@@ -123,56 +123,56 @@ export const SkillSet_10039: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Penetration`,
+                    description: `Deal True Damage to yourself equal to 25% of your Max HP and damage current enemy equal to 505/586/667/748/829% of your Attack Power. (CD:5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Penetration`,
+                    description: `Deal True Damage to yourself equal to 25% of your Max HP and damage current enemy equal to 505% of your Attack Power. (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Penetration`,
+                    description: `Deal True Damage to yourself equal to 25% of your Max HP and damage current enemy equal to 586% of your Attack Power. (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Penetration`,
+                    description: `Deal True Damage to yourself equal to 25% of your Max HP and damage current enemy equal to 667% of your Attack Power. (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Penetration`,
+                    description: `Deal True Damage to yourself equal to 25% of your Max HP and damage current enemy equal to 748% of your Attack Power. (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Penetration`,
+                    description: `Deal True Damage to yourself equal to 25% of your Max HP and damage current enemy equal to 829% of your Attack Power. (CD:5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Blade`,
+                    description: `Deal True Damage to yourself equal to 10% of your Max HP and damage current enemy equal to 120% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Contribution`,
+                    description: `Grant the 2nd and 4th-position ally the following effect: "On Attack, increase Lotiya's Attack Power by 65% of your Attack Power for 1 turn and deal True Damage to yourself equal to 25% of your Max HP."\nOn Attack, Heal allies equal to 15% of your Attack Power.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Sucking`,
+                    description: `When dealing damage, recover HP equal to 33% of the Damage Output.\nOn Basic Attack, increase your Attack Power by 5% (Max 3 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Wall`,
+                    description: `When your HP is below 15% of your Max HP, take 95% less damage.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Revelry`,
+                    description: `On the first turn of each wave, decrease your current Ultimate Skill CD by 5 and decrease your max Ultimate Skill CD by 1.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

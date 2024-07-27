@@ -123,56 +123,56 @@ export const SkillSet_10040: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Damage Target (330/376% Attack Power), target takes 10% more damage from Little Devil Britney (Max 2 Stacks). CD:4\n\nBond 3+: Target takes 10/15/15% more damage from Little Devil Britney (Max 2 Stacks), damage target (422/422/468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Damage Target (330% Attack Power), target takes 10% more damage from Little Devil Britney (Max 2 Stacks). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Damage Target (376% Attack Power), target takes 10% more damage from Little Devil Britney (Max 2 Stacks). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Target takes 10% more damage from Little Devil Britney (Max 2 Stacks), damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Target takes 15% more damage from Little Devil Britney (Max 2 Stacks), damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Target takes 15% more damage from Little Devil Britney (Max 2 Stacks), damage target (468% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tactician Takes Action`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `All Magic is Mine…`,
+                    description: `Increase the party's Attack Power by 40%.\nFreeze your current Ultimate Skill CD and increase your Ultimate Skill Damage by 100%.\n\nWhen a non-Defender ally enters Guard Stance, decrease your current Ultimate Skill CD by 2, increase your Attack Power by 20% of that ally's Attack Power for 2 turns, and increase that ally's Ultimate Skill CD by 1.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Gifted Succubus`,
+                    description: `On Basic Attack, increase your Ultimate Skill Damage by 10% for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Drip`,
+                    description: `On Ultimate Skill, increase Attack Power by 50%. This buff will gradually wear off during the following 4 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Succubus' Secret Plan`,
+                    description: `Deal 35% more damage`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10040: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Damage Target (330/376% Attack Power), target takes 10% more damage from Little Devil Britney (Max 2 Stacks). CD:4\n\nBond 3+: Target takes 10/15/15% more damage from Little Devil Britney (Max 2 Stacks), damage target (422/422/468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Damage Target (330% Attack Power), target takes 10% more damage from Little Devil Britney (Max 2 Stacks). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Damage Target (376% Attack Power), target takes 10% more damage from Little Devil Britney (Max 2 Stacks). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Target takes 10% more damage from Little Devil Britney (Max 2 Stacks), damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Target takes 15% more damage from Little Devil Britney (Max 2 Stacks), damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Magic Cannon`,
+                    description: `Target takes 15% more damage from Little Devil Britney (Max 2 Stacks), damage target (468% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tactician Takes Action`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `All Magic is Mine…`,
+                    description: `Increase the party's Attack Power by 40%.\nFreeze your current Ultimate Skill CD and increase your Ultimate Skill Damage by 100%.\n\nWhen a non-Defender ally enters Guard Stance, decrease your current Ultimate Skill CD by 2 and gain immunity to Ultimate Skill CD change for 1 turn, increase your Attack Power by 20% of that ally's Attack Power for 2 turns, and increase that ally's Ultimate Skill CD by 1.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Gifted Succubus`,
+                    description: `On Basic Attack, increase your Ultimate Skill Damage by 10% for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Drip`,
+                    description: `On Ultimate Skill, increase Attack Power by 50%. This buff will gradually wear off during the following 4 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Succubus' Secret Plan`,
+                    description: `Deal 35% more damage`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

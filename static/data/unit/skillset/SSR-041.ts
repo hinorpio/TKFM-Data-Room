@@ -123,56 +123,56 @@ export const SkillSet_10018: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat and Mouse`,
+                    description: `Give yourself a shield for 1 turn (30/35/40/45/50% Max HP).\nGain taunt for 1 turn.\nReduce your Damage Taken by 20/20/25/25/30% for 1 turn.\nGain the additional ability, "After you attack, deal additional damage to the target (150/190/190/190/230% Base Attack Power)" for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat and Mouse`,
+                    description: `Give yourself a shield for 1 turn (30% Max HP).\nGain taunt for 1 turn.\nReduce your Damage Taken by 20% for 1 turn.\nGain the additional ability, "After you attack, deal additional damage to the target (150% Base Attack Power)" for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat and Mouse`,
+                    description: `Give yourself a shield for 1 turn (35% Max HP).\nGain taunt for 1 turn.\nReduce your Damage Taken by 20% for 1 turn.\nGain the additional ability, "After you attack, deal additional damage to the target (190% Base Attack Power)" for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat and Mouse`,
+                    description: `Give yourself a shield for 1 turn (40% Max HP).\nGain taunt for 1 turn.\nReduce your Damage Taken by 25% for 1 turn.\nGain the additional ability, "After you attack, deal additional damage to the target (190% Base Attack Power)" for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat and Mouse`,
+                    description: `Give yourself a shield for 1 turn (45% Max HP).\nGain taunt for 1 turn.\nReduce your Damage Taken by 25% for 1 turn.\nGain the additional ability, "After you attack, deal additional damage to the target (190% Base Attack Power)" for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat and Mouse`,
+                    description: `Give yourself a shield for 1 turn (50% Max HP).\nGain taunt for 1 turn.\nReduce your Damage Taken by 30% for 1 turn.\nGain the additional ability, "After you attack, deal additional damage to the target (230% Base Attack Power)" for 3 turns. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Live to Fight`,
+                    description: `Damage the target (50% Attack Power) and give yourself a shield for 1 turn (15% Max HP).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Justice and Folly`,
+                    description: `Increase the party's Attack Power by 30%.\nIncrease the party's Max HP by 25%.\nDecrease your Max Ultimate Skill CD by 1.\nIncrease your Basic Attack Damage by 100%.\nIncrease your Ultimate Skill Damage by 40%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ancient Blood`,
+                    description: `Decrease your Damage Taken by 20%.\nIncrease your Recovery Rate by 35%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Empty Advance`,
+                    description: `After you perform a Basic Attack, deal additional damage to the target (150% Base Attack Power).\nAfter your perform your Ultimate Skill, deal additiona damage to the target (375% Base Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `You Die, I Live`,
+                    description: `Increase your Shield Rate by 35%.\nIncrease your Damage Output by 25%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

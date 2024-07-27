@@ -123,56 +123,56 @@ export const SkillSet_10084: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 25/30/35/40/45% for 1 turn, then damage them for 265/298/331/364/397% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 25% for 1 turn, then damage them for 265% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 30% for 1 turn, then damage them for 298% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 35% for 1 turn, then damage them for 331% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 40% for 1 turn, then damage them for 364% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 45% for 1 turn, then damage them for 397% of your Attack Power. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Dodge Roll`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Down, Not Out!`,
+                    description: `Increase the party's Max HP by 40%.\nIncrease the party's Recovery Rate by 80%.\nIncrease the party's Attack Power by 40%.\nDecrease your Max Ultimate Skill CD by 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Roll Some More`,
+                    description: `Decrease your Damage Taken while guarding by 10%.\nWhen Attacked, decrease your Damage Taken by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Chat`,
+                    description: `On Attack, increase your Attack Power by 20% for 3 turns.\nOn Ultimate Skill, gain the effect "Get High!"\n\n"Get High!"\nGet 1000 viewers (Max 20 Stacks)\nGet 100,000 dollars in donations for 20 turns.\nIncrease your Damage Output by 7% (Max 5 Stacks).\nGain the following effect for 3 turns: "On Attack, damage the target (50% Attack Power)."`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Outsider Tactics`,
+                    description: `On Ultimate Skill, damage the target (99.9% Attack Power).\nOn Attack, increase your Ultimate Skill Damage by 10% for 5 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate+`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10084: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 10/15/20/25/35% for 1 turn, then damage them for 265/298/331/364/397% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 10% for 1 turn, then damage them for 265% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 15% for 1 turn, then damage them for 298% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 20% for 1 turn, then damage them for 331% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 25% for 1 turn, then damage them for 364% of your Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Weak Point!!`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 53% for 1 turn, then damage them for 397% of your Attack Power. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Dodge Roll`,
+                    description: `Reduce your Damage Taken by 45% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Down, Not Out!`,
+                    description: `Increase the party's Max HP by 40%, Recovery Rate by 80% and decrease Miru's Max Ultimate Skill CD by 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Roll Some More`,
+                    description: `Increase your Damage Taken by 25% while in Guard Stance.\nOn Basic Attack, increase your Ultimate Skill Damage by 10% for 7 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Chat`,
+                    description: `On Attack, increase your Attack Power by 20% for 3 turns.\nOn Ultimate Skill, gain the effect "Get High!"\n\n"Get High!"\nGet 1000 viewers (Max 20 Stacks)\nGet 100,000 dollars in donations for 20 turns.\nIncrease your Damage Output by 7% (Max 5 Stacks)."`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Outsider Tactics`,
+                    description: `After your Ultimate Skill, deal additional damage to the target by 99.9% Attack Power.\nWhen being attacked, decrease Miru's Damage Taken by 15% for 1 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate+`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

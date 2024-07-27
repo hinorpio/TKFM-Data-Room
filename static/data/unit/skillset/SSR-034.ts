@@ -123,56 +123,56 @@ export const SkillSet_10054: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Steady Steps`,
+                    description: `Heal a maximum of 30/40/40/50/5050% of HP. Gain taunt for 2 turns and enter Guard Stance. Reduce damage dealt to your party by 0/0/0/5/10% for 1 turn (CD:4) [Bond 3+: (CD:3)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Steady Steps`,
+                    description: `Heal a maximum of 30% of HP. Gain taunt for 2 turns and enter Guard Stance. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Steady Steps`,
+                    description: `Heal a maximum of 40% of HP. Gain taunt for 2 turns and enter Guard Stance. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Steady Steps`,
+                    description: `Heal a maximum of 40% of HP. Gain taunt for 2 turns and enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Steady Steps`,
+                    description: `Heal a maximum of 50% of HP. Gain taunt for 2 turns and enter Guard Stance. Reduce damage dealt to your party by 5% for 1 turn (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Steady Steps`,
+                    description: `Heal a maximum of 50% of HP. Gain taunt for 2 turns and enter Guard Stance. Reduce damage dealt to your party by 10% for 1 turn (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Flower Deer Stampede`,
+                    description: `Damage target (50% Attack Power) and enter Guard Stance`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Night Protector`,
+                    description: `On Ultimate Skill, decrease your Damage Taken by 20% for 1 turn\nGive your party the following effect for 50 turns: "Every turn, heal yourself (70% Attack Power)."\nOn the first turn, your 1st, 2nd, and 5th-position allies gain "Miracle Messenger".\n\nMiracle Messenger:\nIncrease your Attack Power by 40% (Max 1 Stack).\nIncrease your Ultimate Skill Damage by 20% (Max 1 Stack).\n\nIncrease your Basic Attack Damage by 40% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Christmas Spirit`,
+                    description: `On Ultimate Skill, trigger "Christmas Yakuza".\n\nChristmas Yakuza:\nDecrease the chance of your 1st and 2nd-position allies being inflicted with Status Effects by 75% for 1 turn.\nIncrease your 1st and 2nd-position allies' Attack Power by 30% for 2 turns.\n\nStatus Effects: Paralysis, Sleep, Silence.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Voice-Controlled Sled`,
+                    description: `On Ultimate Skill, decrease the 1st and 2nd-position ally's Damage Taken by 20% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Reindeer's Blessing`,
+                    description: `Increase your max HP by 10%\nWhen Attacked, heal the party by 100% of your Base Attack Power.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

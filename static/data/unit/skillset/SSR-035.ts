@@ -123,56 +123,56 @@ export const SkillSet_10067: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Secret Sword ‧ Best Wishes`,
+                    description: `Damage target (330/376/422/468/514% Attack Power), target takes 30/40/50/50/50% more damage from all Trigger Abilities (Max 2 Stacks). Increase the Trigger Ability caused by "Peace of Mind" by 0/0/0/1/2 stacks (CD: 4).`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Secret Sword ‧ Best Wishes`,
+                    description: `Damage Target (330% Attack Power), target takes 30% more damage from all Trigger Abilities (Max 2 Stacks). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Secret Sword ‧ Best Wishes`,
+                    description: `Damage Target (376% Attack Power), target takes 40% more damage from all Trigger Abilities (Max 2 Stacks). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Secret Sword ‧ Best Wishes`,
+                    description: `Damage Target (422% Attack Power), target takes 50% more damage from all Trigger Abilities (Max 2 Stacks). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Secret Sword ‧ Best Wishes`,
+                    description: `Damage target (468% Attack Power), target takes 50% more damage from all Trigger Abilities (Max 2 Stacks). Increase the Trigger Ability caused by "Peace of Mind" by 1 stack (CD: 4).`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Secret Sword ‧ Best Wishes`,
+                    description: `Damage target (514% Attack Power), target takes 50% more damage from all Trigger Abilities (Max 2 Stacks). Increase the Trigger Ability caused by "Peace of Mind" by 2 stacks (CD: 4).`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `True Moon Reflection`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Uncanny Blade`,
+                    description: `On the first turn of each wave, trigger the following effect: All enemies take 100% more damage from all Triggered Abilities for 50 turns.\nIncrease party's max HP by 15% and Attack Power by 50%.\nOn the first turn, trigger the following effect: "Allied Attacker, Protector, and Obstructer gain Ultimate Skill: Inheritance"\n\nUltimate Skill: Inheritance\nOn Basic Attack, trigger the following effect: Perform follow-up attacks on your target by 45% of your Attack Power for 50 turns.\nOn Ultimate Skill, trigger the following effect: Perform follow-up attacks on your target by 135% of your Attack Power for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill: Double Paddle`,
+                    description: `On Basic Attack, trigger the following effect: Perform follow-up attacks on your target by 60% of your Attack Power\nOn Ultimate Skill, trigger the following effect: Perform follow-up attacks on your target by 180% of your Attack Power`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Peace of Mind`,
+                    description: `Every turn, trigger the following effect: Increase the effect of Trigger Ability by 10% (Max 10 Stacks).\nOn Ultimate Skill, trigger the following effect: Decrease the Trigger Ability caused by "Peace of Mind" by 2 stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Focus`,
+                    description: `Increase the effect of your Trigger Ability by 50%.\nOn Attack, trigger the following effect: Target takes 12.5% more damage from all Trigger Abilities (Max 4 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Trigger +`,
+                    description: `Increase the effect of your Trigger Ability by 30%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

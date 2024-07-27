@@ -123,56 +123,56 @@ export const SkillSet_10053: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Large Christmas Goodie Bag`,
+                    description: `Your party receives "every turn heal equal to 69/73/76/80/88% of your Attack Power for 5 turns"; "Gain a shield equal to 50/55/55/60/60% of max HP for 1 turn"; increase Attack Power by 10/15/15/20/20% for 3 turns [Bond 5: 4 turns] (CD:5) [Bond 3+: (CD:4)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Large Christmas Goodie Bag`,
+                    description: `Your party receives "every turn heal equal to 69% of your Attack Power for 5 turns"; "Gain a shield equal to 50% of max HP for 1 turn"; increase Attack Power by 10% for 3 turns (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Large Christmas Goodie Bag`,
+                    description: `Your party receives "every turn heal equal to 73% of your Attack Power for 5 turns"; "Gain a shield equal to 55% of max HP for 1 turn"; increase Attack Power by 15% for 3 turns (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Large Christmas Goodie Bag`,
+                    description: `Your party receives "every turn heal equal to 76% of your Attack Power for 5 turns"; "Gain a shield equal to 55% of max HP for 1 turn"; increase Attack Power by 15% for 3 turns (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Large Christmas Goodie Bag`,
+                    description: `Your party receives "every turn heal equal to 80% of your Attack Power for 5 turns"; "Gain a shield equal to 60% of max HP for 1 turn"; increase Attack Power by 20% for 3 turns (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Large Christmas Goodie Bag`,
+                    description: `Your party receives "every turn heal equal to 88% of your Attack Power for 5 turns"; "Gain a shield equal to 60% of max HP for 1 turn"; increase Attack Power by 20% for 4 turns (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Candy & Cookies`,
+                    description: `Heal party equal to 75% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dwarf Queen's Christmas Cheer`,
+                    description: `Increase your Attack Power by 100%.\nOn the first turn, your party's Attackers gain "Caesar's Special Menu" for 50 turns.\n\nCaesar's Special Menu:\nOn Basic Attack, increase your Ultimate Skill Damage by 15% (Max 2 Stacks).\n\nOn Ultimate Skill, increase your Basic Attack Damage by 50% (Max 1 Stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Speedy Sled`,
+                    description: `On Attack, increase the party's Attack Power by 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sweet Delicious Treats`,
+                    description: `On the first turn, increase the 1st-position ally's Heal Output by 20% (Max 1 Stack), Regen Output by 20% (Max 1 Stack), and Shield Output by 20% (Max 1 Stack).\n\nOn your first turn, increase the 5th-position ally's Attack Power by 20% (Max 1 Stack), Ultimate Skill Damage by 10% (Max 1 Stack), and Basic Attack Damage by 20% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `We're Protectors of Christmas!`,
+                    description: `On your first turn, increase your party's Attackers and Healers' Ultimate Skill Damage by 25% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

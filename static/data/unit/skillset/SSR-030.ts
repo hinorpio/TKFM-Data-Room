@@ -123,56 +123,56 @@ export const SkillSet_10059: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Phantom Killer`,
+                    description: `Increase Attack Power by 20/20/25/25/30% for 3 turns. Damage target (205/226/247/268/289% Attack Power). CD:2`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Phantom Killer`,
+                    description: `Increase Attack Power by 20% for 3 turns. Damage target (205% Attack Power). CD:2`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Phantom Killer`,
+                    description: `Increase Attack Power by 20% for 3 turns. Damage target (226% Attack Power). CD:2`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Phantom Killer`,
+                    description: `Increase Attack Power by 25% for 3 turns. Damage target (247% Attack Power). CD:2`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Phantom Killer`,
+                    description: `Increase Attack Power by 25% for 3 turns. Damage target (268% Attack Power). CD:2`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Phantom Killer`,
+                    description: `Increase Attack Power by 30% for 3 turns. Damage target (289% Attack Power). CD:2`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Roundhouse Kick`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dancing Genius`,
+                    description: `Increase the party's Attack Power by 20%.\nOn Attack, increase the party's Attack Power by 8% for 2 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Rising Star`,
+                    description: `On Basic Attack, increase your Ultimate Skill Damage by 5% (Max 4 Stacks), then trigger "Silver Wind" for 2 turns.\n\nSilver Wind:\nOn Ultimate Skill, do additional damage to the target (75% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Explosive Potential`,
+                    description: `On Ultimate Skill, increase your Basic Attack Damage by 5% (Max 4 Stacks), then trigger "Phantom Wind" for 2 turns.\n\nPhantom Wind:\nOn Basic Attack, deal additional damage to the target (20% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The Pioneer`,
+                    description: `Increase Ultimate Skill Damage by 50%.\nOn Ultimate Skill, all other allies gain "Surmountable Barrier" for 2 turns.\n\n"Surmountable Barrier"\nOn Attack, increase the party's Ultimate Skill Damage by 5% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

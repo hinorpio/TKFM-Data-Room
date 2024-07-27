@@ -123,56 +123,56 @@ export const SkillSet_10045: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Tipsy Sleevesy`,
+                    description: `Increase Attack Power by 75/87.5/87.5/100/112.5% for 1 turn and deal 0/0/15/20/25% more damage for 1 turn. (CD:1)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tipsy Sleevesy`,
+                    description: `Increase Attack Power by 75% for 1 turn. (CD:1)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Tipsy Sleevesy`,
+                    description: `Increase Attack Power by 87.5% for 1 turn. (CD:1)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Tipsy Sleevesy`,
+                    description: `Increase Attack Power by 87.5% for 1 turn and deal 15% more damage for 1 turn. (CD:1)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Tipsy Sleevesy`,
+                    description: `Increase Attack Power by 100% for 1 turn and deal 20% more damage for 1 turn. (CD:1)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Tipsy Sleevesy`,
+                    description: `Increase Attack Power by 112.5% for 1 turn and deal 25% more damage for 1 turn. (CD:1)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlit Reflection`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Vanity Dance`,
+                    description: `When there are 3 or more Attackers on your team, increase party's Attack Power by 30%; when there are 3 or more Fire characters on your team, increase party's Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Oni's Laugh`,
+                    description: `On Basic Attack, gain the following effect for 7 turns: "On Ultimate Skill, perform an additional Attack on the target (60.5% Attack Power)."`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Wine Gourd`,
+                    description: `After every turn, gain 1 stack of "Wine Gourd" (Max 6 Stacks).\nOn Ultimate Skill, remove 2 stacks of Wine Gourd.\n\nWine Gourd:\nEach stack of Wine Gourd increases your Attack Power by 15%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Oni Sakura`,
+                    description: `Increase Ultimate Skill Power by 35%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

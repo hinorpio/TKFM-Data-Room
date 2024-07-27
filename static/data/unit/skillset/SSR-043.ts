@@ -123,56 +123,56 @@ export const SkillSet_10020: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Electromagnetic Pulse`,
+                    description: `Damage the target (265/298/311/364/397% Attack Power), and lower all enemies' Damage Output by 5/5/7.5/7.5/15% (Max [3/3/2/2/1] Stacks). CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Electromagnetic Pulse`,
+                    description: `Damage the target (265% Attack Power), and lower all enemies' Damage Output by 5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Electromagnetic Pulse`,
+                    description: `Damage the target (298% Attack Power), and lower all enemies' Damage Output by 5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Electromagnetic Pulse`,
+                    description: `Damage the target (331% Attack Power), and lower all enemies' Damage Output by 7.5% (Max 2 Stacks). CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Electromagnetic Pulse`,
+                    description: `Damage the target (364% Attack Power), and lower all enemies' Damage Output by 7.5% (Max 2 Stacks). CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Electromagnetic Pulse`,
+                    description: `Damage the target (397% Attack Power), and lower all enemies' Damage Output by 15% (Max 1 Stacks). CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Gadget Arm`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Some Modifications... Muhuh...`,
+                    description: `Increase the party's Attack Power by 40%.\nOn your first turn, give the 2nd and 4th-position allies "Power Play" for 50 turns.\n\nPower Play:\nIncrease your Ultimate Skill Damage by 30%.\nIncrease your Basic Attack Damage by 60%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Rebirth Atomizer`,
+                    description: `On Ultimate Skill, reduce the target's Recovery Rate by 100% for 3 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crooked Forcefield`,
+                    description: `On Ultimate Skill, give the party a shield for 1 turn (30% Max HP).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Devil Reformation`,
+                    description: `After every 4 turns, increase the 2nd and 4th-position allies' Ultimate Skill Damage by 50% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack +`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

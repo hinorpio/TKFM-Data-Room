@@ -123,56 +123,56 @@ export const SkillSet_10052: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Annihilation`,
+                    description: `Damage target (475/550/625/700/775% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Annihilation`,
+                    description: `Damage target (475% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Annihilation`,
+                    description: `Damage target (550% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Annihilation`,
+                    description: `Damage target (625% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Annihilation`,
+                    description: `Damage target (700% Attack Power) (CD: 5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Annihilation`,
+                    description: `Damage target (775% Attack Power) (CD: 5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Kill Resisters!`,
+                    description: `Damage target (125% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Xmas Reaper`,
+                    description: `Increase max HP by 50%.\nIncrease all Dark allies' Attack Power by 20%.\n\nIf Xmas Dwarf Queen Lana is in your party, make her "Succumb to Fear" for 50 rounds, then trigger Dark Christmas Aiko's "Spiralling Insanity".\nIf Xmas Reindeer Evie is in your party, make her "Succumb to Fear" for 50 rounds, then trigger Dark Christmas Aiko's "Spiralling Insanity".\n\nSpiralling Insanity:\nIncreases your Damage Output by 50%.\nIncrease all Dark allies' Attack Power by 25%.\n\nSuccumb to Fear:\nOn the first turn, whoever "succumbs to fear" increases Dark Christmas Aiko's Attack Power by 100% of their own Attack Power. Then, their Ultimate Skill CD stops counting down for 5 turns, and their Max Ultimate Skill CD increases by 2.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Screw Reindeer`,
+                    description: `On Basic Attack, increase the target's Damage Taken by Ultimate Skills by 5% (Max 4 Stacks)\nWhen Xmas Reindeer Evie is in your party, trigger "Death to Reindeers".\n\n"Death to Reindeers"\nOn Attack, Deal True Damage to all other allies equal to 10% of their max HP.\nOn Basic Attack, increase the target's Damage Taken by Dark Attack by 5% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Screw Christmas`,
+                    description: `On Basic Attack, increase Basic Attack dealt to enemy by 5% (Max 4 Stacks)\nWhen Xmas Dwarf Queen Lana is in your party, activate "Destroy Christmas".\n\n"Destroy Christmas"\nOn attack, deal True Damage to all allies equal to 10% of their max HP.\nOn Basic Attack, increase Dark Christmas Aiko's damage to target by 6% (Max 5 Stacks)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Christmas`,
+                    description: `Increase Basic Attack damage by 50%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

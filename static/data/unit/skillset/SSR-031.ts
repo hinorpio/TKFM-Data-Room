@@ -123,56 +123,56 @@ export const SkillSet_10083: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 40/45/50/50/50% of your Attack Power for 1 turn, and increase Party's Attack Power by 0/0/10/15/20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 40% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 45% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 50% of your Attack Power for 1 turn, and increase Party's Attack Power by 10% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 50% of your Attack Power for 1 turn, and increase Party's Attack Power by 15% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 50% of your Attack Power for 1 turn, and increase Party's Attack Power by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Make Everyone Comfy~`,
+                    description: `Heal party equal to 50% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `The More the Merrier`,
+                    description: `Increase the party's Attack Power by 30%.\nOn Ultimate Skill, trigger "Mad Sucking" for 2 turns.\nOn Ultimate Skill, trigger "Let Me Cum~" for 1 turn.\ntrigger "Walking On Air".\n\nMad Sucking:\nAfter a Basic Attack, perform 3 additional Attacks on the target (50% Attack Power each).\n\nLet Me Cum~:\nAfter another ally performs an Ultimate Skill, increase Sakuya Yume's Attack Power by 50% of their Attack Power for 2 turns.\n\nWalking On Air:\nEach stack of Walking On Air increases your Attack Power by 10% (Max 7 Stacks).\nOn Basic Attack, gain 1 stack.\nOn Ultimate Skill, lose all stacks.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `High Speed Sucking`,
+                    description: `On Ultimate Skill, trigger "Nonstop Sucking" for 2 turns.\n\nNonstop Sucking:\nAfter a Basic Attack, perform 3 additional Attacks (50% Attack Power each).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fucking Awesome`,
+                    description: `One stack of "Fucking Awesome" increases your Attack Power by 10% (Max 7 Stacks).\nOn Basic Attack, gain 1 stack.\nOn Ultimate Skill, remove all stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Unstoppable Hands`,
+                    description: `When entering Guard Stance, heal the party equal to 50% of your Attack Power. Gain 3 stacks of "Fucking Awesome" and "Walking On Air".`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

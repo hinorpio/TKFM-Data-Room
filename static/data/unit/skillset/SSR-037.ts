@@ -123,56 +123,56 @@ export const SkillSet_10072: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `The Bouquet is Mine`,
+                    description: `Increase your Attack Power by 40/40/45/45/50% for 1 turns.\nIncrease the 2nd-position ally's Attack Power by 65/65/70/70/75% of your own Attack Power for 1 turn.\nIncrease the 2nd-position ally's Basic Attack Damage by 80/90/90/100/100% for 2 turns.\nIncrease the 2nd-position ally's Ultimate Skill Damage by 30/35/35/40/40% for 1 turns. (CD: 4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `The Bouquet is Mine`,
+                    description: `Increase your Attack Power by 40% for 1 turns.\nIncrease the 2nd-position ally's Attack Power by 65% of your own Attack Power for 1 turn.\nIncrease the 2nd-position ally's Basic Attack Damage by 80% for 2 turns.\nIncrease the 2nd-position ally's Ultimate Skill Damage by 30% for 1 turns. (CD: 4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `The Bouquet is Mine`,
+                    description: `Increase your Attack Power by 40% for 1 turns.\nIncrease the 2nd-position ally's Attack Power by 65% of your own Attack Power for 1 turn.\nIncrease the 2nd-position ally's Basic Attack Damage by 90% for 2 turns.\nIncrease the 2nd-position ally's Ultimate Skill Damage by 35% for 1 turns. (CD: 4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The Bouquet is Mine`,
+                    description: `Increase your Attack Power by 45% for 1 turns.\nIncrease the 2nd-position ally's Attack Power by 70% of your own Attack Power for 1 turn.\nIncrease the 2nd-position ally's Basic Attack Damage by 90% for 2 turns.\nIncrease the 2nd-position ally's Ultimate Skill Damage by 35% for 1 turns. (CD: 4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `The Bouquet is Mine`,
+                    description: `Increase your Attack Power by 45% for 1 turns.\nIncrease the 2nd-position ally's Attack Power by 70% of your own Attack Power for 1 turn.\nIncrease the 2nd-position ally's Basic Attack Damage by 100% for 2 turns.\nIncrease the 2nd-position ally's Ultimate Skill Damage by 40% for 1 turns. (CD: 4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `The Bouquet is Mine`,
+                    description: `Increase your Attack Power by 50% for 1 turns.\nIncrease the 2nd-position ally's Attack Power by 75% of your own Attack Power for 1 turn.\nIncrease the 2nd-position ally's Basic Attack Damage by 100% for 2 turns.\nIncrease the 2nd-position ally's Ultimate Skill Damage by 40% for 1 turns. (CD: 4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `hrow the Bouquet`,
+                    description: `Increase the 2nd-position ally's Attack Power by 75% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Mind Games`,
+                    description: `Increase your Attack Power by 80%, Damage Output by 30%, Basic Attack Damage by 125%, and Ultimate Skill Damage by 50%.\nOn the first turn, trigger "Confess to Ba'al" for 50 turns.\n\nConfess to Ba'al:\nAfter your Basic Attack, deal additional damage to the target (125% Attack Power).\nAfter your Ultimate Skill, deal additional damage to the target (500% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Alley Oop`,
+                    description: `On the first turn, increase the 2nd-position ally's Damage Output by 25%, and decrease the 4th-position ally's Damage Taken by 20% for 50 turns. Reduce your current Ultimate Skill CD by 4.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Reception Interception`,
+                    description: `After every turn, gain 1 stack of "Intercepted!" (Max 8 Stacks).\n\nIntercepted!:\nIncrease your Attack Power by 15% (Max 8 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Weddings Wars`,
+                    description: `After every 2 turns, increase the amount of stacks of "Intercepted!" gained by "Reception Interception" by 1.\nAfter every turn, increase your Attack Power by 35% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

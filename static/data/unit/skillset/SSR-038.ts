@@ -123,56 +123,56 @@ export const SkillSet_10081: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Militant Love`,
+                    description: `Damage the target (388/445/503/560/618% Attack Power). (CD: 4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Militant Love`,
+                    description: `Damage the target (388% Attack Power). (CD: 4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Militant Love`,
+                    description: `Damage the target (445% Attack Power). (CD: 4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Militant Love`,
+                    description: `Damage the target (503% Attack Power). (CD: 4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Militant Love`,
+                    description: `Damage the target (560% Attack Power). (CD: 4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Militant Love`,
+                    description: `Damage the target (618% Attack Power). (CD: 4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Rosey Bride`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Harem Honcho`,
+                    description: `After your Basic Attack, perform an additional attack on all enemies (50% Attack Power).\nGrant all Water and Light allies "Yes to the Dress" for 50 turns.\n\nYes to the Dress:\nIncrease your Attack Power by 70%\nOn Ultimate Skill, increase the target's Damage Taken from triggered attacks by 20% (Max 5 Stacks).\nOn Basic Attack, increase the target's Damage Taken from Ultimate Skills by 2% (Max 25 Stacks).\nOn Basic Attack, increase the target's Damage Taken from Water attacks by 5% (Max 4 Stacks).\nOn Basic Attack, increase the target's Damage Taken from Light attacks by 5% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Wedding AI`,
+                    description: `After your Ultimate Skill, perform an additional attack on the target (120% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Mecha Matromony`,
+                    description: `After every turn, increase your Ultimate Skill Damage by 3% (Max 33 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Z Type`,
+                    description: `On Basic Attack, cause the target to take 5% more damage from Water attacks (Max 3 Stacks).\nOn Basic Attack, cause the target to take 5% more damage from Light attacks (Max 3 Stacks).\nAfter your Ultimate Skill, perform an additional attack on the target (150% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

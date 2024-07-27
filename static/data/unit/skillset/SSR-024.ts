@@ -123,56 +123,56 @@ export const SkillSet_10058: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlight Howling`,
+                    description: `Damage current enemy (200% Attack Power) and increase Basic Attack Power by 96/118/141/163/186% for 6 turns. (CD:8)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlight Howling`,
+                    description: `Damage current enemy (200% Attack Power) and increase Basic Attack Power by 96% for 6 turns. (CD:8)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlight Howling`,
+                    description: `Damage current enemy (200% Attack Power) and increase Basic Attack Power by 118% for 6 turns. (CD:8)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlight Howling`,
+                    description: `Damage current enemy (200% Attack Power) and increase Basic Attack Power by 141% for 6 turns. (CD:8)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlight Howling`,
+                    description: `Damage current enemy (200% Attack Power) and increase Basic Attack Power by 163% for 6 turns. (CD:8)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Moonlight Howling`,
+                    description: `Damage current enemy (200% Attack Power) and increase Basic Attack Power by 186% for 6 turns. (CD:8)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Lupine Lunge`,
+                    description: `Damage current enemy (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Bag-Wolf's Journey`,
+                    description: `Increase your Basic Attack Power by 20% and the party's Basic Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Adrenaline`,
+                    description: `On the first turn, decrease your current Ultimate Skill CD by 6.\nOn Ultimate Skill, gain immunity to CD changes for 8 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Triple Paw Strike`,
+                    description: `On Ultimate Skill, gain the following effect for 6 turns: "After a Basic Attack, deal additional damage to the 1st, 2nd, and 5th-position enemy (30% Attack Power). (If there are no enemies in the positions above, random enemies will be selected)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Complete Madness`,
+                    description: `On Ultimate Skill, increase your Damage Output by 20% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
