@@ -123,56 +123,56 @@ export const SkillSet_10092: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Dog`,
+                    description: `Increase your Ultimate Skill Damage by 10/10/12.5/12.5/15% for 12 turns, then damage the 2nd, 3rd, and 4th-position target by 116/132/149/165/182% of your Attack Power. CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Dog`,
+                    description: `Increase your Ultimate Skill Damage by 10% for 12 turns, then damage the 2nd, 3rd, and 4th-position target by 116% of your Attack Power. CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Dog`,
+                    description: `Increase your Ultimate Skill Damage by 10% for 12 turns, then damage the 2nd, 3rd, and 4th-position target by 132% of your Attack Power. CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Dog`,
+                    description: `Increase your Ultimate Skill Damage by 12.5% for 12 turns, then damage the 2nd, 3rd, and 4th-position target by 149% of your Attack Power. CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Dog`,
+                    description: `Increase your Ultimate Skill Damage by 12.5% for 12 turns, then damage the 2nd, 3rd, and 4th-position target by 165% of your Attack Power. CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Mad Dog`,
+                    description: `Increase your Ultimate Skill Damage by 15% for 12 turns, then damage the 2nd, 3rd, and 4th-position target by 182% of your Attack Power. CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Surf`,
+                    description: `Damage the 2nd, 3rd, and 4th-position target by 40% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `The Legendary Protoge'`,
+                    description: `Increase the party's Attack Power by 50% and reduce Damage Taken by 15%.\nGain "Paddle Out" and "Surf".\n\nPaddle Out:\nAfter every 3 turns, increase your Damage Output by 125% for 1 turn, and increase the enemy party's Damage Taken by 50% for 1 turn.\n\nSurf:\nAfter every 6 turns, increase your Ultimate Skill Damage by 125% for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Just Breathe...`,
+                    description: `When your HP is above 75%, increase your Attack Power by 50%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Undertow`,
+                    description: `On Ultimate Skill, damage the 2nd, 3rd, and 4th-position targets (30% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Early Bird`,
+                    description: `On the 4th turn, increase your Attack Power by 40% for 50 turns.\nOn the 7th turn, increase your Attack Power by 80% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

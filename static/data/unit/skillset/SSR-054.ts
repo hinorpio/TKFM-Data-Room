@@ -123,56 +123,56 @@ export const SkillSet_10085: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Jade Smile`,
+                    description: `Heal the party for 165/188/211/234/257% of your Attack Power, then reduce your Damage Taken by 10/12.5/12.5/15/17.5% for 2 turns. Increase your Attack Power by 20/25/25/30/35% for [3/3/4/4/4] turns and Basic Attack Damage by 30/30/40/40/50% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Jade Smile`,
+                    description: `Heal the party for 165% of your Attack Power, then reduce your Damage Taken by 10% for 1 turn. Increase your Attack Power by 20% for 3 turns and Basic Attack Damage by 30% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Jade Smile`,
+                    description: `Heal the party for 188% of your Attack Power, then reduce your Damage Taken by 12.5% for 1 turn. Increase your Attack Power by 25% for 3 turns and Basic Attack Damage by 30% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Jade Smile`,
+                    description: `Heal the party for 211% of your Attack Power, then reduce your Damage Taken by 12.5% for 2 turns. Increase your Attack Power by 25% for 4 turns and Basic Attack Damage by 40% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Jade Smile`,
+                    description: `Heal the party for 234% of your Attack Power, then reduce your Damage Taken by 15% for 2 turns. Increase your Attack Power by 30% for 4 turns and Basic Attack Damage by 40% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Jade Smile`,
+                    description: `Heal the party for 257% of your Attack Power, then reduce your Damage Taken by 17.5% for 2 turns. Increase your Attack Power by 35% for 4 turns and Basic Attack Damage by 50% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Dancing Sleeves`,
+                    description: `Heal the party for 75% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Falling Pedals`,
+                    description: `Increase all party members' Max HP by 35%, and increase their Recovery Rate by 25%.\nWhen Fire and Dark allies are healed, increase their Ultimate Skill Damage by 7.5% and Basic Attack Damage by 10% for 2 turns. (Can't be activated by triggered healing effects)\nWhen a Dark or Fire ally performs a Basic Attack or Ultimate Skill, they then heal the party for 5% of their Attack Power.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Laugh from a Goddess`,
+                    description: `On the first turn, give the party "Drunken Stupor".\n\nDrunken Stupor:\nWhen healed, increase your Attack Power by 12.5% for 2 turns. (Can't be activated by triggered healing effects)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Faint Whispers`,
+                    description: `On the first turn, give the party "The Color of Spring".\n\nThe Color of Spring:\nWhen healed, increase your Damage Output by 5% for 2 turns. (Can't be activated by triggered healing effects)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lost Oiran`,
+                    description: `On the first turn, increase your Heal Rate by 25% (Max 1 Stack).\nOn the first turn, increase the party's Recovery Rate by 12.5% (Max 1 Stack) and decrease Damage Taken from Damage Over Time effects by 30% (Max 1 Stack).\nOn Attack, reduce the current lowest-HP ally's Damage Taken by 20% for 1 turn, then heal them for 15% of your Attack Power.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

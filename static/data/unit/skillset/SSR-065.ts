@@ -123,56 +123,56 @@ export const SkillSet_10062: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `13% Off Special`,
+                    description: `Heal all allies for 165/188/211/234/257% of your Attack Power, then heal all allies each turn for 69/73/76/80/88% of your Attack Power for 4 turns. Increase all allies' Ultimate Skill Damage by 10/15/20/25/30% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `13% Off Special`,
+                    description: `Heal all allies for 165% of your Attack Power, then heal all allies each turn for 69% of your Attack Power for 4 turns. Increase all allies' Ultimate Skill Damage by 10% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `13% Off Special`,
+                    description: `Heal all allies for 188% of your Attack Power, then heal all allies each turn for 73% of your Attack Power for 4 turns. Increase all allies' Ultimate Skill Damage by 15% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `13% Off Special`,
+                    description: `Heal all allies for 211% of your Attack Power, then heal all allies each turn for 76% of your Attack Power for 4 turns. Increase all allies' Ultimate Skill Damage by 20% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `13% Off Special`,
+                    description: `Heal all allies for 234% of your Attack Power, then heal all allies each turn for 80% of your Attack Power for 4 turns. Increase all allies' Ultimate Skill Damage by 25% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `13% Off Special`,
+                    description: `Heal all allies for 257% of your Attack Power, then heal all allies each turn for 88% of your Attack Power for 4 turns. Increase all allies' Ultimate Skill Damage by 30% for 1 turn. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Penny Pincher`,
+                    description: `Heal all allies for 75% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Merchant Mojo`,
+                    description: `Increase all allies' Max HP by 30%.\nIncrease all allies' Attack Power by 30%.\nOn Ultimate Skill, increase all allies' Attack Power by 30% for 1 turn.\nOn your first turn, trigger "Buy Low Sell High" for 50 turns.\n\nBuy Low Sell High:\nGive all allies except yourself the following effect: "On Attack, increase Foreign Merchant Sherana's Attack Power by 3% (Max 15 Stacks)"\nGive all allies except yourself the following effect: "On Attack, increase Foreign Merchant Sherana's Heal Rate by 2% (Max 15 Stacks)."`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Intel is Everything`,
+                    description: `On Attack, increase all allied Attackers' Attack Power by 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Now in Stock!`,
+                    description: `On Basic Attack, give the lowest-HP ally a shield equal to 20% of the target's Max HP for 1 turn.\nOn Basic Attack, heal the lowest-HP ally for 40% of your Attack Power.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Limited Time VIP Gold Member Card`,
+                    description: `On the first turn, give all other allies "First Come First Serve"\n\nFirst Come First Serve:\nWhen Guarding, increase your Ultimate Skill Damage by 15% (Max 1 Stack) for 1 turn.\nWhen Guarding, increase your Damage Output by 15% (Max 1 Stack) for 1 turn.\nWhen Guarding, increase your Attack Power by 30% (Max 1 Stack) for 1 turn.\nWhen Guarding, trigger "Sherana's VIP Membership Card" for 1 turn.\nWhen Guarding, remove effects granted by "First Come First Serve" from all other allies for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage Reduction+`,
+                    description: `Reduce Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

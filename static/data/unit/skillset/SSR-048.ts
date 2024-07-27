@@ -123,56 +123,56 @@ export const SkillSet_10100: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime desu!`,
+                    description: `Damage the target 10 times (33/37.6% Attack Power), and increase your damage output by 10/12.5% for 4 turns. CD: 4\n\nBond 3+: Increase your damage output by 15/17.5/20% for 4 turns, and damage the target 10 times (42.2/46.8/51.4% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime desu!`,
+                    description: `Damage the target 10 times (33% Attack Power), and increase your damage output by 10% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime desu!`,
+                    description: `Damage the target 10 times (37.6% Attack Power), and increase your damage output by 12.5% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime desu!`,
+                    description: `Increase your damage output by 15% for 4 turns, and damage the target 10 times (42.2% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime desu!`,
+                    description: `Increase your damage output by 17.5% for 4 turns, and damage the target 10 times (46.8% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime desu!`,
+                    description: `Increase your damage output by 20% for 4 turns, and damage the target 10 times (51.4% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagi Punch!!`,
+                    description: `Damage the target (125% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagi Nation`,
+                    description: `Increase the party's Attack Power by 30%.\nOn Ultimate Skill, increase your Attack Power by 50% (Max 4 Stacks).\nOn the first turn, reduce the party's Ultimate Skill CD by 2.\nAll allied Attackers, Defenders, and Obstructers gain "Ugi Ugi Ugi!"\n\nUgi Ugi Ugi:\nIncrease your Basic Attack Damage by 60%.\nOn Basic Attack, deal additional damage to the target 3 times (20% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Oppai Unlimited!!`,
+                    description: `On Basic Attack, deal additional damage to the target 6 times (10% Attack Power).\nOn Basic Attack, increase the party's Basic Attack Damage by 15% (Max 3 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `N... No way!`,
+                    description: `On Basic Attack, reduce the target's Recovery Rate by 50% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Go! Usagi-berus!`,
+                    description: `After every turn, increase all enemies' Damage Taken from Basic Attacks by 20% (Max 5 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

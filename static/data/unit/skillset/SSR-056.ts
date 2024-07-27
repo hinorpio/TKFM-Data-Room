@@ -123,56 +123,56 @@ export const SkillSet_10089: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Protect You, Big Sis`,
+                    description: `Give yourself a Shield for 40/45/50/55/60% of your Max HP for 1 turn, gain Taunt for 1 turn, and increase the target's Damage Taken by Fire and Water attacks by 14/18/22/26/30% for 2 turns. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Protect You, Big Sis`,
+                    description: `Give yourself a Shield for 40% of your Max HP for 1 turn, gain Taunt for 1 turn, and increase the target's Damage Taken by Fire and Water attacks by 14% for 2 turns. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Protect You, Big Sis`,
+                    description: `Give yourself a Shield for 45% of your Max HP for 1 turn, gain Taunt for 1 turn, and increase the target's Damage Taken by Fire and Water attacks by 18% for 2 turns. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Protect You, Big Sis`,
+                    description: `Give yourself a Shield for 50% of your Max HP for 1 turn, gain Taunt for 1 turn, and increase the target's Damage Taken by Fire and Water attacks by 22% for 2 turns. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Protect You, Big Sis`,
+                    description: `Give yourself a Shield for 55% of your Max HP for 1 turn, gain Taunt for 1 turn, and increase the target's Damage Taken by Fire and Water attacks by 26% for 2 turns. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Protect You, Big Sis`,
+                    description: `Give yourself a Shield for 60% of your Max HP for 1 turn, gain Taunt for 1 turn, and increase the target's Damage Taken by Fire and Water attacks by 30% for 2 turns. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sweet Nothings`,
+                    description: `Damage the target for 50% Attack Power, then heal yourself and Red Qixi Asida for 50% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `A Professional Manager`,
+                    description: `Increase the party's Max HP by 30%.\nIncrease the party's Attack Power by 40%.\nIncrease your Max HP by 40%.\nReduce Red Qixi Asida and your Damage Taken by 20%.\nIncrease Red Qixi Asida and your Shield Rate by 30%.\nIncrease Red Qixi Asida and your Recovery Rate by 30%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `A Friendly Space`,
+                    description: `On Basic Attack, give the party a Shield equal to 10% of your Max HP for 1 turn.\nOn Basic Attack, give Red Qixi Asida a Shield equal to 10% of your Max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `The Heavenly Weaver`,
+                    description: `On Ultimate Skill, reduce your Damage Taken by 30% for 2 turns.\nOn Ultimate Skill, reduce Red Qixi Asida's Damage Taken by 30% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Separated by the Stars`,
+                    description: `Give all Water and Fire party members "Woven by Fate"\nWhen Red Qixi Asida is in the party and alive, give all Water and Fire party members "Tailored by Fate"\n\n"Woven by Fate"\nOn Attack, increase the target's Damage Taken by Fire and Water attacks by 1.5% (Max 7 Stacks).\nOn Attack, increase your Damage Output by 1.5% (Max 7 Stacks).\nOn Attack, increase your Ultimate Skill Damage by 1.5% (Max 7 Stacks).\n\n"Tailored by Fate"\nOn Attack, increase your Damage Output by 1.5% (Max 7 Stacks).\nOn Attack, increase your Ultimate Skill Damage by 1.5% (Max 7 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Reduce Damage+`,
+                    description: `Decrease your Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

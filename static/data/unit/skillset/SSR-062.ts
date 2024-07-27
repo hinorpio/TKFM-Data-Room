@@ -123,56 +123,56 @@ export const SkillSet_10047: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard Star`,
+                    description: `Increase the target's Damage Taken by 15/15/20/20/25% (Max 1 Stack), and damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard Star`,
+                    description: `Increase the target's Damage Taken by 15% (Max 1 Stack), and damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard Star`,
+                    description: `Increase the target's Damage Taken by 15% (Max 1 Stack), and damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard Star`,
+                    description: `Increase the target's Damage Taken by 20% (Max 1 Stack), and damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard Star`,
+                    description: `Increase the target's Damage Taken by 20% (Max 1 Stack), and damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard Star`,
+                    description: `Increase the target's Damage Taken by 25% (Max 1 Stack), and damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind Dagger`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Rabbit from a Hat`,
+                    description: `Increase Wind allies' Attack Power by 80%.\nIncrease Wind allies' Basic Attack Damage by 60%.\nIncrease Wind allies' Ultimate Skill Damage by 30%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blizzard! Obey Me!`,
+                    description: `Increase your Ultimate Skill Damage by 20%.\nOn Ultimate Skill, damage the target (50% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Gale Shield`,
+                    description: `When Guarding, reduce the party's Damage Taken by 20% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Battlemage`,
+                    description: `Increase your Damage Output by 10%.\nOn Ultimate Skill, damage the target (50% Attack Power).\nAfter every four turns, increase all enemies' Damage Taken from Wind attacks by 25% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

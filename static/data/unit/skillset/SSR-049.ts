@@ -123,56 +123,56 @@ export const SkillSet_10042: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Lovin'`,
+                    description: `Increase the party's Water and Fire allies' Attack Power by 30/30/40/40/40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 5/7.5/10/12.5/12.5% (Max 2 Stacks), then damage the target (330/376/422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Lovin'`,
+                    description: `Increase the party's Water and Fire allies' Attack Power by 30% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 5% (Max 2 Stacks), then damage the target (330% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Lovin'`,
+                    description: `Increase the party's Water and Fire allies' Attack Power by 30% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 7.5% (Max 2 Stacks), then damage the target (376% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Lovin'`,
+                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 10% (Max 2 Stacks), then damage the target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Lovin'`,
+                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 12.5% (Max 2 Stacks), then damage the target (468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Lovin'`,
+                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 12.5% (Max 2 Stacks), then damage the target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sunbrella`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Seaside By Iblis`,
+                    description: `Increase the party's Attack Power by 100%\nOn Attack, give your Party a shield equal to 25% of each ally's max HP for 1 turn.\nIf your party has 5 Attackers, give them "Girls of Summer"\n\n"Girls of Summer"\nOn Attack, heal your Party equal to 15% of your Attack Power.\nOn Ultimate Skill, give your Party a shield equal to 12.5% of your Attack Power.\nOn Attack, increase the party's Ultimate Skill Damage by 5% (Max 10 Stacks).\nOn Attack, increase the target's Damage Taken by Water and Fire attacks by 3% (Max 10 Stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sunflowers and Heatwaves`,
+                    description: `When Guarding, increase the party's Water and Fire allies' Recovery Rate by 50% for 2 turns.\nOn Ultimate Skill, increase the party's Water and Fire allies' Attack Power by 15% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bow Before Me!`,
+                    description: `Increase your Damage Output by 25%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lower Your Heads!!`,
+                    description: `After every 4 turns, increase the target's Damage Taken by Water and Fire attacks by 40% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

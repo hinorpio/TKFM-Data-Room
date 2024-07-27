@@ -123,56 +123,56 @@ export const SkillSet_10068: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Dumplings!`,
+                    description: `Heal the party (133/149/165/182/198% Attack Power).\nIncrease party's Recovery Rate by 45% (This effect will gradually reduce over 3 turns).\nIncrease the party's Ultimate Skill Damage by 5/5/7.5/10/12.5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Dumplings!`,
+                    description: `Heal the party (133% Attack Power).\nIncrease party's Recovery Rate by 45% (This effect will gradually reduce over 3 turns).\nIncrease the party's Ultimate Skill Damage by 5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Dumplings!`,
+                    description: `Heal the party (149% Attack Power).\nIncrease party's Recovery Rate by 45% (This effect will gradually reduce over 3 turns).\nIncrease the party's Ultimate Skill Damage by 5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Dumplings!`,
+                    description: `Heal the party (165% Attack Power).\nIncrease party's Recovery Rate by 45% (This effect will gradually reduce over 3 turns).\nIncrease the party's Ultimate Skill Damage by 7.5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Dumplings!`,
+                    description: `Heal the party (182% Attack Power).\nIncrease party's Recovery Rate by 45% (This effect will gradually reduce over 3 turns).\nIncrease the party's Ultimate Skill Damage by 10% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Dumplings!`,
+                    description: `Heal the party (198% Attack Power).\nIncrease party's Recovery Rate by 45% (This effect will gradually reduce over 3 turns).\nIncrease the party's Ultimate Skill Damage by 12.5% (Max 3 Stacks). CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Itadakimasu~`,
+                    description: `Heal the party (75% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Tummy Rumblies!`,
+                    description: `Increase the party's Attack Power by 30%.\nIncrease the party's Max HP by 30%.\nGive all party members other than yourself "Rumbly Tummies" for 50 turns.\nGive all party members other than yourself "I'm Stuffed..." for 50 turns.\n\nRumbly Tummies:\nWhen your HP is at or under 50%, increase your Recovery Rate by 100%.\n\nI'm Stuffed...:\nWhen your HP is at or over 99%, increase your Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dinner's ready! Seafood dumplings~`,
+                    description: `After every three turns, increase the party's Recovery Rate by 35% for 3 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dinner's ready! Butter-braised veggies!`,
+                    description: `After every three turns, give the party a shield equal to 10% of your Max HP and increase its Attack Power by 20% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dinner's ready! "Caesar" Steak!`,
+                    description: `After every three turns, increase the party's Ultimate Skill Damage by 30% for 1 turn, and increase its Attack Power by 20% of your Attack Power for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Reduce Damage+`,
+                    description: `Reduce your Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

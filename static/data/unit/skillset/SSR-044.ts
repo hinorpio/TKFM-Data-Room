@@ -123,56 +123,56 @@ export const SkillSet_10050: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Gimme More!`,
+                    description: `Damage the target by 330/376/422/468/514% of your Attack Power and 89/107/125/143/161% of your Max HP. (CD: 4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Gimme More!`,
+                    description: `Damage the target by 330% of your Attack Power and 89% of your Max HP. (CD: 4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Gimme More!`,
+                    description: `Damage the target by 376% of your Attack Power and 107% of your Max HP. (CD: 4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Gimme More!`,
+                    description: `Damage the target by 422% of your Attack Power and 125% of your Max HP. (CD: 4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Gimme More!`,
+                    description: `Damage the target by 468% of your Attack Power and 143% of your Max HP. (CD: 4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Gimme More!`,
+                    description: `Damage the target by 514% of your Attack Power and 161% of your Max HP. (CD: 4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Fist`,
+                    description: `Damage the target by 100% of your Attack Power and 50% of your Max HP.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Archdemolition`,
+                    description: `Increase your Max HP by 100%\nIncrease your Basic Attack Output by 125%\nIncrease your Ultimate Attack Output by 100%\nOn Attack, decrease the target's Damage Output by 10% for 1 turn.\nOn Attack, decrease your Damage Taken by 10% for 1 turn.\nIncrease the Party's Attack Power by 40%.\nIncrease the Party's Damage Output by 20%.\nGive all party members other than Caesar "Hail to the King" for 50 turns.\n\n"Hail to the King":\nOn Guarding or performing an Ultimate Skill, increase the target's Damage Taken by Fire, Water, Wind, Light, or Dark attacks by 6% for 2 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Archdemon Destiny`,
+                    description: `On Attack, reduce the target's Recovery Rate by 50% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fear of the Demon`,
+                    description: `On Ultimate Skill, increase your Damage Output by 20% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Name`,
+                    description: `On your first turn, increase the enemy party's Damage Taken by 20% and reduce their Damage Output by 10% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Total Immunity`,
+                    description: `Gain immunity to Sleep, Paralysis, and Silence.`
                 }
             },
             [Locale.jp]: {

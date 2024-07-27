@@ -123,56 +123,56 @@ export const SkillSet_10066: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Curse`,
+                    description: `Increase your Attack Power by 20/35/35/50/50% for 4 turns.\nReduce your Damage Taken by 10/12.5/15/17.5/20% for 4 turns, then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Curse`,
+                    description: `Increase your Attack Power by 20% for 4 turns.\nReduce your Damage Taken by 10% for 4 turns, then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Curse`,
+                    description: `Increase your Attack Power by 35% for 4 turns.\nReduce your Damage Taken by 12.5% for 4 turns, then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Curse`,
+                    description: `Increase your Attack Power by 35% for 4 turns.\nReduce your Damage Taken by 15% for 4 turns, then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Curse`,
+                    description: `Increase your Attack Power by 50% for 4 turns.\nReduce your Damage Taken by 17.5% for 4 turns, then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Curse`,
+                    description: `Increase your Attack Power by 50% for 4 turns.\nReduce your Damage Taken by 20% for 4 turns, then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Chanting Spell`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Sage`,
+                    description: `Reduce the effect attributes have on your party's attacks by 100%. (Details: This mitigates the damage increase or reduction opposing attributes have on each other. For example, barring outside buffs or debuffs, Water now deals the same damage to Fire as it does to Wind)\n\nIncrease the party's Attack Power by 30%.\nIncrease the party's Max HP by 15%.\nAfter each turn, you trigger: "Increase the party's Attack Power by 5% (Max 25 Stacks)."`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tenfold Hex`,
+                    description: `Increase your Ultimate Skill Damage by 25%.\nOn Attack, trigger: "Increase your Ultimate Skill Damage by 2% (Max 25 Stacks)."`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Structural Analysis`,
+                    description: `Increase your Damage Output by 10%.\nOn Ultimate Skill, trigger: "Increase your Damage Output by 6% (Max 5 Stacks)."`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mind Chaser`,
+                    description: `After each turn, trigger: "Increase your Attack Power by 4% (Max 50 Stacks)."\nOn Attack, trigger: "Increase your Attack Power by 2% (Max 50 Stacks)."`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill+`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain Silence Immunity.`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10094: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Blast!`,
+                    description: `Damage the target (306/348/389/430/471% Attack Power). CD: 50`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Blast!`,
+                    description: `Damage the target (306% Attack Power). CD: 50`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Blast!`,
+                    description: `Damage the target (348% Attack Power). CD: 50`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Blast!`,
+                    description: `Damage the target (389% Attack Power). CD: 50`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Blast!`,
+                    description: `Damage the target (430% Attack Power). CD: 50`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Blast!`,
+                    description: `Damage the target (471% Attack Power). CD: 50`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Geneva Punch!`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `I Can Transform 3 More Times~`,
+                    description: `Increase your Max HP by 70%.\nOn the 4th turn, trigger "Evolution Stage 1"\nOn the 7th turn, trigger "Evolution Stage 2"\nOn the 10th turn, trigger "Evolution Stage 3"\n\nEvolution Stage 1:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 60% (Max 1 Stack) for 1 turn.\n\nEvolution Stage 2:\nOn Ultimate Skill, increase your Damage Output by 60% (Max 1 Stack) for 1 turn.\n\nEvolution Stage 3:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 120% (Max 1 Stack) for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Transform When I'm Ready!`,
+                    description: `Stop your Ultimate Skill CD countdown.\nEvery 3 turns, reduce your current Ultimate Skill CD by 50 turns.\nEvery 4 turns, reduce your current Ultimate Skill CD by 50 turns.\nEvery turn, increase your Attack Power by 5% (Max 50 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Mimicry`,
+                    description: `On the first turn, trigger "Evolution Endeavor"\n\nEvolution Endeavor:\nOn Basic Attack, give all party members "Quick Learner" for 50 turns.\nWhen guarding, give all party members other than yourself "Adaptable" for 50 turns.\n\nQuick Learner:\nOn Ultimate Skill, increase your Damage Output by 20% for 4 turns.\n\nAdaptable:\nOn Ultimate Skill, increase Unknown Organism Geneva's Attack Power by 25% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Swallower`,
+                    description: `On the 4th turn, trigger "Devour Stage 1"\nOn the 7th turn, trigger "Devour Stage 2"\nOn the 10th turn, trigger "Devour Stage 3"\n\nDevour Stage 1:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 20% (Max 1 Stack) for 1 turn.\n\nDevour Stage 2:\nOn Ultimate Skill, increase your Damage Output by 20% (Max 1 Stack) for 1 turn.\n\nDevour Stage 3:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 40% (Max 1 Stack) for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Reduce Damage`,
+                    description: `Reduce your Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Paralysis Immunity.`
                 }
             },
             [Locale.jp]: {

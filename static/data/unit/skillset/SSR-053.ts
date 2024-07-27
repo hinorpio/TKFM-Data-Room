@@ -123,56 +123,56 @@ export const SkillSet_10074: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Blossom`,
+                    description: `Increase the 2nd, 3rd, and 4th-position enemy's Damage Taken from Ultimate Skills by 2.5/2.5/3.75/3.75/5% (Max 4 Stacks), then damage them for 102/116/130/143/157% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Blossom`,
+                    description: `Increase the 2nd, 3rd, and 4th-position enemy's Damage Taken from Ultimate Skills by 2.5% (Max 4 Stacks), then damage them for 102% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Blossom`,
+                    description: `Increase the 2nd, 3rd, and 4th-position enemy's Damage Taken from Ultimate Skills by 2.5% (Max 4 Stacks), then damage them for 116% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Blossom`,
+                    description: `Increase the 2nd, 3rd, and 4th-position enemy's Damage Taken from Ultimate Skills by 3.75% (Max 4 Stacks), then damage them for 130% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Blossom`,
+                    description: `Increase the 2nd, 3rd, and 4th-position enemy's Damage Taken from Ultimate Skills by 3.75% (Max 4 Stacks), then damage them for 143% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ice Blossom`,
+                    description: `Increase the 2nd, 3rd, and 4th-position enemy's Damage Taken from Ultimate Skills by 5% (Max 4 Stacks), then damage them for 157% Attack Power. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Icicle`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Permafrost`,
+                    description: `Increase the party's Attack Power by 40%.\nIncrease your Max Ultimate Skill CD by 1.\nOn Ultimate Skill, increase all enemies' Damage Taken by 7.5% (Max 4 Stacks).\nOn Ultimate Skill, increase all enemies' Damage Taken by Ultimate Skills by 12.5% (Max 4 Stacks).\nOn Basic Attack, increase the party's Attack Power by 25% of your own Attack Power for 1 turn.\nGain immunity to Silence.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Chill Barrier`,
+                    description: `On entering Guard Stance, give the party a shield equal to 50% of your Attack Power for 1 turn.\nOn entering Guard Stance, have a 100% chance of silencing yourself for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `The Frozen Ghost`,
+                    description: `On Ultimate Skill, increase your Attack Power by 18.75% (Max 4 Stacks).\nOn Ultimate Skill, increase your Ultimate Skill Damage by 15% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Snow Beauty`,
+                    description: `Increase your Damage Output by 15%.\nOn Ultimate Skill, give the party a shield equal to 20% of your Max HP for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

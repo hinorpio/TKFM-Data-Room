@@ -123,56 +123,56 @@ export const SkillSet_10095: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Big and Brave`,
+                    description: `Increase your Attack Power by 10/20/30/40/50% for 3 turns; Gain a Shield equal to 30/35/40/45/50% of your Max HP for 1 turn; Gain Taunt for 1 turn and enter Guard Stance. Gain the following effect for 3 turns: "When Attacked, enter Guard Stance"; Increase the target's Damage Taken by 5/10/15/20/25% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Big and Brave`,
+                    description: `Increase your Attack Power by 10% for 3 turns; Gain a Shield equal to 30% of your Max HP for 1 turn; Gain Taunt for 1 turn and enter Guard Stance. Gain the following effect for 3 turns: "When Attacked, enter Guard Stance"; Increase the target's Damage Taken by 5% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Big and Brave`,
+                    description: `Increase your Attack Power by 20% for 3 turns; Gain a Shield equal to 35% of your Max HP for 1 turn; Gain Taunt for 1 turn and enter Guard Stance. Gain the following effect for 3 turns: "When Attacked, enter Guard Stance"; Increase the target's Damage Taken by 10% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Big and Brave`,
+                    description: `Increase your Attack Power by 30% for 3 turns; Gain a Shield equal to 40% of your Max HP for 1 turn; Gain Taunt for 1 turn and enter Guard Stance. Gain the following effect for 3 turns: "When Attacked, enter Guard Stance"; Increase the target's Damage Taken by 15% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Big and Brave`,
+                    description: `Increase your Attack Power by 40% for 3 turns; Gain a Shield equal to 45% of your Max HP for 1 turn; Gain Taunt for 1 turn and enter Guard Stance. Gain the following effect for 3 turns: "When Attacked, enter Guard Stance"; Increase the target's Damage Taken by 20% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Big and Brave`,
+                    description: `Increase your Attack Power by 50% for 3 turns; Gain a Shield equal to 50% of your Max HP for 1 turn; Gain Taunt for 1 turn and enter Guard Stance. Gain the following effect for 3 turns: "When Attacked, enter Guard Stance"; Increase the target's Damage Taken by 25% for 3 turns. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sword of Justice`,
+                    description: `Damage the Target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Knight in Training`,
+                    description: `Increase the party's Attack Power by 50%.\nIncrease all Light allies' Ultimate Skill Damage by 30%.\nOn the first turn, gain 10 stacks of 'Steel Resolve' (Max 10 Stacks).\nAfter every turn, increase all Light allies' Attack Power by 40% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Resolute Resolution`,
+                    description: `When Attacked, gain a stack of Steel Resolve (Max 10 Stacks).\nOn Ultimate Skill, gain 2 stacks of Steel Resolve (Max 10 Stacks).\nOn Ultimate Skill, damage the enemy for X% of your Attack Power, X being 45 multiplied by the number of stacks of 'Steel Resolve' you currently have.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Tough and Tiny`,
+                    description: `Increase your Recovery Rate by 30%.\nAfter every turn, reduce your Damage Taken by 2.5% (Max 10 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `An Iron Will`,
+                    description: `On Basic Attack, gain a stack of 'Little Knight' (Max 10 Stacks).\nOn Basic Attack, damage the target for X% of your Attack Power, X being 10 multiplied by the number of stacks of 'Little Knight' you currently have.\nOn Ultimate Skill, increase the target's Damage Taken from Trigger Abilities by X%, X being 10 multiplied by the number of stacks of 'Little Knight' you currently have.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage Reduction+`,
+                    description: `Reduce your Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

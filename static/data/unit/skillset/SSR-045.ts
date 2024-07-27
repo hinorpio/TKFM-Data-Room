@@ -123,56 +123,56 @@ export const SkillSet_10075: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Turnabout Boing~ Boing~`,
+                    description: `Increase your Attack Power by 30/35/40/45/50% for 1 turn, then increase the party's Attack Power by 30/30/35/35/40% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Turnabout Boing~ Boing~`,
+                    description: `Increase your Attack Power by 30% for 1 turn, then increase the party's Attack Power by 30% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Turnabout Boing~ Boing~`,
+                    description: `Increase your Attack Power by 35% for 1 turn, then increase the party's Attack Power by 30% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Turnabout Boing~ Boing~`,
+                    description: `Increase your Attack Power by 40% for 1 turn, then increase the party's Attack Power by 35% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Turnabout Boing~ Boing~`,
+                    description: `Increase your Attack Power by 45% for 1 turn, then increase the party's Attack Power by 35% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Turnabout Boing~ Boing~`,
+                    description: `Increase your Attack Power by 50% for 1 turn, then increase the party's Attack Power by 40% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Let me help~ Boing!`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm hoppin' on~!`,
+                    description: `If there are at least 3 Attackers in your party, the party gains "For the Carrots!"\nIf there are at least 3 Attackers in your party, you gain "Hop together!"\nAfter every turn, gain "Hippity Hop!" for 1 turn.\n\nFor the Carrots:\nIncrease your Ultimate Skill Damage by 50%.\nIncrease your Max HP by 30%.\n\nHop Together:\nOn Ultimate Skill, reduce all friendly Attackers' Ultimate Skill CD by 1.\n\nHippity Hop:\nOn Basic Attack, increase Wonderland Chizuru's Attack Power by 15% for 5 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm late, I'm late!`,
+                    description: `After every turn, increase the party's Attack Power by 2.5% (Max 8 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny Biscuits`,
+                    description: `On the 1st turn, increase the party's Recovery Rate by 30% for 50 turns.\nAfter every turn, Heal the party (20% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lucky Rabbit's Foot`,
+                    description: `On Basic Attack, increase the party's Basic Attack Damage by 40% for 1 turn.\nOn Ultimate Skill, increase the party's Utimate Skill Damage by 15% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

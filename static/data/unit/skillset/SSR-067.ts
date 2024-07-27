@@ -123,56 +123,56 @@ export const SkillSet_10097: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas is Here!`,
+                    description: `Increase the party's Ultimate Skill Damage by 25/30/30/30/35% for 2 turns. Increase your Damage Output by 0/0/20/20/25% for 2 turns. Then, damage the target for 265/298/331/364/397% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas is Here!`,
+                    description: `Increase the party's Ultimate Skill Damage by 25% for 2 turns. Then, damage the target for 265% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas is Here!`,
+                    description: `Increase the party's Ultimate Skill Damage by 30% for 2 turns. Then, damage the target for 298% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas is Here!`,
+                    description: `Increase the party's Ultimate Skill Damage by 30% for 2 turns. Increase your Damage Output by 20% for 2 turns. Then, damage the target for 331% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas is Here!`,
+                    description: `Increase the party's Ultimate Skill Damage by 30% for 2 turns. Increase your Damage Output by 20% for 2 turns. Then, damage the target for 364% Attack Power. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas is Here!`,
+                    description: `Increase the party's Ultimate Skill Damage by 35% for 2 turns. Increase your Damage Output by 25% for 2 turns. Then, damage the target for 397% Attack Power. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Kill You Almost Dead!`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexmas Missionaries`,
+                    description: `After every 3 turns, gain "Orgasm Incoming"\nIf the party has at least 3 Light allies, give all party members "Sexmas Hymn".\nIf the party has at least 2 Wind allies, give all party members "Mass Orgy".\n\n"Orgasm Incoming":\nOn Ultimate Skill, reduce your Ultimate Skill CD by 3 turns (remove this effect when you use your Ultimate Skill)\n\n"Sexmas Hymn":\nIncrease your Max HP by 10%\nIncrease your Attack Power by 65%.\nOn Attack, increase the target's Damage Taken from Light attacks by 4% (Max 5 Stacks).\nOn Attack, increase the target's Damage Taken from Wind attacks by 4% (Max 5 Stacks).\n\n"Mass Orgy":\nIncrease your Max HP by 10%\nIncrease your Attack Power by 65%.\nOn Attack, increase the target's Damage Taken from Light attacks by 4% (Max 5 Stacks).\nOn Attack, increase the target's Damage Taken from Wind attacks by 4% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Boneshaker`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Sexmas Bunny Aiko by 50% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Spirits United`,
+                    description: `On Ultimate Skill, increase your Attack Power by 50% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `For Caesar!`,
+                    description: `Increase your Damage Output by 15%.\nOn Ultimate Skill, increase the target's Damage Taken by 35% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill+`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

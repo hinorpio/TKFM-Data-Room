@@ -123,56 +123,56 @@ export const SkillSet_10076: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time... Attack!`,
+                    description: `Damage the target (330/376/422/468/514% Attack Power).\nGive all attackers the following ability for [3/3/4/4/4] turns: "On Basic Attack, perform an additional attack on the target (37.5/45/45/52.5/60% Attack Power)." CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time... Attack!`,
+                    description: `Damage the target (330% Attack Power).\nGive all attackers the following ability for 3 turns: "On Basic Attack, perform an additional attack on the target (37.5% Attack Power)." CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time... Attack!`,
+                    description: `Damage the target (376% Attack Power).\nGive all attackers the following ability for 3 turns: "On Basic Attack, perform an additional attack on the target (45% Attack Power)." CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time... Attack!`,
+                    description: `Damage the target (442% Attack Power).\nGive all attackers the following ability for 4 turns: "On Basic Attack, perform an additional attack on the target (45% Attack Power)." CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time... Attack!`,
+                    description: `Damage the target (468% Attack Power).\nGive all attackers the following ability for 4 turns: "On Basic Attack, perform an additional attack on the target (52.5% Attack Power)." CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time... Attack!`,
+                    description: `Damage the target (514% Attack Power).\nGive all attackers the following ability for 4 turns: "On Basic Attack, perform an additional attack on the target (60% Attack Power)." CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Lulu Punch`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time 4ever!`,
+                    description: `On the first turn, reduce your current Ultimate Skill CD by 4.\nOn Ultimate Skill, trigger "Shuffling".\nIf there are at least 4 Attackers in your party, trigger "Four of a Kind".\n\nShuffling:\nGive all attackers the following ability for 4 turns: "After your Basic Attack, perform an additional attack on the target (37.5% Attack Power)."\n\nFour of a Kind:\nIncrease your Attack Power by 70%.\nIncrease your Basic Attack Damage by 100%.\nReduce Damage Taken by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sweet Dreams`,
+                    description: `On Ultimate Skill, increase the party's Basic Attack Damage by 30% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `My Princess, My Leader (Dream)`,
+                    description: `On the first turn, increase the party's Basic Attack Damage by 30% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Team Tea-Time's Ambition`,
+                    description: `On Ultimate Skill, increase the party's Damage Output by 12.5% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Basic Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10024: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (330/376/422/468/514% Attack Power), and increase the Party's Basic Attack Power by 30/30/40/40/50% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 0/0/15/20/25% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target for (330% Attack Power), and increase the Party's Basic Attack Power by 30% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target for (376% Attack Power), and increase the Party's Basic Attack Power by 30% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (422% Attack Power), and increase the Party's Basic Attack Power by 40% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 15% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (468% Attack Power), and increase the Party's Basic Attack Power by 40% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (514% Attack Power), and increase the Party's Basic Attack Power by 50% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 25% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Curse Magic`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Conjure: Sleepless Nights`,
+                    description: `Give Undead Queen Elizabeth "Undead Soldier Enhancement"\nGive the party "Undead Possession"\n\n"Undead Soldier Enhancement":\nOn the first turn, increase all allied Attackers and Obstructors' Attack Power by 20% of your Attack Power for 1 turn.\nAfter each turn, increase all allied Attackers and Obstructors' Attack Power by 20% of your Attack Power for 1 turn.\nAfter every 4 turns, give all Attackers and Obstructors 2 stacks of "Ghostly Touch".\n\n"Ghostly Touch":\nOn Basic Attack, add the following effect for 4 turns: "Damage the target (40% Attack Power)." When you perform a Basic Attack, lose one stack of "Ghostly Touch".\n\n"Undead Possession":\nIf there are at least 3 Attackers or 2 Obstructors on your team, then...\nIncrease your Attack Power by 40%\nIncrease your Basic Attack Damage by 40%\nOn Ultimate Skill, increase the target's Damage Taken by Basic Attacks by 6% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Controlled Spirits`,
+                    description: `When your HP is above 50%, increase your Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Conjure: Big Ghostly Touch`,
+                    description: `After every 4 turns, give all Attackers and Obstructors 2 stacks of "Big Ghostly Touch".\n\n"Big Ghostly Touch"\nOn Basic Attack, add the following effect for 4 turns: "Damage the target (60% Attack Power)." When you perform a Basic Attack, lose one stack of "Big Ghostly Touch".`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Soul Ripper`,
+                    description: `On Basic Attack, increase the target's Damage Taken by 3.5% (Max 8 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase your Basic Attack Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain Paralysis Immunity`
                 }
             },
             [Locale.jp]: {

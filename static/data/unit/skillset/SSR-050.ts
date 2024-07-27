@@ -123,56 +123,56 @@ export const SkillSet_10090: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Love Like the Tides`,
+                    description: `Damage the target (330/376/422/468/514% Attack Power), then give the party the following ability for [3/3/4/4/4] turns: "On Basic Attack, Damage the target (10/15/15/20/25% Attack Power)". CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Love Like the Tides`,
+                    description: `Damage the target (330% Attack Power), then give the party the following ability for 3 turns: "On Basic Attack, Damage the target (10% Attack Power)". CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Love Like the Tides`,
+                    description: `Damage the target (376% Attack Power), then give the party the following ability for 3 turns: "On Basic Attack, Damage the target (15% Attack Power)". CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Love Like the Tides`,
+                    description: `Damage the target (422% Attack Power), then give the party the following ability for 4 turns: "On Basic Attack, Damage the target (15% Attack Power)". CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Love Like the Tides`,
+                    description: `Damage the target (468% Attack Power), then give the party the following ability for 4 turns: "On Basic Attack, Damage the target (20% Attack Power)". CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Love Like the Tides`,
+                    description: `Damage the target (514% Attack Power), then give the party the following ability for 4 turns: "On Basic Attack, Damage the target (25% Attack Power)". CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tidal Surge`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Angel Hunting Grounds`,
+                    description: `Increase the party's Attack Power by 50%.\nAfter every turn, increase the effects of your party's trigger abilities by 20% (Max 10 Stacks).\nGive your party's Attackers, Defenders, and Obstructors "His Horniness' Aegis".\n\n"His Horniness' Aegis"\nIncrease your Ultimate Skill Damage by 40%.\nOn Ultimate Skill, Damage the target (80% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Traces of Paradise`,
+                    description: `After every turn, increase your Attack Power by 10% (Max 10 Stacks).\nOn Ultimate Skill, Damage the target (80% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Spiritless Waves`,
+                    description: `On Basic Attack, increase the target's Damage Taken from trigger abilities by 20% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Embrace`,
+                    description: `Increase your Damage Output by 20%.\nIncrease your Ultimate Skill Damage by 40%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate+`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10088: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Asida Special`,
+                    description: `Increase the target's Damage Taken by 18/18/20/20/20% for 7 turns, then damage the target (265/298/331/364/397% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Asida Special`,
+                    description: `Increase the target's Damage Taken by 18% for 7 turns, then damage the target (265% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Asida Special`,
+                    description: `Increase the target's Damage Taken by 18% for 7 turns, then damage the target (298% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Asida Special`,
+                    description: `Increase the target's Damage Taken by 20% for 7 turns, then damage the target (331% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Asida Special`,
+                    description: `Increase the target's Damage Taken by 20% for 7 turns, then damage the target (364% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Asida Special`,
+                    description: `Increase the target's Damage Taken by 20% for 7 turns, then damage the target (397% Attack Power). CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `A Warm Welcome`,
+                    description: `Damage the target for 100% Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `#1 Manager`,
+                    description: `Grant the party: "Cocktail", "Beauty", "Entourage", and "Loving Sister".\nOn Ultimate Skill, increase the party's Damage Output by 35% for 1 turn.\n\n"Cocktail"\nIf there are (1/2/3+) Attackers in the party, increase their Attack Power by (15%/20%/30%).\n\n"Beauty"\nIf there are (1/2/3+) Obstructors in the party, increase their Attack Power by (15%/20%/30%).\n\n"Entourage"\nIf there is at least 1 Defender in the party, increase their Ultimate Skill Damage by 50%.\n\n"Loving Sister"\nWhen Blue Qixi Asina is in the party and alive, increase their Damage Output by 20%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Best in the West`,
+                    description: `On Ultimate Skill, increase the party's Ultimate Skill Damage by 25% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Lunging Towards Love`,
+                    description: `On Ultimate Skill, give all Attackers and Obstructors "Make it a Double"for 1 turn.\n\n"Make it a Double"\nOn Ultimate Skill, trigger the following effect: damage the target for 77% Attack Power.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Qixi Wish`,
+                    description: `On the seventh turn, increase the party's Damage Output by 30% (Max 1 Stack).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Paralysis Immunity`
                 }
             },
             [Locale.jp]: {

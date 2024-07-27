@@ -123,56 +123,56 @@ export const SkillSet_10049: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `I Have a Dream`,
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 50/60/65/70/75% of your Max HP.\nGain the following ability for 3/3/4/4/4 turns: "On Basic Attack, increase the party's Attack Power by 15/20/20/22.5/22.5% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `I Have a Dream`,
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 50% of your Max HP.\nGain the following ability for 3 turns: "On Basic Attack, increase the party's Attack Power by 15% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `I Have a Dream`,
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 60% of your Max HP.\nGain the following ability for 3 turns: "On Basic Attack, increase the party's Attack Power by 20% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I Have a Dream`,
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 65% of your Max HP.\nGain the following ability for 4 turns: "On Basic Attack, increase the party's Attack Power by 20% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `I Have a Dream`,
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 70% of your Max HP.\nGain the following ability for 4 turns: "On Basic Attack, increase the party's Attack Power by 22.5% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `I Have a Dream`,
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 75% of your Max HP.\nGain the following ability for 4 turns: "On Basic Attack, increase the party's Attack Power by 22.5% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing Voice`,
+                    description: `Heal the party (50% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Warmth of the Strong`,
+                    description: `Increase the party's Max HP by 20%.\nIncrease the party's Attack Power by 20%.\nIncrease the party's Basic Attack Damage by 40%.\nIncrease the party's Recovery Rate by 30%.\nIncrease the party's Shield Rate by 30%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Cognitive Dissonance`,
+                    description: `On Basic Attack, give the party a shield for 20% of your Max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Heart`,
+                    description: `On Basic Attack, increase the party's Shield Rate by 5% (Max 6 Stacks).\nOn Ultimate Skill, increase the party's Recovery Rate by 15% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Noble Support`,
+                    description: `On the first turn, reduce your Ultimate Skill CD by 2.\nOn Ultimate Skill, increase the party's Basic Attack Damage by 22.5% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

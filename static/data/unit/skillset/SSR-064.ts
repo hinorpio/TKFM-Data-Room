@@ -123,56 +123,56 @@ export const SkillSet_10096: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 30/35/35/40/40% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 10/10/12.5/12.5/15% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 10% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 35% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 10% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 35% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 12.5% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 40% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 12.5% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 40% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 15% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Bathed in Red`,
+                    description: `Increase all allies' Attack Power by 30% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Feast of Innocent`,
+                    description: `When an ally Attacks, they heal themselves for 30% of the damage dealt.\nGive all Dark allies "Charity".\n\nCharity:\nIncrease your Attack Power by 100%\nIncrease your Ultimate Skill Damage by 50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Night`,
+                    description: `On Basic Attack, increase the party's Basic Attack Damage by 30% for 1 turn.\nOn Ultimate Skill, increase the party's Ultimate Skill Damage by 10% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Flesh and Blood`,
+                    description: `After every 4 turns, increase all enemies' Damage Taken 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Queen's Septet`,
+                    description: `On your first turn, give all Attackers, Obstructers, and Protectors "Sonata" for 1 turn.\n\nSonata:\nWhen you take your turn, increase all allies' Attack Power by 15% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10098: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Trap Repeater`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 8/8/8/18/22.5% (Max 3/3/3/2/2 Stacks), then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Trap Repeater`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 8% (Max 3 Stacks), then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Trap Repeater`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 8% (Max 3 Stacks), then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Trap Repeater`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 8% (Max 3 Stacks), then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Trap Repeater`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 18% (Max 2 Stacks), then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Trap Repeater`,
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 22.5% (Max 2 Stacks), then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Gift Throw`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `It's Game Time!`,
+                    description: `Increase the party's Attack Power by 40%\nIncrease the party's Max HP by 10%\nOn your 5th turn, increase the party's Ultimate Skill Damage by 30% (Max 1 Stack).\nOn your 9th turn, increase the party's Damage Output by 20% (Max 1 Stack).\nGive the party "Christmas Rules!"\n\n"Christmas Rules":\nIf your party has a Protector, increase your Attack Power by 50%.\nIf your party has two or more Light allies, increase your Attack Power by 25%.\nIf your party has a Fire ally, increase your Attack Power by 25%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tag, You're It!`,
+                    description: `After each turn, increase all enemies' Damage Taken by 5% (Max 11 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Can't Catch Me~`,
+                    description: `Increase your Shield Rate by 25%\nIncrease your Recovery Rate by 25%\nIncrease your Regen Rate by 25%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bag of Tricks Prototype 999`,
+                    description: `Increase your Damage Output by 35%\nOn Ultimate Skill, increase the target's "Tag, You're It" effect by 4 stacks.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

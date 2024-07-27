@@ -123,56 +123,56 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 40/45/45/50/55% of your Attack Power for [1/1/2/2/2] turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 40% of your Attack Power for 1 turn, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 45% of your Attack Power for 1 turn, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 45% of your Attack Power for 2 turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 50% of your Attack Power for 2 turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 55% of your Attack Power for 2 turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Central Belters`,
+                    description: `Increase allied Obstructors' Attack Power by 40% of your Attack Power for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Havin' a Blast`,
+                    description: `Increase the Party's HP by 20% and Attack Power by 40%.\nOn Basic Attack, increase allied Obstructors' Attack Power by 40% of your Attack Power for 1 turn.\nOn Attack, Heal yourself, allied Obstructors, and allied Defenders by 50% of your Attack Power.\nOn Ultimate Skill, increase allied Obstructors' Attack Power by 25% of your Attack Power for 10 turns.\nGive all Obstructors in your party "Idol Support Group!"\n\n"Idol Support Group!"\nOn Attack, increase the 1st-position ally's Attack Power by 25% for 4 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Deep Impact`,
+                    description: `On Ultimate Skill, give the Party a shield equal to 50% of your Max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Star of the Stage`,
+                    description: `On the first turn, increase your party's Obstructors' Ultimate Skill Damage by 35% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Make it Right!`,
+                    description: `On Attack, increase the party's Attack Power by 10% of your Attack Power for 1 turn.\nOn the first turn, increase your party's Obstructors' Damage Output by 20% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 30/40/40/50/60% of your MAX-HP for [1/1/2/2/2] turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 30% of your MAX-HP for 1 turn, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 40% of your MAX-HP for 1 turn, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 40% of your MAX-HP for 2 turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 50% of your MAX-HP for 2 turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Light! Bright!`,
+                    description: `Increase allied Obstructors' Attack Power by 60% of your MAX-HP for 2 turns, and reduce allied Obstructors' current Ultimate Skill CD by 1. CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Central Belters`,
+                    description: `Increase the Party's Attack Power by 30% of your MAX-HP for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Havin' a Blast`,
+                    description: `Increase your MAX-HP by 40%\nIncrease the Party's HP by 20% and Attack Power by 40%.\nOn Basic Attack, increase the Party's Attack Power by 50% of your Attack Power for 1 turn.\nOn Attack, increase the Party's Attack Power by 30% of your Attack Power and 15% of your MAX-HP for 10 turns.\nGive all Obstructors in your party "Idol Support Group!"\n\n"Idol Support Group!"\nOn Ultimate Skill, increase the 1st-position ally's Attack Power by 100% of your Base Attack Power for 4 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Deep Impact`,
+                    description: `On Ultimate Skill, give the Party a shield equal to 40% of your Max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Star of the Stage`,
+                    description: `On the first turn, increase your party's Obstructors' Ultimate Skill Damage by 35% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Make it Right!`,
+                    description: `On Attack, increase the party's Attack Power by 10% of your Attack Power for 1 turn.\nOn the first turn, increase your party's Obstructors' Damage Output by 20% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

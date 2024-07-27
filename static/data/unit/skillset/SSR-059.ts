@@ -123,56 +123,56 @@ export const SkillSet_10093: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Overworked blast!!!`,
+                    description: `Increase your Attack Power by 0/0/20/25/30% (Max 3 Stacks), then damage the target (422/486/551/615/680% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Overworked blast!!!`,
+                    description: `Damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Overworked blast!!!`,
+                    description: `Damage the target (486% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Overworked blast!!!`,
+                    description: `Increase your Attack Power by 20% (Max 3 Stacks), then damage the target (551% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Overworked blast!!!`,
+                    description: `Increase your Attack Power by 25% (Max 3 Stacks), then damage the target (615% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Overworked blast!!!`,
+                    description: `Increase your Attack Power by 30% (Max 3 Stacks), then damage the target (680% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `All-night overtime kick!!`,
+                    description: `Damage the target (125% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Call of the Stars`,
+                    description: `Increase your Attack Power by 75%.\nOn the first turn, trigger "Gather Energy" for 50 turns.\nGrant the party "Star Shards"\n\nGather Energy:\nGive all party members other than yourself the following effect: "On Attack, Increase Chosen One Nana's Attack Power by 20% of your Attack Power for 1 turn."\nGive all party members the following effect: "On Basic Attack, increase the target's Damage Taken by Light and Dark attacks by 4% (Max 15 Stacks)."\n\nStar Shards:\nIf there are (1/2/3+) Light attribute allies in the party, increase your Attack Power by (5/10/15)%.\nIf there are (1/2/3+) Dark attribute allies in the party, increase your Attack Power by (5/10/15)%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Worked to the Bone`,
+                    description: `On Basic Attack, increase your Basic Attack Damage by 6% (Max 5 Stacks).\nOn Ultimate Skill, increase your Ultimate Skill Damage by 10% (Max 3 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Hunger Pangs`,
+                    description: `When healed, reduce your Damage Taken by 3% (Max 5 Stacks).\nWhen healed, increase your Attack Power by 8% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Overtime Mode!`,
+                    description: `When healed, increase your Damage Output by 4% (Max 5 Stacks).\nOn Ultimate Skill, trigger "Overtime Punch!" for 12 turns.\n\nOvertime Punch!:\nOn Basic Attack, deal additional damage to the target (45% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain Sleep Immunity.`
                 }
             },
             [Locale.jp]: {

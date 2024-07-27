@@ -123,56 +123,56 @@ export const SkillSet_10063: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Doppleganger`,
+                    description: `Increase the party's Attack Power by 15/20/30/30/30% of your Attack Power for 1 turn, then increase the 5th-position ally's Attack Power by another 20/25/30/45/60% for 1 turn, then heal the party for 100% Attack Power and reduce the 5th-position ally's current Ultimate Skill CD by 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Doppleganger`,
+                    description: `Increase the party's Attack Power by 15% of your Attack Power for 1 turn, then increase the 5th-position ally's Attack Power by another 20% for 1 turn, then heal the party for 100% Attack Power and reduce the 5th-position ally's current Ultimate Skill CD by 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Doppleganger`,
+                    description: `Increase the party's Attack Power by 20% of your Attack Power for 1 turn, then increase the 5th-position ally's Attack Power by another 25% for 1 turn, then heal the party for 100% Attack Power and reduce the 5th-position ally's current Ultimate Skill CD by 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Doppleganger`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn, then increase the 5th-position ally's Attack Power by another 30% for 1 turn, then heal the party for 100% Attack Power and reduce the 5th-position ally's current Ultimate Skill CD by 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Doppleganger`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn, then increase the 5th-position ally's Attack Power by another 45% for 1 turn, then heal the party for 100% Attack Power and reduce the 5th-position ally's current Ultimate Skill CD by 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Doppleganger`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn, then increase the 5th-position ally's Attack Power by another 60% for 1 turn, then heal the party for 100% Attack Power and reduce the 5th-position ally's current Ultimate Skill CD by 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Strict Guidance`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `The Meticulous Maid`,
+                    description: `Increase your Attack Power by 100%\nAfter every turn, trigger: Increase the party's Attack Power by 30% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Quick Cooking`,
+                    description: `On Basic Attack, trigger: "Increase your Attack Power by 10% (Max 4 Stacks)."`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Instant Outfit`,
+                    description: `On Ultimate Skill, trigger: "Increase the 5th-position ally's Attack Power by 40% for 2 turns."`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidology: Spick and Span`,
+                    description: `On Ultimate Skill, trigger: "Increase the party's Damage Output by 30% for 1 turn."`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Reduce Damage`,
+                    description: `Reduce your Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Paralysis Immunity.`
                 }
             },
             [Locale.jp]: {
