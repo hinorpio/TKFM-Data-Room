@@ -123,56 +123,56 @@ export const SkillSet_10004: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Guided Arrow`,
+                    description: `Damage target (475/550/625/625/625% Attack Power) and increase allies' Attack Power by 15/15/15/20/25% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Guided Arrow`,
+                    description: `Damage target (475% Attack Power) and increase allies' Attack Power by 15% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Guided Arrow`,
+                    description: `Damage target (550% Attack Power) and increase allies' Attack Power by 15% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Guided Arrow`,
+                    description: `Damage target (625% Attack Power) and increase allies' Attack Power by 15% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Guided Arrow`,
+                    description: `Damage target (625% Attack Power) and increase allies' Attack Power by 20% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Guided Arrow`,
+                    description: `Damage target (625% Attack Power) and increase allies' Attack Power by 25% for 3 turns. (CD:6)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Shot`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Elf Territory`,
+                    description: `Increase party's Basic Attack damage by 50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Follow the Leader`,
+                    description: `On Basic Attack, increase the party's Basic Attack Damage by 7.5% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Skybreaker`,
+                    description: `On Ultimate Skill, the target breaks Guard Stance, and takes 10% more damage for three turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The Winds of Victory`,
+                    description: `After every 3 turns, increase the party's Attack Power by 20% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

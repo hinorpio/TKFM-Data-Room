@@ -123,56 +123,56 @@ export const SkillSet_10032: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sparkling Sands!`,
+                    description: `Increase your Attack Power by 15% for 2 turns [Bond 5], cause target to take 35% more damage from Ultimate Skills for 1 turn, then damage them by 475/550/625/700/775% of your Attack Power. [CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sparkling Sands!`,
+                    description: `Cause target to take 35% more damage from Ultimate Skills for 1 turn, then damage them by 475% of your Attack Power. [CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sparkling Sands!`,
+                    description: `Cause target to take 35% more damage from Ultimate Skills for 1 turn, then damage them by 550% of your Attack Power. [CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sparkling Sands!`,
+                    description: `Cause target to take 35% more damage from Ultimate Skills for 1 turn, then damage them by 625% of your Attack Power. [CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sparkling Sands!`,
+                    description: `Cause target to take 35% more damage from Ultimate Skills for 1 turn, then damage them by 700% of your Attack Power. [CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sparkling Sands!`,
+                    description: `Increase your Attack Power by 15% for 2 turns, cause target to take 35% more damage from Ultimate Skills for 1 turn, then damage them by 775% of your Attack Power. [CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Meatball Blitz`,
+                    description: `Damage target by 100% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sandpaper Tongue`,
+                    description: `On your first turn, the party gains the following effect for 50 turns: "On Attack, damage the target (65% Attack Power)."`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `You Need Sunblock!`,
+                    description: `On Attack, decrease the target's Recovery Rate by 50% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `I Need a Vacation`,
+                    description: `On Ultimate Skill, increase your Attack Power by 30% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Cat-Like Reflexes`,
+                    description: `On Attack, increase the party's Ultimate Skill Damage by 5% (Max 6 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

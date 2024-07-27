@@ -123,56 +123,56 @@ export const SkillSet_10005: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (569/663/756/850/944% Attack Power), and increase your Basic Attack Power by 60/70/80/90/100% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (569% Attack Power), and increase your Basic Attack Power by 60% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (663% Attack Power), and increase your Basic Attack Power by 70% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (756% Attack Power), and increase your Basic Attack Power by 80% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (850% Attack Power), and increase your Basic Attack Power by 90% for 3 turns. (CD:6)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (944% Attack Power), and increase your Basic Attack Power by 100% for 3 turns. (CD:6)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Jump Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dwarven Power`,
+                    description: `Increase allies' Attack Power by 20%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Store Power`,
+                    description: `On Basic Attack, increase your Attack Power by 2.5% (Max 6 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Focus`,
+                    description: `After every turn, increase your Attack Power by 5% (Max 6 Stacks)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Killer`,
+                    description: `Increase your Ultimate Skill damage by 50%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10005: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (569/663/756/850/944% Attack Power). (CD:6)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (569% Attack Power). (CD:6)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (663% Attack Power). (CD:6)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (756% Attack Power). (CD:6)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (850% Attack Power). (CD:6)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dive and Destroy`,
+                    description: `Remove target from Guard Stance, damage target (944% Attack Power). (CD:6)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Jump Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dwarven Power`,
+                    description: `Increase allies' Attack Power by 20%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Store Power`,
+                    description: `On Basic Attack, increase your Attack Power by 2.5% (Max 6 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Focus`,
+                    description: `After every turn, increase your Attack Power by 5% (Max 6 Stacks)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dragon Killer`,
+                    description: `After every 6 turns, Increase your Ultimate Skill damage by 50% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

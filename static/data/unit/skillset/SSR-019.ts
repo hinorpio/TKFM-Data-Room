@@ -123,56 +123,56 @@ export const SkillSet_10007: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Raging Archangel`,
+                    description: `Damage target (330/376/422/468/514% Attack Power) then deal damage to target equal to 29/35/41/46/52% of your Attack Power every turn for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Raging Archangel`,
+                    description: `Damage target (330% Attack Power) then deal damage to target equal to 29% of your Attack Power every turn for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Raging Archangel`,
+                    description: `Damage target (376% Attack Power) then deal damage to target equal to 35% of your Attack Power every turn for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Raging Archangel`,
+                    description: `Damage target (422% Attack Power) then deal damage to target equal to 41% of your Attack Power every turn for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Raging Archangel`,
+                    description: `Damage target (468% Attack Power) then deal damage to target equal to 46% of your Attack Power every turn for 4 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Raging Archangel`,
+                    description: `Damage target (514% Attack Power) then deal damage to target equal to 52% of your Attack Power every turn for 4 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Strike of Justice`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Archangel's Blessing`,
+                    description: `After a Light character Attacks, increase the party's Attack Power by 15% for 1 turn.\nAfter a Fire or Wind character Attacks, increase the party's Basic Attack Damage by 20% for 1 turn.\nAfter a Water or Dark character Attacks, increase the party's Ultimate Skill Damage by 20% for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Glorious Punishment`,
+                    description: `On Basic Attack, gain the following effect: "Damage the target (15% Attack Power) every turn for 2 turns."`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Angel's Blessing`,
+                    description: `After a Light character Attacks, increase the party's Attack Power by 5% for 1 turn.\nAfter a Fire or Wind character Attacks, increase the party's Basic Attack Damage by 7% for 1 turn.\nAfter a Water or Dark character Attacks, increase the party's Ultimate Skill Damage by 7% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Wrath of God`,
+                    description: `On Attack, increase your Attack Power by 15% for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10001: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Psychological Flames`,
+                    description: `Increase Attack Power by 25/25/25/35/35% for 3 turns, then deal damage to target (330/376/422/422/422% Attack Power) (CD: 4) [Bond 5: (CD: 3)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Psychological Flames`,
+                    description: `Increase Attack Power by 25% for 3 turns, then deal damage to target (330% Attack Power) (CD: 4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Psychological Flames`,
+                    description: `Increase Attack Power by 25% for 3 turns, then deal damage to target (376% Attack Power) (CD: 4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Psychological Flames`,
+                    description: `Increase Attack Power by 25% for 3 turns, then deal damage to target (422% Attack Power) (CD: 4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Psychological Flames`,
+                    description: `Increase Attack Power by 35% for 3 turns, then deal damage to target (422% Attack Power) (CD: 4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Psychological Flames`,
+                    description: `Increase Attack Power by 35% for 3 turns, then deal damage to target (422% Attack Power) (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Magic Bullet`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Baal's Cunning`,
+                    description: `Increase Ba'al's Attack Power by 125% and decrease allies' Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Archdemon Physique`,
+                    description: `Increase Basic Attack damage by 25%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Guilty Pleasure`,
+                    description: `When Attacked, increase your Attack Power by 15% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Baal's Prank`,
+                    description: `On Ultimate Skill, decrease your Ultimate Skill CD by 1, and increase the target's Ultimate Skill CD by 2.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

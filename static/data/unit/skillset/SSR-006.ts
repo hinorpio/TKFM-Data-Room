@@ -123,56 +123,56 @@ export const SkillSet_10006: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Go Team!!`,
+                    description: `Heal party equal to 200% of your Attack Power, then heal the party for 69/73/76/80/80% of your Attack Power for 5 turns. (CD:5) [Bond5: (CD:4)] `
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Go Team!!`,
+                    description: `Heal party equal to 200% of your Attack Power, then heal the party for 69% of your Attack Power for 5 turns. (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Go Team!!`,
+                    description: `Heal party equal to 200% of your Attack Power, then heal the party for 73% of your Attack Power for 5 turns. (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Go Team!!`,
+                    description: `Heal party equal to 200% of your Attack Power, then heal the party for 76% of your Attack Power for 5 turns. (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Go Team!!`,
+                    description: `Heal party equal to 200% of your Attack Power, then heal the party for 80% of your Attack Power for 5 turns. (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Go Team!!`,
+                    description: `Heal party equal to 200% of your Attack Power, then heal the party for 80% of your Attack Power for 5 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Cheer Squad`,
+                    description: `Heal party for 50% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Do This!`,
+                    description: `Increase party's Ultimate Skill Power by 25%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Extra Heals`,
+                    description: `On Basic Attack, heal the lowest-HP ally (25% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Special Help`,
+                    description: `On Attack, increase the party's Attack Power by 20% of your Attack Power.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Watch Me!`,
+                    description: `On Ultimate Skill, increase the party's Ultimate Skill Damage by 25% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Defense Up (Self)`,
+                    description: `Take 10% less damage while in Guard Stance.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

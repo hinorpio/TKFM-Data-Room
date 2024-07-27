@@ -123,56 +123,56 @@ export const SkillSet_10026: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Heart☆Beat`,
+                    description: `Heal Party equal to 79.2/91.7/104.2/116.7/129.2% of your Attack Power every turn for 6 turns and reduce the CD of allies' Ultimate Skill by 1. (CD:6)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Heart☆Beat`,
+                    description: `Heal Party equal to 79.2% of your Attack Power every turn for 6 turns and reduce the CD of allies' Ultimate Skill by 1. (CD:6)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Heart☆Beat`,
+                    description: `Heal Party equal to 91.7% of your Attack Power every turn for 6 turns and reduce the CD of allies' Ultimate Skill by 1. (CD:6)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Heart☆Beat`,
+                    description: `Heal Party equal to 104.2% of your Attack Power every turn for 6 turns and reduce the CD of allies' Ultimate Skill by 1. (CD:6)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Heart☆Beat`,
+                    description: `Heal Party equal to 116.7% of your Attack Power every turn for 6 turns and reduce the CD of allies' Ultimate Skill by 1. (CD:6)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Heart☆Beat`,
+                    description: `Heal Party equal to 129.2% of your Attack Power every turn for 6 turns and reduce the CD of allies' Ultimate Skill by 1. (CD:6)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing`,
+                    description: `Increase Attack Power by 30% and party's Attack Power for 1 turns`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `My Brightest Star`,
+                    description: `Reduce the CD of your Ultimate Skill by 2 and heal party equal to 35% of your Attack Power every turn`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Raise Your Hands☆`,
+                    description: `On Attack, increase the party's Recovery Rate and Shield Rate by 12.5% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing Along☆`,
+                    description: `On Ultimate Skill, Increase the party's Attack Power by 10% for 12 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I Love You☆`,
+                    description: `On Ultimate Skill, give the party a Shield (100% Attack Power) for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

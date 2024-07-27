@@ -123,56 +123,56 @@ export const SkillSet_10037: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target (330/376/376/422/468% Attack Power). 100/110/120/130/150% chance of inflicting target with Paralysis for 1 turn. CD:4 [Bond 5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target (330% Attack Power). 100% chance of inflicting target with Paralysis for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target (376% Attack Power). 110% chance of inflicting target with Paralysis for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target (376% Attack Power). 120% chance of inflicting target with Paralysis for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target (422% Attack Power). 130% chance of inflicting target with Paralysis for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target (468% Attack Power). 150% chance of inflicting target with Paralysis for 1 turn. CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Bite`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Entrancing Dance`,
+                    description: `Increase Fire allies' Attack Power by 35%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Creeping Venom`,
+                    description: `On Ultimate Skill, increase the target's current Ultimate Skill CD by 2.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Double Snake Bite`,
+                    description: `On Basic Attack, increase the target's Damage Taken from Basic Attacks by 10% for 3 turns.\nOn Ultimate Skill, increase the target's Damage Taken from Ultimate Skills by 15% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Miia, Mes, double team!!`,
+                    description: `On Attack, increase the target's Damage Taken from Basic Attacks by 4% and Ultimate Skills by 3%, and decrease their Damage Output by 4% (Max 5 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10037: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target for 330/376/422/422/468% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 25/25/25/20/20% for 25 turns. CD:4 [Bond 5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target for 330% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 25% for 25 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target for 376% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 25% for 25 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target for 422% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 25% for 25 turns. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target for 422% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 20% for 25 turns. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Lifeless Bind`,
+                    description: `Damage target for 468% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 20% for 25 turns. CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Bite`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Entrancing Dance`,
+                    description: `Increase Fire allies' Attack Power by 35%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sick 'em, Mes!`,
+                    description: `On Basic Attack, increase the target's Damage Taken from Basic Attacks by 7.5% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Get 'em, Miia!`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Ultimate Skills by 15% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Miia, Mes, double team!!`,
+                    description: `On Attack, increase the target's Damage Taken from Basic Attacks by 2% and Ultimate Skills by 1.5% (Max 10 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

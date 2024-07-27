@@ -123,56 +123,56 @@ export const SkillSet_10002: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Brutal Tears`,
+                    description: `Increase Attack Power by 30/40/50/50/50% for 2/2/3/3/3 turns, gain Taunt for 2/2/2/3/3 turns and enter Defense Stance (CD:4) [Bond 5: (CD:3)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Brutal Tears`,
+                    description: `Increase Attack Power by 30% for 2 turns, gain Taunt for 2 turns and enter Defense Stance (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Brutal Tears`,
+                    description: `Increase Attack Power by 40% for 2 turns, gain Taunt for 2 turns and enter Defense Stance (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Brutal Tears`,
+                    description: `Increase Attack Power by 50% for 2 turns, gain Taunt for 2 turns and enter Defense Stance (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Brutal Tears`,
+                    description: `Increase Attack Power by 50% for 3 turns, gain Taunt for 3 turns and enter Defense Stance (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Brutal Tears`,
+                    description: `Increase Attack Power by 50% for 3 turns, gain Taunt for 3 turns and enter Defense Stance (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Rip`,
+                    description: `Damage target (50% Attack Power) and enter Guard Stance.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Satan's Crazed Wish`,
+                    description: `Give Satan Taunt for 50 turns. While in Guard Stance, take 15% less damage, but reduce Attack Power by 25%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Despotic Archdemon`,
+                    description: `Take 15% less damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Satan's Gift`,
+                    description: `When Attacked, perform a counter Attack (75% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Invincible`,
+                    description: `Heal 10% of your max HP every turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Defense Up (Self)`,
+                    description: `Take 10% less damage while in Guard Stance.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

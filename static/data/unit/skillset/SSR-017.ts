@@ -123,56 +123,56 @@ export const SkillSet_10031: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (265/298% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns. (CD: 3)\n\nBond 3+: Increase the target's Ultimate Skill CD by 1/1/2, reduce their Damage Output by 15/20/20% for 1 turn, and increase their Damage Taken by 15/20/20% for 3 turns, then damage the target (331/364/397% Attack Power). (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (265% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (298% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns, then damage the target (331% Attack Power). (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 20% for 1 turn, and increase their Damage Taken by 20% for 3 turns, then damage the target (364% Attack Power). (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Increase the target's Ultimate Skill CD by 2, reduce their Damage Output by 20% for 1 turn, and increase their Damage Taken by 20% for 3 turns, then damage the target (397% Attack Power). (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Volleyball Bash!`,
+                    description: `Damage target by 100% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Trustworthy Babysitter`,
+                    description: `On the first turn of each wave, increase the target's Damage Taken from Ultimate Skills by 50% for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Weakpoint Analysis`,
+                    description: `Increase your Ultimate Skill Power by 20%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Mini Torpedo`,
+                    description: `After every 3 turns, gain the following ability for 1 turn: "After you attack, perform 3 additional attacks on the target (40% Attack Power each)."\nOn Attack, increase the target's Damage Taken from additional attacks by 7.5% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Depth Charge`,
+                    description: `After every 4 turns, gain the following ability for 1 turn: "After you attack, perform 4 additional attacks on all enemies (50% Attack Power each)."\nAfter your Ultimate Skill, increase all enemies' Damage Taken from additional attacks by 32.5% (Max 1 Stack).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10031: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (265/298/331/331/364% Attack Power), then increase the target's Ultimate Skill CD by [1/1/1/1/2], reduce their Damage Output by 15/15/15/20/20% for 1 turn, and increase their Damage Taken by 15/15/15/20/20% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (265% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (298% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (331% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 15% for 1 turn, and increase their Damage Taken by 15% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (331% Attack Power), then increase the target's Ultimate Skill CD by 1, reduce their Damage Output by 20% for 1 turn, and increase their Damage Taken by 20% for 3 turns. (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `120% Super Smash!`,
+                    description: `Damage the target (364% Attack Power), then increase the target's Ultimate Skill CD by 2, reduce their Damage Output by 20% for 1 turn, and increase their Damage Taken by 20% for 3 turns. (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Volleyball Bash!`,
+                    description: `Damage target by 100% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Trustworthy Babysitter`,
+                    description: `On the first turn of each wave, increase the target's Damage Taken from Ultimate Skills by 50% for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Weakpoint Analysis`,
+                    description: `Increase your Ultimate Skill Power by 20%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Mini Torpedo`,
+                    description: `After every 3 turns, gain the following ability for 1 turn: "After you attack, perform 3 additional attacks on the target (40% Attack Power each).".`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Depth Charge`,
+                    description: `After every 4 turns, gain the following ability for 1 turn: "After you attack, perform 4 additional attacks on all enemies (50% Attack Power each).".`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

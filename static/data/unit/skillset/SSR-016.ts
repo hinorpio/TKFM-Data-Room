@@ -123,56 +123,56 @@ export const SkillSet_10030: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Yay Summer!`,
+                    description: `Increase the party's Attack Power by 20/25/25/30/30% for 2 turns.\nAllied Healers and Supporters gain the following effect for 2 turns: "On Attack, increase the party's Attack Power by 15/15/20/20/25% for 1 turn." (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Yay Summer!`,
+                    description: `Increase the party's Attack Power by 20% for 2 turns.\nAllied Healers and Supporters gain the following effect for 2 turns: "On Attack, increase the party's Attack Power by 15% for 1 turn." (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Yay Summer!`,
+                    description: `Increase the party's Attack Power by 25% for 2 turns.\nAllied Healers and Supporters gain the following effect for 2 turns: "On Attack, increase the party's Attack Power by 15% for 1 turn." (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Yay Summer!`,
+                    description: `Increase the party's Attack Power by 25% for 2 turns.\nAllied Healers and Supporters gain the following effect for 2 turns: "On Attack, increase the party's Attack Power by 20% for 1 turn." (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Yay Summer!`,
+                    description: `Increase the party's Attack Power by 30% for 2 turns.\nAllied Healers and Supporters gain the following effect for 2 turns: "On Attack, increase the party's Attack Power by 20% for 1 turn." (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Yay Summer!`,
+                    description: `Increase the party's Attack Power by 30% for 2 turns.\nAllied Healers and Supporters gain the following effect for 2 turns: "On Attack, increase the party's Attack Power by 25% for 1 turn." (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Princess' Support`,
+                    description: `Increase party's Attack Power by 30% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Where's the Babysitter!?`,
+                    description: `Allied Healers and Supporters gain the following effects:\n"After a Basic Attack, do additional damage to the target (100% Attack Power)."\n"After an Ultimate Skill, do additional damage to the target (200% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu Fears Pain`,
+                    description: `On Ultimate Skill, give the party a Shield for 1 turn (100% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Don't Bully Lulu!`,
+                    description: `After every 4 turns, increase the target's Damage Taken by 35% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I Think I Can!!`,
+                    description: `On the first turn, increase allied Healers and Supporters' Ultimate Skill Damage by 40% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

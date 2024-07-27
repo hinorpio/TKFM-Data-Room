@@ -123,56 +123,56 @@ export const SkillSet_10027: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 70% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 70% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (35% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 80% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 80% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (40% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 90% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 90% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (45% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 100% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 100% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (50% Attack Power)". (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Rupture`,
+                    description: `Damage target equal to 80% of your Attack Power and increase Attack Power by 25% for 2 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Lunacy`,
+                    description: `Lower max Ultimate Skill CD by 1 and increase Attack Power by 33%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Pain and Pleasure`,
+                    description: `When Attacked, increase your Attack Power by 10% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Unbridled Mutilation`,
+                    description: `When Attacked, perform a counter-Attack on the target (100% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Slaughterous Urge`,
+                    description: `Decrease the amount of Damage Taken while in Guard Stance by 10%.\nIncrease your Damage Output by 35%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Restoration Up`,
+                    description: `Increase Recovery Rate by 15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10027: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 70% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 70% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (35% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 80% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 80% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (40% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 90% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 90% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (45% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloodlust`,
+                    description: `Increase the target's Damage Taken by additional attacks by 100% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 100% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (50% Attack Power)". (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Rupture`,
+                    description: `Damage target equal to 50% of your Attack Power and increase Attack Power by 25% for 2 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Lunacy`,
+                    description: `Lower max Ultimate Skill CD by 1 and increase Attack Power by 33%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Pain and Pleasure`,
+                    description: `When Attacked, increase your Attack Power by 2% (Max 25 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Unbridled Mutilation`,
+                    description: `Immunity to Ultimate Skill CD changes. When being Attacked, perform a counter-Attack on the target (100% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Slaughterous Urge`,
+                    description: `On Ultimate Skill, deal 33% more Damage Output for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Restoration Up`,
+                    description: `Increase Recovery Rate by 15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

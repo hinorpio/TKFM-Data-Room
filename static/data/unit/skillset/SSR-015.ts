@@ -123,56 +123,56 @@ export const SkillSet_10029: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Slides Rule!!`,
+                    description: `Damage target by 365/417/469/522% of your Attack Power and cause them to take 20% more damage (Max 1 Stack). (CD:4) \n\nBond 5: Cause target to take 20% more damage (Max 1 Stack) and damage them by 576% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Slides Rule!!`,
+                    description: `Damage target by 365% of your Attack Power and cause them to take 20% more damage (Max 1 Stack). (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Slides Rule!!`,
+                    description: `Damage target by 417% of your Attack Power and cause them to take 20% more damage (Max 1 Stack). (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Slides Rule!!`,
+                    description: `Damage target by 469% of your Attack Power and cause them to take 20% more damage (Max 1 Stack). (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Slides Rule!!`,
+                    description: `Damage target by 522% of your Attack Power and cause them to take 20% more damage (Max 1 Stack). (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Water Slides Rule!!`,
+                    description: `Cause target to take 20% more damage (Max 1 Stack) and damage them by 576% of your Attack Power. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Spell`,
+                    description: `Damage target by 100% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Fight Hard, Play Hard!`,
+                    description: `Increase all allied Attackers' Attack Power by 60% and give the party immunity to Silence.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Raft-pocalypse!!`,
+                    description: `On Attack, decrease the target's Attack Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Heat Wave`,
+                    description: `On Attack, cause target to take 4.5% more damage (Max 6 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Vacation Sensation!`,
+                    description: `Increase your Attack Power by 40%.\nOn Ultimate Skill, inflict target with Silence.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

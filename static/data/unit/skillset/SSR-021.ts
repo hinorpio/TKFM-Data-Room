@@ -123,56 +123,56 @@ export const SkillSet_10035: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Azure Weaving`,
+                    description: `Damage current target (388/445/503/560/618% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Azure Weaving`,
+                    description: `Damage current target (388% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Azure Weaving`,
+                    description: `Damage current target (445% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Azure Weaving`,
+                    description: `Damage current target (503% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Azure Weaving`,
+                    description: `Damage current target (560% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Azure Weaving`,
+                    description: `Damage current target (618% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sewing`,
+                    description: `Damage current target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Blue Fates Interweave`,
+                    description: `Fire and Water allies deal 50% more damage; starting from the beginning of your first turn, increase Red Tailor Asida's and your Ultimate Skill Power by 20% for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Indigo Knit`,
+                    description: `Increase Ultimate Skill Power by 30%; when Red Tailor Asida is alive on your team, take 33% less damage from Wind damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Cobalt Stitch`,
+                    description: `Increase Attack Power by 30%; when Red Tailor Asida is alive on your team, deal 20% more damage.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sober Judgement`,
+                    description: `On Basic Attack, increase your Ultimate Skill Damage by 10% for 6 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

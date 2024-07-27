@@ -123,56 +123,56 @@ export const SkillSet_10008: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Humungo Bomb`,
+                    description: `Increase Attack Power by 100/105/110/115/125% (Max 2 Stacks) (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Humungo Bomb`,
+                    description: `Increase Attack Power by 100% (Max 2 Stacks) (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Humungo Bomb`,
+                    description: `Increase Attack Power by 105% (Max 2 Stacks) (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Humungo Bomb`,
+                    description: `Increase Attack Power by 110% (Max 2 Stacks) (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Humungo Bomb`,
+                    description: `Increase Attack Power by 115% (Max 2 Stacks) (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Humungo Bomb`,
+                    description: `Increase Attack Power by 125% (Max 2 Stacks) (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Strafe`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Finality Blaster`,
+                    description: `At the start of the first turn, increase your Attack Power by 400% for 6 turns and stop your Ultimate Skill CD countdown for 2 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ML Battle System`,
+                    description: `On Attack, increase your Attack Power by 2% (Max 10 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Defense Mode`,
+                    description: `While in Guard Stance, gain a Shield (100% Attack Power) for 3 turns, but deal 50% less damage for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mind Sensor Cannon`,
+                    description: `After a Basic Attack, perform 3 additional Attacks on the target (20% Attack Power each).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

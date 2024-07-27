@@ -22,7 +22,7 @@ export const General_10057: Unit = {
     abbreviation: {
         [Locale.tc]: [ "煌星", "煌", "蘇珊", "飛天螺旋麵", "白癡公主" ],
         [Locale.sc]: [ "煌星", "煌", "苏珊", "飞天螺旋面", "白痴公主" ],
-        [Locale.en]: [ "Daphne" ],
+        [Locale.en]: [ "Daphne", "Susan" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },

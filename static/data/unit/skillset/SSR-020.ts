@@ -123,56 +123,56 @@ export const SkillSet_10034: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Cut`,
+                    description: `Damage current target (330/376/422/468/514% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Cut`,
+                    description: `Damage current target (330% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Cut`,
+                    description: `Damage current target (376% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Cut`,
+                    description: `Damage current target (422% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Cut`,
+                    description: `Damage current target (468% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Cut`,
+                    description: `Damage current target (514% Attack Power) then grant party a Shield equal to 15% of allies' max HP for 1 turn. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Cut Out`,
+                    description: `Damage current target (125% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Red Fates Interweave`,
+                    description: `Fire and Water allies deal 50% more damage; starting from the beginning of your first turn, increase Blue Tailor Asina's and your Basic Attack Power by 30% for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Crimson Knit`,
+                    description: `Increase your Basic Attack Power by 30%; when Blue Tailor Asina is alive on your team, take 33% less damage from Water damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Cherry Shear`,
+                    description: `Increase Attack Power by 30%; when Blue Tailor Asina is alive on your team, deal 20% more damage.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Inspiration Explosion`,
+                    description: `On Ultimate Skill, increase Basic Attack Damage by 50% for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

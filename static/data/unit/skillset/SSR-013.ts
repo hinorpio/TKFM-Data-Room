@@ -123,56 +123,56 @@ export const SkillSet_10028: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12/12/12/15/18% more Wind damage (Max 2 Stacks). Damage target for 330/376/422/422/422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12% more Wind damage (Max 2 Stacks). Damage target for 330% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12% more Wind damage (Max 2 Stacks). Damage target for 376% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12% more Wind damage (Max 2 Stacks). Damage target for 422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 15% more Wind damage (Max 2 Stacks). Damage target for 422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 18% more Wind damage (Max 2 Stacks). Damage target for 422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Brainss! Booobs!!`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Chi-zombie!`,
+                    description: `Increase Attack Power by 90% and Ultimate Skill Power by 30%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `28 Days Hotter`,
+                    description: `Take 15% less damage, but take 30% more Fire damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Rigor mortis`,
+                    description: `When you enter Guard Stance, decrease your current Ultimate Skill CD by 1.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Raise the Dead`,
+                    description: `On Ultimate Skill, increase all Wind party members' Ultimate Skill Damage by 15% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10028: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12/12/12/15/18% more Wind damage (Max 2 Stacks). Damage target for 330/376/422/422/422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12% more Wind damage (Max 2 Stacks). Damage target for 330% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12% more Wind damage (Max 2 Stacks). Damage target for 376% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 12% more Wind damage (Max 2 Stacks). Damage target for 422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 15% more Wind damage (Max 2 Stacks). Damage target for 422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawn of the Babe`,
+                    description: `Target takes 18% more Wind damage (Max 2 Stacks). Damage target for 422% of your Attack Power. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Brainss! Booobs!!`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Chi-zombie!`,
+                    description: `Increase Attack Power by 90% and Basic Attack damage by 45%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `28 Days Hotter`,
+                    description: `Take 15% less damage, but take 30% more Fire damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Rigor mortis`,
+                    description: `When you enter Guard Stance, decrease your current Ultimate Skill CD by 1.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Raise the Dead`,
+                    description: `On Ultimate Skill, increase all Wind party members' Attack Power by 15% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10003: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Rose`,
+                    description: `Damage target (388/445/503/560/560% Attack Power) (CD:4) [Bond 5: (CD:3)] `
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Rose`,
+                    description: `Damage target (388% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Rose`,
+                    description: `Damage target (445% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Rose`,
+                    description: `Damage target (503% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Rose`,
+                    description: `Damage target (560% Attack Power) (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Rose`,
+                    description: `Damage target (560% Attack Power) (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Beam`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Iblis' Pride`,
+                    description: `On Attack, perform an additional Attack on all enemies (75% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Hidden Ceremony`,
+                    description: `When HP is above 75%, increase Attack Power by 15%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Absorb`,
+                    description: `Increase Basic Attack Power by 20%. When dealing damage, recover HP equal to 33% of the damage dealt.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mass Oppression`,
+                    description: `On the first round of each wave, increase your Attack Power by 15% for 3 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

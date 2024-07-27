@@ -123,56 +123,56 @@ export const SkillSet_10057: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Destruction Beam`,
+                    description: `Grant the party a Shield equal to 165/188/188/211/211% of your Attack Power for 2 turns, then increase the party's Attack Power by 30/30/30/30/40% of your Attack Power for 2 turns. CD:4 [Bond 3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Destruction Beam`,
+                    description: `Grant the party a Shield equal to 165% of your Attack Power for 2 turns, then increase the party's Attack Power by 30% of your Attack Power for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Destruction Beam`,
+                    description: `Grant the party a Shield equal to 188% of your Attack Power for 2 turns, then increase the party's Attack Power by 30% of your Attack Power for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Destruction Beam`,
+                    description: `Grant the party a Shield equal to 188% of your Attack Power for 2 turns, then increase the party's Attack Power by 30% of your Attack Power for 2 turns. CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Destruction Beam`,
+                    description: `Grant the party a Shield equal to 211% of your Attack Power for 2 turns, then increase the party's Attack Power by 30% of your Attack Power for 2 turns. CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Destruction Beam`,
+                    description: `Grant the party a Shield equal to 211% of your Attack Power for 2 turns, then increase the party's Attack Power by 40% of your Attack Power for 2 turns. CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Nether Barrier`,
+                    description: `Grant party a Shield equal to 50% of your Attack Power for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sunken Cerberus`,
+                    description: `Increase the 1st, 3rd, and 5th ally's Attack Power by 33% and Ultimate Skill Power by 15%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Claw`,
+                    description: `Increase Basic Attack damage by 25%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Abyssal Chain`,
+                    description: `The 2nd and 4th-position allies take 15% less damage for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The Nether Realm Awakens`,
+                    description: `After every 6 turns, increase the 1st, 3rd, and 5th-position ally's Ultimate Skill Damage by 50% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
