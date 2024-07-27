@@ -123,56 +123,56 @@ export const SkillSet_10121: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Hundred Drawings Projection`,
+                    description: `Increase your Basic Attack Power by 60/75/90/105/120% for 4 turns then increase the target's Damage Taken from Basic Attacks by 30/45/60/75/90% for 8 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Hundred Drawings Projection`,
+                    description: `Increase your Basic Attack Power by 60% for 4 turns then increase the target's Damage Taken from Basic Attacks by 30% for 8 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Hundred Drawings Projection`,
+                    description: `Increase your Basic Attack Power by 75% for 4 turns then increase the target's Damage Taken from Basic Attacks by 45% for 8 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Hundred Drawings Projection`,
+                    description: `Increase your Basic Attack Power by 90% for 4 turns then increase the target's Damage Taken from Basic Attacks by 60% for 8 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Hundred Drawings Projection`,
+                    description: `Increase your Basic Attack Power by 105% for 4 turns then increase the target's Damage Taken from Basic Attacks by 75% for 8 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Hundred Drawings Projection`,
+                    description: `Increase your Basic Attack Power by 120% for 4 turns then increase the target's Damage Taken from Basic Attacks by 90% for 8 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Logistics Supply Meow`,
+                    description: `Increase the party's Basic Attack Power by 40% for 2 turns`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Skilled Charming Sailor`,
+                    description: `When there are 3 or more Wind allies on your team, grant all allies "Seagull Thieves".\nWhen there are 2 or more Attackers on your team, grant self "Sail Toward the Sea!".\n\n"Seagull Thieves"\nIncrease Attack Power by 40%.\nIncrease Basic Attack Power by 100%.\nOn Basic Attack, deal additional damage to the target (65% Attack Power).\n\n"Sail Toward the Sea!"\nOn Basic Attack, increase the target's Damage Taken by 5% (max 10 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Facing Storm`,
+                    description: `On Basic Attack, grant the party a Shield for 5% of your max HP for 1 turn.\nOn Ultimate Skill, trigger the following effect: On Basic Attack, deal additional damage to the target (100% Attack Power) for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Projection Bombardment`,
+                    description: `On Basic Attack, deal additional damage to the target (50% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Eternal Memories`,
+                    description: `Increase the party's Damage Output by 10%.\nOn Basic Attack, increase the party's Damage Power by 10% (max 4 stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage Reduction+`,
+                    description: `Reduce your Damage Taken by 5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

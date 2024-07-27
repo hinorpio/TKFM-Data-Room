@@ -123,56 +123,56 @@ export const SkillSet_10106: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Storm`,
+                    description: `Increase your Damage Output by 10/10/15/15/20% for 3 turns, damage the target (200% Attack Power), then gain the following ability for 3 turns: "On Attack, damage the target for 50/65/80/95/110% Attack Power". CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Storm`,
+                    description: `Increase your Damage Output by 10% for 3 turns, damage the target (200% Attack Power), then gain the following ability for 3 turns: "On Attack, damage the target for 50% Attack Power". CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Storm`,
+                    description: `Increase your Damage Output by 10% for 3 turns, damage the target (200% Attack Power), then gain the following ability for 3 turns: "On Attack, damage the target for 65% Attack Power". CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Storm`,
+                    description: `Increase your Damage Output by 15% for 3 turns, damage the target (200% Attack Power), then gain the following ability for 3 turns: "On Attack, damage the target for 80% Attack Power". CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Storm`,
+                    description: `Increase your Damage Output by 15% for 3 turns, damage the target (200% Attack Power), then gain the following ability for 3 turns: "On Attack, damage the target for 95% Attack Power". CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrow Storm`,
+                    description: `Increase your Damage Output by 20% for 3 turns, damage the target (200% Attack Power), then gain the following ability for 3 turns: "On Attack, damage the target for 110% Attack Power". CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Whirlwind Bow`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Hidden Ambition`,
+                    description: `Increase the party's HP by 20%.\n\nIf there are at least 3 Wind allies in your party, give all allied Attackers and Obstructors "Elf Captain".\nIf there are at least 2 Fire allies in your party, give the party "Sniper Formation".\n\n"Elf Captain"\nIncrease your Attack Power by 25%.\nIncrease damage from triggered abilities by 175%.\nOn Basic Attack, damage the target for 40% of your Attack Power.\nOn Ultimate Skill, damage the target for 100% of your Attack Power.\n\n"Sniper Formation"\nIncrease your Attack Power by 100%.\nIncrease the effect of your healing skills by 25%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Hurricane Tomahawk`,
+                    description: `On Ultimate Skill, reduce the target's Ultimate Skill Damage by 15% for 2 turns.\nOn Ultimate Skill, damage the target (80% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Frayed Pouch`,
+                    description: `On Basic Attack, increase the target's Damage Taken from trigger attacks by 20% (Max 5 Stacks).\nOn Basic Attack, damage the target (35% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Strong Resolve`,
+                    description: `On Basic Attack, increase the party's Ultimate Skill Damage by 6% (Max 5 Stacks).\nOn Ultimate Skill, increase the target's Damage Taken from Ultimate Skills by 15% (Max 2 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill +`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

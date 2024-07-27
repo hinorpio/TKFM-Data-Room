@@ -123,56 +123,56 @@ export const SkillSet_10115: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Auto Warm Vibration?`,
+                    description: `Heal the party for 80/85/90/95/100% of your Attack Power every turn for 4 turns, give the party a shield equal to 20/24/28/32/36% of your max HP for 1 turn, and increase the target's Damage Taken by 0/0/10/15/20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Auto Warm Vibration?`,
+                    description: `Heal the party for 80% of your Attack Power every turn for 4 turns, give the party a shield equal to 20% of your max HP for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Auto Warm Vibration?`,
+                    description: `Heal the party for 85% of your Attack Power every turn for 4 turns, give the party a shield equal to 24% of your max HP for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Auto Warm Vibration?`,
+                    description: `Heal the party for 90% of your Attack Power every turn for 4 turns, give the party a shield equal to 28% of your max HP for 1 turn, and increase the target's Damage Taken by 10% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Auto Warm Vibration?`,
+                    description: `Heal the party for 95% of your Attack Power every turn for 4 turns, give the party a shield equal to 32% of your max HP for 1 turn, and increase the target's Damage Taken by 15% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Auto Warm Vibration?`,
+                    description: `Heal the party for 100% of your Attack Power every turn for 4 turns, give the party a shield equal to 36% of your max HP for 1 turn, and increase the target's Damage Taken by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Clever Beam~`,
+                    description: `Heal the party for 75% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Genius Magical Maiden`,
+                    description: `On the first turn of each wave, increase all enemies' Damage Taken from Wind attacks by 35% (max 1 stack).\nIncrease your Damage Output by 50%.\nOn Attack, give all party members other than yourself "Justice will be Served".\n\n"Justice will be Served"\nIncrease the Damage Output by 20% for 1 turn.\nOn Attack, the 1st-position ally gains "Magical Convergence" for 1 turn.\n\n"Magical Convergence"\nIncrease the Attack Power by 50% for 2 turns.\nOn Basic Attack, add the following effect for 2 turns: "Damage the target (75% Attack Power)."\nOn Ultimate Skill, add the following effect for 2 turns: "Damage the target (125% Attack Power)."`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Pinky Sexual Light ♡`,
+                    description: `On Attack, increase the party's Attack Power for 20% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Exhibitionist`,
+                    description: `Increase the party's Shield effect by 20%.\nIncrease the party's Recovery Rate by 20%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Escape In Vain`,
+                    description: `When healed, increase the party's Attack Power by 20% for 1 turn.\nGive the party the following effect: "When your current HP is ≧95%, increase your Damage Output by 15%."`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain Sleep Immunity`
                 }
             },
             [Locale.jp]: {

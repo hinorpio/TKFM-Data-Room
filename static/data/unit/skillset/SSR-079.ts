@@ -123,56 +123,56 @@ export const SkillSet_10048: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Splash`,
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (130% Attack Power), increase the party's Basic Attack Power by 20/25/30/35/40% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (130/176/222/268/314% Attack Power)". CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Splash`,
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (130% Attack Power), increase the party's Basic Attack Power by 20% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (200% Attack Power)". CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Splash`,
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (176% Attack Power), increase the party's Basic Attack Power by 25% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (200% Attack Power)". CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Splash`,
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (222% Attack Power), increase the party's Basic Attack Power by 30% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (200% Attack Power)". CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Splash`,
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (268% Attack Power), increase the party's Basic Attack Power by 35% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (200% Attack Power)". CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Poison Splash`,
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (314% Attack Power), increase the party's Basic Attack Power by 40% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (200% Attack Power)". CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Scorpion Strike`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Crippling Venom`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 40%.\nGive all allied Attackers and Obstructors "Inescapable Poison"\n\n"Inescapable Poison"\nIncrease your Basic Attack Power by 50%\nIncrease your Damage Output by 20%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `On the Edge`,
+                    description: `On Ultimate Skill, increase your Attack Power by 80% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Corrosive Venom`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Basic Attacks by 60% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Scarlet Toxin`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Water Attacks by 30% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Basic Attack Up (Self)`,
+                    description: `Increase your Basic Attack Damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

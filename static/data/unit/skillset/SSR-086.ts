@@ -123,56 +123,56 @@ export const SkillSet_10120: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `A Deep-sea Pineapple!`,
+                    description: `Increase your Trigger Ability Effects by 40/60/60/80/100% for 3 turns and Ultimate Skill Power by 0/0/20/37.5/45% for 1 turn, then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `A Deep-sea Pineapple!`,
+                    description: `Increase your Trigger Ability Effects by 40% for 3 turns, then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `A Deep-sea Pineapple!`,
+                    description: `Increase your Trigger Ability Effects by 60% for 3 turns, then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Deep-sea Pineapple!`,
+                    description: `Increase your Trigger Ability Effects by 60% for 3 turns and Ultimate Skill Power by 20% for 1 turn, then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `A Deep-sea Pineapple!`,
+                    description: `Increase your Trigger Ability Effects by 80% for 3 turns and Ultimate Skill Power by 37.5% for 1 turn, then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `A Deep-sea Pineapple!`,
+                    description: `Increase your Trigger Ability Effects by 100% for 3 turns and Ultimate Skill Power by 45% for 1 turn, then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Flexible and Nimble~`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Join the Dwarf Captain!`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 50%.\nGive all allied Attackers and Obstructors the following effect: When there or 3 or more Wind allies on your team, trigger "Riding the Wind".\nOn the 1st turn of each wave, increase all enemies' Damage Taken from Wind attacks by 25% for 50 turns.\n\n"Riding the Wind"\nIncrease your Attack Power by 80%\nIncrease your Damage Output by 40%\nOn Attack, trigger "Breaking Waves".\n\n"Breaking Waves"\nThe 1st position ally gains the following effect: On Basic Attack, damage the target (65% Attack Power) (1 turn).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Loading Gunpowder`,
+                    description: `On Basic Attack, increase your Attack Power by 50% for 3 turns.\nAfter every turn, trigger the following effect: On Ultimate Skill, remove the attack buff (turn-based) granted by "Loading Gunpowder" (1 turn).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Are You Ready Kids?`,
+                    description: `On Basic Attack, trigger "Yes, Captain!."\nAfter every turn, trigger the following effect: On Ultimate Skill, remove the effect of "Yes, Captain!" (1 turn).\n\n"Yes, Captain!"\nOn Ultimate Skill, damage the target (80% Attack Power) for 3 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I Can't Hear You`,
+                    description: `Decrease your max Ultimate Skill CD by 1.\nOn Basic Attack, increase your Damage Output by 20% for 3 turns.\nAfter every turn, trigger the following effect: On Ultimate Skill, remove the attack buff (turn-based) granted by "I Can't Hear You" (1 turn).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

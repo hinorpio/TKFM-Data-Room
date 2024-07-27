@@ -123,56 +123,56 @@ export const SkillSet_10117: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (96/115/135/154/173% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (96% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (115% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (135% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (154% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (173% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Puff~`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Sale`,
+                    description: `Increases your and all Fire and Light allies' max HP by 20%.\nIncreases your and all Fire and Light allies' Damage Output by 20%.\nIncreases your Attack Power by 50%.\nIncreases your Basic Attack Power by 20%.\nIncreases all Fire and Light allies' Attack Power by 80%.\nIncreases all all Fire and Light allies' Basic Attack Power by 50%.\nAll allied Attackers and Obstructers gain the following effect: "When there are 2 or more Fire allies on your team, trigger "Ba'al Corp's Special BBQ Grill."\nAll allied Attackers and Obstructers gain the following effect: "When there are 2 or more Light allies on your team, trigger "Ba'al Corp's Special BBQ Grill."\n\n"Ba'al Corp's Special BBQ Grill"\nOn Basic Attack, deal additional damage to the target (40% Attack Power).\nOn Basic Attack, increase the target's Damage Taken from Basic Attacks by 18% (max 5 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Black Swimsuit Archdemon`,
+                    description: `Increase all Water allies' Attack Power by 30%.\nIncrease all Water allies' Basic Attack Power by 20%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Shoot you in the Face~`,
+                    description: `All allied Attackers and Obstructers gain "Ba'al Corp's Special Water Gun."\n\n"Ba'al Corp's Special Water Gun"\nWhen there are 4/5 Water allies on your team, gain the following effect: "On Basic Attack, damage the target ((15/15)% Attack Power)."\nWhen there are 4/5 Water allies on your team, gain the following effect: "On Basic Attack, increase the target's Damage Taken from Basic Attacks by (9/9)% (max 5 stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I'll Take Care of Everything~`,
+                    description: `The party gains "Seaside House's Premium Product"\n\n"Seaside House's Premium Product"\nWhen there are 2 or more Attackers on your team, increase the Damage Output by 30%.\nWhen there are 2 or more Attackers on your team, increase the Basic Attack Power by 30%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Basic Attack Power+`,
+                    description: `Increase your Basic Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

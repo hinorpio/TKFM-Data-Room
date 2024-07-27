@@ -123,56 +123,56 @@ export const SkillSet_10118: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Kingdom`,
+                    description: `Increase your Heal Rate by 30/35/40/45/50% for 4 turns and heal the party for 165/188/211/234/257% of your Attack Power. The target's Damage Taken from Light Damage increases by 10/10/15/20/25% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Kingdom`,
+                    description: `Increase your Heal Rate by 30% for 4 turns and heal the party for 165% of your Attack Power. The target's Damage Taken from Light Damage increases by 10% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Kingdom`,
+                    description: `Increase your Heal Rate by 35% for 4 turns and heal the party for 188% of your Attack Power. The target's Damage Taken from Light Damage increases by 10% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Kingdom`,
+                    description: `Increase your Heal Rate by 40% for 4 turns and heal the party for 211% of your Attack Power. The target's Damage Taken from Light Damage increases by 15% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Kingdom`,
+                    description: `Increase your Heal Rate by 45% for 4 turns and heal the party for 234% of your Attack Power. The target's Damage Taken from Light Damage increases by 20% for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Divine Kingdom`,
+                    description: `Increase your Heal Rate by 50% for 4 turns and heal the party for 257% of your Attack Power. The target's Damage Taken from Light Damage increases by 25% for 1 turn. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Chanting Sex Songs`,
+                    description: `Heal the party for 75% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexual Gospel`,
+                    description: `Increase the party's max HP by 20%.\nThe party gains the following effect: "When there are 4 or more Light allies on your team, increase Attack Power by 100%."\nIncrease the Light allies' Ultimate Skill Power by 50%.\nEvery 4 turns, increase the target's Damage Taken by 50% for 1 turn.\nWhen healed, increase the party's Damage Output by 15% for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Spreading Climaxes, Spreading Love♡`,
+                    description: `On Ultimate Skill, increase the party's Attack Power by 40% (max 1 stack).\nWhen healed, increase the party's Attack Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's All Climax Together~`,
+                    description: `On Ultimate Skill, increase the party's Ultimate Skill Power by 30% (max 1 stack).\nWhen healed, increase the party's Ultimate Skill Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The Essence of Sex♡`,
+                    description: `On Ultimate Skill, increase the party's Damage Output by 20% (max 1 stack).\nWhen healed, increase the party's Damage Output by 5% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Basic Attack Power+`,
+                    description: `Increase your Basic Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

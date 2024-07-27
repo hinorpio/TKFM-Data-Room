@@ -123,56 +123,56 @@ export const SkillSet_10124: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro Heartbreaker♡`,
+                    description: `Increase the target's Damage Taken from Fair Pixie Vanilla Nyoro's attacks by 30/30/35/35/40% (max 2 stacks), then damage the target (265/398/331/364/397% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro Heartbreaker♡`,
+                    description: `Increase the target's Damage Taken from Fair Pixie Vanilla Nyoro's attacks by 30% (max 2 stacks), then damage the target (265% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro Heartbreaker♡`,
+                    description: `Increase the target's Damage Taken from Fair Pixie Vanilla Nyoro's attacks by 30% (max 2 stacks), then damage the target (298% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro Heartbreaker♡`,
+                    description: `Increase the target's Damage Taken from Fair Pixie Vanilla Nyoro's attacks by 35% (max 2 stacks), then damage the target (331% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro Heartbreaker♡`,
+                    description: `Increase the target's Damage Taken from Fair Pixie Vanilla Nyoro's attacks by 35% (max 2 stacks), then damage the target (364% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro Heartbreaker♡`,
+                    description: `Increase the target's Damage Taken from Fair Pixie Vanilla Nyoro's attacks by 40% (max 2 stacks), then damage the target (397% Attack Power). CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Newt Flying Kick`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Flirty-but-Pure GF`,
+                    description: `Increase the party's max HP by 20%\nThe party gains the following effect: When there's 1 or more Light ally on your team, trigger "Usagihime Snuggles~".\nGain yourself the following effect: When there are 1 or more Dark allies on your team, trigger "Miru Snuggles~".\nOn Ultimate Skill, gain 1 stack of "It's Flirty Time" (max 2 stacks).\nWhen you have less than 2 stacks of "It's Flirty Time", trigger "Say You Luv Me!".\nWhen you have 2 stacks of "It's Flirty Time", trigger "Gimme a Hug~".\n\n"Usagihime Snuggles~"\nIncrease Attack Power by 80%\n\n"Miru Snuggles~"\nIncrease Attack Power by 60%\nOn Ultimate Attack, increase the target's Damage Taken from Fire attacks by 25% (max 2 stacks).\nOn Ultimate Skill, deal additional damage to the target equal to 160% of your Attack Power.\n\n"Say You Luv Me!"\nOn Ultimate Skill, decrease your Ultimate Skill CD by 1 for 50 turns.\n\n"Gimme a Hug~"\nOn Ultimate Attack, gain effect "Nyoro numbs you with her cuddles" for 50 turns, removing your "It's Flirty Time", as well as the max Ultimate Skill CD-reduction effect.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Teenie-tailed Amphibian`,
+                    description: `On Attack, increase your Attack Power by 20% (max 4 stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Pink Seduction♡`,
+                    description: `On Ultimate Skill, damage the target (66% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro's Universal Luv~`,
+                    description: `Increase your Damage Output by 40%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

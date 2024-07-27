@@ -123,56 +123,56 @@ export const SkillSet_10108: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Free Valentine's Chocolate~`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Increase the target's Damage Taken by 15/15/22.5/22.5/30% (Max [3/3/2/2/2] Stacks). Every 3 turns, heal the party every turn for 96/110/123/137/150% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Free Valentine's Chocolate~`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Increase the target's Damage Taken by 15% (Max 3 Stacks). Every 3 turns, heal the party every turn for 96% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Free Valentine's Chocolate~`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Increase the target's Damage Taken by 15% (Max 3 Stacks). Every 3 turns, heal the party every turn for 110% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Free Valentine's Chocolate~`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Increase the target's Damage Taken by 22.5% (Max 2 Stacks). Every 3 turns, heal the party every turn for 123% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Free Valentine's Chocolate~`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Increase the target's Damage Taken by 22.5% (Max 2 Stacks). Every 3 turns, heal the party every turn for 137% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Free Valentine's Chocolate~`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Increase the target's Damage Taken by 30% (Max 2 Stacks). Every 3 turns, heal the party every turn for 150% of your Attack Power. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sweet and Tasty`,
+                    description: `Increase all other allies' Attack Power by 20% of your Attack Power for 1 turn. Heal the party for 20% of your Attack Power. Every 2 turns, heal the party for 20% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `A Lovestricken Heart`,
+                    description: `Increase the party's Max HP by 20%.\nIncrease the party's Attack Power by 50%.\nIf the party has at least 3 Fire allies, trigger "Lets Make Chocolate!"\nGive the 3rd-position ally "For a Special Someone"\n\n"Let's Make Chocolate":\nOn Ultimate Skill, increase the target's Damage Taken by Ultimate Skill by 15% for 2 turns.\nOn Ultimate Skill, increase the target's Damage Taken by Fire attacks by 15% for 2 turns.\n\n"For a Special Someone":\nIncrease your Attack Power by 70%\nOn Ultimate Skill, increase your Damage Output by 20% (Max 2 Stacks)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Merchant's Guide`,
+                    description: `Reduce the Damage Taken of ally with the lowest Max HP by 15%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `It's love, I added love~`,
+                    description: `Reduce the party's Damage Taken by Ultimate Skills by 10%.\nOn Ultimate Skill, increase the party's Recovery Rate by 20% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Chocolate, tea, or me~`,
+                    description: `Allied Healers and Supporters gain "A Sweet and Spicy Night"\n\n"A Sweet and Spicy Night"\nIncrease your Attack Power by 40%\nWhen entering Guard Stance, increase the party's Regen Rate by 20% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to silenced`
                 }
             },
             [Locale.jp]: {

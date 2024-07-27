@@ -123,56 +123,56 @@ export const SkillSet_10069: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Trying to Resist My Desire!`,
+                    description: `Increase all allied Attackers and Obstructers' Ultimate Skill Damage Power by 10/15/20/25/30% for 2 turns. All other allies gain the following effect: "On Attack, damage the target (25/35/45/55/65% Attack Power)" for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Trying to Resist My Desire!`,
+                    description: `Increase all allied Attackers and Obstructers' Ultimate Skill Damage Power by 10% for 2 turns. All other allies gain the following effect: "On Attack, damage the target (25% Attack Power)" for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Trying to Resist My Desire!`,
+                    description: `Increase all allied Attackers and Obstructers' Ultimate Skill Damage Power by 15% for 2 turns. All other allies gain the following effect: "On Attack, damage the target (35% Attack Power)" for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Trying to Resist My Desire!`,
+                    description: `Increase all allied Attackers and Obstructers' Ultimate Skill Damage Power by 20% for 2 turns. All other allies gain the following effect: "On Attack, damage the target (45% Attack Power)" for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Trying to Resist My Desire!`,
+                    description: `Increase all allied Attackers and Obstructers' Ultimate Skill Damage Power by 25% for 2 turns. All other allies gain the following effect: "On Attack, damage the target (55% Attack Power)" for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Trying to Resist My Desire!`,
+                    description: `Increase all allied Attackers and Obstructers' Ultimate Skill Damage Power by 30% for 2 turns. All other allies gain the following effect: "On Attack, damage the target (65% Attack Power)" for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Support`,
+                    description: `Increase the party's Attack Power by 50% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny Attack`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 50%.\nGive all allied Attackers and Obstructors "Horny Bunny Foot"\nAfter every 4 turns, increase the party's Ultimate Skill Damage Output by 35% for 2 turns.\n\nHorny Bunny Foot\nOn Attack, increase your Attack Power by 20% (max 5 stacks).\nOn Attack, the target takes 20% more damage from all Trigger Abilities (max 5 Stacks).\nOn Ultimate Skill, damage the target (150% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `We Rock!`,
+                    description: `On Ultimate Skill, increase the party's Attack Power by 50% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `YAAAAGH!`,
+                    description: `On Ultimate Skill, grant yourself a Shield equal to 15% of your max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Romantic Love!`,
+                    description: `Increase the party's Damage Output by 20%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Power+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

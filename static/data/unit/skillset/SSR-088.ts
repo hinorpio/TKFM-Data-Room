@@ -123,56 +123,56 @@ export const SkillSet_10071: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Annihilation Eye`,
+                    description: `Increase your Attack Power by 180/180/200/200/200% for 2 turns, Basic Damage Power by 60/80/80/100/100% for 2 turns. Increase the target's Damage Taken from Fire attacks by 0/0/5/5/5% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (80/100/100/110/130% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Annihilation Eye`,
+                    description: `Increase your Attack Power by 180% for 2 turns, Basic Damage Power by 60% for 2 turns. On Basic Attack, deal additional damage to the target for 4 turns (80% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Annihilation Eye`,
+                    description: `Increase your Attack Power by 180% for 2 turns, Basic Damage Power by 80% for 2 turns. On Basic Attack, deal additional damage to the target for 4 turns (100% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Annihilation Eye`,
+                    description: `Increase your Attack Power by 200% for 2 turns, Basic Damage Power by 80% for 2 turns. Increase the target's Damage Taken from Fire attacks by 5% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (100% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Annihilation Eye`,
+                    description: `Increase your Attack Power by 200% for 2 turns, Basic Damage Power by 100% for 2 turns. Increase the target's Damage Taken from Fire attacks by 5% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (110% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Annihilation Eye`,
+                    description: `Increase your Attack Power by 240% for 2 turns, Basic Damage Power by 100% for 2 turns. Increase the target's Damage Taken from Fire attacks by 5% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (130% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Crossbow Sniper`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Forbidden Land Guardians`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 60%.\nIncrease the party's Basic Attack Power by 60%.\nIncrease your Damage Output by 50%.\nOn Basic Attack, increase the target's Damage Taken by 5% (max 8 stacks).\nOn Ultimate Skill, trigger the following effect: On Basic Attack, deal additional damage to the target for 2 turns (150% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Terrifying Hunt`,
+                    description: `Increase Attack Power by 50%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Double Arrow`,
+                    description: `On Ultimate Skill, deal additional damage to the target for 2 turns (70% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Weakening Curse`,
+                    description: `On the 6th turn, increase the target's Damage Taken from Basic Attacks by 100% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain Immunity to Silence`
                 }
             },
             [Locale.jp]: {

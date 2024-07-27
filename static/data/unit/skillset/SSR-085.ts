@@ -123,56 +123,56 @@ export const SkillSet_10119: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Aiko's Summer Special`,
+                    description: `Increase the party's trigger ability effects by 50/75/75/100/100% for 3 turns, increase the party's Damage Output by 10/10/20/20/30% for 3 turns, and Increase the party's Attack Power by 20/35/35/50/50% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Aiko's Summer Special`,
+                    description: `Increase the party's trigger ability effects by 50% for 3 turns, increase the party's Damage Output by 10% for 3 turns, and Increase the party's Attack Power by 20% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Aiko's Summer Special`,
+                    description: `Increase the party's trigger ability effects by 75% for 3 turns, increase the party's Damage Output by 10% for 3 turns, and Increase the party's Attack Power by 35% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Aiko's Summer Special`,
+                    description: `Increase the party's trigger ability effects by 75% for 3 turns, increase the party's Damage Output by 20% for 3 turns, and Increase the party's Attack Power by 35% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Aiko's Summer Special`,
+                    description: `Increase the party's trigger ability effects by 100% for 3 turns, increase the party's Damage Output by 20% for 3 turns, and Increase the party's Attack Power by 50% for 3 turns. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Aiko's Summer Special`,
+                    description: `Increase the party's trigger ability effects by 100% for 3 turns, increase the party's Damage Output by 30% for 3 turns, and Increase the party's Attack Power by 50% for 3 turns. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Top-Notch Service`,
+                    description: `Heal the party for 50% of your Attack Power every turn for 3 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Master Caesar is the God`,
+                    description: `Increases the party's Attack Power by 50%.\nGrant yourself "Exclusive Waitress"\nAll allied Defenders gain the following effect: "When there are 2 or more Defenders on your team, trigger "Master Caesar is Always Right."\n\n"Exclusive Waitress"\nIncreases the Damage Output by 50%.\nOn Basic Attack, damage the target (100% Attack Power).\nOn Ultimate Skill, damage the target (250% Attack Power).\n\n"Master Caesar is Always Right"\nIncreases the Damage Output by 50%.\nOn Basic Attack, damage the target for 100% of your Attack Power and 50% of your max HP.\nOn Ultimate Skill, damage the target for 250% of your Attack Power and 125% of your max HP.\nOn Attack, remove your Taunt and Guard Stance.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Maid... Waitress' Secret Technique!`,
+                    description: `On Ultimate Skill, heal the party for 150% of your Attack Power.\nOn Ultimate Skill, damage the target (250% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Wonderful Taste~♡`,
+                    description: `Increase the party's Recovery Rate by 20%.\nIncrease the Attack Power by 50%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Cute♡ Cute♡ Mwah`,
+                    description: `Increase the trigger ability effects by 75%.\nOn Ultimate Skill, grant the party a Shield for 15% of your max HP for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10111: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `A Taste of Caesar ♡`,
+                    description: `Heal the party for 55/65/75/85/100% of your Attack Power, then heal the party for 78/89/100/110/123% of your Attack Power every turn for 4 turns. Increase the party's Attack Power for 20/20/25/25/30% of your Attack Power for 1 turn, then increase the party's Attack Power by 0/0/10/20/20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `A Taste of Caesar ♡`,
+                    description: `Heal the party for 55% of your Attack Power, then heal the party for 78% of your Attack Power every turn for 4 turns. Increase the party's Attack Power for 20% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `A Taste of Caesar ♡`,
+                    description: `Heal the party for 65% of your Attack Power, then heal the party for 89% of your Attack Power every turn for 4 turns. Increase the party's Attack Power for 20% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Taste of Caesar ♡`,
+                    description: `Heal the party for 75% of your Attack Power, then heal the party for 100% of your Attack Power every turn for 4 turns. Increase the party's Attack Power for 25% of your Attack Power for 1 turn, then increase the party's Attack Power by 10% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `A Taste of Caesar ♡`,
+                    description: `Heal the party for 85% of your Attack Power, then heal the party for 110% of your Attack Power every turn for 4 turns. Increase the party's Attack Power for 25% of your Attack Power for 1 turn, then increase the party's Attack Power by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `A Taste of Caesar ♡`,
+                    description: `Heal the party for 100% of your Attack Power, then heal the party for 123% of your Attack Power every turn for 4 turns. Increase the party's Attack Power for 30% of your Attack Power for 1 turn, then increase the party's Attack Power by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sex Therapy`,
+                    description: `Heal the party for 40% of your Attack Power, then heal the party for 30% of your Attack Power every turn for 2 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Naughty Clinic`,
+                    description: `Increase the party's Attack Power by 40%.\nThe Attacker with the highest Attack Power gains "Raging Libido".\nOn the first turn, trigger "Bad Girls Have More Fun".\n\n"Raging Libido"\nIncrease Attack Power by 60%.\nIncrease Damage Output by 35%.\nIncrease Ultimate Skill Power by 40%.\nOn Ultimate Skill, damage the target (275% Attack Power)\n\n"Bad Girls Have More Fun"\nWhen healing the ally with the lowest max HP, increase their Recovery Rate by 40% for 50 turns.\nWhen the ally with the lowest max HP is granted Shield, increase their Shield effect by 30% for 50 turns.\nHeal the ally with the lowest max HP for 15% of your max HP every turn for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Your Spunk Is So Gooey~`,
+                    description: `Increase your Recovery Output by 30%.\nOn Ultimate Skill, increase the party's Recovery Rate by 15% for 3 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sex & Meds ♡`,
+                    description: `Increase the party's Shield effect by 30%\nWhile in Guard Stance, grant the party a Shield for 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Punishment Time ♡`,
+                    description: `Increase max HP by 10%.\nIncrease Attack Power by 10%.\nOn Ultimate Skill, increase the party's Recovery Rate by 15% for 3 turns.\nOn Ultimate Skill, increase all enemies' Damage Taken from Ultimate Skills by 20% (max 2 stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

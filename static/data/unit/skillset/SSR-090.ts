@@ -123,56 +123,56 @@ export const SkillSet_10122: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Worldly Luv~`,
+                    description: `Increase the party's Damage Output by 25/30/30/35/35% for 1 turn and increase the party's Damage Output by 10/10/15/15/20% for 4 turns, then increase party's Attack Power by 10/15/20/25/30% (max [3/2/2/2/2] stacks). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Worldly Luv~`,
+                    description: `Increase the party's Damage Output by 25% for 1 turn and increase the party's Damage Output by 10% for 4 turns, then increase party's Attack Power by 10% (max 3 stacks). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Worldly Luv~`,
+                    description: `Increase the party's Damage Output by 30% for 1 turn and increase the party's Damage Output by 10% for 4 turns, then increase party's Attack Power by 15% (max 2 stacks). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Worldly Luv~`,
+                    description: `Increase the party's Damage Output by 30% for 1 turn and increase the party's Damage Output by 15% for 4 turns, then increase party's Attack Power by 20% (max 2 stacks). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Worldly Luv~`,
+                    description: `Increase the party's Damage Output by 35% for 1 turn and increase the party's Damage Output by 15% for 4 turns, then increase party's Attack Power by 25% (max 2 stacks). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny's Worldly Luv~`,
+                    description: `Increase the party's Damage Output by 35% for 1 turn and increase the party's Damage Output by 20% for 4 turns, then increase party's Attack Power by 30% (max 2 stacks). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexual Blessing`,
+                    description: `Increase the party's Damage Output by 25% for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `No Jugs, No Luv`,
+                    description: `Increase the party's max HP by 20%\nEvery 4 turns, gain yourself "Jealousy's Wrath".\nOn Ultimate Skill, increase the target's Damage Taken by 20% for 9 turns.\nThe party gains the following effect: When there is 1 or more Fire ally on your team, increase your Attack Power by 40%.\nThe party gains the following effect: When there is 1 or more Dark ally on your team, increase your Attack Power by 40%.\n\n"Jealousy's Wrath"\nOn Ultimate Skill, increase the target's Damage Taken from Ultimate Skills by 20% (Max 2 Stacks) for 4 turns. (effect ends after casting next Ultimate Skill).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Naughty Pixie Heart`,
+                    description: `On Ultimate Skill, increase the party's Ultimate Skill Power by 20% (max 2 stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Usagihime's Affection`,
+                    description: `On Ultimate Skill, damage the target (150% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Comfort Boobies`,
+                    description: `On Basic Attack, damage the target (50% Attack Power).\nOn Ultimate Skill, damage the target (100% Attack Power).\nEvery 4 turns, whenever any ally uses Ultimate Skill during the next 4 turns, increase the party's trigger ability effects by 30% for 4 turns (effect ends after casting next Ultimate Skill)."`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Trigger +`,
+                    description: `On Ultimate Skill, damage the target (30% Attack Power).`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

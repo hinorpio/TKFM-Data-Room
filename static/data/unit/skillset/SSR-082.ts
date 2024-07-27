@@ -123,56 +123,56 @@ export const SkillSet_10116: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Roar, Caliber!`,
+                    description: `Increase your Attack Power by 50/60/70/80/100% for 2 turns, then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Roar, Caliber!`,
+                    description: `Increase your Attack Power by 50% for 2 turns, then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Roar, Caliber!`,
+                    description: `Increase your Attack Power by 60% for 2 turns, then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Roar, Caliber!`,
+                    description: `Increase your Attack Power by 70% for 3 turns, then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Roar, Caliber!`,
+                    description: `Increase your Attack Power by 80% for 4 turns, then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Roar, Caliber!`,
+                    description: `Increase your Attack Power by 100% for 4 turns, then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Dawnlight Sword`,
+                    description: `Damage the target (125% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Warrior's Vacation`,
+                    description: `Increase the party's max HP by 25%.\nIncrease the party's Basic Attack Power by 50%.\nThe 1st-position ally gains the following effect: "When there are 3 or more Attackers on your team, trigger Desert Lover."\nThe party gains the following effect: "When there are 3 or more Fire allies on your team, trigger Riding Mode．ON."\n\nDesert Lover\nIncrease Attack Power by 40%.\nOn Basic Attack, deal additional damage to the target (50% Attack Power).\nOn Ultimate Skill, increase the target's Damage Taken from Fire attacks by 20% (max 2 stacks).\nOn Ultimate Skill, increase the target's Damage Taken from Basic Attacks by 40% (max 2 stacks).\n\nRiding Mode．ON\nIncrease Attack Power by 40%.\nWhen performing an action, increase your Damage Output by 7% (max 5 stacks).\nWhen performing an action, increase your Basic Attack Power by 15% (max 5 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sweet Indulgence Syndrome`,
+                    description: `Increase Attack Power by 30%.\nIncrease Ultimate Skill Power by 20%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `My Mom Taught Me in Hawaii`,
+                    description: `On the first turn, increase all enemies' Damage Taken by 15% for 50 turns.\nOn the eighth turn, increase your Ultimate Skill Power by 40% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Warrior with Built-in BGM`,
+                    description: `On Basic Attack, deal additional damage to the target (25% Attack Power).\nOn Basic Attack, increase your Damage Output by 10% (max 3 stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill+`,
+                    description: `Increase your Ultimate Skill Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

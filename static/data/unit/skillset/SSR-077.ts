@@ -123,56 +123,56 @@ export const SkillSet_10114: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Smash: Full Throttle!`,
+                    description: `Increase the 5th-position ally's Ultimate Skill damage by 30/40/50/60/70% for 2 turns, then damage the target (388/445/503/560/618% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Smash: Full Throttle!`,
+                    description: `Increase the 5th-position ally's Ultimate Skill damage by 30% for 2 turns, then damage the target (388% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Smash: Full Throttle!`,
+                    description: `Increase the 5th-position ally's Ultimate Skill damage by 40% for 2 turns, then damage the target (445% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Smash: Full Throttle!`,
+                    description: `Increase the 5th-position ally's Ultimate Skill damage by 50% for 2 turns, then damage the target (503% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Smash: Full Throttle!`,
+                    description: `Increase the 5th-position ally's Ultimate Skill damage by 60% for 2 turns, then damage the target (560% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Star Smash: Full Throttle!`,
+                    description: `Increase the 5th-position ally's Ultimate Skill damage by 70% for 2 turns, then damage the target (618% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `T-Truly Sorry!`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sexy Magic Maiden`,
+                    description: `Increase the party's max HP by 30%.\nIf there are 3 or more Dark characters on your team, trigger "Original Magical Maiden".\nIf there are 2 or more Light characters on your team, trigger "Crescent Blessing".\nThe 1th-position ally gains "Power Enhancement".\n\n"Original Magical Maiden"\nIncrease the Attack Power by 40%.\nWhen performing an action, increase the target's Damage Taken by 2.5%. (max 12 stacks).\nWhen performing an action, the target takes 5% more damage from Trigger Abilities. (max 12 stacks).\n\n"Crescent Blessing"\nIncrease Damage Output by 20%.\nOn Ultimate Skill, increase the target's Damage Taken from Dark attacks by 17.5% (max 2 stacks).\nOn Ultimate Skill, increase the target's Damage Taken from Light attacks by 17.5% (max 2 stacks).\n\n"Power Enhancement"\nIncrease the Attack Power by 80%.\nIncrease the Basic Attack Power by 60%.\nIncrease the Ultimate Skill Power by 40%.\nOn Ultimate Skill, damage the target (150% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Stay Away from Me!`,
+                    description: `Increase the Attack Power by 40%.\nIncrease the Ultimate Skill Power by 20%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dispel Darkness`,
+                    description: `The 5th-position ally gains "Second Sight".\n\n"Second Sight"\nIncrease the Ultimate Skill Power by 40%.\nIncrease the Damage Output by 40%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `The "Stick" of Magic Maiden`,
+                    description: `Increase the Trigger Ability damage by 100%\nOn Ultimate Skill, damage the target (180% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Paralysis Immunity`
                 }
             },
             [Locale.jp]: {

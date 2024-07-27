@@ -123,56 +123,56 @@ export const SkillSet_10107: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 18.75/22.5/26.25/30/33.75% (Max 4 stacks), then damage the target (353/404/454/505/555% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 18.75% (Max 4 stacks), then damage the target (353% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 22.5% (Max 4 stacks), then damage the target (404% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 26.25% (Max 4 stacks), then damage the target (454% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 30% (Max 4 stacks), then damage the target (505% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 33.75% (Max 4 stacks), then damage the target (555% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Mega Bash!`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Fight First, Drink Later!`,
+                    description: `Increase the party's HP by 20%.\nIncrease the party's Attack Power by 40%.\nOn Basic Attack, increase allied Attackers' Attack Power by 40% of your Attack Power for 1 turn.\n\nIf there are at least 4 Attackers in your party, give allied Attackers "Give it 110%!"\n\n"Give it 110%!"\nIncrease your Attack Power by 110%\nOn Ultimate Skill, increase the 1st-position ally's Attack Power by 60% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Give it Your All!!`,
+                    description: `On Basic Attack, increase your Attack Power by 12.5 (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm Gonna Buuuuurrsttt!!!`,
+                    description: `After every 4 turns, increase your Attack Power by 75% (Max 1 Stack)\nOn Ultimate Skill, remove "I'm Gonna Buuuuurrsttt!!!'s" Attack Power increase.\nOn Basic Attack, remove one stack of "Flaming Balls!" Attack Power increase.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Offensive Measures!!!!!!`,
+                    description: `After every 4 turns, increase your Damage Output by 40% (Max 1 Stack).\nOn Ultimate Skill, remove "Offensive Measures!!!!!!'s" Attack Power increase.\nIncrease the party's Damage Output by 10%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill +`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

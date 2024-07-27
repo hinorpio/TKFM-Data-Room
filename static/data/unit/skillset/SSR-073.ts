@@ -123,56 +123,56 @@ export const SkillSet_10109: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickly Sweet`,
+                    description: `Increase all Light allies' Attack Power by 20/20/20/30/40% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 30/35/40/40/40% of your own Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickly Sweet`,
+                    description: `Increase all Light allies' Attack Power by 20% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 30% of your own Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickly Sweet`,
+                    description: `Increase all Light allies' Attack Power by 20% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 35% of your own Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickly Sweet`,
+                    description: `Increase all Light allies' Attack Power by 20% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 40% of your own Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickly Sweet`,
+                    description: `Increase all Light allies' Attack Power by 30% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 40% of your own Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickly Sweet`,
+                    description: `Increase all Light allies' Attack Power by 40% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 40% of your own Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Just for You`,
+                    description: `Increase all Light allies' Attack Power by 10% of your own Attack Power for 1 turn. Increase the 5th-position ally's Attack Power by 20% of your own Attack Power for 1 turn, increase the 5th-position ally's Basic Attack Damage by 35% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Red Letter Day`,
+                    description: `Increase the party's Max HP by 30%\nIncrease the party's Attack Power by 40%\nGive allied Healers and Supporters "For the One I Love"\nGive the 5th-position ally "Chocolate Dreams"\n\n"For the One I Love"\nOn Ultimate Skill, increase the 5th-position ally's Damage Output by 15% for 1 turn.\nOn Ultimate Skill, give the 5th-position ally the following effect for 1 turn: "On Ultimate Skill, damage the target for 50% of your Attack Power"\n\n"Chocolate Dreams"\nOn Ultimate Skill, increase all other party members' Attack Power by 50% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Show My Love`,
+                    description: `On the first turn, increase the 5th-position ally's Basic Attack Damage by 50% (Max 1 Stack)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Chocolate Chef`,
+                    description: `After every 4 turns, increase the 5th-position ally's Ultimate Skill Damage by 40% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Love, Demons, Chocolate`,
+                    description: `On Ultimate Skill, increase the 5th-position ally's Ultimate Skill Damage by 30% for 1 turn.\nOn Ultimate Skill, increase all allied Attackers' Ultimate Skill Damage by 20% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

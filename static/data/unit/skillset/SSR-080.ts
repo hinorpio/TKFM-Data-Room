@@ -123,56 +123,56 @@ export const SkillSet_10113: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Rough Injection`,
+                    description: `Damage the target (445/514/583/652/721% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Rough Injection`,
+                    description: `Damage the target (445% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Rough Injection`,
+                    description: `Damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Rough Injection`,
+                    description: `Damage the target (583% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Rough Injection`,
+                    description: `Damage the target (652% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Rough Injection`,
+                    description: `Damage the target (721% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Test`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Don't Question My Treatment!`,
+                    description: `When there are 1/2 Supporter(s) on your team, trigger the following effect: "Increase your Ultimate Skill Power by 35/35%."\nWhen there are 1/2 Healer(s) on your team, trigger the following effect: "Increase your Ultimate Skill Power by 35/35%."\nThe party gains the following effect: "When there are 3 or more Dark allies on your team, trigger Dark Therapy".\nOn Ultimate Skill, trigger "Right Antidote".\n\n"Dark Therapy"\nIncrease max HP by 20%.\nIncrease Attack Power by 50%.\nOn Ultimate Skill, increase the target's Damage Taken by 8% (max 5 stacks).\nOn Ultimate Skill, increase the target's Damage Taken from Dark attacks by 8% (max 5 stacks).\n\n"Right Antidote"\nThe target gains the following effect: "When attacked, increase all enemies' Recovery Rate by 5% for 4 turns (max 6 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Needle(?)`,
+                    description: `When there are 1/2 Attacker(s) on your team, trigger the following effect: "On Ultimate Skill, deal additional damage to the target (100/100% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Chaos Therapy`,
+                    description: `When there are 2/3 Dark allies on your team, trigger the following effect: "Increase Attack Power by 50/50%."`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Increase the Dosage`,
+                    description: `When there are 1/2 Supporter(s) on your team, trigger the following effect: "Increase the Damage Output by 15/15%".\nWhen there are 1/2 Healer(s) on your team, trigger the following effect: "Increase the Damage Output by 15/15%".`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

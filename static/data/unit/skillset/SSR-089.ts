@@ -123,56 +123,56 @@ export const SkillSet_10077: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Chicken Flavor, Crunchy!`,
+                    description: `Increase your Attack Power for 10/10/12.5/15/20% of your max HP for [3/3/4/4/4] turns, then heal the party for 100/125/150/175/200% of your Attack Power. Heal the party for 30/35/40/45/50% of your max HP every turn for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Chicken Flavor, Crunchy!`,
+                    description: `Increase your Attack Power for 10% of your max HP for 3 turns, then heal the party for 100% of your Attack Power. Heal the party for 30% of your max HP every turn for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Chicken Flavor, Crunchy!`,
+                    description: `Increase your Attack Power for 10% of your max HP for 3 turns, then heal the party for 125% of your Attack Power. Heal the party for 35% of your max HP every turn for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Chicken Flavor, Crunchy!`,
+                    description: `Increase your Attack Power for 12.5% of your max HP for 4 turns, then heal the party for 150% of your Attack Power. Heal the party for 40% of your max HP every turn for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Chicken Flavor, Crunchy!`,
+                    description: `Increase your Attack Power for 15% of your max HP for 4 turns, then heal the party for 175% of your Attack Power. Heal the party for 45% of your max HP every turn for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Chicken Flavor, Crunchy!`,
+                    description: `Increase your Attack Power for 20% of your max HP for 4 turns, then heal the party for 200% of your Attack Power. Heal the party for 50% of your max HP every turn for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Emergency Healing`,
+                    description: `Heal the party for 10% of your max HP then heal the party for 5% of your max HP every turn for 3 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `True Survival Expert`,
+                    description: `Increase your max HP by 50%.\nOn Basic Attack, increase the party's Attack Power for 6% of your max HP for 1 turn.\nOn Ultimate Skill, increase the party's Attack Power for 8% of your max HP for 1 turn.\nIncrease the party's Attack Power by 60%.\nIncrease the Damage Output of the allied Attackers and Obstructors by 50%.\nAll allied Defenders, Healers, and Supporters gain the following effect: On Ultimate Skill, increase the party's Ultimate Skill Power by 30% for 2 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Everyone, Keep Up!`,
+                    description: `On Basic Attack, increase the party's Attack Power for 20% of your Attack Power for 1 turn.\nOn Ultimate Skill, increase the party's Attack Power for 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Vigorous Curiosity`,
+                    description: `On Basic Attack, grant the party a Shield for 10% of your max HP for 1 turn, then grant the party a Shield for 10% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Edible Without the Head`,
+                    description: `On Ultimate Skill, increase the party's Attack Power by 25% for 8 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing-over-time +`,
+                    description: `Increase your healing-over-time effects by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

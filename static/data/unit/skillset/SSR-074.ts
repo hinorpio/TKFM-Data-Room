@@ -123,56 +123,56 @@ export const SkillSet_10110: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidfu - Light Blast`,
+                    description: `Increase the target's Damage Taken by 10/10/12.5/12.5/15% (Max 2 Stacks). Gain a stack of "Deadly Scent" (Max 9 Stacks).\nGain the following effect for 4 turns: "On Basic Attack, damage the target for 30/50/70/90/110% Attack Power."\nDamage the target for 215/238/261/284/307% Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidfu - Light Blast`,
+                    description: `Increase the target's Damage Taken by 10% (Max 2 Stacks). Gain a stack of "Deadly Scent" (Max 9 Stacks).\nGain the following effect for 4 turns: "On Basic Attack, damage the target for 30% Attack Power."\nDamage the target for 215% Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidfu - Light Blast`,
+                    description: `Increase the target's Damage Taken by 10% (Max 2 Stacks). Gain a stack of "Deadly Scent" (Max 9 Stacks).\nGain the following effect for 4 turns: "On Basic Attack, damage the target for 50% Attack Power."\nDamage the target for 238% Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidfu - Light Blast`,
+                    description: `Increase the target's Damage Taken by 12.5% (Max 2 Stacks). Gain a stack of "Deadly Scent" (Max 9 Stacks).\nGain the following effect for 4 turns: "On Basic Attack, damage the target for 70% Attack Power."\nDamage the target for 261% Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidfu - Light Blast`,
+                    description: `Increase the target's Damage Taken by 12.5% (Max 2 Stacks). Gain a stack of "Deadly Scent" (Max 9 Stacks).\nGain the following effect for 4 turns: "On Basic Attack, damage the target for 90% Attack Power."\nDamage the target for 284% Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Maidfu - Light Blast`,
+                    description: `Increase the target's Damage Taken by 5% (Max 2 Stacks). Gain a stack of "Deadly Scent" (Max 9 Stacks).\nGain the following effect for 4 turns: "On Basic Attack, damage the target for 110% Attack Power."\nDamage the target for 307% Attack Power. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Hunting Season`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Bloody Love!`,
+                    description: `Increase the party's Max HP by 20%\nIncrease the party's Attack Power by 50%\nIncrease the party's Basic Attack Damage by 30%\nGive allied Attackers and Obstructers the following effect: "On Attack, give the party a stack of "Sweet Death" (Max 30 Stacks)."\n\nAttackers and Obstructers gain different abilities depending on the number of "Sweet Death" stacks they have:\n10 or more - "On Attack, deal follow-up damage to the target for 50% Attack Power"\n20 or more - "Increase your Attack Power by 50%"\n30 or more: "Increase your Damage Output by 25%"`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `A Beautiful Death`,
+                    description: `On Basic Attack, gain a stack of "Deadly Scent" (Max 9 Stacks)\n\nGain different abilities depending on the amount of "Deadly Scent" stacks you have:\n3 or more - "On Basic Attack, deal follow-up damage to the target for 40% Attack Power"\n9 or more - "Increase your Attack Power by 50%"`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Enough!`,
+                    description: `After every turn, gain a stack of "Crazed Masochist" (Max 10 Stacks)\nWhen Attacked, gain a stack of "Crazed Masochist" (Max 10 Stacks)\n\nGain different abilities depending on the amount of "Crazed Masochist" stacks you have:\n5 or more - "Increase your Attack Power by 20%"\n10 or more - "Increase your Attack Power by 40%"`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Try Dying!`,
+                    description: `Gain different abilities depending on the amount of "Deadly Scent" stacks you have:\n3 or more - "Increase your Damage Output by 20%"\n6 or more - "On Basic Attack, increase your Basic Attack Damage by 10% (Max 3 Stacks)"\n9 or more - "On Attack, increase the target's Damage Taken by 15% (Max 1 Stack)"`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to silence`
                 }
             },
             [Locale.jp]: {

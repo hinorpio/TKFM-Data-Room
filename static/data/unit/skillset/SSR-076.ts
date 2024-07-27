@@ -123,56 +123,56 @@ export const SkillSet_10078: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu's Not Wrong`,
+                    description: `Increase the target's Damage Taken by 7.5/7.5/10/12.5/15% (max 2 stacks), increase the target's Damage Taken from Water attacks by 5/7.5/7.5/10/12.5% (max 2 stacks), then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu's Not Wrong`,
+                    description: `Increase the target's Damage Taken by 7.5% (max 2 stacks), increase the target's Damage Taken from Water attacks by 5% (max 2 stacks), then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu's Not Wrong`,
+                    description: `Increase the target's Damage Taken by 7.5% (max 2 stacks), increase the target's Damage Taken from Water attacks by 7.5% (max 2 stacks), then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu's Not Wrong`,
+                    description: `Increase the target's Damage Taken by 10% (max 2 stacks), increase the target's Damage Taken from Water attacks by 7.5% (max 2 stacks), then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu's Not Wrong`,
+                    description: `Increase the target's Damage Taken by 12.5% (max 2 stacks), increase the target's Damage Taken from Water attacks by 10% (max 2 stacks), then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Lulu's Not Wrong`,
+                    description: `Increase the target's Damage Taken by 15% (max 2 stacks), increase the target's Damage Taken from Water attacks by 12.5% (max 2 stacks), then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Backward Somersault`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Out of Control`,
+                    description: `Increase the party's max HP by 30%, Attack Power by 25%.\nIncrease your Basic Attack Power by 30%\nGive all water allies "Beastlization"\nWhen there are 4 or more water allies on your team, give the party "Ultra Beastlization".\nWhen there are 5 or more water allies on your team, give the party "Furry Time".\n\n"Beastlization"\nOn Attack, decrease the target's Recovery Rate by 20% for 1 turn.\nOn Basic Attack, increase the target's Damage Taken from Basic Attacks by 15% (max 5 stacks).\nOn Basic Attack, deal additional damage to the target (30% Attack Power).\n\n"Ultra Beastlization"\nIncrease Basic Attack Power by 50%.\nOn Attack, increase the 1st-position ally's Damage Output by 5% for 1 turn; on Basic Attack and Ultimate Skill, deal additional damage to the target for 1 turn (10% Attack Power).\n\n"Furry Time"\nIncrease Damage Output by 30%\nOn Attack, increase the 1st-position ally's Damage Output by 10% for 1 turn; on Basic Attack and Ultimate Skill, deal additional damage to the target for 1 turn (20% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Phasi Empermeow`,
+                    description: `On Attack, increase your Attack Power by 10% (max 5 stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Cutie Wants Sweetie`,
+                    description: `On Attack, reduce the target's Recovery Rate by 50% for 1 turn.\nOn Basic Attack, deal additional damage to the target (35% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Vase Smasher`,
+                    description: `On Basic Attack, increase the target's Damage Taken from Water attacks by 2% (max 5 stacks).\nOn Basic Attack, increase the target's Damage Taken from Basic Attacks by 15% (max 5 stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

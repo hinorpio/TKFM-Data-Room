@@ -123,56 +123,56 @@ export const SkillSet_10021: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind of Rebirth`,
+                    description: `Heal the Party for 50% of your Attack Power.\nEvery turn for 4 turns, heal the party for 60/70/80/90/100% of your Attack Power.\nIncrease the Attack Power of all allies other than yourself by 0/0/17.5/20/25% for 1 turn, and increase the Attack Power of all allies other than yourself by 15/17.5/17.5/20/25% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind of Rebirth`,
+                    description: `Heal the Party for 50% of your Attack Power.\nEvery turn for 4 turns, heal the party for 60% of your Attack Power.\nIncrease the Attack Power of all allies other than yourself by 15% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind of Rebirth`,
+                    description: `Heal the Party for 50% of your Attack Power.\nEvery turn for 4 turns, heal the party for 70% of your Attack Power.\nIncrease the Attack Power of all allies other than yourself by 17.5% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind of Rebirth`,
+                    description: `Heal the Party for 50% of your Attack Power.\nEvery turn for 4 turns, heal the party for 80% of your Attack Power.\nIncrease the Attack Power of all allies other than yourself by 17.5% for 1 turn, and increase the Attack Power of all allies other than yourself by 17.5% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind of Rebirth`,
+                    description: `Heal the Party for 50% of your Attack Power.\nEvery turn for 4 turns, heal the party for 90% of your Attack Power.\nIncrease the Attack Power of all allies other than yourself by 20% for 1 turn, and increase the Attack Power of all allies other than yourself by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Wind of Rebirth`,
+                    description: `Heal the Party for 50% of your Attack Power.\nEvery turn for 4 turns, heal the party for 100% of your Attack Power.\nIncrease the Attack Power of all allies other than yourself by 25% for 1 turn, and increase the Attack Power of all allies other than yourself by 25% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Mend`,
+                    description: `Heal the Party for 25% of your Attack Power. Every turn for 2 turns, heal the party for 25% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Time-traveling Sage`,
+                    description: `Increase the Party's Max HP by 10%.\nIncrease the Party's Attack Power by 40%.\nIncrease all allied Attackers' Damage Output by 20%.\nIncrese all allied Defenders' Max HP by 10%.\nIncrease all allied Healers' Attack Power by 40%.\nIncrease all allied Supporters' Attack Power by 40%.\nIncrease all allied Obstructers' Damage Output by 20%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Almighty Arts`,
+                    description: `On Basic Attack, heal the party member with the lowest current HP by 25% of your Attack Power.\nOn Attack, give the allies a Shield equal to 10% of their Max HP for 1 turn.\nOn Attack, increase allied Attackers and Obstructers' Attack Power by 20% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Timeless Knowledge`,
+                    description: `Increase your Max HP by 10%.\nIncrease your Attack Power by 20%.\nIncrease the effect of your Healing skills by 25%.\nIncrease the effect of your Regen skills by 25%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Perfectly Optimized`,
+                    description: `On the first turn, activate "For Each Their Part" for 50 turns.\n\n"For Each Their Part":\nIncrease all allied Attackers' Damage Output by 15%.\nDecrease all allied Defenders' Damage Taken by 15%.\nIncrease all allied Healers' Attack Power by 15%.\nIncrease all allied Supporters' Attack Power by 15%.\nIncrease all allied Obstructers' Damage Output by 15%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain Sleep Immunity.`
                 }
             },
             [Locale.jp]: {
