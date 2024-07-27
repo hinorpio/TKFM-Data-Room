@@ -123,56 +123,56 @@ export const SkillSet_10015: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for [3/3/3/4/4] turns. Damage target (400/460/520/520/520% Attack Power) (CD:5) [Bond 5: (CD:4)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 3 turns. Damage target (400% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 3 turns. Damage target (460% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 3 turns. Damage target (520% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 4 turns. Damage target (520% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 4 turns. Damage target (520% Attack Power) (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Jab`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Justice Sword`,
+                    description: `Decrease party's attribute buffs/debuffs by 100%, increase party's Attack Power by 10% and max HP by 15%. Party takes 7.5% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Watch Your Back`,
+                    description: `On Basic Attack, increase your Attack Power by 5% for 3 turns, and take 3.3% less damage for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Empire's Blade`,
+                    description: `Increase Basic Attack damage by 40%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Phasi's Reign`,
+                    description: `On Ultimate Skill, increase allies' Attack Power by 15% and decrease their Damage Taken by 10% for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10015: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for [3/3/3/4/4] turns. Damage target (400/460/520/520/520% Attack Power) (CD:5) [Bond 5: (CD:4)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 3 turns. Damage target (400% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 3 turns. Damage target (460% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 3 turns. Damage target (520% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 4 turns. Damage target (520% Attack Power) (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `A Good Offense`,
+                    description: `Increase Attack Power by 15% and take 10% less damage for 4 turns. Damage target (520% Attack Power) (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Jab`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Justice Sword`,
+                    description: `Decrease party's attribute buffs/debuffs by 100%, increase party's Attack Power by 10%. Party takes 7.5% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Watch Your Back`,
+                    description: `On Basic Attack, increase your Attack Power by 5% for 2 turns, and take 3.3% less damage for 1 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Empire's Blade`,
+                    description: `Increase Basic Attack damage by 30%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Phasi's Reign`,
+                    description: `On Ultimate Skill, increase allies' Attack Power by 15% and decrease their Damage Taken by 10% for 2 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

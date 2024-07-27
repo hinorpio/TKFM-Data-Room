@@ -123,56 +123,56 @@ export const SkillSet_10061: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Maaaaaah~`,
+                    description: `Enter Guard Stance and decrease the party's Damage Taken by 50% for 1 turn.\nThe party gains the following effect for 1 turn: "When Attacked, increase your Damage Taken by 25/22.5/20/17.5/15%." (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Maaaaaah~`,
+                    description: `Enter Guard Stance and decrease the party's Damage Taken by 50% for 1 turn.\nThe party gains the following effect for 1 turn: "When Attacked, increase your Damage Taken by 25%." (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Maaaaaah~`,
+                    description: `Enter Guard Stance and decrease the party's Damage Taken by 50% for 1 turn.\nThe party gains the following effect for 1 turn: "When Attacked, increase your Damage Taken by 22.5%." (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Maaaaaah~`,
+                    description: `Enter Guard Stance and decrease the party's Damage Taken by 50% for 1 turn.\nThe party gains the following effect for 1 turn: "When Attacked, increase your Damage Taken by 20%." (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Maaaaaah~`,
+                    description: `Enter Guard Stance and decrease the party's Damage Taken by 50% for 1 turn.\nThe party gains the following effect for 1 turn: "When Attacked, increase your Damage Taken by 17.5%." (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Maaaaaah~`,
+                    description: `Enter Guard Stance and decrease the party's Damage Taken by 50% for 1 turn.\nThe party gains the following effect for 1 turn: "When Attacked, increase your Damage Taken by 15%." (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Hoof Strike`,
+                    description: `Damage current enemy (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Mommy's Kisses`,
+                    description: `Increase party's max HP by 50% and decrease party's Shield effect by 50%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Collagen`,
+                    description: `When entering Guard Stance, recover 10% of your max HP.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Glorious Motherhood`,
+                    description: `When Attacked, decrease the party's Damage Taken from Basic Attacks by 2.5% (Max 4 stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Vigorousness`,
+                    description: `Increase max HP by 30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10011: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 95/110/125/140/155% of your Attack Power, then give party a Shield equal to 120/138/156/174/192% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 95% of your Attack Power, then give party a Shield equal to 120% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 110% of your Attack Power, then give party a Shield equal to 138% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 125% of your Attack Power, then give party a Shield equal to 156% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 140% of your Attack Power, then give party a Shield equal to 174% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 155% of your Attack Power, then give party a Shield equal to 192% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield`,
+                    description: `Give party a Shield equal to 50% of your Attack Power for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Prayer for Peace`,
+                    description: `Increase party's Shield by 30%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing Hands`,
+                    description: `On Basic Attack, gain the effect "Heal the party each turn (15% Attack Power) for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Watch Over`,
+                    description: `When Attacked, take 10% less damage for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Salvation`,
+                    description: `Increase party's Shield by 30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10011: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 66/75.9/85.8/95.7/105.6% of your Attack Power, then give party a Shield equal to 101.6/116.9/132.1/147.4/162.6% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 66% of your Attack Power, then give party a Shield equal to 101.6% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 75.9% of your Attack Power, then give party a Shield equal to 116.9% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 85.8% of your Attack Power, then give party a Shield equal to 132.1% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 95.7% of your Attack Power, then give party a Shield equal to 147.4% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `God's Blessing`,
+                    description: `Heal party equal to 105.6% of your Attack Power, then give party a Shield equal to 162.6% of your Attack Power for 2 turns. (CD:5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield`,
+                    description: `Give party a Shield equal to 38.5% of your Attack Power for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Prayer for Peace`,
+                    description: `Increase party's Shield by 30%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing Hands`,
+                    description: `On Basic Attack, gain the effect "Heal the party each turn (15% Attack Power) for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Watch Over`,
+                    description: `When Attacked, take 10% less damage for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Salvation`,
+                    description: `Increase party's Shield by 30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

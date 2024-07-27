@@ -123,56 +123,56 @@ export const SkillSet_10051: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealed Dragon Force`,
+                    description: `Damage target (330/376/422/468/514% Attack Power) and lose target's Basic Attack Power by 60/80/100/100/200% [Bond 1-3: for 1 turn] [Bond 4-5: (this debuff will gradually wear off in 3 turns)]. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealed Dragon Force`,
+                    description: `Damage target (330% Attack Power) and lose target's Basic Attack Power by 60% for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealed Dragon Force`,
+                    description: `Damage target (376% Attack Power) and lose target's Basic Attack Power by 80% for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealed Dragon Force`,
+                    description: `Damage target (422% Attack Power) and lose target's Basic Attack Power by 100% for 1 turn. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealed Dragon Force`,
+                    description: `Damage target (468% Attack Power) and lose target's Basic Attack Power by 100% (this debuff will gradually wear off in 3 turns). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealed Dragon Force`,
+                    description: `Damage target (514% Attack Power) and lose target's Basic Attack Power by 200% (this debuff will gradually wear off in 3 turns). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Silver Dragon Claw`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sealing Ceremony`,
+                    description: `The party gains the following ability: "On Attack, lower the target's Ultimate Skill Damage by 10% for 1 turn."`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `First Sealing`,
+                    description: `On Basic Attack, lower the target's Basic Attack Damage by 20% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Second Sealing`,
+                    description: `On Attack, lower the target's Attack Power by 15% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Final Sealing`,
+                    description: `Every 5 turns (not including your first turn), your Attacks decrease the target's Damage Output by 12.5% for 1 turn (Max 2 Stacks).\n\nDetails: The first time you can perform this ability is on your 6th turn; then the 11th, 16th, 21st, etc.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

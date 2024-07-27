@@ -123,56 +123,56 @@ export const SkillSet_10012: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `All enemies take 20% more damage for 1 turn and damage all enemies (133/149/166/182/199% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `All enemies take 20% more damage for 1 turn and damage all enemies (133% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `All enemies take 20% more damage for 1 turn and damage all enemies (149% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `All enemies take 20% more damage for 1 turn and damage all enemies (166% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `All enemies take 20% more damage for 1 turn and damage all enemies (182% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `All enemies take 20% more damage for 1 turn and damage all enemies (199% Attack Power). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Throw`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickness`,
+                    description: `On your first turn, decrease the party's Ultimate Skill CD by 4.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Deadly Poison`,
+                    description: `On Basic Attack, perform an additional Attack on all enemies (33% Attack Power)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Leaf`,
+                    description: `On your first turn, increase your Attack Power by 20% for 4 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Erosion`,
+                    description: `On the first turn of each wave, all enemies take 20% more damage for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10012: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `Damage all enemies (133/149/166/182/199% Attack Power), all enemies take 15% more damage. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `Damage all enemies (133% Attack Power), all enemies take 15% more damage. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `Damage all enemies (149% Attack Power), all enemies take 15% more damage. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `Damage all enemies (166% Attack Power), all enemies take 15% more damage. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `Damage all enemies (182% Attack Power), all enemies take 15% more damage. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Bitter Kunai`,
+                    description: `Damage all enemies (199% Attack Power), all enemies take 15% more damage. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Throw`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sickness`,
+                    description: `On your first turn, decrease the party's Ultimate Skill CD by 4.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Deadly Poison`,
+                    description: `On Basic Attack, perform an additional Attack on all enemies (20% Attack Power)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fallen Leaf`,
+                    description: `On your first turn, increase your Attack Power by 20% for 4 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Erosion`,
+                    description: `On the first turn of each wave, all enemies take 20% more damage for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

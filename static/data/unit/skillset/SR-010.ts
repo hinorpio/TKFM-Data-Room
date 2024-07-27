@@ -123,56 +123,56 @@ export const SkillSet_10038: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Knight Flash!`,
+                    description: `Target takes 30% more damage from Light damage (Max 1 Stack) and damage target (445/514/583/652/721% Attack Power). (CD:5)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Knight Flash!`,
+                    description: `Target takes 30% more damage from Light damage (Max 1 Stack) and damage target (445% Attack Power). (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Knight Flash!`,
+                    description: `Target takes 30% more damage from Light damage (Max 1 Stack) and damage target (514% Attack Power). (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Knight Flash!`,
+                    description: `Target takes 30% more damage from Light damage (Max 1 Stack) and damage target (583% Attack Power). (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Knight Flash!`,
+                    description: `Target takes 30% more damage from Light damage (Max 1 Stack) and damage target (652% Attack Power). (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Knight Flash!`,
+                    description: `Target takes 30% more damage from Light damage (Max 1 Stack) and damage target (721% Attack Power). (CD:5)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Cyclonic Sword!`,
+                    description: `Damage Target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Light of Love and Hope!`,
+                    description: `Increase all Light characters' Attack Power by 30% and your Ultimate Skill Power by 25%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Illuminated Punishment!`,
+                    description: `On Ultimate Skill, there's a 50% chance to decrease your current Ultimate Skill CD by 2.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Justice Will Prevail!`,
+                    description: `On Ultimate Skill, increase Ultimate Skill Damage by 40% for 4 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Magical Aura!`,
+                    description: `On Ultimate Skill, all enemies take 20% more damage from Light Attacks for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Attack Up (Self)`,
+                    description: `Increase Ultimate Skill Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

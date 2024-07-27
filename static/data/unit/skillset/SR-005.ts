@@ -123,56 +123,56 @@ export const SkillSet_10013: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (266/282/298/315/331% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (266% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (282% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (298% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (315% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (331% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Vertical Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Find Weakpoint`,
+                    description: `On the first turn of each wave, targets take 30% more damage for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bleed`,
+                    description: `On Basic Attack, perform an additional Attack on the target (30% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Armor Break`,
+                    description: `On Attack, increase the target's Damage Taken by 5% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Blademaster`,
+                    description: `On Attack, increase your Attack Power by 6% (Max 5 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10013: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (265/298/331/364/397% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (265% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (298% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (331% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (364% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Worldbringer`,
+                    description: `Damage target (397% Attack Power). Target takes 10% more damage (Max 3 Stacks). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Vertical Slash`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Find Weakpoint`,
+                    description: `On the first turn of each wave, targets take 30% more damage for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bleed`,
+                    description: `On Basic Attack, perform an additional Attack on the target (30% Attack Power).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Armor Break`,
+                    description: `On Attack, increase the target's Damage Taken by 5% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Blademaster`,
+                    description: `On Attack, increase your Attack Power by 6% (Max 5 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase Basic Attack damage by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

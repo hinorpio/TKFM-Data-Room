@@ -123,56 +123,56 @@ export const SkillSet_10014: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Seal Demons`,
+                    description: `Damage target (330/376/422/468/514% Attack Power). 50% chance of inflicting target with Silence for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Seal Demons`,
+                    description: `Damage target (330% Attack Power). 50% chance of inflicting target with Silence for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Seal Demons`,
+                    description: `Damage target (376% Attack Power). 50% chance of inflicting target with Silence for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Seal Demons`,
+                    description: `Damage target (422% Attack Power). 50% chance of inflicting target with Silence for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Seal Demons`,
+                    description: `Damage target (468% Attack Power). 50% chance of inflicting target with Silence for 2 turns. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Seal Demons`,
+                    description: `Damage target (514% Attack Power). 50% chance of inflicting target with Silence for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Curse`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Barrier`,
+                    description: `Party gains immunity to Silence and increases Attack Power by 10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Bind`,
+                    description: `On Attack, decrease the target's Basic Attack Damage by 15% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Elemental Paralysis`,
+                    description: `On Attack, decrease the target's Recovery Rate by 50% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Illusion`,
+                    description: `Every 3 turns, decrease the current target's Attack Power by 15% and increase their Damage Taken by 15% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

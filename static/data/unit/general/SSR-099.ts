@@ -20,8 +20,8 @@ export const General_10129: Unit = {
         [Locale.kr]: "릴리"
     },
     abbreviation: {
-        [Locale.tc]: [ "風鹿", "性鹿" ],
-        [Locale.sc]: [ "风鹿", "性鹿" ],
+        [Locale.tc]: [ "風鹿", "性鹿", "C2" ],
+        [Locale.sc]: [ "风鹿", "性鹿", "C2" ],
         [Locale.en]: [ "W.Evie" ],
         [Locale.jp]: [],
         [Locale.kr]: []

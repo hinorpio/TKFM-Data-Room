@@ -123,56 +123,56 @@ export const SkillSet_10041: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `I love my job!`,
+                    description: `Increase your Attack Power by 80/85/90/95/100% for 4 turns, then heal all party members for 80% of your Attack Power and give them the following effect: "Heal yourself every turn for 40/40/50/50/60% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `I love my job!`,
+                    description: `Increase your Attack Power by 20% for 4 turns, then heal all party members for 80% of your Attack Power and give them the following effect: "Heal yourself every turn for 40% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `I love my job!`,
+                    description: `Increase your Attack Power by 20% for 4 turns, then heal all party members for 85% of your Attack Power and give them the following effect: "Heal yourself every turn for 40% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I love my job!`,
+                    description: `Increase your Attack Power by 20% for 4 turns, then heal all party members for 90% of your Attack Power and give them the following effect: "Heal yourself every turn for 50% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `I love my job!`,
+                    description: `Increase your Attack Power by 20% for 4 turns, then heal all party members for 95% of your Attack Power and give them the following effect: "Heal yourself every turn for 50% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `I love my job!`,
+                    description: `Increase your Attack Power by 20% for 4 turns, then heal all party members for 100% of your Attack Power and give them the following effect: "Heal yourself every turn for 60% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Today was tiring~`,
+                    description: `Heal the party for 75% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Welcome to the Adventurer's Guild!`,
+                    description: `Increase the party's Attack Power by 30%.\nIncrease the party's HP by 30%.\nIncrease the party's Recovery Rate by 30%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Here are the jobs you can take today~`,
+                    description: `On your first turn, increase all other allies' Basic Attack Damage by 20% (Max 1 Stack) and Ultimate Skill Damage by 10% (Max 1 Stack).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Be careful out there!`,
+                    description: `Reduce your Damage Taken by 10%.\nOn Basic Attack, increase your Heal effects by 10% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm like everyone's little guardian angel~`,
+                    description: `Reduce the max Ultimate Skill CD by 1.\nIncrease your Regen effects by 10%.\nOn Attack, increase the party's Basic Attack Damage by 4% for 5 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Health Regen+`,
+                    description: `Increase your Regen effects by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

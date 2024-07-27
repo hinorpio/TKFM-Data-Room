@@ -123,56 +123,56 @@ export const SkillSet_10009: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 30/35/40/45/50% for 1 turn, then heal party equal to 100% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 30% for 1 turn, then heal party equal to 100% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 35% for 1 turn, then heal party equal to 100% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 40% for 1 turn, then heal party equal to 100% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 45% for 1 turn, then heal party equal to 100% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 50% for 1 turn, then heal party equal to 100% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heal (Party)`,
+                    description: `Heal party equal to 75% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Attentive Aiko`,
+                    description: `Increase 3rd ally's Attack Power by 50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Extra Help`,
+                    description: `On Basic Attack, increase the 3rd-position ally's Attack Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `#1 Service`,
+                    description: `On Ultimate Skill, cure the 3rd-position ally of Silence, Paralysis, and Sleep.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Everyone Attack!`,
+                    description: `On Attack, remove any and all debuffs to the 3rd-position ally's Attack Power, Basic Attack Damage, and Ultimate Skill Damage.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
@@ -406,56 +406,56 @@ export const SkillSet_10009: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 30/35/40/45/50% for 1 turn, then heal party equal to 75% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 30% for 1 turn, then heal party equal to 75% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 35% for 1 turn, then heal party equal to 75% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 40% for 1 turn, then heal party equal to 75% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 45% for 1 turn, then heal party equal to 75% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Expert Care`,
+                    description: `Increase the 3rd ally's Attack Power by 50% for 1 turn, then heal party equal to 75% of your Attack Power. Reduce Ultimate Skill CD by 4. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Heal (Party)`,
+                    description: `Heal party equal to 50% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Attentive Aiko`,
+                    description: `Increase 3rd ally's Attack Power by 50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Extra Help`,
+                    description: `On Basic Attack, increase the 3rd-position ally's Attack Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `#1 Service`,
+                    description: `On Ultimate Skill, cure the 3rd-position ally of Silence, Paralysis, and Sleep.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Everyone Attack!`,
+                    description: `On Attack, remove any and all debuffs to the 3rd-position ally's Attack Power, Basic Attack Damage, and Ultimate Skill Damage.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

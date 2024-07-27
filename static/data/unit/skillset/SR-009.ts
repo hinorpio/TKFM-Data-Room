@@ -123,56 +123,56 @@ export const SkillSet_10036: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Wet Sticky Slimy`,
+                    description: `Lower all enemies' Attack Power by 10/12.5/15/15/15% for [1/1/2/2/2] turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5) [Bond 5: (CD:4)]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Wet Sticky Slimy`,
+                    description: `Lower all enemies' Attack Power by 10% for 1 turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Wet Sticky Slimy`,
+                    description: `Lower all enemies' Attack Power by 12.5% for 1 turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Wet Sticky Slimy`,
+                    description: `Lower all enemies' Attack Power by 15% for 1 turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Wet Sticky Slimy`,
+                    description: `Lower all enemies' Attack Power by 15% for 2 turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Wet Sticky Slimy`,
+                    description: `Lower all enemies' Attack Power by 15% for 2 turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:4)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Goop Attack`,
+                    description: `Reduce target's Attack Power by 20% for 1 turn`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `I'm a Nice Slime`,
+                    description: `Increase your max HP by 30%. After every 4 turns, increase the amount of damage your current target takes by 15% and increase your Recovery Rate by 30% for 2 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Energy Jelly`,
+                    description: `On Basic Attack, heal the lowest-HP ally by 100% of your Attack Power.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Check Me Out~!`,
+                    description: `Take 10% less damage while in Guard Stance; After every 4 turns, gain Taunt for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Slime Wall`,
+                    description: `When Attacked, take 15% less damage for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Restoration Up`,
+                    description: `Increase Recovery Rate by 15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

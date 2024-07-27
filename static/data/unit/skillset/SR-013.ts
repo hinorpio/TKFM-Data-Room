@@ -123,56 +123,56 @@ export const SkillSet_10046: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Flawless Stab`,
+                    description: `Damage target (265/298/331/364% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)\n\n Bond 5: Decrease target's Damage Reduction by 15% for 3 turns, damage target (397% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Flawless Stab`,
+                    description: `Damage target (265% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Flawless Stab`,
+                    description: `Damage target (298% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Flawless Stab`,
+                    description: `Damage target (331% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Flawless Stab`,
+                    description: `Damage target (364% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Flawless Stab`,
+                    description: `Decrease target's Damage Reduction by 15% for 3 turns, damage target (397% Attack Power). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Thorn`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Supernatural Assault`,
+                    description: `Increase your Attack Power by 50%.\nOn Attack, remove Taunt from the target.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Weakness Discovered`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Stinger Janelle by 15% (Max 3 Stacks)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Frontal Breakthrough`,
+                    description: `On the first turn, increase the party's Damage Output towards targets in Guard Stance by 100% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Foolish Smile`,
+                    description: `Increase your Attack Power by 30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

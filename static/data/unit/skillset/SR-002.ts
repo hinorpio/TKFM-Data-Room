@@ -123,56 +123,56 @@ export const SkillSet_10010: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 37.9/42.6/47.3/52.0/56.7% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 37.9% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 42.6% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 47.3% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 52.0% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 56.7% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Slash`,
+                    description: `Damage target (50% Attack power) and gain a Shield equal to 7.5% of your max HP for 2 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Oh Captain`,
+                    description: `Increase Leona's max HP by 50%. Reduce Ultimate Skill CD by 1`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `No Fear`,
+                    description: `Take 10% less damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Never Surrender`,
+                    description: `Increase the max HP by 15% and Recovery Rate by 15%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Oh Holy Knight~`,
+                    description: `When HP is below 25%, take 75% less damage.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10055: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dirty Dancing`,
+                    description: `Increase the party's Attack Power by 1.5/1.75/2/2.25/2.5% (Max 10 Stacks), then\nincrease the party's Attack Power by 25% of your own Attack Power for 1 turn. \nHeal the party for 60/70/80/90/100% of your Attack Power.\nCD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dirty Dancing`,
+                    description: `Increase the party's Attack Power by 1.5% (Max 10 Stacks), then\nincrease the party's Attack Power by 25% of your own Attack Power for 1 turn.\nHeal the party for 60% of your Attack Power.\nCD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dirty Dancing`,
+                    description: `Increase the party's Attack Power by 1.75% (Max 10 Stacks), then\nincrease the party's Attack Power by 25% of your own Attack Power for 1 turn.\nHeal the party for 70% of your Attack Power.\nCD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dirty Dancing`,
+                    description: `Increase the party's Attack Power by 2% (Max 10 Stacks), then\nincrease the party's Attack Power by 25% of your own Attack Power for 1 turn.\nHeal the party for 80% of your Attack Power.\nCD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dirty Dancing`,
+                    description: `Increase the party's Attack Power by 2.25% (Max 10 Stacks), then\nincrease the party's Attack Power by 25% of your own Attack Power for 1 turn.\nHeal the party for 90% of your Attack Power.\nCD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dirty Dancing`,
+                    description: `Increase the party's Attack Power by 2.5% (Max 10 Stacks), then\nincrease the party's Attack Power by 25% of your own Attack Power for 1 turn.\nHeal the party for 100% of your Attack Power.\nCD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Pole Position`,
+                    description: `Increase the party's Attack Power by 25% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Just a Dancer`,
+                    description: `Increase your Attack Power by 50%, and the party's Max HP by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sweet and Fair`,
+                    description: `On Basic Attack, increase the party's Ultimate Skill Damage by 2% (Max 5 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `One for the Money`,
+                    description: `On Ultimate Skill, increase the party's Basic Attack Damage by 10% (Max 2 Stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Two for the Show`,
+                    description: `On Ultimate Skill, increase the party's Attack Power by 10% (Max 3 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

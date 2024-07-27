@@ -123,56 +123,56 @@ export const SkillSet_10016: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ruination`,
+                    description: `Damage all enemies (133/149/166/166/166% Attack Power). Increase the CD of all enemies' Ultimate Skill by 1 and decrease all enemies' Attack Power by 15/15/15/20/20% for 1 turn. All enemies take 15/15/15/15/20% more damage from Ultimate Skills for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ruination`,
+                    description: `Damage all enemies (133% Attack Power). Increase the CD of all enemies' Ultimate Skill by 1 and decrease all enemies' Attack Power by 15% for 1 turn. All enemies take 15% more damage from Ultimate Skills for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ruination`,
+                    description: `Damage all enemies (149% Attack Power). Increase the CD of all enemies' Ultimate Skill by 1 and decrease all enemies' Attack Power by 15% for 1 turn. All enemies take 15% more damage from Ultimate Skills for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ruination`,
+                    description: `Damage all enemies (166% Attack Power). Increase the CD of all enemies' Ultimate Skill by 1 and decrease all enemies' Attack Power by 15% for 1 turn. All enemies take 15% more damage from Ultimate Skills for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ruination`,
+                    description: `Damage all enemies (166% Attack Power). Increase the CD of all enemies' Ultimate Skill by 1 and decrease all enemies' Attack Power by 20% for 1 turn. All enemies take 15% more damage from Ultimate Skills for 1 turn. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ruination`,
+                    description: `Damage all enemies (166% Attack Power). Increase the CD of all enemies' Ultimate Skill by 1 and decrease all enemies' Attack Power by 20% for 1 turn. All enemies take 20% more damage from Ultimate Skills for 1 turn. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Light Blade`,
+                    description: `Damage all enemies (50% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Assault Wave`,
+                    description: `Every 3 turns, increase the party's Attack Power by 50% for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damnation`,
+                    description: `On Basic Attack, decrease all enemies' Attack Power by 5% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `The Art of War`,
+                    description: `On Attack, increase the party's Recovery Rate by 22.5% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sharp Recess`,
+                    description: `After every 3 turns, increase all enemies' Damage Taken by 25% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity (Self)`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {

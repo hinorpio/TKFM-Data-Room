@@ -20,8 +20,8 @@ export const General_10038: Unit = {
         [Locale.kr]: "토타라"
     },
     abbreviation: {
-        [Locale.tc]: [ "托" ],
-        [Locale.sc]: [ "托" ],
+        [Locale.tc]: [ "托", "SR托" ],
+        [Locale.sc]: [ "托", "SR托" ],
         [Locale.en]: [ "OG.Tyrella" ],
         [Locale.jp]: [],
         [Locale.kr]: []
