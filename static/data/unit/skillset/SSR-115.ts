@@ -123,56 +123,56 @@ export const SkillSet_10145: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Drowning`,
+                    description: `Damage the target (330/376% Attack Power) and increase the party's Attack Power for 5/6.25% of your max HP for 5 turns. CD:4\n\nBond 3: Increase the party's Attack Power for 7.5/8.75/10% of your max HP for 5 turns, damage the target (422/468/514% Attack Power), then grant the party a Shield for 25% of your max HP for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Drowning`,
+                    description: `Damage the target (330% Attack Power) and increase the party's Attack Power for 5% of your max HP for 5 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Drowning`,
+                    description: `Damage the target (376% Attack Power) and increase the party's Attack Power for 6.25% of your max HP for 5 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Drowning`,
+                    description: `Increase the party's Attack Power for 7.5% of your max HP for 5 turns, damage the target (422% Attack Power), then grant the party a Shield for 25% of your max HP for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Drowning`,
+                    description: `Increase the party's Attack Power for 8.75% of your max HP for 5 turns, damage the target (468% Attack Power), then grant the party a Shield for 25% of your max HP for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Drowning`,
+                    description: `Increase the party's Attack Power for 10% of your max HP for 5 turns, damage the target (514% Attack Power), then grant the party a Shield for 25% of your max HP for 2 turns. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sea Beast Slayer`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Demon Realm Fishing Master`,
+                    description: `Increase the party's max HP by 40%.\nIncrease the party's Attack Power by 70%.\nIncrease the party's Basic Attack Power by 60%.\nIncrease the party's Ultimate Skill Power by 20%.\nOn Attack, trigger the following effect: increase the party's Attack Power for 5% of your max HP for 2 turns.\nWhen attacked, trigger "Got Hooked".\n\n"Got Hooked"\nIncrease the party's Damage Output by 1.33% (max 15 stacks).\nIncrease the all enemies' Damage Taken by 1.33% (max 15 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood Greeting`,
+                    description: `On Basic Attack, deal True Damage to yourself for 1% of your current HP and increase the party's Basic Attack Power by 5% (max 10 stacks) (Can trigger "When attacked" trigger effects).\nOn Ultimate Skill, deal True Damage to yourself for 1% of your current HP and increase the party's Ultimate Skill Power by 10% (max 3 stacks) (Can trigger "When attacked" trigger effects).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Slaughter Lust`,
+                    description: `When attacked, trigger the following effect: increase the party's Damage Output by 1.33% (max 15 stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bridal Armament: ID Block`,
+                    description: `When attacked, trigger the following effect: increase all enemies' Damage Taken by 1.33% (max 15 stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your damage output by 7.5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

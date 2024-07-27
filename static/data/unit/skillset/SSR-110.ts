@@ -123,56 +123,56 @@ export const SkillSet_10140: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Starry Return`,
+                    description: `Damage the target (330/376/422/468/514% Attack Power) then decrease the 1st, 2nd, and 3rd ally's Damage Taken by 10/12.5/15/17.5/20% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Starry Return`,
+                    description: `Damage the target (330% Attack Power) then decrease the 1st, 2nd, and 3rd ally's Damage Taken by 10% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Starry Return`,
+                    description: `Damage the target (376% Attack Power) then decrease the 1st, 2nd, and 3rd ally's Damage Taken by 12.5% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Starry Return`,
+                    description: `Damage the target (422% Attack Power) then decrease the 1st, 2nd, and 3rd ally's Damage Taken by 15% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Starry Return`,
+                    description: `Damage the target (468% Attack Power) then decrease the 1st, 2nd, and 3rd ally's Damage Taken by 17.5% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Starry Return`,
+                    description: `Damage the target (514% Attack Power) then decrease the 1st, 2nd, and 3rd ally's Damage Taken by 20% for 2 turns. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `The Profane Voice`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Twisted Ritual`,
+                    description: `Increase your max HP by 50%.\nIncrease the party's Attack Power by 100%.\nOn Ultimate Skill, damage the target (400% Attack Power).\nOn Attack, damage other allies for 1% of your max HP.\nRecover your HP for 25% of your damage when you deal damage.\nThe 2nd and 3rd position allies gain "Living Sacrifice".\n\n"Living Sacrifice"\nDecrease Damage Output by 300%.\nOn Attack, increase the 1st position ally's Attack Power for 125% of your Basic Attack Power for 1 turn.\nOn Ultimate Skill, increase the target's Damage Taken from Dark attacks by 14% for 2 turns.\nOn the 1st turn, gain yourself "Consciousness Detachment".\n\n"Consciousness Detachment"\nWhen you're the Attacker:\nThis turn, when performing an action, the 1st position ally gains the following effects for 50 turns: On Ultimate Skill, damage the target for 100% of your max HP, then damage the target (150% Attack Power); increase Damage Output by 25%.\nWhen you're the Obstructor:\nThis turn, when performing an action, the 1st position ally gains the following effects for 50 turns: On Attack, decrease the target's Recovery Rate by 50% for 2 turns; On Ultimate Skill, increase the target's Damage Taken by 45% for 9 turns; increase Damage Output by 25%.\nWhen you're the Defender, Healer, or Supporter:\nDecrease your Attack Power by 600% for 50 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Abyssal Manor`,
+                    description: `Increase the party's Ultimate Skill Power by 30%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `The Unnameable Form`,
+                    description: `Increase Damage Output by 10%.\nOn Ultimate Skill, increase the party's Damage Output by 20% for 1 turn.\nWhen in Guard Stance, increase the party's Recovery Rate by 20% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Waiting for You in Dreams`,
+                    description: `Gain yourself "Preparation for Descent"\n\n"Preparation for Descent"\nOn Basic Attack, increase your Descent Value by 1 stack (max 10 stacks).\nOn Ultimate Skill, increase your Descent Value by 3 stacks (max 10 stacks).\nWhen your Descent Value is equal to 10 stacks, gain "Supreme One Descends."\n\n"Supreme One Descends"\nOn Basic Attack, the target gains 3 stacks of increase Damage Taken by 5% (max 9 stacks).\nOn Ultimate Skill, damage the target for 50% of your max HP.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your damage output by 7.5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Complete Immunity`,
+                    description: `Sleep Immunity\nParalysis Immunity\nSilence Immunity`
                 }
             },
             [Locale.jp]: {

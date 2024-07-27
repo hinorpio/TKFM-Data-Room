@@ -123,56 +123,56 @@ export const SkillSet_10126: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Just Treats, Gimme Tricks!`,
+                    description: `Target takes 30/30/40/40/45% more damage for 4 turns. Target takes 0/10/10/20/20% more damage (max 1 stack). Increase party's Ultimate Skill Power by 10/15/20/25/30% for 4 turns (CD: 4).`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Just Treats, Gimme Tricks!`,
+                    description: `Target takes 30% more damage for 4 turns. Increase party's Ultimate Skill Power by 10% for 4 turns (CD: 4).`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Just Treats, Gimme Tricks!`,
+                    description: `Target takes 30% more damage for 4 turns. Target takes 10% more damage (max 1 stack). Increase party's Ultimate Skill Power by 15% for 4 turns (CD: 4).`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Just Treats, Gimme Tricks!`,
+                    description: `Target takes 40% more damage for 4 turns. Target takes 10% more damage (max 1 stack). Increase party's Ultimate Skill Power by 20% for 4 turns (CD: 4).`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Just Treats, Gimme Tricks!`,
+                    description: `Target takes 40% more damage for 4 turns. Target takes 20% more damage (max 1 stack). Increase party's Ultimate Skill Power by 25% for 4 turns (CD: 4).`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Not Just Treats, Gimme Tricks!`,
+                    description: `Target takes 45% more damage for 4 turns. Target takes 20% more damage (max 1 stack). Increase party's Ultimate Skill Power by 30% for 4 turns (CD: 4).`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tricky Sticky Rice Bomb`,
+                    description: `Increase party's Attack Power equal to 30% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `OG Troublemaker`,
+                    description: `Increase party's max HP by 30%.\nOn Ultimate Skill, grant party shields equal to 10% of your max HP for 1 turn.\nOn Ultimate Skill, according to the number of stacks of "Chain Trap" you have, increase the target's Damage Taken from Light and Dark attacks by 6% for 1 turn.\nOn Ultimate Skill, according to the number of stacks of "Chain Trap" you have, increase the target's Damage Taken from Fire and Water attacks by 3% for 1 turn.\nParty members are granted the following: Whenever the party has taken 4 kinds of positions, "Halloween Trickster Fest!" is triggered.\n\n"Halloween Trickster Fest!":\nIncrease Attack Power by 120%\nIncrease damage against targets by 50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Teenie Body, Big Brain`,
+                    description: `When current HP is at 99% or lower, gain 10% damage reduction.\nEvery 1 turn, gain a stack of "Chain Trap" (Max 9 stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Insidious Scheming`,
+                    description: `On Ultimate Skill, increase party's Attack Power equal to 30% of your Attack Power for 1 turn.\nWhen you have more than 3 Chain Trap stacks, Shield effect increases by 20%.\nWhen you have more than 6 Chain Trap stacks, Attack Power increases by 20%.\nWhen you have 9 Chain Trap stacks, Attack Power increases by 20%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Palace of Trickery`,
+                    description: `On Ultimate Skill, according to the number of stacks of "Chain Trap" you have, increase the target's Damage Taken from Fire, Water attacks by 3% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage Reduction Up`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

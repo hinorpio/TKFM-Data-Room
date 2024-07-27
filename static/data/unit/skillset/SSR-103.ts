@@ -15,27 +15,27 @@ export const SkillSet_10133: SkillSet[] =  [
         skill: {
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
-                    name: `這就是職業偶像的魅力★`,
+                    name: `這就是職業偶像的魅力☆`,
                     description: `以自身基礎攻擊力50/55/60/65/70%使我方全體攻擊力增加(4回合)、再使我方全體必殺技傷害增加20/25/30/35/40%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `這就是職業偶像的魅力★`,
+                    name: `這就是職業偶像的魅力☆`,
                     description: `以自身基礎攻擊力50%使我方全體攻擊力增加(4回合)、再使我方全體必殺技傷害增加20%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `這就是職業偶像的魅力★`,
+                    name: `這就是職業偶像的魅力☆`,
                     description: `以自身基礎攻擊力55%使我方全體攻擊力增加(4回合)、再使我方全體必殺技傷害增加25%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `這就是職業偶像的魅力★`,
+                    name: `這就是職業偶像的魅力☆`,
                     description: `以自身基礎攻擊力60%使我方全體攻擊力增加(4回合)、再使我方全體必殺技傷害增加30%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `這就是職業偶像的魅力★`,
+                    name: `這就是職業偶像的魅力☆`,
                     description: `以自身基礎攻擊力65%使我方全體攻擊力增加(4回合)、再使我方全體必殺技傷害增加35%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `這就是職業偶像的魅力★`,
+                    name: `這就是職業偶像的魅力☆`,
                     description: `以自身基礎攻擊力70%使我方全體攻擊力增加(4回合)、再使我方全體必殺技傷害增加40%(4回合)，CD:3`
                 },
                 [SkillType.ATTACK]: {
@@ -69,27 +69,27 @@ export const SkillSet_10133: SkillSet[] =  [
             },
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
-                    name: `这就是职业偶像的魅力★`,
+                    name: `这就是职业偶像的魅力☆`,
                     description: `以自身基础攻击力50/55/60/65/70%使我方全体攻击力增加(4回合)丶再使我方全体必杀技伤害增加20/25/30/35/40%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `这就是职业偶像的魅力★`,
+                    name: `这就是职业偶像的魅力☆`,
                     description: `以自身基础攻击力50%使我方全体攻击力增加(4回合)丶再使我方全体必杀技伤害增加20%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `这就是职业偶像的魅力★`,
+                    name: `这就是职业偶像的魅力☆`,
                     description: `以自身基础攻击力55%使我方全体攻击力增加(4回合)丶再使我方全体必杀技伤害增加25%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `这就是职业偶像的魅力★`,
+                    name: `这就是职业偶像的魅力☆`,
                     description: `以自身基础攻击力60%使我方全体攻击力增加(4回合)丶再使我方全体必杀技伤害增加30%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `这就是职业偶像的魅力★`,
+                    name: `这就是职业偶像的魅力☆`,
                     description: `以自身基础攻击力65%使我方全体攻击力增加(4回合)丶再使我方全体必杀技伤害增加35%(4回合)，CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `这就是职业偶像的魅力★`,
+                    name: `这就是职业偶像的魅力☆`,
                     description: `以自身基础攻击力70%使我方全体攻击力增加(4回合)丶再使我方全体必杀技伤害增加40%(4回合)，CD:3`
                 },
                 [SkillType.ATTACK]: {
@@ -123,56 +123,56 @@ export const SkillSet_10133: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Allure of Pro Idol☆`,
+                    description: `Increase the party's Attack Power for 50/55/60/65/70% of your basic Attack Power for 4 turns, then increase the party's Ultimate Skill Power by 20/25/30/35/40% for 4 turns. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Allure of Pro Idol☆`,
+                    description: `Increase the party's Attack Power for 50% of your basic Attack Power for 4 turns, then increase the party's Ultimate Skill Power by 20% for 4 turns. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Allure of Pro Idol☆`,
+                    description: `Increase the party's Attack Power for 55% of your basic Attack Power for 4 turns, then increase the party's Ultimate Skill Power by 25% for 4 turns. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Allure of Pro Idol☆`,
+                    description: `Increase the party's Attack Power for 60% of your basic Attack Power for 4 turns, then increase the party's Ultimate Skill Power by 30% for 4 turns. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Allure of Pro Idol☆`,
+                    description: `Increase the party's Attack Power for 65% of your basic Attack Power for 4 turns, then increase the party's Ultimate Skill Power by 35% for 4 turns. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Allure of Pro Idol☆`,
+                    description: `Increase the party's Attack Power for 70% of your basic Attack Power for 4 turns, then increase the party's Ultimate Skill Power by 40% for 4 turns. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `No Peeking~♡`,
+                    description: `Gain the party a Shield for 25% of your Attack Power for 1 turn, gain the party a Shield for 30% of your max HP for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Handshake Time~`,
+                    description: `Increase the party's Attack Power by 50%.\nIncrease the party's trigger effect by 100%.\nIncrease the party's Damage Output by 20%.\nGain yourself the following effect: When there are 2 or more Supporters in your team, decrease the Shield effect by 600%.\n\nGain other allies "Money's Still There."\nGain yourself "Become Nanami's Form."\n\n"Money's Still There"\nOn Attack, gain the 1st position ally a Shield for 30% of your Attack Power for 1 turn.\n\n"Become Nanami's Form"\nOn Basic Attack, damage the target for 55% of your current Shield.\nOn Ultimate Skill, damage the target for 60% of your current Shield.\nOn Attack, True Damage your own shield for 100% of your current Shield.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready for Stage`,
+                    description: `Increase your Shield effect by 15%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Innocent Idol`,
+                    description: `On Ultimate Skill, gain the party a Shield for 25% of your Attack Power for 1 turn, gain the party a Shield for 30% of your max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `OnlySex♡`,
+                    description: `After every 1 turn, increase the party's Attack Power for 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain yourself Silence Immunity`
                 }
             },
             [Locale.jp]: {

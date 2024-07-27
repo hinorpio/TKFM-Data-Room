@@ -123,56 +123,56 @@ export const SkillSet_10128: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Swaying Wine Glass`,
+                    description: `Increase the target's Damage Taken from Attackers by 30/36.5/40/46.5/50% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (50/56.5/70/76.5/90% Attack Power) and damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Swaying Wine Glass`,
+                    description: `Increase the target's Damage Taken from Attackers by 30% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (50% Attack Power) and damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Swaying Wine Glass`,
+                    description: `Increase the target's Damage Taken from Attackers by 36.5% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (56.5% Attack Power) and damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Swaying Wine Glass`,
+                    description: `Increase the target's Damage Taken from Attackers by 40% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (70% Attack Power) and damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Swaying Wine Glass`,
+                    description: `Increase the target's Damage Taken from Attackers by 46.5% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (76.5% Attack Power) and damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Swaying Wine Glass`,
+                    description: `Increase the target's Damage Taken from Attackers by 50% (max 2 stacks). On Basic Attack, deal additional damage to the target for 4 turns (90% Attack Power) and damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Sharp High Heels`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Suffocating Queen`,
+                    description: `Increase the party's max HP by 20%\nIncrease the party's Attack Power by 40%\nGain yourself the following effect: When your party has 3 or more Light allies, trigger "Seductive Melodies."\nGain allied Attackers the following effect: When your party has 3 or more Attackers, trigger "Armed Defense."\n\n"Seductive Melodies"\nDecrease party's attribute buffs/debuffs by 55%\nOn Basic Attack, increase the allied Attackers' Attack Power for 30% of your Basic Attack Power for 4 turns.\nOn Basic Attack, increase the target's Damage Taken from Light attacks by 7% (Max 8 Stacks).\n\n"Armed Defense"\nDecrease Damage Taken from Dark attacks by 25%\nImmunity to CD changes\nIncrease your Damage Output by 20%\nOn Basic Attack, deal additional damage to the target (40% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dagger-like Brows`,
+                    description: `Increase allied Attackers' Basic Attack Power by 30%\nIncrease your Basic Attack Power by 60%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Blood-stained Lips`,
+                    description: `Increase allied Attackers' Attack Power by 30%\nIncrease Attack Power by 50%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dominance of All Beauty`,
+                    description: `Increase allied Attackers' Damage Output by 15%\nIncrease Damage Output by 20%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage Output+`,
+                    description: `Increase your damage output by 7.5%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

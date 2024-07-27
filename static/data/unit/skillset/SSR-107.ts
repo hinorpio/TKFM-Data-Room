@@ -123,56 +123,56 @@ export const SkillSet_10137: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
+                    name: `Serve Master Caesar~`,
                     description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Serve Master Caesar~`,
+                    description: `Increase the target's Damage Taken by 20% for 4 turns. Gain all allied Attackers, Defenders, and Obstructors the following effect: On Basic Attack, deal additional damage to the target for 4 turns (10% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (20% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Serve Master Caesar~`,
+                    description: `Increase the target's Damage Taken by 25% for 4 turns. Gain all allied Attackers, Defenders, and Obstructors the following effect: On Basic Attack, deal additional damage to the target for 4 turns (15% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (30% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Serve Master Caesar~`,
+                    description: `Increase the target's Damage Taken by 30% for 4 turns. Gain all allied Attackers, Defenders, and Obstructors the following effect: On Basic Attack, deal additional damage to the target for 4 turns (20% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (40% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Serve Master Caesar~`,
+                    description: `Increase the target's Damage Taken by 35% for 4 turns. Gain all allied Attackers, Defenders, and Obstructors the following effect: On Basic Attack, deal additional damage to the target for 4 turns (25% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (50% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Serve Master Caesar~`,
+                    description: `Increase the target's Damage Taken by 40% for 4 turns. Gain all allied Attackers, Defenders, and Obstructors the following effect: On Basic Attack, deal additional damage to the target for 4 turns (30% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (60% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Bunny Wave`,
+                    description: `Increase your Attack Power by 50% for 1 turn, then damage the target (70% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `A Night in Bunny Village`,
+                    description: `Increase the party's max HP by 30%.\nAll allied Wind Attackers, Defenders, and Obstructors gain "Erotic Pheromones."\n\n"Erotic Pheromones"\nOn Basic Attack, increase the party's Attack Power by 6%. (max 18 stacks)\nOn Basic Attack, increase the party's Basic Attack Power by 6%. (max 18 stacks)\nOn Basic Attack, increase the party's Damage Output by 2%. (max 18 stacks)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Flowy Dress`,
+                    description: `On Basic Attack, increase your Attack Power by 15%. (max 6 stacks)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Cute Sun Hat`,
+                    description: `On Basic Attack, increase the target's Damage Taken from Basic Attacks by 15%. (max 6 stacks)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Quiet Romance`,
+                    description: `Increase Damage Output by 20%.\nOn Ultimate Skill, increase the target's Damage Taken from Wind attacks by 10%. (max 3 stacks)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Basic Attack+`,
+                    description: `Increase your Basic Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain yourself immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10135: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Money is Power!`,
+                    description: `Increase your Damage Output by 10/15/20/25/30% for 2 turns, then damage the target (330/376/422/468/514% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target (80/100/120/140/160% Attack Power) for 2 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Money is Power!`,
+                    description: `Increase your Damage Output by 10% for 2 turns, then damage the target (330% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target (80% Attack Power) for 2 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Money is Power!`,
+                    description: `Increase your Damage Output by 15% for 2 turns, then damage the target (376% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target (100% Attack Power) for 2 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Money is Power!`,
+                    description: `Increase your Damage Output by 20% for 2 turns, then damage the target (422% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target (120% Attack Power) for 2 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Money is Power!`,
+                    description: `Increase your Damage Output by 25% for 2 turns, then damage the target (468% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target (140% Attack Power) for 2 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Money is Power!`,
+                    description: `Increase your Damage Output by 30% for 2 turns, then damage the target (514% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target (160% Attack Power) for 2 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Silver Bullet`,
+                    description: `Damage target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Bazillionaire Mesmiia`,
+                    description: `Increase your Attack Power by 50%.\nGain yourself the following effect: On Basic Attack, deal additional damage to all enemies (50% Attack Power).\nDecrease other allies' Damage Output by 100%.(Debuff)\nOn your 1st turn, gain yourself 4 stacks of Humble Snake Queen (max 4 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Idol Agent's Negotiation`,
+                    description: `The 3rd position ally gains the following effect: On Attack, Idol Agent Mesmiia gains 1 stack of Humble Snake Queen. (max 4 stacks)\nThe 3rd position ally gains the following effect: On Attack, increase Idol Agent Mesmiia's Attack Power for 10% of your Attack Power for 1 turn.\nDecrease the 3rd position ally's Damage Output by 100%.(Debuff)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Freeloader 4 Life!`,
+                    description: `On Ultimate Skill, remove all your stacks of Humble Snake Queen.\nWhen the stacks of Humble Snake Queen is ≧1, increase your Basic Attack Power by 75%.\nWhen the stacks of Humble Snake Queen is ≧2, increase your Attack Power by 100%.\nWhen the stacks of Humble Snake Queen is ≧3, increase your Attack Power by 100%.\nWhen the stacks of Humble Snake Queen is =4, increase your Ultimate Skill Power by 60%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Luxury Enjoyment`,
+                    description: `The 3rd position ally gains the following effect: On Ultimate Skill, increase Idol Agent Mesmiia's Damage Output by 40% for 2 turns.\nOn your 1st turn, trigger the following effect: Your stacks of Humble Snake Queen won't be removed when casting Ultimate Skill.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

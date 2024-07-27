@@ -123,56 +123,56 @@ export const SkillSet_10144: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Kick, No Matter What`,
+                    description: `Damage the target (295/364/433/502/571% Attack Power) and damage the target for 89/107/125/143/161% of your max HP. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Kick, No Matter What`,
+                    description: `Damage the target (295% Attack Power) and damage the target for 89% of your max HP. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Kick, No Matter What`,
+                    description: `Damage the target (364% Attack Power) and damage the target for 107% of your max HP. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Kick, No Matter What`,
+                    description: `Damage the target (433% Attack Power) and damage the target for 125% of your max HP. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Kick, No Matter What`,
+                    description: `Damage the target (502% Attack Power) and damage the target for 143% of your max HP. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Kick, No Matter What`,
+                    description: `Damage the target (571% Attack Power) and damage the target for 161% of your max HP. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Watermelon Fist`,
+                    description: `Damage the target (100% Attack Power) and damage the target for 50% of your max HP.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Sea Ruler`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 50%.\nIncrease your max HP by 20%.\nGain yourself the following effect: On the 1st turn of each wave, trigger the following effect: reach full stack of "Bridal Uniform: Energy Drain".\nOther allies gain "Summer Archdemon's Radiance".\n\n"Summer Archdemon's Radiance"\nWhen in Guard Stance and on Ultimate Skill, trigger the following effect: increase the target's Damage Taken by 9% for 2 turns and increase the 1st position ally's Attack Power for 75% of your Base Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Archdemon Parts Sea`,
+                    description: `Increase Attack Power by 50%.\nIncrease Ultimate Skill Power by 30%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Bridal Uniform: Energy Drain`,
+                    description: `After every turn, trigger the following effect: increase your Attack Power by 5% (max 20 stacks).\nOn Basic Attack, trigger the following effect: increase all enemies' Damage Taken from "Summer Caesar" by 4% (max 15 stacks).\nOn Ultimate Skill, trigger the following effect: increase your Damage Output by 20% (max 4 stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bridal Uniform: Power Share`,
+                    description: `On Ultimate Skill, deal additional damage to the target (150% Attack Power).\nAfter every turn, trigger the following effect: increase the party's Attack Power for 5% of your Attack Power for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain Immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

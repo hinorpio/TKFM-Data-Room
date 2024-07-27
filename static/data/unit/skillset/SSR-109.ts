@@ -123,56 +123,56 @@ export const SkillSet_10139: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Flash Bash☆`,
+                    description: `Increase the target's Damage Taken from Light attacks by 10/15/20/20/20% (max 1 stack), increase the target's Damage Taken by 10% (max 2 stacks), increase the party's Attack Power by 0/10/10/10/10% (max 1 stack), then damage the target (520/550/580/610/640% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Flash Bash☆`,
+                    description: `Increase the target's Damage Taken from Light attacks by 10% (max 1 stack), increase the target's Damage Taken by 10% (max 1 stacks), then damage the target (520% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Flash Bash☆`,
+                    description: `Increase the target's Damage Taken from Light attacks by 15% (max 1 stack), increase the target's Damage Taken by 10% (max 2 stacks), increase the party's Attack Power by 10% (max 1 stack), then damage the target (550% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Flash Bash☆`,
+                    description: `Increase the target's Damage Taken from Light attacks by 20% (max 1 stack), increase the target's Damage Taken by 10% (max 2 stacks), increase the party's Attack Power by 10% (max 1 stack), then damage the target (580% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Flash Bash☆`,
+                    description: `Increase the target's Damage Taken from Light attacks by 20% (max 1 stack), increase the target's Damage Taken by 10% (max 2 stacks), increase the party's Attack Power by 10% (max 1 stack), then damage the target (610% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Super Flash Bash☆`,
+                    description: `Increase the target's Damage Taken from Light attacks by 20% (max 1 stack), increase the target's Damage Taken by 10% (max 2 stacks), increase the party's Attack Power by 10% (max 1 stack), then damage the target (640% Attack Power). CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultra Magical Knight Kick`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Power of Friendship`,
+                    description: `When your stacks of "Power of Magical Knight" are more than or equal to 2, increase your Attack Power by 50% and Damage Output by 20%.\nWhen your stacks of "Power of Magical Knight" are more than or equal to 3, trigger the following effect: On Attack, increase the target's Damage Taken by 10% (max 4 stacks).\nWhen your stacks of "Power of Magical Knight" are more than or equal to 4, trigger the following effect: On Ultimate Skill, deal additional damage to the target (120% Attack Power).\nGain all allied Light and Fire characters "Magical Knights ‧ Assemble☆!"\n\n"Magical Knights ‧ Assemble☆!"\nIncrease max HP by 30%.\nIncrease Attack Power by 100%.\nIncrease Damage Output by 20%.\nIncrease Ultimate Skill Power by 40%.\nWhen taking action, the 1st position ally gains "Power of Magical Knight" (max 4 stacks) (removes after taking action).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Rescue Transformation`,
+                    description: `Other Light Attackers gain immunity to Ultimate Skill CD changes.\nOn Ultimate Skill, decrease your current Ultimate Skill CD by 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crushing Pillow Flash!`,
+                    description: `On Ultimate Skill, increase your Damage Output by 15% (max 2 stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Faintly Visible`,
+                    description: `On the 1st turn, decrease your current Ultimate Skill CD by 2 turns.\nOn Ultimate Skill, increase the target's Damage Taken from Light attacks by 20% (max 1 stack).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill+`,
+                    description: `Increase your Ultimate Skill Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

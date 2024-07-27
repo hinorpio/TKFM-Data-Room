@@ -123,56 +123,56 @@ export const SkillSet_10147: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Dish Transformation!`,
+                    description: `Damage the target (330/376% Attack Power). Increase the target's Damage Taken from Wind and Light attacks by 30/35% for 2 turns. CD:4\n\nIncrease the target's Damage Taken from Wind and Light attacks by 40/45/50% for 2 turns and increase the target's Damage Taken by 15% for 2 turns. Then damage the target (422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dish Transformation!`,
+                    description: `Damage the target (330% Attack Power). Increase the target's Damage Taken from Wind and Light attacks by 30% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Dish Transformation!`,
+                    description: `Damage the target (376% Attack Power). Increase the target's Damage Taken from Wind and Light attacks by 35% for 2 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Dish Transformation!`,
+                    description: `Increase the target's Damage Taken from Wind and Light attacks by 40% for 2 turns and increase the target's Damage Taken by 15% for 2 turns. Then damage the target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Dish Transformation!`,
+                    description: `Increase the target's Damage Taken from Wind and Light attacks by 45% for 2 turns and increase the target's Damage Taken by 15% for 2 turns. Then damage the target (468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Dish Transformation!`,
+                    description: `Increase the target's Damage Taken from Wind and Light attacks by 50% for 2 turns and increase the target's Damage Taken by 15% for 2 turns. Then damage the target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Food Saving Slash`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Monster Cuisine Chef`,
+                    description: `Increase the party's max HP by 40%.\nIncrease the party's Attack Power by 50%.\nGain yourself "Come and Try!".\n\n"Come and Try!"\nIncrease Attack Power by 100%.\nIncrease Damage Output by 50%.\nIncrease Ultimate Skill Power by 100%.\nIncrease Basic Attack Power by 100%.\nOn Ultimate Skill, trigger the following effect: other allies gain "Secret Recipe: Beast Cuisine".\n\n"Secret Recipe: Beast Cuisine"\nIncrease Attack Power by 100% for 2 turns.\nIncrease Damage Output by 30% for 2 turns.\nIncrease Ultimate Skill Power by 50% for 1 turn.\nIncrease Basic Attack Power by 100% for 2 turns.\nAfter performing an action, trigger the following effect: remove all "Secret Recipe: Beast Cuisine" effects from other allies for 2 turns (removes after triggering once).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Precise Work`,
+                    description: `On Ultimate Skill, trigger the following effect: other allies gain "Enjoy the Feast".\n\n"Enjoy the Feast"\nIncrease Attack Power by 100% for 2 turns.\nIncrease Basic Attack Power by 100% for 2 turns.\nAfter performing an action, trigger the following effect: remove all "Enjoy the Feast" effects from other allies for 2 turns (removes after triggering once).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Emergency Prep`,
+                    description: `When in Guard Stance, trigger the following effect: other allies gain "Marinated Dried Organs".\n\n"Marinated Dried Organs"\nAfter performing an action, trigger the following effect: decrease your Damage Taken by 20% for 1 turn and remove all "Marinated Dried Organs" effects from other allies for 1 turn (removes after triggering once).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Knife Guidance`,
+                    description: `The 2nd-position ally gains the following effect: On Ultimate Skill, trigger "Beast Dissection".\n\n"Beast Dissection"\nIncrease the target's Damage Taken from Ultimate Skills by 100% for 1 turn.\nDecrease the target's Recovery Rate by 20% for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

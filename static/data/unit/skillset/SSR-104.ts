@@ -123,56 +123,56 @@ export const SkillSet_10134: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing to the Top of Your Lungs~♪`,
+                    description: `Gain yourself the following effect for 5 turns: On Attack, increase other allies' Attack Power for 0/0/10/12.5/15% of your Attack Power for 1 turn. Gain all allied Attackers and Obstructers the following effect for 1 turn: On Ultimate Skill, deal additional damage to the target (65/75/75/75/75% Attack Power). Increase the party's Damage Output by 30/37.5/45/52.5/60% for 1 turn. Heal the party for 165/188/211/234/257% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing to the Top of Your Lungs~♪`,
+                    description: `Gain all allied Attackers and Obstructers the following effect for 1 turn: On Ultimate Skill, deal additional damage to the target (65% Attack Power). Increase the party's Damage Output by 30% for 1 turn. Heal the party for 165% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing to the Top of Your Lungs~♪`,
+                    description: `Gain all allied Attackers and Obstructers the following effect for 1 turn: On Ultimate Skill, deal additional damage to the target (75% Attack Power). Increase the party's Damage Output by 37.5% for 1 turn. Heal the party for 188% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing to the Top of Your Lungs~♪`,
+                    description: `Gain yourself the following effect for 5 turns: On Attack, increase other allies' Attack Power for 10% of your Attack Power for 1 turn. Gain all allied Attackers and Obstructers the following effect for 1 turn: On Ultimate Skill, deal additional damage to the target (75% Attack Power). Increase the party's Damage Output by 45% for 1 turn. Heal the party for 211% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing to the Top of Your Lungs~♪`,
+                    description: `Gain yourself the following effect for 5 turns: On Attack, increase other allies' Attack Power for 12.5% of your Attack Power for 1 turn. Gain all allied Attackers and Obstructers the following effect for 1 turn: On Ultimate Skill, deal additional damage to the target (75% Attack Power). Increase the party's Damage Output by 52.5% for 1 turn. Heal the party for 234% of your Attack Power. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Sing to the Top of Your Lungs~♪`,
+                    description: `Gain yourself the following effect for 5 turns: On Attack, increase other allies' Attack Power for 15% of your Attack Power for 1 turn. Gain all allied Attackers and Obstructers the following effect for 1 turn: On Ultimate Skill, deal additional damage to the target (75% Attack Power). Increase the party's Damage Output by 60% for 1 turn. Heal the party for 257% of your Attack Power. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Rap Time!`,
+                    description: `Heal the party for 75% of your Attack Power.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Radiant ☆ Shining Songstress`,
+                    description: `Increase the party's max HP by 35%.\nOn Ultimate Skill, trigger "Dispel the Sorrow☆."\nGain the party the following effect: When there are characters of 4 different attributes in the party, trigger "Idol Dance Group."\n\n"Dispel the Sorrow☆"\nIncrease all enemies' Damage Taken by 30% for 1 turn.\nGain all allied Attackers and Obstructers the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (80% Attack Power).\n\n"Idol Dance Group"\nIncrease Attack Power by 125%.\nIncrease Recovery Rate by 30%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Flowing Voice`,
+                    description: `Increase Attack Power by 35%.\nOn Ultimate Skill, increase other allies' Attack Power for 15% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Smooth Lyrics`,
+                    description: `On Basic Attack, heal the party every turn for 40% of your Attack Power for 1 turn.\nOn Ultimate Skill, heal the party every turn for 80% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Wowed Fans`,
+                    description: `On Ultimate Skill, increase other allies' Attack Power for 15% of your Attack Power for 1 turn.\nWhen in Guard Stance, heal the party every turn for 120% of your Attack Power for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Heal effect+`,
+                    description: `Increase your Heal effect by 15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain yourself Immunity to Silence`
                 }
             },
             [Locale.jp]: {

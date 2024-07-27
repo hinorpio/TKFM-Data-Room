@@ -123,56 +123,56 @@ export const SkillSet_10130: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Forehead Strike!`,
+                    description: `Increase the target's Damage Taken by 0/0/20/25/25% for 3 turns, damage the target (211/234/256/278/300% Attack Power), then grant yourself the following effect: When attacked, perform a counter attack on the target for 3 turns (156/156/178/178/200% Attack Power) (removes after triggering once). Gain Taunt for 3 turns (removes after being attacked) and enter Guard Stance. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Forehead Strike!`,
+                    description: `Damage the target (211% Attack Power), grant yourself the following effect: When attacked, perform a counter attack on the target for 3 turns (156% Attack Power) (removes after triggering once). Gain Taunt for 3 turns (removes after being attacked) and enter Guard Stance. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Forehead Strike!`,
+                    description: `Damage the target (234% Attack Power), grant yourself the following effect: When attacked, perform a counter attack on the target for 3 turns (156% Attack Power) (removes after triggering once). Gain Taunt for 3 turns (removes after being attacked) and enter Guard Stance. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Forehead Strike!`,
+                    description: `Increase the target's Damage Taken by 20% for 3 turns, damage the target (256% Attack Power), then grant yourself the following effect: When attacked, perform a counter attack on the target for 3 turns (178% Attack Power) (removes after triggering once). Gain Taunt for 3 turns (removes after being attacked) and enter Guard Stance. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Forehead Strike!`,
+                    description: `Increase the target's Damage Taken by 20% for 3 turns, damage the target (278% Attack Power), then grant yourself the following effect: When attacked, perform a counter attack on the target for 3 turns (178% Attack Power) (removes after triggering once). Gain Taunt for 3 turns (removes after being attacked) and enter Guard Stance. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Forehead Strike!`,
+                    description: `Increase the target's Damage Taken by 25% for 3 turns, damage the target (300% Attack Power), then grant yourself the following effect: When attacked, perform a counter attack on the target for 3 turns (200% Attack Power) (removes after triggering once). Gain Taunt for 3 turns (removes after being attacked) and enter Guard Stance. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `What'cha Lookin' At!?`,
+                    description: `Damage the target (89% Attack Power) and decrease your Damage Taken by 17% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Heir of Holy Night`,
+                    description: `Increase the party's max HP by 20%\nParty gains immunity to Taunt\nWhen your party has 3 or more Guardians, increase the party's Attack Power by 140%.\nWhen your party has 3 or more Guardians, increase the party's Damage Output by 100%.\nWhen your party has 3 or more Guardians, trigger "Always Keep the Bat Ready!".\nWhen your party has 3 or more Guardians, trigger "Tougher Than You Think".\n\n"Always Keep the Bat Ready!"\nWhen attacked, increase the target's Damage Taken from trigger skills by 20% (max 10 stacks).\n\n"Tougher Than You Think"\nOn Ultimate Skill, gain "You Better Not Upset Me!".\n\n"You Better Not Upset Me!"\nWhen attacked, perform a counter attack on the target for 3 turns (250% Attack Power) (removes after triggering once).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Wolf Turns Head!`,
+                    description: `Gain immunity to CD changes\nOn the 1st turn & every 3 turns, gain 2 stacks of "Don't Mess with Me!"\nWhen attacked, gain 1 stack of "Don't Mess with Me!".\n\n"Don't Mess with Me!"\nGain "Don't Mess with Me!" mark (max 10 stacks)\nIncrease your Attack Power by 5% (max 10 stacks)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ain't No Repayment!`,
+                    description: `When you have ≧ 3 stacks of "Don't Mess with Me!", increase your Damage Output by 5%.\nWhen you have ≧ 6 stacks of "Don't Mess with Me!", increase your Damage Output by 10%.\nWhen you have ≧ 9 stacks of "Don't Mess with Me!", increase your Damage Output by 15%.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Headshot Bullseye!`,
+                    description: `When you have 10 stacks of "Don't Mess with Me!", trigger "You will regret that!"\n\n"You will regret that!"\nWhen performing an action, gain "TO THE FACE!"\n\n"TO THE FACE!"\nWhen attacked, perform a counter attack on the target for 1 turn. (100% Attack Power) (removes after triggering once)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Damage+`,
+                    description: `Increase your Damage Output by 7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

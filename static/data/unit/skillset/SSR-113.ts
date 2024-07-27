@@ -123,56 +123,56 @@ export const SkillSet_10143: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Views`,
+                    description: `Increase the party's Basic Attack Power by 30/45/60/75/90% for 4 turns. Gain the party the following effect for 4 turns: On Basic Attack, heal the party for 4/4/6/6/10% of your Attack Power. Gain yourself the following effect for 4 turns: On Basic Attack, damage the target (60/80/100/120/140% Attack Power). Increase your Attack Power by 0/0/30/60/90% for 4 turns. CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Views`,
+                    description: `Increase the party's Basic Attack Power by 30% for 4 turns. Gain the party the following effect for 4 turns: On Basic Attack, heal the party for 4% of your Attack Power. Gain yourself the following effect for 4 turns: On Basic Attack, damage the target (60% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Views`,
+                    description: `Increase the party's Basic Attack Power by 45% for 4 turns. Gain the party the following effect for 4 turns: On Basic Attack, heal the party for 4% of your Attack Power. Gain yourself the following effect for 4 turns: On Basic Attack, damage the target (80% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Views`,
+                    description: `Increase the party's Basic Attack Power by 60% for 4 turns. Gain the party the following effect for 4 turns: On Basic Attack, heal the party for 6% of your Attack Power. Gain yourself the following effect for 4 turns: On Basic Attack, damage the target (100% Attack Power). Increase your Attack Power by 30% for 4 turns. CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Views`,
+                    description: `Increase the party's Basic Attack Power by 75% for 4 turns. Gain the party the following effect for 4 turns: On Basic Attack, heal the party for 6% of your Attack Power. Gain yourself the following effect for 4 turns: On Basic Attack, damage the target (120% Attack Power). Increase your Attack Power by 60% for 4 turns. CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Summer Views`,
+                    description: `Increase the party's Basic Attack Power by 90% for 4 turns. Gain the party the following effect for 4 turns: On Basic Attack, heal the party for 10% of your Attack Power. Gain yourself the following effect for 4 turns: On Basic Attack, damage the target (140% Attack Power). Increase your Attack Power by 90% for 4 turns. CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Warm-Up`,
+                    description: `Heal the party for 37.5% of your Attack Power every turn for 4 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Beach Getaway`,
+                    description: `Increase the party's max HP by 30%.\nThe party gains the following effect: When there are only characters of 3 positions in the party, trigger "Elf Queen's Cool Retreat".\n\n"Elf Queen's Cool Retreat"\nIncrease your Attack Power by 100%.\nIncrease your Basic Attack Power by 110%.\nIncrease your Damage Output by 20%.\nOn Basic Attack, damage the target (30% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Elegant Stroll`,
+                    description: `Increase Attack Power by 30%.\nOn Attack, trigger the following effect: increase the party's Recovery Rate by 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sunshade Support`,
+                    description: `On Ultimate Skill, trigger the following effect: grant the party a Shield for 25% of your max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bridal Uniform: Magic Boost`,
+                    description: `On the ninth turn of each wave, trigger the following effect: increase all enemies' Damage Taken by 50% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

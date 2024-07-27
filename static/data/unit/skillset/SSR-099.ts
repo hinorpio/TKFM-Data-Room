@@ -123,56 +123,56 @@ export const SkillSet_10129: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Mighty Deer Landing Stance`,
+                    description: `Increase the party's Damage Output by 10/15/20/25/30% for 4 turns, damage the target (388/445/503/560/618% Attack Power), gain yourself Taunt for 2 turns, and enter Guard Stance. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Mighty Deer Landing Stance`,
+                    description: `Increase the party's Damage Output by 10% for 4 turns, damage the target (388% Attack Power), gain yourself Taunt for 2 turns, and enter Guard Stance. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Mighty Deer Landing Stance`,
+                    description: `Increase the party's Damage Output by 15% for 4 turns, damage the target (445% Attack Power), gain yourself Taunt for 2 turns, and enter Guard Stance. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Mighty Deer Landing Stance`,
+                    description: `Increase the party's Damage Output by 20% for 4 turns, damage the target (503% Attack Power), gain yourself Taunt for 2 turns, and enter Guard Stance. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Mighty Deer Landing Stance`,
+                    description: `Increase the party's Damage Output by 25% for 4 turns, damage the target (560% Attack Power), gain yourself Taunt for 2 turns, and enter Guard Stance. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Mighty Deer Landing Stance`,
+                    description: `Increase the party's Damage Output by 30% for 4 turns, damage the target (618% Attack Power), gain yourself Taunt for 2 turns, and enter Guard Stance. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Engine Ignition`,
+                    description: `Damage the target (100% Attack Power) and enter Guard Stance`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Pure and Seductive Charmo`,
+                    description: `Increase your max HP by 30%\nIncrease your Shield effect by 50%\nOn the 1st turn of each wave, increase all enemies' Damage Taken by 50%. (max 1 stack)\nGain the party the following effect: When your party has 4 or more Wind allies, trigger "Merry Sexmas!"\n\n"Merry Sexmax!"\nIncrease Attack Power by 130%\nIncrease Ultimate Skill Power by 50%\nIncrease Damage Output by 20%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Throttle as Brake`,
+                    description: `After each turn, increase the party's Ultimate Skill Power by 3%. (max 15 stacks)\nWhen attacked, increase 1 stack of the Ultimate Skill Power buff (party) granted by Throttle as Brake.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Party Hardy!`,
+                    description: `On Attack, gain yourself a Shield for 20% of your max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Power of Bonds!`,
+                    description: `When attacked, increase your Damage Output by 10%. (max 4 stacks)\nWhen attacked, gain yourself a Shield for 23% of your max HP for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Shield+`,
+                    description: `Increase your Shield effect by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {

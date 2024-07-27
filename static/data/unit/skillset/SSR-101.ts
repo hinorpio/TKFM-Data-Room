@@ -123,56 +123,56 @@ export const SkillSet_10022: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
+                    name: `Gutripper`,
                     description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Gutripper`,
+                    description: `Damage the target 10 times (33% Attack Power) and gain the target the following effect: When attacked, increase your Damage Taken from "Crazed Dog Noma" by 8.75% (max 8 stacks) for 4 turns. CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Gutripper`,
+                    description: `Damage the target 10 times (37.6% Attack Power) and gain the target the following effect: When attacked, increase your Damage Taken from "Crazed Dog Noma" by 10% (max 8 stacks) for 4 turns. CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Gutripper`,
+                    description: `Damage the target 10 times (42.2% Attack Power) and gain the target the following effect: When attacked, increase your Damage Taken from "Crazed Dog Noma" by 11.25% (max 8 stacks) for 4 turns. Increase the target's Damage Taken by 10%. (max 1 stack) CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Gutripper`,
+                    description: `Damage the target 10 times (46.8% Attack Power) and gain the target the following effect: When attacked, increase your Damage Taken from "Crazed Dog Noma" by 12.5% (max 8 stacks) for 4 turns. Increase the target's Damage Taken by 20%. (max 1 stack) CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Gutripper`,
+                    description: `Damage the target 10 times (51.4% Attack Power) and gain the target the following effect: When attacked, increase your Damage Taken from "Crazed Dog Noma" by 15% (max 8 stacks) for 4 turns. Increase the target's Damage Taken by 30%. (max 1 stack) CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Ravage`,
+                    description: `Damage the target 5 times (20% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `War Fury`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Ultimate Skill Power by 50%.\nIncrease all allied Attackers, Obstructors, and Defenders' Attack Power by 40%\nIncrease all allied Attackers, Obstructors, and Defenders' Damage Output by 25%\n\nGain the party the following effect: When there are 1 or more Healers in the party, decrease the Recovery Rate by 500%. (Debuff)\n\nOn the 1st turn, heal the party for 80% of your Attack Power every turn for 50 turns.\nWhen in Guard Stance, increase the party's heal overtime effect by 100% for 1 turn.\nOn Ultimate Skill, heal the party for 200% of your Attack Power.\n\nOther allied Attackers, Obstructors, and Defenders gain "Covering Fire."\n\n"Covering Fire"\nOn Ultimate Skill, the 1st position ally gains "Time to Kill!"\n\n"Time to Kill!"\nIncrease Attack Power by 90% for 1 turn.\nOn Ultimate Skill, deal additional damage to the target for 1 turn (80% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ready to Strike`,
+                    description: `When in Guard Stance, increase your Attack Power by 100%. (max 1 stack)\nOn Ultimate Skill, remove your "Ready to Strike" attack buff.\nOn Ultimate Skill, remove the target's "Gutripper" effect: increase the Damage Taken from "Crazed Dog Noma."`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Unyielding Bite`,
+                    description: `On Ultimate Skill, increase your Damage Output by 12%. (max 5 stacks)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog`,
+                    description: `On Basic Attack, gain yourself "Adrenaline."\n\n"Adrenaline"\nIncrease Ultimate Skill Power by 50% for 2 turns.\nOn Ultimate Skill, deal additional damage to the target for 2 turns (100% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Skill Pursuit+`,
+                    description: `On Ultimate Skill, deal additional damage to the target (30% Attack Power).`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

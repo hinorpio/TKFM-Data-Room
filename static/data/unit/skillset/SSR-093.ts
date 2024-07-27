@@ -123,56 +123,56 @@ export const SkillSet_10125: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `No Trick, Gimme That Treat`,
+                    description: `Increase your Attack Power by 200/200/250/250/300% for 1 turn. Increase your Attack Power by 25/30/35/40/45% for 1 turn, and increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `No Trick, Gimme That Treat`,
+                    description: `Increase your Attack Power by 200% for 1 turn. Increase your Attack Power by 25% for 1 turn, and increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `No Trick, Gimme That Treat`,
+                    description: `Increase your Attack Power by 200% for 1 turn. Increase your Attack Power by 30% for 1 turn, and increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `No Trick, Gimme That Treat`,
+                    description: `Increase your Attack Power by 250% for 1 turn. Increase your Attack Power by 35% for 1 turn, and increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `No Trick, Gimme That Treat`,
+                    description: `Increase your Attack Power by 250% for 1 turn. Increase your Attack Power by 40% for 1 turn, and increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `No Trick, Gimme That Treat`,
+                    description: `Increase your Attack Power by 300% for 1 turn. Increase your Attack Power by 45% for 1 turn, and increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn. (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Valiant Impetus`,
+                    description: `Increase allies' Attack Power by 50% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Halloween Party`,
+                    description: `Increase party's max HP by 20%.\nIncrease party's Attack Power by 50%.\nIncrease damage inflicted by party by 50%.\nIncrease party's Ultimate Skill Power by 70%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Blademaster, the Pumpkin Peeler`,
+                    description: `On Ultimate Skill, damage target (Attack Power 250%).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Flash-pumpkin Party`,
+                    description: `Every 3 turns, on Ultimate Skill, increase Attack Power of allied Attackers and Obstructors equal to 25% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Perfect Halloween Fit`,
+                    description: `Your party's Attackers and Obstructors gain the following effect:\n"For 50 turns: On Ultimate Skill, damage target (Attack Power 100%).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10132: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Night's Embrace`,
+                    description: `Increase the party's Ultimate Skill Damage Output by 20/30/40/50/60% for 3 turns, increase your Shield effect by 10/15/20/25/30% for 3 turns, then damage the target (265/298/331/364/397% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Night's Embrace`,
+                    description: `Increase the party's Ultimate Skill Damage Output by 20% for 3 turns, increase your Shield effect by 10% for 3 turns, then damage the target (265% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Night's Embrace`,
+                    description: `Increase the party's Ultimate Skill Damage Output by 30% for 3 turns, increase your Shield effect by 15% for 3 turns, then damage the target (298% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Night's Embrace`,
+                    description: `Increase the party's Ultimate Skill Damage Output by 40% for 3 turns, increase your Shield effect by 20% for 3 turns, then damage the target (331% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Night's Embrace`,
+                    description: `Increase the party's Ultimate Skill Damage Output by 50% for 3 turns, increase your Shield effect by 25% for 3 turns, then damage the target (364% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Night's Embrace`,
+                    description: `Increase the party's Ultimate Skill Damage Output by 60% for 3 turns, increase your Shield effect by 30% for 3 turns, then damage the target (397% Attack Power). CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Night Rainbreaker`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Dark Countess`,
+                    description: `Increase the party's max HP by 20%\nIncrease the party's Attack Power by 80%\nWhen there are at least 3 Water allies on your team, gain "Nocturnal Enigma."\nWhen there are at least 2 Dark allies on your team, the 3rd and 5th-position allies gain "Mercenary Code."\n\n"Nocturnal Enigma"\nIncrease Attack Power by 60%.\nOn Ultimate Skill, increase the target's Damage Taken from Dark attacks by 5% (max 3 stacks), then increase the target's Damage Taken from Water attacks by 5% (max 3 stacks).\nOn Attack, increase the party's Attack Power for 40% of your Attack Power for 1 turn.\n\n"Mercenary Code"\nIncrease Damage Output by 30%\nOn Ultimate Skill, deal additional damage to the target (40% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Boudoir Elegance`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken by 15% for 7 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Endless Drizzle`,
+                    description: `On Ultimate Skill, grant the party a Shield for 7% of your max HP for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Endless Nightfall`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Ultimate Skills by 20% for 7 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

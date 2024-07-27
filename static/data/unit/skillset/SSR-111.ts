@@ -123,56 +123,56 @@ export const SkillSet_10141: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Away, Meow!`,
+                    description: `Damage the target 6 times (20/23.3% Attack Power), then increase the party's trigger ability effects by 60/70% for 6 turns, and increase the target's Damage Taken from Wind attacks by 10/15% for 6 turns. CD:6\n\nBond 3: Increase the party's trigger ability effects by 80/90/100% for 6 turns, increase the target's Damage Taken from Wind attacks by 20/25/30% for 6 turns, then damage the target 6 times (26.6/30/33.3% Attack Power). CD:6`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Away, Meow!`,
+                    description: `Damage the target 6 times (20% Attack Power), then increase the party's trigger ability effects by 60% for 6 turns, and increase the target's Damage Taken from Wind attacks by 10% for 6 turns. CD:6`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Away, Meow!`,
+                    description: `Damage the target 6 times (23.3% Attack Power), then increase the party's trigger ability effects by 70% for 6 turns, and increase the target's Damage Taken from Wind attacks by 15% for 6 turns. CD:6`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Away, Meow!`,
+                    description: `Increase the party's trigger ability effects by 80% for 6 turns, increase the target's Damage Taken from Wind attacks by 20% for 6 turns, then damage the target 6 times (26.6% Attack Power). CD:6`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Away, Meow!`,
+                    description: `Increase the party's trigger ability effects by 90% for 6 turns, increase the target's Damage Taken from Wind attacks by 25% for 6 turns, then damage the target 6 times (30% Attack Power). CD:6`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Fire Away, Meow!`,
+                    description: `Increase the party's trigger ability effects by 100% for 6 turns, increase the target's Damage Taken from Wind attacks by 30% for 6 turns, then damage the target 6 times (33.3% Attack Power). CD:6`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Investigative Paw-Shooting`,
+                    description: `Damage the target 3 times (33.3% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Traveling with Abyss`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 50%.\nGain yourself "Truth Investigation"\n\n"Truth Investigation"\nOn the 1st turn, decrease your current Ultimate Skill CD by 3 turns.\nIncrease Attack Power by 40%.\nIncrease Damage Output by 50%.\nOn Attack, damage the target (100% Attack Power).\nOn Ultimate Skill, increase the target's Damage Taken from Wind attacks by 30% for 6 turns.\nWhen your HP is equal to or less than 99%, trigger "Facing Collapse".\nWhen in Guard Stance, you won't be affected by the "Facing Collapse" effect for 1 turn.\n\n"Facing Collapse"\nWhen attacked, remove all stacks of your "Sanity Value".`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Investigative Meowventure`,
+                    description: `On the 1st turn, gain yourself 50 stacks of "Sanity Value" (max 50 stacks).\nAfter every turn, decrease your "Sanity Value" stacks by 10.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Staring into the Abyss`,
+                    description: `When your "Sanity Value" is equal to 50 stacks, increase trigger ability effects by 30%.\nWhen your "Sanity Value" is more than or equal to 40 stacks, increase Damage Output by 20%.\nWhen your "Sanity Value" is more than or equal to 30 stacks, on Attack, damage the target (100% Attack Power).\nWhen your "Sanity Value" is more than or equal to 20 stacks, increase Attack Power by 65%.\nWhen your "Sanity Value" is more than or equal to 10 stacks, increase Attack Power by 65%.\nWhen your "Sanity Value" is less than 1 stack, unlock "Losing Sanity".\n\n"Losing Sanity"\nAfter every turn, trigger "Shadow of The Supreme One".\n\n"Shadow of The Supreme One"\nGain yourself 50 stacks of "Sanity Value" (max 50 stacks) and inflict Sleep on yourself for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Intelligence Unit Rule No. 1`,
+                    description: `On the 1st turn, decrease your current Ultimate Skill CD by 3 turns.\nOn Ultimate Skill, trigger "Sanity Value: Idiot Caesar".\n\n"Sanity Value: Idiot Caesar"\nDamage the target (100% Attack Power).\nGain yourself 50 stacks of "Sanity Value" (max 50 stacks).\nYou won't be affected by the ""Sanity Value" stacks decrease" effect for 4 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Trigger+`,
+                    description: `Increase your trigger ability effects by 30%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain yourself immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

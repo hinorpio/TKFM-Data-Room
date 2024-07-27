@@ -123,56 +123,56 @@ export const SkillSet_10138: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 1/1/2/2/3 stack of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 30/40/40/50/50% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (60/70/80/90/100% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 1 stack of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 30% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (60% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 1 stack of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 40% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (70% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 2 stacks of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 40% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (80% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 2 stacks of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 50% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (90% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 3 stacks of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 50% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (100% Attack Power). CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Party Invitation`,
+                    description: `Heal the party for 50% of your Attack Power every turn for 3 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Pajama Party Starting~`,
+                    description: `Increase the party's max HP by 30%.\nIncrease the party's Attack Power by 50%.\nOn Ultimate Skill, increase the 5th position ally's Ultimate Skill Power by 30% for 1 turn.\nOn Ultimate Skill, increase the 5th position ally's Damage Output by 7.5% for 1 turn based on your "Party Host" stacks.\nOn Ultimate Skill, increase the target's Damage Taken by 7.5% for 1 turn based on your "Party Attendee" stacks.\nAll allied Supporters gain the following effect: On Ultimate Skill, increase the 5th position ally's Attack Power for 10% of your Attack Power for 1 turn.\nAll allied Obstructors gain the following effect: On Ultimate Skill, gain 5th position ally "Party Focus" for 1 turn.\nThe ally with the highest max HP gains the following effect: When in Guard Stance, grant the ally with the lowest max HP a Shield for 30% of your max HP for 1 turn.\n\n"Party Focus"\nOn Ultimate Skill, damage the target (50% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tender Topics of Love`,
+                    description: `On Ultimate Skill, heal the party for 100% of your Attack Power, then heal the party for 50% of your Attack Power every turn for 3 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Exciting Party Game`,
+                    description: `All allied Supporters gain the following effect: When taking action, the allied Lingerie Lolita Lulu gains 1 stack of "Party Host" (max 4 stacks) (removes after triggering once).\nAll allied Obstructors gain the following effect: When taking action, the allied Lingerie Lolita Lulu gains 1 stack of "Party Attendee" (max 4 stacks) (removes after triggering once).\nOn Ultimate Skill, immune to effects of "Party Host" and "Party Attendee" stack changes for 50 turns (removes after triggering once).\nOn Ultimate Skill, increase the 5th position ally's Damage Output by 8.75% for 1 turn based on your "Party Host" stacks.\nOn Ultimate Skill, increase the target's Damage Taken by 8.75% for 1 turn based on your "Party Attendee" stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporary Pillow Fort!`,
+                    description: `When in Guard Stance, decrease the Damage Taken of the ally with the lowest max HP by 20% for 1 turn.\nWhen in Guard Stance, heal the party for 50% of your Attack Power.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing-over-time +`,
+                    description: `Increase your Heal effect by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {
@@ -413,57 +413,61 @@ export const SkillSet_10138: SkillSet[] =  [
                 }
             },
             [Locale.en]: {
+                [SkillType.BASE_STAT]: {
+                    name: `Maxed Data`,
+                    description: `Max HP：3,375,317\nMax Attack：767,182\n(Increase base ATK and HP values)`
+                },
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 1/1/2/2/3 stack of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 30/40/40/50/50% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (60/70/80/90/100% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 1 stack of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 30% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (60% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 1 stack of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 40% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (70% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 2 stacks of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 40% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (80% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 2 stacks of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 50% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (90% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Caesar's Palace Party Time`,
+                    description: `Gain yourself 3 stacks of "Party Host" and "Party Attendee" (max 4 stacks) (effective only once per battle.)\nIncrease the 5th position ally's Ultimate Skill Power by 50% for 1 turn.\nThe 5th position ally gains the following effect: On Ultimate Skill, deal additional damage to the target for 1 turn (100% Attack Power). CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Party Invitation`,
+                    description: `Heal the party for 50% of your Attack Power every turn for 3 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Pajama Party Starting~`,
+                    description: `Increase the party's max HP by 30%.\nIncrease the party's Attack Power by 50%.\nOn Ultimate Skill, increase the 5th position ally's Ultimate Skill Power by 30% for 1 turn.\nOn Ultimate Skill, increase the 5th position ally's Damage Output by 7.5% for 1 turn based on your "Party Host" stacks.\nOn Ultimate Skill, increase the target's Damage Taken by 7.5% for 1 turn based on your "Party Attendee" stacks.\nAll allied Supporters gain the following effect: On Ultimate Skill, increase the 5th position ally's Attack Power for 10% of your Attack Power for 1 turn.\nAll allied Obstructors gain the following effect: On Ultimate Skill, gain 5th position ally "Party Focus" for 1 turn.\nThe ally with the highest max HP gains the following effect: When in Guard Stance, grant the ally with the lowest max HP a Shield for 30% of your max HP for 1 turn.\n\n"Party Focus"\nOn Ultimate Skill, damage the target (50% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tender Topics of Love`,
+                    description: `On Ultimate Skill, heal the party for 100% of your Attack Power, then heal the party for 50% of your Attack Power every turn for 3 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Exciting Party Game`,
+                    description: `All allied Supporters gain the following effect: When taking action, the allied Lingerie Lolita Lulu gains 1 stack of "Party Host" (max 4 stacks) (removes after triggering once).\nAll allied Obstructors gain the following effect: When taking action, the allied Lingerie Lolita Lulu gains 1 stack of "Party Attendee" (max 4 stacks) (removes after triggering once).\nOn Ultimate Skill, immune to effects of "Party Host" and "Party Attendee" stack changes for 50 turns (removes after triggering once).\nOn Ultimate Skill, increase the 5th position ally's Damage Output by 8.75% for 1 turn based on your "Party Host" stacks.\nOn Ultimate Skill, increase the target's Damage Taken by 8.75% for 1 turn based on your "Party Attendee" stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporary Pillow Fort!`,
+                    description: `When in Guard Stance, decrease the Damage Taken of the ally with the lowest max HP by 20% for 1 turn.\nWhen in Guard Stance, heal the party for 50% of your Attack Power.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Healing-over-time +`,
+                    description: `Increase your Heal effect by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

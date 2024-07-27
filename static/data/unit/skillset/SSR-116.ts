@@ -123,56 +123,56 @@ export const SkillSet_10146: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Nitoryu ‧ Obliterate`,
+                    description: `Decrease your Basic Attack Power by 150% (max 1 stack), increase your Ultimate Skill Power by 60/70/80/90/100% (max 1 stack), increase the target's Damage Taken from Dark attacks by 10/15/20/30/40% (max 1 stack), then damage the target (330/376/422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Nitoryu ‧ Obliterate`,
+                    description: `Decrease your Basic Attack Power by 150% (max 1 stack), increase your Ultimate Skill Power by 60% (max 1 stack), increase the target's Damage Taken from Dark attacks by 10% (max 1 stack), then damage the target (330% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Nitoryu ‧ Obliterate`,
+                    description: `Decrease your Basic Attack Power by 150% (max 1 stack), increase your Ultimate Skill Power by 70% (max 1 stack), increase the target's Damage Taken from Dark attacks by 15% (max 1 stack), then damage the target (376% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Nitoryu ‧ Obliterate`,
+                    description: `Decrease your Basic Attack Power by 150% (max 1 stack), increase your Ultimate Skill Power by 80% (max 1 stack), increase the target's Damage Taken from Dark attacks by 20% (max 1 stack), then damage the target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Nitoryu ‧ Obliterate`,
+                    description: `Decrease your Basic Attack Power by 150% (max 1 stack), increase your Ultimate Skill Power by 90% (max 1 stack), increase the target's Damage Taken from Dark attacks by 30% (max 1 stack), then damage the target (468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Ultimate Nitoryu ‧ Obliterate`,
+                    description: `Decrease your Basic Attack Power by 150% (max 1 stack), increase your Ultimate Skill Power by 100% (max 1 stack), increase the target's Damage Taken from Dark attacks by 40% (max 1 stack), then damage the target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Tendon Splitter`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Obsessive Seeker`,
+                    description: `Increase the party's max HP by 30%.\nIncrease the party's Attack Power by 50%.\nOn Ultimate Skill, deal additional damage to the target (80% Attack Power).\nGain all allied Attackers and Obstructors "Martial Mastery".\n\n"Martial Mastery"\nOn the 1st turn, trigger the following effect: increase the party's Attack Power for 10% of your Base Attack Power for 50 turns.\nOn the 5th turn, trigger the following effect: increase your Ultimate Skill Power by 50% (max 1 stack).\nOn the 9th turn, trigger the following effect: increase all enemies' Damage Taken by 33% (max 3 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Breath Hold`,
+                    description: `On Basic Attack, trigger the following effect: increase your Attack Power by 40% (max 2 stacks).\nOn Ultimate Skill, trigger the following effect: remove Breath Hold's Attack Power increase effect from self.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Calm Heart`,
+                    description: `Increase your Damage Output by 15%.\nOn the 1st turn, trigger the following effect on other allied Attackers and Obstructors: increase Apex Hunter Minayomi and your Damage Output by 15% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `True Sight`,
+                    description: `After every turn, trigger the following effect: gain yourself "Clear Mind" (max 8 stacks).\nWhen your total stacks of "Clear Mind" reach 8, activate "On Ultimate Skill, deal additional damage to the target (220% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {

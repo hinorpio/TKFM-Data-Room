@@ -123,56 +123,56 @@ export const SkillSet_10131: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Wish`,
+                    description: `Increase the target's Damage Taken from Timekeeper Inase by 50/62.5/75/87.5/100% for 3 turns, then damage the target (265/298/331/364/397% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Wish`,
+                    description: `Increase the target's Damage Taken from Timekeeper Inase by 50% for 3 turns, then damage the target (265% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Wish`,
+                    description: `Increase the target's Damage Taken from Timekeeper Inase by 62.5% for 3 turns, then damage the target (298% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Wish`,
+                    description: `Increase the target's Damage Taken from Timekeeper Inase by 75% for 3 turns, then damage the target (331% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Wish`,
+                    description: `Increase the target's Damage Taken from Timekeeper Inase by 87.5% for 3 turns, then damage the target (364% Attack Power). CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Wish`,
+                    description: `Increase the target's Damage Taken from Timekeeper Inase by 100% for 3 turns, then damage the target (397% Attack Power). CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Slash`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Timekeeper`,
+                    description: `Increase the party's HP by 25%\nIncrease the party's Attack Power by 90%\nIncrease the allied Attackers' Damage Output by 40%\nIncrease the allied Obstructors' Damage Output by 40%\nIncrease your Attack Power by 90%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Shattered Azure`,
+                    description: `On the 1st turn, increase your Damage Output by 4% (max 5 stacks).\nEvery 3 turns, increase Shattered Azure's damage effect by 2 stacks.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Temporal Domination`,
+                    description: `Increase Damage Output by 20%.\nOn Ultimate Skill, increase the target's Damage Taken from Timekeeper Inase by 10% for 4 turns according to your stacks of Shattered Azure's damage effect.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Radiant Moments`,
+                    description: `On Basic Attack, deal additional damage to the target (70% Attack Power).\nOn Ultimate Skill, deal additional damage to the target (70% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10023: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog's Devoted Servant`,
+                    description: `Increase your Attack Power by 40/60/70/90/100% for 1 turn, then increase other allies' Attack Power by 20/20/22.5/22.5/25% of your Attack Power for 1 turn. Gain yourself the following effect for 4 turns: When in Guard Stance, grant the party a Shield for 15/17.5/17.5/20/20% of your max HP for 4 turns. (Removes after triggering 1 time.) CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog's Devoted Servant`,
+                    description: `Increase your Attack Power by 40% for 1 turn, then increase other allies' Attack Power by 20% of your Attack Power for 1 turn. Gain yourself the following effect for 4 turns: When in Guard Stance, grant the party a Shield for 15% of your max HP for 4 turns. (Removes after triggering 1 time.) CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog's Devoted Servant`,
+                    description: `Increase your Attack Power by 60% for 1 turn, then increase other allies' Attack Power by 20% of your Attack Power for 1 turn. Gain yourself the following effect for 4 turns: When in Guard Stance, grant the party a Shield for 17.5% of your max HP for 4 turns. (Removes after triggering 1 time.) CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog's Devoted Servant`,
+                    description: `Increase your Attack Power by 70% for 1 turn, then increase other allies' Attack Power by 22.5% of your Attack Power for 1 turn. Gain yourself the following effect for 4 turns: When in Guard Stance, grant the party a Shield for 17.5% of your max HP for 4 turns. (Removes after triggering 1 time.) CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog's Devoted Servant`,
+                    description: `Increase your Attack Power by 90% for 1 turn, then increase other allies' Attack Power by 22.5% of your Attack Power for 1 turn. Gain yourself the following effect for 4 turns: When in Guard Stance, grant the party a Shield for 20% of your max HP for 4 turns. (Removes after triggering 1 time.) CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Crazed Dog's Devoted Servant`,
+                    description: `Increase your Attack Power by 100% for 1 turn, then increase other allies' Attack Power by 25% of your Attack Power for 1 turn. Gain yourself the following effect for 4 turns: When in Guard Stance, grant the party a Shield for 20% of your max HP for 4 turns. (Removes after triggering 1 time.) CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Operational Command`,
+                    description: `Increase the party's Attack Power by 25% for 1 turn, then damage the target (75% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Hound's Gaze`,
+                    description: `Increase the party's max HP by 10%.\nIncrease the party's Attack Power by 100%.\nWhen the other allies are in Guard Stance, trigger the following effect: When in Guard Stance, gain the 1st position ally 1 stack of "Force Restructuring" for 50 turns. (max 4 stacks)\nAfter every 1 turn, remove all your "Force Restructuring" stacks.\nWhen you reach 4 stacks of "Force Restructuring", trigger the following effect: When in Guard Stance, gain yourself 1 stack of "Advance Movement". (max 1 stack)\nWhen you reach 1 stack of "Advance Movement", trigger "Backlash Howl".\n\n"Backlash Howl"\nOn Ultimate Skill,  increase other allies' Attack Power by 25% of your Attack Power for 1 turn.\nOn Ultimate Skill, increase the party's Damage Output by 50% for 1 turn.\nOn Ultimate Skill, increase the party's Ultimate Skill Power by 50% for 1 turn.\nOn Ultimate Skill, increase the target's Damage Taken by 50% for 1 turn.\nOn Ultimate Skill, remove all your "Advance Movement" stacks.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Tactical Retreat`,
+                    description: `On the 1st turn and Ultimate Skill, gain yourself 1 stack of "Fragile Illusion". (max 1 stack)\nWhen you reach 1 stack of "Fragile Illusion", trigger "Defense".\n\n"Defense"\nWhen in Guard Stance, gain yourself Taunt for 1 turn and "Counterattack".\n\n"Counterattack"\nWhen attacked, increase the party's Damage Output by 35% for 4 turns and remove all your "Fragile Illusion" stacks for 1 turn. (Removes after triggering 1 time)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Arrogant Soldier`,
+                    description: `When in Guard Stance, gain yourself 1 stack of "Opportunity for Counterattack".\nWhen you reach 1 stack of "Opportunity for Counterattack", trigger "Counterstrike Artillery".\n\n"Counterstrike Artillery"\nOn Ultimate Skill, deal additional damage to the target 2 times (75% Attack Power).\nOn Ultimate Skill, remove all your "Opportunity for Counterattack" stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Pushing Up Daisies`,
+                    description: `When you reach 1 stack of "Opportunity for Counterattack", trigger "Counterstrike Barrage".\n\n"Counterstrike Barrage"\nOn Ultimate Skill, deal additional damage to the target 8 times (45.5% Attack Power).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

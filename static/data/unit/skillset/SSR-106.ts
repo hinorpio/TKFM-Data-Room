@@ -123,56 +123,56 @@ export const SkillSet_10136: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Money-making Time!`,
+                    description: `Increase the target's Damage Taken by 30/35/40/45/50% for 4 turns, then damage the target (330/376/422/468/514% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (15/15/22.5/22.5/30% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Money-making Time!`,
+                    description: `Increase the target's Damage Taken by 30% for 4 turns, then damage the target (330% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (15% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Money-making Time!`,
+                    description: `Increase the target's Damage Taken by 35% for 4 turns, then damage the target (376% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (15% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Money-making Time!`,
+                    description: `Increase the target's Damage Taken by 40% for 4 turns, then damage the target (422% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (22.5% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Money-making Time!`,
+                    description: `Increase the target's Damage Taken by 45% for 4 turns, then damage the target (468% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (22.5% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Money-making Time!`,
+                    description: `Increase the target's Damage Taken by 50% for 4 turns, then damage the target (514% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (30% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Throwing Knives`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Post a Warrant`,
+                    description: `Increase all Water and Wind allies' max HP by 20%.\nIncrease all Water and Wind allies' Attack Power by 100%.\nIncrease all Water allies' Basic Attack Power by 80%.\nIncrease all Water allies' Damage Output by 50%.\nAll allied Wind Healers and Supporters gain "Group Hunt".\n\n"Group Hunt"\nOn Attack, increase all Water allies' Damage Output by 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Wilderness Tracking`,
+                    description: `Increase Basic Attack Power by 70%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Flying Knife Trick`,
+                    description: `On Ultimate Skill, all Water Attackers, Defenders, and Obstructors gain "Flying Daggers".\nOther Water Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, allied Bounty Hunter Angelina gains "Flying Daggers".\n\n"Flying Daggers"\nOn Basic Attack, deal additional damage to the target for 1 turn (30% Attack Power).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bounty Hunter's Intuition`,
+                    description: `On the 1st turn, decrease your current Ultimate Skill CD by 4 turns.\nOn the 1st turn, decrease other Water allies' current Ultimate Skill CD by 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Basic Attack+`,
+                    description: `Increase your Basic Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain yourself immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

@@ -123,56 +123,56 @@ export const SkillSet_10142: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Smash Watermelons!`,
+                    description: `Increase your Basic Attack Power by 50/70/90/110/130% for 4 turns and Damage Output by 20/25/30/35/40% for 4 turns. Gain all allied Attackers the following effect for 4 turns: On Basic Attack, damage the target (20/30/30/40/60% Attack Power) and increase allied Summer Chizuru's Attack Power by 10/10/20/20/30% for 1 turn. Damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Smash Watermelons!`,
+                    description: `Increase your Basic Attack Power by 50% for 4 turns and Damage Output by 20% for 4 turns. Gain all allied Attackers the following effect for 4 turns: On Basic Attack, damage the target (20% Attack Power) and increase allied Summer Chizuru's Attack Power by 10% for 1 turn. Damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Smash Watermelons!`,
+                    description: `Increase your Basic Attack Power by 70% for 4 turns and Damage Output by 25% for 4 turns. Gain all allied Attackers the following effect for 4 turns: On Basic Attack, damage the target (30% Attack Power) and increase allied Summer Chizuru's Attack Power by 10% for 1 turn. Damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Smash Watermelons!`,
+                    description: `Increase your Basic Attack Power by 90% for 4 turns and Damage Output by 30% for 4 turns. Gain all allied Attackers the following effect for 4 turns: On Basic Attack, damage the target (30% Attack Power) and increase allied Summer Chizuru's Attack Power by 20% for 1 turn. Damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Smash Watermelons!`,
+                    description: `Increase your Basic Attack Power by 110% for 4 turns and Damage Output by 35% for 4 turns. Gain all allied Attackers the following effect for 4 turns: On Basic Attack, damage the target (40% Attack Power) and increase allied Summer Chizuru's Attack Power by 20% for 1 turn. Damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Let's Smash Watermelons!`,
+                    description: `Increase your Basic Attack Power by 130% for 4 turns and Damage Output by 40% for 4 turns. Gain all allied Attackers the following effect for 4 turns: On Basic Attack, damage the target (60% Attack Power) and increase allied Summer Chizuru's Attack Power by 30% for 1 turn. Damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Chizuru's Tiny Fist~`,
+                    description: `Damage the target (125% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Volleyball Tournament~`,
+                    description: `Increase the party's max HP by 40%.\nIncrease the party's Attack Power by 50%.\nWhen there are 3 or more Attackers in the party, activate "Join the Competition".\n\n"Join the Competition"\nOn Ultimate Skill, trigger the following effect: increase all enemies' Damage Taken by 20% for 4 turns.\nOn Ultimate Skill, trigger the following effect: increase all allied Attackers' Damage Output by 20% for 4 turns.\nOn Ultimate Skill, trigger the following effect: increase all allied Attackers' Basic Attack Power by 110% for 4 turns.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Beach Guide`,
+                    description: `All allied Attackers gain "Commentary Time"\n\n"Commentary Time"\nAfter every turn, trigger the following effect: increase the target's Damage Taken from Basic Attacks by 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Roll, Roll, Roll!`,
+                    description: `All allied Attackers gain "Adjusting Head Position".\n\n"Adjusting Head Position"\nOn Ultimate Skill, trigger the following effect: increase allied Summer Chizuru's Attack Power by 20% for 4 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Bridal Uniform: Power Boost`,
+                    description: `On the 1st turn, trigger the following effect: decrease your current Ultimate Skill CD by 4 turns.\nOn Ultimate Skill, trigger the following effect: increase the target's Damage Taken by 20% (max 2 stacks)."`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Sleep Immunity`,
+                    description: `Gain yourself immunity to Sleep.`
                 }
             },
             [Locale.jp]: {

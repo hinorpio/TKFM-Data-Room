@@ -123,56 +123,56 @@ export const SkillSet_10127: SkillSet[] =  [
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `Lord of Dreams`,
+                    description: `Increase the party's Ultimate Skill Power by 10/15/20/25/30% for 15 turns. Gain the following ability for 15 turns: On Attack, increase the party's Attack Power for 20/22.5/25/27.5/30% of your Attack Power for 1 turn. CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Lord of Dreams`,
+                    description: `Increase the party's Ultimate Skill Power by 10% for 15 turns. Gain the following ability for 15 turns: On Attack, increase the party's Attack Power for 20% of your Attack Power for 1 turn. CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Lord of Dreams`,
+                    description: `Increase the party's Ultimate Skill Power by 15% for 15 turns. Gain the following ability for 15 turns: On Attack, increase the party's Attack Power for 22.5% of your Attack Power for 1 turn. CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Lord of Dreams`,
+                    description: `Increase the party's Ultimate Skill Power by 20% for 15 turns. Gain the following ability for 15 turns: On Attack, increase the party's Attack Power for 25% of your Attack Power for 1 turn. CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `Lord of Dreams`,
+                    description: `Increase the party's Ultimate Skill Power by 25% for 15 turns. Gain the following ability for 15 turns: On Attack, increase the party's Attack Power for 27.5% of your Attack Power for 1 turn. CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `Lord of Dreams`,
+                    description: `Increase the party's Ultimate Skill Power by 30% for 15 turns. Gain the following ability for 15 turns: On Attack, increase the party's Attack Power for 30% of your Attack Power for 1 turn. CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `Dream Bubble`,
+                    description: `Increase Water allies' Attack Power by 40% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `Legendary Beast`,
+                    description: `Increase the party's max HP by 20%.\nIncrease the party's Attack Power by 40%.\nOn the 10th turn, increase the party's Ultimate Skill Power by 150% for 40 turns.\nGain the party the following effect: When your party has 4 or more Water allies, trigger "Eternal Dreamland."\n\n"Eternal Dreamland"\nIncrease Attack Power by 80%.\nOn Ultimate Skill, increase the party's Damage Output by 50% (max 1 stack).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Dream Roar Strikes`,
+                    description: `On the 1st turn, decrease your current Ultimate Skill CD by 30 turns.\nWhen performing an action, decrease your current Ultimate Skill CD by 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Finishing Knocking Out`,
+                    description: `On Basic Attack, trigger "Forced Slumber."\n\n"Forced Slumber"\nOn Attack, all other allies damage the target (25% Attack Power) for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Furious Dreameater`,
+                    description: `On the 4th turn, increase the party's Ultimate Skill Power by 30% for 16 turns.\nOn the 7th turn, increase the party's Ultimate Skill Power by 30% for 13 turns.\nOn the 10th turn, increase the party's Ultimate Skill Power by 40% for 10 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {
