@@ -44,6 +44,7 @@ import Vue from "vue";
 import { Component } from "vue-property-decorator";
 import LanguageButton from "~/components/LanguageButton.vue";
 import DownloadButton from "~/components/DownloadButton.vue";
+import { Locale } from "~/plugins/utils/enums";
 
 interface MenuItem {
   icon: string
@@ -103,10 +104,12 @@ export default class DefaultLayout extends Vue {
   mounted(){
     const r18WarningAcknowledged = this.r18WarningAcknowledged
     const currentPath = this.$route.path
+    const locale = this.$i18n.locale as keyof typeof Locale
+    const localePrefix = (locale === 'tc')?`` :`/${locale}`
 
     if (!r18WarningAcknowledged && currentPath !== '/r18-warning') {
       this.$router.push({
-          path: `/r18-warning`,
+          path: `${localePrefix}/r18-warning`,
       });
     }
 

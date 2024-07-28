@@ -8,8 +8,7 @@
                 </h1>
                 <div v-else class="mb-8">
                     <h1>{{ `${$t('TKFM Data Room')}` }}</h1>
-                    <h1 class="mt-2">{{ `ver.${$store.state.version}` }}</h1>
-
+                    <h2 class="mt-2">{{ `ver.${$store.state.version}` }}</h2>
                 </div>
                 <h2 class="mb-4">{{ $t('Introduction') }}</h2>
                 <span :class="linkClass" v-html="$util.showPreLineText($t('Introduction-detail'))"></span>
@@ -21,17 +20,17 @@
                 <h2 class="mt-8 mb-4">{{ $t('Feedback') }}</h2>
                 <span :class="linkClass">
                     {{ $t('Feedback-detail') }}
-                    <a class="hyperlink-class" target="_blank" :href="getLocaleLink(issue)">
+                    <a class="hyperlink-class" target="_blank" :href="getLocalStr(issue)">
                         <span :class="linkClass">{{$t('Feedback-url')}}</span>
                     </a>
                 </span>
                 <h2 class="mt-8 mb-4">{{ $t('Reference') }}</h2>
-                <a class="hyperlink-class" target="_blank" :href="getLocaleLink(tkfmtools)">
-                    <span :class="linkClass">{{$t('TenkafuMA Toolbox')}}</span>
+                <a class="hyperlink-class" target="_blank" :href="getLocalStr(tkfmtools)">
+                    <span :class="linkClass">{{ getLocalStr(tkfmtools_str) }}</span>
                 </a>
                 <br />
-                <a class="hyperlink-class" target="_blank" :href="getLocaleLink(japanTkfmWiki)">
-                    <span :class="linkClass">{{$t('天下布魔攻略 Wiki (Japan)')}}</span>
+                <a class="hyperlink-class" target="_blank" :href="getLocalStr(japanTkfmWiki)">
+                    <span :class="linkClass">{{ getLocalStr(japanTkfmWiki_str) }}</span>
                 </a>
             </div>
         </base-expand-card>
@@ -50,7 +49,7 @@ import { Locale } from "~/plugins/utils/enums";
     }
 })
 export default class About extends Vue {
-    getLocaleLink(link: {[lang in Locale]: string}): string{
+    getLocalStr(link: {[lang in Locale]: string}): string{
         const locale = this.$i18n.locale as keyof typeof Locale
         return link[locale]
     }
@@ -79,12 +78,28 @@ export default class About extends Vue {
         [Locale.kr]: 'https://purindaisuki.github.io/tkfmtools/ko/',
     }
 
+    tkfmtools_str: {[lang in Locale]: string} = {
+        [Locale.tc]: '天下布魔工具箱',
+        [Locale.sc]: '天下布魔工具箱',
+        [Locale.en]: 'TenkafuMA Toolboxs',
+        [Locale.jp]: '天下布魔道具箱',
+        [Locale.kr]: '텐카푸마 툴박스',
+    }
+
     japanTkfmWiki: {[lang in Locale]: string} = {
         [Locale.tc]: 'https://tenkafuma.wikiru.jp/',
         [Locale.sc]: 'https://tenkafuma.wikiru.jp/',
         [Locale.en]: 'https://tenkafuma.wikiru.jp/',
         [Locale.jp]: 'https://tenkafuma.wikiru.jp/',
         [Locale.kr]: 'https://tenkafuma.wikiru.jp/',
+    }
+
+    japanTkfmWiki_str: {[lang in Locale]: string} = {
+        [Locale.tc]: '天下布魔攻略 Wiki (Japan)',
+        [Locale.sc]: '天下布魔攻略 Wiki (Japan)',
+        [Locale.en]: 'TKFM Wiki (Japan)',
+        [Locale.jp]: '天下布魔攻略 Wiki (Japan)',
+        [Locale.kr]: '',
     }
         
 
