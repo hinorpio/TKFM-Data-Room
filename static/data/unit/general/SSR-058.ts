@@ -35,7 +35,7 @@ export const General_10066: Unit = {
     },
     rarity: Rarity.SSR,
     element: Element.DARK,
-    position: Position.SUPPORTER,
+    position: Position.ATTACKER,
     potential: PotentialType.ATTACK,
     isLimited: false,
     releaseDate: "2022/08/24",
