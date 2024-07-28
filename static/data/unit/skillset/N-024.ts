@@ -167,7 +167,7 @@ export const SkillSet_10921: SkillSet[] =  [
                     name: `Shrapnel Rounds`,
                     description: `On Ultimate Skill, deal additional damage to the target for 2% of your Attack Power 10 times.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Lucky One (Empty Handed↓)`,
                     description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10921: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を10/15/20/25/30％増加させ(1ターン)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を10％増加させ(1ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を15％増加させ(1ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を20％増加させ(1ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を25％増加させ(1ターン)、468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を30％増加させ(1ターン)、514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `一点狙い`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `地獄の料理人`,
+                    description: `味方全体の受けるダメージを10％減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `弱点暴露`,
+                    description: `必殺技攻撃時「ターゲットが受けるダメージを10%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `射撃位置変更`,
+                    description: `通常攻撃時「自分の必殺技ダメージを20%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `破片弾`,
+                    description: `必殺技攻撃時「自分の2%の攻撃力でターゲットに10回ダメージを与える」を追加する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10921: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

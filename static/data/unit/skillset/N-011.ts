@@ -167,7 +167,7 @@ export const SkillSet_10911: SkillSet[] =  [
                     name: `Rebirth`,
                     description: `After every 7 turns, recover 50% HP.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Bad to the Bone (Normal Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10911: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `祝福の賛歌`,
+                    description: `攻撃力の165/188/211/234/257%分味方全体に治療を行い、効果「治療を受けた時、回復HP量を22.5%増加させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `祝福の賛歌`,
+                    description: `攻撃力の165%分味方全体に治療を行い、効果「治療を受けた時、回復HP量を22.5%増加させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `祝福の賛歌`,
+                    description: `攻撃力の188%分味方全体に治療を行い、効果「治療を受けた時、回復HP量を22.5%増加させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `祝福の賛歌`,
+                    description: `攻撃力の211%分味方全体に治療を行い、効果「治療を受けた時、回復HP量を22.5%増加させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `祝福の賛歌`,
+                    description: `攻撃力の234%分味方全体に治療を行い、効果「治療を受けた時、回復HP量を22.5%増加させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `祝福の賛歌`,
+                    description: `攻撃力の257%分味方全体に治療を行い、効果「治療を受けた時、回復HP量を22.5%増加させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `回復の術`,
+                    description: `攻撃力の50％分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の治癒`,
+                    description: `味方の光属性キャラクターが治療を受けるとき、回復HP量を15％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `主の贈り物`,
+                    description: `必殺時、50％の確率で効果「毎ターン攻撃力の30％分味方全体に治療を行う（2ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `聖なる光が輝く`,
+                    description: `治療時の回復量が10%増加`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `新しき人となれ`,
+                    description: `7ターン毎に、効果「最大HPの50％分自分に治療を行う」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `天性の色魔(ノーマル調教道具↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10911: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

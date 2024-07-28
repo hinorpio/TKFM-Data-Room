@@ -167,7 +167,7 @@ export const SkillSet_10918: SkillSet[] =  [
                     name: `Protection Spell`,
                     description: `On Attack, gain a Shield (50% Attack Power) for 4 turns.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Lucky One (Empty Handed↓)`,
                     description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10918: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `爆裂魔法・EX`,
+                    description: `357/419/480/541/603%の攻撃力で敵全体にダメージを与える。ただし、必殺技ダメージ増加(累積型)を解除し、自分を麻痺状態にする(2ターン)[CD:7]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `爆裂魔法・EX`,
+                    description: `357%の攻撃力で敵全体にダメージを与える。ただし、必殺技ダメージ増加(累積型)を解除し、自分を麻痺状態にする(2ターン)[CD:7]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `爆裂魔法・EX`,
+                    description: `419%の攻撃力で敵全体にダメージを与える。ただし、必殺技ダメージ増加(累積型)を解除し、自分を麻痺状態にする(2ターン)[CD:7]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `爆裂魔法・EX`,
+                    description: `480%の攻撃力で敵全体にダメージを与える。ただし、必殺技ダメージ増加(累積型)を解除し、自分を麻痺状態にする(2ターン)[CD:7]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `爆裂魔法・EX`,
+                    description: `541%の攻撃力で敵全体にダメージを与える。ただし、必殺技ダメージ増加(累積型)を解除し、自分を麻痺状態にする(2ターン)[CD:7]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `爆裂魔法・EX`,
+                    description: `603%の攻撃力で敵全体にダメージを与える。ただし、必殺技ダメージ増加(累積型)を解除し、自分を麻痺状態にする(2ターン)[CD:7]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックボール`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `水の激励`,
+                    description: `味方の水属性キャラクターの攻撃力を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `呪文詠唱`,
+                    description: `通常攻撃時、効果「自分の必殺技ダメージを5％増加させる（最高6スタック）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `エキスパート高等魔法`,
+                    description: `自分の必殺技ダメージを10％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `詠唱の護り`,
+                    description: `攻撃時、効果「攻撃力の50％分自分に盾を張る（4ターン）」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10918: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

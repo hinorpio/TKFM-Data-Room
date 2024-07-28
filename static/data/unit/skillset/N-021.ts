@@ -167,7 +167,7 @@ export const SkillSet_10920: SkillSet[] =  [
                     name: `Sacred Blessing`,
                     description: `On Ultimate Skill, increase the leftmost ally's Attack Power by 50% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Bad to the Bone (Normal Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10920: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の盾`,
+                    description: `自分の攻撃力の265/298/331/364/397%分、味方の左端のメンバーに盾を与える(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の盾`,
+                    description: `自分の攻撃力の265%分、味方の左端のメンバーに盾を与える(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の盾`,
+                    description: `自分の攻撃力の298%分、味方の左端のメンバーに盾を与える(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の盾`,
+                    description: `自分の攻撃力の331%分、味方の左端のメンバーに盾を与える(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の盾`,
+                    description: `自分の攻撃力の364%分、味方の左端のメンバーに盾を与える(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の盾`,
+                    description: `自分の攻撃力の397%分、味方の左端のメンバーに盾を与える(1ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `加護`,
+                    description: `自分の攻撃力の80%分、味方の左端のメンバーに盾を与える(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の祝福`,
+                    description: `味方の光属性キャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神の寵愛`,
+                    description: `通常攻撃時、効果「味方の左端のメンバーが受ける盾の量を10%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `福音のうたい`,
+                    description: `必殺時、効果「味方の左端のメンバーの攻撃力を50%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神聖なる祝福`,
+                    description: `必殺時、効果「味方の左端のメンバーの攻撃力を50%増加させる(1ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `天性の色魔(ノーマル調教道具↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10920: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

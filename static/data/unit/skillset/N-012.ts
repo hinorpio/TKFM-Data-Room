@@ -167,7 +167,7 @@ export const SkillSet_10912: SkillSet[] =  [
                     name: `Corrosive Sludge`,
                     description: `On Attack, target takes 5% more damage for 2 turns.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Lucky One (Empty Handed↓)`,
                     description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10912: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療体質`,
+                    description: `最大HPの50%分自分に治療を行い、さらに効果「毎ターン自分の最大HPの8.0/8.5/9.0/9.5/10.0%分自分に治療を行う(5ターン」を獲得する[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療体質`,
+                    description: `最大HPの50%分自分に治療を行い、さらに効果「毎ターン自分の最大HPの8.0%分自分に治療を行う(5ターン」を獲得する[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療体質`,
+                    description: `最大HPの50%分自分に治療を行い、さらに効果「毎ターン自分の最大HPの8.5%分自分に治療を行う(5ターン」を獲得する[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療体質`,
+                    description: `最大HPの50%分自分に治療を行い、さらに効果「毎ターン自分の最大HPの9.0%分自分に治療を行う(5ターン」を獲得する[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療体質`,
+                    description: `最大HPの50%分自分に治療を行い、さらに効果「毎ターン自分の最大HPの9.5%分自分に治療を行う(5ターン」を獲得する[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療体質`,
+                    description: `最大HPの50%分自分に治療を行い、さらに効果「毎ターン自分の最大HPの10.0%分自分に治療を行う(5ターン」を獲得する[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ぶつかる`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `水の治療`,
+                    description: `味方の水属性キャラクターが治療を受けるとき、回復HP量を15%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `腐食粘液`,
+                    description: `攻撃時、効果「ターゲットの攻撃力を5%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `クイック治療`,
+                    description: `自分が治療を受けるとき、回復HP量を12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `強酸粘液`,
+                    description: `攻撃時、効果「ターゲットの受けるダメージを5%増加させる(2ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10912: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

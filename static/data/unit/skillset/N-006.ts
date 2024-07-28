@@ -167,7 +167,7 @@ export const SkillSet_10906: SkillSet[] =  [
                     name: `Possession`,
                     description: `After every 4 turns, increase your Attack Power by 7.5% (Max 4 Stacks)`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Lucky One (Empty Handed↓)`,
                     description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10906: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神々の贈り物`,
+                    description: `HPが一番低い仲間に攻撃力の330/376/422/468/514%分治療を行い、効果「受けるダメージを10%減少させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神々の贈り物`,
+                    description: `HPが一番低い仲間に攻撃力の330%分治療を行い、効果「受けるダメージを10%減少させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神々の贈り物`,
+                    description: `HPが一番低い仲間に攻撃力の376%分治療を行い、効果「受けるダメージを10%減少させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神々の贈り物`,
+                    description: `HPが一番低い仲間に攻撃力の422%分治療を行い、効果「受けるダメージを10%減少させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神々の贈り物`,
+                    description: `HPが一番低い仲間に攻撃力の468%分治療を行い、効果「受けるダメージを10%減少させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神々の贈り物`,
+                    description: `HPが一番低い仲間に攻撃力の514%分治療を行い、効果「受けるダメージを10%減少させる(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `水の癒やし`,
+                    description: `HPが一番低い仲間に攻撃力の100％分治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風の治癒`,
+                    description: `味方の風属性キャラクターが治療を受けるとき、回復HP量を15％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・火の精霊`,
+                    description: `攻撃時、効果「味方全体の攻撃力を5％増加させる（2ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ウンディーネの祝福`,
+                    description: `自分に治療をする時、回復HP量を10％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神道術・憑依`,
+                    description: `4ターン毎に、効果「自分の攻撃力を7.5％増加させる（最高4スタック）を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10906: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

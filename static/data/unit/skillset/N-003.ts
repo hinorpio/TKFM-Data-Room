@@ -167,7 +167,7 @@ export const SkillSet_10903: SkillSet[] =  [
                     name: `Magic Armor`,
                     description: `On Ultimate Skill, you take 15% less damage for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Bad to the Bone (Normal Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,57 @@ export const SkillSet_10903: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `挑発の一撃`,
+                    description: `265/298/331/364/397%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `挑発の一撃`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `挑発の一撃`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `挑発の一撃`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `挑発の一撃`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `挑発の一撃`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `殴りつける`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の祝福`,
+                    description: `味方の光属性キャラクターの最大HPを10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治療の呪文`,
+                    description: `通常攻撃時、50％の確率で効果「HPを4％回復する」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `防御の呪文`,
+                    description: `自分の防御時のダメージ軽減効果を10％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックアーマー`,
+                    description: `必殺時、効果「自分の受けるダメージを15％減少させる（1ターン）」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `天性の色魔(ノーマル調教道具↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする
+`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +276,7 @@ export const SkillSet_10903: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

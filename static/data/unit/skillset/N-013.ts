@@ -167,7 +167,7 @@ export const SkillSet_10913: SkillSet[] =  [
                     name: `Bruise`,
                     description: `On Attack, decrease the target's amount recovered by 50% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Prize Hunter (Enhance Materials↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10913: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `盃投げ`,
+                    description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `盃投げ`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `盃投げ`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `盃投げ`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `盃投げ`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `盃投げ`,
+                    description: `514%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `叩く`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風の祝福`,
+                    description: `味方の風属性キャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鉄の意志`,
+                    description: `攻撃を受けた時、効果「自分の受けるダメージを5％減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `強靭な心身`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `致死の一撃`,
+                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を50％減少させる(1ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `トレジャーハンター(強化素材↑)`,
+                    description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10913: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

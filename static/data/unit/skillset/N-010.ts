@@ -167,7 +167,7 @@ export const SkillSet_10910: SkillSet[] =  [
                     name: `Keeping the Faith`,
                     description: `When Attacked, increase Recovery Rate by 10% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Lucky One (Empty Handed↓)`,
                     description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10910: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `栄光の輝き`,
+                    description: `攻撃力の165/188/211/234/257%分味方全体に治療を行い、さらに効果「受けるダメージを10%減少させる(2ターン)」を得て、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `栄光の輝き`,
+                    description: `攻撃力の165%分味方全体に治療を行い、さらに効果「受けるダメージを10%減少させる(2ターン)」を得て、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `栄光の輝き`,
+                    description: `攻撃力の188%分味方全体に治療を行い、さらに効果「受けるダメージを10%減少させる(2ターン)」を得て、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `栄光の輝き`,
+                    description: `攻撃力の211%分味方全体に治療を行い、さらに効果「受けるダメージを10%減少させる(2ターン)」を得て、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `栄光の輝き`,
+                    description: `攻撃力の234%分味方全体に治療を行い、さらに効果「受けるダメージを10%減少させる(2ターン)」を得て、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `栄光の輝き`,
+                    description: `攻撃力の257%分味方全体に治療を行い、さらに効果「受けるダメージを10%減少させる(2ターン)」を得て、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `斬撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の祝福`,
+                    description: `味方の光属性キャラクターの最大HPを10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光のご加護`,
+                    description: `治療を受けた時、25％の確率で効果「自分に最大HPの8％分盾を張る（4ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `賜りし幸福`,
+                    description: `自分が治療を受けるとき、回復HP量を12.5％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `信仰の回復`,
+                    description: `攻撃を受けた時、効果「自分が治療を受けた時、回復HP量を10％増加させる（1ターン）」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10910: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

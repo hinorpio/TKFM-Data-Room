@@ -167,7 +167,7 @@ export const SkillSet_10924: SkillSet[] =  [
                     name: `Securely Bound`,
                     description: `On Basic Attack, increase the chance of inflicting the target with Paralysis by 10% for 6 turns.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Lucky One (Empty Handed↓)`,
                     description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10924: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `マミーホールド`,
+                    description: `自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `マミーホールド`,
+                    description: `自分の265%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `マミーホールド`,
+                    description: `自分の298%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `マミーホールド`,
+                    description: `自分の331%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `マミーホールド`,
+                    description: `自分の364%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `マミーホールド`,
+                    description: `自分の397%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `緊縛`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `闇の乱舞`,
+                    description: `味方の闇属性キャラクターの最大HPを10%増加させ、攻撃力を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `アンデッド`,
+                    description: `受けるダメージが10%減少する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `耐久性抜群`,
+                    description: `受ける通常攻撃ダメージが20%減少する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `がっちり緊縛`,
+                    description: `通常攻撃時「ターゲットが受ける麻痺の確率を10%増加させる(6ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10924: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

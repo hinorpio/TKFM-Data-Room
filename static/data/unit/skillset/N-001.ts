@@ -167,7 +167,7 @@ export const SkillSet_10901: SkillSet[] =  [
                     name: `Minutemen`,
                     description: `On the first round of each wave, decrease your current Ultimate Skill CD by 3.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Money Matters (Purchase Permits↑)`,
                     description: `When dispatched, slightly(Lv1) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10901: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `堅固な守り`,
+                    description: `265/298/331/364/397%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `堅固な守り`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `堅固な守り`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `堅固な守り`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `堅固な守り`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `堅固な守り`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(1ターン)を与え、防御状態になる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `斬撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `闇の祝福`,
+                    description: `味方の闇属性のキャラクターの最大HPを10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守切替`,
+                    description: `通常攻撃時、50％の確率で効果「自分を防御状態にする」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `フォス帝国の防衛術`,
+                    description: `自分の防御時ダメージ軽減効果を10％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `クイックサポート`,
+                    description: `毎Waveの1ターン目に、効果「自分の必殺技CDを3ターン減少する」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `命よりも大事なお金(購入許可↑)`,
+                    description: `派遣実行時、購入許可のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10901: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

@@ -167,7 +167,7 @@ export const SkillSet_10923: SkillSet[] =  [
                     name: `Forward Treadstride`,
                     description: `On Attack, increase your Attack Power by 5% for 6 turns.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Prized Hunter (Boost Mats↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10923: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足キック`,
+                    description: `自分の116/129/142/155/168%の攻撃力でターゲットに2回ダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足キック`,
+                    description: `自分の116%の攻撃力でターゲットに2回ダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足キック`,
+                    description: `自分の129%の攻撃力でターゲットに2回ダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足キック`,
+                    description: `自分の142%の攻撃力でターゲットに2回ダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足キック`,
+                    description: `自分の155%の攻撃力でターゲットに2回ダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足キック`,
+                    description: `自分の168%の攻撃力でターゲットに2回ダメージを与える[CD:2]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `踏みつけ`,
+                    description: `自分の62.5%の攻撃力でターゲットに2回ダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風の乱舞`,
+                    description: `味方の風属性キャラクターの最大HPを10%増加させ、攻撃力を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `前足踏み`,
+                    description: `通常攻撃時「自分の必殺技ダメージを20%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `後ろ足踏み`,
+                    description: `必殺技攻撃時「自分の通常攻撃ダメージを30%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `足踏み前進`,
+                    description: `攻撃時「自分の攻撃力を5%増加させる(6ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `トレジャーハンター（強化素材↑）`,
+                    description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10923: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

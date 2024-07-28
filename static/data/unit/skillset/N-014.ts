@@ -167,7 +167,7 @@ export const SkillSet_10914: SkillSet[] =  [
                     name: `Mad Hunter`,
                     description: `On Basic Attack, decrease Ultimate Skill CD by 1.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Naughty (Rare Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10914: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺の毒牙`,
+                    description: `265/298/331/364/399%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺の毒牙`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺の毒牙`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺の毒牙`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺の毒牙`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺の毒牙`,
+                    description: `399%の攻撃力でターゲットにダメージを与え、さらに50%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `噛みちぎる`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `火の激励`,
+                    description: `味方の火属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `致死毒`,
+                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を25％減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `迅速な蛇行`,
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `クレイジーハント`,
+                    description: `通常攻撃時、効果「自分の必殺技のCDを1ターン減少させる」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `堕落した肉体(レア調教道具↑)`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10914: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

@@ -167,7 +167,7 @@ export const SkillSet_10909: SkillSet[] =  [
                     name: `Be Prepared`,
                     description: `In the first round of each wave, decrease your Ultimate Skill CD by 4.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Bad to the Bone (Normal Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10909: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `軍団の盾`,
+                    description: `165/188/211/234/257%の攻撃力で敵全体にダメージを与え、さらに効果「攻撃力を10%減少させる(2ターン)」を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `軍団の盾`,
+                    description: `165%の攻撃力で敵全体にダメージを与え、さらに効果「攻撃力を10%減少させる(2ターン)」を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `軍団の盾`,
+                    description: `188%の攻撃力で敵全体にダメージを与え、さらに効果「攻撃力を10%減少させる(2ターン)」を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `軍団の盾`,
+                    description: `211%の攻撃力で敵全体にダメージを与え、さらに効果「攻撃力を10%減少させる(2ターン)」を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `軍団の盾`,
+                    description: `234%の攻撃力で敵全体にダメージを与え、さらに効果「攻撃力を10%減少させる(2ターン)」を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `軍団の盾`,
+                    description: `257%の攻撃力で敵全体にダメージを与え、さらに効果「攻撃力を10%減少させる(2ターン)」を与え、自分に挑発(2ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `斬撃`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `火の祝福`,
+                    description: `味方の火属性キャラクターの最大HPを10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `機銃攻撃`,
+                    description: `攻撃を受けた時、25％の確率で効果「目標の攻撃力を10％減少させる（2ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `守護強化`,
+                    description: `自分の防御時のダメージ軽減効果を10％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `余裕を持った準備`,
+                    description: `毎Waveの1ターン目に、効果「自分の必殺技CDを4ターン減少する」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `天性の色魔(ノーマル調教道具↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10909: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

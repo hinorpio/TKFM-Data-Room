@@ -167,7 +167,7 @@ export const SkillSet_10908: SkillSet[] =  [
                     name: `Dwarven Justice`,
                     description: `After every 6 turns, increase your Attack Power by 30% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Perfectionist (Experience Potion↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10908: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `跳躍の一撃`,
+                    description: `ターゲットの防御状態を解除し、475/550/625/700/775%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `跳躍の一撃`,
+                    description: `ターゲットの防御状態を解除し、475%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `跳躍の一撃`,
+                    description: `ターゲットの防御状態を解除し、550%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `跳躍の一撃`,
+                    description: `ターゲットの防御状態を解除し、625%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `跳躍の一撃`,
+                    description: `ターゲットの防御状態を解除し、700%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `跳躍の一撃`,
+                    description: `ターゲットの防御状態を解除し、775%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ハンマーブロウ`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `水の激励`,
+                    description: `味方の水属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `小人の魂`,
+                    description: `攻撃を受けた時、効果「自分の攻撃力を3%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `爆発力`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `小人王直伝の奥義`,
+                    description: `6ターン毎に、効果「自分の攻撃力を30%増加させる(1ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `努力家(経験値ポーション↑)`,
+                    description: `派遣実行時、経験値ポーションのダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10908: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

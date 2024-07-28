@@ -167,7 +167,7 @@ export const SkillSet_10922: SkillSet[] =  [
                     name: `Steel Alloy`,
                     description: `Take 50% less damage from Basic Attacks, but 25% more damage from Ultimate Skills.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Prize Hunter (Enhance Materials↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10922: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力・猛攻撃`,
+                    description: `133/149/166/182/199%の攻撃力でターゲットにダメージを与え、自分の攻撃力を12.5%増加させる(最高6スタック)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力・猛攻撃`,
+                    description: `133%の攻撃力でターゲットにダメージを与え、自分の攻撃力を12.5%増加させる(最高6スタック)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力・猛攻撃`,
+                    description: `149%の攻撃力でターゲットにダメージを与え、自分の攻撃力を12.5%増加させる(最高6スタック)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力・猛攻撃`,
+                    description: `166%の攻撃力でターゲットにダメージを与え、自分の攻撃力を12.5%増加させる(最高6スタック)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力・猛攻撃`,
+                    description: `182%の攻撃力でターゲットにダメージを与え、自分の攻撃力を12.5%増加させる(最高6スタック)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力・猛攻撃`,
+                    description: `199%の攻撃力でターゲットにダメージを与え、自分の攻撃力を12.5%増加させる(最高6スタック)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `猛攻撃`,
+                    description: `100％の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の激励`,
+                    description: `味方の光属性キャラクターの攻撃を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `バトルAI`,
+                    description: `通常攻撃時、効果「自分の攻撃力を1％増加させる（最高50スタック）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `高出力性能`,
+                    description: `自分の通常攻撃ダメージを12.5％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `合金の鉄板`,
+                    description: `自身が受ける通常攻撃ダメージを50％減少させるが、受ける必殺技ダメージが25％増加する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `トレジャーハンター（強化素材↑）`,
+                    description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10922: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

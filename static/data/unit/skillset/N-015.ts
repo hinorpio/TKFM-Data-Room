@@ -167,7 +167,7 @@ export const SkillSet_10915: SkillSet[] =  [
                     name: `Mad Hunter`,
                     description: `On Basic Attack, decrease Ultimate Skill CD by 1`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Housekeeper (Purchase Permits↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10915: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `眠りの翼`,
+                    description: `265/298/331/364/399%の攻撃力でターゲットにダメージを与え、さらに66%の確率で睡眠(2ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `眠りの翼`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、さらに66%の確率で睡眠(2ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `眠りの翼`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、さらに66%の確率で睡眠(2ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `眠りの翼`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、さらに66%の確率で睡眠(2ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `眠りの翼`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、さらに66%の確率で睡眠(2ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `眠りの翼`,
+                    description: `399%の攻撃力でターゲットにダメージを与え、さらに66%の確率で睡眠(2ターン)を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `平手打ち`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風の激励`,
+                    description: `味方の風属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `脆い羽根`,
+                    description: `攻撃時、効果「ターゲットの受けるダメージを10%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `飛行優勢`,
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `クレイジーハント`,
+                    description: `通常攻撃時、効果「自分の必殺技のCDを1ターン減少させる」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `質素倹約(購入許可↑)`,
+                    description: `派遣実行時、購入許可のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10915: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

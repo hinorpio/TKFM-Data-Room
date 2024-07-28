@@ -167,7 +167,7 @@ export const SkillSet_10904: SkillSet[] =  [
                     name: `Tear Limbs`,
                     description: `On Attack, increase the target's Ultimate Skill CD by 1.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Corrupted Flesh (Rare Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10904: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `虐殺の呪い`,
+                    description: `388/445/503/560/618%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `虐殺の呪い`,
+                    description: `388%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `虐殺の呪い`,
+                    description: `445%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `虐殺の呪い`,
+                    description: `503%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `虐殺の呪い`,
+                    description: `560%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `虐殺の呪い`,
+                    description: `618%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力の斬撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `闇の激励`,
+                    description: `味方の闇属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `狂熱ジェノサイド`,
+                    description: `通常攻撃時、20%の確率で効果「自分の必殺技CDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `急所への一撃`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `四股分解`,
+                    description: `攻撃時、効果「ターゲットの必殺技CDを1ターン増加させる」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `堕落した肉体(レア調教道具↑)`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10904: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

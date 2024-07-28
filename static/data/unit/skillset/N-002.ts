@@ -167,7 +167,7 @@ export const SkillSet_10902: SkillSet[] =  [
                     name: `Explosion`,
                     description: `After every 5 turns, increase your Attack Power by 30% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Money Matters (Purchase Permits↑)`,
                     description: `When dispatched, slightly(Lv1) increase the 2x drop rate of Purchase Permits. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10902: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックストライク`,
+                    description: `238/275/313/350/388%の攻撃力で敵全体にダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックストライク`,
+                    description: `238%の攻撃力で敵全体にダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックストライク`,
+                    description: `275%の攻撃力で敵全体にダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックストライク`,
+                    description: `313%の攻撃力で敵全体にダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックストライク`,
+                    description: `350%の攻撃力で敵全体にダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックストライク`,
+                    description: `388%の攻撃力で敵全体にダメージを与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力の刃`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の激励`,
+                    description: `味方の光属性キャラクターの攻撃力を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔道具`,
+                    description: `攻撃時、25％の確率で効果「自分の攻撃力を15％増加させる（4ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力増幅器`,
+                    description: `自分の必殺技ダメージを10％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `パワーエクスプロージョン`,
+                    description: `5ターン毎に、効果「自分の攻撃力を30％増加させる（1ターン）」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `命よりも大事なお金(購入許可↑)`,
+                    description: `派遣実行時、購入許可のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10902: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

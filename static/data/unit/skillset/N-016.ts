@@ -167,7 +167,7 @@ export const SkillSet_10916: SkillSet[] =  [
                     name: `Will to Protect`,
                     description: `When you are healed, increase your Attack Power by 15% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Naughty (Rare Sex Toys↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Rare Sex Toys. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10916: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `反撃領域`,
+                    description: `自分に挑発効果(1ターン)を与え防御状態になり、さらに効果「攻撃を受けた時、51/58/65/72/79%の攻撃力で敵全体に反撃を行う(1ターン)」を誘発する[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `反撃領域`,
+                    description: `自分に挑発効果(1ターン)を与え防御状態になり、さらに効果「攻撃を受けた時、51%の攻撃力で敵全体に反撃を行う(1ターン)」を誘発する[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `反撃領域`,
+                    description: `自分に挑発効果(1ターン)を与え防御状態になり、さらに効果「攻撃を受けた時、58%の攻撃力で敵全体に反撃を行う(1ターン)」を誘発する[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `反撃領域`,
+                    description: `自分に挑発効果(1ターン)を与え防御状態になり、さらに効果「攻撃を受けた時、65%の攻撃力で敵全体に反撃を行う(1ターン)」を誘発する[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `反撃領域`,
+                    description: `自分に挑発効果(1ターン)を与え防御状態になり、さらに効果「攻撃を受けた時、72%の攻撃力で敵全体に反撃を行う(1ターン)」を誘発する[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `反撃領域`,
+                    description: `自分に挑発効果(1ターン)を与え防御状態になり、さらに効果「攻撃を受けた時、79%の攻撃力で敵全体に反撃を行う(1ターン)」を誘発する[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `切り裂く`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `火の祝福`,
+                    description: `味方の火属性キャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `不屈の意思`,
+                    description: `現在のHPが25％未満の時、効果「攻撃力を30％増加させ、受けるダメージを50％減少する」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `護身術`,
+                    description: `自分の受けるダメージを5％減少させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `守護者の職責`,
+                    description: `治療を受けた時、効果「自分の攻撃力を15％増加させる（1ターン）」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `堕落した肉体(レア調教道具↑)`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10916: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

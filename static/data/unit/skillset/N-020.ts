@@ -167,7 +167,7 @@ export const SkillSet_10919: SkillSet[] =  [
                     name: `Eternal Light`,
                     description: `On Ultimate Skill, increase Defense buffs by 25% for 1 turn.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Prized Hunter (Boost Mats↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10919: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神力の反撃`,
+                    description: `自分に挑発を与え(1ターン)防御状態となり、攻撃を受けたとき、効果「自分の60/70/80/90/100％の攻撃力でターゲットに反撃する」を誘発する(1ターン)CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神力の反撃`,
+                    description: `自分に挑発を与え(1ターン)防御状態となり、攻撃を受けたとき、効果「自分の60％の攻撃力でターゲットに反撃する」を誘発する(1ターン)CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神力の反撃`,
+                    description: `自分に挑発を与え(1ターン)防御状態となり、攻撃を受けたとき、効果「自分の70％の攻撃力でターゲットに反撃する」を誘発する(1ターン)CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神力の反撃`,
+                    description: `自分に挑発を与え(1ターン)防御状態となり、攻撃を受けたとき、効果「自分の80％の攻撃力でターゲットに反撃する」を誘発する(1ターン)CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神力の反撃`,
+                    description: `自分に挑発を与え(1ターン)防御状態となり、攻撃を受けたとき、効果「自分の90％の攻撃力でターゲットに反撃する」を誘発する(1ターン)CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神力の反撃`,
+                    description: `自分に挑発を与え(1ターン)防御状態となり、攻撃を受けたとき、効果「自分の100％の攻撃力でターゲットに反撃する」を誘発する(1ターン)CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `切り裂く`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `光の激励`,
+                    description: `味方の光属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `天界戦法`,
+                    description: `攻撃を受けた時、効果「自分の攻撃力を1％増加させる」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神護の刃`,
+                    description: `自分の攻撃力を15％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `不滅の光`,
+                    description: `必殺時、効果「自分の防御時のダメージ軽減効果を25%増加させる(1ターン)」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `トレジャーハンター(強化素材↑)`,
+                    description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10919: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

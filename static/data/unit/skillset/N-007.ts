@@ -167,7 +167,7 @@ export const SkillSet_10907: SkillSet[] =  [
                     name: `Wind's Caress`,
                     description: `In the first round of each wave, decrease your Ultimate Skill CD by 2.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Prized Hunter (Boost Mats↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10907: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `照準射撃`,
+                    description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、効果「通常攻撃ダメージを45%増加させる(3ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `照準射撃`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、効果「通常攻撃ダメージを45%増加させる(3ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `照準射撃`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、効果「通常攻撃ダメージを45%増加させる(3ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `照準射撃`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、効果「通常攻撃ダメージを45%増加させる(3ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `照準射撃`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、効果「通常攻撃ダメージを45%増加させる(3ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `照準射撃`,
+                    description: `514%の攻撃力でターゲットにダメージを与え、効果「通常攻撃ダメージを45%増加させる(3ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `射撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風の激励`,
+                    description: `味方の風属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `連射術`,
+                    description: `通常攻撃時、25%の確率で効果「100%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `張力上昇`,
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ウインドダッシュ`,
+                    description: `毎Waveの1ターン目に、効果「自分の必殺技CDを2ターン減少する」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `トレジャーハンター（強化素材↑）`,
+                    description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10907: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

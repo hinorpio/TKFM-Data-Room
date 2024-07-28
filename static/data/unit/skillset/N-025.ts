@@ -167,7 +167,7 @@ export const SkillSet_10933: SkillSet[] =  [
                     name: `The Hound's Name`,
                     description: `Increase Damage Output by 10%.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Prized Hunter (Boost Mats↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of Enhance Materials. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10933: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `銃剣突撃`,
+                    description: `自分の37/42/47/52/58%の攻撃力でターゲットに3回ダメージを与える(同じ効果が追加で2回発動する)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `銃剣突撃`,
+                    description: `自分の37%の攻撃力でターゲットに3回ダメージを与える(同じ効果が追加で2回発動する)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `銃剣突撃`,
+                    description: `自分の42%の攻撃力でターゲットに3回ダメージを与える(同じ効果が追加で2回発動する)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `銃剣突撃`,
+                    description: `自分の47%の攻撃力でターゲットに3回ダメージを与える(同じ効果が追加で2回発動する)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `銃剣突撃`,
+                    description: `自分の52%の攻撃力でターゲットに3回ダメージを与える(同じ効果が追加で2回発動する)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `銃剣突撃`,
+                    description: `自分の58%の攻撃力でターゲットに3回ダメージを与える(同じ効果が追加で2回発動する)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `三連発射撃`,
+                    description: `自分の33.3%の攻撃力でターゲットに3回ダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `先導突撃`,
+                    description: `味方の風属性キャラクターの最大HPを10%増加させ、攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `百戦錬磨`,
+                    description: `必殺技ダメージが10%増加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `火力援護`,
+                    description: `攻撃時「ターゲットの受けるダメージを5%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ハウンドの名`,
+                    description: `与えるダメージが10%増加する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `トレジャーハンター（強化素材↑）`,
+                    description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10933: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },

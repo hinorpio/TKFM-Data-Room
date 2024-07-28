@@ -167,7 +167,7 @@ export const SkillSet_10905: SkillSet[] =  [
                     name: `Armor Break`,
                     description: `On Attack, break the target's Guard Stance.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Perfectionist (Experience Potion↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
@@ -178,56 +178,56 @@ export const SkillSet_10905: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `265/298/331/364/397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `薙ぎ払い`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `火の激励`,
+                    description: `味方の火属性キャラクターの攻撃力を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `カウンター`,
+                    description: `攻撃を受けた時、25％の確率で効果「自分の100％の攻撃力で反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `深遠なる刀技`,
+                    description: `自分の通常攻撃ダメージを12.5％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `瓦割り`,
+                    description: `通常攻撃時、「ターゲットの防御状態を解除する」を追加する\n必殺時、「ターゲットの防御状態を解除する」を追加する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `努力家(経験値ポーション↑)`,
+                    description: `派遣実行時、経験値ポーションのダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -275,7 +275,7 @@ export const SkillSet_10905: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },
@@ -451,7 +451,7 @@ export const SkillSet_10905: SkillSet[] =  [
                     name: `Armor Break`,
                     description: `On Attack, break the target's Guard Stance.`
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: `Perfectionist (Experience Potion↑)`,
                     description: `When dispatched, very slightly(Lv1) increase the 2x drop rate of EXP Potions. (Global Effect)`
                 },
@@ -462,56 +462,56 @@ export const SkillSet_10905: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `265/298/331/364/397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `一文字斬り`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `薙ぎ払い`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `火の激励`,
+                    description: `味方の火属性キャラクターの攻撃力を10％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `カウンター`,
+                    description: `攻撃を受けた時、25％の確率で効果「自分の100％の攻撃力で反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `深遠なる刀技`,
+                    description: `自分の通常攻撃ダメージを12.5％増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `瓦割り`,
+                    description: `攻撃時、効果「ターゲットの防御状態を解除する」を誘発する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                [SkillType.DISPATCH]: {
+                    name: `努力家(経験値ポーション↑)`,
+                    description: `派遣実行時、経験値ポーションのダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -559,7 +559,7 @@ export const SkillSet_10905: SkillSet[] =  [
                     name: ``,
                     description: ``
                 },
-                [SkillType.GENERAL_1]: {
+                [SkillType.DISPATCH]: {
                     name: ``,
                     description: ``
                 },
