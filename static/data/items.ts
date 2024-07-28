@@ -9,10 +9,10 @@ const items: Item[] = [
         icon: ItemIcon.SLIVER_COIN,
         name: {
             tc: "銀幣",
-            sc: "",
+            sc: "银币",
             en: "Sliver Coin",
-            jp: "",
-            kr: ""
+            jp: "コイン",
+            kr: "실버 코인"
         },
     },
     {
@@ -21,10 +21,10 @@ const items: Item[] = [
         icon: ItemIcon.NAMELESS,
         name: {
             tc: "無名的記憶碎片",
-            sc: "",
+            sc: "无名的记忆碎片",
             en: "Nameless Memory Crystal",
-            jp: "",
-            kr: ""
+            jp: "名のなき記憶の欠片",
+            kr: "이름없는 기억의 파편"
         },
     },
     {
@@ -33,10 +33,10 @@ const items: Item[] = [
         icon: ItemIcon.LIBERATE_STONE,
         name: {
             tc: "解放晶石",
-            sc: "",
+            sc: "解放晶石",
             en: "Liberation Crystal",
-            jp: "",
-            kr: ""
+            jp: "解放晶石",
+            kr: "해방의 크리스탈"
         },
     },
     {
@@ -45,10 +45,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_FIRE_LV1,
         name: {
             tc: "火焰碎片",
-            sc: "",
+            sc: "火焰碎片",
             en: "Flame Fragment",
-            jp: "",
-            kr: ""
+            jp: "火焔の欠片",
+            kr: "화염의 파편"
         },
     },
     {
@@ -57,10 +57,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_FIRE_LV2,
         name: {
             tc: "火焰之石",
-            sc: "",
+            sc: "火焰之石",
             en: "Flame Stone",
-            jp: "",
-            kr: ""
+            jp: "火焔の石",
+            kr: "화염석"
         },
     },
     {
@@ -69,10 +69,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_FIRE_LV3,
         name: {
             tc: "緋紅結晶",
-            sc: "",
+            sc: "绯红结晶",
             en: "Crimson Crystal",
-            jp: "",
-            kr: ""
+            jp: "レッドクリスタル",
+            kr: "붉은 결정"
         },
     },
     {
@@ -81,10 +81,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_FIRE_LV4,
         name: {
             tc: "緋紅靈魂",
-            sc: "",
+            sc: "绯红灵魂",
             en: "Crimson Soul",
-            jp: "",
-            kr: ""
+            jp: "レッドソウル",
+            kr: "붉은 영혼"
         },
     },
     {
@@ -93,10 +93,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WATER_LV1,
         name: {
             tc: "洪水碎片",
-            sc: "",
+            sc: "洪水碎片",
             en: "Flood Fragment",
-            jp: "",
-            kr: ""
+            jp: "洪水の欠片",
+            kr: "홍수의 파편"
         },
     },
     {
@@ -105,10 +105,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WATER_LV2,
         name: {
             tc: "洪水之石",
-            sc: "",
+            sc: "洪水之石",
             en: "Flood Stone",
-            jp: "",
-            kr: ""
+            jp: "洪水の石",
+            kr: "홍수석"
         },
     },
     {
@@ -117,10 +117,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WATER_LV3,
         name: {
             tc: "蒼藍結晶",
-            sc: "",
+            sc: "苍蓝结晶",
             en: "Deep Blue Crystal",
-            jp: "",
-            kr: ""
+            jp: "ブルークリスタル",
+            kr: "푸른 결정"
         },
     },
     {
@@ -129,10 +129,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WATER_LV4,
         name: {
             tc: "蒼藍靈魂",
-            sc: "",
+            sc: "苍蓝灵魂",
             en: "Deep Blue Soul",
-            jp: "",
-            kr: ""
+            jp: "ブルーソウル",
+            kr: "푸른 영혼"
         },
     },
     {
@@ -141,10 +141,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WIND_LV1,
         name: {
             tc: "烈風碎片",
-            sc: "",
+            sc: "烈风碎片",
             en: "Gale Fragment",
-            jp: "",
-            kr: ""
+            jp: "烈風の欠片",
+            kr: "열풍의 파편"
         },
     },
     {
@@ -153,10 +153,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WIND_LV2,
         name: {
             tc: "烈風之石",
-            sc: "",
+            sc: "烈风之石",
             en: "Gale Stone",
-            jp: "",
-            kr: ""
+            jp: "烈風の石",
+            kr: "열풍석"
         },
     },
     {
@@ -165,10 +165,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WIND_LV3,
         name: {
             tc: "翠綠結晶",
-            sc: "",
+            sc: "翠绿结晶",
             en: "Emerald Crystal",
-            jp: "",
-            kr: ""
+            jp: "グリーンクリスタル",
+            kr: "청색 결정"
         },
     },
     {
@@ -177,10 +177,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_WIND_LV4,
         name: {
             tc: "翠綠靈魂",
-            sc: "",
+            sc: "翠绿灵魂",
             en: "Emerald Soul",
-            jp: "",
-            kr: ""
+            jp: "グリーンソウル",
+            kr: "청색 영혼"
         },
     },
     {
@@ -189,10 +189,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_LIGHT_LV1,
         name: {
             tc: "光明碎片",
-            sc: "",
+            sc: "光明碎片",
             en: "Light Fragment",
-            jp: "",
-            kr: ""
+            jp: "光芒の欠片",
+            kr: "빛의 파편"
         },
     },
     {
@@ -201,10 +201,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_LIGHT_LV2,
         name: {
             tc: "光明之石",
-            sc: "",
+            sc: "光明之石",
             en: "Light Stone",
-            jp: "",
-            kr: ""
+            jp: "光芒の石",
+            kr: "빛속성"
         },
     },
     {
@@ -213,10 +213,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_LIGHT_LV3,
         name: {
             tc: "雪白結晶",
-            sc: "",
+            sc: "雪白结晶",
             en: "Snow Crystal",
-            jp: "",
-            kr: ""
+            jp: "ホワイトクリスタル",
+            kr: "새하얀 결정"
         },
     },
     {
@@ -225,10 +225,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_LIGHT_LV4,
         name: {
             tc: "雪白靈魂",
-            sc: "",
+            sc: "雪白灵魂",
             en: "Snow Soul",
-            jp: "",
-            kr: ""
+            jp: "ホワイトソウル",
+            kr: "새하얀 영혼"
         },
     },
     {
@@ -237,10 +237,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_DARK_LV1,
         name: {
             tc: "黑暗碎片",
-            sc: "",
+            sc: "黑暗碎片",
             en: "Darkness Fragment",
-            jp: "",
-            kr: ""
+            jp: "闇夜の欠片",
+            kr: "암흑의 파편"
         },
     },
     {
@@ -249,10 +249,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_DARK_LV2,
         name: {
             tc: "黑暗之石",
-            sc: "",
+            sc: "黑暗之石",
             en: "Darkness Stone",
-            jp: "",
-            kr: ""
+            jp: "闇夜の石",
+            kr: "암흑석"
         },
     },
     {
@@ -261,10 +261,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_DARK_LV3,
         name: {
             tc: "靛紫結晶",
-            sc: "",
+            sc: "靛紫结晶",
             en: "Indigo Crystal",
-            jp: "",
-            kr: ""
+            jp: "パープルクリスタル",
+            kr: "자색 결정"
         },
     },
     {
@@ -273,10 +273,10 @@ const items: Item[] = [
         icon: ItemIcon.EVOLVE_DARK_LV4,
         name: {
             tc: "靛紫靈魂",
-            sc: "",
+            sc: "靛紫灵魂",
             en: "Indigo Soul",
-            jp: "",
-            kr: ""
+            jp: "パープルソウル",
+            kr: "자색 영혼"
         },
     },
     {
@@ -285,10 +285,10 @@ const items: Item[] = [
         icon: ItemIcon.FLAWLESS,
         name: {
             tc: "無暇魂魄",
-            sc: "",
+            sc: "无暇魂魄",
             en: "Flawless Spirit",
-            jp: "",
-            kr: ""
+            jp: "傷一つない魂",
+            kr: "완벽한 영혼"
         },
     },
     {
@@ -297,10 +297,10 @@ const items: Item[] = [
         icon: ItemIcon.CLAW_LV1,
         name: {
             tc: "野獸之爪",
-            sc: "",
+            sc: "野兽之爪",
             en: "Beast Claw",
-            jp: "",
-            kr: ""
+            jp: "野獣の爪",
+            kr: "야수의 발톱"
         },
     },
     {
@@ -309,10 +309,10 @@ const items: Item[] = [
         icon: ItemIcon.CLAW_LV2,
         name: {
             tc: "巨獸之爪",
-            sc: "",
+            sc: "巨兽之爪",
             en: "Giant Beast Claw",
-            jp: "",
-            kr: ""
+            jp: "巨獣の爪",
+            kr: "괴수의 발톱"
         },
     },
     {
@@ -321,10 +321,10 @@ const items: Item[] = [
         icon: ItemIcon.CLAW_LV3,
         name: {
             tc: "惡魔之爪",
-            sc: "",
+            sc: "恶魔之爪",
             en: "Demon Claw",
-            jp: "",
-            kr: ""
+            jp: "悪魔の爪",
+            kr: "악마의 발톱"
         },
     },
     {
@@ -333,10 +333,10 @@ const items: Item[] = [
         icon: ItemIcon.IRON_LV1,
         name: {
             tc: "鐵錠",
-            sc: "",
+            sc: "铁锭",
             en: "Iron",
-            jp: "",
-            kr: ""
+            jp: "鉄のインゴット",
+            kr: "철괴"
         },
     },
     {
@@ -345,10 +345,10 @@ const items: Item[] = [
         icon: ItemIcon.IRON_LV2,
         name: {
             tc: "鍛鐵錠",
-            sc: "",
+            sc: "锻铁锭",
             en: "Wrought Iron",
-            jp: "",
-            kr: ""
+            jp: "鉛のインゴット",
+            kr: "강철괴"
         },
     },
     {
@@ -357,10 +357,10 @@ const items: Item[] = [
         icon: ItemIcon.IRON_LV3,
         name: {
             tc: "純源鋼錠",
-            sc: "",
+            sc: "纯源钢锭",
             en: "Pure Steel",
-            jp: "",
-            kr: ""
+            jp: "カタロン鋼のインゴット",
+            kr: "순원강철괴"
         },
     },
     {
@@ -369,10 +369,10 @@ const items: Item[] = [
         icon: ItemIcon.WATER_LV1,
         name: {
             tc: "純淨水",
-            sc: "",
+            sc: "纯净水",
             en: "Clean Water",
-            jp: "",
-            kr: ""
+            jp: "純水",
+            kr: "정제수"
         },
     },
     {
@@ -381,10 +381,10 @@ const items: Item[] = [
         icon: ItemIcon.WATER_LV2,
         name: {
             tc: "月光水",
-            sc: "",
+            sc: "月光水",
             en: "Moonlight Water",
-            jp: "",
-            kr: ""
+            jp: "月光水",
+            kr: "월광수"
         },
     },
     {
@@ -393,10 +393,10 @@ const items: Item[] = [
         icon: ItemIcon.WATER_LV3,
         name: {
             tc: "精靈露水",
-            sc: "",
+            sc: "精灵露水",
             en: "Elven Dew",
-            jp: "",
-            kr: ""
+            jp: "エルフの露",
+            kr: "엘프의 이슬"
         },
     },
     {
@@ -405,10 +405,10 @@ const items: Item[] = [
         icon: ItemIcon.MIXTURE_LV1,
         name: {
             tc: "史萊姆殘液",
-            sc: "",
+            sc: "史莱姆残液",
             en: "Slime",
-            jp: "",
-            kr: ""
+            jp: "スライム液",
+            kr: "슬라임 잔액"
         },
     },
     {
@@ -417,10 +417,10 @@ const items: Item[] = [
         icon: ItemIcon.MIXTURE_LV2,
         name: {
             tc: "高級合劑",
-            sc: "",
+            sc: "高级合剂",
             en: "Quality Mixture",
-            jp: "",
-            kr: ""
+            jp: "高級接着剤",
+            kr: "고급 복합약"
         },
     },
     {
@@ -429,10 +429,10 @@ const items: Item[] = [
         icon: ItemIcon.MIXTURE_LV3,
         name: {
             tc: "彩虹合劑",
-            sc: "",
+            sc: "彩虹合剂",
             en: "Rain Mixture",
-            jp: "",
-            kr: ""
+            jp: "虹の接着剤",
+            kr: "무지개 복합약"
         },
     },
     {
@@ -441,10 +441,10 @@ const items: Item[] = [
         icon: ItemIcon.DUST_LV1,
         name: {
             tc: "毒之粉",
-            sc: "",
+            sc: "毒之粉",
             en: "Drugs",
-            jp: "",
-            kr: ""
+            jp: "毒の粉",
+            kr: "독 가루"
         },
     },
     {
@@ -453,10 +453,10 @@ const items: Item[] = [
         icon: ItemIcon.DUST_LV2,
         name: {
             tc: "星之粉",
-            sc: "",
+            sc: "星之粉",
             en: "Stardust",
-            jp: "",
-            kr: ""
+            jp: "星の粉",
+            kr: "별 가루"
         },
     },
     {
@@ -465,10 +465,10 @@ const items: Item[] = [
         icon: ItemIcon.DUST_LV3,
         name: {
             tc: "暗之粉",
-            sc: "",
+            sc: "暗之粉",
             en: "Dark Dust",
-            jp: "",
-            kr: ""
+            jp: "闇の粉",
+            kr: "암흑 가루"
         },
     },
     {
@@ -477,10 +477,10 @@ const items: Item[] = [
         icon: ItemIcon.HORN_LV1,
         name: {
             tc: "堅固之角",
-            sc: "",
+            sc: "坚固之角",
             en: "Sturdy Horn",
-            jp: "",
-            kr: ""
+            jp: "丈夫な角",
+            kr: "견고한 뿔"
         },
         combined: [
             { code: 'CLAW_LV2', quantity: 4 },
@@ -493,10 +493,10 @@ const items: Item[] = [
         icon: ItemIcon.HORN_LV2,
         name: {
             tc: "狂牛之角",
-            sc: "",
+            sc: "狂牛之角",
             en: "Horny Cow Horn",
-            jp: "",
-            kr: ""
+            jp: "猛牛の角",
+            kr: "날뛰는 소의 뿔"
         },
         combined: [
             { code: 'HORN_LV1', quantity: 2 },
@@ -509,10 +509,10 @@ const items: Item[] = [
         icon: ItemIcon.SLIVER_LV1,
         name: {
             tc: "銀錠",
-            sc: "",
+            sc: "银锭",
             en: "Sliver",
-            jp: "",
-            kr: ""
+            jp: "銀のインゴット",
+            kr: "은괴"
         },
         combined: [
             { code: 'IRON_LV2', quantity: 4 },
@@ -525,10 +525,10 @@ const items: Item[] = [
         icon: ItemIcon.SLIVER_LV2,
         name: {
             tc: "聖銀錠",
-            sc: "",
+            sc: "圣银锭",
             en: "Holy Sliver",
-            jp: "",
-            kr: ""
+            jp: "聖銀のインゴット",
+            kr: "신성한 은괴"
         },
         combined: [
             { code: 'SLIVER_LV1', quantity: 2 },
@@ -541,10 +541,10 @@ const items: Item[] = [
         icon: ItemIcon.OIL_LV1,
         name: {
             tc: "儀式之油",
-            sc: "",
+            sc: "仪式之油",
             en: "Ceremonial Oil",
-            jp: "",
-            kr: ""
+            jp: "儀式の油",
+            kr: "의식용 기름"
         },
         combined: [
             { code: 'WATER_LV2', quantity: 4 },
@@ -557,10 +557,10 @@ const items: Item[] = [
         icon: ItemIcon.OIL_LV2,
         name: {
             tc: "聖油",
-            sc: "",
+            sc: "圣油",
             en: "Holy Oil",
-            jp: "",
-            kr: ""
+            jp: "聖なる油",
+            kr: "신성한 기름"
         },
         combined: [
             { code: 'OIL_LV1', quantity: 2 },
@@ -573,10 +573,10 @@ const items: Item[] = [
         icon: ItemIcon.CRYSTAL_LV1,
         name: {
             tc: "腐蝕之塵",
-            sc: "",
+            sc: "腐蚀之尘",
             en: "Corrosive Dirt",
-            jp: "",
-            kr: ""
+            jp: "腐蝕の塵",
+            kr: "부식토"
         },
         combined: [
             { code: 'DUST_LV2', quantity: 4 },
@@ -589,10 +589,10 @@ const items: Item[] = [
         icon: ItemIcon.CRYSTAL_LV2,
         name: {
             tc: "暗龍結晶",
-            sc: "",
+            sc: "暗龙结晶",
             en: "Dragon Crystal",
-            jp: "",
-            kr: ""
+            jp: "ダーククリスタル",
+            kr: "암흑룡의 결정"
         },
         combined: [
             { code: 'CRYSTAL_LV1', quantity: 2 },
@@ -605,10 +605,10 @@ const items: Item[] = [
         icon: ItemIcon.FANG_LV1,
         name: {
             tc: "劇毒蛇牙",
-            sc: "",
+            sc: "剧毒蛇牙",
             en: "Venomous Fang",
-            jp: "",
-            kr: ""
+            jp: "毒蛇の牙",
+            kr: "맹독뱀의 독니"
         },
         combined: [
             { code: 'CLAW_LV2', quantity: 4 },
@@ -621,10 +621,10 @@ const items: Item[] = [
         icon: ItemIcon.FANG_LV2,
         name: {
             tc: "邪龍毒牙",
-            sc: "",
+            sc: "邪龙毒牙",
             en: "Evil Fang",
-            jp: "",
-            kr: ""
+            jp: "邪龍の毒牙",
+            kr: "사룡의 독니"
         },
         combined: [
             { code: 'FANG_LV1', quantity: 2 },
@@ -637,10 +637,10 @@ const items: Item[] = [
         icon: ItemIcon.BEAK_LV1,
         name: {
             tc: "獅鷲之喙",
-            sc: "",
+            sc: "狮鹫之喙",
             en: "Griffin Snout",
-            jp: "",
-            kr: ""
+            jp: "グリフォンの嘴",
+            kr: "그리핀의 부리"
         },
         combined: [
             { code: 'IRON_LV2', quantity: 4 },
@@ -653,10 +653,10 @@ const items: Item[] = [
         icon: ItemIcon.BEAK_LV2,
         name: {
             tc: "聖鷲之喙",
-            sc: "",
+            sc: "圣鹫之喙",
             en: "Vulture Beak",
-            jp: "",
-            kr: ""
+            jp: "ホーリーイーグルの嘴",
+            kr: "신성한 그리핀의 부리"
         },
         combined: [
             { code: 'BEAK_LV1', quantity: 2 },
@@ -669,10 +669,10 @@ const items: Item[] = [
         icon: ItemIcon.SKIN_LV1,
         name: {
             tc: "熊皮",
-            sc: "",
+            sc: "熊皮",
             en: "Bear Skin",
-            jp: "",
-            kr: ""
+            jp: "熊の皮",
+            kr: "곰의 가죽"
         },
         combined: [
             { code: 'MIXTURE_LV2', quantity: 4 },
@@ -685,10 +685,10 @@ const items: Item[] = [
         icon: ItemIcon.SKIN_LV2,
         name: {
             tc: "巨鹿毛皮",
-            sc: "",
+            sc: "巨鹿毛皮",
             en: "Elk Skin",
-            jp: "",
-            kr: ""
+            jp: "巨鹿の毛皮",
+            kr: "거대 사슴의 모피"
         },
         combined: [
             { code: 'SKIN_LV1', quantity: 2 },
@@ -701,10 +701,10 @@ const items: Item[] = [
         icon: ItemIcon.BOOK_LV1,
         name: {
             tc: "邪語之書",
-            sc: "",
+            sc: "邪语之书",
             en: "Book of Curses",
-            jp: "",
-            kr: ""
+            jp: "呪詛の書",
+            kr: "저주의 책"
         },
         combined: [
             { code: 'DUST_LV2', quantity: 4 },
@@ -717,10 +717,10 @@ const items: Item[] = [
         icon: ItemIcon.BOOK_LV2,
         name: {
             tc: "墮天之書",
-            sc: "",
+            sc: "堕天之书",
             en: "Book of Fallen Angels",
-            jp: "",
-            kr: ""
+            jp: "堕天使の書",
+            kr: "타락의 책"
         },
         combined: [
             { code: 'BOOK_LV1', quantity: 2 },
@@ -733,10 +733,10 @@ const items: Item[] = [
         icon: ItemIcon.FEATHER_LV1,
         name: {
             tc: "精緻尾羽",
-            sc: "",
+            sc: "精致尾羽",
             en: "Exquisite Feather",
-            jp: "",
-            kr: ""
+            jp: "精緻な尾羽",
+            kr: "아름다운 꼬리 깃털"
         },
         combined: [
             { code: 'MIXTURE_LV2', quantity: 4 },
@@ -749,10 +749,10 @@ const items: Item[] = [
         icon: ItemIcon.FEATHER_LV2,
         name: {
             tc: "女妖尾羽",
-            sc: "",
+            sc: "女妖尾羽",
             en: "Banshee Feather",
-            jp: "",
-            kr: ""
+            jp: "妖女の尾羽",
+            kr: "요괴의 꼬리 깃털"
         },
         combined: [
             { code: 'FEATHER_LV1', quantity: 2 },
@@ -765,10 +765,10 @@ const items: Item[] = [
         icon: ItemIcon.WEB_LV1,
         name: {
             tc: "蟲巢之絲",
-            sc: "",
+            sc: "虫巢之丝",
             en: "Insectoid Thread",
-            jp: "",
-            kr: ""
+            jp: "蟲の巣糸",
+            kr: "벌레굴의 거미줄"
         },
         combined: [
             { code: 'WATER_LV2', quantity: 4 },
@@ -781,10 +781,10 @@ const items: Item[] = [
         icon: ItemIcon.WEB_LV2,
         name: {
             tc: "蛛后之絲",
-            sc: "",
+            sc: "蛛后之丝",
             en: "Spider Web",
-            jp: "",
-            kr: ""
+            jp: "スパイダークイーンの糸",
+            kr: "거미왕의 거미줄"
         },
         combined: [
             { code: 'WEB_LV1', quantity: 2 },
@@ -797,10 +797,10 @@ const items: Item[] = [
         icon: ItemIcon.SKILL_FRAGMENT,
         name: {
             tc: "技之碎片",
-            sc: "",
+            sc: "技之碎片",
             en: "Skill Fragment",
-            jp: "",
-            kr: ""
+            jp: "スキルの欠片",
+            kr: "스킬 파편"
         },
     },
     {
@@ -809,10 +809,10 @@ const items: Item[] = [
         icon: ItemIcon.SKILL_STONE,
         name: {
             tc: "技之原石",
-            sc: "",
+            sc: "技之原石",
             en: "Skill Stone",
-            jp: "",
-            kr: ""
+            jp: "スキルの原石",
+            kr: "스킬 원석"
         },
     },
     {
@@ -821,10 +821,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_FIRE_LV1,
         name: {
             tc: "按摩棒",
-            sc: "",
+            sc: "按摩棒",
             en: "Vibrator",
-            jp: "",
-            kr: ""
+            jp: "マッサージ器",
+            kr: "바이브레이터"
         },
     },
     {
@@ -833,10 +833,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_FIRE_LV2,
         name: {
             tc: "觸手",
-            sc: "",
+            sc: "触手",
             en: "Tentacle",
-            jp: "",
-            kr: ""
+            jp: "触手",
+            kr: "촉수"
         },
     },
     {
@@ -845,10 +845,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_FIRE_LV3,
         name: {
             tc: "蠟燭",
-            sc: "",
+            sc: "蜡烛",
             en: "Candle",
-            jp: "",
-            kr: ""
+            jp: "ろうそく",
+            kr: "양초"
         },
     },
     {
@@ -857,10 +857,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_WATER_LV1,
         name: {
             tc: "冰棒",
-            sc: "",
+            sc: "冰棒",
             en: "Popsicle",
-            jp: "",
-            kr: ""
+            jp: "アイスキャンディー",
+            kr: "아이스 바"
         },
     },
     {
@@ -869,10 +869,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_WATER_LV2,
         name: {
             tc: "史萊姆",
-            sc: "",
+            sc: "史莱姆",
             en: "Slime",
-            jp: "",
-            kr: ""
+            jp: "スライム",
+            kr: "슬라임"
         },
     },
     {
@@ -881,10 +881,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_WATER_LV3,
         name: {
             tc: "榨乳器",
-            sc: "",
+            sc: "榨乳器",
             en: "Milker",
-            jp: "",
-            kr: ""
+            jp: "搾乳器",
+            kr: "유축기"
         },
     },
     {
@@ -893,10 +893,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_WIND_LV1,
         name: {
             tc: "乳頭陰蒂夾",
-            sc: "",
+            sc: "乳头阴蒂夹",
             en: "Nipple Clamp",
-            jp: "",
-            kr: ""
+            jp: "乳首クリトリス洗濯ばさみ",
+            kr: "유두 클립"
         },
     },
     {
@@ -905,10 +905,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_WIND_LV2,
         name: {
             tc: "藤蔓",
-            sc: "",
+            sc: "藤蔓",
             en: "Vines",
-            jp: "",
-            kr: ""
+            jp: "藤のツル",
+            kr: "덩굴"
         },
     },
     {
@@ -917,10 +917,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_WIND_LV3,
         name: {
             tc: "皮鞭",
-            sc: "",
+            sc: "皮鞭",
             en: "Whip",
-            jp: "",
-            kr: ""
+            jp: "革のムチ",
+            kr: "채찍"
         },
     },
     {
@@ -929,10 +929,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_LIGHT_LV1,
         name: {
             tc: "貓尾肛塞",
-            sc: "",
+            sc: "猫尾肛塞",
             en: "Kitty Cass Plug",
-            jp: "",
-            kr: ""
+            jp: "猫の尻尾型アナルビーズ",
+            kr: "캣 테일"
         },
     },
     {
@@ -941,10 +941,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_LIGHT_LV2,
         name: {
             tc: "八目鰻",
-            sc: "",
+            sc: "八目鳗",
             en: "Lamprey",
-            jp: "",
-            kr: ""
+            jp: "ヤツメウナギ",
+            kr: "칠성장어"
         },
     },
     {
@@ -953,10 +953,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_LIGHT_LV3,
         name: {
             tc: "電擊棒",
-            sc: "",
+            sc: "电击棒",
             en: "Electric Prod",
-            jp: "",
-            kr: ""
+            jp: "ビリビリ棒",
+            kr: "전기충격기"
         },
     },
     {
@@ -965,10 +965,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_DARK_LV1,
         name: {
             tc: "跳蛋",
-            sc: "",
+            sc: "跳蛋",
             en: "Sex Egg",
-            jp: "",
-            kr: ""
+            jp: "ローター",
+            kr: "러브 에그"
         },
     },
     {
@@ -977,10 +977,10 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_DARK_LV2,
         name: {
             tc: "淫魔蟲",
-            sc: "",
+            sc: "淫魔虫",
             en: "Lude Buggers",
-            jp: "",
-            kr: ""
+            jp: "淫魔蟲",
+            kr: "음마충"
         },
     },
     {
@@ -989,10 +989,22 @@ const items: Item[] = [
         icon: ItemIcon.DISCIPLINE_DARK_LV3,
         name: {
             tc: "匕首",
-            sc: "",
+            sc: "匕首",
             en: "Dagger",
-            jp: "",
-            kr: ""
+            jp: "短刀",
+            kr: "단검"
+        },
+    },
+    {
+        type: ItemType.DISCIPLINE,
+        code: ItemCode.DISCIPLINE_FRUIT,
+        icon: ItemIcon.DISCIPLINE_FRUIT,
+        name: {
+            tc: "禁忌果實",
+            sc: "禁忌果实",
+            en: "Forbidden Fruit",
+            jp: "禁忌の果実",
+            kr: "금기의 열매"
         },
     },
 ];

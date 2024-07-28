@@ -6,301 +6,281 @@ export const SkillSet_10096: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：2,906,083\nATK：981,648"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "血夜狂歡",
-                    description: "以自身攻擊力30/35/35/40/40%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力10/10/12.5/12.5/15%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4"
+                    name: `血夜狂歡`,
+                    description: `以自身攻擊力30/35/35/40/40%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力10/10/12.5/12.5/15%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "血夜狂歡",
-                    description: "以自身攻擊力30%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力10%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4"
+                    name: `血夜狂歡`,
+                    description: `以自身攻擊力30%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力10%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "血夜狂歡",
-                    description: "以自身攻擊力35%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力10%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4"
+                    name: `血夜狂歡`,
+                    description: `以自身攻擊力35%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力10%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "血夜狂歡",
-                    description: "以自身攻擊力35%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力12.5%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4"
+                    name: `血夜狂歡`,
+                    description: `以自身攻擊力35%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力12.5%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "血夜狂歡",
-                    description: "以自身攻擊力40%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力12.5%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4"
+                    name: `血夜狂歡`,
+                    description: `以自身攻擊力40%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力12.5%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "血夜狂歡",
-                    description: "以自身攻擊力40%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力15%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4"
+                    name: `血夜狂歡`,
+                    description: `以自身攻擊力40%使我方全體攻擊力增加(1回合)、並使我方全體攻擊者、妨礙者、守護者獲得「攻擊時，觸發『 以自身攻擊力15%使自身以外我方全體攻擊力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "血之祝福",
-                    description: "以自身攻擊力30%使我方全體攻擊力增加(1回合)"
+                    name: `血之祝福`,
+                    description: `以自身攻擊力30%使我方全體攻擊力增加(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "純潔饗宴",
-                    description: "使我方全體造成傷害時會以傷害值30%回復自身HP\n使我方全體闇屬性角色獲得《恩賜》\n\n《恩賜》\n攻擊力增加100%\n必殺技傷害增加50%"
+                    name: `純潔饗宴`,
+                    description: `使我方全體造成傷害時會以傷害值30%回復自身HP\n使我方全體闇屬性角色獲得《恩賜》\n\n《恩賜》\n攻擊力增加100%\n必殺技傷害增加50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "萬聖狂熱",
-                    description: "普攻時，觸發「使我方全體普攻傷害增加30%(1回合)」\n必殺時，觸發「使我方全體必殺技傷害增加10%(2回合)」"
+                    name: `萬聖狂熱`,
+                    description: `普攻時，觸發「使我方全體普攻傷害增加30%(1回合)」\n必殺時，觸發「使我方全體必殺技傷害增加10%(2回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "致殘血霧",
-                    description: "每經過4回合，觸發「使敵方全體受到傷害增加30%(1回合)」"
+                    name: `致殘血霧`,
+                    description: `每經過4回合，觸發「使敵方全體受到傷害增加30%(1回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "致女王的七重奏",
-                    description: "第一回合時，觸發「使我方全體攻擊者、妨礙者、守護者獲得《奏嗚曲》(1回合)」\n\n《奏嗚曲》\n行動時，觸發「使我方全體攻擊力增加15%(50回合)」"
+                    name: `致女王的七重奏`,
+                    description: `第一回合時，觸發「使我方全體攻擊者、妨礙者、守護者獲得《奏嗚曲》(1回合)」\n\n《奏嗚曲》\n行動時，觸發「使我方全體攻擊力增加15%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "攻擊+ (6潛)",
-                    description: "使自身攻擊力增加10%"
+                    name: `攻擊+ (6潛)`,
+                    description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫麻痺 (12潛)",
-                    description: "使自身免疫麻痺"
+                    name: `免疫麻痺 (12潛)`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `血夜狂欢`,
+                    description: `以自身攻击力30/35/35/40/40%使我方全体攻击力增加(1回合)丶并使我方全体攻击者丶妨碍者丶守护者获得「攻击时，触发『 以自身攻击力10/10/12.5/12.5/15%使自身以外我方全体攻击力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `血夜狂欢`,
+                    description: `以自身攻击力30%使我方全体攻击力增加(1回合)丶并使我方全体攻击者丶妨碍者丶守护者获得「攻击时，触发『 以自身攻击力10%使自身以外我方全体攻击力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `血夜狂欢`,
+                    description: `以自身攻击力35%使我方全体攻击力增加(1回合)丶并使我方全体攻击者丶妨碍者丶守护者获得「攻击时，触发『 以自身攻击力10%使自身以外我方全体攻击力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `血夜狂欢`,
+                    description: `以自身攻击力35%使我方全体攻击力增加(1回合)丶并使我方全体攻击者丶妨碍者丶守护者获得「攻击时，触发『 以自身攻击力12.5%使自身以外我方全体攻击力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `血夜狂欢`,
+                    description: `以自身攻击力40%使我方全体攻击力增加(1回合)丶并使我方全体攻击者丶妨碍者丶守护者获得「攻击时，触发『 以自身攻击力12.5%使自身以外我方全体攻击力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `血夜狂欢`,
+                    description: `以自身攻击力40%使我方全体攻击力增加(1回合)丶并使我方全体攻击者丶妨碍者丶守护者获得「攻击时，触发『 以自身攻击力15%使自身以外我方全体攻击力增加(1回合)』(1回合)」，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `血之祝福`,
+                    description: `以自身攻击力30%使我方全体攻击力增加(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `纯洁飨宴`,
+                    description: `使我方全体造成伤害时会以伤害值30%回复自身HP\n使我方全体闇属性角色获得《恩赐》\n\n《恩赐》\n攻击力增加100%\n必杀技伤害增加50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `万圣狂热`,
+                    description: `普攻时，触发「使我方全体普攻伤害增加30%(1回合)」\n必杀时，触发「使我方全体必杀技伤害增加10%(2回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `致残血雾`,
+                    description: `每经过4回合，触发「使敌方全体受到伤害增加30%(1回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `致女王的七重奏`,
+                    description: `第一回合时，触发「使我方全体攻击者丶妨碍者丶守护者获得《奏呜曲》(1回合)」\n\n《奏呜曲》\n行动时，触发「使我方全体攻击力增加15%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `攻击+ (6潜)`,
+                    description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫麻痹 (12潜)`,
+                    description: `使自身免疫麻痹`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 30/35/35/40/40% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 10/10/12.5/12.5/15% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 30% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 10% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 35% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 10% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 35% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 12.5% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 40% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 12.5% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Crimson Moon`,
+                    description: `Increase the party's Attack Power by 40% of your Attack Power for 1 turn; Give all Attackers, Obstructers, and Protectors the following effect for 1 turn: "On Attack, increase the Attack Power of all other allies by 15% of your Attack Power for 1 turn". CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Bathed in Red`,
+                    description: `Increase all allies' Attack Power by 30% of your Attack Power for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Feast of Innocent`,
+                    description: `When an ally Attacks, they heal themselves for 30% of the damage dealt.\nGive all Dark allies "Charity".\n\nCharity:\nIncrease your Attack Power by 100%\nIncrease your Ultimate Skill Damage by 50%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Halloween Night`,
+                    description: `On Basic Attack, increase the party's Basic Attack Damage by 30% for 1 turn.\nOn Ultimate Skill, increase the party's Ultimate Skill Damage by 10% for 2 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Flesh and Blood`,
+                    description: `After every 4 turns, increase all enemies' Damage Taken 30% for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Queen's Septet`,
+                    description: `On your first turn, give all Attackers, Obstructers, and Protectors "Sonata" for 1 turn.\n\nSonata:\nWhen you take your turn, increase all allies' Attack Power by 15% for 50 turns.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

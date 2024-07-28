@@ -6,302 +6,282 @@ export const SkillSet_10921: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         dispatchSkill: { type: DispatchSkillType.EMPTY_HAND, level: 1 },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：1,557,006\nATK：448,416"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "精準狙擊",
-                    description: "使自身攻擊力增加10/15/20/25/30%(1回合)，再以自身攻擊力330/376/422/468/514%對目標造成傷害，CD: 4"
+                    name: `精準狙擊`,
+                    description: `使自身攻擊力增加10/15/20/25/30%(1回合)，再以自身攻擊力330/376/422/468/514%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "精準狙擊",
-                    description: "使自身攻擊力增加10%(1回合)，再以自身攻擊力330%對目標造成傷害，CD: 4"
+                    name: `精準狙擊`,
+                    description: `使自身攻擊力增加10%(1回合)，再以自身攻擊力330%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "精準狙擊",
-                    description: "使自身攻擊力增加15%(1回合)，再以自身攻擊力376%對目標造成傷害，CD: 4"
+                    name: `精準狙擊`,
+                    description: `使自身攻擊力增加15%(1回合)，再以自身攻擊力376%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "精準狙擊",
-                    description: "使自身攻擊力增加20%(1回合)，再以自身攻擊力422%對目標造成傷害，CD: 4"
+                    name: `精準狙擊`,
+                    description: `使自身攻擊力增加20%(1回合)，再以自身攻擊力422%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "精準狙擊",
-                    description: "使自身攻擊力增加25%(1回合)，再以自身攻擊力468%對目標造成傷害，CD: 4"
+                    name: `精準狙擊`,
+                    description: `使自身攻擊力增加25%(1回合)，再以自身攻擊力468%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "精準狙擊",
-                    description: "使自身攻擊力增加30%(1回合)，再以自身攻擊力514%對目標造成傷害，CD: 4"
+                    name: `精準狙擊`,
+                    description: `使自身攻擊力增加30%(1回合)，再以自身攻擊力514%對目標造成傷害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "單發點射",
-                    description: "以自身攻擊力100%對目標造成傷害"
+                    name: `單發點射`,
+                    description: `以自身攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "地獄廚娘",
-                    description: "使我方全體受到傷害減少10%"
+                    name: `地獄廚娘`,
+                    description: `使我方全體受到傷害減少10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "弱點暴露",
-                    description: "必殺時，觸發「使目標受到傷害增加10%(4回合)」"
+                    name: `弱點暴露`,
+                    description: `必殺時，觸發「使目標受到傷害增加10%(4回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "變更射擊位置",
-                    description: "普攻時，觸發「使自身必殺技傷害增加20%(2回合)」"
+                    name: `變更射擊位置`,
+                    description: `普攻時，觸發「使自身必殺技傷害增加20%(2回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "破片彈",
-                    description: "必殺時，追加「以自身攻擊力2%對目標造成10次傷害」"
+                    name: `破片彈`,
+                    description: `必殺時，追加「以自身攻擊力2%對目標造成10次傷害」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: "幸運兒(空手而歸↓) (3潛)",
-                    description: "進行派遣時，微量降低空手而歸機率(全域效果)"
+                    name: `幸運兒(空手而歸↓) (3潛)`,
+                    description: `進行派遣時，微量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫沉默 (6潛)",
-                    description: "使自身免疫沉默"
+                    name: `免疫沉默 (6潛)`,
+                    description: `使自身免疫沉默`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `精准狙击`,
+                    description: `使自身攻击力增加10/15/20/25/30%(1回合)，再以自身攻击力330/376/422/468/514%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `精准狙击`,
+                    description: `使自身攻击力增加10%(1回合)，再以自身攻击力330%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `精准狙击`,
+                    description: `使自身攻击力增加15%(1回合)，再以自身攻击力376%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `精准狙击`,
+                    description: `使自身攻击力增加20%(1回合)，再以自身攻击力422%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `精准狙击`,
+                    description: `使自身攻击力增加25%(1回合)，再以自身攻击力468%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `精准狙击`,
+                    description: `使自身攻击力增加30%(1回合)，再以自身攻击力514%对目标造成伤害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `单发点射`,
+                    description: `以自身攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `地狱厨娘`,
+                    description: `使我方全体受到伤害减少10%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `弱点暴露`,
+                    description: `必杀时，触发「使目标受到伤害增加10%(4回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `变更射击位置`,
+                    description: `普攻时，触发「使自身必杀技伤害增加20%(2回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `破片弹`,
+                    description: `必杀时，追加「以自身攻击力2%对目标造成10次伤害」`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                [SkillType.DISPATCH]: {
+                    name: `幸运儿(空手而归↓) (3潜)`,
+                    description: `进行派遣时，微量降低空手而归机率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫沉默 (6潜)`,
+                    description: `使自身免疫沉默`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 10/15/20/25/30% for 1 turn, then damage the target (330/376/422/468/514% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 10% for 1 turn, then damage the target (330% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 15% for 1 turn, then damage the target (376% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 20% for 1 turn, then damage the target (422% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 25% for 1 turn, then damage the target (468% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Precision Sniping`,
+                    description: `Increase Attack Power by 30% for 1 turn, then damage the target (514% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Single-Round Accuracy`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Hell's Chef`,
+                    description: `Decrease the party's Damage Taken by 10%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Weakness Exposed`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken by 10% for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Shift Fire Position`,
+                    description: `On Basic Attack, increase your Ultimate Skill Power by 20% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Shrapnel Rounds`,
+                    description: `On Ultimate Skill, deal additional damage to the target for 2% of your Attack Power 10 times.`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                [SkillType.DISPATCH]: {
+                    name: `Lucky One (Empty Handed↓)`,
+                    description: `When dispatched, very slightly decrease the chance of coming back empty-handed. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence.`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を10/15/20/25/30％増加させ(1ターン)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を10％増加させ(1ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を15％増加させ(1ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を20％増加させ(1ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を25％増加させ(1ターン)、468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `的確な狙撃`,
+                    description: `自分の攻撃力を30％増加させ(1ターン)、514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `一点狙い`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `地獄の料理人`,
+                    description: `味方全体の受けるダメージを10％減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `弱点暴露`,
+                    description: `必殺技攻撃時「ターゲットが受けるダメージを10%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `射撃位置変更`,
+                    description: `通常攻撃時「自分の必殺技ダメージを20%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `破片弾`,
+                    description: `必殺技攻撃時「自分の2%の攻撃力でターゲットに10回ダメージを与える」を追加する`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                [SkillType.DISPATCH]: {
+                    name: `ラッキーガール(手ぶらで帰還↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率がわずかに低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
-                [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                [SkillType.DISPATCH]: {
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

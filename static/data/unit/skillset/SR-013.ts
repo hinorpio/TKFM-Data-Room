@@ -6,301 +6,281 @@ export const SkillSet_10046: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：3,189,638\nATK：771,501"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "精準刺擊",
-                    description: "以自身攻擊力265/298/331/369%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3\n\n5絆：使目標防禦減傷效果減少15%(3回合)，以自身攻擊力397%對目標造成傷害，CD: 3"
+                    name: `精準刺擊`,
+                    description: `以自身攻擊力265/298/331/369%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3\n\n5絆：使目標防禦減傷效果減少15%(3回合)，以自身攻擊力397%對目標造成傷害，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "精準刺擊",
-                    description: "以自身攻擊力265%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3"
+                    name: `精準刺擊`,
+                    description: `以自身攻擊力265%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "精準刺擊",
-                    description: "以自身攻擊力298%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3"
+                    name: `精準刺擊`,
+                    description: `以自身攻擊力298%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "精準刺擊",
-                    description: "以自身攻擊力331%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3"
+                    name: `精準刺擊`,
+                    description: `以自身攻擊力331%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "精準刺擊",
-                    description: "以自身攻擊力369%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3"
+                    name: `精準刺擊`,
+                    description: `以自身攻擊力369%對目標造成傷害，使目標防禦減傷效果減少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "精準刺擊",
-                    description: "使目標防禦減傷效果減少15%(3回合)，以自身攻擊力397%對目標造成傷害，CD: 3"
+                    name: `精準刺擊`,
+                    description: `使目標防禦減傷效果減少15%(3回合)，以自身攻擊力397%對目標造成傷害，CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: "突刺",
-                    description: "以自身100%攻擊力對目標造成傷害"
+                    name: `突刺`,
+                    description: `以自身100%攻擊力對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "超天然突擊",
-                    description: "使自身攻擊力增加50%，並獲得，攻擊時，觸發「解除目標嘲諷」"
+                    name: `超天然突擊`,
+                    description: `使自身攻擊力增加50%，並獲得，攻擊時，觸發「解除目標嘲諷」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "發現弱點",
-                    description: "必殺時，觸發「使目標受到「刺針 嘉維爾」傷害增加15%(最多3層)」"
+                    name: `發現弱點`,
+                    description: `必殺時，觸發「使目標受到「刺針 嘉維爾」傷害增加15%(最多3層)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "正面突破",
-                    description: "第1回合時，觸發「使我方全體對防禦目標傷害增加100%(50回合)」"
+                    name: `正面突破`,
+                    description: `第1回合時，觸發「使我方全體對防禦目標傷害增加100%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "憨憨笑靨",
-                    description: "使自身攻擊力增加30%"
+                    name: `憨憨笑靨`,
+                    description: `使自身攻擊力增加30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "攻擊+ (6潛)",
-                    description: "使自身攻擊力增加10%"
+                    name: `攻擊+ (6潛)`,
+                    description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫麻痺 (12潛)",
-                    description: "使自身免疫麻痺"
+                    name: `免疫麻痺 (12潛)`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `精准刺击`,
+                    description: `以自身攻击力265/298/331/369%对目标造成伤害，使目标防御减伤效果减少15%(3回合)，CD: 3\n\n5绊：使目标防御减伤效果减少15%(3回合)，以自身攻击力397%对目标造成伤害，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `精准刺击`,
+                    description: `以自身攻击力265%对目标造成伤害，使目标防御减伤效果减少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `精准刺击`,
+                    description: `以自身攻击力298%对目标造成伤害，使目标防御减伤效果减少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `精准刺击`,
+                    description: `以自身攻击力331%对目标造成伤害，使目标防御减伤效果减少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `精准刺击`,
+                    description: `以自身攻击力369%对目标造成伤害，使目标防御减伤效果减少15%(3回合)，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `精准刺击`,
+                    description: `使目标防御减伤效果减少15%(3回合)，以自身攻击力397%对目标造成伤害，CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `突刺`,
+                    description: `以自身100%攻击力对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `超天然突击`,
+                    description: `使自身攻击力增加50%，并获得，攻击时，触发「解除目标嘲讽」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `发现弱点`,
+                    description: `必杀时，触发「使目标受到「刺针 嘉维尔」伤害增加15%(最多3层)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `正面突破`,
+                    description: `第1回合时，触发「使我方全体对防御目标伤害增加100%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `憨憨笑靥`,
+                    description: `使自身攻击力增加30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `攻击+ (6潜)`,
+                    description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫麻痹 (12潜)`,
+                    description: `使自身免疫麻痹`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Flawless Stab`,
+                    description: `Damage target (265/298/331/364% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)\n\n Bond 5: Decrease target's Damage Reduction by 15% for 3 turns, damage target (397% Attack Power). (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Flawless Stab`,
+                    description: `Damage target (265% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Flawless Stab`,
+                    description: `Damage target (298% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Flawless Stab`,
+                    description: `Damage target (331% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Flawless Stab`,
+                    description: `Damage target (364% Attack Power) and decrease target's Damage Reduction by 15% for 3 turns. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Flawless Stab`,
+                    description: `Decrease target's Damage Reduction by 15% for 3 turns, damage target (397% Attack Power). (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Thorn`,
+                    description: `Damage target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Supernatural Assault`,
+                    description: `Increase your Attack Power by 50%.\nOn Attack, remove Taunt from the target.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Weakness Discovered`,
+                    description: `On Ultimate Skill, increase the target's Damage Taken from Stinger Janelle by 15% (Max 3 Stacks)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Frontal Breakthrough`,
+                    description: `On the first turn, increase the party's Damage Output towards targets in Guard Stance by 100% for 50 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Foolish Smile`,
+                    description: `Increase your Attack Power by 30%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

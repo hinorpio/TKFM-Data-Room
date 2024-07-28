@@ -6,301 +6,281 @@ export const SkillSet_10010: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：4,387,314\nATK：561,353"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "聖光守護",
-                    description: "以最大HP37.9/42.6/47.3/52.0/56.7%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3"
+                    name: `聖光守護`,
+                    description: `以最大HP37.9/42.6/47.3/52.0/56.7%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "聖光守護",
-                    description: "以最大HP37.9%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3"
+                    name: `聖光守護`,
+                    description: `以最大HP37.9%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "聖光守護",
-                    description: "以最大HP42.6%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3"
+                    name: `聖光守護`,
+                    description: `以最大HP42.6%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "聖光守護",
-                    description: "以最大HP47.3%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3"
+                    name: `聖光守護`,
+                    description: `以最大HP47.3%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "聖光守護",
-                    description: "以最大HP52.0%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3"
+                    name: `聖光守護`,
+                    description: `以最大HP52.0%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3`
                     },
                 [SkillType.SKILL_5]: {
-                    name: "聖光守護",
-                    description: "以最大HP56.7%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3"
+                    name: `聖光守護`,
+                    description: `以最大HP56.7%對自身施放護盾(1回合)，並獲得嘲諷效果(1回合)且變為防禦狀態，CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: "斬擊",
-                    description: "以攻擊力50%對目標造成傷害，並以最大HP7.5%對自身施放護盾(2回合)"
+                    name: `斬擊`,
+                    description: `以攻擊力50%對目標造成傷害，並以最大HP7.5%對自身施放護盾(2回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "身先士卒的聖騎士長",
-                    description: "使雷歐娜最大HP增加50%，必殺技CD減少1回合"
+                    name: `身先士卒的聖騎士長`,
+                    description: `使雷歐娜最大HP增加50%，必殺技CD減少1回合`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "無懼之心",
-                    description: "使自身受到傷害減少10%"
+                    name: `無懼之心`,
+                    description: `使自身受到傷害減少10%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "永不退縮",
-                    description: "最大HP增加15%、被治療時回復量增加15%"
+                    name: `永不退縮`,
+                    description: `最大HP增加15%、被治療時回復量增加15%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "聖光騎士團之盾",
-                    description: "當前HP小於25%時，發動\"受到傷害減少75%\"效果"
+                    name: `聖光騎士團之盾`,
+                    description: `當前HP小於25%時，發動"受到傷害減少75%"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "減傷+ (6潛)",
-                    description: "使自身受到傷害減少5%"
+                    name: `減傷+ (6潛)`,
+                    description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫睡眠 (12潛)",
-                    description: "使自身免疫睡眠"
+                    name: `免疫睡眠 (12潛)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `圣光守护`,
+                    description: `以最大HP37.9/42.6/47.3/52.0/56.7%对自身施放护盾(1回合)，并获得嘲讽效果(1回合)且变为防御状态，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `圣光守护`,
+                    description: `以最大HP37.9%对自身施放护盾(1回合)，并获得嘲讽效果(1回合)且变为防御状态，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `圣光守护`,
+                    description: `以最大HP42.6%对自身施放护盾(1回合)，并获得嘲讽效果(1回合)且变为防御状态，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `圣光守护`,
+                    description: `以最大HP47.3%对自身施放护盾(1回合)，并获得嘲讽效果(1回合)且变为防御状态，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
-                },
+                    name: `圣光守护`,
+                    description: `以最大HP52.0%对自身施放护盾(1回合)，并获得嘲讽效果(1回合)且变为防御状态，CD: 3`
+                    },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `圣光守护`,
+                    description: `以最大HP56.7%对自身施放护盾(1回合)，并获得嘲讽效果(1回合)且变为防御状态，CD: 3`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `斩击`,
+                    description: `以攻击力50%对目标造成伤害，并以最大HP7.5%对自身施放护盾(2回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `身先士卒的圣骑士长`,
+                    description: `使雷欧娜最大HP增加50%，必杀技CD减少1回合`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `无惧之心`,
+                    description: `使自身受到伤害减少10%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `永不退缩`,
+                    description: `最大HP增加15%丶被治疗时回复量增加15%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `圣光骑士团之盾`,
+                    description: `当前HP小於25%时，发动"受到伤害减少75%"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `减伤+ (6潜)`,
+                    description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫睡眠 (12潜)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 37.9/42.6/47.3/52.0/56.7% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 37.9% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 42.6% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 47.3% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 52.0% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Ward`,
+                    description: `Gain a Shield equal to 56.7% of your max HP and gain Taunt for 1 turn. Enter Guard Stance. (CD:3)`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Slash`,
+                    description: `Damage target (50% Attack power) and gain a Shield equal to 7.5% of your max HP for 2 turns.`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Oh Captain`,
+                    description: `Increase Leona's max HP by 50%. Reduce Ultimate Skill CD by 1`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `No Fear`,
+                    description: `Take 10% less damage.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Never Surrender`,
+                    description: `Increase the max HP by 15% and Recovery Rate by 15%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Oh Holy Knight~`,
+                    description: `When HP is below 25%, take 75% less damage.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Protect (Self)`,
+                    description: `Take 5% less damage.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

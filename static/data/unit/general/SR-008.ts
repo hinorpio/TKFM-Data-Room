@@ -22,7 +22,7 @@ export const General_10016: Unit = {
     abbreviation: {
         [Locale.tc]: [ "普軍", "軍師", "軍" ],
         [Locale.sc]: [ "普军", "军师", "军" ],
-        [Locale.en]: [],
+        [Locale.en]: [ "OG.Britney" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },

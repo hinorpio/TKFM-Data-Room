@@ -6,301 +6,281 @@ export const SkillSet_10117: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：2,967,976\nATK：961,497"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "突進吧！凱薩號！",
-                    description: "以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力96/115/135/154/173%對目標造成傷害』(4回合)」，CD:  4"
+                    name: `突進吧！凱薩號！`,
+                    description: `以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力96/115/135/154/173%對目標造成傷害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "突進吧！凱薩號！",
-                    description: "以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力96%對目標造成傷害』(4回合)」，CD:  4"
+                    name: `突進吧！凱薩號！`,
+                    description: `以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力96%對目標造成傷害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "突進吧！凱薩號！",
-                    description: "以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力115%對目標造成傷害』(4回合)」，CD:  4"
+                    name: `突進吧！凱薩號！`,
+                    description: `以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力115%對目標造成傷害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "突進吧！凱薩號！",
-                    description: "以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力135%對目標造成傷害』(4回合)」，CD:  4"
+                    name: `突進吧！凱薩號！`,
+                    description: `以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力135%對目標造成傷害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "突進吧！凱薩號！",
-                    description: "以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力154%對目標造成傷害』(4回合)」，CD:  4"
+                    name: `突進吧！凱薩號！`,
+                    description: `以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力154%對目標造成傷害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "突進吧！凱薩號！",
-                    description: "以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力173%對目標造成傷害』(4回合)」，CD:  4"
+                    name: `突進吧！凱薩號！`,
+                    description: `以自身攻擊力100%對目標造成傷害，使自身獲得「普攻時，追加『以自身攻擊力173%對目標造成傷害』(4回合)」，CD:  4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "噗滋～",
-                    description: "以自身攻擊力100%對目標造成傷害"
+                    name: `噗滋～`,
+                    description: `以自身攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "夏日商品全面特價中唷～",
-                    description: "自身與我方全體火、光屬性隊員最大HP增加20%\n自身與我方全體火、光屬性隊員造成傷害增加20%\n自身攻擊力增加50%\n自身普攻傷害增加20% \n我方全體火、光屬性隊員攻擊力增加80%\n我方全體火、光屬性隊員普攻傷害增加50%\n使我方全體攻擊者和妨礙者獲得「我方隊伍中至少有2名光屬性隊員時，發動《巴爾商會特製BBQ烤爐》」\n使我方全體攻擊者和妨礙者獲得「我方隊伍中至少有2名火屬性隊員時，發動《巴爾商會特製BBQ烤爐》」\n\n《巴爾商會特製BBQ烤爐》\n普攻時，追加「以自身攻擊力40%對目標造成傷害」\n普攻時，追加「使目標受到普攻傷害增加18%(最多5層)」"
+                    name: `夏日商品全面特價中唷～`,
+                    description: `自身與我方全體火、光屬性隊員最大HP增加20%\n自身與我方全體火、光屬性隊員造成傷害增加20%\n自身攻擊力增加50%\n自身普攻傷害增加20% \n我方全體火、光屬性隊員攻擊力增加80%\n我方全體火、光屬性隊員普攻傷害增加50%\n使我方全體攻擊者和妨礙者獲得「我方隊伍中至少有2名光屬性隊員時，發動《巴爾商會特製BBQ烤爐》」\n使我方全體攻擊者和妨礙者獲得「我方隊伍中至少有2名火屬性隊員時，發動《巴爾商會特製BBQ烤爐》」\n\n《巴爾商會特製BBQ烤爐》\n普攻時，追加「以自身攻擊力40%對目標造成傷害」\n普攻時，追加「使目標受到普攻傷害增加18%(最多5層)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "泳裝黑辣妹魔王",
-                    description: "使我方全體水屬性隊員攻擊力增加30%\n使我方全體水屬性隊員普攻傷害增加20%"
+                    name: `泳裝黑辣妹魔王`,
+                    description: `使我方全體水屬性隊員攻擊力增加30%\n使我方全體水屬性隊員普攻傷害增加20%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "射你一臉～",
-                    description: "使我方全體攻擊者和妨礙者獲得「《巴爾商會特製水槍》」\n\n《巴爾商會特製水槍》\n我方隊伍中至少有(4/5)名水屬性隊員時，各發動「普攻時，追加『以自身攻擊力(15/15)%對目標造成傷害』」 \n我方隊伍中至少有(4/5)名水屬性隊員時，各發動「普攻時，追加『使目標受到普攻傷害增加(9/9)%(最多5層)』」"
+                    name: `射你一臉～`,
+                    description: `使我方全體攻擊者和妨礙者獲得「《巴爾商會特製水槍》」\n\n《巴爾商會特製水槍》\n我方隊伍中至少有(4/5)名水屬性隊員時，各發動「普攻時，追加『以自身攻擊力(15/15)%對目標造成傷害』」 \n我方隊伍中至少有(4/5)名水屬性隊員時，各發動「普攻時，追加『使目標受到普攻傷害增加(9/9)%(最多5層)』」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "這次款待人家包辦～",
-                    description: "使我方全體獲得「《海之屋高級商品》」\n\n《海之屋高級商品》\n我方隊伍中至少有2名攻擊者時，發動「造成傷害增加30%」\n我方隊伍中至少有2名攻擊者時，發動「普攻傷害增加30%」"
+                    name: `這次款待人家包辦～`,
+                    description: `使我方全體獲得「《海之屋高級商品》」\n\n《海之屋高級商品》\n我方隊伍中至少有2名攻擊者時，發動「造成傷害增加30%」\n我方隊伍中至少有2名攻擊者時，發動「普攻傷害增加30%」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "普攻傷害+ (6潛)",
-                    description: "使自身普攻傷害增加10%"
+                    name: `普攻傷害+ (6潛)`,
+                    description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫沉默 (12潛)",
-                    description: "使自身免疫沉默"
+                    name: `免疫沉默 (12潛)`,
+                    description: `使自身免疫沉默`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `突进吧！凯萨号！`,
+                    description: `以自身攻击力100%对目标造成伤害，使自身获得「普攻时，追加『以自身攻击力96/115/135/154/173%对目标造成伤害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `突进吧！凯萨号！`,
+                    description: `以自身攻击力100%对目标造成伤害，使自身获得「普攻时，追加『以自身攻击力96%对目标造成伤害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `突进吧！凯萨号！`,
+                    description: `以自身攻击力100%对目标造成伤害，使自身获得「普攻时，追加『以自身攻击力115%对目标造成伤害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `突进吧！凯萨号！`,
+                    description: `以自身攻击力100%对目标造成伤害，使自身获得「普攻时，追加『以自身攻击力135%对目标造成伤害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `突进吧！凯萨号！`,
+                    description: `以自身攻击力100%对目标造成伤害，使自身获得「普攻时，追加『以自身攻击力154%对目标造成伤害』(4回合)」，CD:  4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `突进吧！凯萨号！`,
+                    description: `以自身攻击力100%对目标造成伤害，使自身获得「普攻时，追加『以自身攻击力173%对目标造成伤害』(4回合)」，CD:  4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `噗滋～`,
+                    description: `以自身攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `夏日商品全面特价中唷～`,
+                    description: `自身与我方全体火丶光属性队员最大HP增加20%\n自身与我方全体火丶光属性队员造成伤害增加20%\n自身攻击力增加50%\n自身普攻伤害增加20% \n我方全体火丶光属性队员攻击力增加80%\n我方全体火丶光属性队员普攻伤害增加50%\n使我方全体攻击者和妨碍者获得「我方队伍中至少有2名光属性队员时，发动《巴尔商会特制BBQ烤炉》」\n使我方全体攻击者和妨碍者获得「我方队伍中至少有2名火属性队员时，发动《巴尔商会特制BBQ烤炉》」\n\n《巴尔商会特制BBQ烤炉》\n普攻时，追加「以自身攻击力40%对目标造成伤害」\n普攻时，追加「使目标受到普攻伤害增加18%(最多5层)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `泳装黑辣妹魔王`,
+                    description: `使我方全体水属性队员攻击力增加30%\n使我方全体水属性队员普攻伤害增加20%`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `射你一脸～`,
+                    description: `使我方全体攻击者和妨碍者获得「《巴尔商会特制水枪》」\n\n《巴尔商会特制水枪》\n我方队伍中至少有(4/5)名水属性队员时，各发动「普攻时，追加『以自身攻击力(15/15)%对目标造成伤害』」 \n我方队伍中至少有(4/5)名水属性队员时，各发动「普攻时，追加『使目标受到普攻伤害增加(9/9)%(最多5层)』」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `这次款待人家包办～`,
+                    description: `使我方全体获得「《海之屋高级商品》」\n\n《海之屋高级商品》\n我方队伍中至少有2名攻击者时，发动「造成伤害增加30%」\n我方队伍中至少有2名攻击者时，发动「普攻伤害增加30%」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `普攻伤害+ (6潜)`,
+                    description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫沉默 (12潜)`,
+                    description: `使自身免疫沉默`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (96/115/135/154/173% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (96% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (115% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (135% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (154% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `"The Caesar", Assault!`,
+                    description: `Damage the target (100% Attack Power). On Basic Attack, deal additional damage to the target for 4 turns (173% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Puff~`,
+                    description: `Damage the target (100% Attack Power)`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Summer Sale`,
+                    description: `Increases your and all Fire and Light allies' max HP by 20%.\nIncreases your and all Fire and Light allies' Damage Output by 20%.\nIncreases your Attack Power by 50%.\nIncreases your Basic Attack Power by 20%.\nIncreases all Fire and Light allies' Attack Power by 80%.\nIncreases all all Fire and Light allies' Basic Attack Power by 50%.\nAll allied Attackers and Obstructers gain the following effect: "When there are 2 or more Fire allies on your team, trigger "Ba'al Corp's Special BBQ Grill."\nAll allied Attackers and Obstructers gain the following effect: "When there are 2 or more Light allies on your team, trigger "Ba'al Corp's Special BBQ Grill."\n\n"Ba'al Corp's Special BBQ Grill"\nOn Basic Attack, deal additional damage to the target (40% Attack Power).\nOn Basic Attack, increase the target's Damage Taken from Basic Attacks by 18% (max 5 stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Black Swimsuit Archdemon`,
+                    description: `Increase all Water allies' Attack Power by 30%.\nIncrease all Water allies' Basic Attack Power by 20%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Shoot you in the Face~`,
+                    description: `All allied Attackers and Obstructers gain "Ba'al Corp's Special Water Gun."\n\n"Ba'al Corp's Special Water Gun"\nWhen there are 4/5 Water allies on your team, gain the following effect: "On Basic Attack, damage the target ((15/15)% Attack Power)."\nWhen there are 4/5 Water allies on your team, gain the following effect: "On Basic Attack, increase the target's Damage Taken from Basic Attacks by (9/9)% (max 5 stacks).`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `I'll Take Care of Everything~`,
+                    description: `The party gains "Seaside House's Premium Product"\n\n"Seaside House's Premium Product"\nWhen there are 2 or more Attackers on your team, increase the Damage Output by 30%.\nWhen there are 2 or more Attackers on your team, increase the Basic Attack Power by 30%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Basic Attack Power+`,
+                    description: `Increase your Basic Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Silence Immunity`,
+                    description: `Gain immunity to Silence`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

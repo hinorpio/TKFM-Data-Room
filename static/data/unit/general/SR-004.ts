@@ -22,7 +22,7 @@ export const General_10012: Unit = {
     abbreviation: {
         [Locale.tc]: [ "忍者", "普忍", "忍" ],
         [Locale.sc]: [ "忍者", "普忍", "忍" ],
-        [Locale.en]: [],
+        [Locale.en]: [ "OG.Ritsuki" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },

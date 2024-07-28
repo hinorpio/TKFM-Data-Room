@@ -14,10 +14,10 @@ const dispatch: Dispatch[] = [
         },
         name: {
             tc: "魔王寢室",
-            sc: "",
+            sc: "魔王寝室",
             en: "Caesar's Room",
-            jp: "",
-            kr: "",
+            jp: "魔王の寝室",
+            kr: "마왕의 침실",
         },
         item: [
             ItemCode.IRON_LV1,
@@ -38,10 +38,10 @@ const dispatch: Dispatch[] = [
         },
         name: {
             tc: "地牢",
-            sc: "",
+            sc: "地牢",
             en: "Dungeon",
-            jp: "",
-            kr: "",
+            jp: "地下牢",
+            kr: "감옥",
         },
         item: [
             ItemCode.WATER_LV1,
@@ -62,10 +62,10 @@ const dispatch: Dispatch[] = [
         },
         name: {
             tc: "訓練所",
-            sc: "",
+            sc: "训练所",
             en: "Training Center",
-            jp: "",
-            kr: "",
+            jp: "訓練所",
+            kr: "훈련소",
         },
         item: [
             ItemCode.CLAW_LV1,
@@ -86,10 +86,10 @@ const dispatch: Dispatch[] = [
         },
         name: {
             tc: "寶藏庫",
-            sc: "",
+            sc: "宝藏库",
             en: "Treasure Room",
-            jp: "",
-            kr: "",
+            jp: "宝物庫",
+            kr: "보물 창고",
         },
         item: [
             ItemCode.MIXTURE_LV1,
@@ -110,10 +110,10 @@ const dispatch: Dispatch[] = [
         },
         name: {
             tc: "封印密室",
-            sc: "",
+            sc: "封印密室",
             en: "Sealed Chamber",
-            jp: "",
-            kr: "",
+            jp: "封印された部屋",
+            kr: "봉인 밀실",
         },
         item: [
             ItemCode.DUST_LV1,

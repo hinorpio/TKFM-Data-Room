@@ -6,302 +6,282 @@ export const SkillSet_10810: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         dispatchSkill: { type: DispatchSkillType.NORMAL_SEX_TOY, level: 2 },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：2,299,389\nATK：571,069"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "我…我用腳踢你喔！",
-                    description: "以自身攻擊力330/376/422/468/514%對目標造成傷害，CD: 4"
+                    name: `我…我用腳踢你喔！`,
+                    description: `以自身攻擊力330/376/422/468/514%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "我…我用腳踢你喔！",
-                    description: "以自身攻擊力330%對目標造成傷害，CD: 4"
+                    name: `我…我用腳踢你喔！`,
+                    description: `以自身攻擊力330%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "我…我用腳踢你喔！",
-                    description: "以自身攻擊力376%對目標造成傷害，CD: 4"
+                    name: `我…我用腳踢你喔！`,
+                    description: `以自身攻擊力376%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "我…我用腳踢你喔！",
-                    description: "以自身攻擊力422%對目標造成傷害，CD: 4"
+                    name: `我…我用腳踢你喔！`,
+                    description: `以自身攻擊力422%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "我…我用腳踢你喔！",
-                    description: "以自身攻擊力468%對目標造成傷害，CD: 4"
+                    name: `我…我用腳踢你喔！`,
+                    description: `以自身攻擊力468%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "我…我用腳踢你喔！",
-                    description: "以自身攻擊力514%對目標造成傷害，CD: 4"
+                    name: `我…我用腳踢你喔！`,
+                    description: `以自身攻擊力514%對目標造成傷害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "加…加油",
-                    description: "使我方全體獲得攻擊力增加25%(1回合)"
+                    name: `加…加油`,
+                    description: `使我方全體獲得攻擊力增加25%(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "身強體壯",
-                    description: "使自身最大HP增加40%、自身攻擊力增加40%"
+                    name: `身強體壯`,
+                    description: `使自身最大HP增加40%、自身攻擊力增加40%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "茶泡不夠甜",
-                    description: "普攻時，以50%機率觸發「使我方全體獲得『攻擊力增加10%(1回合)』」效果"
+                    name: `茶泡不夠甜`,
+                    description: `普攻時，以50%機率觸發「使我方全體獲得『攻擊力增加10%(1回合)』」效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "湯煮不夠甜",
-                    description: "攻擊時，以20%機率觸發「使自身攻擊力增加35%(2回合)」"
+                    name: `湯煮不夠甜`,
+                    description: `攻擊時，以20%機率觸發「使自身攻擊力增加35%(2回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "米扛兩百樓",
-                    description: "使自身最大HP增加30%、攻擊力增加30%"
+                    name: `米扛兩百樓`,
+                    description: `使自身最大HP增加30%、攻擊力增加30%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: "聖水湧泉(普通調教道具↑↑) (3潛)",
-                    description: "進行派遣時，少量提升普通調教道具雙倍獲得機率Lv2(全域效果)"
+                    name: `聖水湧泉(普通調教道具↑↑) (3潛)`,
+                    description: `進行派遣時，少量提升普通調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫麻痺 (6潛)",
-                    description: "使自身免疫麻痺"
+                    name: `免疫麻痺 (6潛)`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `我…我用脚踢你喔！`,
+                    description: `以自身攻击力330/376/422/468/514%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `我…我用脚踢你喔！`,
+                    description: `以自身攻击力330%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `我…我用脚踢你喔！`,
+                    description: `以自身攻击力376%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `我…我用脚踢你喔！`,
+                    description: `以自身攻击力422%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `我…我用脚踢你喔！`,
+                    description: `以自身攻击力468%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `我…我用脚踢你喔！`,
+                    description: `以自身攻击力514%对目标造成伤害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `加…加油`,
+                    description: `使我方全体获得攻击力增加25%(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `身强体壮`,
+                    description: `使自身最大HP增加40%丶自身攻击力增加40%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `茶泡不够甜`,
+                    description: `普攻时，以50%机率触发「使我方全体获得『攻击力增加10%(1回合)』」效果`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `汤煮不够甜`,
+                    description: `攻击时，以20%机率触发「使自身攻击力增加35%(2回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `米扛两百楼`,
+                    description: `使自身最大HP增加30%丶攻击力增加30%`
                 },
-                [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                [SkillType.DISPATCH]: {
+                    name: `圣水涌泉(普通调教道具↑↑) (3潜)`,
+                    description: `进行派遣时，少量提升普通调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫麻痹 (6潜)`,
+                    description: `使自身免疫麻痹`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (330/376/422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (330% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (376% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (422% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (468% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `I'm... Kicking You!`,
+                    description: `Damage target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Gan... batte!`,
+                    description: `Increase party's Attack Power by 25% for 1 turn.`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Tough Body`,
+                    description: `Increase your max HP by 40% and Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Bitter Tea`,
+                    description: `On Basic Attack, there's a 50% chance to increase the party's Attack Power by 10% for 1 turn.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Tasteless Soup`,
+                    description: `On Attack, there's a 20% chance to increase your Attack Power by 35% for 2 turns.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Unbearable Pain`,
+                    description: `Increase your max HP by 30% and Attack Power by 30%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Holy Fountain (Normal Sex Toys↑↑)`,
+                    description: `When dispatched, slightly increase the 2x drop rate of Common Sex Toys. (Global Effect)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

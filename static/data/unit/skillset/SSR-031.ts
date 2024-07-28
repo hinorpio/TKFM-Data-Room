@@ -6,301 +6,281 @@ export const SkillSet_10083: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：3,221,304\nATK：885,211"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "一起去吧～",
-                    description: "以自身攻擊力200%對我方全體進行治療，再以自身攻擊力40/45/50/50/50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加0/0/10/15/20%(4回合)，CD: 4"
+                    name: `一起去吧～`,
+                    description: `以自身攻擊力200%對我方全體進行治療，再以自身攻擊力40/45/50/50/50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加0/0/10/15/20%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "一起去吧～",
-                    description: "以自身攻擊力200%對我方全體進行治療，再以自身攻擊力40%使我方全體攻擊力增加(1回合)，CD: 4"
+                    name: `一起去吧～`,
+                    description: `以自身攻擊力200%對我方全體進行治療，再以自身攻擊力40%使我方全體攻擊力增加(1回合)，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "一起去吧～",
-                    description: "以自身攻擊力200%對我方全體進行治療，再以自身攻擊力45%使我方全體攻擊力增加(1回合)，CD: 4"
+                    name: `一起去吧～`,
+                    description: `以自身攻擊力200%對我方全體進行治療，再以自身攻擊力45%使我方全體攻擊力增加(1回合)，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "一起去吧～",
-                    description: "以自身攻擊力200%對我方全體進行治療，再以自身攻擊力50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加10%(4回合)CD: 4"
+                    name: `一起去吧～`,
+                    description: `以自身攻擊力200%對我方全體進行治療，再以自身攻擊力50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加10%(4回合)CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "一起去吧～",
-                    description: "以自身攻擊力200%對我方全體進行治療，再以自身攻擊力50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加15%(4回合)CD: 4"
+                    name: `一起去吧～`,
+                    description: `以自身攻擊力200%對我方全體進行治療，再以自身攻擊力50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加15%(4回合)CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "一起去吧～",
-                    description: "以自身攻擊力200%對我方全體進行治療，再以自身攻擊力50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加20%(4回合)CD: 4"
+                    name: `一起去吧～`,
+                    description: `以自身攻擊力200%對我方全體進行治療，再以自身攻擊力50%使我方全體攻擊力增加(1回合)，並使我方全體攻擊力增加20%(4回合)CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "我來讓大家舒服～",
-                    description: "以自身攻擊力50%對我方全體進行治療"
+                    name: `我來讓大家舒服～`,
+                    description: `以自身攻擊力50%對我方全體進行治療`
                 },
                 [SkillType.LEADER]: {
-                    name: "誰都可以喔～",
-                    description: "使我方全體攻擊力增加30%\n自身必殺時，觸發「《瘋狂吸吮》」\n自身必殺時，觸發「《也讓我爽吧∼》\n自身獲得《爽到升天》\n\n《瘋狂吸吮》\n使自身普攻時，追加『以自身攻擊力50%進行追擊3次』(2回合) \n《也讓我爽吧∼》\n使自身以外的隊員必殺時，觸發『以自身攻擊力50%使夢天堂店長咲野夢攻擊力增加(2回合)』(1回合)\n《爽到升天》\n自身普攻時，觸發「使自身攻擊力增加10%(最多7層)」\n自身必殺時，觸發「清除自身《爽到升天》賦予的攻擊力增加狀態」"
+                    name: `誰都可以喔～`,
+                    description: `使我方全體攻擊力增加30%\n自身必殺時，觸發「《瘋狂吸吮》」\n自身必殺時，觸發「《也讓我爽吧∼》\n自身獲得《爽到升天》\n\n《瘋狂吸吮》\n使自身普攻時，追加『以自身攻擊力50%進行追擊3次』(2回合) \n《也讓我爽吧∼》\n使自身以外的隊員必殺時，觸發『以自身攻擊力50%使夢天堂店長咲野夢攻擊力增加(2回合)』(1回合)\n《爽到升天》\n自身普攻時，觸發「使自身攻擊力增加10%(最多7層)」\n自身必殺時，觸發「清除自身《爽到升天》賦予的攻擊力增加狀態」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "高速吸吮",
-                    description: "必殺時，觸發「《不停吸吮》」\n\n《不停吸吮》\n自身普攻時，追加『以自身攻擊力50%進行追擊3次』(2回合)」"
+                    name: `高速吸吮`,
+                    description: `必殺時，觸發「《不停吸吮》」\n\n《不停吸吮》\n自身普攻時，追加『以自身攻擊力50%進行追擊3次』(2回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "越來越爽囉",
-                    description: "自身普攻時，觸發「使自身攻擊力增加10%(最多7層)」\n自身必殺時，觸發「清除自身《越來越爽囉》賦予的攻擊力增加狀態"
+                    name: `越來越爽囉`,
+                    description: `自身普攻時，觸發「使自身攻擊力增加10%(最多7層)」\n自身必殺時，觸發「清除自身《越來越爽囉》賦予的攻擊力增加狀態`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "沒有人能停下我的手",
-                    description: "防禦時，觸發「以自身攻擊力50%對我方全體進行治療， 並使《越來越爽囉》與《爽到升天》賦予的攻擊力增加狀態增加3層」"
+                    name: `沒有人能停下我的手`,
+                    description: `防禦時，觸發「以自身攻擊力50%對我方全體進行治療， 並使《越來越爽囉》與《爽到升天》賦予的攻擊力增加狀態增加3層」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "攻擊+ (6潛)",
-                    description: "使自身攻擊力增加10%"
+                    name: `攻擊+ (6潛)`,
+                    description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫睡眠 (12潛)",
-                    description: "使自身免疫睡眠"
+                    name: `免疫睡眠 (12潛)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `一起去吧～`,
+                    description: `以自身攻击力200%对我方全体进行治疗，再以自身攻击力40/45/50/50/50%使我方全体攻击力增加(1回合)，并使我方全体攻击力增加0/0/10/15/20%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `一起去吧～`,
+                    description: `以自身攻击力200%对我方全体进行治疗，再以自身攻击力40%使我方全体攻击力增加(1回合)，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `一起去吧～`,
+                    description: `以自身攻击力200%对我方全体进行治疗，再以自身攻击力45%使我方全体攻击力增加(1回合)，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `一起去吧～`,
+                    description: `以自身攻击力200%对我方全体进行治疗，再以自身攻击力50%使我方全体攻击力增加(1回合)，并使我方全体攻击力增加10%(4回合)CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `一起去吧～`,
+                    description: `以自身攻击力200%对我方全体进行治疗，再以自身攻击力50%使我方全体攻击力增加(1回合)，并使我方全体攻击力增加15%(4回合)CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `一起去吧～`,
+                    description: `以自身攻击力200%对我方全体进行治疗，再以自身攻击力50%使我方全体攻击力增加(1回合)，并使我方全体攻击力增加20%(4回合)CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `我来让大家舒服～`,
+                    description: `以自身攻击力50%对我方全体进行治疗`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `谁都可以喔～`,
+                    description: `使我方全体攻击力增加30%\n自身必杀时，触发「《疯狂吸吮》」\n自身必杀时，触发「《也让我爽吧∼》\n自身获得《爽到升天》\n\n《疯狂吸吮》\n使自身普攻时，追加『以自身攻击力50%进行追击3次』(2回合) \n《也让我爽吧∼》\n使自身以外的队员必杀时，触发『以自身攻击力50%使梦天堂店长咲野梦攻击力增加(2回合)』(1回合)\n《爽到升天》\n自身普攻时，触发「使自身攻击力增加10%(最多7层)」\n自身必杀时，触发「清除自身《爽到升天》赋予的攻击力增加状态」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `高速吸吮`,
+                    description: `必杀时，触发「《不停吸吮》」\n\n《不停吸吮》\n自身普攻时，追加『以自身攻击力50%进行追击3次』(2回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `越来越爽罗`,
+                    description: `自身普攻时，触发「使自身攻击力增加10%(最多7层)」\n自身必杀时，触发「清除自身《越来越爽罗》赋予的攻击力增加状态`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `没有人能停下我的手`,
+                    description: `防御时，触发「以自身攻击力50%对我方全体进行治疗， 并使《越来越爽罗》与《爽到升天》赋予的攻击力增加状态增加3层」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `攻击+ (6潜)`,
+                    description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫睡眠 (12潜)`,
+                    description: `使自身免疫睡眠`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 40/45/50/50/50% of your Attack Power for 1 turn, and increase Party's Attack Power by 0/0/10/15/20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 40% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 45% of your Attack Power for 1 turn. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 50% of your Attack Power for 1 turn, and increase Party's Attack Power by 10% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 50% of your Attack Power for 1 turn, and increase Party's Attack Power by 15% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Let's Go~`,
+                    description: `Heal party equal to 200% of your Attack Power, then increase party's Attack Power equal to 50% of your Attack Power for 1 turn, and increase Party's Attack Power by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `I'll Make Everyone Comfy~`,
+                    description: `Heal party equal to 50% of your Attack Power`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `The More the Merrier`,
+                    description: `Increase the party's Attack Power by 30%.\nOn Ultimate Skill, trigger "Mad Sucking" for 2 turns.\nOn Ultimate Skill, trigger "Let Me Cum~" for 1 turn.\ntrigger "Walking On Air".\n\nMad Sucking:\nAfter a Basic Attack, perform 3 additional Attacks on the target (50% Attack Power each).\n\nLet Me Cum~:\nAfter another ally performs an Ultimate Skill, increase Sakuya Yume's Attack Power by 50% of their Attack Power for 2 turns.\n\nWalking On Air:\nEach stack of Walking On Air increases your Attack Power by 10% (Max 7 Stacks).\nOn Basic Attack, gain 1 stack.\nOn Ultimate Skill, lose all stacks.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `High Speed Sucking`,
+                    description: `On Ultimate Skill, trigger "Nonstop Sucking" for 2 turns.\n\nNonstop Sucking:\nAfter a Basic Attack, perform 3 additional Attacks (50% Attack Power each).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Fucking Awesome`,
+                    description: `One stack of "Fucking Awesome" increases your Attack Power by 10% (Max 7 Stacks).\nOn Basic Attack, gain 1 stack.\nOn Ultimate Skill, remove all stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Unstoppable Hands`,
+                    description: `When entering Guard Stance, heal the party equal to 50% of your Attack Power. Gain 3 stacks of "Fucking Awesome" and "Walking On Air".`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Attack Up (Self)`,
+                    description: `Increase your Attack Power by 10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Sleep Immunity (Self)`,
+                    description: `Gain immunity to Sleep`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

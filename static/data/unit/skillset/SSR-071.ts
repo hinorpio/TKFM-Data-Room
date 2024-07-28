@@ -6,301 +6,281 @@ export const SkillSet_10107: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：3,045,702\nATK：937,027"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "迴轉龍捲球！",
-                    description: "使自身獲得4層攻擊力增加18.75/22.5/26.25/30/33.75%(最多4層)，再以自身攻擊力353/404/454/505/555%對目標造成傷害，CD: 4"
+                    name: `迴轉龍捲球！`,
+                    description: `使自身獲得4層攻擊力增加18.75/22.5/26.25/30/33.75%(最多4層)，再以自身攻擊力353/404/454/505/555%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "迴轉龍捲球！",
-                    description: "使自身獲得4層攻擊力增加18.75%(最多4層)，再以自身攻擊力353%對目標造成傷害，CD: 4"
+                    name: `迴轉龍捲球！`,
+                    description: `使自身獲得4層攻擊力增加18.75%(最多4層)，再以自身攻擊力353%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "迴轉龍捲球！",
-                    description: "使自身獲得4層攻擊力增加22.5%(最多4層)，再以自身攻擊力404%對目標造成傷害，CD: 4"
+                    name: `迴轉龍捲球！`,
+                    description: `使自身獲得4層攻擊力增加22.5%(最多4層)，再以自身攻擊力404%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "迴轉龍捲球！",
-                    description: "使自身獲得4層攻擊力增加26.25%(最多4層)，再以自身攻擊力454%對目標造成傷害，CD: 4"
+                    name: `迴轉龍捲球！`,
+                    description: `使自身獲得4層攻擊力增加26.25%(最多4層)，再以自身攻擊力454%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "迴轉龍捲球！",
-                    description: "使自身獲得4層攻擊力增加30%(最多4層)，再以自身攻擊力505%對目標造成傷害，CD: 4"
+                    name: `迴轉龍捲球！`,
+                    description: `使自身獲得4層攻擊力增加30%(最多4層)，再以自身攻擊力505%對目標造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "迴轉龍捲球！",
-                    description: "使自身獲得4層攻擊力增加33.75%(最多4層)，再以自身攻擊力555%對目標造成傷害，CD: 4"
+                    name: `迴轉龍捲球！`,
+                    description: `使自身獲得4層攻擊力增加33.75%(最多4層)，再以自身攻擊力555%對目標造成傷害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "重擊！",
-                    description: "以自身攻擊力100%對目標造成傷害"
+                    name: `重擊！`,
+                    description: `以自身攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "交友要在勝負後！",
-                    description: "我方全體HP增加20%\n我方全體攻擊力增加40%\n自身普攻時，觸發「以自身攻擊力40%使我方全體攻擊者攻擊力增加(1回合)」\n\n我方全體攻擊者獲得「隊伍中至少有4名攻擊者角色時， 發動《一波帶走！》」\n\n《一波帶走！》\n攻擊力增加110%\n必殺時，觸發「以自身攻擊力60%使我方站位1攻擊力增加(1回合)」"
+                    name: `交友要在勝負後！`,
+                    description: `我方全體HP增加20%\n我方全體攻擊力增加40%\n自身普攻時，觸發「以自身攻擊力40%使我方全體攻擊者攻擊力增加(1回合)」\n\n我方全體攻擊者獲得「隊伍中至少有4名攻擊者角色時， 發動《一波帶走！》」\n\n《一波帶走！》\n攻擊力增加110%\n必殺時，觸發「以自身攻擊力60%使我方站位1攻擊力增加(1回合)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "蓄力蓄力！",
-                    description: "普攻時，觸發「使自身攻擊力增加12.5%(最多4層)」"
+                    name: `蓄力蓄力！`,
+                    description: `普攻時，觸發「使自身攻擊力增加12.5%(最多4層)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "來發大的！",
-                    description: "每經過4回合，觸發「使自身攻擊力增加75%(最多1層)」\n必殺時，觸發「清除自身《來發大的！》的使自身攻擊力增加效果」\n普攻時，觸發「減少自身《迥轉龍捲球！》的使自身攻擊力增加效果1層」"
+                    name: `來發大的！`,
+                    description: `每經過4回合，觸發「使自身攻擊力增加75%(最多1層)」\n必殺時，觸發「清除自身《來發大的！》的使自身攻擊力增加效果」\n普攻時，觸發「減少自身《迥轉龍捲球！》的使自身攻擊力增加效果1層」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "轉守為攻！！",
-                    description: "每經過4回合，觸發「使自身造成傷害增加40%(最多1層)」\n必殺時，觸發「清除自身《轉守為攻！！》的使自身造成傷害增加效果」\n使我方全體造成傷害增加10%"
+                    name: `轉守為攻！！`,
+                    description: `每經過4回合，觸發「使自身造成傷害增加40%(最多1層)」\n必殺時，觸發「清除自身《轉守為攻！！》的使自身造成傷害增加效果」\n使我方全體造成傷害增加10%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "必殺+ (6潛)",
-                    description: "使自身必殺技傷害增加10%"
+                    name: `必殺+ (6潛)`,
+                    description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫麻痺 (12潛)",
-                    description: "使自身免疫麻痺"
+                    name: `免疫麻痺 (12潛)`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `回转龙卷球！`,
+                    description: `使自身获得4层攻击力增加18.75/22.5/26.25/30/33.75%(最多4层)，再以自身攻击力353/404/454/505/555%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `回转龙卷球！`,
+                    description: `使自身获得4层攻击力增加18.75%(最多4层)，再以自身攻击力353%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `回转龙卷球！`,
+                    description: `使自身获得4层攻击力增加22.5%(最多4层)，再以自身攻击力404%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `回转龙卷球！`,
+                    description: `使自身获得4层攻击力增加26.25%(最多4层)，再以自身攻击力454%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `回转龙卷球！`,
+                    description: `使自身获得4层攻击力增加30%(最多4层)，再以自身攻击力505%对目标造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `回转龙卷球！`,
+                    description: `使自身获得4层攻击力增加33.75%(最多4层)，再以自身攻击力555%对目标造成伤害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `重击！`,
+                    description: `以自身攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `交友要在胜负後！`,
+                    description: `我方全体HP增加20%\n我方全体攻击力增加40%\n自身普攻时，触发「以自身攻击力40%使我方全体攻击者攻击力增加(1回合)」\n\n我方全体攻击者获得「队伍中至少有4名攻击者角色时， 发动《一波带走！》」\n\n《一波带走！》\n攻击力增加110%\n必杀时，触发「以自身攻击力60%使我方站位1攻击力增加(1回合)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `蓄力蓄力！`,
+                    description: `普攻时，触发「使自身攻击力增加12.5%(最多4层)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `来发大的！`,
+                    description: `每经过4回合，触发「使自身攻击力增加75%(最多1层)」\n必杀时，触发「清除自身《来发大的！》的使自身攻击力增加效果」\n普攻时，触发「减少自身《迥转龙卷球！》的使自身攻击力增加效果1层」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `转守为攻！！`,
+                    description: `每经过4回合，触发「使自身造成伤害增加40%(最多1层)」\n必杀时，触发「清除自身《转守为攻！！》的使自身造成伤害增加效果」\n使我方全体造成伤害增加10%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `必杀+ (6潜)`,
+                    description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫麻痹 (12潜)`,
+                    description: `使自身免疫麻痹`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 18.75/22.5/26.25/30/33.75% (Max 4 stacks), then damage the target (353/404/454/505/555% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 18.75% (Max 4 stacks), then damage the target (353% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 22.5% (Max 4 stacks), then damage the target (404% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 26.25% (Max 4 stacks), then damage the target (454% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 30% (Max 4 stacks), then damage the target (505% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Flaming Balls!`,
+                    description: `Gain 4 stacks of buff that increases your Attack Power by 33.75% (Max 4 stacks), then damage the target (555% Attack Power). CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Mega Bash!`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Fight First, Drink Later!`,
+                    description: `Increase the party's HP by 20%.\nIncrease the party's Attack Power by 40%.\nOn Basic Attack, increase allied Attackers' Attack Power by 40% of your Attack Power for 1 turn.\n\nIf there are at least 4 Attackers in your party, give allied Attackers "Give it 110%!"\n\n"Give it 110%!"\nIncrease your Attack Power by 110%\nOn Ultimate Skill, increase the 1st-position ally's Attack Power by 60% of your Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Give it Your All!!`,
+                    description: `On Basic Attack, increase your Attack Power by 12.5 (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `I'm Gonna Buuuuurrsttt!!!`,
+                    description: `After every 4 turns, increase your Attack Power by 75% (Max 1 Stack)\nOn Ultimate Skill, remove "I'm Gonna Buuuuurrsttt!!!'s" Attack Power increase.\nOn Basic Attack, remove one stack of "Flaming Balls!" Attack Power increase.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Offensive Measures!!!!!!`,
+                    description: `After every 4 turns, increase your Damage Output by 40% (Max 1 Stack).\nOn Ultimate Skill, remove "Offensive Measures!!!!!!'s" Attack Power increase.\nIncrease the party's Damage Output by 10%.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Ultimate Skill +`,
+                    description: `Increase your Ultimate Skill Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Paralysis Immunity`,
+                    description: `Gain immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }

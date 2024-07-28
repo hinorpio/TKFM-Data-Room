@@ -6,301 +6,281 @@ export const SkillSet_10024: SkillSet[] =  [
         version: 1,
         lastDate: "",
         remark: {
-            [Locale.tc]: "",
-            [Locale.sc]: "",
-            [Locale.en]: "",
-            [Locale.jp]: "",
-            [Locale.kr]: ""
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
         },
         skill: {
             [Locale.tc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "完全體數據",
-                    description: "HP：3,083,126\nATK：925,513"
-                },
                 [SkillType.SKILL_S]: {
-                    name: "死靈法術：靈魂纏繞",
-                    description: "以自身攻擊力330/376/422/468/514%對目標造成傷害，我方全體普攻傷害增加30/30/40/40/50%(4回合)，敵方全體受到普攻傷害增加0/0/15/20/25%(4回合)，CD: 4"
+                    name: `死靈法術：靈魂纏繞`,
+                    description: `以自身攻擊力330/376/422/468/514%對目標造成傷害，我方全體普攻傷害增加30/30/40/40/50%(4回合)，敵方全體受到普攻傷害增加0/0/15/20/25%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "死靈法術：靈魂纏繞",
-                    description: "以自身攻擊力330%對目標造成傷害，我方全體普攻傷害增加30%(4回合)，CD: 4"
+                    name: `死靈法術：靈魂纏繞`,
+                    description: `以自身攻擊力330%對目標造成傷害，我方全體普攻傷害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "死靈法術：靈魂纏繞",
-                    description: "以自身攻擊力376%對目標造成傷害，我方全體普攻傷害增加30%(4回合)，CD: 4"
+                    name: `死靈法術：靈魂纏繞`,
+                    description: `以自身攻擊力376%對目標造成傷害，我方全體普攻傷害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "死靈法術：靈魂纏繞",
-                    description: "以自身攻擊力422%對目標造成傷害，我方全體普攻傷害增加40%(4回合)，敵方全體受到普攻傷害增加15%(4回合)，CD: 4"
+                    name: `死靈法術：靈魂纏繞`,
+                    description: `以自身攻擊力422%對目標造成傷害，我方全體普攻傷害增加40%(4回合)，敵方全體受到普攻傷害增加15%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "死靈法術：靈魂纏繞",
-                    description: "以自身攻擊力468%對目標造成傷害，我方全體普攻傷害增加40%(4回合)，敵方全體受到普攻傷害增加20%(4回合)，CD: 4"
+                    name: `死靈法術：靈魂纏繞`,
+                    description: `以自身攻擊力468%對目標造成傷害，我方全體普攻傷害增加40%(4回合)，敵方全體受到普攻傷害增加20%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "死靈法術：靈魂纏繞",
-                    description: "以自身攻擊力514%對目標造成傷害，我方全體普攻傷害增加50%(4回合)，敵方全體受到普攻傷害增加25%(4回合)，CD: 4"
+                    name: `死靈法術：靈魂纏繞`,
+                    description: `以自身攻擊力514%對目標造成傷害，我方全體普攻傷害增加50%(4回合)，敵方全體受到普攻傷害增加25%(4回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "虐咒術",
-                    description: "以攻擊力100%對目標造成傷害"
+                    name: `虐咒術`,
+                    description: `以攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: "操靈術：顫慄之夜",
-                    description: "死靈女王 艾莉莎白獲得《死靈士兵強化術》\n我方全體獲得《亡靈附體》\n\n《死靈士兵強化術》\n第1回合，觸發「以自身攻擊力20%使我方全體攻擊者與妨礙者攻擊力增加(1回合)」 \n每經過1回合，觸發「以自身攻擊力20%使我方全體攻擊者與妨礙者攻擊力增加(1回合)」\n每經過4回合，使我方全體攻擊者與妨礙者獲得2個《鬼影之觸》\n\n《鬼影之觸》\n普攻時，追加「以攻擊力40%對目標造成傷害」(4回合)(每次普攻後消除1個鬼影之觸)\n\n《亡靈附體》\n隊伍中至少有3名攻擊者或2名妨礙者時，發動：\n自身攻擊力增加40%\n自身普攻傷害增加40%\n自身必殺時，觸發「使目標受到普攻傷害增加6%(最多4層)」"
+                    name: `操靈術：顫慄之夜`,
+                    description: `死靈女王 艾莉莎白獲得《死靈士兵強化術》\n我方全體獲得《亡靈附體》\n\n《死靈士兵強化術》\n第1回合，觸發「以自身攻擊力20%使我方全體攻擊者與妨礙者攻擊力增加(1回合)」 \n每經過1回合，觸發「以自身攻擊力20%使我方全體攻擊者與妨礙者攻擊力增加(1回合)」\n每經過4回合，使我方全體攻擊者與妨礙者獲得2個《鬼影之觸》\n\n《鬼影之觸》\n普攻時，追加「以攻擊力40%對目標造成傷害」(4回合)(每次普攻後消除1個鬼影之觸)\n\n《亡靈附體》\n隊伍中至少有3名攻擊者或2名妨礙者時，發動：\n自身攻擊力增加40%\n自身普攻傷害增加40%\n自身必殺時，觸發「使目標受到普攻傷害增加6%(最多4層)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "聚靈之力",
-                    description: "自身HP大於50%時，發動「攻擊力增加40%」"
+                    name: `聚靈之力`,
+                    description: `自身HP大於50%時，發動「攻擊力增加40%」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "操靈術：大鬼影之觸",
-                    description: "每經過4回合，使我方全體攻擊者與妨礙者獲得2個《大鬼影之觸》\n\n《大鬼影之觸》\n普攻時，追加「以攻擊力60%對目標造成傷害」(4回合)(每次普攻後消除1個大鬼影之觸)"
+                    name: `操靈術：大鬼影之觸`,
+                    description: `每經過4回合，使我方全體攻擊者與妨礙者獲得2個《大鬼影之觸》\n\n《大鬼影之觸》\n普攻時，追加「以攻擊力60%對目標造成傷害」(4回合)(每次普攻後消除1個大鬼影之觸)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "靈魂撕裂",
-                    description: "普攻時，觸發「使目標受到傷害增加3.5%(最多8層)」"
+                    name: `靈魂撕裂`,
+                    description: `普攻時，觸發「使目標受到傷害增加3.5%(最多8層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "普攻+ (6潛)",
-                    description: "使自身普攻傷害增加10%"
+                    name: `普攻+ (6潛)`,
+                    description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "免疫麻痺 (12潛)",
-                    description: "使自身免疫麻痺"
+                    name: `免疫麻痺 (12潛)`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `死灵法术：灵魂缠绕`,
+                    description: `以自身攻击力330/376/422/468/514%对目标造成伤害，我方全体普攻伤害增加30/30/40/40/50%(4回合)，敌方全体受到普攻伤害增加0/0/15/20/25%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `死灵法术：灵魂缠绕`,
+                    description: `以自身攻击力330%对目标造成伤害，我方全体普攻伤害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `死灵法术：灵魂缠绕`,
+                    description: `以自身攻击力376%对目标造成伤害，我方全体普攻伤害增加30%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `死灵法术：灵魂缠绕`,
+                    description: `以自身攻击力422%对目标造成伤害，我方全体普攻伤害增加40%(4回合)，敌方全体受到普攻伤害增加15%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `死灵法术：灵魂缠绕`,
+                    description: `以自身攻击力468%对目标造成伤害，我方全体普攻伤害增加40%(4回合)，敌方全体受到普攻伤害增加20%(4回合)，CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `死灵法术：灵魂缠绕`,
+                    description: `以自身攻击力514%对目标造成伤害，我方全体普攻伤害增加50%(4回合)，敌方全体受到普攻伤害增加25%(4回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `虐咒术`,
+                    description: `以攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `操灵术：颤栗之夜`,
+                    description: `死灵女王 艾莉莎白获得《死灵士兵强化术》\n我方全体获得《亡灵附体》\n\n《死灵士兵强化术》\n第1回合，触发「以自身攻击力20%使我方全体攻击者与妨碍者攻击力增加(1回合)」 \n每经过1回合，触发「以自身攻击力20%使我方全体攻击者与妨碍者攻击力增加(1回合)」\n每经过4回合，使我方全体攻击者与妨碍者获得2个《鬼影之触》\n\n《鬼影之触》\n普攻时，追加「以攻击力40%对目标造成伤害」(4回合)(每次普攻後消除1个鬼影之触)\n\n《亡灵附体》\n队伍中至少有3名攻击者或2名妨碍者时，发动：\n自身攻击力增加40%\n自身普攻伤害增加40%\n自身必杀时，触发「使目标受到普攻伤害增加6%(最多4层)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `聚灵之力`,
+                    description: `自身HP大於50%时，发动「攻击力增加40%」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `操灵术：大鬼影之触`,
+                    description: `每经过4回合，使我方全体攻击者与妨碍者获得2个《大鬼影之触》\n\n《大鬼影之触》\n普攻时，追加「以攻击力60%对目标造成伤害」(4回合)(每次普攻後消除1个大鬼影之触)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `灵魂撕裂`,
+                    description: `普攻时，触发「使目标受到伤害增加3.5%(最多8层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `普攻+ (6潜)`,
+                    description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `免疫麻痹 (12潜)`,
+                    description: `使自身免疫麻痹`
                 }
             },
             [Locale.en]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (330/376/422/468/514% Attack Power), and increase the Party's Basic Attack Power by 30/30/40/40/50% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 0/0/15/20/25% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target for (330% Attack Power), and increase the Party's Basic Attack Power by 30% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target for (376% Attack Power), and increase the Party's Basic Attack Power by 30% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (422% Attack Power), and increase the Party's Basic Attack Power by 40% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 15% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (468% Attack Power), and increase the Party's Basic Attack Power by 40% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 20% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: `Necromancy: Bound Souls`,
+                    description: `Damage the target (514% Attack Power), and increase the Party's Basic Attack Power by 50% for 4 turns. Increase all enemies' Damage Taken from Basic Attacks by 25% for 4 turns. CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: `Curse Magic`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: `Conjure: Sleepless Nights`,
+                    description: `Give Undead Queen Elizabeth "Undead Soldier Enhancement"\nGive the party "Undead Possession"\n\n"Undead Soldier Enhancement":\nOn the first turn, increase all allied Attackers and Obstructors' Attack Power by 20% of your Attack Power for 1 turn.\nAfter each turn, increase all allied Attackers and Obstructors' Attack Power by 20% of your Attack Power for 1 turn.\nAfter every 4 turns, give all Attackers and Obstructors 2 stacks of "Ghostly Touch".\n\n"Ghostly Touch":\nOn Basic Attack, add the following effect for 4 turns: "Damage the target (40% Attack Power)." When you perform a Basic Attack, lose one stack of "Ghostly Touch".\n\n"Undead Possession":\nIf there are at least 3 Attackers or 2 Obstructors on your team, then...\nIncrease your Attack Power by 40%\nIncrease your Basic Attack Damage by 40%\nOn Ultimate Skill, increase the target's Damage Taken by Basic Attacks by 6% (Max 4 Stacks).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: `Controlled Spirits`,
+                    description: `When your HP is above 50%, increase your Attack Power by 40%.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: `Conjure: Big Ghostly Touch`,
+                    description: `After every 4 turns, give all Attackers and Obstructors 2 stacks of "Big Ghostly Touch".\n\n"Big Ghostly Touch"\nOn Basic Attack, add the following effect for 4 turns: "Damage the target (60% Attack Power)." When you perform a Basic Attack, lose one stack of "Big Ghostly Touch".`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: `Soul Ripper`,
+                    description: `On Basic Attack, increase the target's Damage Taken by 3.5% (Max 8 Stacks).`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: `Normal Attack Up (Self)`,
+                    description: `Increase your Basic Attack Damage by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: `Paralysis Immunity (Self)`,
+                    description: `Gain Paralysis Immunity`
                 }
             },
             [Locale.jp]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             },
             [Locale.kr]: {
-                [SkillType.BASE_STAT]: {
-                    name: "",
-                    description: ""
-                },
                 [SkillType.SKILL_S]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_4]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.SKILL_5]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.ATTACK]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_1]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 },
                 [SkillType.GENERAL_2]: {
-                    name: "",
-                    description: ""
+                    name: ``,
+                    description: ``
                 }
             }
         }
