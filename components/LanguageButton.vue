@@ -22,7 +22,7 @@
               <v-btn block color="transparent" @click="handleSetLanguage('sc')">簡體中文</v-btn>
             </v-list-item-title>
           </v-list-item>
-          <v-list-item>
+          <!-- <v-list-item>
             <v-list-item-title>
               <v-btn block color="transparent" @click="handleSetLanguage('jp')">日本語</v-btn>
             </v-list-item-title>
@@ -31,7 +31,7 @@
             <v-list-item-title>
               <v-btn block color="transparent" @click="handleSetLanguage('kr')">한국어</v-btn>
             </v-list-item-title>
-          </v-list-item>
+          </v-list-item> -->
         </v-list>
       </v-menu>
   </div>

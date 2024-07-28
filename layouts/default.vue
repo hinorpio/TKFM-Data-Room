@@ -27,7 +27,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <download-button />
-      <!-- <language-button /> -->
+      <language-button />
     </v-app-bar>
 
     <v-main :style="{background: '#424242'}">
