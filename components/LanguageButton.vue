@@ -19,7 +19,7 @@
           </v-list-item>
           <v-list-item>
             <v-list-item-title>
-              <v-btn block color="transparent" @click="handleSetLanguage('sc')">簡體中文</v-btn>
+              <v-btn block color="transparent" @click="handleSetLanguage('sc')">简体中文</v-btn>
             </v-list-item-title>
           </v-list-item>
           <!-- <v-list-item>
