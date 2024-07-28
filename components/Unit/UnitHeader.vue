@@ -40,8 +40,8 @@ export default class UnitHeader extends Vue {
 
     strLengthExceedWidth(): boolean{
         const locale = this.$i18n.locale as keyof typeof Locale;
-        const prefixLength = this.unit.prefix?[locale].length : 0;
-        const nameLength = this.unit.name?[locale].length : 0 ;
+        const prefixLength = this.getPrefix().length;
+        const nameLength = this.getName().length;
         var strLength = prefixLength + nameLength
         return (this.$vuetify.breakpoint.name == 'xs' && this.$vuetify.breakpoint.width > 352 && strLength > 7) || (this.$vuetify.breakpoint.width < 352 && strLength > 7)
     }
