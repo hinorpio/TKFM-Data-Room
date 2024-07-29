@@ -23,20 +23,46 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                 skill: {
                     [Locale.tc]: {
                         [SkillType.LEADER]: {
-                            name: "最終兵器少女模式",
+                            name: `最終兵器少女模式`,
                             description: `我方全體攻擊力增加70%\n自身獲得《最終兵器·解放》\n\n《最終兵器·解放》\n第1回合時，觸發「使自身當前必殺技CD減少4回合、必殺技最大CD減少3回合(6回合)、攻擊力增加450%(6回合) 、普攻傷害增加100%(6回合)、必殺技傷害增加100%(6回合)」`
                         },
                         [SkillType.PASSIVE_1]: {
-                            name: "自我學習戰鬥系統",
+                            name: `自我學習戰鬥系統`,
                             description: `攻擊時，觸發「使自身造成傷害增加10%(最多5層)」`
                         },
                         [SkillType.PASSIVE_2]: {
-                            name: "防禦模式。切換",
+                            name: `防禦模式。切換`,
                             description: `防禦時，觸發「以自身最大HP50%對自身施放護盾(3回合)」\n防禦時，觸發「減少自身《自我學習戰鬥系統》的造成傷害增加效果2層」`
                         },
                     },
-                    [Locale.sc]: {},
-                    [Locale.en]: {},
+                    [Locale.sc]: {
+                        [SkillType.LEADER]: {
+                            name: `最终兵器少女模式`,
+                            description: `我方全体攻击力增加70%\n自身获得《最终兵器·解放》\n\n《最终兵器·解放》\n第1回合时，触发「使自身当前必杀技CD减少4回合丶必杀技最大CD减少3回合(6回合)丶攻击力增加450%(6回合) 丶普攻伤害增加100%(6回合)丶必杀技伤害增加100%(6回合)」`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `自我学习战斗系统`,
+                            description: `攻击时，触发「使自身造成伤害增加10%(最多5层)」`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `防御模式。切换`,
+                            description: `防御时，触发「以自身最大HP50%对自身施放护盾(3回合)」\n防御时，触发「减少自身《自我学习战斗系统》的造成伤害增加效果2层」`
+                        },
+                    },
+                    [Locale.en]: {
+                        [SkillType.LEADER]: {
+                            name: `Finality Blaster`,
+                            description: `Increase the party's Attack Power by 70%.\nGain "Final Weapon Unleashed".\n\n"Final Weapon Unleashed"\nOn the first turn, reduce your current Ultimate Skill CD by 4, reduce max Ultimate Skill CD by 3 for 6 turns, increase your Attack Power by 450% for 6 turns, Basic Attack Power by 100% for 6 turns, Ultimate Skill Power by 100% for 6 turns.`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `ML Battle System`,
+                            description: `On Attack, increase your Damage Output by 10% (max 5 stacks).`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `Defense Mode`,
+                            description: `While in Guard Stance, grant yourself a Shield for 50% of your max HP for 3 turns.\nWhile in Guard Stance, reduce 2 stacks of the Damage Output buff provided by "ML Battle System".`
+                        },
+                    },
                     [Locale.jp]: {},
                     [Locale.kr]: {}
                 }
@@ -51,12 +77,22 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                 skill: {
                     [Locale.tc]: {
                         [SkillType.BASE_STAT]: {
-                            name: "完全體數據",
-                            description: "HP與ATK將永久提升10%\n\nHP：3,353,438\nATK：934,149"
+                            name: `完全體數據`,
+                            description: `HP與ATK將永久提升10%\n\n最大生命值：3,353,438\n最大攻擊力：934,149`
                         },
                     },
-                    [Locale.sc]: {},
-                    [Locale.en]: {},
+                    [Locale.sc]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `完全体数据`,
+                            description: `HP与ATK将永久提升10%\n\n最大生命值：3,353,438\n最大攻击力：934,149`
+                        },
+                    },
+                    [Locale.en]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `Maxed Data`,
+                            description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,353,438\nMax ATK：934,149`
+                        },
+                    },
                     [Locale.jp]: {},
                     [Locale.kr]: {}
                 }
@@ -71,16 +107,34 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                 skill: {
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
-                            name: "全域殲滅模式。啟動",
-                            description: "使自身攻擊力增加150%(最多2層)，再以攻擊力100%對目標造成傷害，CD: 4"
+                            name: `全域殲滅模式。啟動`,
+                            description: `使自身攻擊力增加150%(最多2層)，再以攻擊力100%對目標造成傷害，CD: 4`
                         },
                         [SkillType.PASSIVE_3]: {
-                            name: "精神感應機砲。啟動",
-                            description: "攻擊時，觸發「以攻擊力25%對目標進行4次傷害」"
+                            name: `精神感應機砲。啟動`,
+                            description: `攻擊時，觸發「以攻擊力25%對目標進行4次傷害」`
                         },
                     },
-                    [Locale.sc]: {},
-                    [Locale.en]: {},
+                    [Locale.sc]: {
+                        [SkillType.SKILL_S]: {
+                            name: `全域歼灭模式。启动`,
+                            description: `使自身攻击力增加150%(最多2层)，再以攻击力100%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `精神感应机炮。启动`,
+                            description: `攻击时，触发「以攻击力25%对目标进行4次伤害」`
+                        },
+                    },
+                    [Locale.en]: {
+                        [SkillType.SKILL_S]: {
+                            name: `Humungo Bomb`,
+                            description: `Increase your Attack Power by 150% (max 2 stacks), then damage the target (100% Attack Power). CD: 4`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `Mind Sensor Cannon`,
+                            description: `On Attack, damage the target 4 times (25% Attack Power).`
+                        },
+                    },
                     [Locale.jp]: {},
                     [Locale.kr]: {}
                 }
