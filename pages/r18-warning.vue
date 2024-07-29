@@ -33,7 +33,7 @@ export default class R18Warning extends Vue {
 
     decline(): void {
         this.$cookies.set('r18_warning_acknowledged', false); // Store the acknowledgment status in a cookie
-        window.history.go(-1);
+        window.history.go(-2);
     }
 
     mounted(): void {
