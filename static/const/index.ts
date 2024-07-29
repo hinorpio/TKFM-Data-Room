@@ -10,21 +10,18 @@ import * as Event from './event';
 import { NuxtError } from '@nuxt/types';
 
 export const CustomError: {[code in ErrorCode]: NuxtError} = {
-    [ErrorCode.PAGE_NOT_FOUND]: 
-        {
+    [ErrorCode.PAGE_NOT_FOUND]: {
             statusCode: ErrorCode.PAGE_NOT_FOUND,
             message: ErrorMessage.PAGE_NOT_FOUND
-        },
-    [ErrorCode.UNKNOWN_ERROR]: 
-        {
+    },
+    [ErrorCode.UNKNOWN_ERROR]:  {
             statusCode: ErrorCode.UNKNOWN_ERROR,
             message: ErrorMessage.UNKNOWN_ERROR
-        },
-    [ErrorCode.CANNOT_FIND_CHARACTER]: 
-        {
+    },
+    [ErrorCode.CANNOT_FIND_CHARACTER]: {
             statusCode: ErrorCode.CANNOT_FIND_CHARACTER,
             message: ErrorMessage.CANNOT_FIND_CHARACTER
-        },
+    },
 }
 
 export const ElementIcon = General.ElementIcon
