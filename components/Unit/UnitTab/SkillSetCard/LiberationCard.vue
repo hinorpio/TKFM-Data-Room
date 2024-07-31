@@ -29,7 +29,8 @@
                     </v-row>
                     <v-divider class="mt-4"></v-divider>
                     <div v-for="(skillset, key) in showVersion.detail[section].skill[$i18n.locale]" :key="key" class="mb-2">
-                        <general-skill-card class="mb-4" :showVersion="showVersion.detail[section].skill[$i18n.locale]" :skilltype="getSkillType(key)" color="#c60244" />
+                        <skill-card v-if="isSkill(getSkillType(key))" class="mb-4" :showVersion="showVersion.detail[section].skill[$i18n.locale]" />
+                        <general-skill-card v-else-if="!isSkillDetail(getSkillType(key))" class="mb-4" :showVersion="showVersion.detail[section].skill[$i18n.locale]" :skilltype="getSkillType(key)" color="#c60244" />
                     </div>
                 </v-card-text>
             </div>
@@ -41,10 +42,12 @@ import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
 import { LiberationStage, ItemCode, SkillType } from '@/plugins/utils/enums'
 import GeneralSkillCard from "@/components/Unit/UnitTab/SkillSetCard/GeneralSkillCard.vue";
+import SkillCard from '@/components/Unit/UnitTab/SkillSetCard/SkillCard.vue';
 
 @Component({
     components: {
-        GeneralSkillCard
+        GeneralSkillCard,
+        SkillCard
     },
 })
 export default class LiberationCard extends Vue {
@@ -105,6 +108,18 @@ export default class LiberationCard extends Vue {
 
     getSkillType(type: string | number): SkillType{
         return SkillType[type as keyof typeof SkillType]
+    }
+
+    isSkill(skillType: SkillType): boolean {
+        return skillType == SkillType.SKILL_S
+    }
+
+    isSkillDetail(skillType: SkillType): boolean {
+        return skillType == SkillType.SKILL_1 ||
+            skillType == SkillType.SKILL_2 ||
+            skillType == SkillType.SKILL_3 ||
+            skillType == SkillType.SKILL_4 ||
+            skillType == SkillType.SKILL_5 
     }
 }
 

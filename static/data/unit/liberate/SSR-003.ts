@@ -24,6 +24,26 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `劇毒之薔薇`,
+                            description: `使目標受到魔王 伊布力斯的傷害增加5/5/10/10/10%(最多3層)，並以攻擊力388/445/503/560/560%對目標造成傷害，CD: 4 [絆5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `劇毒之薔薇`,
+                            description: `使目標受到魔王 伊布力斯的傷害增加5%(最多3層)，並以攻擊力388%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `劇毒之薔薇`,
+                            description: `使目標受到魔王 伊布力斯的傷害增加5%(最多3層)，並以攻擊力445%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `劇毒之薔薇`,
+                            description: `使目標受到魔王 伊布力斯的傷害增加10%(最多3層)，並以攻擊力503%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `劇毒之薔薇`,
+                            description: `使目標受到魔王 伊布力斯的傷害增加10%(最多3層)，並以攻擊力560%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `劇毒之薔薇`,
                             description: `使目標受到魔王 伊布力斯的傷害增加10%(最多3層)，並以攻擊力560%對目標造成傷害，CD: 3`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -34,6 +54,26 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `剧毒之蔷薇`,
+                            description: `使目标受到魔王 伊布力斯的伤害增加5/5/10/10/10%(最多3层)，并以攻击力388/445/503/560/560%对目标造成伤害，CD: 4 [绊5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `剧毒之蔷薇`,
+                            description: `使目标受到魔王 伊布力斯的伤害增加5%(最多3层)，并以攻击力388%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `剧毒之蔷薇`,
+                            description: `使目标受到魔王 伊布力斯的伤害增加5%(最多3层)，并以攻击力445%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `剧毒之蔷薇`,
+                            description: `使目标受到魔王 伊布力斯的伤害增加10%(最多3层)，并以攻击力503%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `剧毒之蔷薇`,
+                            description: `使目标受到魔王 伊布力斯的伤害增加10%(最多3层)，并以攻击力560%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `剧毒之蔷薇`,
                             description: `使目标受到魔王 伊布力斯的伤害增加10%(最多3层)，并以攻击力560%对目标造成伤害，CD: 3`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -43,6 +83,26 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Poison Rose`,
+                            description: `Increase the target's Damage Taken from Archdemon Iblis by 5/5/10/10/10% (Max 3 Stacks). Damage the target (388/445/503/560/560% Attack Power). CD: 4 [Bond 5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Poison Rose`,
+                            description: `Increase the target's Damage Taken from Archdemon Iblis by 5% (Max 3 Stacks). Damage the target (388% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Poison Rose`,
+                            description: `Increase the target's Damage Taken from Archdemon Iblis by 5% (Max 3 Stacks). Damage the target (445% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Poison Rose`,
+                            description: `Increase the target's Damage Taken from Archdemon Iblis by 10% (Max 3 Stacks). Damage the target (503% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Poison Rose`,
+                            description: `Increase the target's Damage Taken from Archdemon Iblis by 10% (Max 3 Stacks). Damage the target (560% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Poison Rose`,
                             description: `Increase the target's Damage Taken from Archdemon Iblis by 10% (Max 3 Stacks). Damage the target (560% Attack Power). CD: 3`
                         },

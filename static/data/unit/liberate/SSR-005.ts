@@ -96,6 +96,26 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `躍空斷裂破`,
+                            description: `使目標解除防禦狀態，再以攻擊力631/736/840/945/1050%對目標造成傷害，並使自身獲得普攻傷害增加60/70/80/90/100%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `躍空斷裂破`,
+                            description: `使目標解除防禦狀態，再以攻擊力631%對目標造成傷害，並使自身獲得普攻傷害增加60%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `躍空斷裂破`,
+                            description: `使目標解除防禦狀態，再以攻擊力736%對目標造成傷害，並使自身獲得普攻傷害增加70%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `躍空斷裂破`,
+                            description: `使目標解除防禦狀態，再以攻擊力840%對目標造成傷害，並使自身獲得普攻傷害增加80%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `躍空斷裂破`,
+                            description: `使目標解除防禦狀態，再以攻擊力945%對目標造成傷害，並使自身獲得普攻傷害增加90%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `躍空斷裂破`,
                             description: `使目標解除防禦狀態，再以攻擊力1050%對目標造成傷害，並使自身獲得普攻傷害增加100%(3回合)，CD: 6`
                         },
                         [SkillType.LEADER]: {
@@ -110,6 +130,26 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `跃空断裂破`,
+                            description: `使目标解除防御状态，再以攻击力631/736/840/945/1050%对目标造成伤害，并使自身获得普攻伤害增加60/70/80/90/100%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `跃空断裂破`,
+                            description: `使目标解除防御状态，再以攻击力631%对目标造成伤害，并使自身获得普攻伤害增加60%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `跃空断裂破`,
+                            description: `使目标解除防御状态，再以攻击力736%对目标造成伤害，并使自身获得普攻伤害增加70%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `跃空断裂破`,
+                            description: `使目标解除防御状态，再以攻击力840%对目标造成伤害，并使自身获得普攻伤害增加80%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `跃空断裂破`,
+                            description: `使目标解除防御状态，再以攻击力945%对目标造成伤害，并使自身获得普攻伤害增加90%(3回合)，CD: 6`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `跃空断裂破`,
                             description: `使目标解除防御状态，再以攻击力1050%对目标造成伤害，并使自身获得普攻伤害增加100%(3回合)，CD: 6`
                         },
                         [SkillType.LEADER]: {
@@ -123,6 +163,26 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Dive and Destroy`,
+                            description: `Remove the target's Defensive Stance, then damage the target (631/736/840/945/1050% Attack Power). Increase your Basic Attack Power by 60/70/80/90/100% for 3 turns. CD: 6`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Dive and Destroy`,
+                            description: `Remove the target's Defensive Stance, then damage the target (631% Attack Power). Increase your Basic Attack Power by 60% for 3 turns. CD: 6`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Dive and Destroy`,
+                            description: `Remove the target's Defensive Stance, then damage the target (736% Attack Power). Increase your Basic Attack Power by 70% for 3 turns. CD: 6`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Dive and Destroy`,
+                            description: `Remove the target's Defensive Stance, then damage the target (840% Attack Power). Increase your Basic Attack Power by 80% for 3 turns. CD: 6`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Dive and Destroy`,
+                            description: `Remove the target's Defensive Stance, then damage the target (945% Attack Power). Increase your Basic Attack Power by 90% for 3 turns. CD: 6`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Dive and Destroy`,
                             description: `Remove the target's Defensive Stance, then damage the target (1050% Attack Power). Increase your Basic Attack Power by 100% for 3 turns. CD: 6`
                         },

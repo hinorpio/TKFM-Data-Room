@@ -108,6 +108,26 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `全域殲滅模式。啟動`,
+                            description: `使自身攻擊力增加125/130/135/140/150%(最多2層)，再以攻擊力60/70/80/90/100%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `全域殲滅模式。啟動`,
+                            description: `使自身攻擊力增加125%(最多2層)，再以攻擊力60%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `全域殲滅模式。啟動`,
+                            description: `使自身攻擊力增加130%(最多2層)，再以攻擊力70%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `全域殲滅模式。啟動`,
+                            description: `使自身攻擊力增加135%(最多2層)，再以攻擊力80%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `全域殲滅模式。啟動`,
+                            description: `使自身攻擊力增加140%(最多2層)，再以攻擊力90%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `全域殲滅模式。啟動`,
                             description: `使自身攻擊力增加150%(最多2層)，再以攻擊力100%對目標造成傷害，CD: 4`
                         },
                         [SkillType.PASSIVE_3]: {
@@ -118,6 +138,26 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `全域歼灭模式。启动`,
+                            description: `使自身攻击力增加125/130/135/140/150%(最多2层)，再以攻击力60/70/80/90/100%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `全域歼灭模式。启动`,
+                            description: `使自身攻击力增加125%(最多2层)，再以攻击力60%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `全域歼灭模式。启动`,
+                            description: `使自身攻击力增加130%(最多2层)，再以攻击力70%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `全域歼灭模式。启动`,
+                            description: `使自身攻击力增加135%(最多2层)，再以攻击力80%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `全域歼灭模式。启动`,
+                            description: `使自身攻击力增加140%(最多2层)，再以攻击力90%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `全域歼灭模式。启动`,
                             description: `使自身攻击力增加150%(最多2层)，再以攻击力100%对目标造成伤害，CD: 4`
                         },
                         [SkillType.PASSIVE_3]: {
@@ -127,6 +167,26 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Humungo Bomb`,
+                            description: `Increase your Attack Power by 125/130/135/140/150% (max 2 stacks), then damage the target (60/70/80/90/100% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Humungo Bomb`,
+                            description: `Increase your Attack Power by 125% (max 2 stacks), then damage the target (60% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Humungo Bomb`,
+                            description: `Increase your Attack Power by 130% (max 2 stacks), then damage the target (70% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Humungo Bomb`,
+                            description: `Increase your Attack Power by 135% (max 2 stacks), then damage the target (80% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Humungo Bomb`,
+                            description: `Increase your Attack Power by 140% (max 2 stacks), then damage the target (90% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Humungo Bomb`,
                             description: `Increase your Attack Power by 150% (max 2 stacks), then damage the target (100% Attack Power). CD: 4`
                         },

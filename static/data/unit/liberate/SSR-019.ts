@@ -24,6 +24,26 @@ export const LiberateSkillSet_10007: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `大天使之怒`,
+                            description: `以自身攻擊力330/376/422/468/514%對目標造成傷害，並以自身攻擊力399/458/518/578/638%每回合對目標造成傷害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻擊力330%對目標造成傷害，並以自身攻擊力399%每回合對目標造成傷害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻擊力376%對目標造成傷害，並以自身攻擊力458%每回合對目標造成傷害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻擊力422%對目標造成傷害，並以自身攻擊力518%每回合對目標造成傷害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻擊力468%對目標造成傷害，並以自身攻擊力578%每回合對目標造成傷害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `大天使之怒`,
                             description: `以自身攻擊力514%對目標造成傷害，並以自身攻擊力638%每回合對目標造成傷害(1回合)，CD: 4`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -38,6 +58,26 @@ export const LiberateSkillSet_10007: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `大天使之怒`,
+                            description: `以自身攻击力330/376/422/468/514%对目标造成伤害，并以自身攻击力399/458/518/578/638%每回合对目标造成伤害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻击力330%对目标造成伤害，并以自身攻击力399%每回合对目标造成伤害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻击力376%对目标造成伤害，并以自身攻击力458%每回合对目标造成伤害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻击力422%对目标造成伤害，并以自身攻击力518%每回合对目标造成伤害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `大天使之怒`,
+                            description: `以自身攻击力468%对目标造成伤害，并以自身攻击力578%每回合对目标造成伤害(1回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `大天使之怒`,
                             description: `以自身攻击力514%对目标造成伤害，并以自身攻击力638%每回合对目标造成伤害(1回合)，CD: 4`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -51,6 +91,26 @@ export const LiberateSkillSet_10007: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Raging Archangel`,
+                            description: `Damage the target (330/376/422/468/514% Attack Power), then damage the target (399/458/518/578/638% Attack Power) every turn for 1 turn. CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Raging Archangel`,
+                            description: `Damage the target (330% Attack Power), then damage the target (399% Attack Power) every turn for 1 turn. CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Raging Archangel`,
+                            description: `Damage the target (376% Attack Power), then damage the target (458% Attack Power) every turn for 1 turn. CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Raging Archangel`,
+                            description: `Damage the target (422% Attack Power), then damage the target (518% Attack Power) every turn for 1 turn. CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Raging Archangel`,
+                            description: `Damage the target (468% Attack Power), then damage the target (578% Attack Power) every turn for 1 turn. CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Raging Archangel`,
                             description: `Damage the target (514% Attack Power), then damage the target (638% Attack Power) every turn for 1 turn. CD: 4`
                         },

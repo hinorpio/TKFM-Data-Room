@@ -24,6 +24,26 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `烈焰攻心`,
+                            description: `使自身攻擊力增加25/25/25/35/35%(3回合)，造成傷害增加5/5/10/10/10%(3回合)，再以攻擊力393/448/503/503/503%對目標造成傷害，CD: 4 [5絆: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻擊力增加25%(3回合)，造成傷害增加5%(3回合)，再以攻擊力393%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻擊力增加25%(3回合)，造成傷害增加5%(3回合)，再以攻擊力448%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻擊力增加25%(3回合)，造成傷害增加10%(3回合)，再以攻擊力503%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻擊力增加35%(3回合)，造成傷害增加10%(3回合)，再以攻擊力503%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `烈焰攻心`,
                             description: `使自身攻擊力增加35%(3回合)，造成傷害增加10%(3回合)，再以攻擊力503%對目標造成傷害，CD: 3`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -33,6 +53,26 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     },
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻击力增加25/25/25/35/35%(3回合)，造成伤害增加5/5/10/10/10%(3回合)，再以攻击力393/448/503/503/503%对目标造成伤害，CD: 4 [5绊: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻击力增加25%(3回合)，造成伤害增加5%(3回合)，再以攻击力393%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻击力增加25%(3回合)，造成伤害增加5%(3回合)，再以攻击力448%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻击力增加25%(3回合)，造成伤害增加10%(3回合)，再以攻击力503%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `烈焰攻心`,
+                            description: `使自身攻击力增加35%(3回合)，造成伤害增加10%(3回合)，再以攻击力503%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `烈焰攻心`,
                             description: `使自身攻击力增加35%(3回合)，造成伤害增加10%(3回合)，再以攻击力503%对目标造成伤害，CD: 3`
                         },
@@ -44,7 +84,27 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
                             name: `Psychological Flames`,
-                            description: `Increase your Attack Power by 35% for 3 turns. Increase your Damage Output by 20% for 3 turns. Damage the target (503% Attack Power). CD: 3`
+                            description: `Increase your Attack Power by 25/25/25/35/35% for 3 turns. Increase your Damage Output by 5/5/10/10/10% for 3 turns. Damage the target (393/448/503/503/503% Attack Power). CD: 4 [Bond 5: CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Psychological Flames`,
+                            description: `Increase your Attack Power by 25% for 3 turns. Increase your Damage Output by 5% for 3 turns. Damage the target (393% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Psychological Flames`,
+                            description: `Increase your Attack Power by 25% for 3 turns. Increase your Damage Output by 5% for 3 turns. Damage the target (448% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Psychological Flames`,
+                            description: `Increase your Attack Power by 25% for 3 turns. Increase your Damage Output by 10% for 3 turns. Damage the target (503% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Psychological Flames`,
+                            description: `Increase your Attack Power by 35% for 3 turns. Increase your Damage Output by 10% for 3 turns. Damage the target (503% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `Psychological Flames`,
+                            description: `Increase your Attack Power by 35% for 3 turns. Increase your Damage Output by 10% for 3 turns. Damage the target (503% Attack Power). CD: 3`
                         },
                         [SkillType.PASSIVE_1]: {
                             name: `Archdemon Physique`,

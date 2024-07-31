@@ -24,6 +24,26 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `大家加油喔！`,
+                            description: `以自身攻擊力20/20/20/20/25%使我方輔助者攻擊力增加(1回合)，以攻擊力200%對我方全體進行治療，並以自身攻擊力80/85/90/100/110%每回合對我方全體進行治療(5回合)，CD: 5 [絆3+: CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻擊力20%使我方輔助者攻擊力增加(1回合)，以攻擊力200%對我方全體進行治療，並以自身攻擊力80%每回合對我方全體進行治療(5回合)，CD: 5`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻擊力20%使我方輔助者攻擊力增加(1回合)，以攻擊力200%對我方全體進行治療，並以自身攻擊力85%每回合對我方全體進行治療(5回合)，CD: 5`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻擊力20%使我方輔助者攻擊力增加(1回合)，以攻擊力200%對我方全體進行治療，並以自身攻擊力90%每回合對我方全體進行治療(5回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻擊力20%使我方輔助者攻擊力增加(1回合)，以攻擊力200%對我方全體進行治療，並以自身攻擊力100%每回合對我方全體進行治療(5回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `大家加油喔！`,
                             description: `以自身攻擊力25%使我方輔助者攻擊力增加(1回合)，以攻擊力200%對我方全體進行治療，並以自身攻擊力110%每回合對我方全體進行治療(5回合)，CD: 4`
                         },
                         [SkillType.ATTACK]: {
@@ -38,6 +58,26 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `大家加油喔！`,
+                            description: `以自身攻击力20/20/20/20/25%使我方辅助者攻击力增加(1回合)，以攻击力200%对我方全体进行治疗，并以自身攻击力80/85/90/100/110%每回合对我方全体进行治疗(5回合)，CD: 5 [绊3+: CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻击力20%使我方辅助者攻击力增加(1回合)，以攻击力200%对我方全体进行治疗，并以自身攻击力80%每回合对我方全体进行治疗(5回合)，CD: 5`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻击力20%使我方辅助者攻击力增加(1回合)，以攻击力200%对我方全体进行治疗，并以自身攻击力85%每回合对我方全体进行治疗(5回合)，CD: 5`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻击力20%使我方辅助者攻击力增加(1回合)，以攻击力200%对我方全体进行治疗，并以自身攻击力90%每回合对我方全体进行治疗(5回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `大家加油喔！`,
+                            description: `以自身攻击力20%使我方辅助者攻击力增加(1回合)，以攻击力200%对我方全体进行治疗，并以自身攻击力100%每回合对我方全体进行治疗(5回合)，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `大家加油喔！`,
                             description: `以自身攻击力25%使我方辅助者攻击力增加(1回合)，以攻击力200%对我方全体进行治疗，并以自身攻击力110%每回合对我方全体进行治疗(5回合)，CD: 4`
                         },
                         [SkillType.ATTACK]: {
@@ -51,6 +91,26 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Go Team!!`,
+                            description: `Increase allied Supporters' Attack Power for 20/20/20/20/25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 80/85/90/100/110% of your Attack Power every turn for 5 turns. CD: 5 [Bond 3+: CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Go Team!!`,
+                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Go Team!!`,
+                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Go Team!!`,
+                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Go Team!!`,
+                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Go Team!!`,
                             description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
                         },

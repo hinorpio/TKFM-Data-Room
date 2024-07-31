@@ -24,6 +24,26 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `導引之箭矢`,
+                            description: `以攻擊力475/550/625/625/625%對目標造成傷害，並使我方全體攻擊力增加15/15/15/20/25%(最多2層)，CD: 6`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `導引之箭矢`,
+                            description: `以攻擊力475%對目標造成傷害，並使我方全體攻擊力增加15%(最多2層)，CD: 6`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `導引之箭矢`,
+                            description: `以攻擊力550%對目標造成傷害，並使我方全體攻擊力增加15%(最多2層)，CD: 6`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `導引之箭矢`,
+                            description: `以攻擊力625%對目標造成傷害，並使我方全體攻擊力增加15%(最多2層)，CD: 6`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `導引之箭矢`,
+                            description: `以攻擊力625%對目標造成傷害，並使我方全體攻擊力增加20%(最多2層)，CD: 6`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `導引之箭矢`,
                             description: `以攻擊力625%對目標造成傷害，並使我方全體攻擊力增加25%(最多2層)，CD: 6`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -34,6 +54,26 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `导引之箭矢`,
+                            description: `以攻击力475/550/625/625/625%对目标造成伤害，并使我方全体攻击力增加15/15/15/20/25%(最多2层)，CD: 6`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `导引之箭矢`,
+                            description: `以攻击力475%对目标造成伤害，并使我方全体攻击力增加15%(最多2层)，CD: 6`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `导引之箭矢`,
+                            description: `以攻击力550%对目标造成伤害，并使我方全体攻击力增加15%(最多2层)，CD: 6`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `导引之箭矢`,
+                            description: `以攻击力625%对目标造成伤害，并使我方全体攻击力增加15%(最多2层)，CD: 6`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `导引之箭矢`,
+                            description: `以攻击力625%对目标造成伤害，并使我方全体攻击力增加20%(最多2层)，CD: 6`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `导引之箭矢`,
                             description: `以攻击力625%对目标造成伤害，并使我方全体攻击力增加25%(最多2层)，CD: 6`
                         },
                         [SkillType.PASSIVE_1]: {
@@ -43,6 +83,26 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Guided Arrow`,
+                            description: `Damage the target (475/550/625/625/625% Attack Power) and increase allies Attack Power by 15/15/15/20/25% (max 2 stacks). CD: 6`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Guided Arrow`,
+                            description: `Damage the target (475% Attack Power) and increase allies Attack Power by 15% (max 2 stacks). CD: 6`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Guided Arrow`,
+                            description: `Damage the target (550% Attack Power) and increase allies Attack Power by 15% (max 2 stacks). CD: 6`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Guided Arrow`,
+                            description: `Damage the target (625% Attack Power) and increase allies Attack Power by 15% (max 2 stacks). CD: 6`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Guided Arrow`,
+                            description: `Damage the target (625% Attack Power) and increase allies Attack Power by 20% (max 2 stacks). CD: 6`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Guided Arrow`,
                             description: `Damage the target (625% Attack Power) and increase allies Attack Power by 25% (max 2 stacks). CD: 6`
                         },

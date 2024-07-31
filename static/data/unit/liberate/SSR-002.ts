@@ -24,6 +24,26 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `暴戾恣睢`,
+                            description: `使自身攻擊力增加60/80/100/100/100%(3回合)，獲得嘲諷效果(2/2/2/3/3回合)並變為防禦狀態，CD: 4 [絆5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻擊力增加60%(3回合)，獲得嘲諷效果(2回合)並變為防禦狀態，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻擊力增加80%(3回合)，獲得嘲諷效果(2回合)並變為防禦狀態，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻擊力增加100%(3回合)，獲得嘲諷效果(2回合)並變為防禦狀態，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻擊力增加100%(3回合)，獲得嘲諷效果(3回合)並變為防禦狀態，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `暴戾恣睢`,
                             description: `使自身攻擊力增加100%(3回合)，獲得嘲諷效果(3回合)並變為防禦狀態，CD: 3`
                         },
                         [SkillType.ATTACK]: {
@@ -38,6 +58,26 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `暴戾恣睢`,
+                            description: `使自身攻击力增加60/80/100/100/100%(3回合)，获得嘲讽效果(2/2/2/3/3回合)并变为防御状态，CD: 4 [绊5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻击力增加60%(3回合)，获得嘲讽效果(2回合)并变为防御状态，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻击力增加80%(3回合)，获得嘲讽效果(2回合)并变为防御状态，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻击力增加100%(3回合)，获得嘲讽效果(2回合)并变为防御状态，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `暴戾恣睢`,
+                            description: `使自身攻击力增加100%(3回合)，获得嘲讽效果(3回合)并变为防御状态，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `暴戾恣睢`,
                             description: `使自身攻击力增加100%(3回合)，获得嘲讽效果(3回合)并变为防御状态，CD: 3`
                         },
                         [SkillType.ATTACK]: {
@@ -51,6 +91,26 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Brutal Tears`,
+                            description: `Increase your Attack Power by 60/80/100/100/100% for 3 turns. Gain Taunt for 2/2/2/3/3 turns, and enter Guard Stance. CD: 4. [Bond 5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Brutal Tears`,
+                            description: `Increase your Attack Power by 60% for 3 turns. Gain Taunt for 2 turns, and enter Guard Stance. CD: 4.`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Brutal Tears`,
+                            description: `Increase your Attack Power by 80% for 3 turns. Gain Taunt for 2 turns, and enter Guard Stance. CD: 4.`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Brutal Tears`,
+                            description: `Increase your Attack Power by 100% for 3 turns. Gain Taunt for 2 turns, and enter Guard Stance. CD: 4.`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Brutal Tears`,
+                            description: `Increase your Attack Power by 100% for 3 turns. Gain Taunt for 3 turns, and enter Guard Stance. CD: 4.`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Brutal Tears`,
                             description: `Increase your Attack Power by 100% for 3 turns. Gain Taunt for 3 turns, and enter Guard Stance. CD: 3.`
                         },

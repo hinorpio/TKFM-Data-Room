@@ -108,6 +108,26 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.SKILL_S]: {
                             name: `千鶴的全力一擊！`,
+                            description: `使目標受到風屬性傷害增加15/15/15/20/25%(最多2層)，再以自身攻擊力330/376/422/468/514%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `千鶴的全力一擊！`,
+                            description: `使目標受到風屬性傷害增加15%(最多2層)，再以自身攻擊力330%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `千鶴的全力一擊！`,
+                            description: `使目標受到風屬性傷害增加15%(最多2層)，再以自身攻擊力376%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `千鶴的全力一擊！`,
+                            description: `使目標受到風屬性傷害增加15%(最多2層)，再以自身攻擊力422%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `千鶴的全力一擊！`,
+                            description: `使目標受到風屬性傷害增加20%(最多2層)，再以自身攻擊力468%對目標造成傷害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `千鶴的全力一擊！`,
                             description: `使目標受到風屬性傷害增加25%(最多2層)，再以自身攻擊力514%對目標造成傷害，CD: 4`
                         },
                         [SkillType.PASSIVE_3]: {
@@ -118,6 +138,26 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.SKILL_S]: {
                             name: `千鹤的全力一击！`,
+                            description: `使目标受到风属性伤害增加15/15/15/20/25%(最多2层)，再以自身攻击力330/376/422/468/514%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `千鹤的全力一击！`,
+                            description: `使目标受到风属性伤害增加15%(最多2层)，再以自身攻击力330%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `千鹤的全力一击！`,
+                            description: `使目标受到风属性伤害增加15%(最多2层)，再以自身攻击力376%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `千鹤的全力一击！`,
+                            description: `使目标受到风属性伤害增加15%(最多2层)，再以自身攻击力422%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `千鹤的全力一击！`,
+                            description: `使目标受到风属性伤害增加20%(最多2层)，再以自身攻击力468%对目标造成伤害，CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `千鹤的全力一击！`,
                             description: `使目标受到风属性伤害增加25%(最多2层)，再以自身攻击力514%对目标造成伤害，CD: 4`
                         },
                         [SkillType.PASSIVE_3]: {
@@ -127,6 +167,26 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                     },
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
+                            name: `Dawn of the Babe`,
+                            description: `Increase the target's Damage Taken from Wind Damage by 15/15/15/20/25% (max 2 stacks), then damage the target (330/376/422/468/514% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `Dawn of the Babe`,
+                            description: `Increase the target's Damage Taken from Wind Damage by 15% (max 2 stacks), then damage the target (330% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `Dawn of the Babe`,
+                            description: `Increase the target's Damage Taken from Wind Damage by 15% (max 2 stacks), then damage the target (376% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `Dawn of the Babe`,
+                            description: `Increase the target's Damage Taken from Wind Damage by 15% (max 2 stacks), then damage the target (422% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `Dawn of the Babe`,
+                            description: `Increase the target's Damage Taken from Wind Damage by 20% (max 2 stacks), then damage the target (468% Attack Power). CD: 4`
+                        },
+                        [SkillType.SKILL_5]: {
                             name: `Dawn of the Babe`,
                             description: `Increase the target's Damage Taken from Wind Damage by 25% (max 2 stacks), then damage the target (514% Attack Power). CD: 4`
                         },
