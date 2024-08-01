@@ -15,7 +15,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
-import { TagType } from '@/plugins/utils/enums'
+import { TagID, TagType } from '@/plugins/utils/enums'
 import { Tag } from '@/interface/tag';
 import { Unit } from '@/interface/unit';
 import TagSelectTable from "@/components/Recruitment/TagSelectTable.vue";
@@ -32,7 +32,7 @@ export default class RecruitmentPage extends Vue {
     isMounted = false
     tagList: Tag[] = []
     unitList: Unit[] = []
-    selectedTag: number[] = []
+    selectedTag: TagID[] = []
     recruitmentTime = { hours: 9, minutes: '00' }
 
     mounted(): void {

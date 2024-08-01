@@ -171,6 +171,14 @@ export const RarityColor = {
     [Rarity.SSR]: '#efaadd',
 }
 
+export const ElementColor = {
+    [Element.FIRE]: '#F45F34',
+    [Element.WATER]: '#48B4EB',
+    [Element.WIND]: '#54BA71',
+    [Element.LIGHT]: '#EFB26B',
+    [Element.DARK]: '#C390FF',
+}
+
 export const DispatchSkillTypeString = {
     [DispatchSkillType.EMPTY_HAND]: {
         [Locale.tc]: '空手而歸',
