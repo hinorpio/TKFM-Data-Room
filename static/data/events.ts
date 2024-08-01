@@ -4,6 +4,24 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0143',
+            type: EventType.POTENTIAL,
+            startDate: '2024/07/31',
+            endDate: '2023/08/14',
+            color: EventTypeColor.POTENTIAL,
+            name: {
+                [Locale.tc]: `【魔王城夜未眠-復刻-】`,
+                [Locale.sc]: `【魔王城无眠夜-复刻-】`,
+                [Locale.en]: `[Sleepless Palace -Comeback-]`,
+                [Locale.jp]: `「魔王城の眠らぬ夜-復刻-」`,
+                [Locale.kr]: `【마왕성 잠 못 이루는 밤-복각-】`
+            },
+            image: EventBanner.EVENT_0143,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0141',
             type: EventType.POINT,
             startDate: '2024/07/17',
