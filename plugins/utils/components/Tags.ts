@@ -40,7 +40,7 @@ export default {
         return true;
     },
 
-    extractCombination(ids: TagID[]){ // Get all combination of tagIDs e.g. [a, b, c, d] => [[a, b, c], [a, b, d], [a, c, d], ...] 
+    extractCombination(ids: TagID[]): TagID[][]{ // Get all combination of tagIDs e.g. [a, b, c, d] => [[a, b, c], [a, b, d], [a, c, d], ...] 
         const result: TagID[][] = [];
 
         // Get all combinations of 3 elements

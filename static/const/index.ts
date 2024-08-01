@@ -25,6 +25,7 @@ export const CustomError: {[code in ErrorCode]: NuxtError} = {
 }
 
 export const ElementIcon = General.ElementIcon
+export const ElementColor = General.ElementColor
 export const PositionIcon = General.PositionIcon
 export const RarityIcon = General.RarityIcon
 export const RarityColor = General.RarityColor
