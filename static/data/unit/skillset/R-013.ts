@@ -178,56 +178,56 @@ export const SkillSet_10813: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `魔性の魅力`,
+                    description: `毎ターン自分の攻撃力の48.5/55/63/70/77%分味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔性の魅力`,
+                    description: `毎ターン自分の攻撃力の48.5%分味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔性の魅力`,
+                    description: `毎ターン自分の攻撃力の55%分味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔性の魅力`,
+                    description: `毎ターン自分の攻撃力の63%分味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `魔性の魅力`,
+                    description: `毎ターン自分の攻撃力の70%分味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `魔性の魅力`,
+                    description: `毎ターン自分の攻撃力の77%分味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `心奪われる笑顔`,
+                    description: `自分の攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `男？女？`,
+                    description: `味方の光、闇属性メンバーの受けるダメージを10％減少させ、攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `チラリズムのスカート`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `「彼」実は……`,
+                    description: `自分の攻撃力を15%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `どこでもいいよ♡`,
+                    description: `自分の継続型治療効果を20%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `オモチャの専門家(レア調教アイテム↑↑)`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率が少し上昇(Lv2)する(すべてに効果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

@@ -203,15 +203,15 @@ export const SkillSet_10911: SkillSet[] =  [
                 },
                 [SkillType.ATTACK]: {
                     name: `回復の術`,
-                    description: `攻撃力の50％分味方全体に治療を行う`
+                    description: `攻撃力の50%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
                     name: `光の治癒`,
-                    description: `味方の光属性キャラクターが治療を受けるとき、回復HP量を15％増加させる`
+                    description: `味方の光属性キャラクターが治療を受けるとき、回復HP量を15%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `主の贈り物`,
-                    description: `必殺時、50％の確率で効果「毎ターン攻撃力の30％分味方全体に治療を行う（2ターン）」を誘発する`
+                    description: `必殺時、50%の確率で効果「毎ターン攻撃力の30%分味方全体に治療を行う（2ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `聖なる光が輝く`,
@@ -219,7 +219,7 @@ export const SkillSet_10911: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `新しき人となれ`,
-                    description: `7ターン毎に、効果「最大HPの50％分自分に治療を行う」を誘発する`
+                    description: `7ターン毎に、効果「最大HPの50%分自分に治療を行う」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `天性の色魔(ノーマル調教道具↑)`,

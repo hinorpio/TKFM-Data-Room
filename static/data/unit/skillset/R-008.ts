@@ -178,56 +178,56 @@ export const SkillSet_10808: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `シャドウアロー`,
+                    description: `265/298/331/364/397%の攻撃力でターゲットにダメージを与え、効果「攻撃力が10%減少する(3ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `シャドウアロー`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、効果「攻撃力が10%減少する(3ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `シャドウアロー`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、効果「攻撃力が10%減少する(3ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `シャドウアロー`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、効果「攻撃力が10%減少する(3ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `シャドウアロー`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、効果「攻撃力が10%減少する(3ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `シャドウアロー`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、効果「攻撃力が10%減少する(3ターン)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃`,
+                    description: `通常攻撃100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ダークフェアリーの祝福`,
+                    description: `味方の闇属性キャラクターの攻撃力を25%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `頑なな抵抗`,
+                    description: `通常攻撃時、効果「ターゲットの攻撃力を5%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `致命射撃`,
+                    description: `必殺時、効果「ターゲットの攻撃力を5%減少させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精の弓術`,
+                    description: `自分の通常攻撃ダメージを50%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `苛められ体質(レア調教道具↑↑)`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率が少し上昇(Lv2)する(すべてに効果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

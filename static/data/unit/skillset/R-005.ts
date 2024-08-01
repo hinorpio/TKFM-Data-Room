@@ -178,56 +178,56 @@ export const SkillSet_10805: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の魂`,
+                    description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の魂`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の魂`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の魂`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の魂`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の魂`,
+                    description: `514%の攻撃力でターゲットにダメージを与え、さらに75%の確率で沈黙(1ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `鞭打ち`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `闇の抱擁`,
+                    description: `味方の闇属性キャラクターが水属性に攻撃を受けた時、受けるダメージを50%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `溢れ出る色欲`,
+                    description: `攻撃を受けた時、25%の確率で効果「自分の攻撃力を15%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `素手のご奉仕テクニック`,
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `サバスの搾取術`,
+                    description: `4ターン毎に、効果「自分の攻撃力を30%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `淫靡な本性(レア&ノーマル調教道具↑)`,
+                    description: `潜在能力スキル3をアンロック派遣実行時、ノーマル調教道具のダブル獲得確率と、レア調教道具のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

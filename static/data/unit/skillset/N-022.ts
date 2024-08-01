@@ -207,7 +207,7 @@ export const SkillSet_10923: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `風の乱舞`,
-                    description: `味方の風属性キャラクターの最大HPを10%増加させ、攻撃力を10％増加させる`
+                    description: `味方の風属性キャラクターの最大HPを10%増加させ、攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `前足踏み`,

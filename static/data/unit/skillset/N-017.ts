@@ -203,11 +203,11 @@ export const SkillSet_10917: SkillSet[] =  [
                 },
                 [SkillType.ATTACK]: {
                     name: `斬撃`,
-                    description: `75％の攻撃力でターゲットにダメージを与える`
+                    description: `75%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
                     name: `風の激励 `,
-                    description: `味方の風属性キャラクターの攻撃力を10％増加させる`
+                    description: `味方の風属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `盾剣一体`,
@@ -215,7 +215,7 @@ export const SkillSet_10917: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `熟練剣術`,
-                    description: `自分の通常攻撃ダメージを12.5％増加させる`
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `突撃`,

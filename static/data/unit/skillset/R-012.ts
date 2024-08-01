@@ -178,56 +178,56 @@ export const SkillSet_10809: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `怪盗の掟`,
+                    description: `ターゲットが与える通常攻撃ダメージを10/12/12/15/15%、必殺技ダメージを10%減少させ(3ターン)、自分が与える通常攻撃ダメージを10/12/12/15/15%、必殺技ダメージを10%増加させ(3ターン)、さらに自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `怪盗の掟`,
+                    description: `ターゲットが与える通常攻撃ダメージを10%、必殺技ダメージを10%減少させ(3ターン)、自分が与える通常攻撃ダメージを10%、必殺技ダメージを10%増加させ(3ターン)、さらに自分の265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `怪盗の掟`,
+                    description: `ターゲットが与える通常攻撃ダメージを12%、必殺技ダメージを10%減少させ(3ターン)、自分が与える通常攻撃ダメージを12%、必殺技ダメージを10%増加させ(3ターン)、さらに自分の298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `怪盗の掟`,
+                    description: `ターゲットが与える通常攻撃ダメージを12%、必殺技ダメージを10%減少させ(3ターン)、自分が与える通常攻撃ダメージを12%、必殺技ダメージを10%増加させ(3ターン)、さらに自分の331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `怪盗の掟`,
+                    description: `ターゲットが与える通常攻撃ダメージを15%、必殺技ダメージを10%減少させ(3ターン)、自分が与える通常攻撃ダメージを15%、必殺技ダメージを10%増加させ(3ターン)、さらに自分の364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `怪盗の掟`,
+                    description: `ターゲットが与える通常攻撃ダメージを15%、必殺技ダメージを10%減少させ(3ターン)、自分が与える通常攻撃ダメージを15%、必殺技ダメージを10%増加させ(3ターン)、さらに自分の397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `背負い投げ`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `翔風の心`,
+                    description: `味方の風属性キャラクターの攻撃力を20%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ニンジン煙幕弾`,
+                    description: `初期解放通常攻撃時「ターゲットが治療を受けた時、回復HP量を25%減少させ(2ターン)、受ける盾の効果を15%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `興奮状態`,
+                    description: `必殺技攻撃時「自分の攻撃力を20%増加させる(3ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ウサギ魔術`,
+                    description: `通常攻撃ダメージを40%増加させ、必殺技ダメージを20%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `淫らな本性(レア調教アイテム↑↑)`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率が少し上昇(Lv2)する(すべてに効果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

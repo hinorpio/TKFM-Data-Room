@@ -178,56 +178,56 @@ export const SkillSet_10812: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精魔法`,
+                    description: `自分の攻撃力の194/223/251/280/309%分味方全体に治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精魔法`,
+                    description: `自分の攻撃力の194%分味方全体に治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精魔法`,
+                    description: `自分の攻撃力の223%分味方全体に治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精魔法`,
+                    description: `自分の攻撃力の251%分味方全体に治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精魔法`,
+                    description: `自分の攻撃力の280%分味方全体に治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `妖精魔法`,
+                    description: `自分の攻撃力の309%分味方全体に治療を行う[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `回復魔法`,
+                    description: `自分の攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ダークエナジー`,
+                    description: `味方の闇属性キャラクターの攻撃力を10%増加させ、最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `トリック・オア・トリート`,
+                    description: `通常攻撃時、20%の確率で効果「HPが一番低い仲間に自分の攻撃力の35%分治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ハロウィンのイタズラ！`,
+                    description: `必殺技攻撃時、20%の確率で効果「自分の攻撃力を50%増加させる(3ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力回復～！`,
+                    description: `通常攻撃時、20%の確率で効果「自分の必殺技CDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `オナホ妖精（レア調教道具↑↑）`,
+                    description: `派遣実行時、レア調教道具のダブル獲得確率が少し上昇(Lv2)する(すべてに効果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

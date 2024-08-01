@@ -178,56 +178,56 @@ export const SkillSet_10811: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `戦傷医療`,
+                    description: `自分の攻撃力の165/188/211/234/257%分味方全体に治療を行い、HPが一番低い仲間に自分の攻撃力の82.5/94/105.5/117/128.5%分治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `戦傷医療`,
+                    description: `自分の攻撃力の165%分味方全体に治療を行い、HPが一番低い仲間に自分の攻撃力の82.5%分治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `戦傷医療`,
+                    description: `自分の攻撃力の188%分味方全体に治療を行い、HPが一番低い仲間に自分の攻撃力の94%分治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `戦傷医療`,
+                    description: `自分の攻撃力の211%分味方全体に治療を行い、HPが一番低い仲間に自分の攻撃力の105.5%分治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `戦傷医療`,
+                    description: `自分の攻撃力の234%分味方全体に治療を行い、HPが一番低い仲間に自分の攻撃力の117%分治療を行う[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `戦傷医療`,
+                    description: `自分の攻撃力の257%分味方全体に治療を行い、HPが一番低い仲間に自分の攻撃力の128.5%分治療を行う[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `応急処置`,
+                    description: `自分の攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `前線医務官`,
+                    description: `自分の治癒量を50%増加させ、攻撃力を20%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `即断即決`,
+                    description: `通常攻撃時、効果「HPが一番低い仲間に自分の攻撃力の30%分治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `プロのスキル`,
+                    description: `自分の治癒量を15%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `戦場の死生観`,
+                    description: `4ターン毎に、効果「自分の攻撃力を12%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `冷たい美人(経験値ポーション↑↑)`,
+                    description: `派遣実行時、経験値ポーションのダブル獲得確率(Lv2)が少し上昇する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

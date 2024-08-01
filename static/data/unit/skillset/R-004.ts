@@ -178,56 +178,56 @@ export const SkillSet_10804: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `忠義の守護`,
+                    description: `自分の受けるダメージを10/12.5/15/17.5/20%減少させ(2ターン)、挑発効果(2ターン)を得て、防御状態となる[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `忠義の守護`,
+                    description: `自分の受けるダメージを10%減少させ(2ターン)、挑発効果(2ターン)を得て、防御状態となる[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `忠義の守護`,
+                    description: `自分の受けるダメージを12.5%減少させ(2ターン)、挑発効果(2ターン)を得て、防御状態となる[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `忠義の守護`,
+                    description: `自分の受けるダメージを15%減少させ(2ターン)、挑発効果(2ターン)を得て、防御状態となる[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `忠義の守護`,
+                    description: `自分の受けるダメージを17.5%減少させ(2ターン)、挑発効果(2ターン)を得て、防御状態となる[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `忠義の守護`,
+                    description: `自分の受けるダメージを20%減少させ(2ターン)、挑発効果(2ターン)を得て、防御状態となる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `爪攻撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `静かなる水の守護`,
+                    description: `味方の風属性キャラクターが水属性に攻撃を受けた時、受けるダメージを12.5%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `報恩感謝`,
+                    description: `治療を受けた時、効果「毎ターン攻撃力の25%分自分に治療を行う(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `シンプルな喜び`,
+                    description: `自分が治療を受けるとき、回復HP量を12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `感謝の心`,
+                    description: `治療を受けた時、50%の確率で効果「自分の必殺技CDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鋭い嗅覚(手ぶらで帰還↓↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率が少し低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

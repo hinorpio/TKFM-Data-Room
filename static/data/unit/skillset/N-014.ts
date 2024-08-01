@@ -211,7 +211,7 @@ export const SkillSet_10914: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `致死毒`,
-                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を25％減少させる(2ターン)」を誘発する`
+                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を25%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `迅速な蛇行`,

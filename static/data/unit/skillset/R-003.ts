@@ -178,56 +178,56 @@ export const SkillSet_10803: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の炎`,
+                    description: `200%の攻撃力で敵全体にダメージを与え、効果「毎ターン37.5/43.1/48.8/54.4/60.0%の攻撃力でダメージを与える(20ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の炎`,
+                    description: `200%の攻撃力で敵全体にダメージを与え、効果「毎ターン37.5%の攻撃力でダメージを与える(20ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の炎`,
+                    description: `200%の攻撃力で敵全体にダメージを与え、効果「毎ターン43.1%の攻撃力でダメージを与える(20ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の炎`,
+                    description: `200%の攻撃力で敵全体にダメージを与え、効果「毎ターン48.8%の攻撃力でダメージを与える(20ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の炎`,
+                    description: `200%の攻撃力で敵全体にダメージを与え、効果「毎ターン54.4%の攻撃力でダメージを与える(20ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の炎`,
+                    description: `200%の攻撃力で敵全体にダメージを与え、効果「毎ターン60.0%の攻撃力でダメージを与える(20ターン)」を与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の息`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `神炎の加護`,
+                    description: `味方の火属性キャラクターが風属性に攻撃を受けた時、受けるダメージを12.5%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `龍人族の力`,
+                    description: `攻撃時、効果「自分の攻撃力を2%増加させる(15スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `龍の魂`,
+                    description: `自分の必殺技最大CDを1ターン減少させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真龍解放`,
+                    description: `必殺時、効果「自分の攻撃力を20%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `明朗快活(経験値ポーション↑↑)`,
+                    description: `派遣実行時、経験値ポーションのダブル獲得確率が少し上昇(Lv2)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

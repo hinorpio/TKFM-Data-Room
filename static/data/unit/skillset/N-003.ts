@@ -207,19 +207,19 @@ export const SkillSet_10903: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `光の祝福`,
-                    description: `味方の光属性キャラクターの最大HPを10％増加させる`
+                    description: `味方の光属性キャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `自己治療の呪文`,
-                    description: `通常攻撃時、50％の確率で効果「HPを4％回復する」を誘発する`
+                    description: `通常攻撃時、50%の確率で効果「HPを4%回復する」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `防御の呪文`,
-                    description: `自分の防御時のダメージ軽減効果を10％増加させる`
+                    description: `自分の防御時のダメージ軽減効果を10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `マジックアーマー`,
-                    description: `必殺時、効果「自分の受けるダメージを15％減少させる（1ターン）」を誘発する`
+                    description: `必殺時、効果「自分の受けるダメージを15%減少させる（1ターン）」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `天性の色魔(ノーマル調教道具↑)`,

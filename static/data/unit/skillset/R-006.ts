@@ -178,56 +178,56 @@ export const SkillSet_10806: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の193.8/222.5/251.3/280/308.8%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の193.8%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の222.5%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の251.3%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の280%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の308.8%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `回復の音符`,
+                    description: `攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `応援歌`,
+                    description: `味方全体を睡眠無効にし、受けるダメージを10%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治癒力`,
+                    description: `攻撃を受けた時、15%の確率で効果「攻撃力の100%分自分に治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの音符`,
+                    description: `自分に治療をする時、回復HP量を10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `歌の時間`,
+                    description: `4ターン毎に、効果「味方が治療を受けるとき、回復HP量が20%増加する(2ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Happy Ending(購入許可↑↑)`,
+                    description: `潜在能力スキル3をアンロック派遣実行時、購入許可のダブル獲得確率が少し上昇(Lv2)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -461,56 +461,56 @@ export const SkillSet_10806: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の165/188/211/234/257%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の165%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の188%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の211分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の234%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの歌声`,
+                    description: `攻撃力の257%分味方全体に治療を行い、66%の確率でターゲットに睡眠(2ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `回復の音符`,
+                    description: `攻撃力の50%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `応援歌`,
+                    description: `味方全体を睡眠無効にし、受けるダメージを10%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `自己治癒力`,
+                    description: `攻撃を受けた時、15%の確率で効果「攻撃力の100%分自分に治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `癒しの音符`,
+                    description: `自分に治療をする時、回復HP量を10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `歌の時間`,
+                    description: `4ターン毎に、効果「味方が治療を受けるとき、回復HP量が20%増加する(2ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Happy Ending(購入許可↑↑)`,
+                    description: `潜在能力スキル3をアンロック派遣実行時、購入許可のダブル獲得確率が少し上昇(Lv2)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

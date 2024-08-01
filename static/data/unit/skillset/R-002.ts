@@ -178,56 +178,56 @@ export const SkillSet_10802: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・疾風の爪`,
+                    description: `265/398/331/364/397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・疾風の爪`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・疾風の爪`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・疾風の爪`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・疾風の爪`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・疾風の爪`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ひっかき攻撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風の力`,
+                    description: `味方の風属性キャラクターの攻撃力を25%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `深い爪痕`,
+                    description: `攻撃時、50%の確率で効果「ターゲットが受けるダメージを10%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `興奮状態`,
+                    description: `必殺時、効果「自分の通常攻撃ダメージを20%増加させる(3ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `猫体術・二連撃にゃ`,
+                    description: `通常攻撃時、効果「50%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `猫の直感(手ぶらで帰還↓↓)`,
+                    description: `派遣実行時、手ぶらで帰還する確率が少し低下する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

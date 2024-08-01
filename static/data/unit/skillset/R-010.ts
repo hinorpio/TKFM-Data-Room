@@ -178,56 +178,56 @@ export const SkillSet_10810: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `あ...脚で蹴っちゃいますよ!`,
+                    description: `自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `あ...脚で蹴っちゃいますよ!`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `あ...脚で蹴っちゃいますよ!`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `あ...脚で蹴っちゃいますよ!`,
+                    description: `自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `あ...脚で蹴っちゃいますよ!`,
+                    description: `自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `あ...脚で蹴っちゃいますよ!`,
+                    description: `自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `が...がんばってくださいね`,
+                    description: `味方全体の攻撃力を25%増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `たくましい肉体`,
+                    description: `自分の最大HPを40%増加させ、自分の攻撃力を40%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `甘くないお茶`,
+                    description: `通常攻撃時、50%の確率で効果「味方全体の攻撃力を10%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `味のしないスープ`,
+                    description: `攻撃時、20%の確率で効果「自分の攻撃力を35%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `二百馬力`,
+                    description: `自分の最大HPを30%増加させ、攻撃力を30%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `聖水の湧く泉(ノーマル調教装具↑↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率(Lv2)が少し上昇する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

@@ -207,19 +207,19 @@ export const SkillSet_10910: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `光の祝福`,
-                    description: `味方の光属性キャラクターの最大HPを10％増加させる`
+                    description: `味方の光属性キャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `聖光のご加護`,
-                    description: `治療を受けた時、25％の確率で効果「自分に最大HPの8％分盾を張る（4ターン）」を誘発する`
+                    description: `治療を受けた時、25%の確率で効果「自分に最大HPの8%分盾を張る（4ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `賜りし幸福`,
-                    description: `自分が治療を受けるとき、回復HP量を12.5％増加させる`
+                    description: `自分が治療を受けるとき、回復HP量を12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `信仰の回復`,
-                    description: `攻撃を受けた時、効果「自分が治療を受けた時、回復HP量を10％増加させる（1ターン）」を誘発する`
+                    description: `攻撃を受けた時、効果「自分が治療を受けた時、回復HP量を10%増加させる（1ターン）」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `ラッキーガール(手ぶらで帰還↓)`,

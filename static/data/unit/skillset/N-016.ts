@@ -211,15 +211,15 @@ export const SkillSet_10916: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `不屈の意思`,
-                    description: `現在のHPが25％未満の時、効果「攻撃力を30％増加させ、受けるダメージを50％減少する」を発動する`
+                    description: `現在のHPが25%未満の時、効果「攻撃力を30%増加させ、受けるダメージを50%減少する」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `護身術`,
-                    description: `自分の受けるダメージを5％減少させる`
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `守護者の職責`,
-                    description: `治療を受けた時、効果「自分の攻撃力を15％増加させる（1ターン）」を誘発する`
+                    description: `治療を受けた時、効果「自分の攻撃力を15%増加させる（1ターン）」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `堕落した肉体(レア調教道具↑)`,

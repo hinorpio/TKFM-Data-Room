@@ -207,15 +207,15 @@ export const SkillSet_10905: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `火の激励`,
-                    description: `味方の火属性キャラクターの攻撃力を10％増加させる`
+                    description: `味方の火属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `カウンター`,
-                    description: `攻撃を受けた時、25％の確率で効果「自分の100％の攻撃力で反撃する」を誘発する`
+                    description: `攻撃を受けた時、25%の確率で効果「自分の100%の攻撃力で反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `深遠なる刀技`,
-                    description: `自分の通常攻撃ダメージを12.5％増加させる`
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `瓦割り`,
@@ -491,15 +491,15 @@ export const SkillSet_10905: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `火の激励`,
-                    description: `味方の火属性キャラクターの攻撃力を10％増加させる`
+                    description: `味方の火属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `カウンター`,
-                    description: `攻撃を受けた時、25％の確率で効果「自分の100％の攻撃力で反撃する」を誘発する`
+                    description: `攻撃を受けた時、25%の確率で効果「自分の100%の攻撃力で反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `深遠なる刀技`,
-                    description: `自分の通常攻撃ダメージを12.5％増加させる`
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `瓦割り`,
