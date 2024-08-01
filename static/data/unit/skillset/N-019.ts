@@ -203,23 +203,23 @@ export const SkillSet_10922: SkillSet[] =  [
                 },
                 [SkillType.ATTACK]: {
                     name: `猛攻撃`,
-                    description: `100％の攻撃力でターゲットにダメージを与える`
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
                     name: `光の激励`,
-                    description: `味方の光属性キャラクターの攻撃を10％増加させる`
+                    description: `味方の光属性キャラクターの攻撃を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `バトルAI`,
-                    description: `通常攻撃時、効果「自分の攻撃力を1％増加させる（最高50スタック）」を誘発する`
+                    description: `通常攻撃時、効果「自分の攻撃力を1%増加させる（最高50スタック）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `高出力性能`,
-                    description: `自分の通常攻撃ダメージを12.5％増加させる`
+                    description: `自分の通常攻撃ダメージを12.5%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `合金の鉄板`,
-                    description: `自身が受ける通常攻撃ダメージを50％減少させるが、受ける必殺技ダメージが25％増加する`
+                    description: `自身が受ける通常攻撃ダメージを50%減少させるが、受ける必殺技ダメージが25%増加する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `トレジャーハンター（強化素材↑）`,

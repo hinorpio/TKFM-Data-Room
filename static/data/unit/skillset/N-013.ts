@@ -211,7 +211,7 @@ export const SkillSet_10913: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `鉄の意志`,
-                    description: `攻撃を受けた時、効果「自分の受けるダメージを5％減少させる(1ターン)」を誘発する`
+                    description: `攻撃を受けた時、効果「自分の受けるダメージを5%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `強靭な心身`,
@@ -219,7 +219,7 @@ export const SkillSet_10913: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `致死の一撃`,
-                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を50％減少させる(1ターン)」を誘発する`
+                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を50%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `トレジャーハンター(強化素材↑)`,

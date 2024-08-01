@@ -178,56 +178,56 @@ export const SkillSet_10801: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力96.9/111.3/125.6/140/154.4%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力96.9%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力111.3%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力125.6%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力140%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力154.4分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `治療`,
+                    description: `HPが一番低い仲間に攻撃力の150%分治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `闇に抗う意志`,
+                    description: `味方の光属性キャラクターが闇属性に攻撃を受けた時、受けるダメージを50%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `クイック治療`,
+                    description: `通常攻撃時、効果「毎ターンHPが一番低い仲間に、攻撃力の25%分治療を行う(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `優しい後押し`,
+                    description: `1ターン毎に、効果「HPが一番低い仲間が治療を受けるとき、回復HP量が30%増加する(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `思いやりの気持ち`,
+                    description: `必殺時、効果「HPが一番低い仲間の、受けるダメージ上昇、防御ダメージ低下、回復HP量低下効果を解除する」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `堕落した人妻(ノーマル調教道具↑↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率が少し上昇(Lv2)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -461,56 +461,56 @@ export const SkillSet_10801: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力92.8/105.8/118.7/131.6/144.6%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力92.8%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力105.8%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力118.7%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力131.6%分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `真摯なる守護`,
+                    description: `HPが一番低い仲間に攻撃力の165%分治療を行い、効果「毎ターン自分の攻撃力144.6分治療を行い(4ターン)、受けるダメージを15%減少させる(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `治療`,
+                    description: `HPが一番低い仲間に攻撃力の100%分治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `闇に抗う意志`,
+                    description: `味方の光属性キャラクターが闇属性に攻撃を受けた時、受けるダメージを50%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `クイック治療`,
+                    description: `通常攻撃時、効果「毎ターンHPが一番低い仲間に、攻撃力の25%分治療を行う(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `優しい後押し`,
+                    description: `1ターン毎に、効果「HPが一番低い仲間が治療を受けるとき、回復HP量が30%増加する(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `思いやりの気持ち`,
+                    description: `必殺時、効果「HPが一番低い仲間の、受けるダメージ上昇、防御ダメージ低下、回復HP量低下効果を解除する」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `堕落した人妻(ノーマル調教道具↑↑)`,
+                    description: `派遣実行時、ノーマル調教道具のダブル獲得確率が少し上昇(Lv2)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

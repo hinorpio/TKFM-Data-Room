@@ -178,56 +178,56 @@ export const SkillSet_10807: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力爆発`,
+                    description: `330/353/373/399/422%の攻撃力でターゲットにダメージを与え、自分の攻撃力を10%増加させる(最高3スタック)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力爆発`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、自分の攻撃力を10%増加させる(最高3スタック)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力爆発`,
+                    description: `353%の攻撃力でターゲットにダメージを与え、自分の攻撃力を10%増加させる(最高3スタック)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力爆発`,
+                    description: `373%の攻撃力でターゲットにダメージを与え、自分の攻撃力を10%増加させる(最高3スタック)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力爆発`,
+                    description: `399%の攻撃力でターゲットにダメージを与え、自分の攻撃力を10%増加させる(最高3スタック)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力爆発`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、自分の攻撃力を10%増加させる(最高3スタック)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `火球術`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `炎増幅の魔法陣`,
+                    description: `味方の火属性キャラクターの攻撃力を25%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力の詠動`,
+                    description: `攻撃時、25%の確率で効果「自分の攻撃力を30%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力集中術`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `タイムフォールド`,
+                    description: `必殺時、50%の確率で効果「自分の必殺技CDを2ターン減少させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `研究のため(強化素材↑↑)`,
+                    description: `派遣実行時、強化素材のダブル獲得確率が少し上昇(Lv2)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

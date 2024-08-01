@@ -207,15 +207,15 @@ export const SkillSet_10901: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `闇の祝福`,
-                    description: `味方の闇属性のキャラクターの最大HPを10％増加させる`
+                    description: `味方の闇属性のキャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `攻守切替`,
-                    description: `通常攻撃時、50％の確率で効果「自分を防御状態にする」を誘発する`
+                    description: `通常攻撃時、50%の確率で効果「自分を防御状態にする」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `フォス帝国の防衛術`,
-                    description: `自分の防御時ダメージ軽減効果を10％増加させる`
+                    description: `自分の防御時ダメージ軽減効果を10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `クイックサポート`,

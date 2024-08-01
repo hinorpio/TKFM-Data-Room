@@ -179,27 +179,27 @@ export const SkillSet_10921: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `的確な狙撃`,
-                    description: `自分の攻撃力を10/15/20/25/30％増加させ(1ターン)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分の攻撃力を10/15/20/25/30%増加させ(1ターン)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `的確な狙撃`,
-                    description: `自分の攻撃力を10％増加させ(1ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分の攻撃力を10%増加させ(1ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
                     name: `的確な狙撃`,
-                    description: `自分の攻撃力を15％増加させ(1ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分の攻撃力を15%増加させ(1ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
                     name: `的確な狙撃`,
-                    description: `自分の攻撃力を20％増加させ(1ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分の攻撃力を20%増加させ(1ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
                     name: `的確な狙撃`,
-                    description: `自分の攻撃力を25％増加させ(1ターン)、468%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分の攻撃力を25%増加させ(1ターン)、468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
                     name: `的確な狙撃`,
-                    description: `自分の攻撃力を30％増加させ(1ターン)、514%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分の攻撃力を30%増加させ(1ターン)、514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
                     name: `一点狙い`,
@@ -207,7 +207,7 @@ export const SkillSet_10921: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `地獄の料理人`,
-                    description: `味方全体の受けるダメージを10％減少させる`
+                    description: `味方全体の受けるダメージを10%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `弱点暴露`,

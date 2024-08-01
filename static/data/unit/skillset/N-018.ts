@@ -207,19 +207,19 @@ export const SkillSet_10918: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `水の激励`,
-                    description: `味方の水属性キャラクターの攻撃力を10％増加させる`
+                    description: `味方の水属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `呪文詠唱`,
-                    description: `通常攻撃時、効果「自分の必殺技ダメージを5％増加させる（最高6スタック）」を誘発する`
+                    description: `通常攻撃時、効果「自分の必殺技ダメージを5%増加させる（最高6スタック）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `エキスパート高等魔法`,
-                    description: `自分の必殺技ダメージを10％増加させる`
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `詠唱の護り`,
-                    description: `攻撃時、効果「攻撃力の50％分自分に盾を張る（4ターン）」を誘発する`
+                    description: `攻撃時、効果「攻撃力の50%分自分に盾を張る（4ターン）」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `ラッキーガール(手ぶらで帰還↓)`,

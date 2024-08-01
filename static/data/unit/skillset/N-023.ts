@@ -207,7 +207,7 @@ export const SkillSet_10924: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `闇の乱舞`,
-                    description: `味方の闇属性キャラクターの最大HPを10%増加させ、攻撃力を10％増加させる`
+                    description: `味方の闇属性キャラクターの最大HPを10%増加させ、攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `アンデッド`,

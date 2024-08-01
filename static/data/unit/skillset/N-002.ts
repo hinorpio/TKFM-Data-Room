@@ -207,19 +207,19 @@ export const SkillSet_10902: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `光の激励`,
-                    description: `味方の光属性キャラクターの攻撃力を10％増加させる`
+                    description: `味方の光属性キャラクターの攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `魔道具`,
-                    description: `攻撃時、25％の確率で効果「自分の攻撃力を15％増加させる（4ターン）」を誘発する`
+                    description: `攻撃時、25%の確率で効果「自分の攻撃力を15%増加させる（4ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `魔力増幅器`,
-                    description: `自分の必殺技ダメージを10％増加させる`
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `パワーエクスプロージョン`,
-                    description: `5ターン毎に、効果「自分の攻撃力を30％増加させる（1ターン）」を誘発する`
+                    description: `5ターン毎に、効果「自分の攻撃力を30%増加させる（1ターン）」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `命よりも大事なお金(購入許可↑)`,

@@ -207,15 +207,15 @@ export const SkillSet_10909: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `火の祝福`,
-                    description: `味方の火属性キャラクターの最大HPを10％増加させる`
+                    description: `味方の火属性キャラクターの最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `機銃攻撃`,
-                    description: `攻撃を受けた時、25％の確率で効果「目標の攻撃力を10％減少させる（2ターン）」を誘発する`
+                    description: `攻撃を受けた時、25%の確率で効果「目標の攻撃力を10%減少させる（2ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `守護強化`,
-                    description: `自分の防御時のダメージ軽減効果を10％増加させる`
+                    description: `自分の防御時のダメージ軽減効果を10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `余裕を持った準備`,

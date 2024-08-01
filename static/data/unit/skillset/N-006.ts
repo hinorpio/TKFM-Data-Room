@@ -203,23 +203,23 @@ export const SkillSet_10906: SkillSet[] =  [
                 },
                 [SkillType.ATTACK]: {
                     name: `水の癒やし`,
-                    description: `HPが一番低い仲間に攻撃力の100％分治療を行う`
+                    description: `HPが一番低い仲間に攻撃力の100%分治療を行う`
                 },
                 [SkillType.LEADER]: {
                     name: `風の治癒`,
-                    description: `味方の風属性キャラクターが治療を受けるとき、回復HP量を15％増加させる`
+                    description: `味方の風属性キャラクターが治療を受けるとき、回復HP量を15%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `陰陽術・火の精霊`,
-                    description: `攻撃時、効果「味方全体の攻撃力を5％増加させる（2ターン）」を誘発する`
+                    description: `攻撃時、効果「味方全体の攻撃力を5%増加させる（2ターン）」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `ウンディーネの祝福`,
-                    description: `自分に治療をする時、回復HP量を10％増加させる`
+                    description: `自分に治療をする時、回復HP量を10%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `神道術・憑依`,
-                    description: `4ターン毎に、効果「自分の攻撃力を7.5％増加させる（最高4スタック）を誘発する`
+                    description: `4ターン毎に、効果「自分の攻撃力を7.5%増加させる（最高4スタック）を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `ラッキーガール(手ぶらで帰還↓)`,
