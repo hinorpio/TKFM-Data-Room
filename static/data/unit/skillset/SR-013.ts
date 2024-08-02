@@ -177,56 +177,56 @@ export const SkillSet_10046: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `狙い刺し`,
+                    description: `265/298/331/364%の攻撃力でターゲットにダメージを与える、ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)[CD:3]\n\nLv5: ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)、397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `狙い刺し`,
+                    description: `265%の攻撃力でターゲットにダメージを与える、ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `狙い刺し`,
+                    description: `298%の攻撃力でターゲットにダメージを与える、ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `狙い刺し`,
+                    description: `331%の攻撃力でターゲットにダメージを与える、ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `狙い刺し`,
+                    description: `364%の攻撃力でターゲットにダメージを与える、ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `狙い刺し`,
+                    description: `ターゲットの防御によるダメージ減少効果を15%減少させ(3ターン)、397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `刺突`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `超天然突撃`,
+                    description: `自分の攻撃力を50%増加させ、さらに効果「攻撃時に『ターゲットの挑発を解除する』を誘発する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `弱点発見`,
+                    description: `必殺技攻撃時、効果「ターゲットが受けるガヴィルのダメージを15%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `正面突破`,
+                    description: `1ターン目開始時、効果「味方全体が防御中のターゲットに与えるダメージを100%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `愚かな笑み`,
+                    description: `自分の攻撃力を30%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

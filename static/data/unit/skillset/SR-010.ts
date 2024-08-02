@@ -177,56 +177,56 @@ export const SkillSet_10038: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺・魔法少女ビーム！`,
+                    description: `ターゲットが受ける光属性ダメージを30%増加(最高1スタック)させ、自分の445/514/583/652/721%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺・魔法少女ビーム！`,
+                    description: `ターゲットが受ける光属性ダメージを30%増加(最高1スタック)させ、自分の445%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺・魔法少女ビーム！`,
+                    description: `ターゲットが受ける光属性ダメージを30%増加(最高1スタック)させ、自分の514%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺・魔法少女ビーム！`,
+                    description: `ターゲットが受ける光属性ダメージを30%増加(最高1スタック)させ、自分の583%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺・魔法少女ビーム！`,
+                    description: `ターゲットが受ける光属性ダメージを30%増加(最高1スタック)させ、自分の652%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺・魔法少女ビーム！`,
+                    description: `ターゲットが受ける光属性ダメージを30%増加(最高1スタック)させ、自分の721%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `魔法少女旋風剣！`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `愛と希望の光！`,
+                    description: `味方の光属性メンバーの攻撃力を30%増加させ、自分の必殺技ダメージを25%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `光の制裁！`,
+                    description: `必殺時、50%の確率で効果「自分の必殺技CDを2ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `正義は屈しない！`,
+                    description: `必殺時、効果「自分の必殺ダメージを40%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔法少女のオーラ！`,
+                    description: `必殺時、効果「敵全体が受ける光属性ダメージを20%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

@@ -222,7 +222,7 @@ export const SkillSet_10907: SkillSet[] =  [
                     description: `毎Waveの1ターン目に、効果「自分の必殺技CDを2ターン減少する」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `トレジャーハンター（強化素材↑）`,
+                    name: `トレジャーハンター(強化素材↑)`,
                     description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {

@@ -177,56 +177,56 @@ export const SkillSet_10051: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `封印されし力`,
+                    description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、ターゲットの通常攻撃ダメージを60/80/100/100/200%減少させる[Lv1-3: (1ターン)][Lv4-5: (効果は3ターン内に次第に減少)][CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `封印されし力`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、ターゲットの通常攻撃ダメージを60%減少させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `封印されし力`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、ターゲットの通常攻撃ダメージを80%減少させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `封印されし力`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、ターゲットの通常攻撃ダメージを100%減少させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `封印されし力`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、ターゲットの通常攻撃ダメージを100%減少させる(効果は3ターン内に次第に減少)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `封印されし力`,
+                    description: `514%の攻撃力でターゲットにダメージを与え、ターゲットの通常攻撃ダメージを200%減少させる(効果は3ターン内に次第に減少)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `銀龍の爪`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `封印の儀式`,
+                    description: `味方全体が「攻撃時、効果『ターゲットが与える必殺技ダメージを10%減少させる(1ターン)』を誘発する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `第一封印`,
+                    description: `通常攻撃時、効果「ターゲットが与える通常攻撃ダメージを20%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `第二封印`,
+                    description: `攻撃時、効果「ターゲットの攻撃力を15%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `最終封印`,
+                    description: `5ターン毎に、効果「攻撃時、効果『ターゲットが与えるダメージを12.5%減少させる(最高2スタック)」を誘発する』を誘発する(1ターン)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

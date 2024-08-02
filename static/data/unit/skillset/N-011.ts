@@ -211,7 +211,7 @@ export const SkillSet_10911: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `主の贈り物`,
-                    description: `必殺時、50%の確率で効果「毎ターン攻撃力の30%分味方全体に治療を行う（2ターン）」を誘発する`
+                    description: `必殺時、50%の確率で効果「毎ターン攻撃力の30%分味方全体に治療を行う(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `聖なる光が輝く`,

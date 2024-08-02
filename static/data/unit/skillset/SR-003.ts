@@ -177,56 +177,56 @@ export const SkillSet_10011: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の95/110/125/140/155%分味方全体に治療を行い、攻撃力の120/138/156/174/192%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の95%分味方全体に治療を行い、攻撃力の120%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の110%分味方全体に治療を行い、攻撃力の138%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の125%分味方全体に治療を行い、攻撃力の156%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の140%分味方全体に治療を行い、攻撃力の174%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の155%分味方全体に治療を行い、攻撃力の192%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `守護術`,
+                    description: `攻撃力の50%分味方全体に盾を張る(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `怪我防止のお祈り`,
+                    description: `味方全体の盾効果を30%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `治療の名手`,
+                    description: `通常攻撃時、効果「毎ターン攻撃力の15%分味方全体に治療(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `主のご加護`,
+                    description: `攻撃を受けた時、効果「自分の受けるダメージを10%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `聖日の到来`,
+                    description: `自分の盾効果を30%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10011: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の66/75.9/85.8/95.7/105.6%分味方全体に治療を行い、攻撃力の101.6/116.9/132.1/147.4/162.6%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の66%分味方全体に治療を行い、攻撃力の101.6%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の75.9%分味方全体に治療を行い、攻撃力の116.9%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の85.8%分味方全体に治療を行い、攻撃力の132.1%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の95.7%分味方全体に治療を行い、攻撃力の147.4%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神が与えし祝福`,
+                    description: `攻撃力の105.6%分味方全体に治療を行い、攻撃力の162.6%分味方全体に盾を張る(2ターン)[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `守護術`,
+                    description: `攻撃力の38.5%分味方全体に盾を張る(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `怪我防止のお祈り`,
+                    description: `味方全体の盾効果を30%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `治療の名手`,
+                    description: `通常攻撃時、効果「毎ターン攻撃力の15%分味方全体に治療(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `主のご加護`,
+                    description: `攻撃を受けた時、効果「自分の受けるダメージを10%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `聖日の到来`,
+                    description: `自分の盾効果を30%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

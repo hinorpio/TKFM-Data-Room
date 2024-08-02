@@ -177,56 +177,56 @@ export const SkillSet_10013: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `266/282/298/315/331%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `266%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `282%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `315%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ぶった斬り`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `神技・弱点看破`,
+                    description: `毎Waveの1ターン目に、効果「ターゲットの受けるダメージを30%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神無流・追い斬り`,
+                    description: `通常攻撃時、効果「攻撃時、30%の攻撃力でターゲットに追撃を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神無流・鉄裂き`,
+                    description: `攻撃時、効果「ターゲットの受けるダメージを5%増加させる(5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `豪・気・千・万`,
+                    description: `攻撃時、効果「自分の攻撃力を6%増加させる(5スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10013: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `265/298/331/364/397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・一撃滅刹`,
+                    description: `397%の攻撃力でターゲットにダメージを与え、効果「受けるダメージが10%増加する(最高3スタック)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ぶった斬り`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `神技・弱点看破`,
+                    description: `毎Waveの1ターン目に、効果「ターゲットの受けるダメージを30%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神無流・追い斬り`,
+                    description: `通常攻撃時、効果「攻撃時、30%の攻撃力でターゲットに追撃を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神無流・鉄裂き`,
+                    description: `攻撃時、効果「ターゲットの受けるダメージを5%増加させる(5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `豪・気・千・万`,
+                    description: `攻撃時、効果「自分の攻撃力を6%増加させる(5スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10010: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光の守護`,
+                    description: `自分に最大HPの37.9/42.6/47.3/52.0/56.7%分盾を張って(1ターン)、挑発を得て(1ターン)防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光の守護`,
+                    description: `自分に最大HPの37.9%分盾を張って(1ターン)、挑発を得て(1ターン)防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光の守護`,
+                    description: `自分に最大HPの42.6%分盾を張って(1ターン)、挑発を得て(1ターン)防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光の守護`,
+                    description: `自分に最大HPの47.3%分盾を張って(1ターン)、挑発を得て(1ターン)防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光の守護`,
+                    description: `自分に最大HPの52.0%分盾を張って(1ターン)、挑発を得て(1ターン)防御状態になる[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光の守護`,
+                    description: `自分に最大HPの56.7%分盾を張って(1ターン)、挑発を得て(1ターン)防御状態になる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `斬撃`,
+                    description: `50%の攻撃力でターゲットにダメージを与え、自分に最大HPの56.7%分盾を張る(2ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `先頭に立つ聖騎士団長`,
+                    description: `レオナの最大HPを15%増加させ、必殺技CDを1ターン減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `恐れを知らない心`,
+                    description: `自分の受けるダメージを10%減少させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `不退転`,
+                    description: `最大HPを15%増加させ、治療を受けた時、回復HP量を15%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `聖光騎士団の盾`,
+                    description: `現在のHPが25%未満の時、効果「受けるダメージが75%減少する」を発動する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

@@ -211,7 +211,7 @@ export const SkillSet_10922: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `バトルAI`,
-                    description: `通常攻撃時、効果「自分の攻撃力を1%増加させる（最高50スタック）」を誘発する`
+                    description: `通常攻撃時、効果「自分の攻撃力を1%増加させる(最高50スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `高出力性能`,
@@ -222,7 +222,7 @@ export const SkillSet_10922: SkillSet[] =  [
                     description: `自身が受ける通常攻撃ダメージを50%減少させるが、受ける必殺技ダメージが25%増加する`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `トレジャーハンター（強化素材↑）`,
+                    name: `トレジャーハンター(強化素材↑)`,
                     description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {

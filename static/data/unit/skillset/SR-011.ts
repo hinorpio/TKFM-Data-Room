@@ -177,56 +177,56 @@ export const SkillSet_10061: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `あらあら`,
+                    description: `自分が防御状態になり、味方全体の受けるダメージを50%減少させ(1ターン)、味方全体が「攻撃を受けた時、『自分の受けるダメージを25/22.5/20/17.5/15%増加させる(1ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `あらあら`,
+                    description: `自分が防御状態になり、味方全体の受けるダメージを50%減少させ(1ターン)、味方全体が「攻撃を受けた時、『自分の受けるダメージを25%増加させる(1ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `あらあら`,
+                    description: `自分が防御状態になり、味方全体の受けるダメージを50%減少させ(1ターン)、味方全体が「攻撃を受けた時、『自分の受けるダメージを22.5%増加させる(1ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `あらあら`,
+                    description: `自分が防御状態になり、味方全体の受けるダメージを50%減少させ(1ターン)、味方全体が「攻撃を受けた時、『自分の受けるダメージを20%増加させる(1ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `あらあら`,
+                    description: `自分が防御状態になり、味方全体の受けるダメージを50%減少させ(1ターン)、味方全体が「攻撃を受けた時、『自分の受けるダメージを17.5%増加させる(1ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `あらあら`,
+                    description: `自分が防御状態になり、味方全体の受けるダメージを50%減少させ(1ターン)、味方全体が「攻撃を受けた時、『自分の受けるダメージを15%増加させる(1ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `蹄攻撃`,
+                    description: `現在の敵ターゲットに自分の攻撃力の100%分ダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ママが守ってあげる`,
+                    description: `味方全体の最大HPを50%増加させ、味方全体の盾の効果を50%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `コラーゲン`,
+                    description: `防御時、「最大HPの10%分自分の体力を回復する」を誘発する。`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `母性発揮`,
+                    description: `攻撃を受けた時、「味方全体が受ける通常攻撃ダメージを2.5%減少させる(最大4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `精力旺盛`,
+                    description: `自分の最大HPを30%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

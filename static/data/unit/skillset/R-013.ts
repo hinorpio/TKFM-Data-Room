@@ -207,7 +207,7 @@ export const SkillSet_10813: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `男？女？`,
-                    description: `味方の光、闇属性メンバーの受けるダメージを10％減少させ、攻撃力を10%増加させる`
+                    description: `味方の光、闇属性メンバーの受けるダメージを10%減少させ、攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `チラリズムのスカート`,

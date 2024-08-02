@@ -211,7 +211,7 @@ export const SkillSet_10909: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `機銃攻撃`,
-                    description: `攻撃を受けた時、25%の確率で効果「目標の攻撃力を10%減少させる（2ターン）」を誘発する`
+                    description: `攻撃を受けた時、25%の確率で効果「目標の攻撃力を10%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `守護強化`,

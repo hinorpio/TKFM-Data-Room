@@ -219,7 +219,7 @@ export const SkillSet_10903: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `マジックアーマー`,
-                    description: `必殺時、効果「自分の受けるダメージを15%減少させる（1ターン）」を誘発する`
+                    description: `必殺時、効果「自分の受けるダメージを15%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `天性の色魔(ノーマル調教道具↑)`,

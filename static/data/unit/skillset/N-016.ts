@@ -219,7 +219,7 @@ export const SkillSet_10916: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `守護者の職責`,
-                    description: `治療を受けた時、効果「自分の攻撃力を15%増加させる（1ターン）」を誘発する`
+                    description: `治療を受けた時、効果「自分の攻撃力を15%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
                     name: `堕落した肉体(レア調教道具↑)`,

@@ -222,7 +222,7 @@ export const SkillSet_10923: SkillSet[] =  [
                     description: `攻撃時「自分の攻撃力を5%増加させる(6ターン)」を誘発する`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `トレジャーハンター（強化素材↑）`,
+                    name: `トレジャーハンター(強化素材↑)`,
                     description: `派遣実行時、強化素材のダブル獲得確率がわずかに上昇(Lv1)する(全エリアで効果あり)`
                 },
                 [SkillType.GENERAL_2]: {

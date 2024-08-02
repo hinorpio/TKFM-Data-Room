@@ -177,56 +177,56 @@ export const SkillSet_10016: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `第108計・全軍撃破`,
+                    description: `133/149/166/166/166%の攻撃力で敵全体にダメージを与え、さらに効果「必殺技CDを1ターン増加させ、攻撃力を15/15/15/20/20%減少させ(1ターン)、必殺技を受けた時のダメージを15/15/15/15/20%増加させる(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `第108計・全軍撃破`,
+                    description: `133%の攻撃力で敵全体にダメージを与え、さらに効果「必殺技CDを1ターン増加させ、攻撃力を15%減少させ(1ターン)、必殺技を受けた時のダメージを15%増加させる(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `第108計・全軍撃破`,
+                    description: `149%の攻撃力で敵全体にダメージを与え、さらに効果「必殺技CDを1ターン増加させ、攻撃力を15%減少させ(1ターン)、必殺技を受けた時のダメージを15%増加させる(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `第108計・全軍撃破`,
+                    description: `166%の攻撃力で敵全体にダメージを与え、さらに効果「必殺技CDを1ターン増加させ、攻撃力を15%減少させ(1ターン)、必殺技を受けた時のダメージを15%増加させる(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `第108計・全軍撃破`,
+                    description: `166%の攻撃力で敵全体にダメージを与え、さらに効果「必殺技CDを1ターン増加させ、攻撃力を20%減少させ(1ターン)、必殺技を受けた時のダメージを15%増加させる(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `第108計・全軍撃破`,
+                    description: `166%の攻撃力で敵全体にダメージを与え、さらに効果「必殺技CDを1ターン増加させ、攻撃力を20%減少させ(1ターン)、必殺技を受けた時のダメージを20%増加させる(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `魔光刃`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `第26計・波状攻撃`,
+                    description: `自分に効果「3ターン毎に味方全体の攻撃力を50%増加させる(1ターン)」を与える`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `看破`,
+                    description: `通常攻撃時、効果「敵全体の攻撃力を5%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `後続バトル配置最適化`,
+                    description: `攻撃時、効果「味方が治療を受けた時、回復HP量を22.5%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `第27計・波動追撃`,
+                    description: `3ターン毎に、効果「敵全体の受けるダメージを25%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10012: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `敵全体に効果「受けるダメージが20%増加する(1ターン)」を与え、さらに133/149/166/182/199%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `敵全体に効果「受けるダメージが20%増加する(1ターン)」を与え、さらに133%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `敵全体に効果「受けるダメージが20%増加する(1ターン)」を与え、さらに149%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `敵全体に効果「受けるダメージが20%増加する(1ターン)」を与え、さらに166%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `敵全体に効果「受けるダメージが20%増加する(1ターン)」を与え、さらに182%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `敵全体に効果「受けるダメージが20%増加する(1ターン)」を与え、さらに199%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `乱反射`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `速攻忍法・疾風`,
+                    description: `1ターン目に、効果「味方全体の必殺技のCDを4ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `即効性の毒薬`,
+                    description: `通常攻撃時、効果「33%の攻撃力で敵全体に追撃を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `全集中忍法・一葉`,
+                    description: `1ターン目に、効果「自分の攻撃力を20%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `先制忍法・蝕鎧`,
+                    description: `毎Waveの1ターン目に、効果「敵全体の受けるダメージを30%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10012: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `133/149/166/182/199%の攻撃力で敵全体にダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `133%の攻撃力で敵全体にダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `149%の攻撃力で敵全体にダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `166%の攻撃力で敵全体にダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `182%の攻撃力で敵全体にダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・無痛四散`,
+                    description: `199%の攻撃力で敵全体にダメージを与え、効果「受けるダメージが15%増加する(1ターン)」を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `乱反射`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `速攻忍法・疾風`,
+                    description: `1ターン目に、効果「味方全体の必殺技のCDを4ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `即効性の毒薬`,
+                    description: `通常攻撃時、効果「20%の攻撃力で敵全体に追撃を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `全集中忍法・一葉`,
+                    description: `1ターン目に、効果「自分の攻撃力を20%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `先制忍法・蝕鎧`,
+                    description: `毎Waveの1ターン目に、効果「敵全体の受けるダメージを30%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

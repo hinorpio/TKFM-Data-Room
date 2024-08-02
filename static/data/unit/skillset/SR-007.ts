@@ -177,56 +177,56 @@ export const SkillSet_10015: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3/3/3/4/4ターン)」を与え、400/460/520/520/520%の攻撃力でターゲットにダメージを与える[CD:5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3ターン)」を与え、400%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3ターン)」を与え、460%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3ターン)」を与え、520%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(4ターン)」を与え、520%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(4ターン)」を与え、520%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `刺突`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `平等の剣`,
+                    description: `味方全体の属性相性ダメージ増減効果を100%減少させ、攻撃力を10%増加させ、受けるダメージを7.5%減少させ、最大HPを15%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守両道`,
+                    description: `通常攻撃時、効果「自分の攻撃力を5%増加させ(3ターン)、受けるダメージを3.3%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `帝国剣術`,
+                    description: `自分の通常攻撃ダメージを40%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `フォス帝国の秘剣戦法`,
+                    description: `必殺時、効果「自分以外のメンバーの攻撃力を15%増加させ、受けるダメージを10%減少させる(4ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10015: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3/3/3/4/4ターン)」を与え、400/460/520/520/520%の攻撃力でターゲットにダメージを与える[CD:5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3ターン)」を与え、400%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3ターン)」を与え、460%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(3ターン)」を与え、520%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(4ターン)」を与え、520%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守一体・はやぶさ突き`,
+                    description: `自身に効果「攻撃力を15%増加させ、受けるダメージを10%減少させる(4ターン)」を与え、520%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `刺突`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `平等の剣`,
+                    description: `味方全体の属性相性ダメージ増減効果を100%減少させる、攻撃力10%増加、受けるダメージを7.5%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻守両道`,
+                    description: `通常攻撃時、効果「自分の攻撃力を5%増加させ(2ターン)、受けるダメージを3.3%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `帝国剣術`,
+                    description: `自分の通常攻撃ダメージを30%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `フォス帝国の秘剣戦法`,
+                    description: `必殺時、効果「自分以外のメンバーの攻撃力を15%増加させ、受けるダメージを10%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

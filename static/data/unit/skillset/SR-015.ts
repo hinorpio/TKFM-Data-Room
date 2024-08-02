@@ -124,7 +124,7 @@ export const SkillSet_10041: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `I love my job!`,
-                    description: `Increase your Attack Power by 80/85/90/95/100% for 4 turns, then heal all party members for 80% of your Attack Power and give them the following effect: "Heal yourself every turn for 40/40/50/50/60% of your Attack Power for 4 turns". CD: 5`
+                    description: `Increase your Attack Power by 20% for 4 turns, then heal all party members for 80/85/90/95/100% of your Attack Power and give them the following effect: "Heal yourself every turn for 40/40/50/50/60% of your Attack Power for 4 turns". CD: 5`
                 },
                 [SkillType.SKILL_1]: {
                     name: `I love my job!`,
@@ -177,56 +177,56 @@ export const SkillSet_10041: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `この仕事が大好き！`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の80/85/90/95/100%分味方全体に治療を行い、味方全体に効果「毎ターン40/40/50/50/60%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `この仕事が大好き！`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の80%分味方全体に治療を行い、味方全体に効果「毎ターン40%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `この仕事が大好き！`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の85%分味方全体に治療を行い、味方全体に効果「毎ターン40%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `この仕事が大好き！`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の90%分味方全体に治療を行い、味方全体に効果「毎ターン50%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `この仕事が大好き！`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の95%分味方全体に治療を行い、味方全体に効果「毎ターン50%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `この仕事が大好き！`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の100%分味方全体に治療を行い、味方全体に効果「毎ターン60%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `今日もお疲れ様でした～`,
+                    description: `攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ギルドへようこそ！`,
+                    description: `味方全体の攻撃力を30％増加させる\n味方全体のHPを30％増加させる\n味方全体の受ける治療効果を30％増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `これが今日の依頼です`,
+                    description: `1ターン目に「自分以外の味方全体の通常攻撃ダメージを20%増加させ(最高1スタック)、必殺技ダメージを10%増加させる(最高1スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `皆さんお気をつけて！`,
+                    description: `自分が受けるダメージが10%減少する\n通常攻撃時「自分の治療回復量を10%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `私がみんなの後盾になりますから！`,
+                    description: `自分の必殺技最大CDを1ターン減少させる\n自分の継続型治療効果を10%増加させる\n攻撃時「味方全体の通常攻撃ダメージを4%増加させる(5ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `継続治療+`,
+                    description: `自分の継続型治療効果を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

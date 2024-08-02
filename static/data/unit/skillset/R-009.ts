@@ -222,7 +222,7 @@ export const SkillSet_10812: SkillSet[] =  [
                     description: `通常攻撃時、20%の確率で効果「自分の必殺技CDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `オナホ妖精（レア調教道具↑↑）`,
+                    name: `オナホ妖精(レア調教道具↑↑)`,
                     description: `派遣実行時、レア調教道具のダブル獲得確率が少し上昇(Lv2)する(すべてに効果)`
                 },
                 [SkillType.GENERAL_2]: {

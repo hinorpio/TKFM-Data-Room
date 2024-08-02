@@ -177,56 +177,56 @@ export const SkillSet_10014: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・封魔`,
+                    description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、さらに50%の確率で沈黙(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・封魔`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、さらに50%の確率で沈黙(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・封魔`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、さらに50%の確率で沈黙(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・封魔`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに50%の確率で沈黙(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・封魔`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、さらに50%の確率で沈黙(2ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `陰陽術・封魔`,
+                    description: `514%の攻撃力でターゲットにダメージを与え、さらに50%の確率で沈黙(2ターン)を与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `呪術`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `対魔結界`,
+                    description: `味方全体を沈黙無効にし、攻撃力を10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `拘束の術`,
+                    description: `攻撃時、効果「ターゲットの通常攻撃ダメージを15%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `五行封じ`,
+                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を50%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `妖狐術・幻惑`,
+                    description: `3ターン毎に、効果「ターゲットの攻撃力を15%減少させ、受けるダメージを15%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

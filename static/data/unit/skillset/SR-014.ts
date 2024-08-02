@@ -177,56 +177,56 @@ export const SkillSet_10055: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `神の踊り子`,
+                    description: `味方全体の攻撃力を1.5/1.75/2/2.25/2.5%増加させ(最高10スタック)、味方全体の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、自分の攻撃力の60/70/80/90/100%分味方全体に治療を行う[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神の踊り子`,
+                    description: `味方全体の攻撃力を1.5%増加させ(最高10スタック)、味方全体の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、自分の攻撃力の60%分味方全体に治療を行う[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `神の踊り子`,
+                    description: `味方全体の攻撃力を1.75%増加させ(最高10スタック)、味方全体の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、自分の攻撃力の70%分味方全体に治療を行う[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神の踊り子`,
+                    description: `味方全体の攻撃力を2%増加させ(最高10スタック)、味方全体の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、自分の攻撃力の80%分味方全体に治療を行う[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `神の踊り子`,
+                    description: `味方全体の攻撃力を2.25%増加させ(最高10スタック)、味方全体の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、自分の攻撃力の90%分味方全体に治療を行う[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `神の踊り子`,
+                    description: `味方全体の攻撃力を2.5%増加させ(最高10スタック)、味方全体の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、自分の攻撃力の100%分味方全体に治療を行う[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `魅惑の姿`,
+                    description: `味方全体の攻撃力を自分の攻撃力の25%分増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `純粋な踊り子`,
+                    description: `自分の攻撃力を50%増加させ、味方全体の最大HPを10%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `優々たる淑女`,
+                    description: `通常攻撃時「味方全体の必殺技ダメージを2%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `一たび顧みれば人の城を傾け`,
+                    description: `必殺時「味方全体の通常攻撃ダメージを10%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `再び顧みれば人の国を傾く`,
+                    description: `必殺時「味方全体の攻撃力を10%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

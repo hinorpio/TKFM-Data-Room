@@ -16,7 +16,7 @@ export const SkillSet_10036: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
                     name: `濕濕黏黏滑滑`,
-                    description: `使敵全體攻擊力減少10/12.5/15/15/15%(1回合) [3絆 (2回合)]，每回合以自身攻擊力200%回復自身(2回合)，CD: 5 [5絆 CD: 4]`
+                    description: `使敵全體攻擊力減少10/12.5/15/15/15%(1/1/1/2/2回合)，每回合以自身攻擊力200%回復自身(2回合)，CD: 5 [5絆 CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `濕濕黏黏滑滑`,
@@ -70,7 +70,7 @@ export const SkillSet_10036: SkillSet[] =  [
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
                     name: `湿湿黏黏滑滑`,
-                    description: `使敌全体攻击力减少10/12.5/15/15/15%(1回合) [3绊 (2回合)]，每回合以自身攻击力200%回复自身(2回合)，CD: 5 [5绊 CD: 4]`
+                    description: `使敌全体攻击力减少10/12.5/15/15/15%(1/1/1/2/2回合)，每回合以自身攻击力200%回复自身(2回合)，CD: 5 [5绊 CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `湿湿黏黏滑滑`,
@@ -124,7 +124,7 @@ export const SkillSet_10036: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Wet Sticky Slimy`,
-                    description: `Lower all enemies' Attack Power by 10/12.5/15/15/15% for [1/1/2/2/2] turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5) [Bond 5: (CD:4)]`
+                    description: `Lower all enemies' Attack Power by 10/12.5/15/15/15% for [1/1/1/2/2] turn. Heal yourself by 200% of your Attack Power every turn for 2 turns. (CD:5) [Bond 5: (CD:4)]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Wet Sticky Slimy`,
@@ -177,56 +177,56 @@ export const SkillSet_10036: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `ベトベトヌルヌル`,
+                    description: `敵全体の攻撃力を10/12.5/15/15/15%減少させ(1/1/1/2/2ターン)、毎ターン自分の攻撃力の200%分自分に治療を行う(2ターン)[CD:5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ベトベトヌルヌル`,
+                    description: `敵全体の攻撃力を10%減少させ(1ターン)、毎ターン自分の攻撃力の200%分自分に治療を行う(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ベトベトヌルヌル`,
+                    description: `敵全体の攻撃力を12.5%減少させ(1ターン)、毎ターン自分の攻撃力の200%分自分に治療を行う(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ベトベトヌルヌル`,
+                    description: `敵全体の攻撃力を15%減少させ(1ターン)、毎ターン自分の攻撃力の200%分自分に治療を行う(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `ベトベトヌルヌル`,
+                    description: `敵全体の攻撃力を15%減少させ(2ターン)、毎ターン自分の攻撃力の200%分自分に治療を行う(2ターン)[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `ベトベトヌルヌル`,
+                    description: `敵全体の攻撃力を15%減少させ(2ターン)、毎ターン自分の攻撃力の200%分自分に治療を行う(2ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `粘液攻撃`,
+                    description: `ターゲットの攻撃力を20%減少させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `とっても真面目なスライムだよ`,
+                    description: `自分の最大HPを30%増加させる。4ターン毎に、効果「ターゲットが受けるダメージを15%増加させる(2ターン)」、「自分が治療を受けるとき、回復HP量を30%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `エナジーゼリー`,
+                    description: `通常攻撃時、効果「HPが一番低い仲間に攻撃力の100%分治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `人目を引く`,
+                    description: `自分の防御時のダメージ軽減効果を10%増加させる。4ターン毎に、効果「自分に挑発を与える(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `スライムの靭性`,
+                    description: `攻撃を受けた時、効果「自分の受けるダメージを15%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `回復量+`,
+                    description: `自分が治療を受けるとき、回復HP量を15%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

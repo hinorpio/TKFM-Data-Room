@@ -177,56 +177,56 @@ export const SkillSet_10009: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を30/35/40/45/50%増加させ(1ターン)、100%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を30%増加させ(1ターン)、100%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を35%増加させ(1ターン)、100%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を40%増加させ(1ターン)、100%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を45%増加させ(1ターン)、100%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を50%増加させ(1ターン)、100%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `治療術`,
+                    description: `攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `アイカの特別サービス`,
+                    description: `味方の3番目のメンバーの攻撃力を50%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `最高の支持者`,
+                    description: `通常攻撃時、効果「味方の3番目のメンバーの攻撃力を10%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `行き届いたお世話`,
+                    description: `必殺時、効果「味方の3番目のメンバーの沈黙、麻痺、睡眠効果を解除する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `全力攻撃しなさい！`,
+                    description: `攻撃時、効果「味方の3番目のメンバーの攻撃力低下、通常攻撃ダメージ低下、必殺技ダメージ低下効果を解除する」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10009: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を30/35/40/45/50%増加させ(1ターン)、75%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を30%増加させ(1ターン)、75%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を35%増加させ(1ターン)、75%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を40%増加させ(1ターン)、75%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を45%増加させ(1ターン)、75%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `メイドの秘技・魔力注入`,
+                    description: `味方の3番目のメンバーの攻撃力を50%増加させ(1ターン)、75%の攻撃力で味方全体に治療を行い、必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `治療術`,
+                    description: `攻撃力の50%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `アイカの特別サービス`,
+                    description: `味方の3番目のメンバーの攻撃力を50%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `最高の支持者`,
+                    description: `通常攻撃時、効果「味方の3番目のメンバーの攻撃力を10%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `行き届いたお世話`,
+                    description: `必殺時、効果「味方の3番目のメンバーの沈黙、麻痺、睡眠効果を解除する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `全力攻撃しなさい！`,
+                    description: `攻撃時、効果「味方の3番目のメンバーの攻撃力低下、通常攻撃ダメージ低下、必殺技ダメージ低下効果を解除する」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
