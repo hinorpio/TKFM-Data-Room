@@ -396,6 +396,12 @@ import FULLIMAGE_10146_2 from "@/assets/character/fullbody/10146_2-Lv1.png"
 import FULLIMAGE_10147_0 from "@/assets/character/fullbody/10147_0-Lv1.png"
 import FULLIMAGE_10147_1 from "@/assets/character/fullbody/10147_1-Lv1.png"
 import FULLIMAGE_10147_2 from "@/assets/character/fullbody/10147_2-Lv1.png"
+import FULLIMAGE_10148_0 from "@/assets/character/fullbody/10148_0-Lv1.png"
+import FULLIMAGE_10148_1 from "@/assets/character/fullbody/10148_1-Lv1.png"
+import FULLIMAGE_10148_2 from "@/assets/character/fullbody/10148_2-Lv1.png"
+import FULLIMAGE_10149_0 from "@/assets/character/fullbody/10149_0-Lv1.png"
+import FULLIMAGE_10149_1 from "@/assets/character/fullbody/10149_1-Lv1.png"
+import FULLIMAGE_10149_2 from "@/assets/character/fullbody/10149_2-Lv1.png"
 
 import FULLIMAGE_10801_0 from "@/assets/character/fullbody/10801_0-Lv1.png"
 import FULLIMAGE_10801_1 from "@/assets/character/fullbody/10801_1-Lv1.png"
@@ -693,6 +699,8 @@ const SSR = {
     [UnitCode.s_satan]: [ FULLIMAGE_10145_0, FULLIMAGE_10145_1, FULLIMAGE_10145_2 ],
     [UnitCode.d_minayomi]: [ FULLIMAGE_10146_0, FULLIMAGE_10146_1, FULLIMAGE_10146_2 ],
     [UnitCode.oniyoiki]: [ FULLIMAGE_10147_0, FULLIMAGE_10147_1, FULLIMAGE_10147_2 ],
+    [UnitCode.d_shizuka]: [ FULLIMAGE_10148_0, FULLIMAGE_10148_1, FULLIMAGE_10148_2 ],
+    [UnitCode.tsubaki]: [ FULLIMAGE_10149_0, FULLIMAGE_10149_1, FULLIMAGE_10149_2 ],
 }
 
 export const FullImage = {

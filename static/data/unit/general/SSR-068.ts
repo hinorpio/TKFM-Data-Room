@@ -44,7 +44,7 @@ export const General_10098: Unit = {
     selection: UnitSelection[UnitCode.x_shizuka],
     clothes: UnitFullImage[UnitCode.x_shizuka],
     tagList: [],
-    otherVersion: [ UnitCode.shizuka, UnitCode.s_shizuka ],
+    otherVersion: [ UnitCode.shizuka, UnitCode.s_shizuka, UnitCode.d_shizuka ],
     puzzle: [],
     skillSet: []
 }

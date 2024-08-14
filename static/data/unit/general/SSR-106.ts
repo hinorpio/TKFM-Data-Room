@@ -35,7 +35,7 @@ export const General_10136: Unit = {
     },
     rarity: Rarity.SSR,
     element: Element.WATER,
-    position: Position.ATTACKER,
+    position: Position.OBSTRUCTER,
     potential: PotentialType.ATTACK,
     isLimited: true,
     releaseDate: "2024/03/06",

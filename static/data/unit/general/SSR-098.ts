@@ -15,7 +15,7 @@ export const General_10128: Unit = {
     name: {
         [Locale.tc]: "伊布力斯",
         [Locale.sc]: "伊布力斯",
-        [Locale.en]: "Aridya",
+        [Locale.en]: "Iblis",
         [Locale.jp]: "イブリース",
         [Locale.kr]: "이블리스"
     },

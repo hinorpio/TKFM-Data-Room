@@ -53,7 +53,7 @@ export const General_10014: Unit = {
         TagID.OTHER_INTERFERENCE,
         TagID.OTHER_WEAKEN,
     ], 
-    otherVersion: [ UnitCode.s_shizuka, UnitCode.x_shizuka ],
+    otherVersion: [ UnitCode.s_shizuka, UnitCode.x_shizuka, UnitCode.d_shizuka ],
     puzzle: [],
     skillSet: []
 }

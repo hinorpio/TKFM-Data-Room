@@ -4,6 +4,56 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0144',
+            type: EventType.POINT,
+            startDate: '2024/08/14',
+            endDate: '2024/09/04',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【妖狐與她的產地】`,
+                [Locale.sc]: `【妖狐与她的产地】`,
+                [Locale.en]: `[Fox & Her Homeland]`,
+                [Locale.jp]: `「妖狐とその生息地」`,
+                [Locale.kr]: `【요호와 그녀의 생식지】`
+            },
+            image: EventBanner.EVENT_0144,
+            newUnit: [ UnitCode.d_shizuka, UnitCode.tsubaki ]
+        },
+        {
+            code: '0145',
+            type: EventType.GUILDBOSS,
+            startDate: '2024/08/21',
+            endDate: '2024/09/04',
+            color: EventTypeColor.GUILDBOSS,
+            name: {
+                [Locale.tc]: `【人妻系列】`,
+                [Locale.sc]: `【人妻系列】`,
+                [Locale.en]: `[Wife Series]`,
+                [Locale.jp]: `「人妻シリーズ」`,
+                [Locale.kr]: `【유부녀 시리즈】`
+            },
+            image: EventBanner.EVENT_0145,
+            newUnit: []
+        },
+        {
+            code: 'TIMERIFT_017',
+            type: EventType.TIMERIFT,
+            startDate: '2024/08/21',
+            endDate: '2024/10/23',
+            color: EventTypeColor.TIMERIFT,
+            name: {
+                [Locale.tc]: `【時之裂縫】第十七季`,
+                [Locale.sc]: `【时之裂缝】第十七季`,
+                [Locale.en]: `[Time Rift] Season 17`,
+                [Locale.jp]: `「時空の裂け目」第17シーズン`,
+                [Locale.kr]: `【시공간의 균열】 제17시즌`
+            },
+            image: EventBanner.EVENT_TIMERIFT,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0143',
             type: EventType.POTENTIAL,
             startDate: '2024/07/31',
@@ -35,7 +85,7 @@ const events: Event[][] = [
                 [Locale.kr]: `【마계밥】`
             },
             image: EventBanner.EVENT_0141,
-            newUnit: []
+            newUnit: [ UnitCode.d_minayomi, UnitCode.oniyoiki ]
         },
         {
             code: '0142',

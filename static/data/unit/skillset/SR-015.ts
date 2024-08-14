@@ -206,7 +206,7 @@ export const SkillSet_10041: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `ギルドへようこそ！`,
-                    description: `味方全体の攻撃力を30％増加させる\n味方全体のHPを30％増加させる\n味方全体の受ける治療効果を30％増加させる`
+                    description: `味方全体の攻撃力を30%増加させる\n味方全体のHPを30%増加させる\n味方全体の受ける治療効果を30%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `これが今日の依頼です`,

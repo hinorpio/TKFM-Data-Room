@@ -394,6 +394,12 @@ import DISCIPLINE_10146_3 from "@/assets/character/discipline/cgs10146_3.png"
 import DISCIPLINE_10147_1 from "@/assets/character/discipline/cgs10147_1.png"
 import DISCIPLINE_10147_2 from "@/assets/character/discipline/cgs10147_2.png"
 import DISCIPLINE_10147_3 from "@/assets/character/discipline/cgs10147_3.png"
+import DISCIPLINE_10148_1 from "@/assets/character/discipline/cgs10148_1.png"
+import DISCIPLINE_10148_2 from "@/assets/character/discipline/cgs10148_2.png"
+import DISCIPLINE_10148_3 from "@/assets/character/discipline/cgs10148_3.png"
+import DISCIPLINE_10149_1 from "@/assets/character/discipline/cgs10149_1.png"
+import DISCIPLINE_10149_2 from "@/assets/character/discipline/cgs10149_2.png"
+import DISCIPLINE_10149_3 from "@/assets/character/discipline/cgs10149_3.png"
 
 import DISCIPLINE_10801_1 from "@/assets/character/discipline/cgs10801_1.png"
 import DISCIPLINE_10801_3 from "@/assets/character/discipline/cgs10801_3.png"
@@ -650,6 +656,8 @@ const SSR = {
     [UnitCode.s_satan]: [ DISCIPLINE_10145_1, DISCIPLINE_10145_2, DISCIPLINE_10145_3 ],
     [UnitCode.d_minayomi]: [ DISCIPLINE_10146_1, DISCIPLINE_10146_2, DISCIPLINE_10146_3 ],
     [UnitCode.oniyoiki]: [ DISCIPLINE_10147_1, DISCIPLINE_10147_2, DISCIPLINE_10147_3 ],
+    [UnitCode.d_shizuka]: [ DISCIPLINE_10148_1, DISCIPLINE_10148_2, DISCIPLINE_10148_3 ],
+    [UnitCode.tsubaki]: [ DISCIPLINE_10149_1, DISCIPLINE_10149_2, DISCIPLINE_10149_3 ],
 }
 
 export const DisciplinePreview = {
