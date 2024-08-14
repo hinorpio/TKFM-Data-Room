@@ -2,6 +2,41 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.0.7',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `更新日誌`,
+                    [Locale.sc]: `更新日誌`,
+                    [Locale.en]: `Update Logs`,
+                    [Locale.jp]: `更新履歴`,
+                    [Locale.kr]: `업데이트 일지`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 酩酊狂歡 靜, 千年靈狐 椿`,
+                    [Locale.sc]: `角色: 酩酊狂欢 静, 千年灵狐 椿`,
+                    [Locale.en]: `Unit: Drunken Feaster Shizuka, Millennium Fox Tsubaki`,
+                    [Locale.jp]: `キャラ: 酔狂の宴 静, 千年の妖狐 椿`,
+                    [Locale.kr]: `캐릭터: 곤드레만드레 시즈카, 천년의 영호 츠바키`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【妖狐與她的產地】, 【人妻系列】, 【時之裂縫】第十七季`,
+                    [Locale.sc]: `活动: 【妖狐与她的产地】, 【人妻系列】, 【时之裂缝】第十七季`,
+                    [Locale.en]: `Event: [Fox & Her Homeland], [Wife Series], [Time Rift] Season 17`,
+                    [Locale.jp]: `イベント: 「妖狐とその生息地」, 「人妻シリーズ」, 「時空の裂け目」第17シーズン`,
+                    [Locale.kr]: `이벤트: 【요호와 그녀의 생식지】, 【유부녀 시리즈】, 【시공간의 균열】 제17시즌`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.0.6',
         logs: [
             {

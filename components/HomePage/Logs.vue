@@ -5,12 +5,16 @@
             <div slot="content" class="pa-4">
                 <div v-for="(ver, index) in logData" :key="index">
                     <span :class="titleClass">{{ ver.version }}</span>
-                    <div v-for="(log, logIndex) in ver.logs" :key="logIndex">
-                        <v-chip x-small class="mr-2" :color="$util.getLogTypeColor(log.type)">{{ getLogType(log.type) }}</v-chip>
-                        <span :class="strClass">{{ getLogContent(log.content) }}</span>
-                        <br />
-                    </div>
+                    <v-row class="margin-none-class align-start" v-for="(log, logIndex) in ver.logs" :key="logIndex">
+                        <v-col class="py-0" :cols="4" :xl="1" :lg="2" :md="2" :sm="2" :xs="4">
+                            <v-btn x-small block class="mr-2 mt-1" :color="$util.getLogTypeColor(log.type)">{{ getLogType(log.type) }}</v-btn>
+                        </v-col>
+                        <v-col class="py-0" :cols="8" :xl="11" :lg="10" :md="10" :sm="10" :xs="8">
+                            <span :class="strClass">{{ getLogContent(log.content) }}</span>
+                        </v-col>
+                    </v-row>
                     <br />
+                    <v-divider class="mb-4"></v-divider>
                 </div>
             </div>
         </base-expand-card>
@@ -61,3 +65,8 @@ export default class Logs extends Vue {
 }
 
 </script>
+<style lang="sass" scoped>
+.margin-none-class
+    margin-top: 0px !important
+    margin-bottom: 0px !important
+</style>

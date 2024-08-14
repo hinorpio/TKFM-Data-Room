@@ -3,7 +3,7 @@ export default {
     "Home Page": "首頁",
     "Unit Info": "角色資訊",
     "Recruitment": "全境徵才",
-    "Event Timeline": "活動時序",
+    "Event Timeline": "이벤트",
     "Main Story": "主線故事",
     "Dispatch": "派遣",
     "About": "關於本站",
