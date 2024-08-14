@@ -18,6 +18,13 @@ export enum ErrorMessage {
     CANNOT_FIND_CHARACTER = 'CANNOT_FIND_CHARACTER',
 }
 
+export enum LogType {
+    NEW = 'NEW',
+    FIX = 'FIX',
+    CHANGE = 'CHANGE',
+    OTHER = 'OTHER',
+}
+
 export enum Element {
     FIRE = 'FIRE',
     WATER = 'WATER',

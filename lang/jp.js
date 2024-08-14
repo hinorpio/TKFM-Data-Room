@@ -7,6 +7,7 @@ export default {
     "Main Story": "メインストーリー",
     "Dispatch": "派遣",
     "About": "サイトについて",
+    "Update Logs": "更新履歴",
     "Introduction": "紹介",
     "Introduction-detail": "",
     "Disclaimer": "ゲームイメージ画像",
