@@ -7,6 +7,7 @@ export default {
     "Main Story": "主線故事",
     "Dispatch": "派遣",
     "About": "關於本站",
+    "Update Logs": "업데이트 일지",
     "Introduction": "介紹",
     "Introduction-detail": "",
     "Disclaimer": "면책 성명",

@@ -7,6 +7,7 @@ export default {
     "Recruitment": "Recruitment",
     "Dispatch": "Dispatch",
     "About": "About",
+    "Update Logs": "Update Logs",
     "Introduction": "Introduction",
     "Introduction-detail": `I am the author of the Bot "Overworked Nana" in TenkafuMA! Offical Discord Chinese Channel. Since the author of "TenkafuMA Toolbox" has stopped updating the website, the aim of this website is to take over the functions of that website and integrate the functions of "Overworked Nana".\n\nThe goal of this website is to collect, organize, and present TenkafuMA data.\n\nThis website includes a recruitment filter, character detail, character potential calculator, event timeline, and dispatch info.`,
     "Disclaimer": "Disclaimer",

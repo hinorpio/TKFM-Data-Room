@@ -1,4 +1,4 @@
-import { Locale, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType } from '@/plugins/utils/enums';
+import { Locale, LogType, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType } from '@/plugins/utils/enums';
 
 import ELEMENT_FIRE from "@/assets/general/element_fire.png"
 import ELEMENT_WATER from "@/assets/general/element_water.png"
@@ -53,6 +53,44 @@ import DISPATCH_SEALED_CHAMBER_SC from "@/assets/dispatch/dp0005_sc.png"
 import DISPATCH_SEALED_CHAMBER_EN from "@/assets/dispatch/dp0005_en.png"
 import DISPATCH_SEALED_CHAMBER_JP from "@/assets/dispatch/dp0005_jp.png"
 import DISPATCH_SEALED_CHAMBER_KR from "@/assets/dispatch/dp0005_kr.png"
+
+export const LogTypeColor = {
+    [LogType.NEW]: 'green',
+    [LogType.FIX]: 'red',
+    [LogType.CHANGE]: 'blue',
+    [LogType.OTHER]: 'grey',
+}
+
+export const LogTypeStr = {
+    [LogType.NEW]: {
+        [Locale.tc]: '新增',
+        [Locale.sc]: '新增',
+        [Locale.en]: 'New',
+        [Locale.jp]: '新規',
+        [Locale.kr]: '추가',
+    },
+    [LogType.FIX]: {
+        [Locale.tc]: '修正',
+        [Locale.sc]: '修正',
+        [Locale.en]: 'Fix',
+        [Locale.jp]: '修正',
+        [Locale.kr]: '수정',
+    },
+    [LogType.CHANGE]: {
+        [Locale.tc]: '變更',
+        [Locale.sc]: '变更',
+        [Locale.en]: 'Change',
+        [Locale.jp]: '変更',
+        [Locale.kr]: '변경',
+    },
+    [LogType.OTHER]: {
+        [Locale.tc]: '其他',
+        [Locale.sc]: '其他',
+        [Locale.en]: 'Other',
+        [Locale.jp]: '他の',
+        [Locale.kr]: '다른',
+    },
+}
 
 export const ElementIcon = {
     [Element.FIRE]: ELEMENT_FIRE,
