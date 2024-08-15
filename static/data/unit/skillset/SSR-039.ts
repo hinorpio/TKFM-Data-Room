@@ -177,56 +177,56 @@ export const SkillSet_10082: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分が「必殺技ダメージを20/20/40/40/50%増加する(最高1スタック)」、「通常攻撃ダメージを40/40/80/80/100%増加させる(最高1スタック)」を得る。さらに490/568/646/724/802%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分が「必殺技ダメージを20%増加する(最高1スタック)」、「通常攻撃ダメージを40%増加させる(最高1スタック)」を得る。さらに490%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分が「必殺技ダメージを20%増加する(最高1スタック)」、「通常攻撃ダメージを40%増加させる(最高1スタック)」を得る。さらに568%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分が「必殺技ダメージを40%増加する(最高1スタック)」、「通常攻撃ダメージを80%増加させる(最高1スタック)」を得る。さらに646%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分が「必殺技ダメージを40%増加する(最高1スタック)」、「通常攻撃ダメージを80%増加させる(最高1スタック)」を得る。さらに724%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分が「必殺技ダメージを50%増加する(最高1スタック)」、「通常攻撃ダメージを100%増加させる(最高1スタック)」を得る。さらに802%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `落花爪`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `純粋な力`,
+                    description: `味方全体の最大HPを20%増加させる\n自分の攻撃力を100%増加させる\n味方全体の攻撃力を25%増加させる\n5ターン毎に「味方全体の攻撃力を50%増加させる(3ターン)」を誘発する\n1ターン目に「自分以外の味方全員が≪絶対服従≫を得る」を誘発する\n\n≪絶対服従≫\n攻撃時「ターゲットが受ける闇属性ダメージを1%増加させる(最高20スタック)」を誘発する(50ターン)\n攻撃時「味方の1番目のメンバーの攻撃力を自分の攻撃力の15%分増加させる(1ターン)」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `無垢のドレス`,
+                    description: `攻撃時「ターゲットが受ける闇属性ダメージを4%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `苦痛の悦び`,
+                    description: `防御時「自分の攻撃力を100%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真魔の力`,
+                    description: `攻撃時「味方全体の与えるダメージを3%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10082: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分の490/568/646/724/802%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分の490%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分の568%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分の646%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分の724%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `奈落の花`,
+                    description: `自分の802%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `落花爪`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `純粋な力`,
+                    description: `味方全体の最大HPを15%増加させる\n5ターン毎に「味方全体の攻撃力を150%増加させる(3ターン)」を誘発する\n1ターン目に「自分以外の味方全員が≪絶対服従≫を得る」を誘発する\n\n≪絶対服従≫\n攻撃時「ターゲットが受ける闇属性ダメージを1%増加させる(最高20スタック)」を誘発する(50ターン)\n攻撃時「味方の1番目のメンバーの攻撃力を自分の攻撃力の30%分増加させる(1ターン)」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `無垢のドレス`,
+                    description: `通常攻撃時「自分の必殺技ダメージを8%増加させる(最高5スタック)」を誘発する\n必殺攻撃時「自分の通常攻撃ダメージを80%増加させる(最高1スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `苦痛の悦び`,
+                    description: `攻撃時「ターゲットが受ける闇属性ダメージを4%増加させる(最高5スタック)」を誘発する\n防御時「自分の攻撃力を40%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真魔の力`,
+                    description: `攻撃時「味方全体の与えるダメージを3%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

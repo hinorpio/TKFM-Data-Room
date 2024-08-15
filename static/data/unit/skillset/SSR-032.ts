@@ -177,56 +177,56 @@ export const SkillSet_10052: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `全てを破壊する……`,
+                    description: `自分の475/550/625/700/775%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `全てを破壊する……`,
+                    description: `自分の475%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `全てを破壊する……`,
+                    description: `自分の550%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `全てを破壊する……`,
+                    description: `自分の625%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `全てを破壊する……`,
+                    description: `自分の700%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `全てを破壊する……`,
+                    description: `自分の775%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `私の邪魔をするものは死ね!`,
+                    description: `自分の125%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `クリスマスキラー`,
+                    description: `自分の最大HPを50%増加させる\n味方の闇属性メンバー全体の攻撃力を20%増加させる\n\n聖夜の小人王ランが味方メンバーにいる場合、彼女は《恐怖への屈服》を発動し、ダークサンタアイカは《再狂化》を発動する。\n聖夜のトナカイリリーが味方メンバーにいる場合、彼女は《恐怖への屈服》を発動し、ダークサンタ アイカは《再狂化》を発動する。\n\n《再狂化》\n自分が与えるダメージを50%増加させる\n味方の闇属性メンバー全体の攻撃力を25%増加させる\n\n《恐怖への屈服》\n最初のターン開始時、効果「ダークサンタアイカの攻撃力を自分の攻撃力の100%分増加させ(50ターン)、必殺技CDのカウントを停止し(5ターン)、必殺技最大CDを2ターン増加させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `忌まわしいトナカイめ`,
+                    description: `自分が通常攻撃時、効果「ターゲットが受ける必殺技ダメージを2.5%増加させる(最高4スタック)」を誘発する\n「聖夜のトナカイリリー」が味方メンバーにいる場合、《聖なるトナカイ殺し》を発動する\n\n《聖なるトナカイ殺し》\n自分が攻撃する時、効果「自分以外のメンバーが最大HPの10%分の確定ダメージを受ける」を誘発する\n自分が通常攻撃をする時、効果「ターゲットが受ける闇属性ダメージを5%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `忌まわしいクリスマスめ`,
+                    description: `自分が通常攻撃時、効果「ターゲットが受ける通常攻撃ダメージを\n5%増加させる(最高4スタック)」を誘発する\n「聖夜の小人王ラン」が味方メンバーにいる場合、《クリスマスデストロイヤー》を発動する\n\n《クリスマスデストロイヤー》\n自分が攻撃する時、効果「自分以外のメンバーが最大HPの10%分の確定ダメージを受ける」を誘発す\n自分が通常攻撃をする時、効果「ターゲットが受けるダークサンタアイカのダメージを6%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ダーククリスマス`,
+                    description: `自分の通常攻撃ダメージを50%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

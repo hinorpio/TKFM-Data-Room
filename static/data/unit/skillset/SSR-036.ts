@@ -177,56 +177,56 @@ export const SkillSet_10079: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
+                    name: `正月忍法・錦画神燃`,
                     description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `正月忍法・錦画神燃`,
+                    description: `自分の攻撃力を50%増加させ(3ターン)、200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `正月忍法・錦画神燃`,
+                    description: `自分の攻撃力を65%増加させ(3ターン)、200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `正月忍法・錦画神燃`,
+                    description: `自分の攻撃力を80%増加させ(3ターン)、200%の攻撃力でターゲットにダメージを与え、自分の与えるダメージを10%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `正月忍法・錦画神燃`,
+                    description: `自分の攻撃力を95%増加させ(4ターン)、200%の攻撃力でターゲットにダメージを与え、自分の与えるダメージを15%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `正月忍法・錦画神燃`,
+                    description: `自分の攻撃力を110%増加させ(4ターン)、200%の攻撃力でターゲットにダメージを与え、自分の与えるダメージを20%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `賀正苦無`,
+                    description: `自分の125%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `祭事催行仕事人`,
+                    description: `味方全体の攻撃力を50%増加させる、通常攻撃ダメージを30%増加させる\n1ターン目開始時、効果「最大HPが一番低い仲間の受けるダメージを20%減少させ(1スタック)、自分の現在の必殺技CDを4減少させる」を誘発する\n1ターン目開始時、効果「自分が必殺時、効果『《新春の祝福》』を誘発する(1ターン)」を誘発する\n\n《新春の祝福》\n自分の攻撃力の100%分自分の攻撃力を増加させる(50ターン)\n自分の必殺技CDのカウントを止め(50ターン)、必殺技CD変動効果を無効にする(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・戦果稼ぎ術`,
+                    description: `通常攻撃時、効果「敵が受ける通常攻撃ダメージを20%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・暗中支援術`,
+                    description: `1ターン目開始時、効果「味方全体の通常攻撃ダメージを30%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `忍法・賑わせ術`,
+                    description: `自分が与えるダメージを10%増加させる\n攻撃時、効果「ターゲットの受けるダメージを5%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

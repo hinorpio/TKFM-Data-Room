@@ -177,56 +177,56 @@ export const SkillSet_10045: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼舞の酔い`,
+                    description: `自分の攻撃力を75/87.5/87.5/100/112.5%増加させる(1ターン)、ダメージを0/0/15/20/25%増加させる(1ターン)[CD:1]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼舞の酔い`,
+                    description: `自分の攻撃力を75%増加させる(1ターン)[CD:1]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼舞の酔い`,
+                    description: `自分の攻撃力を87.5%増加させる(1ターン)[CD:1]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼舞の酔い`,
+                    description: `自分の攻撃力を87.5%増加させる(1ターン)、ダメージを15%増加させる(1ターン)[CD:1]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼舞の酔い`,
+                    description: `自分の攻撃力を100%増加させる(1ターン)、ダメージを20%増加させる(1ターン)[CD:1]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼舞の酔い`,
+                    description: `自分の攻撃力を112.5%増加させる(1ターン)、ダメージを25%増加させる(1ターン)[CD:1]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `盃に映る月`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `華美夢の舞`,
+                    description: `味方全体が「メンバーに3人以上のアタッカーがいるとき、『攻撃力が30%増加する』を発動する。メンバーに3人以上の火属性がいるとき、『攻撃力が40%増加する』を発動する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼の一人笑い`,
+                    description: `通常攻撃時、効果「必殺技攻撃時、自分に追加スキル『60.5%の攻撃力でターゲットに追撃を行う(7ターン)』を与える」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ひょうたん酒の堪能`,
+                    description: `1ターン毎に、効果「自分の攻撃力を15%増加させる(最高6スタック)」を誘発する\n必殺技攻撃時、効果「ひょうたん酒の堪能の攻撃力増加状態を2スタック減少する」を誘発する。`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼宴の桜舞`,
+                    description: `自分の必殺ダメージを35%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

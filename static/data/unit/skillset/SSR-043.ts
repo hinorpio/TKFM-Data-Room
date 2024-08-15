@@ -177,56 +177,56 @@ export const SkillSet_10020: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `未来・電磁パルス`,
+                    description: `自分の265/298/311/364/397%の攻撃力でターゲットにダメージを与え、敵全体が「与えるダメージが5/5/7.5/7.5/15%減少する(最高[3/3/2/2/1]スタック)」を獲得する[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `未来・電磁パルス`,
+                    description: `自分の265%の攻撃力でターゲットにダメージを与え、敵全体が「与えるダメージが5%減少する(最高3スタック)」を獲得する[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `未来・電磁パルス`,
+                    description: `自分の298%の攻撃力でターゲットにダメージを与え、敵全体が「与えるダメージが5%減少する(最高3スタック)」を獲得する[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `未来・電磁パルス`,
+                    description: `自分の331%の攻撃力でターゲットにダメージを与え、敵全体が「与えるダメージが7.5%減少する(最高2スタック)」を獲得する[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `未来・電磁パルス`,
+                    description: `自分の364%の攻撃力でターゲットにダメージを与え、敵全体が「与えるダメージが7.5%減少する(最高2スタック)」を獲得する[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `未来・電磁パルス`,
+                    description: `自分の397%の攻撃力でターゲットにダメージを与え、敵全体が「与えるダメージが15%減少する(最高1スタック)」を獲得する[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `万能ロボットアーム`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `改造開始…ヘヘヘッ……`,
+                    description: `自分の攻撃力を40%増加させる\n最初のターン開始時、効果「味方の2、4番目のメンバーが《渾身の力》を得る」を誘発する\n\n《渾身の力》\n必殺技ダメージが30%増加する(50ターン)\n通常攻撃ダメージが60%増加する(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `治癒防止スプレー`,
+                    description: `必殺時「ターゲットが治療を受けるとき、回復HP量を100%減少させる(3ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `歪みの力場ジェネレータ`,
+                    description: `必殺時「味方全体に最大HPの30%分盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔導改造手術`,
+                    description: `4ターン毎に「味方の2、4番目のメンバーが『必殺技ダメージを50%増加させる(2ターン)』を得る」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

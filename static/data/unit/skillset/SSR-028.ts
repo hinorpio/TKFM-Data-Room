@@ -177,56 +177,56 @@ export const SkillSet_10040: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `自分の330/376%の攻撃力でターゲットにダメージを与え、ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック)[CD:4]\n\nLv3+: ターゲットが小悪魔ブリトニーから受けるダメージを10/15/15%増加させる(最高2スタック)、自分の442/442/468%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック) [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック)、自分の442%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `ターゲットが小悪魔ブリトニーから受けるダメージを15%増加させる(最高2スタック)、自分の442%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `ターゲットが小悪魔ブリトニーから受けるダメージを15%増加させる(最高2スタック)、自分の468%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `私自ら手を下そう`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力を少しちょーだい...って冗談よ`,
+                    description: `味方全体の攻撃力を40%増加させる\n自分の必殺技CDのカウントを停止し、必殺技ダメージを100%増加させる\n自分以外のガーディアンでないキャラの防御時に、効果「小悪魔ブリトニーの必殺技CDを2ターン減少させ、小悪魔ブリトニーの攻撃力を自分の攻撃力の20%分増加させ(2ターン)、自分の必殺技CDを1ターン増加させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `サキュバスアビリティー`,
+                    description: `通常攻撃時、効果「必殺技ダメージを10%増加させる(4 ターン)」を誘発す`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力吸引(魔力漏れあり)`,
+                    description: `必殺技攻撃時、効果「自分の攻撃力を50%増加させる。この効果は4ターンかけて徐々に減少する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `サキュバス軍師の秘策`,
+                    description: `自分の与えるダメージを35%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10040: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `自分の330/376%の攻撃力でターゲットにダメージを与え、ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック)[CD:4]\n\nLv3+: ターゲットが小悪魔ブリトニーから受けるダメージを10/15/15%増加させる(最高2スタック)、自分の442/442/468%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック) [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `ターゲットが小悪魔ブリトニーから受けるダメージを10%増加させる(最高2スタック)、自分の442%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `ターゲットが小悪魔ブリトニーから受けるダメージを15%増加させる(最高2スタック)、自分の442%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `特製ハロウィン限定魔力大砲`,
+                    description: `ターゲットが小悪魔ブリトニーから受けるダメージを15%増加させる(最高2スタック)、自分の468%の攻撃力でターゲットにダメージを与え [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `私自ら手を下そう`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力を少しちょーだい...って冗談よ`,
+                    description: `味方全体の攻撃力を40%増加させる\n自分の必殺技CDのカウントを停止し、必殺技ダメージを100%増加させる\n自分以外のガーディアンでないキャラの防御時に、効果「小悪魔ブリトニーの必殺技CDを2ターン減少させ、小悪魔ブリトニーの必殺技CDに影響を与える効果を無効にし(1ターン)、小悪魔ブリトニーの攻撃力を自分の攻撃力の20%分増加させ(2ターン)、自分の必殺技CDを1ターン増加させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `サキュバスアビリティー`,
+                    description: `通常攻撃時、効果「必殺技ダメージを10%増加させる(4 ターン)」を誘発す`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力吸引(魔力漏れあり)`,
+                    description: `必殺技攻撃時、効果「自分の攻撃力を50%増加させる。この効果は4ターンかけて徐々に減少する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `サキュバス軍師の秘策`,
+                    description: `自分の与えるダメージを35%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

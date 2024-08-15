@@ -177,56 +177,56 @@ export const SkillSet_10033: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `睡魔襲来`,
+                    description: `100/110/120/130/150%の確率で現在の敵ターゲットに睡眠効果を与え(2ターン)、行動不能にして受けるダメージを100/110/120/130/150%増加させる。ダメージを受けると解除される[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `睡魔襲来`,
+                    description: `100%の確率で現在の敵ターゲットに睡眠効果を与え(2ターン)、行動不能にして受けるダメージを100%増加させる。ダメージを受けると解除される[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡魔襲来`,
+                    description: `110%の確率で現在の敵ターゲットに睡眠効果を与え(2ターン)、行動不能にして受けるダメージを110%増加させる。ダメージを受けると解除される[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `睡魔襲来`,
+                    description: `120%の確率で現在の敵ターゲットに睡眠効果を与え(2ターン)、行動不能にして受けるダメージを120%増加させる。ダメージを受けると解除される[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `睡魔襲来`,
+                    description: `130%の確率で現在の敵ターゲットに睡眠効果を与え(2ターン)、行動不能にして受けるダメージを130%増加させる。ダメージを受けると解除される[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `睡魔襲来`,
+                    description: `150%の確率で現在の敵ターゲットに睡眠効果を与え(2ターン)、行動不能にして受けるダメージを150%増加させる。ダメージを受けると解除される[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `悪夢`,
+                    description: `現在の敵ターゲットの受ける通常攻撃ダメージを10%増加させ、受ける必殺技ダメージを5%増加させる(3ターン)。攻撃力50%分自分に盾効果を与える(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `同床異夢`,
+                    description: `味方全体が「通常攻撃時、効果『20%の確率で現在の敵ターゲットに睡眠効果を与え(1ターン)、行動不能にして受けるダメージを30%増加させる。ダメージを受けると解除される』を誘発する」を得る\n自分以外の味方メンバーが「通常攻撃時、効果『現在の敵ターゲットが睡眠を得る確率を20%増加させる(1ターン)』を誘発する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠導入曲`,
+                    description: `通常攻撃時、効果「現在の敵ターゲットが睡眠を得る確率を40%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `二度寝･･････`,
+                    description: `攻撃時、効果「現在の敵ターゲットの攻撃力を15%減少させる(2ターン)」を誘発する。\n必殺時、効果「現在の敵ターゲットの必殺技CDカウントを停止する(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真夜中の夢歩き`,
+                    description: `毎Waveの1ターン目に、効果「敵全体の与えるダメージを10%減少させる(50ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少＋`,
+                    description: `自分が受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

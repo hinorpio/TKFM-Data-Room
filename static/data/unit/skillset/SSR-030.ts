@@ -177,56 +177,56 @@ export const SkillSet_10059: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `ファントムキラー`,
+                    description: `自分の攻撃力を20/20/25/25/30%増加させ(3ターン)、205/226/247/268/289%の攻撃力でターゲットにダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ファントムキラー`,
+                    description: `自分の攻撃力を20%増加させ(3ターン)、205%の攻撃力でターゲットにダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ファントムキラー`,
+                    description: `自分の攻撃力を20%増加させ(3ターン)、226%の攻撃力でターゲットにダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ファントムキラー`,
+                    description: `自分の攻撃力を25%増加させ(3ターン)、247%の攻撃力でターゲットにダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `ファントムキラー`,
+                    description: `自分の攻撃力を25%増加させ(3ターン)、268%の攻撃力でターゲットにダメージを与える[CD:2]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `ファントムキラー`,
+                    description: `自分の攻撃力を30%増加させ(3ターン)、289%の攻撃力でターゲットにダメージを与える[CD:2]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `回し蹴り`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `踊りの奇才`,
+                    description: `味方全体の攻撃力を20%増加させ、「攻撃時『味方全体の攻撃力を8%増加させる(2ターン)を誘発する』」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `競馬場の新星`,
+                    description: `通常攻撃時、「自分の必殺技ダメージを5%増加させる(最高4スタック)」を誘発する\n通常攻撃時、「<白銀の風>」を誘発する\n\n<白銀の風>\n自分が効果「必殺時、追加スキル『75%の攻撃力でターゲットにダメージを与える』を与える(2ターン)」を得る`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `潜在能力爆発`,
+                    description: `必殺時、「自分の通常攻撃ダメージを5%増加させる(最高4スタック)」を誘発する\n必殺時、「<ファントムの風>」を誘発する\n\n<ファントムの風>\n自分が効果「通常攻撃時、追加スキル『20%の攻撃力でターゲットにダメージを与える』を与える(2ターン)」を得る`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `音速のパイオニア`,
+                    description: `必殺技ダメージを50%増加させる\n必殺時、「音の壁突破」を誘発する\n\n<音の壁突破>\n自分以外の全てのメンバーが効果「攻撃後『味方全体の必殺技ダメージを5%増加させる(2ターン)』を誘発する(2ターン)」を得る`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

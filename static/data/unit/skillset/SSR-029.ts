@@ -177,56 +177,56 @@ export const SkillSet_10043: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `最強最高のハロウィンエルフ王`,
+                    description: `自分の330/376%の攻撃力でターゲットにダメージを与え、自分の攻撃力を20%増加させる(3ターン)[CD:4]\n\nLv3-Lv4: 自分の攻撃力を30%増加させる(3ターン)、422/468%の攻撃力でターゲットにダメージを与え[CD:4]\n\nLv5: 自分の攻撃力を30%増加させる(3ターン)、ターゲットがおてんばセルシアから受けるダメージを15%増加させ(3ターン)、自分の514%の攻撃力でターゲットにダメージを与え[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `最強最高のハロウィンエルフ王`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、自分の攻撃力を20%増加させる(3ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `最強最高のハロウィンエルフ王`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、自分の攻撃力を20%増加させる(3ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `最強最高のハロウィンエルフ王`,
+                    description: `自分の攻撃力を30%増加させる(3ターン)、422%の攻撃力でターゲットにダメージを与え[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `最強最高のハロウィンエルフ王`,
+                    description: `自分の攻撃力を30%増加させる(3ターン)、468%の攻撃力でターゲットにダメージを与え[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `最強最高のハロウィンエルフ王`,
+                    description: `自分の攻撃力を30%増加させる(3ターン)、ターゲットがおてんばセルシアから受けるダメージを15%増加させ(3ターン)、自分の514%の攻撃力でターゲットにダメージを与え[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ハロウィン女王の命令`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ひっこめ、老いぼれ女！`,
+                    description: `味方の風属性メンバー全体の最大HPを35%増加させ、効果「メンバーに5人風属性メンバーがいるとき、『回復HP量を25%増加させ、攻撃力を100%増加させる』を発動する」を得る\n1ターン目、効果「味方の風属性メンバー全体の攻撃力をおてんば セルシアの攻撃力の40%分増加させる(50ターン)」を得る\nエルフ王セルシアの必殺技の最大CDを2ターン減少させ、効果「必殺時、効果『ターゲットが受けるダメージを20%増加させる(3ターン)』を誘発する」を与える`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `出撃せよ、私のエルフ(奴隷)！`,
+                    description: `通常攻撃時、効果「敵が味方アタッカーから受けるダメージを6%増加させ(最高4スタック)、エルフ王セルシアから受けるダメージを6%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `お菓子の徴収命令`,
+                    description: `通常攻撃時、効果「敵が受ける通常攻撃ダメージを7.5%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `エルフ王(私)のために戦え`,
+                    description: `必殺技攻撃時、効果「風属性の味方メンバー全体が与えるダメージを15%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10039: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の穿刺`,
+                    description: `自分の最大HPの25%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の505/586/667/748/829%分、ダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の穿刺`,
+                    description: `自分の最大HPの25%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の505%分、ダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の穿刺`,
+                    description: `自分の最大HPの25%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の586%分、ダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の穿刺`,
+                    description: `自分の最大HPの25%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の667%分、ダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の穿刺`,
+                    description: `自分の最大HPの25%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の748%分、ダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の穿刺`,
+                    description: `自分の最大HPの25%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の829%分、ダメージを与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `血の刃`,
+                    description: `自分の最大HPの10%分、自分に確定ダメージを与え、さらに現在の敵ターゲットに自分の攻撃力の120%分、ダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `血の奉献`,
+                    description: `味方の2、4番目のメンバーが「攻撃時、効果『自分の攻撃力の65%分、千年血族ラティヤの攻撃力を増加させる(1ターン)。ただし、自分の最大HPの25%分、自分に確定ダメージを与える』を誘発する」を得る。さらに自分が攻撃時、効果「ラティヤの攻撃力の15%分、自分以外の味方メンバーに治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血を喰らう`,
+                    description: `自分がダメージを与えた時、そのダメージの33%分自分のHPを回復する。通常攻撃時、効果「自分の攻撃力を5%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `深紅の壁`,
+                    description: `現在のHPが15%以下の時、「受けるダメージが95%減少する」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の狂喜`,
+                    description: `毎Waveの1ターン目に、効果「自分の現在の必殺技CDを5減少させる」を誘発する。自分の必殺技最大CDを1減少させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

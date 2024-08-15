@@ -177,56 +177,56 @@ export const SkillSet_10081: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装OC・愛の心`,
+                    description: `自分の388/445/503/560/618%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装OC・愛の心`,
+                    description: `自分の388%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装OC・愛の心`,
+                    description: `自分の445%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装OC・愛の心`,
+                    description: `自分の503%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装OC・愛の心`,
+                    description: `自分の560%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装OC・愛の心`,
+                    description: `自分の618%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `薔薇の花嫁`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `私こそが後宮の主`,
+                    description: `通常攻撃時「自分の50%の攻撃力で敵全体に追撃を行う」を誘発する\n味方の水・光属性のメンバーが1ターン目に「≪高貴なウェディングドレス≫」を誘発する\n\n≪高貴なウェディングドレス≫\n自分の攻撃力を70%増加させる(50ターン)\n必殺技攻撃時「ターゲットの受ける誘発スキルダメージを20%増加させる(最高5スタック)」を誘発する(50ターン)\n通常攻撃時「ターゲットの受ける必殺技ダメージを2%増加させる(最高25スタック)」を誘発する(50ターン)\n通常攻撃時「ターゲットが受ける水属性ダメージを5%増加させる(最高4スタック)」を誘発する(50ターン)\n通常攻撃時「ターゲットが受ける光属性ダメージを5%増加させる(最高4スタック)」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ドレス兵装サポートAI`,
+                    description: `必殺技攻撃時「自分の120%の攻撃力でターゲットに追撃を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `兵装共鳴-乙女心`,
+                    description: `1ターン毎に「自分の必殺技ダメージを3%増加させる(最高33スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `試作兵装ドレスZ型`,
+                    description: `通常攻撃時「ターゲットが受ける水属性ダメージを5%増加させる(最高3スタック)」を誘発する\n通常攻撃時「ターゲットが受ける光属性ダメージを5%増加させる(最高3スタック)」を誘発する\n必殺技攻撃時「自分の150%の攻撃力でターゲットに追撃を行う」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

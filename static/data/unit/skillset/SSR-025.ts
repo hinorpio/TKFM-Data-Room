@@ -177,56 +177,56 @@ export const SkillSet_10060: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `豊作祭り`,
+                    description: `味方全体の攻撃力0/0/0/15/20%増加(2ターン)味方のアタッカー、ガーディアンの現在の必殺技CDを1ターン減少させ、味方全体が治癒を受けるときHP回復量を50%増加させ(5ターン)、効果「毎ターン豊作聖女 フィオラの攻撃力の80/95/110/110/110%分治療を行う(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `豊作祭り`,
+                    description: `味方のアタッカー、ガーディアンの現在の必殺技CDを1ターン減少させ、味方全体が治癒を受けるときHP回復量を50%増加させ(5ターン)、効果「毎ターン豊作聖女 フィオラの攻撃力の80%分治療を行う(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `豊作祭り`,
+                    description: `味方のアタッカー、ガーディアンの現在の必殺技CDを1ターン減少させ、味方全体が治癒を受けるときHP回復量を50%増加させ(5ターン)、効果「毎ターン豊作聖女 フィオラの攻撃力の95%分治療を行う(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `豊作祭り`,
+                    description: `味方のアタッカー、ガーディアンの現在の必殺技CDを1ターン減少させ、味方全体が治癒を受けるときHP回復量を50%増加させ(5ターン)、効果「毎ターン豊作聖女 フィオラの攻撃力の110%分治療を行う(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `豊作祭り`,
+                    description: `味方全体の攻撃力15%増加(2ターン)味方のアタッカー、ガーディアンの現在の必殺技CDを1ターン減少させ、味方全体が治癒を受けるときHP回復量を50%増加させ(5ターン)、効果「毎ターン豊作聖女 フィオラの攻撃力の110%分治療を行う(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `豊作祭り`,
+                    description: `味方全体の攻撃力20%増加(2ターン)味方のアタッカー、ガーディアンの現在の必殺技CDを1ターン減少させ、味方全体が治癒を受けるときHP回復量を50%増加させ(5ターン)、効果「毎ターン豊作聖女 フィオラの攻撃力の110%分治療を行う(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `踊り`,
+                    description: `自分の攻撃力の25%分味方全体に治療を行い、さらに毎ターン豊作聖女 フィオラの攻撃力の25%分味方全体に治療を行う(3ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `信徒の狂喜`,
+                    description: `味方全体の最大HPが35%増加する。味方全体が「チームに最低(1/2/3)名のアタッカーがいるとき、それぞれ『攻撃力が(15/15/30)%増加する』を発動する」を得る。味方全体が「チームに最低1名のガーディアンがいるとき、『通常攻撃ダメージが40%増加する、必殺技ダメージが20%増加する』を発動する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `滋養強壮`,
+                    description: `通常攻撃時、効果「味方全体の持続型治療効果を10%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `止まらぬ狂喜`,
+                    description: `攻撃時、効果「自分の攻撃力の25%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `情熱と興奮`,
+                    description: `攻撃時、効果「味方全体の与えるダメージを5%増加させる(最高5スタック)」を発動する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自身攻撃量増加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
