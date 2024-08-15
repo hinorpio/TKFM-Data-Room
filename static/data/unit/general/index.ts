@@ -356,7 +356,7 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.s_satan]: General_10145,
     [UnitCode.d_minayomi]: General_10146,
     [UnitCode.oniyoiki]: General_10147,
-    [UnitCode.d_shizuka]: General_10148,
+    [UnitCode.beer_shizuka]: General_10148,
     [UnitCode.tsubaki]: General_10149,
 }
 

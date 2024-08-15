@@ -5,7 +5,7 @@ import { Discipline } from '@/interface/unit/discipline';
 
 export const Discipline_10148: Discipline[] = [
     {
-        preview: UnitDisciplinePreview[UnitCode.d_shizuka][0],
+        preview: UnitDisciplinePreview[UnitCode.beer_shizuka][0],
         name: {
             [Locale.tc]: `比慶典更期待的事情`,
             [Locale.sc]: `比庆典更期待的事情`,
@@ -15,7 +15,7 @@ export const Discipline_10148: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.d_shizuka][1],
+        preview: UnitDisciplinePreview[UnitCode.beer_shizuka][1],
         name: {
             [Locale.tc]: `家庭的溫暖`,
             [Locale.sc]: `家庭的温暖`,
@@ -25,7 +25,7 @@ export const Discipline_10148: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.d_shizuka][2],
+        preview: UnitDisciplinePreview[UnitCode.beer_shizuka][2],
         name: {
             [Locale.tc]: `酒後亂性`,
             [Locale.sc]: `酒后乱性`,

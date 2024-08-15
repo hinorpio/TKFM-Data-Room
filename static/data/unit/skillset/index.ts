@@ -354,7 +354,7 @@ const SSR: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.s_satan]: SkillSet_10145,
     [UnitCode.d_minayomi]: SkillSet_10146,
     [UnitCode.oniyoiki]: SkillSet_10147,
-    [UnitCode.d_shizuka]: SkillSet_10148,
+    [UnitCode.beer_shizuka]: SkillSet_10148,
     [UnitCode.tsubaki]: SkillSet_10149,
 }
 

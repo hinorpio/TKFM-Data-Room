@@ -355,7 +355,7 @@ const SSR = {
     [UnitCode.s_satan]: SELECTION_10145,
     [UnitCode.d_minayomi]: SELECTION_10146,
     [UnitCode.oniyoiki]: SELECTION_10147,
-    [UnitCode.d_shizuka]: SELECTION_10148,
+    [UnitCode.beer_shizuka]: SELECTION_10148,
     [UnitCode.tsubaki]: SELECTION_10149,
 }
 

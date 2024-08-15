@@ -4,7 +4,7 @@ import { Unit } from '@/interface/unit';
 
 export const General_10148: Unit = {
     ID: "10148",
-    metaCode: "d_shizuka",
+    metaCode: "beer_shizuka",
     prefix: {
         [Locale.tc]: "酩酊狂歡",
         [Locale.sc]: "酩酊狂欢",
@@ -39,10 +39,10 @@ export const General_10148: Unit = {
     potential: PotentialType.ATTACK,
     isLimited: true,
     releaseDate: "2024/08/14",
-    essence: UnitEssence[UnitCode.d_shizuka],
-    thumbnail: UnitEssence[UnitCode.d_shizuka],
-    selection: UnitSelection[UnitCode.d_shizuka],
-    clothes: UnitFullImage[UnitCode.d_shizuka],
+    essence: UnitEssence[UnitCode.beer_shizuka],
+    thumbnail: UnitEssence[UnitCode.beer_shizuka],
+    selection: UnitSelection[UnitCode.beer_shizuka],
+    clothes: UnitFullImage[UnitCode.beer_shizuka],
     tagList: [],
     otherVersion: [ UnitCode.shizuka, UnitCode.s_shizuka, UnitCode.x_shizuka ],
     puzzle: [],
