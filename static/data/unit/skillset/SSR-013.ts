@@ -177,56 +177,56 @@ export const SkillSet_10028: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12/12/12/15/18%増加させ(最高2スタック)、330/376/422/422/422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12%増加させ(最高2スタック)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12%増加させ(最高2スタック)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12%増加させ(最高2スタック)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを15%増加させ(最高2スタック)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを18%増加させ(最高2スタック)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `正拳`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `スーパー千鶴！`,
+                    description: `自分の攻撃力を90%増加させ、必殺技ダメージを30%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `不死の肉体`,
+                    description: `自分の受けるダメージを15%減少させるが、火属性攻撃から受けるダメージが30%増加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `防御加速`,
+                    description: `防御時、効果「自分の必殺技のCDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `烈風激励`,
+                    description: `必殺時、効果「味方の風属性メンバー全体の必殺技ダメージを15%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `自分の必殺技ダメージを10%増加させる`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10028: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12/12/12/15/18%増加させ(最高2スタック)、330/376/422/422/422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12%増加させ(最高2スタック)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12%増加させ(最高2スタック)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを12%増加させ(最高2スタック)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを15%増加させ(最高2スタック)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴全力の一撃！`,
+                    description: `ターゲットに風属性攻撃から受けるダメージを18%増加させ(最高2スタック)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `正拳`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `スーパー千鶴！`,
+                    description: `自分の攻撃力を90%増加させ、通常攻撃ダメージを45%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `不死の肉体`,
+                    description: `自分の受けるダメージを15%減少させるが、火属性攻撃から受けるダメージが30%増加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `防御加速`,
+                    description: `防御時、効果「自分の必殺技のCDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `烈風激励`,
+                    description: `必殺技使用時、効果「味方全体の風属性キャラクターの攻撃力を15%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `自分の必殺技ダメージを10%増加させる`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

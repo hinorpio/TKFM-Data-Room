@@ -177,56 +177,56 @@ export const SkillSet_10034: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `真紅な裁断`,
+                    description: `330/376/422/468/514%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HPの15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `真紅な裁断`,
+                    description: `330%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HPの15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `真紅な裁断`,
+                    description: `376%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HPの15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真紅な裁断`,
+                    description: `422%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HPの15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `真紅な裁断`,
+                    description: `468%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HPの15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `真紅な裁断`,
+                    description: `514%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HPの15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `裁断`,
+                    description: `125%の攻撃力で現在の敵ターゲットにダメージを与え`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `運命の交織・紅`,
+                    description: `味方全体の火、水属性のメンバーが「与えるダメージを50%増加させる」を得る。\n1ターン目開始時に、「自分と蒼の縫製師アンスナーの通常攻撃ダメージを30%増加させる(50ターン)」を発動する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `スカーレットの織成`,
+                    description: `自分の通常攻撃ダメージを30%増加させる。\n「蒼の縫製師アンスナー」が味方にいて生き残っている場合、「自分の受ける水属性ダメージを33パーセント減少させる」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `グロスレッドの裁断`,
+                    description: `自分の攻撃力を30%増加させる。\n「蒼の縫製師アンスナー」が味方にいて生き残っている場合、「自分の与えるダメージを20%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `インスピレーション爆発`,
+                    description: `必殺時、効果「自分の通常攻撃ダメージを50%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

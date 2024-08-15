@@ -177,56 +177,56 @@ export const SkillSet_10029: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `ウォータースライダー大好き！`,
+                    description: `自分の365/417/470/523%の攻撃力でターゲットにダメージを与え、与えるダメージが20%増加する(最高1スタック)[CD:4]\n\nLv5: ターゲットの受けるダメージを20%増加させ(最高1スタック)、自分の576%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ウォータースライダー大好き！`,
+                    description: `自分の365%の攻撃力でターゲットにダメージを与え、与えるダメージが20%増加する(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ウォータースライダー大好き！`,
+                    description: `自分の417%の攻撃力でターゲットにダメージを与え、与えるダメージが20%増加する(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ウォータースライダー大好き！`,
+                    description: `自分の470%の攻撃力でターゲットにダメージを与え、与えるダメージが20%増加する(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `ウォータースライダー大好き！`,
+                    description: `自分の523%の攻撃力でターゲットにダメージを与え、与えるダメージが20%増加する(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `ウォータースライダー大好き！`,
+                    description: `ターゲットの受けるダメージを20%増加させ(最高1スタック)、自分の576%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の日の呪術`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `みんな〜全力で遊ぼうよ！`,
+                    description: `味方全体のアタッカーの攻撃力を60%増加させ、味方全体を沈黙無効にする`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `浮き輪拘束の術`,
+                    description: `攻撃時、効果「ターゲットの攻撃力を10%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `妖狐術・幻痛`,
+                    description: `攻撃時、効果「ターゲットの受けるダメージを4.5%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `やめられない楽しみ`,
+                    description: `自分の攻撃力を40%増加させる。必殺時、効果「100%の確率でターゲットに沈黙(1ターン)を与える」を誘発する。`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

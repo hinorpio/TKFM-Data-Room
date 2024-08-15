@@ -177,56 +177,56 @@ export const SkillSet_10026: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `ドキドキ☆キラッ`,
+                    description: `味方全体が効果「毎ターン攻撃力の79.2/91.7/104.2/116.7/129.2%自分に治療を行う(6ターン)」を得る。さらに自分以外のメンバーの必殺技CDを1ターン減少させる[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ドキドキ☆キラッ`,
+                    description: `味方全体が効果「毎ターン攻撃力の79.2%自分に治療を行う(6ターン)」を得る。さらに自分以外のメンバーの必殺技CDを1ターン減少させる[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ドキドキ☆キラッ`,
+                    description: `味方全体が効果「毎ターン攻撃力の91.7%自分に治療を行う(6ターン)」を得る。さらに自分以外のメンバーの必殺技CDを1ターン減少させる[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ドキドキ☆キラッ`,
+                    description: `味方全体が効果「毎ターン攻撃力の104.2%自分に治療を行う(6ターン)」を得る。さらに自分以外のメンバーの必殺技CDを1ターン減少させる[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `ドキドキ☆キラッ`,
+                    description: `味方全体が効果「毎ターン攻撃力の116.7%自分に治療を行う(6ターン)」を得る。さらに自分以外のメンバーの必殺技CDを1ターン減少させる[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `ドキドキ☆キラッ`,
+                    description: `味方全体が効果「毎ターン攻撃力の129.2%自分に治療を行う(6ターン)」を得る。さらに自分以外のメンバーの必殺技CDを1ターン減少させる[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `歌う`,
+                    description: `自分の攻撃力の30%味方全体の攻撃力増加(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆アイドルの星ノエル`,
+                    description: `自分の必殺技最大CDを2ターン減少させる。さらに味方全体が効果「毎ターン35%の攻撃力で治療する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `手を挙げて☆`,
+                    description: `攻撃時、効果「味方全体が治療を受けた時、回復HP量を12.5%増加させる(2ターン)」「盾効果を12.5%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `一緒に歌って☆`,
+                    description: `必殺時、効果「味方全体の攻撃力を10%増加させる(12ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `みんなだいすき☆`,
+                    description: `必殺時、効果「攻撃力の100%分味方全体に盾を張る(4ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `受けるダメージを減少`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

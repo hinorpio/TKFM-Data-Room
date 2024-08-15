@@ -177,56 +177,56 @@ export const SkillSet_10031: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `265/298%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを15%減少させ、受けるダメージを15%増加させる(3ターン)[CD:3]\n\nLv3+: ターゲットの現在の必殺技CDを[1/1/2]ターン増加させ、与えるダメージを15/20/20%減少させ(1ターン)、受けるダメージを15/20/20%増加させる(3ターン)。さらに331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを15%減少させ、受けるダメージを15%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを15%減少させ、受けるダメージを15%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `ターゲットの現在の必殺技CDを1ターン増加させ、与えるダメージを15%減少させ(1ターン)、受けるダメージを15%増加させる(3ターン)。さらに331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `ターゲットの現在の必殺技CDを1ターン増加させ、与えるダメージを20%減少させ(1ターン)、受けるダメージを20%増加させる(3ターン)。さらに364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `ターゲットの現在の必殺技CDを2ターン増加させ、与えるダメージを20%減少させ(1ターン)、受けるダメージを20%増加させる(3ターン)。さらに397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ビーチボールアタック`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `信頼の置けるライフガード`,
+                    description: `毎Waveの1ターン目に、効果「ターゲットの受ける必殺ダメージを50%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `弱点分析`,
+                    description: `自分の必殺技ダメージを20%増加させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `高速ミニ魚雷`,
+                    description: `3ターン毎に、攻撃時、効果「自分の40%の攻撃力でターゲットに3回追撃を行う(1ターン)」を誘発する\n攻撃時「ターゲットが受ける誘発スキルダメージを7.5%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魚捕獲用音爆弾`,
+                    description: `4ターン毎に、攻撃時、効果「自分の50%の攻撃力で敵全体に4回追撃を行う(1ターン)」を誘発する\n必殺時「敵全体が受ける誘発スキルダメージを32.5%増加させる(最高1スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10031: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `265/298/331/331/364%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを[1/1/1/1/2]増加させ、与えるダメージを15/15/15/20/20%減少させ、受けるダメージを15/15/15/20/20%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `265%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを15%減少させ、受けるダメージを15%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `298%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを15%減少させ、受けるダメージを15%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを15%減少させ、受けるダメージを15%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `331%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを1増加させ、与えるダメージを20%減少させ、受けるダメージを20%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `出力120%・スマッシュ`,
+                    description: `364%の攻撃力でターゲットにダメージを与え、ターゲットの必殺技CDを2増加させ、与えるダメージを20%減少させ、受けるダメージを20%増加させる(3ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ビーチボールアタック`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `信頼の置けるライフガード`,
+                    description: `毎Waveの1ターン目に、効果「ターゲットの受ける必殺ダメージを50%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `弱点分析`,
+                    description: `自分の必殺技ダメージを20%増加させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `高速ミニ魚雷`,
+                    description: `3ターン毎に、攻撃時、効果「自分の40%の攻撃力でターゲットに3回追撃を行う(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魚捕獲用音爆弾`,
+                    description: `4ターン毎に、攻撃時、効果「自分の50%の攻撃力で敵全体に4回追撃を行う(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

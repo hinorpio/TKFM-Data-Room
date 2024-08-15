@@ -124,7 +124,7 @@ export const SkillSet_10027: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
+                    description: `Increase the target's Damage Taken by additional attacks by 60/70/80/90/100% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60/70/80/90/100% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30/35/40/45/50% Attack Power)". (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Bloodlust`,
@@ -177,56 +177,56 @@ export const SkillSet_10027: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `ターゲットが受ける誘発スキルダメージを60/70/80/90/100%増加させ(3ターン)、自分が挑発(1ターン)を得て防御状態になり、攻撃力を60/70/80/90/100%増加させる(1ターン)。攻撃を受けた時「30/35/40/45/50%の攻撃力で自分に治療を行う」を誘発する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `ターゲットが受ける誘発スキルダメージを60%増加させ(3ターン)、自分が挑発(1ターン)を得て防御状態になり、攻撃力を60%増加させる(1ターン)。攻撃を受けた時「30%の攻撃力で自分に治療を行う」を誘発する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `ターゲットが受ける誘発スキルダメージを70%増加させ(3ターン)、自分が挑発(1ターン)を得て防御状態になり、攻撃力を70%増加させる(1ターン)。攻撃を受けた時「35%の攻撃力で自分に治療を行う」を誘発する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `ターゲットが受ける誘発スキルダメージを80%増加させ(3ターン)、自分が挑発(1ターン)を得て防御状態になり、攻撃力を80%増加させる(1ターン)。攻撃を受けた時「40%の攻撃力で自分に治療を行う」を誘発する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `ターゲットが受ける誘発スキルダメージを90%増加させ(3ターン)、自分が挑発(1ターン)を得て防御状態になり、攻撃力を90%増加させる(1ターン)。攻撃を受けた時「45%の攻撃力で自分に治療を行う」を誘発する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `ターゲットが受ける誘発スキルダメージを100%増加させ(3ターン)、自分が挑発(1ターン)を得て防御状態になり、攻撃力を100%増加させる(1ターン)。攻撃を受けた時「50%の攻撃力で自分に治療を行う」を誘発する(1ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `引き裂き`,
+                    description: `80%の攻撃力でターゲットにダメージを与え、自分の攻撃力を25%増加させる(2ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ブラッドムーンの禍`,
+                    description: `自分の必殺技最大CDを1ターン減少させ、攻撃力を33%増加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `苦痛と喜び`,
+                    description: `攻撃を受けた時、効果「自分の攻撃力を10%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `獣欲の殺し合い`,
+                    description: `攻撃を受けた時、効果「自分の100%の攻撃力でターゲットに反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `殺戮衝動`,
+                    description: `防御時のダメージ軽減効果を10%増加させる\n与えるダメージを35%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `回復量+`,
+                    description: `自分が治療を受けるとき、回復HP量を15%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -407,27 +407,27 @@ export const SkillSet_10027: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
+                    description: `Enter Guard Stance, gain taunt for 1 turn, and increase your Attack Power by 60/80/100/100/100% for 1 turn. When being Attacked, heal self by 30/30/30/40/50% of your AP, but decrease your defense by 25% for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 60% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 60% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (30% Attack Power)". (CD: 3)`
+                    description: `Enter Guard Stance, gain taunt for 1 turn, and increase your Attack Power by 60% for 1 turn. When being Attacked, heal self by 30% of your AP, but decrease your defense by 25% for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_2]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 70% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 70% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (35% Attack Power)". (CD: 3)`
+                    description: `Enter Guard Stance, gain taunt for 1 turn, and increase your Attack Power by 80% for 1 turn. When being Attacked, heal self by 30% of your AP, but decrease your defense by 25% for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_3]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 80% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 80% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (40% Attack Power)". (CD: 3)`
+                    description: `Enter Guard Stance, gain taunt for 1 turn, and increase your Attack Power by 100% for 1 turn. When being Attacked, heal self by 30% of your AP, but decrease your defense by 25% for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_4]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 90% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 90% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (45% Attack Power)". (CD: 3)`
+                    description: `Enter Guard Stance, gain taunt for 1 turn, and increase your Attack Power by 100% for 1 turn. When being Attacked, heal self by 40% of your AP, but decrease your defense by 25% for 1 turn. (CD: 3)`
                 },
                 [SkillType.SKILL_5]: {
                     name: `Bloodlust`,
-                    description: `Increase the target's Damage Taken by additional attacks by 100% for 3 turns, gain Taunt for 1 turn, enter Guard Stance and increase your Attack Power by 100% for 1 turn.\nGain the following ability for 1 turn: "When Attacked, heal yourself (50% Attack Power)". (CD: 3)`
+                    description: `Enter Guard Stance, gain taunt for 1 turn, and increase your Attack Power by 100% for 1 turn. When being Attacked, heal self by 50% of your AP, but decrease your defense by 25% for 1 turn. (CD: 3)`
                 },
                 [SkillType.ATTACK]: {
                     name: `Rupture`,
@@ -460,56 +460,56 @@ export const SkillSet_10027: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `自分に挑発を与え(1ターン)、防御状態になり、攻撃力を60/80/100/100/100%増加する(1ターン)。攻撃を受けた時、効果「攻撃力の30/30/30/40/50%分自分に治療を行う」を誘発する(1ターン)。ただし防御時のダメージ減少効果が25%減少する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `自分に挑発を与え(1ターン)、防御状態になり、攻撃力を60%増加する(1ターン)。攻撃を受けた時、効果「攻撃力の30%分自分に治療を行う」を誘発する(1ターン)。ただし防御時のダメージ減少効果が25%減少する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `自分に挑発を与え(1ターン)、防御状態になり、攻撃力を80%増加する(1ターン)。攻撃を受けた時、効果「攻撃力の30%分自分に治療を行う」を誘発する(1ターン)。ただし防御時のダメージ減少効果が25%減少する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `自分に挑発を与え(1ターン)、防御状態になり、攻撃力を100%増加する(1ターン)。攻撃を受けた時、効果「攻撃力の30%分自分に治療を行う」を誘発する(1ターン)。ただし防御時のダメージ減少効果が25%減少する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `自分に挑発を与え(1ターン)、防御状態になり、攻撃力を100%増加する(1ターン)。攻撃を受けた時、効果「攻撃力の40%分自分に治療を行う」を誘発する(1ターン)。ただし防御時のダメージ減少効果が25%減少する(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `殺意の誘惑`,
+                    description: `自分に挑発を与え(1ターン)、防御状態になり、攻撃力を100%増加する(1ターン)。攻撃を受けた時、効果「攻撃力の50%分自分に治療を行う」を誘発する(1ターン)。ただし防御時のダメージ減少効果が25%減少する(1ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `引き裂き`,
+                    description: `50%の攻撃力でターゲットにダメージを与え、自分の攻撃力を25%増加させる(2ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ブラッドムーンの禍`,
+                    description: `自分の必殺技最大CDを1ターン減少させ、攻撃力を33%増加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `苦痛と喜び`,
+                    description: `攻撃を受けた時、効果「自分の攻撃力を2%増加させる(最高25スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `獣欲の殺し合い`,
+                    description: `自分を必殺技CDの変更効果無効にする。攻撃を受けた時、効果「自分の100%の攻撃力でターゲットに反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `殺戮衝動`,
+                    description: `必殺時、効果「自分の攻撃ダメージを33%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `回復量+`,
+                    description: `自分が治療を受けるとき、回復HP量を15%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

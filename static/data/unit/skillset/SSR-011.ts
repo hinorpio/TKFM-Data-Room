@@ -16,7 +16,7 @@ export const SkillSet_10037: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
                     name: `蛇身纏繞猛咬`,
-                    description: `以攻擊力330/376/376/422/468%對目標造成傷害，再以100/110/120/130/150%機率使目標麻痺1回合，CD: 4 [3絆 CD: 3]`
+                    description: `以攻擊力330/376/376/422/468%對目標造成傷害，再以100/110/120/130/150%機率使目標麻痺1回合，CD: 4 [3絆+ CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `蛇身纏繞猛咬`,
@@ -28,11 +28,11 @@ export const SkillSet_10037: SkillSet[] =  [
                 },
                 [SkillType.SKILL_3]: {
                     name: `蛇身纏繞猛咬`,
-                    description: `以攻擊力376%對目標造成傷害，再以120%機率使目標麻痺1回合，CD: 4`
+                    description: `以攻擊力376%對目標造成傷害，再以120%機率使目標麻痺1回合，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
                     name: `蛇身纏繞猛咬`,
-                    description: `以攻擊力422%對目標造成傷害，再以130%機率使目標麻痺1回合，CD: 4`
+                    description: `以攻擊力422%對目標造成傷害，再以130%機率使目標麻痺1回合，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
                     name: `蛇身纏繞猛咬`,
@@ -70,7 +70,7 @@ export const SkillSet_10037: SkillSet[] =  [
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
                     name: `蛇身缠绕猛咬`,
-                    description: `以攻击力330/376/376/422/468%对目标造成伤害，再以100/110/120/130/150%机率使目标麻痹1回合，CD: 4 [3绊 CD: 3]`
+                    description: `以攻击力330/376/376/422/468%对目标造成伤害，再以100/110/120/130/150%机率使目标麻痹1回合，CD: 4 [3绊+ CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `蛇身缠绕猛咬`,
@@ -82,11 +82,11 @@ export const SkillSet_10037: SkillSet[] =  [
                 },
                 [SkillType.SKILL_3]: {
                     name: `蛇身缠绕猛咬`,
-                    description: `以攻击力376%对目标造成伤害，再以120%机率使目标麻痹1回合，CD: 4`
+                    description: `以攻击力376%对目标造成伤害，再以120%机率使目标麻痹1回合，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
                     name: `蛇身缠绕猛咬`,
-                    description: `以攻击力422%对目标造成伤害，再以130%机率使目标麻痹1回合，CD: 4`
+                    description: `以攻击力422%对目标造成伤害，再以130%机率使目标麻痹1回合，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
                     name: `蛇身缠绕猛咬`,
@@ -124,7 +124,7 @@ export const SkillSet_10037: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Lifeless Bind`,
-                    description: `Damage target (330/376/376/422/468% Attack Power). 100/110/120/130/150% chance of inflicting target with Paralysis for 1 turn. CD:4 [Bond 5: CD:3]`
+                    description: `Damage target (330/376/376/422/468% Attack Power). 100/110/120/130/150% chance of inflicting target with Paralysis for 1 turn. CD:4 [Bond 3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Lifeless Bind`,
@@ -136,11 +136,11 @@ export const SkillSet_10037: SkillSet[] =  [
                 },
                 [SkillType.SKILL_3]: {
                     name: `Lifeless Bind`,
-                    description: `Damage target (376% Attack Power). 120% chance of inflicting target with Paralysis for 1 turn. CD:4`
+                    description: `Damage target (376% Attack Power). 120% chance of inflicting target with Paralysis for 1 turn. CD:3`
                 },
                 [SkillType.SKILL_4]: {
                     name: `Lifeless Bind`,
-                    description: `Damage target (422% Attack Power). 130% chance of inflicting target with Paralysis for 1 turn. CD:4`
+                    description: `Damage target (422% Attack Power). 130% chance of inflicting target with Paralysis for 1 turn. CD:3`
                 },
                 [SkillType.SKILL_5]: {
                     name: `Lifeless Bind`,
@@ -177,56 +177,56 @@ export const SkillSet_10037: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `330/376/376/422/468%の攻撃力でターゲットにダメージを与え、さらに100/110/120/130/150%の確率で麻痺(1ターン)を与える[CD:4] [Lv3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、さらに110%の確率で麻痺(1ターン)を与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、さらに120%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに130%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、さらに150%の確率で麻痺(1ターン)を与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `咬撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `情熱の舞`,
+                    description: `味方の火属性キャラクターの攻撃力を35%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `遅緩の毒`,
+                    description: `必殺時、効果「ターゲットの必殺技CDを2ターン増加させる」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ダブルスネークバイト`,
+                    description: `通常攻撃時、効果「ターゲットが受ける通常攻撃のダメージを10%増加させる(3ターン)」を誘発する\n必殺時、効果「ターゲットが受ける必殺技のダメージを15%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `メス、ケイティ、一緒に攻撃して！`,
+                    description: `攻撃時、効果「ターゲットが受ける通常攻撃のダメージを4%増加させ(最高5スタック)、ターゲットが受ける必殺技のダメージを3%増加させ(最高5スタック)、ターゲットが与えるダメージを4%減少させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ＋`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
@@ -299,7 +299,7 @@ export const SkillSet_10037: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
                     name: `蛇身纏繞猛咬`,
-                    description: `以攻擊力330/376/422/422/468%對目標造成傷害，再以100%機率使目標麻痺1回合，但也使目標被麻痺機率減少25/25/25/20/20%(25回合)，CD: 4 [5絆 CD: 3]`
+                    description: `以攻擊力330/376/422/422/422%對目標造成傷害，再以100%機率使目標麻痺1回合，但也使目標被麻痺機率減少25/25/25/20/20%(25回合)，CD: 4 [5絆 CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `蛇身纏繞猛咬`,
@@ -319,7 +319,7 @@ export const SkillSet_10037: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `蛇身纏繞猛咬`,
-                    description: `以攻擊力468%對目標造成傷害，再以100%機率使目標麻痺1回合，但也使目標被麻痺機率減少20%(25回合)，CD: 4`
+                    description: `以攻擊力422%對目標造成傷害，再以100%機率使目標麻痺1回合，但也使目標被麻痺機率減少20%(25回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
                     name: `咬擊`,
@@ -353,7 +353,7 @@ export const SkillSet_10037: SkillSet[] =  [
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
                     name: `蛇身缠绕猛咬`,
-                    description: `以攻击力330/376/422/422/468%对目标造成伤害，再以100%机率使目标麻痹1回合，但也使目标被麻痹机率减少25/25/25/20/20%(25回合)，CD: 4 [5绊 CD: 3]`
+                    description: `以攻击力330/376/422/422/422%对目标造成伤害，再以100%机率使目标麻痹1回合，但也使目标被麻痹机率减少25/25/25/20/20%(25回合)，CD: 4 [5绊 CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `蛇身缠绕猛咬`,
@@ -373,7 +373,7 @@ export const SkillSet_10037: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `蛇身缠绕猛咬`,
-                    description: `以攻击力468%对目标造成伤害，再以100%机率使目标麻痹1回合，但也使目标被麻痹机率减少20%(25回合)，CD: 4`
+                    description: `以攻击力422%对目标造成伤害，再以100%机率使目标麻痹1回合，但也使目标被麻痹机率减少20%(25回合)，CD: 4`
                 },
                 [SkillType.ATTACK]: {
                     name: `咬击`,
@@ -407,7 +407,7 @@ export const SkillSet_10037: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Lifeless Bind`,
-                    description: `Damage target for 330/376/422/422/468% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 25/25/25/20/20% for 25 turns. CD:4 [Bond 5: CD:3]`
+                    description: `Damage target for 330/376/422/422/422% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 25/25/25/20/20% for 25 turns. CD:4 [Bond 5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Lifeless Bind`,
@@ -427,7 +427,7 @@ export const SkillSet_10037: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `Lifeless Bind`,
-                    description: `Damage target for 468% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 20% for 25 turns. CD:3`
+                    description: `Damage target for 422% of your Attack Power and paralyze them for 1 turn (100% success rate), then reduce their susceptibility to being paralyzed by 20% for 25 turns. CD:3`
                 },
                 [SkillType.ATTACK]: {
                     name: `Bite`,
@@ -460,56 +460,56 @@ export const SkillSet_10037: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `330/376/422/422/422%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える。ただしターゲットの麻痺になる確率が25/25/25/20/20%減少する(25ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える。ただしターゲットの麻痺になる確率が25%減少する(25ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える。ただしターゲットの麻痺になる確率が25%減少する(25ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える。ただしターゲットの麻痺になる確率が25%減少する(25ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える。ただしターゲットの麻痺になる確率が20%減少する(25ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `締め付け咬みつく蛇`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、さらに100%の確率で麻痺(1ターン)を与える。ただしターゲットの麻痺になる確率が20%減少する(25ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `咬撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `情熱の舞`,
+                    description: `味方の火属性キャラクターの攻撃力を35%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `メスの咬撃`,
+                    description: `通常攻撃時、効果「敵が受ける通常攻撃ダメージを7.5%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ケイティの咬撃`,
+                    description: `必殺時、効果「ターゲットの受ける必殺ダメージを15%増加させる(1ターン)を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `メス、ケイティ、一緒に攻撃して！`,
+                    description: `攻撃時、「ターゲットが受ける通常攻撃ダメージを2%増加(最高10スタック)、必殺ダメージを1.5%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ＋`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

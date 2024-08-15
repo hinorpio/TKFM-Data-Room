@@ -177,56 +177,56 @@ export const SkillSet_10017: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25/25/25/35/35増加させ(3/3/3/3/4ターン)、165/188/211/211/211%の攻撃力で敵全体にダメージを与える[CD:4] [Lv5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25増加させ(3ターン)、165%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25増加させ(3ターン)、188%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25増加させ(3ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を30増加させ(3ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を35増加させ(4ターン)、211%の攻撃力で敵全体にダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `B級グルメ攻撃`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `お祭り魔王の威勢`,
+                    description: `自分の攻撃力を35%、通常攻撃ダメージを150%増加させるが、自分以外のメンバーの攻撃ダメージが15%減少する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `お金稼ぎはまず行動`,
+                    description: `自分のHPが99%未満の場合、効果「自分の攻撃力を35%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `痛みの快楽`,
+                    description: `自分のHPが99%未満の場合、効果「自分の通常攻撃ダメージを70%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `自分で受け責め`,
+                    description: `毎ターン自分の最大HPの7.5%分自分に治療を行う\n1ターン目と1ターン経過ごとに、効果「自分の現在のHPの1.5%分、自分にダメージを与える」を誘発する\n1ターン目に、効果「自分の現在の必殺技CDを4ターン減少させる」を誘発する\n必殺技攻撃時、効果「《追加買付》」を誘発する\n\n《追加買付》\n通常攻撃時、スキル「150%の攻撃力でターゲットに追撃を行う」を追加する(4ターン)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -299,7 +299,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
                     name: `烈日祭典盛宴`,
-                    description: `使自身攻擊力增加25/25/25/35/35%(3/3/3/3/4回合)，再以攻擊力165/188/211/211/211%對敵全體造成傷害，CD: 4 [5絆 CD: 3]`
+                    description: `使自身攻擊力增加25/25/25/35/35%(3/3/3/3/4回合)，再以攻擊力165/188/211/211/211%對敵全體造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `烈日祭典盛宴`,
@@ -319,7 +319,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `烈日祭典盛宴`,
-                    description: `使自身攻擊力增加35%(3回合)，再以攻擊力211%對敵全體造成傷害，CD: 3`
+                    description: `使自身攻擊力增加35%(3回合)，再以攻擊力211%對敵全體造成傷害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
                     name: `平民美食攻擊`,
@@ -353,7 +353,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
                     name: `烈日祭典盛宴`,
-                    description: `使自身攻击力增加25/25/25/35/35%(3/3/3/3/4回合)，再以攻击力165/188/211/211/211%对敌全体造成伤害，CD: 4 [5绊 CD: 3]`
+                    description: `使自身攻击力增加25/25/25/35/35%(3/3/3/3/4回合)，再以攻击力165/188/211/211/211%对敌全体造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `烈日祭典盛宴`,
@@ -373,7 +373,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `烈日祭典盛宴`,
-                    description: `使自身攻击力增加35%(3回合)，再以攻击力211%对敌全体造成伤害，CD: 3`
+                    description: `使自身攻击力增加35%(3回合)，再以攻击力211%对敌全体造成伤害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
                     name: `平民美食攻击`,
@@ -407,7 +407,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Summer Ceremony`,
-                    description: `Increase Attack Power by 25/25/25/35/35% for [3/3/3/3/4] turns, then deal damage to all enemies with 165/188/211/211/211% Attack Power (CD: 4) [Bond 5: (CD: 3)]`
+                    description: `Increase Attack Power by 25/25/25/35/35% for [3/3/3/3/4] turns, then deal damage to all enemies with 165/188/211/211/211% Attack Power (CD: 4)`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Summer Ceremony`,
@@ -427,7 +427,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `Summer Ceremony`,
-                    description: `Increase Attack Power by 35% for 4 turns, then deal damage to all enemies with 211% Attack Power (CD: 3)`
+                    description: `Increase Attack Power by 35% for 4 turns, then deal damage to all enemies with 211% Attack Power (CD: 4)`
                 },
                 [SkillType.ATTACK]: {
                     name: `Street Food Attack`,
@@ -435,7 +435,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `Festival Momentum`,
-                    description: `Increase your Attack Power by 35% and Basic Attack Power by 150%. All allies deal 15% less damage.`
+                    description: `On your first turn, increase your Attack Power by 35% for 4 turns, increase Normal Attack Power by 150%. All allies deal 15% less damage.`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `No Easy Money`,
@@ -460,56 +460,56 @@ export const SkillSet_10017: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25/25/25/35/35増加させ(3/3/3/3/4ターン)、165/188/211/211/211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25増加させ(3ターン)、165%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25増加させ(3ターン)、188%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を25増加させ(3ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を30増加させ(3ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `烈陽祭の盛宴`,
+                    description: `自分の攻撃力を35増加させ(4ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `B級グルメ攻撃`,
+                    description: `50%の攻撃力で敵全体にダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `お祭り魔王の威勢`,
+                    description: `1ターン目に、効果「自分の攻撃力を35%増加させる(4ターン)」を誘発する。さらに自分の通常攻撃ダメージを150%増加させるが、自分以外のメンバーの攻撃ダメージが15%減少する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `お金稼ぎはまず行動`,
+                    description: `自分のHPが99%未満の場合、効果「自分の攻撃力を17.5%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `痛みの快楽`,
+                    description: `自分のHPが99%未満の場合、効果「自分の通常攻撃ダメージを50%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `自分で受け責め`,
+                    description: `自分に最大HPの7.5%分治療を行う。1ターン目と1ターン経過ごとに、効果「自分の現在のHPの1.5%分、自分にダメージを与える」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
