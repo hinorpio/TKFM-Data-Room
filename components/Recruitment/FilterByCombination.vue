@@ -14,7 +14,7 @@
         </template>
         <template v-slot:[`item.units`]="{ item }">
             <div class="my-2">
-                <v-chip v-for="(unit, index) in item.units" :key="index" outlined :color="getElementColor(unit.element)" class="mx-1 px-2" :large="!isMobile">
+                <v-chip v-for="(unit, index) in item.units" :key="index" outlined :color="getRarityColor(unit.rarity)" class="mx-1 px-2" :large="!isMobile">
                     <v-img :width="thumbnailSize" :height="thumbnailSize" :src="unit.icon"></v-img>
                     <b>{{ unit.name }}</b>
                 </v-chip>
@@ -25,8 +25,8 @@
 <script lang="ts">
 import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
-import { Locale, Element, TagID } from '@/plugins/utils/enums'
-import { ElementColor } from '~/static/const';
+import { Locale, Rarity, TagID } from '@/plugins/utils/enums'
+import { RarityColor } from '~/static/const';
 
 @Component
 export default class FilterByCombination extends Vue {
@@ -69,8 +69,8 @@ export default class FilterByCombination extends Vue {
         return `${beginText}${result}`
     }
 
-    getElementColor(element: Element){
-        return ElementColor[element]
+    getRarityColor(rarity: Rarity){
+        return RarityColor[rarity]
     }
 }
 </script>
