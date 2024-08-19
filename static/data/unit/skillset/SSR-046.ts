@@ -177,56 +177,56 @@ export const SkillSet_10076: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟 全員突撃`,
+                    description: `自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与え、味方のアタッカーが「通常攻撃時『自分の37.5/45/45/52.5/60%の攻撃力でターゲットにダメージを与える』を追加する(3/3/4/4/4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟 全員突撃`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、味方のアタッカーが「通常攻撃時『自分の37.5%の攻撃力でターゲットにダメージを与える』を追加する(3ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟 全員突撃`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、味方のアタッカーが「通常攻撃時『自分の45%の攻撃力でターゲットにダメージを与える』を追加する(3ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟 全員突撃`,
+                    description: `自分の422%の攻撃力でターゲットにダメージを与え、味方のアタッカーが「通常攻撃時『自分の45%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟 全員突撃`,
+                    description: `自分の468%の攻撃力でターゲットにダメージを与え、味方のアタッカーが「通常攻撃時『自分の52.5%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟 全員突撃`,
+                    description: `自分の514%の攻撃力でターゲットにダメージを与え、味方のアタッカーが「通常攻撃時『自分の60%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `スーパールルパンチ`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `不思議の国~お茶会同盟~`,
+                    description: `1ターン目に「自分の必殺技CDを4ターン減少させる」を誘発する\n自分の必殺攻撃時「《Shuffling》」を誘発する\n味方全体が「メンバーに4名以上のアタッカーがいるとき《Four of a Kind》を発動する」を得る\n\n《Shuffling》\n味方のアタッカーが「通常攻撃時『自分の37.5%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を得る\n\n《Four of a Kind》\n攻撃力を70%増加させる\n通常攻撃ダメージを100%増加させる\n受けるダメージを10%減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `美しい願望`,
+                    description: `必殺時「味方全体の通常攻撃ダメージを30%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `公主のリーダーシップ(夢)`,
+                    description: `1ターン目に「味方全体の通常攻撃ダメージを30%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `お茶会同盟の野心`,
+                    description: `必殺時「味方全体の与えるダメージを12.5%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

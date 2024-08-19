@@ -177,56 +177,56 @@ export const SkillSet_10090: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `主の愛は潮の如く`,
+                    description: `自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与え、味方全体が「通常攻撃時『自分の10/15/15/20/25%の攻撃力でターゲットにダメージを与える(3/3/4/4/4ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `主の愛は潮の如く`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、味方全体が「通常攻撃時『自分の10%の攻撃力でターゲットにダメージを与える(3ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `主の愛は潮の如く`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、味方全体が「通常攻撃時『自分の15%の攻撃力でターゲットにダメージを与える(3ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `主の愛は潮の如く`,
+                    description: `自分の422%の攻撃力でターゲットにダメージを与え、味方全体が「通常攻撃時『自分の15%の攻撃力でターゲットにダメージを与える(4ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `主の愛は潮の如く`,
+                    description: `自分の468%の攻撃力でターゲットにダメージを与え、味方全体が「通常攻撃時『自分の20%の攻撃力でターゲットにダメージを与える(4ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `主の愛は潮の如く`,
+                    description: `自分の514%の攻撃力でターゲットにダメージを与え、味方全体が「通常攻撃時『自分の25%の攻撃力でターゲットにダメージを与える(4ターン)』を誘発する」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `潮津波`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `天使狩りエリア`,
+                    description: `味方全体の攻撃力を50%増加させる\n1ターン毎に「味方全体の誘発スキル効果を20%増加させる(最高10スタック)」を誘発する\n味方のアタッカー、ガーディアン、デバッファーが《セックスの神のお招き》を得る\n\n《セックスの神のお招き》\n必殺技ダメージを40%増加させる\n必殺時「自分の80%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `楽園の印`,
+                    description: `1ターン毎に「自分の攻撃力を10%増加させる(最高10スタック)」を誘発する\n必殺時「自分の80%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `気絶の波`,
+                    description: `通常攻撃時「ターゲットが受ける誘発スキルダメージを20%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `神の触れる手`,
+                    description: `自分の与えるダメージを20%増加させる\n自分の必殺技ダメージを40%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺＋`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

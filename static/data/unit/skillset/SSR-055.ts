@@ -177,56 +177,56 @@ export const SkillSet_10088: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `アンスティー特製カクテル`,
+                    description: `ターゲットが受けるダメージを18/18/20/20/20%増加させ(7ターン)、265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `アンスティー特製カクテル`,
+                    description: `ターゲットが受けるダメージを18%増加させ(7ターン)、265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `アンスティー特製カクテル`,
+                    description: `ターゲットが受けるダメージを18%増加させ(7ターン)、298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `アンスティー特製カクテル`,
+                    description: `ターゲットが受けるダメージを20%増加させ(7ターン)、331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `アンスティー特製カクテル`,
+                    description: `ターゲットが受けるダメージを20%増加させ(7ターン)、364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `アンスティー特製カクテル`,
+                    description: `ターゲットが受けるダメージを20%増加させ(7ターン)、397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `情熱的なあいさつ`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `情熱的な二星店長`,
+                    description: `味方全員が《美酒》《佳人》《用心棒》《愛する妹》を獲得する\n自分の必殺時「味方全体の与えるダメージを35%増加させる(1ターン)」を誘発する\n\n《美酒》\nチームに(1/2/3)人のアタッカーがいる時「攻撃力を15/20/30%増加させる」を発動する\n\n《佳人》\nチームに(1/2/3)人のデバッファーがいる時「攻撃力を15/20/30%増加させる」を発動する\n\n《用心棒》\nチームに1人以上のガーディアンがいる時「必殺技ダメージを50%増加させる」を発動する\n\n《愛する妹》\n「銀河の蒼 アンスナー」がフィールド上で生き残っているとき「与えるダメージを20%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `勢い第一`,
+                    description: `必殺時「味方全体の必殺技ダメージを25%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `電撃恋愛`,
+                    description: `必殺時《お酒の追加注文》を誘発する\n\n《お酒の追加注文》\n味方のアタッカーとデバッファーが「必殺時『77%の攻撃力でターゲットにダメージを与える』を誘発する(1ターン)」を得る`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `七夕の願い`,
+                    description: `7ターン目開始時「味方全体の与えるダメージを30%増加させる(最高1スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力+`,
+                    description: `攻撃力が10%増加する`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `麻痺無効`
                 }
             },
             [Locale.kr]: {

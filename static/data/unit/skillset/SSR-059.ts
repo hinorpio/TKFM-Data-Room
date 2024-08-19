@@ -177,56 +177,56 @@ export const SkillSet_10093: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `過労猫ビーム！`,
+                    description: `自分の攻撃力を0/0/20/25/30%増加させ(最高3スタック)、自分の422/486/551/615/680%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `過労猫ビーム！`,
+                    description: `自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `過労猫ビーム！`,
+                    description: `自分の486%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `過労猫ビーム！`,
+                    description: `自分の攻撃力を20%増加させ(最高3スタック)、自分の551%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `過労猫ビーム！`,
+                    description: `自分の攻撃力を25%増加させ(最高3スタック)、自分の615%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `過労猫ビーム！`,
+                    description: `自分の攻撃力を30%増加させ(最高3スタック)、自分の680%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `徹夜残業猫キーック！`,
+                    description: `自分の125%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `星の共鳴`,
+                    description: `自分の攻撃力を75%増加させる\n1ターン目に「《エネルギー凝縮》」を誘発する\n味方全体が《星の欠片》を得る\n\n《エネルギー凝縮》\n自分以外のメンバーが「攻撃時『自分の攻撃力の20%分、適合者ナナの攻撃力を増加させる(1ターン)』を誘発する(50ターン)」を得る\n味方全体が「通常攻撃時『ターゲットが受ける光・闇属性ダメージを4%増加させる(最高15スタック)』を誘発する(50ターン)」を得る\n\n\n《星の欠片》\nメンバーに(1/2/3)人の光属性がいる時「攻撃力が(5/10/15)%増加する」を発動する\nメンバーに(1/2/3)人の闇属性がいる時「攻撃力が(5/10/15)%増加する」を発動する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `苦労人`,
+                    description: `通常攻撃時「自分の通常攻撃ダメージを6%増加させる(最高5スタック)」を誘発する\n必殺技攻撃時「自分の必殺技ダメージを10%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `お腹が空いた`,
+                    description: `治療を受けたとき「自分の受けるダメージを3%減少させる(最高5スタック)」を誘発する\n治療を受けたとき「自分の攻撃力を8%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ナナ・スーパー残業モード！`,
+                    description: `治療を受けたとき「自分が与えるダメージを4%増加させる(最高5スタック)」を誘発する\n必殺技攻撃時「《連続残業拳》」を誘発する\n\n《連続残業拳》\n通常攻撃時「自分の45%の攻撃力でターゲットにダメージを与える」を誘発する(12ターン)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

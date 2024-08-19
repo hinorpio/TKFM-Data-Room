@@ -177,56 +177,56 @@ export const SkillSet_10050: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `もっと楽しませて！`,
+                    description: `330/376/422/468/514%の攻撃力と自分の最大HPの89/107/125/143/161%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `もっと楽しませて！`,
+                    description: `330%の攻撃力と自分の最大HPの89%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `もっと楽しませて！`,
+                    description: `376%の攻撃力と自分の最大HPの107%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `もっと楽しませて！`,
+                    description: `422%の攻撃力と自分の最大HPの125%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `もっと楽しませて！`,
+                    description: `468%の攻撃力と自分の最大HPの143%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `もっと楽しませて！`,
+                    description: `514%の攻撃力と自分の最大HPの161%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力破砕拳`,
+                    description: `100%の攻撃力と自分の最大HPの50%分ターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王の頂点`,
+                    description: `自分の最大HPが100%増加する\n自分の通常攻撃ダメージが125%増加する\n自分の必殺技ダメージが100%増加する\n攻撃時「ターゲットが与えるダメージを10%減少させる(1ターン)」を誘発する\n攻撃時「自分が受けるを10%減少させる(1ターン)」を誘発する\n味方全体の攻撃力を40%増加させる\n味方全体が与えるダメージを20%増加させる\n自分以外の味方メンバーが≪王への屈服≫を得る\n\n≪王への屈服≫\n防御時と必殺時「ターゲットが火、水、風、光、闇属性から受けるダメージを6%増加させる(2ターン)」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王の絶望に向き合う`,
+                    description: `攻撃時「ターゲットが治療を受けるとき、回復量を50%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王の恐怖に向き合う`,
+                    description: `必殺時「自分が与えるダメージを20%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザーの名`,
+                    description: `1ターン目に「敵全体が受けるダメージを20%増加させ(50ターン)、敵全体が与えるダメージを10%減少させる(50ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ+`,
+                    description: `自分の与えるダメージを7.5%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `完全無効`,
+                    description: `自分を睡眠無効にする\n自分を麻痺無効にする\n自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

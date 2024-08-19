@@ -177,56 +177,56 @@ export const SkillSet_10098: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `連続イタズラトラップ！`,
+                    description: `ターゲットが受ける必殺技ダメージを8/8/8/18/22.5%増加させ(最高3/3/3/2/2スタック)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `連続イタズラトラップ！`,
+                    description: `ターゲットが受ける必殺技ダメージを8%増加させ(最高3スタック)、330%の攻撃力でターゲットにダメージを与える[CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `連続イタズラトラップ！`,
+                    description: `ターゲットが受ける必殺技ダメージを8%増加させ(最高3スタック)、376%の攻撃力でターゲットにダメージを与える[CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `連続イタズラトラップ！`,
+                    description: `ターゲットが受ける必殺技ダメージを8%増加させ(最高3スタック)、422%の攻撃力でターゲットにダメージを与える[CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `連続イタズラトラップ！`,
+                    description: `ターゲットが受ける必殺技ダメージを18%増加させ(最高2スタック)、468%の攻撃力でターゲットにダメージを与える[CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `連続イタズラトラップ！`,
+                    description: `ターゲットが受ける必殺技ダメージを22.5%増加させ(最高2スタック)、514%の攻撃力でターゲットにダメージを与える[CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `プレゼント投擲`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `みんなで遊ぶから楽しいの～`,
+                    description: `味方全体の攻撃力を40%増加させる\n味方全体の最大HPを10%増加させる\n5ターン目に「味方全体の必殺技ダメージを30%増加させる(最高1スタック)」を誘発する\n9ターン目に「味方全体の与えるダメージを20%増加させる(最高1スタック)」を誘発する\n味方全体が《クリスマス最高！》を得る\n\n《クリスマス最高！》\n味方メンバーにガーディアンがいる場合、自分の攻撃力を50%増加させる\n味方メンバーに2名以上の光属性キャラがいる場合、自分の攻撃力を25%増加させる\n味方メンバーに火属性キャラがいる場合、自分の攻撃力を25%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鬼ごっこスタート～`,
+                    description: `1ターン毎に「敵全体の受けるダメージを5%増加させる(最高11スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `静絶対捕まらないもんね～`,
+                    description: `自分の受ける盾の効果を25%増加させる\n自分が治療を受けるとき、回復量を25%増加させる\n自分が受ける持続型治療効果を25%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `試作アイテム999号`,
+                    description: `自分の与えるダメージを35%増加させる\n必殺技攻撃時「ターゲットの《鬼ごっこスタート～》が与える『受けるダメージ増加』を4スタック増加させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

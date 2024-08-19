@@ -177,56 +177,56 @@ export const SkillSet_10066: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `魔術回路・禁呪展開`,
+                    description: `自分の攻撃力を20/35/35/50/50%増加させ(4ターン)、自分が受けるダメージを10/12.5/15/17.5/20%減少させ(4ターン)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔術回路・禁呪展開`,
+                    description: `自分の攻撃力を20%増加させ(4ターン)、自分が受けるダメージを10%減少させ(4ターン)、自分の330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔術回路・禁呪展開`,
+                    description: `自分の攻撃力を35%増加させ(4ターン)、自分が受けるダメージを12.5%減少させ(4ターン)、自分の376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔術回路・禁呪展開`,
+                    description: `自分の攻撃力を35%増加させ(4ターン)、自分が受けるダメージを15%減少させ(4ターン)、自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `魔術回路・禁呪展開`,
+                    description: `自分の攻撃力を50%増加させ(4ターン)、自分が受けるダメージを17.5%減少させ(4ターン)、自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `魔術回路・禁呪展開`,
+                    description: `自分の攻撃力を50%増加させ(4ターン)、自分が受けるダメージを20%減少させ(4ターン)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `スペル詠唱`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔法賢者`,
+                    description: `味方全体の属性相性によるダメージ増減効果を100%減少させる\n味方全体の攻撃力を30%増加させる\n味方全体の最大HPを15%増加させる\n1ターン毎に、効果「味方全体の攻撃力を5%増加させる(最高25スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `サウザンドカース`,
+                    description: `自分の必殺技ダメージを25%増加させる\n攻撃時、効果「自分の必殺技ダメージを2%増加させる(最高25スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `構造解析`,
+                    description: `自分が与えるダメージを10%増加させる\n必殺技攻撃時、効果「自分が与えるダメージを6%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `サイコチェイサー`,
+                    description: `1ターン毎に、効果「自分の攻撃力を4%増加させる(最高50スタック)」を誘発する\n攻撃時、効果「自分の攻撃力を2%増加させる(最高50スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺＋`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

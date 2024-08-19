@@ -177,56 +177,56 @@ export const SkillSet_10092: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `巨大波「暴れる狂犬」`,
+                    description: `自分の必殺技ダメージを10/10/12.5/12.5/15%増加させ(12ターン)、116/132/149/165/182%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `巨大波「暴れる狂犬」`,
+                    description: `自分の必殺技ダメージを10%増加させ(12ターン)、116%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `巨大波「暴れる狂犬」`,
+                    description: `自分の必殺技ダメージを10%増加させ(12ターン)、132%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `巨大波「暴れる狂犬」`,
+                    description: `自分の必殺技ダメージを12.5%増加させ(12ターン)、149%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `巨大波「暴れる狂犬」`,
+                    description: `自分の必殺技ダメージを12.5%増加させ(12ターン)、165%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `巨大波「暴れる狂犬」`,
+                    description: `自分の必殺技ダメージを15%増加させ(12ターン)、182%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `サーフィン`,
+                    description: `40%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `伝説のサーファーの継承者`,
+                    description: `味方全体の攻撃力を50%増加させ、受けるダメージを15%減少させる。\n自分が《波追い》、《波乗り》を得る\n\n《波追い》\n3ターン毎に「自分の与えるダメージを125%増加させ(1ターン)、敵全体の受けるダメージを50%増加させる(1ターン)」を誘発する\n《波乗り》\n6ターン毎に「自分の必殺技ダメージを125%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `呼吸を続けろ、それだけだ……`,
+                    description: `現在のHPが75%を超えている時「攻撃力が50%増加する」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `余波`,
+                    description: `必殺時「30%の攻撃力で敵の2、3、4番目のターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `寝起きのイライラ`,
+                    description: `4ターン目に「自分の攻撃力を40%増加させる(50ターン)」を誘発する\n7ターン目に「自分の攻撃力を80%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

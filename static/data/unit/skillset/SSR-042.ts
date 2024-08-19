@@ -177,23 +177,23 @@ export const SkillSet_10019: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: `聖劍解放．星辰編年`,
+                    name: `聖劍解放．星の編年`,
                     description: `自分の攻撃力を30/30/35/40/45%増加させ(3ターン)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `聖劍解放．星辰編年`,
+                    name: `聖劍解放．星の編年`,
                     description: `自分の攻撃力を30%増加させ(3ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `聖劍解放．星辰編年`,
+                    name: `聖劍解放．星の編年`,
                     description: `自分の攻撃力を30%増加させ(3ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `聖劍解放．星辰編年`,
+                    name: `聖劍解放．星の編年`,
                     description: `自分の攻撃力を35%増加させ(3ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `聖劍解放．星辰編年`,
+                    name: `聖劍解放．星の編年`,
                     description: `自分の攻撃力を40%増加させ(3ターン)、468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
