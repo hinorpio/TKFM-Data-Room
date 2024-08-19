@@ -177,56 +177,56 @@ export const SkillSet_10129: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `猛鹿着地ポーズ`,
+                    description: `味方全体の与えるダメージを10/15/20/25/30%増加させ(4ターン)、自分の388/445/503/560/618%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(2ターン)を与え、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `猛鹿着地ポーズ`,
+                    description: `味方全体の与えるダメージを10%増加させ(4ターン)、自分の388%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(2ターン)を与え、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `猛鹿着地ポーズ`,
+                    description: `味方全体の与えるダメージを15%増加させ(4ターン)、自分の445%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(2ターン)を与え、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `猛鹿着地ポーズ`,
+                    description: `味方全体の与えるダメージを20%増加させ(4ターン)、自分の503%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(2ターン)を与え、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `猛鹿着地ポーズ`,
+                    description: `味方全体の与えるダメージを25%増加させ(4ターン)、自分の560%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(2ターン)を与え、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `猛鹿着地ポーズ`,
+                    description: `味方全体の与えるダメージを30%増加させ(4ターン)、自分の618%の攻撃力でターゲットにダメージを与え、さらに自分に挑発効果(2ターン)を与え、防御状態になる[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `エンジン始動`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与え、自分が防御状態になる`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `純潔魔性の魅力`,
+                    description: `自分の最大HPが30%増加する\n自分の盾効果が50%増加する\n毎Waveの1ターン目に「敵全体が受けるダメージを50%増加させる(最高1スタック)」を誘発する\n味方全体が「味方に4人以上の風属性キャラがいる時『《メリーセックスマス！》を発動する」を獲得する\n\n《メリーセックスマス！》\n攻撃力が130%増加する\n必殺技ダメージが50%増加する\n与えるダメージが20%増加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ペダルの踏み間違い`,
+                    description: `1ターン毎に「味方全体の必殺技ダメージを3%増加させる(最高15スタック)」を誘発する\n攻撃を受けた時「《ペダルの踏み間違い》の味方全体の必殺技ダメージ増加効果を1スタック増加させる」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `一緒にパーティーを開きましょう！`,
+                    description: `攻撃時「自分の最大HPの20%分、自分に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `これこそが絆の力ですよ！`,
+                    description: `攻撃を受けた時「自分の与えるダメージが10%増加する(最高4スタック)」を誘発する\n攻撃を受けた時「自分の最大HPの23%分、自分に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `盾+`,
+                    description: `自分の盾効果を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

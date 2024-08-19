@@ -52,7 +52,7 @@ export const SkillSet_10146: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `心如止水`,
-                    description: `使自身造成傷害增加15%\n使自身以外我方全體攻擊者、妨礙者獲得第一回合時，觸發「使自身和『魔獸獵手　神無雪』造成傷害增加15%(50回合)」`
+                    description: `使自身造成傷害增加15%\n使自身以外我方全體攻擊者、妨礙者獲得第一回合時，觸發「使自身和『魔獸獵手 神無雪』造成傷害增加15%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `明心見性`,
@@ -106,7 +106,7 @@ export const SkillSet_10146: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `心如止水`,
-                    description: `使自身造成伤害增加15%\n使自身以外我方全体攻击者丶妨碍者获得第一回合时，触发「使自身和『魔兽猎手　神无雪』造成伤害增加15%(50回合)」`
+                    description: `使自身造成伤害增加15%\n使自身以外我方全体攻击者丶妨碍者获得第一回合时，触发「使自身和『魔兽猎手 神无雪』造成伤害增加15%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `明心见性`,

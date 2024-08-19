@@ -124,7 +124,7 @@ export const SkillSet_10022: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Gutripper`,
-                    description: ``
+                    description: `Damage the target 10 times (33/37.6/42.2/46.8/51.4% Attack Power) and gain the target the following effect: When attacked, increase your Damage Taken from "Crazed Dog Noma" by 8.75/10/11.25/12.5/15% (max 8 stacks) for 4 turns. Increase the target's Damage Taken by 0/0/10/20/30%. (max 1 stack) CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Gutripper`,
@@ -177,56 +177,56 @@ export const SkillSet_10022: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `腹裂き`,
+                    description: `自分の33/37.6/42.2/46.8/51.4%の攻撃力でターゲットに10回ダメージを与え、ターゲットが攻撃を受けた時、「自分が『狂犬 ノルディ』から受けるダメージを8.75/10/11.25/12.5/15%増加させる(最高8スタック)」を誘発し(4ターン)、ターゲットの受けるダメージを0/0/10/20/30%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `腹裂き`,
+                    description: `自分の33%の攻撃力でターゲットに10回ダメージを与え、ターゲットが攻撃を受けた時、「自分が『狂犬 ノルディ』から受けるダメージを8.75%増加させる(最高8スタック)」を誘発し(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `腹裂き`,
+                    description: `自分の37.6%の攻撃力でターゲットに10回ダメージを与え、ターゲットが攻撃を受けた時、「自分が『狂犬 ノルディ』から受けるダメージを10%増加させる(最高8スタック)」を誘発し(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `腹裂き`,
+                    description: `自分の42.2%の攻撃力でターゲットに10回ダメージを与え、ターゲットが攻撃を受けた時、「自分が『狂犬 ノルディ』から受けるダメージを11.25%増加させる(最高8スタック)」を誘発し(4ターン)、ターゲットの受けるダメージを10%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `腹裂き`,
+                    description: `自分の46.8%の攻撃力でターゲットに10回ダメージを与え、ターゲットが攻撃を受けた時、「自分が『狂犬 ノルディ』から受けるダメージを12.5%増加させる(最高8スタック)」を誘発し(4ターン)、ターゲットの受けるダメージを20%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `腹裂き`,
+                    description: `自分の51.4%の攻撃力でターゲットに10回ダメージを与え、ターゲットが攻撃を受けた時、「自分が『狂犬 ノルディ』から受けるダメージを15%増加させる(最高8スタック)」を誘発し(4ターン)、ターゲットの受けるダメージを30%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `咬み殺し`,
+                    description: `自分の20%の攻撃力でターゲットに5回ダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `戦争の狂気`,
+                    description: `味方全体の最大HPが20%増加する\n味方全体の必殺技ダメージが50%増加する\n自分以外の味方のアタッカー、デバッファー、ガーディアンの攻撃力が40%増加する\n自分以外の味方のアタッカー、デバッファー、ガーディアンの与えるダメージが25%増加する\n\n味方のチーム内に1人以上ヒーラーがいる時、味方全体が「治療を受ける時の回復HP量が500%減少する」を発動する(デバフ効果)\n\n1ターン目に「毎ターン自分の攻撃力の80%分味方全体に治療を行う(50ターン)」を誘発する\n防御時「味方全体の受ける持続型治療効果を100%増加させる(1ターン)」を誘発する\n必殺技攻撃時「自分の攻撃力の200%分味方全体に治療を行う」を誘発する\n\n味方のアタッカー、デバッファー、ガーディアンが《援護射撃》を得る\n\n《援護射撃》\n必殺技攻撃時「味方の1番目のメンバーが《虐殺タイム！》を得る」を誘発する\n\n《虐殺タイム！》\n攻撃力が90%増加する(1ターン)\n必殺技攻撃時「自分の80%の攻撃力でターゲットにダメージを与える」を追加する(1ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `牙研ぎ`,
+                    description: `防御時「自分の攻撃力を100%増加させる(最高1スタック)」を誘発する\n必殺技攻撃時「自分の《牙研ぎ》の攻撃力増加効果を消す」を誘発する\n必殺技攻撃時「ターゲットの《腹裂き》の『狂犬 ノルディ』から受けるダメージ増加効果を消す」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `食らいつく`,
+                    description: `必殺技攻撃時「自分が与えるダメージを12%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `狂犬`,
+                    description: `通常攻撃時「自分が《アドレナリン》を得る」を誘発する\n\n《アドレナリン》\n必殺技ダメージが50%増加する(2ターン)\n必殺技攻撃時「自分の100%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺追撃+`,
+                    description: `必殺技攻撃時「自分の30%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

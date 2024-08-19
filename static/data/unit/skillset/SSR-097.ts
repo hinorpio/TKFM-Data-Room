@@ -177,56 +177,56 @@ export const SkillSet_10127: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の主`,
+                    description: `味方全体の必殺技ダメージを10/15/20/25/30%増加させ(15ターン)、自分が「攻撃時『自分の攻撃力の20/22.5/25/27.5/30%分、味方全体の攻撃力を増加させる(1ターン)』を誘発する(15ターン)」を獲得する[CD:30]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の主`,
+                    description: `味方全体の必殺技ダメージを10%増加させ(15ターン)、自分が「攻撃時『自分の攻撃力の20%分、味方全体の攻撃力を増加させる(1ターン)』を誘発する(15ターン)」を獲得する[CD:30]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の主`,
+                    description: `味方全体の必殺技ダメージを15%増加させ(15ターン)、自分が「攻撃時『自分の攻撃力の22.5%分、味方全体の攻撃力を増加させる(1ターン)』を誘発する(15ターン)」を獲得する[CD:30]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の主`,
+                    description: `味方全体の必殺技ダメージを20%増加させ(15ターン)、自分が「攻撃時『自分の攻撃力の25%分、味方全体の攻撃力を増加させる(1ターン)』を誘発する(15ターン)」を獲得する[CD:30]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の主`,
+                    description: `味方全体の必殺技ダメージを25%増加させ(15ターン)、自分が「攻撃時『自分の攻撃力の27.5%分、味方全体の攻撃力を増加させる(1ターン)』を誘発する(15ターン)」を獲得する[CD:30]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の主`,
+                    description: `味方全体の必殺技ダメージを30%増加させ(15ターン)、自分が「攻撃時『自分の攻撃力の30%分、味方全体の攻撃力を増加させる(1ターン)』を誘発する(15ターン)」を獲得する[CD:30]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `夢の泡`,
+                    description: `味方の水属性キャラの攻撃力を40%増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `伝説の幻獣`,
+                    description: `味方全体の最大HPが20%増加する\n味方全体の攻撃力が40%増加する\n10ターン目に「味方全体の必殺技ダメージを150%増加させる(40ターン)」を誘発する\n味方全体が「味方に4人以上の水属性キャラがいる時『《永遠の夢》』を発動する」を獲得する\n\n《永遠の夢》\n攻撃力が80%増加する\n必殺技攻撃時「味方全体の与えるダメージを50%増加させる(最高1スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `夢波襲来`,
+                    description: `1ターン目に「自分の現在の必殺技CDを30ターン減少させる」を誘発する\n行動時「自分の現在の必殺技CDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `みんな叩いて眠らせる`,
+                    description: `通常攻撃時「《強制睡眠》」を誘発する\n\n《強制睡眠》\n自分以外の味方が攻撃時「自分の25%の攻撃力でターゲットにダメージを与える」を誘発する(1ターン)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `怒った夢喰い`,
+                    description: `4ターン目に「味方全体の必殺技ダメージを30%増加させる(16ターン)」を誘発する\n7ターン目に「味方全体の必殺技ダメージを30%増加させる(13ターン)」を誘発する\n10ターン目に「味方全体の必殺技ダメージを40%増加させる(10ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10131: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越えた願い`,
+                    description: `ターゲットが時を越える者 イネースから受けるダメージを50/62.5/75/87.5/100%増加させ(3ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越えた願い`,
+                    description: `ターゲットが時を越える者 イネースから受けるダメージを50%増加させ(3ターン)、自分の265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越えた願い`,
+                    description: `ターゲットが時を越える者 イネースから受けるダメージを62.5%増加させ(3ターン)、自分の298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越えた願い`,
+                    description: `ターゲットが時を越える者 イネースから受けるダメージを75%増加させ(3ターン)、自分の331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越えた願い`,
+                    description: `ターゲットが時を越える者 イネースから受けるダメージを87.5%増加させ(3ターン)、自分の364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越えた願い`,
+                    description: `ターゲットが時を越える者 イネースから受けるダメージを100%増加させ(3ターン)、自分の397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `時破斬`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える。`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `時を越える者`,
+                    description: `味方全体のHPが25%増加する\n味方全体の攻撃力が90%増加する\n味方アタッカーが与えるダメージが40%増加する\n味方のデバッファーが与えるダメージが40%増加する\n自分の攻撃力が90%増加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼空破砕`,
+                    description: `1ターン目に「自分の与えるダメージを4%増加させる(最高5スタック)」を誘発する\n3ターン毎に「自分の《蒼空破砕》の与えるダメージ効果を2スタック増加させる」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `時空支配`,
+                    description: `与えるダメージが20%増加する\n必殺技攻撃時、《蒼空破砕》の与えるダメージ効果のスタック数に応じて「ターゲットが時を越える者 イネースから受けるダメージを10%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `煌びやかな光陰`,
+                    description: `通常攻撃時「自分の70%の攻撃力でターゲットにダメージを与える」を追加する\n必殺技攻撃時「自分の70%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
