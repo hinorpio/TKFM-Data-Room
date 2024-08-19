@@ -177,56 +177,56 @@ export const SkillSet_10094: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールビーム！`,
+                    description: `自分の306/348/389/430/471%の攻撃力でターゲットにダメージを与える[CD:50]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールビーム！`,
+                    description: `自分の306%の攻撃力でターゲットにダメージを与える[CD:50]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールビーム！`,
+                    description: `自分の348%の攻撃力でターゲットにダメージを与える[CD:50]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールビーム！`,
+                    description: `自分の389%の攻撃力でターゲットにダメージを与える[CD:50]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールビーム！`,
+                    description: `自分の430%の攻撃力でターゲットにダメージを与える[CD:50]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールビーム！`,
+                    description: `自分の471%の攻撃力でターゲットにダメージを与える[CD:50]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ジベールアタック！`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `あと3回変身できるよ～`,
+                    description: `自分の最大HPを70%増加させる\n4ターン目に「《進化段階・1》」を誘発する\n7ターン目に「《進化段階・2》」を誘発する\n10ターン目に「《進化段階・3》」を誘発する\n\n《進化段階・1》\n必殺技攻撃時「自分の必殺技ダメージを60%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《進化段階・2》\n必殺技攻撃時「自分が与えるダメージを60%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《進化段階・3》\n必殺技攻撃時「自分の必殺技ダメージを120%増加させる(最高1スタック)」を誘発する(1ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `適応再進化`,
+                    description: `自分の必殺技CDカウントを停止する\n3ターン毎に「自分の現在の必殺技CDを50ターン減少させる」を誘発する\n4ターン毎に「自分の現在の必殺技CDを50ターン減少させる」を誘発する\n1ターン毎に「自分の攻撃力を5%増加させる(最高50スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `擬態算出`,
+                    description: `1ターン目に「《進化の岐路》」を誘発する\n\n《進化の岐路》\n通常攻撃時「味方全体が『《積極的学習》』を得る」を誘発する(1ターン)\n防御時「自分以外のメンバーが『《消極的適応》』を得る」を誘発する(1ターン)\n\n《積極的学習》\n必殺技攻撃時「自分が与えるダメージを20%増加させる(4ターン)」を誘発する(50ターン)\n\n《消極的適応》\n必殺技攻撃時「自分の攻撃力の25%分、未知の生命体ジベールの攻撃力を増加させる(1ターン)」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `星の占領者`,
+                    description: `4ターン目に「《占領段階・1》」を誘発する\n7ターン目に「《占領段階・2》」を誘発する\n10ターン目に「《占領段階・3》」を誘発する\n\n《占領段階・1》\n必殺技攻撃時「自分の必殺技ダメージを20%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《占領段階・2》\n必殺技攻撃時「自分が与えるダメージを20%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《占領段階・3》\n必殺技攻撃時「自分の必殺技ダメージを40%増加させる(最高1スタック)」を誘発する(1ターン)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `受けるダメージが5%減少`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

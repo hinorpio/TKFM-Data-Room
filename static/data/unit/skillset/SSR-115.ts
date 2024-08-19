@@ -177,56 +177,56 @@ export const SkillSet_10145: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `血海の溺死`,
+                    description: `自分の330/376%の攻撃力でターゲットにダメージを与え、自分の最大HPの5/6.25%分味方全体の攻撃力を増加させる(5ターン)[CD:4]\n\nLv3+: 自分の最大HPの7.5/8.75/10%分味方全体の攻撃力を増加させ(5ターン)、自分の422/468/514%の攻撃力でターゲットにダメージを与え、自分の最大HPの25%分味方全体に盾を張る(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `血海の溺死`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、自分の最大HPの5%分味方全体の攻撃力を増加させる(5ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `血海の溺死`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、自分の最大HPの6.25%分味方全体の攻撃力を増加させる(5ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `血海の溺死`,
+                    description: `自分の最大HPの7.5%分味方全体の攻撃力を増加させ(5ターン)、自分の422%の攻撃力でターゲットにダメージを与え、自分の最大HPの25%分味方全体に盾を張る(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `血海の溺死`,
+                    description: `自分の最大HPの8.75%分味方全体の攻撃力を増加させ(5ターン)、自分の468%の攻撃力でターゲットにダメージを与え、自分の最大HPの25%分味方全体に盾を張る(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `血海の溺死`,
+                    description: `自分の最大HPの10%分味方全体の攻撃力を増加させ(5ターン)、自分の514%の攻撃力でターゲットにダメージを与え、自分の最大HPの25%分味方全体に盾を張る(2ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `海獣皆殺し`,
+                    description: `自分の攻撃力の100%分ターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔界のフィッシングスーパースター`,
+                    description: `味方全体の最大HPが40%増加する\n味方全体の攻撃力が70%増加する\n味方全体の通常攻撃ダメージが60%増加する\n味方全体の必殺技ダメージが20%増加する\n攻撃時「自分の最大HPの5%分味方全体の攻撃力を増加させる(2ターン)」を誘発する\n攻撃を受けた時、《かかったわ》を誘発する\n\n《かかったわ》\n味方全体の与えるダメージを1.33%増加させる(最高15スタック)\n敵全体の受けるダメージを1.33%増加させる(最高15スタック)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `鮮血の挨拶`,
+                    description: `通常攻撃時「自分の現在のHPの1%分自分に確定ダメージを与え、味方全体の通常攻撃ダメージを5%増加させる(最高10スタック)」を追加する(「攻撃を受けた時」の誘発効果を誘発できる)\n必殺技攻撃時「自分の現在のHPの1%分自分に確定ダメージを与え、味方全体の必殺技ダメージを10%増加させる(最高3スタック)」を追加する(「攻撃を受けた時」の誘発効果を誘発できる)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `殺戮の欲望`,
+                    description: `攻撃を受けた時「味方全体の与えるダメージを1.33%増加させる(最高15スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ウェディングドレス兵装・識別阻害`,
+                    description: `攻撃を受けた時「敵全体が受けるダメージを1.33%増加させる(最大15スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ+`,
+                    description: `自分の与えるダメージを7.5%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10030: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `夏は最高ですね！`,
+                    description: `味方全体の攻撃力を20/25/25/30/30%増加させ(2ターン)、味方のヒーラーとサポーターが「攻撃時、効果『味方全体の攻撃力を15/15/20/20/25%増加させる(1ターン)』を誘発する(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `夏は最高ですね！`,
+                    description: `味方全体の攻撃力を20%増加させ(2ターン)、味方のヒーラーとサポーターが「攻撃時、効果『味方全体の攻撃力を15%増加させる(1ターン)』を誘発する(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `夏は最高ですね！`,
+                    description: `味方全体の攻撃力を25%増加させ(2ターン)、味方のヒーラーとサポーターが「攻撃時、効果『味方全体の攻撃力を15%増加させる(1ターン)』を誘発する(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `夏は最高ですね！`,
+                    description: `味方全体の攻撃力を25%増加させ(2ターン)、味方のヒーラーとサポーターが「攻撃時、効果『味方全体の攻撃力を20%増加させる(1ターン)』を誘発する(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `夏は最高ですね！`,
+                    description: `味方全体の攻撃力を30%増加させ(2ターン)、味方のヒーラーとサポーターが「攻撃時、効果『味方全体の攻撃力を20%増加させる(1ターン)』を誘発する(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `夏は最高ですね！`,
+                    description: `味方全体の攻撃力を30%増加させ(2ターン)、味方のヒーラーとサポーターが「攻撃時、効果『味方全体の攻撃力を25%増加させる(1ターン)』を誘発する(2ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `姫の声援`,
+                    description: `自分の攻撃力の30%味方全体の攻撃力増加(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `集まれ！姫防衛隊`,
+                    description: `味方のヒーラーとサポーターが通常攻撃時、スキル効果「100%の攻撃力でターゲットにダメージを与える」を追加し、必殺時、スキル効果「200%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ルル痛いのは嫌です`,
+                    description: `必殺時、効果「自分の攻撃力の100%分味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ルルをいじめないでください～`,
+                    description: `4ターン毎に、効果「敵が受けるダメージを35%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `姫は強くなる`,
+                    description: `1ターン目に効果「味方のヒーラーとサポーターの必殺技ダメージを40%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

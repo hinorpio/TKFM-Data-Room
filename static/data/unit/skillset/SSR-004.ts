@@ -177,56 +177,56 @@ export const SkillSet_10004: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `導きの矢`,
+                    description: `475/550/625/625/625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15/15/15/20/25%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `導きの矢`,
+                    description: `475%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `導きの矢`,
+                    description: `550%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `導きの矢`,
+                    description: `625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `導きの矢`,
+                    description: `625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を20%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `導きの矢`,
+                    description: `625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を25%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `矢を放つ`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `精霊の領域`,
+                    description: `味方全体の通常攻撃ダメージを50%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `案内人`,
+                    description: `通常攻撃時、効果「味方全体の通常攻撃ダメージを7.5%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `破天撃`,
+                    description: `必殺時、「ターゲットが受けるダメージを10%増加させ(3ターン)、防御状態を解除する」を追加する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `吹き立つ勝利の風`,
+                    description: `3ターン毎に、効果「味方全体の攻撃力を20%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

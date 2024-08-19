@@ -177,56 +177,56 @@ export const SkillSet_10058: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `月下の遠吠え`,
+                    description: `現在の敵ターゲットに自分の攻撃力の200%分ダメージを与え、自分の通常攻撃ダメージを96/118/141/163/186%増加させる(6ターン)[CD:8]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `月下の遠吠え`,
+                    description: `現在の敵ターゲットに自分の攻撃力の200%分ダメージを与え、自分の通常攻撃ダメージを96%増加させる(6ターン)[CD:8]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `月下の遠吠え`,
+                    description: `現在の敵ターゲットに自分の攻撃力の200%分ダメージを与え、自分の通常攻撃ダメージを118%増加させる(6ターン)[CD:8]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `月下の遠吠え`,
+                    description: `現在の敵ターゲットに自分の攻撃力の200%分ダメージを与え、自分の通常攻撃ダメージを141%増加させる(6ターン)[CD:8]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `月下の遠吠え`,
+                    description: `現在の敵ターゲットに自分の攻撃力の200%分ダメージを与え、自分の通常攻撃ダメージを163%増加させる(6ターン)[CD:8]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `月下の遠吠え`,
+                    description: `現在の敵ターゲットに自分の攻撃力の200%分ダメージを与え、自分の通常攻撃ダメージを186%増加させる(6ターン)[CD:8]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ひっかく`,
+                    description: `現在の敵ターゲットに自分の攻撃力の100%分ダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `内気狼の旅`,
+                    description: `自分の通常攻撃ダメージを20%増加させ、味方全体の通常攻撃ダメージを40%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `アドレナリン`,
+                    description: `1ターン目開始時、自分の現在の必殺技CDを6ターン減少させる。\n必殺時、効果「自分の必殺技CDに影響を与える効果を無効にする(8ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `3連ひっかき`,
+                    description: `必殺時、効果「通常攻撃時、追加で自分の攻撃力の30%分、1，2，5番目の敵にダメージを与える(6ターン)」を誘発する(この位置のキャラクターがいない場合、ランダムでターゲットを選択する)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `さらなる狂気`,
+                    description: `必殺時、「与えるダメージを20%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

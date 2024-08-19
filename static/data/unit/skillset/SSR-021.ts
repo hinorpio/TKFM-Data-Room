@@ -177,56 +177,56 @@ export const SkillSet_10035: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `真蒼の紡積`,
+                    description: `388/445/503/560/618%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HP15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `真蒼の紡積`,
+                    description: `388%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HP15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `真蒼の紡積`,
+                    description: `445%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HP15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `真蒼の紡積`,
+                    description: `503%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HP15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `真蒼の紡積`,
+                    description: `560%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HP15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `真蒼の紡積`,
+                    description: `618%の攻撃力で現在の敵ターゲットにダメージを与え、さらに自分を含む味方に、自分と味方自身それぞれの最大HP15%分盾を与える(1ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `縫製`,
+                    description: `100%の攻撃力で現在の敵ターゲットにダメージを与え`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `運命の交織・蒼`,
+                    description: `味方全体の火、水属性のメンバーが「与えるダメージを50%増加させる」を得る。\n1ターン目開始時に、「自分と紅の裁断師アンスティ―の必殺技ダメージを20%増加させる(50ターン)」を発動する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `インディゴの織成`,
+                    description: `自分の必殺技ダメージを30%増加させる。\n「紅の裁断師アンスティ―」が味方にいて生き残っている場合、「自分の受ける風属性ダメージを33%減少させる」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `コバルトブルーの針`,
+                    description: `自分の攻撃力を30%増加させる。\n「紅の裁断師アンスティ―」が味方にいて生き残っている場合、「自分の与えるダメージを20%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `冷静な判断`,
+                    description: `通常攻撃時、効果「自分の必殺ダメージを10%増加させる(6ターン)」を発動する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ＋`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

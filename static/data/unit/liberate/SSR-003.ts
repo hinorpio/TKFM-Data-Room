@@ -111,7 +111,36 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                             description: `When you have more than 75% HP, increase your Damage Output by 20%.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `猛毒の薔薇`,
+                            description: `ターゲットの魔王 イブリースから受けるダメージを5/5/10/10/10%増加させ(最高3スタック)、388/445/503/560/560%の攻撃力でターゲットにダメージを与える[CD:4] [Lv5: CD:3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `猛毒の薔薇`,
+                            description: `ターゲットの魔王 イブリースから受けるダメージを5%増加させ(最高3スタック)、388%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `猛毒の薔薇`,
+                            description: `ターゲットの魔王 イブリースから受けるダメージを5%増加させ(最高3スタック)、445%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `猛毒の薔薇`,
+                            description: `ターゲットの魔王 イブリースから受けるダメージを10%増加させ(最高3スタック)、503%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `猛毒の薔薇`,
+                            description: `ターゲットの魔王 イブリースから受けるダメージを10%増加させ(最高3スタック)、560%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `猛毒の薔薇`,
+                            description: `ターゲットの魔王 イブリースから受けるダメージを10%増加させ(最高3スタック)、560%の攻撃力でターゲットにダメージを与える[CD:3]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `秘伝魔力の儀式`,
+                            description: `現在のHPが75%を超えている時、効果「与えるダメージが20%増加する」を発動する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -141,8 +170,18 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,166,609\nMax ATK：989,565`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,166,609\nATK最大値：989,565`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,166,609\nAMax ATK：989,565`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +234,20 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                             description: `Increase your Attack Power by 25%.\nOn Attack, increase all enemies' Damage Taken from Light attacks by 4% (Max 5 Stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `魔王イブリースの傲慢`,
+                            description: `味方全体の最大HPを20％増加させる\n味方全体の攻撃力を40％増加させる\n味方全体の与えるダメージを20％増加させる\n攻撃時「150%の攻撃力で敵全体に追撃を行う」を誘発する`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `魔力吸収`,
+                            description: `通常攻撃ダメージが20%増加する\nダメージを与えた時、そのダメージの33%分自分のHPを回復する\n自分の必殺技ダメージを25%増加させる`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `生命への抑圧`,
+                            description: `自分の攻撃力を25%増加させる\n攻撃時「敵全体が光属性から受けるダメージを4%増加させる(最高5スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

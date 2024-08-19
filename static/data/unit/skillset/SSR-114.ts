@@ -177,56 +177,56 @@ export const SkillSet_10144: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `トニカクドロップキック`,
+                    description: `自分の295/364/433/502/571%の攻撃力+自分の最大HPの89/107/125/143/161%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `トニカクドロップキック`,
+                    description: `自分の295%の攻撃力+自分の最大HPの89%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `トニカクドロップキック`,
+                    description: `自分の364%の攻撃力+自分の最大HPの107%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `トニカクドロップキック`,
+                    description: `自分の433%の攻撃力+自分の最大HPの125%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `トニカクドロップキック`,
+                    description: `自分の502%の攻撃力+自分の最大HPの143%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `トニカクドロップキック`,
+                    description: `自分の571%の攻撃力+自分の最大HPの161%分ターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `スイカサイズの拳`,
+                    description: `自分の100%の攻撃力+自分の最大HPの50%分ターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `大海の魔王君臨！`,
+                    description: `味方全体の最大HPが20%増加する\n味方全体の攻撃力が50%増加する\n自分の最大HPが20%増加する\n自分が「毎Waveの1ターン目に『自分の《ウェディングドレス兵装・エネルギーチャージ》のスタック数が最高になる』を誘発する」を得る\n自分以外の味方全体が《夏の魔王の威光》を得る\n\n《夏の魔王の威光》\n防御時、必殺技時「ターゲットの受けるダメージを9%増加させ(2ターン)、自分の基本攻撃力の75%分味方の1番目のメンバーの攻撃力を増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王の海割り`,
+                    description: `攻撃力が50%増加する\n必殺技ダメージが30%増加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ウェディングドレス兵装・エネルギーチャージ`,
+                    description: `1ターン毎に「自分の攻撃力を5%増加させる(最高20スタック)」を誘発する\n通常攻撃時「敵全体が『夏の日 シーザー』から受けるダメージを4%増加させる(最高15スタック)」を誘発する\n必殺技攻撃時「自分の与えるダメージを20%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ウェディングドレス兵装・演算シェア`,
+                    description: `必殺技攻撃時「自分の150%の攻撃力でターゲットにダメージを与える」を誘発する\n1ターン毎に「自分の攻撃力の5%分味方全体の攻撃力を増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

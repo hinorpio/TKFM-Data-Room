@@ -177,56 +177,56 @@ export const SkillSet_10074: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
+                    name: `凍りの花の綻び`,
                     description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `凍りの花の綻び`,
+                    description: `2、3、4番目の敵が受ける必殺技ダメージを2.5%増加させ(最高4スタック)、さらに自分の102%の攻撃力で2、3、4番目の敵にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `凍りの花の綻び`,
+                    description: `2、3、4番目の敵が受ける必殺技ダメージを2.5%増加させ(最高4スタック)、さらに自分の116%の攻撃力で2、3、4番目の敵にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `凍りの花の綻び`,
+                    description: `2、3、4番目の敵が受ける必殺技ダメージを3.75%増加させ(最高4スタック)、さらに自分の130%の攻撃力で2、3、4番目の敵にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `凍りの花の綻び`,
+                    description: `2、3、4番目の敵が受ける必殺技ダメージを3.75%増加させ(最高4スタック)、さらに自分の143%の攻撃力で2、3、4番目の敵にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `凍りの花の綻び`,
+                    description: `2、3、4番目の敵が受ける必殺技ダメージを5%増加させ(最高4スタック)、さらに自分の157%の攻撃力で2、3、4番目の敵にダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `凍刺し`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `永久凍土の頂`,
+                    description: `味方全体の攻撃力を40%増加させる\n自分の必殺技最大CDを1増加させる\n自分の必殺技攻撃時「敵が受けるダメージを7.5%増加させる(最高4スタック)」を誘発する\n自分の必殺技攻撃時「敵が受ける必殺技ダメージ12.5%(最高4スタック)」を誘発する\n自分の攻撃時「自分の攻撃力の25%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する\n自分を沈黙無効にする`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `寒風の障壁`,
+                    description: `防御時「自分の攻撃力の50%分、味方全体に盾を張る(1ターン)」を誘発する\n防御時「100%の確率で自分に沈黙を与える(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `骨まで凍える`,
+                    description: `必殺技攻撃時「自分の攻撃力を18.75%増加させる(最高4スタック)」を誘発する\n必殺技攻撃時「自分が与える必殺技ダメージを15%増加させる(最高4スタック)」を誘発する�`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `雪山美人`,
+                    description: `自分の与えるダメージを15%増加させる\n必殺技攻撃時「自分の最大HPの20%分、味方全体に味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

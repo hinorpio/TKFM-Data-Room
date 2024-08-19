@@ -124,7 +124,7 @@ export const SkillSet_10049: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `I Have a Dream`,
-                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 50/60/65/70/75% of your Max HP.\nGain the following ability for 3/3/4/4/4 turns: "On Basic Attack, increase the party's Attack Power by 15/20/20/22.5/22.5% of your own Attack Power for 1 turn."\nCD: 4`
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 50/60/65/70/75% of your Max HP.\nGain the following ability for 3/3/4/4/4 turns: "On Basic Attack, increase the party's Attack Power by 15/20/20/22.5/25% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `I Have a Dream`,
@@ -144,7 +144,7 @@ export const SkillSet_10049: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `I Have a Dream`,
-                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 75% of your Max HP.\nGain the following ability for 4 turns: "On Basic Attack, increase the party's Attack Power by 22.5% of your own Attack Power for 1 turn."\nCD: 4`
+                    description: `Increase the party's Attack Power by 20% of your own Attack Power for 1 turn, then heal the party for 75% of your Max HP.\nGain the following ability for 4 turns: "On Basic Attack, increase the party's Attack Power by 25% of your own Attack Power for 1 turn."\nCD: 4`
                 },
                 [SkillType.ATTACK]: {
                     name: `Healing Voice`,
@@ -177,56 +177,56 @@ export const SkillSet_10049: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `私の夢`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、自分の最大HPの50/60/65/70/75%分味方全体に治療を行い、自分が「通常攻撃時『味方全体の攻撃力を自分の攻撃力の15/20/20/22.5/25%分増加させる(1ターン)』を追加する(3/3/4/4/4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `私の夢`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、自分の最大HPの50%分味方全体に治療を行い、自分が「通常攻撃時『味方全体の攻撃力を自分の攻撃力の15%分増加させる(1ターン)』を追加する(3ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `私の夢`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、自分の最大HPの60%分味方全体に治療を行い、自分が「通常攻撃時『味方全体の攻撃力を自分の攻撃力の20%分増加させる(1ターン)』を追加する(3ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `私の夢`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、自分の最大HPの65%分味方全体に治療を行い、自分が「通常攻撃時『味方全体の攻撃力を自分の攻撃力の20%分増加させる(1ターン)』を追加する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `私の夢`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、自分の最大HPの70%分味方全体に治療を行い、自分が「通常攻撃時『味方全体の攻撃力を自分の攻撃力の22.5%分増加させる(1ターン)』を追加する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `私の夢`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、自分の最大HPの75%分味方全体に治療を行い、自分が「通常攻撃時『味方全体の攻撃力を自分の攻撃力の25%分増加させる(1ターン)』を追加する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `治癒の音`,
+                    description: `自分の攻撃力の50%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `強者の優しさ`,
+                    description: `味方全体の最大HPを20%増加させる\n味方全体の攻撃力を20%増加させる\n味方全体の通常攻撃ダメージを40%増加させる\n味方全体の治療時の回復HP量を30%増加させる\n味方全体の受ける盾効果を30%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `認知阻害魔法`,
+                    description: `通常攻撃時「自分の最大HPの20%分味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `善良の心`,
+                    description: `通常攻撃時「味方全体の受ける盾効果を5%増加させる(最高6スタック)」を誘発する\n必殺技攻撃時「味方全体の治療時の回復HP量を15%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `貴族の加護`,
+                    description: `1ターン目に「自分の必殺技CDを2ターン減少させる」を誘発する\n必殺技攻撃時「味方全体の通常攻撃ダメージを22.5%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

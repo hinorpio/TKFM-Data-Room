@@ -124,7 +124,7 @@ export const SkillSet_10137: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Serve Master Caesar~`,
-                    description: ``
+                    description: `Increase the target's Damage Taken by 20/25/30/35/40% for 4 turns. Gain all allied Attackers, Defenders, and Obstructors the following effect: On Basic Attack, deal additional damage to the target for 4 turns (10/15/20/25/30% Attack Power). Gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (20/30/40/50/60% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Serve Master Caesar~`,
@@ -177,56 +177,56 @@ export const SkillSet_10137: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザー様と夜伽をしよう～`,
+                    description: `ターゲットの受けるダメージを20/25/30/35/40%増加させ(4ターン)、味方のアタッカー、ガーディアン、デバッファーが「通常攻撃時『自分の10/15/20/25/30%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分が「通常攻撃時『自分の20/30/40/50/60%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザー様と夜伽をしよう～`,
+                    description: `ターゲットの受けるダメージを20%増加させ(4ターン)、味方のアタッカー、ガーディアン、デバッファーが「通常攻撃時『自分の10%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分が「通常攻撃時『自分の20%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザー様と夜伽をしよう～`,
+                    description: `ターゲットの受けるダメージを25%増加させ(4ターン)、味方のアタッカー、ガーディアン、デバッファーが「通常攻撃時『自分の15%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分が「通常攻撃時『自分の30%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザー様と夜伽をしよう～`,
+                    description: `ターゲットの受けるダメージを30%増加させ(4ターン)、味方のアタッカー、ガーディアン、デバッファーが「通常攻撃時『自分の20%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分が「通常攻撃時『自分の40%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザー様と夜伽をしよう～`,
+                    description: `ターゲットの受けるダメージを35%増加させ(4ターン)、味方のアタッカー、ガーディアン、デバッファーが「通常攻撃時『自分の25%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分が「通常攻撃時『自分の50%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `シーザー様と夜伽をしよう～`,
+                    description: `ターゲットの受けるダメージを40%増加させ(4ターン)、味方のアタッカー、ガーディアン、デバッファーが「通常攻撃時『自分の30%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分が「通常攻撃時『自分の60%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `うさうさ電波`,
+                    description: `自分の攻撃力を50%増加させ(1ターン)、自分の70%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ウサギ村に一泊`,
+                    description: `味方全体の最大HPを30%増加させる\n味方の風属性アタッカー、風属性ガーディアン、風属性デバッファーが《情欲フェロモン》を獲得する\n\n《情欲フェロモン》\n通常攻撃時「味方全体の攻撃力を6%増加させる(最高18スタック)」を誘発する\n通常攻撃時「味方全体の通常攻撃ダメージを6%増加させる(最高18スタック)」を誘発する\n通常攻撃時「味方全体の与えるダメージを2%増加させる(最高18スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ふわふわドレス`,
+                    description: `通常攻撃時「自分の攻撃力を15%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `可愛い日よけ帽子`,
+                    description: `通常攻撃時「ターゲットが受ける通常攻撃ダメージを15%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `こっそりいちゃいちゃ`,
+                    description: `与えるダメージが20%増加する\n必殺技攻撃時「ターゲットが風属性から受けるダメージを10%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

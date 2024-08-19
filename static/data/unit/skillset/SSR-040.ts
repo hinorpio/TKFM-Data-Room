@@ -177,56 +177,56 @@ export const SkillSet_10084: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを25/30/35/40/45%増加させ(1ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを25%増加させ(1ターン)、自分の265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを30%増加させ(1ターン)、自分の298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを35%増加させ(1ターン)、自分の331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを40%増加させ(1ターン)、自分の364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを45%増加させ(1ターン)、自分の397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `転がる`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `人は殺されても死なない`,
+                    description: `味方全体の最大HPを40%増加させる\n味方全体が治療を受けるときの回復量を80%増加させる\n味方全体の攻撃力を40%増加させる\n自分の必殺技最大CDを1ターン減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `天賦の転がり`,
+                    description: `防御時のダメージ軽減効果を10%増加させる\n攻撃を受けた時「自分の受けるダメージを10%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `スーパーチャット`,
+                    description: `攻撃時「自分の攻撃力を20%増加させる(3ターン)」を誘発する\n必殺技攻撃時「自分が《実況ハイテンション》を獲得する」を誘発する\n\n《実況ハイテンション》\n「視聴者数：1000」(最高20スタック)\n「投げ銭 $100000 」(20ターン)\n与えるダメージが7%増加する(最高5スタック)\n自分が「攻撃時「自分の50%の攻撃力でターゲットにダメージを与える」を誘発する」を獲得する(3ターン)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `アウトランダー戦法`,
+                    description: `必殺技攻撃時「自分の99.9%の攻撃力でターゲットにダメージを与える」を誘発する\n攻撃時「自分の必殺技ダメージを10%増加させる(5ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺＋`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -427,7 +427,7 @@ export const SkillSet_10084: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `Weak Point!!`,
-                    description: `Increase the target's Damage Taken from Ultimate Skills by 53% for 1 turn, then damage them for 397% of your Attack Power. CD: 3`
+                    description: `Increase the target's Damage Taken from Ultimate Skills by 35% for 1 turn, then damage them for 397% of your Attack Power. CD: 3`
                 },
                 [SkillType.ATTACK]: {
                     name: `Dodge Roll`,
@@ -460,56 +460,56 @@ export const SkillSet_10084: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを25/30/35/40/45%増加させ(1ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを10%増加させ(1ターン)、自分の265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを15%増加させ(1ターン)、自分の298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを20%増加させ(1ターン)、自分の331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを25%増加させ(1ターン)、自分の364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `不意打ち！`,
+                    description: `ターゲットが受ける必殺ダメージを35%増加させ(1ターン)、自分の397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `転がる`,
+                    description: `自分の受けるダメージを45%減少させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `人は殺されても死なない`,
+                    description: `味方全体の最大HPを40%増加させる\n味方全体の治療を受けるときの回復量を80%増加させる\n自分の必殺技最大CDを1ターン減少させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `天賦の転がり`,
+                    description: `防御ダメージ減少効果を25%減少させる\n通常攻撃時「自分の必殺技ダメージを10%増加させる(7ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `スーパーチャット`,
+                    description: `攻撃時「自分の攻撃力を20%増加させる(3ターン)」を誘発する\n必殺技攻撃時「自分が《実況ハイテンション》を獲得する」を誘発する\n\n《実況ハイテンション》\n「視聴者数：1000」(最高20スタック)\n「投げ銭 $100000 」(20ターン)\n与えるダメージが7%増加する(最高5スタック)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `アウトランダー戦法`,
+                    description: `必殺技攻撃時「自分の99.9%の攻撃力でターゲットにダメージを与える」を誘発する\n攻撃されたとき「自分の受けるダメージを15%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺＋`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

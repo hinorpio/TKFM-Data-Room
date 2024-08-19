@@ -177,56 +177,56 @@ export const SkillSet_10125: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `イタズラ無しでお菓子が欲しい`,
+                    description: `自分の攻撃力を200/200/250/250/300%増加させ(1ターン)、自分の攻撃力を自分の攻撃力の25/30/35/40/45%分増加させ(1ターン)、味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `イタズラ無しでお菓子が欲しい`,
+                    description: `自分の攻撃力を200%増加させ(1ターン)、自分の攻撃力を自分の攻撃力の25%分増加させ(1ターン)、味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `イタズラ無しでお菓子が欲しい`,
+                    description: `自分の攻撃力を200%増加させ(1ターン)、自分の攻撃力を自分の攻撃力の30%分増加させ(1ターン)、味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `イタズラ無しでお菓子が欲しい`,
+                    description: `自分の攻撃力を250%増加させ(1ターン)、自分の攻撃力を自分の攻撃力の35%分増加させ(1ターン)、味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `イタズラ無しでお菓子が欲しい`,
+                    description: `自分の攻撃力を250%増加させ(1ターン)、自分の攻撃力を自分の攻撃力の40%分増加させ(1ターン)、味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `イタズラ無しでお菓子が欲しい`,
+                    description: `自分の攻撃力を300%増加させ(1ターン)、自分の攻撃力を自分の攻撃力の45%分増加させ(1ターン)、味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `勇気の力`,
+                    description: `味方全体の攻撃力を50%増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ハロウィン仮装パーティー`,
+                    description: `味方全体の最大HPを20%増加させる\n味方全体の攻撃力を50%増加させる\n味方全体の与えるダメージを50%増加させる\n味方全体の必殺技ダメージを70%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `カボチャの皮むきカリバー`,
+                    description: `必殺技攻撃時、「自分の250%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `出来たてカボチャパイ`,
+                    description: `3ターン毎に、「自分が必殺技攻撃時、『味方のアタッカー、デバッファーの攻撃力を自分の攻撃力の25%分増加させる(1ターン)』を得る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ハロウィンといえばこれ`,
+                    description: `味方のアタッカー、デバッファーが「必殺技攻撃時、『自分の100%の攻撃力でターゲットにダメージを与える』を追加する(50ターン)」を得る`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

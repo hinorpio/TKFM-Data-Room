@@ -177,56 +177,56 @@ export const SkillSet_10133: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `これがプロのアイドルの魅力☆`,
+                    description: `自分の基本攻撃力の50/55/60/65/70%分味方全体の攻撃力を増加させ(4ターン)、味方全体の必殺技ダメージを20/25/30/35/40%増加させる(4ターン)[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `これがプロのアイドルの魅力☆`,
+                    description: `自分の基本攻撃力の50%分味方全体の攻撃力を増加させ(4ターン)、味方全体の必殺技ダメージを20%増加させる(4ターン)[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `これがプロのアイドルの魅力☆`,
+                    description: `自分の基本攻撃力の55%分味方全体の攻撃力を増加させ(4ターン)、味方全体の必殺技ダメージを25%増加させる(4ターン)[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `これがプロのアイドルの魅力☆`,
+                    description: `自分の基本攻撃力の60%分味方全体の攻撃力を増加させ(4ターン)、味方全体の必殺技ダメージを30%増加させる(4ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `これがプロのアイドルの魅力☆`,
+                    description: `自分の基本攻撃力の65%分味方全体の攻撃力を増加させ(4ターン)、味方全体の必殺技ダメージを35%増加させる(4ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `これがプロのアイドルの魅力☆`,
+                    description: `自分の基本攻撃力の70%分味方全体の攻撃力を増加させ(4ターン)、味方全体の必殺技ダメージを40%増加させる(4ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `他の人を見ちゃダメだよ～♡`,
+                    description: `自分の攻撃力の25%分味方全体に盾を張り(1ターン)、自分の最大HPの30%分味方全体に盾を張る(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `握手会の時間だよ～`,
+                    description: `味方全体の攻撃力が50%増加する\n味方全体の与える誘発スキル効果が100%増加する\n味方全体の与えるダメージが20%増加する\n自分が「味方に2人以上のサポーターがいる時『受ける盾の効果が600%減少する』を発動する」を得る\n\n自分以外の味方が《お金は消えたんじゃない》を得る\n自分が《ななみの形になっただけ》を得る\n\n《お金は消えたんじゃない》\n攻撃時「自分の攻撃力の30%分味方の1番目のメンバーに盾を張る(1ターン)」を誘発する\n\n《ななみの形になっただけ》\n通常攻撃時「自分の現在の盾の55%分ターゲットにダメージを与える」を誘発する\n必殺技攻撃時「自分の現在の盾の60%分ターゲットにダメージを与える」を誘発する\n攻撃時「自分の現在の盾の100%分自分の盾に確定ダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `スタンバイ`,
+                    description: `自分が与える盾効果を15%増加させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `「清純」アイドル`,
+                    description: `必殺技攻撃時「自分の攻撃力の25%分味方全体に盾を張り(1ターン)、自分の最大HPの30%分味方全体に盾を張る(1ターン)」を追加する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `OnlySex♡`,
+                    description: `1ターン毎に「自分の攻撃力の25%分味方全体の攻撃力を増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

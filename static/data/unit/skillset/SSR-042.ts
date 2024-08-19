@@ -177,56 +177,56 @@ export const SkillSet_10019: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `聖劍解放．星の編年`,
+                    description: `自分の攻撃力を30/30/35/40/45%増加させ(3ターン)、330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `聖劍解放．星の編年`,
+                    description: `自分の攻撃力を30%増加させ(3ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `聖劍解放．星の編年`,
+                    description: `自分の攻撃力を30%増加させ(3ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `聖劍解放．星の編年`,
+                    description: `自分の攻撃力を35%増加させ(3ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `聖劍解放．星の編年`,
+                    description: `自分の攻撃力を40%増加させ(3ターン)、468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `聖劍解放．星の編年`,
+                    description: `自分の攻撃力を45%増加させ(3ターン)、514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `星光斬り`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `祈りの集結`,
+                    description: `味方全体の攻撃力を40%増加させる\n自分以外の味方のアタッカー/ガーディアン/ヒーラー/サポーター/デバッファーの攻撃時「現代の勇者 神田綾音が≪攻撃の習得≫/≪防御の習得≫/≪治癒の習得≫/≪支援の習得≫/≪妨害の習得≫を得る」\n≪攻撃の習得≫\n与えるダメージが25%増加する(1ターン)\n攻撃時「自分の75%の攻撃力でターゲットに追撃を行う」を誘発する(1ターン)\n≪防御の習得≫\n行動時「味方全体の受けるダメージを15%減少させる(1ターン)」を誘発する(1ターン)\n≪治癒の習得≫\n治療回復HP量を50%増加させる(1ターン)\n攻撃時「自分の攻撃力の50%分味方全体に治療を行う」を誘発する(1ターン)\n≪支援の習得≫\n攻撃時「自分の攻撃力を50%増加させる(2ターン)」を誘発する(1ターン)\n≪妨害の習得≫\n攻撃時「ターゲットが治療を受ける時、回復HP量を50%減少させ(1ターン)、受けるダメージを20%増加させる(2ターン)」(1ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `星の如き剣気`,
+                    description: `必殺時「自分の10%の攻撃力でターゲットに追撃を10回行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `流星の残痕`,
+                    description: `1ターン目に「自分以外の味方全員が≪星屑の残光≫を得る」を誘発する\n\n≪星屑の残光≫\n攻撃時「現代の勇者 神田綾音が『通常攻撃ダメージが10%増加し(1ターン)、必殺ダメージが4%増加する(1ターン)を得る』」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `救世の星`,
+                    description: `受けるダメージが15%減少する\n通常攻撃時「自分の最大HPの12.5%分盾、自分に盾を張る(1ターン)」を誘発する\n必殺時「ターゲットが現代の勇者 神田綾音から受けるダメージを17.5%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

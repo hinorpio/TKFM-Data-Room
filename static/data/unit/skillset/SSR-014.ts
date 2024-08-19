@@ -177,56 +177,56 @@ export const SkillSet_10057: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `究極暗黒炎地獄殲滅陣？`,
+                    description: `自分の攻撃力の165/188/188/211/211%分味方全体に盾を張り(2ターン)、自分の攻撃力の30/30/30/30/40%分味方全体の攻撃力を増加させる(2ターン)[CD:4] [Lv3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `究極暗黒炎地獄殲滅陣？`,
+                    description: `自分の攻撃力の165%分味方全体に盾を張り(2ターン)、自分の攻撃力の30%分味方全体の攻撃力を増加させる(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `究極暗黒炎地獄殲滅陣？`,
+                    description: `自分の攻撃力の188%分味方全体に盾を張り(2ターン)、自分の攻撃力の30%分味方全体の攻撃力を増加させる(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `究極暗黒炎地獄殲滅陣？`,
+                    description: `自分の攻撃力の188%分味方全体に盾を張り(2ターン)、自分の攻撃力の30%分味方全体の攻撃力を増加させる(2ターン)[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `究極暗黒炎地獄殲滅陣？`,
+                    description: `自分の攻撃力の211%分味方全体に盾を張り(2ターン)、自分の攻撃力の30%分味方全体の攻撃力を増加させる(2ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `究極暗黒炎地獄殲滅陣？`,
+                    description: `自分の攻撃力の211%分味方全体に盾を張り(2ターン)、自分の攻撃力の40%分味方全体の攻撃力を増加させる(2ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `暗冥結界`,
+                    description: `攻撃力の50%分味方全体に盾を張る(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `地獄深淵のケルベロス！`,
+                    description: `味方の1、3、5番目のメンバーの攻撃力を33%増加させ、必殺技ダメージを15%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `幽冥之爪`,
+                    description: `自分の通常攻撃ダメージを25%増加させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `深淵の枷`,
+                    description: `1ターン目開始時に、効果「味方の2、4番目のメンバーが受けるダメージを15%減少させる(50ターン)」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `冥界法典の啓示`,
+                    description: `6ターン毎に、効果「味方の1、3、5番目のメンバーの必殺技ダメージを50%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

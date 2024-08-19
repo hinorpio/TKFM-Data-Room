@@ -177,56 +177,56 @@ export const SkillSet_10025: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「138.5/160.4/182.3/204.2/226.0%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「138.5%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「160.4%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「182.3%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「204.2%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「226.0%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `歌う`,
+                    description: `ターゲットが効果「50%の攻撃力で毎ターンダメージを与える(4ターン)を得る`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `高貴で完璧な魔族のアイドル`,
+                    description: `自分の攻撃力を50%増加させる；各WAVEの第1ターンで効果「自分の必殺技CDを6ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `歌唱力`,
+                    description: `現在のHPが95%より多い時、効果「自分の攻撃力を20%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ダンス力`,
+                    description: `治療させた時の回復量が50%増加`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `アイドルパワー・全開`,
+                    description: `自分の必殺技最大CDを2ターン減少させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にす`
                 }
             },
             [Locale.kr]: {
@@ -471,57 +471,61 @@ export const SkillSet_10025: SkillSet[] =  [
                 }
             },
             [Locale.jp]: {
+                [SkillType.BASE_STAT]: {
+                    name: `ステータス最大値`,
+                    description: `HP最大値：2,878,735\nATK最大値：899,604\n「魔王 イブリース」のデータが誤って埋め込まれてしまった`
+                },
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「138.5/160.4/182.3/204.2/226.0%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「138.5%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「160.4%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「182.3%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「204.2%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `月夜の流行歌`,
+                    description: `ターゲットが効果「226.0%の攻撃力で毎ターンダメージを与える(6ターン)」「攻撃力が15%減少する(6ターン)」「治療を受けた時回復量が25%減少する(6ターン)」を得る[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `歌う`,
+                    description: `ターゲットが効果「50%の攻撃力で毎ターンダメージを与える(4ターン)を得る`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `高貴で完璧な魔族のアイドル`,
+                    description: `自分の攻撃力を50%増加させる；各WAVEの第1ターンで効果「自分の必殺技CDを6ターン減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `歌唱力`,
+                    description: `現在のHPが95%より多い時、効果「自分の攻撃力を20%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ダンス力`,
+                    description: `治療させた時の回復量が50%増加`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `アイドルパワー・全開`,
+                    description: `自分の必殺技最大CDを2ターン減少させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にす`
                 }
             },
             [Locale.kr]: {

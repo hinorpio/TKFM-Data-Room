@@ -124,7 +124,7 @@ export const SkillSet_10054: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Steady Steps`,
-                    description: `Heal a maximum of 30/40/40/50/5050% of HP. Gain taunt for 2 turns and enter Guard Stance. Reduce damage dealt to your party by 0/0/0/5/10% for 1 turn (CD:4) [Bond 3+: (CD:3)]`
+                    description: `Heal a maximum of 30/40/40/50/50% of HP. Gain taunt for 2 turns and enter Guard Stance. Reduce damage dealt to your party by 0/0/0/5/10% for 1 turn (CD:4) [Bond 3+: (CD:3)]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Steady Steps`,
@@ -177,56 +177,56 @@ export const SkillSet_10054: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `手すりにおつかまりください`,
+                    description: `自分のHPを30/40/40/50/50%回復して、挑発効果(2ターン)を獲得して防御状態になり、味方全体の受けるダメージ0/0/0/5/10%減少(1ターン)[CD:4] [Lv3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `手すりにおつかまりください`,
+                    description: `自分のHPを30%回復して、挑発効果(2ターン)を獲得して防御状態になり[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `手すりにおつかまりください`,
+                    description: `自分のHPを40%回復して、挑発効果(2ターン)を獲得して防御状態になり[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `手すりにおつかまりください`,
+                    description: `自分のHPを40%回復して、挑発効果(2ターン)を獲得して防御状態になり[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `手すりにおつかまりください`,
+                    description: `自分のHPを50%回復して、挑発効果(2ターン)を獲得して防御状態になり、味方全体の受けるダメージ5%減少(1ターン)[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `手すりにおつかまりください`,
+                    description: `自分のHPを50%回復して、挑発効果(2ターン)を獲得して防御状態になり、味方全体の受けるダメージ10%減少(1ターン)[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `走れトナカイ`,
+                    description: `50%の攻撃力でターゲットにダメージを与え、自分が防御状態になる`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `聖夜の守護者`,
+                    description: `必殺技攻撃時、自分が効果「受けるダメージを20%減少させる(1ターン)」を誘発する\n最初のターン開始時、効果「毎ターン攻撃力の70%分味方全体に治療を行う(50ターン)」を誘発する\n最初のターン開始時、効果「味方の1、2、5番目のメンバーは《奇跡の使者》の効果を獲得する」を誘発する\n\n《奇跡の使者》\n「攻撃力を40%増加させる(最高1スタック)」「必殺技ダメージを20%増加させる(最高1スタック)」「通常攻撃ダメージを40%増加させる(最高1スタック)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `クリスマス精神`,
+                    description: `必殺技攻撃時、効果《クリスマス極道》を誘発する\n\n《クリスマス極道》\n味方の1、2番目のメンバーが効果「状態異常を受ける確率を75%減少させる(1ターン)」、「攻撃力が30%増加させる(2ターン)」を得る`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `音声認識雪そり`,
+                    description: `必殺技攻撃時、効果「味方の2、5番目のメンバーが効果『受けるダメージを20%減少させる(1ターン)』を得る」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `トナカイの祝福`,
+                    description: `HPを10%増加させる\n攻撃を受けた時、効果「自分の基礎攻撃力の100%分味方全体に治療を行う」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `受けるダメージを減少`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

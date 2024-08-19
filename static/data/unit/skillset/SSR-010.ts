@@ -177,56 +177,56 @@ export const SkillSet_10008: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `全域殲滅モード・起動`,
+                    description: `自分に効果「攻撃力を100/105/110/115/125%増加させる(最大2スタック)」を与える。[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `全域殲滅モード・起動`,
+                    description: `自分に効果「攻撃力を100%増加させる(最大2スタック)」を与える。[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `全域殲滅モード・起動`,
+                    description: `自分に効果「攻撃力を105%増加させる(最大2スタック)」を与える。[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `全域殲滅モード・起動`,
+                    description: `自分に効果「攻撃力を110%増加させる(最大2スタック)」を与える。[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `全域殲滅モード・起動`,
+                    description: `自分に効果「攻撃力を115%増加させる(最大2スタック)」を与える。[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `全域殲滅モード・起動`,
+                    description: `自分に効果「攻撃力を125%増加させる(最大2スタック)」を与える。[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `機銃掃射`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `最終兵器少女モード`,
+                    description: `1ターン目開始時、効果「自分の攻撃力を400%増加させ(6ターン)、必殺技CDのカウントダウンを停止する(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `機械学習バトルモード`,
+                    description: `攻撃時、効果「自分の攻撃力を2%増加させる(10スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `防御モード・切替`,
+                    description: `防御時、効果「攻撃力の100%分自分に盾効果を与える(3ターン)を誘発するが、与えるダメージが50%減少する(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `マインドセンサー機関砲・起動`,
+                    description: `通常攻撃時、効果「20%の攻撃力でターゲットに3回追撃を行う」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ＋`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

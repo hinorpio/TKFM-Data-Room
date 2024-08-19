@@ -177,56 +177,56 @@ export const SkillSet_10047: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風之星`,
+                    description: `ターゲットが受けるダメージを15/15/20/20/25%増加させ(最高1スタック)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風之星`,
+                    description: `ターゲットが受けるダメージを15%増加させ(最高1スタック)、自分の330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風之星`,
+                    description: `ターゲットが受けるダメージを15%増加させ(最高1スタック)、自分の376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風之星`,
+                    description: `ターゲットが受けるダメージを20%増加させ(最高1スタック)、自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風之星`,
+                    description: `ターゲットが受けるダメージを20%増加させ(最高1スタック)、自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風之星`,
+                    description: `ターゲットが受けるダメージを25%増加させ(最高1スタック)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `風之刃`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `風之逸材`,
+                    description: `風属性の味方の攻撃力が80%増加する\n風属性の味方の通常攻撃ダメージが60%増加する\n風属性の味方の必殺技ダメージが30%増加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `暴れる風よ、屈服せよ！`,
+                    description: `必殺技ダメージが20%増加する\n必殺技攻撃時「自分の50%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `狂風障壁`,
+                    description: `防禦時「味方全体の受けるダメージを20%減少させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `魔導剣士`,
+                    description: `与えるダメージが10%増加する\n必殺技攻撃時「自分の50%の攻撃力でターゲットにダメージを与える」を誘発する\n4ターン毎に「敵全体の風属性から受けるダメージを25%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

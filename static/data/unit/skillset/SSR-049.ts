@@ -124,7 +124,7 @@ export const SkillSet_10042: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Summer Lovin'`,
-                    description: `Increase the party's Water and Fire allies' Attack Power by 30/30/40/40/40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 5/7.5/10/12.5/12.5% (Max 2 Stacks), then damage the target (330/376/422/468/514% Attack Power). CD:4`
+                    description: `Increase the party's Water and Fire allies' Attack Power by 30/30/40/40/40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 5/7.5/10/12.5/15% (Max 2 Stacks), then damage the target (330/376/422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Summer Lovin'`,
@@ -144,7 +144,7 @@ export const SkillSet_10042: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `Summer Lovin'`,
-                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 12.5% (Max 2 Stacks), then damage the target (514% Attack Power). CD:4`
+                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 15% (Max 2 Stacks), then damage the target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
                     name: `Sunbrella`,
@@ -177,56 +177,56 @@ export const SkillSet_10042: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の少女の恋心は無敵！`,
+                    description: `味方の水、火属性のメンバーの攻撃力を30/30/40/40/40%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを5/7.5/10/12.5/15%増加させ(最高2スタック)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の少女の恋心は無敵！`,
+                    description: `味方の水、火属性のメンバーの攻撃力を30%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを5%増加させ(最高2スタック)、自分の330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の少女の恋心は無敵！`,
+                    description: `味方の水、火属性のメンバーの攻撃力を30%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを7.5%増加させ(最高2スタック)、自分の376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の少女の恋心は無敵！`,
+                    description: `味方の水、火属性のメンバーの攻撃力を40%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを10%増加させ(最高2スタック)、自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の少女の恋心は無敵！`,
+                    description: `味方の水、火属性のメンバーの攻撃力を40%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを12.5%増加させ(最高2スタック)、自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の少女の恋心は無敵！`,
+                    description: `味方の水、火属性のメンバーの攻撃力を40%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを15%増加させ(最高2スタック)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `日傘攻撃`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `超高貴！イブリースの休暇村`,
+                    description: `味方全体の攻撃力を100%増加させる\n攻撃時「メンバー全員が、メンバー自分自身の最大HPの25%分盾を得る(1ターン)」を誘発する\n味方全体のメンバーが「チームにアタッカーが5人いる時《夏を楽しむ》を発動する」を得る\n\n《夏を楽しむ》\n攻撃時「自分の攻撃力の15%分味方全体に治療を行う」を誘発する\n必殺時「自分の攻撃力の12.5%分味方全体に盾を張る(1ターン)」を誘発する\n攻撃時、効果「味方全体の必殺技ダメージを5%増加させる(最高10スタック)」を誘発する\n攻撃時「ターゲットが水、火属性から受けるダメージを3%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ビーチに輝く夏の花`,
+                    description: `防御時「味方の水、火属性のメンバーが治療を受けるとき、回復効果を50%増加させる(2ターン)」を誘発する\n必殺時「味方の水、火属性のメンバーの攻撃力を15%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `屈服しなさい！`,
+                    description: `自分の与えるダメージを25%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `頭が高いわよ！`,
+                    description: `4ターン毎に「ターゲットが水、火属性から受けるダメージを40%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

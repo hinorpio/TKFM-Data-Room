@@ -177,56 +177,56 @@ export const SkillSet_10107: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `回転龍球！`,
+                    description: `自分の攻撃力を18.75/22.5/26.25/30/33.75%増加させる効果を4スタック獲得する(最高4スタック)、自分の353/404/454/505/555%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `回転龍球！`,
+                    description: `自分の攻撃力を18.75%増加させる効果を4スタック獲得する(最高4スタック)、自分の353%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `回転龍球！`,
+                    description: `自分の攻撃力を22.5%増加させる効果を4スタック獲得する(最高4スタック)、自分の404%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `回転龍球！`,
+                    description: `自分の攻撃力を26.25%増加させる効果を4スタック獲得する(最高4スタック)、自分の454%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `回転龍球！`,
+                    description: `自分の攻撃力を30%増加させる効果を4スタック獲得する(最高4スタック)、自分の505%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `回転龍球！`,
+                    description: `自分の攻撃力を33.75%増加させる効果を4スタック獲得する(最高4スタック)、自分の555%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `重撃！`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `握手は勝負の後で！`,
+                    description: `味方全体のHPを20%増加させる\n味方全体の攻撃力を40%増加させる\n通常攻撃時「味方のアタッカーの攻撃力を自分の攻撃力の40%分増加させる(1ターン)」を誘発する\n\n味方のアタッカーが「チーム内に4人以上のアタッカーがいる時、《ぶっ飛ばす！》」を獲得する\n\n《ぶっ飛ばす！》\n攻撃力を110%増加させる\n必殺技攻撃時「味方の1番目のメンバーの攻撃力を自分の攻撃力の60%分増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `力を蓄える！`,
+                    description: `通常攻撃時「自分の攻撃力を12.5%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ぶちかませ！`,
+                    description: `4ターン毎に「自分の攻撃力を75%増加させる(最高1スタック)」を誘発する\n必殺技発動後「自分の《ぶちかませ！》の攻撃力増加効果を消す」を誘発する\n通常攻撃時「《回転龍球！》の攻撃力増加効果を1スタック減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `こっちの番よ！！`,
+                    description: `4ターン毎に「自分の与えるダメージを40%増加させる(最高1スタック)」を誘発する\n必殺技発動後「自分の《こっちの番よ！！》のダメージ増加効果を消す」を誘発する\n味方全体の与えるダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺＋`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

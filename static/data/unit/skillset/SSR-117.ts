@@ -124,7 +124,7 @@ export const SkillSet_10147: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Dish Transformation!`,
-                    description: `Damage the target (330/376% Attack Power). Increase the target's Damage Taken from Wind and Light attacks by 30/35% for 2 turns. CD:4\n\nIncrease the target's Damage Taken from Wind and Light attacks by 40/45/50% for 2 turns and increase the target's Damage Taken by 15% for 2 turns. Then damage the target (422/468/514% Attack Power). CD:4`
+                    description: `Damage the target (330/376% Attack Power). Increase the target's Damage Taken from Wind and Light attacks by 30/35% for 2 turns. CD:4\n\nLv3+: Increase the target's Damage Taken from Wind and Light attacks by 40/45/50% for 2 turns and increase the target's Damage Taken by 15% for 2 turns. Then damage the target (422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Dish Transformation!`,
@@ -177,56 +177,56 @@ export const SkillSet_10147: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `あなたを料理するしかないね！`,
+                    description: `自分の330/376%の攻撃力でターゲットにダメージを与え、ターゲットが風、光属性から受けるダメージを30/35%増加させる(2ターン)[CD:4]\n\nLv3+: ターゲットが風、光属性から受けるダメージを40/45/50%増加させ(2ターン)、ターゲットが受けるダメージを15%増加させ(2ターン)、自分の422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `あなたを料理するしかないね！`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、ターゲットが風、光属性から受けるダメージを30%増加させる(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `あなたを料理するしかないね！`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、ターゲットが風、光属性から受けるダメージを35%増加させる(2ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `あなたを料理するしかないね！`,
+                    description: `ターゲットが風、光属性から受けるダメージを40%増加させ(2ターン)、ターゲットが受けるダメージを15%増加させ(2ターン)、自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `あなたを料理するしかないね！`,
+                    description: `ターゲットが風、光属性から受けるダメージを45%増加させ(2ターン)、ターゲットが受けるダメージを15%増加させ(2ターン)、自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `あなたを料理するしかないね！`,
+                    description: `ターゲットが風、光属性から受けるダメージを50%増加させ(2ターン)、ターゲットが受けるダメージを15%増加させ(2ターン)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `お粗末ダメ斬り`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔物料理のシェフ`,
+                    description: `味方全体の最大HPが40%増加する\n味方全体の攻撃力が50%増加する\n自分が《みんな食べてみて！》を獲得する\n\n《みんな食べてみて！》\n攻撃力が100%増加する\n与えるダメージが50%増加する\n必殺技ダメージが100%増加する\n通常攻撃ダメージが100%増加する\n自分が必殺技攻撃時「自分以外の味方全体が《秘伝・魔物得意料理》を獲得する」を誘発する\n\n《秘伝・魔物得意料理》\n攻撃力が100%増加する(2ターン)\n与えるダメージが30%増加する(2ターン)\n必殺技ダメージが50%増加する(1ターン)\n通常攻撃ダメージが100%増加する(2ターン)\n行動後「自分以外の味方全体の《秘伝・魔物得意料理》による全ての効果を消す」を誘発する(2ターン)(誘発1回後に解除)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `丹精込めた料理`,
+                    description: `必殺技攻撃時「自分以外の味方全体が《ごちそう満喫》を獲得する」を誘発する\n\n《ごちそう満喫》\n攻撃力が100%増加する(2ターン)\n通常攻撃ダメージが100%増加する(2ターン)\n行動後「自分以外の味方全体の《ごちそう満喫》による全ての効果を消す」を誘発する(2ターン)(誘発1回後に解除)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `いざというの時のおかず`,
+                    description: `防御時「自分以外の味方全体が《内臓の干物》を獲得する」を誘発する\n\n《内臓の干物》\n行動後「自分が受けるダメージを20%減少させ(1ターン)、自分以外の味方全体の《内臓の干物》の効果を消す」を誘発する(1ターン)(誘発1回後に解除)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `包丁さばきの指導`,
+                    description: `2番目の味方が「必殺技攻撃時《魔物解体》を誘発する」を獲得する\n\n《魔物解体》\nターゲットが受ける必殺技ダメージを100%増加させる(1ターン)\nターゲットが治療を受ける時、回復HP量を20%減少させる(4ターン)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

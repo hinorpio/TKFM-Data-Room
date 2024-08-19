@@ -63,7 +63,20 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                             description: `While in Guard Stance, increase your Attack Power by 50% (max 1 stack).\nWhile in Guard Stance, reduce your current Ultimate Skill CD by 1.\nOn Ultimate Skill, remove the damage buff provided by "Rigor mortis".`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `スーパー千鶴！`,
+                            description: `自分の最大HPが50%増加する\n自分の攻撃力が200%増加し、必殺技ダメージが100%増加する\n1ターン毎に「自分の最大HPの100%分、自分に治療を行う」を誘発する`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `不死の肉体`,
+                            description: `自分が治療を受けるとき、回復HP量を20%増加させる\n自分が受けるダメージを15%減少させる`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `防御加速`,
+                            description: `防御時「自分の攻撃力を50%増加させる(最高1スタック)」を誘発する\n防御時「自分の現在の必殺技CDを1ターン減少させる」を誘発する\n必殺技攻撃時「自分の《防御加速》の攻撃力増加効果を消す」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -93,8 +106,18 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,412,021\nMax ATK：918,317`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,412,021\nATK最大値：918,317`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,412,021\nAMax ATK：918,317`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +218,36 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                             description: `On Ultimate Skill, increase the party's Damage Output by 20% for 4 turns.\nOn Ultimate Skill, increase the Wind allies' Ultimate Skill Power by 20% (max 2 stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `千鶴全力の一撃！`,
+                            description: `ターゲットが受ける風属性ダメージを15/15/15/20/25%増加させ(最高2スタック)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `千鶴全力の一撃！`,
+                            description: `ターゲットが受ける風属性ダメージを15%増加させ(最高2スタック)、自分の330%の攻撃力でターゲットにダメージを与える[CD: 4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `千鶴全力の一撃！`,
+                            description: `ターゲットが受ける風属性ダメージを15%増加させ(最高2スタック)、自分の376%の攻撃力でターゲットにダメージを与える[CD: 4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `千鶴全力の一撃！`,
+                            description: `ターゲットが受ける風属性ダメージを15%増加させ(最高2スタック)、自分の422%の攻撃力でターゲットにダメージを与える[CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `千鶴全力の一撃！`,
+                            description: `ターゲットが受ける風属性ダメージを20%増加させ(最高2スタック)、自分の468%の攻撃力でターゲットにダメージを与える[CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `千鶴全力の一撃！`,
+                            description: `ターゲットが受ける風属性ダメージを25%増加させ(最高2スタック)、自分の514%の攻撃力でターゲットにダメージを与える[CD: 4]`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `烈風激励`,
+                            description: `必殺技攻撃時「味方全体の与えるダメージを20%増加させる(4ターン)」を誘発する\n必殺技攻撃時「味方の風属性キャラクターの必殺技ダメージを20%増加させる(最高2スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

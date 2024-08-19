@@ -177,56 +177,56 @@ export const SkillSet_10003: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `猛毒の薔薇`,
+                    description: `388/445/503/560/560%の攻撃力でターゲットにダメージを与える[CD:4] [Lv5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `猛毒の薔薇`,
+                    description: `388%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `猛毒の薔薇`,
+                    description: `445%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `猛毒の薔薇`,
+                    description: `503%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `猛毒の薔薇`,
+                    description: `560%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `猛毒の薔薇`,
+                    description: `560%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックウェーブ`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王イブリースの傲慢`,
+                    description: `イブリースに効果「攻撃時、75%の攻撃力で敵全体に追撃を行う」を与える`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `秘伝魔力の儀式`,
+                    description: `現在のHPが75%を超えている時、効果「攻撃力が15%増加する」を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `魔力吸収`,
+                    description: `通常攻撃のダメージが20%増加する。ダメージを与えた場合、ダメージの33%分自分のHPを回復する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `生命への抑圧`,
+                    description: `毎Waveの1ターン目に、効果「自分の攻撃力を25%増加させる（3ターン）」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

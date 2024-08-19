@@ -177,56 +177,56 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の攻撃力の40/45/45/50/55%分、味方のデバッファーの攻撃力を増加させ(1/1/2/2/2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の攻撃力の40%分、味方のデバッファーの攻撃力を増加させ(1ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の攻撃力の45%分、味方のデバッファーの攻撃力を増加させ(1ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の攻撃力の45%分、味方のデバッファーの攻撃力を増加させ(2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の攻撃力の50%分、味方のデバッファーの攻撃力を増加させ(2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の攻撃力の55%分、味方のデバッファーの攻撃力を増加させ(2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `熱き歌声`,
+                    description: `自分の攻撃力の40%分、味方のデバッファーの攻撃力を増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の風情♡ビーチで輝くスター`,
+                    description: `味方全体のHPを20%増加させ、攻撃力を40%増加させる\n通常攻撃時「自分の攻撃力の40%分、味方のデバッファーの攻撃力を増加させる(1ターン)」を誘発する\n攻撃時「自分の攻撃力の50%分、自分、味方のデバッファー、味方のガーディアンに治療を行う」を誘発する\n必殺時「自分の攻撃力の25%分、味方のデバッファーの攻撃力を増加させる(10ターン)」を誘発する\n味方のデバッファーが《アイドル応援団！》を得る\n\n《アイドル応援団！》\n攻撃時「味方の1番目のメンバーの攻撃力を25%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `流れ星の如く～`,
+                    description: `必殺時「自分の最大HPの50%分、味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `舞台上に降り立ったスター☆`,
+                    description: `最初のターン開始時「味方のデバッファーの必殺技ダメージを35%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `華麗に☆まばゆく☆爆誕☆`,
+                    description: `攻撃時「自分の攻撃力の10%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する\n最初のターン開始時「味方のデバッファーが与えるダメージを20%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の最大HPの30/40/40/50/60%分、自分の攻撃力の40/45/45/50/55%分、味方のデバッファーの攻撃力を増加させ(1/1/2/2/2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の最大HPの30%分、自分の攻撃力の40%分、味方のデバッファーの攻撃力を増加させ(1ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の最大HPの40%分、自分の攻撃力の45%分、味方のデバッファーの攻撃力を増加させ(1ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の最大HPの40%分、自分の攻撃力の45%分、味方のデバッファーの攻撃力を増加させ(2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の最大HPの50%分、自分の攻撃力の50%分、味方のデバッファーの攻撃力を増加させ(2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆ノエルビーム`,
+                    description: `自分の最大HPの60%分、自分の攻撃力の55%分、味方のデバッファーの攻撃力を増加させ(2ターン)、味方のデバッファーの現在の必殺技CDを1ターン減少させる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `熱き歌声`,
+                    description: `自分の攻撃力の30%分、味方全体の攻撃力を増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の風情♡ビーチで輝くスター`,
+                    description: `自分の最大HPを40%増加させる\n味方全体のHPを20%増加させ、攻撃力を40%増加させる\n通常攻撃時「自分の攻撃力の50%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する\n必殺時「自分の攻撃力の30%分、味方全体の攻撃力を増加させる(10ターン)」を誘発する\n必殺時「自分の最大HPの15%分、味方全体の攻撃力を増加させる(10ターン)」を誘発する\n味方のデバッファーが《アイドル応援団！》を得る\n\n《アイドル応援団！》\n必殺時「基礎攻撃力の100%分、味方の1番目のメンバーの攻撃力を増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `流れ星の如く～`,
+                    description: `必殺時「自分の最大HPの50%分、味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `舞台上に降り立ったスター☆`,
+                    description: `最初のターン開始時「味方のデバッファーの必殺技ダメージを40%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `華麗に☆まばゆく☆爆誕☆`,
+                    description: `自分の最大HPを30%増加させる\n最初のターン開始時「味方のデバッファーが与えるダメージを20%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

@@ -96,19 +96,19 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                         },
                         [SkillType.SKILL_1]: {
                             name: `Go Team!!`,
-                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                            description: `Increase allied Supporters' Attack Power for 20% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
                         },
                         [SkillType.SKILL_2]: {
                             name: `Go Team!!`,
-                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                            description: `Increase allied Supporters' Attack Power for 20% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
                         },
                         [SkillType.SKILL_3]: {
                             name: `Go Team!!`,
-                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                            description: `Increase allied Supporters' Attack Power for 20% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
                         },
                         [SkillType.SKILL_4]: {
                             name: `Go Team!!`,
-                            description: `Increase allied Supporters' Attack Power for 25% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
+                            description: `Increase allied Supporters' Attack Power for 20% of your Attack Power for 1 turn. Heal the party for 200% of your Attack Power, and heal the party for 110% of your Attack Power every turn for 5 turns. CD: 4`
                         },
                         [SkillType.SKILL_5]: {
                             name: `Go Team!!`,
@@ -123,7 +123,40 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                             description: `On Attack, increase the party's Attack Power for 25% of your Attack Power.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `みんながんばって！`,
+                            description: `味方サポーターの攻撃力を自分の攻撃力の20/20/20/20/25％分増加させ(1ターン)、自分の攻撃力の200%分味方全体に治療を行い、さらに毎ターン自分の攻撃力の80/85/90/100/110%分味方全体に治療を行う(5ターン)[CD:5] [Lv3+: CD:4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `みんながんばって！`,
+                            description: `味方サポーターの攻撃力を自分の攻撃力の20％分増加させ(1ターン)、自分の攻撃力の200%分味方全体に治療を行い、さらに毎ターン自分の攻撃力の80%分味方全体に治療を行う(5ターン)[CD:5]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `みんながんばって！`,
+                            description: `味方サポーターの攻撃力を自分の攻撃力の20％分増加させ(1ターン)、自分の攻撃力の200%分味方全体に治療を行い、さらに毎ターン自分の攻撃力の85%分味方全体に治療を行う(5ターン)[CD:5]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `みんながんばって！`,
+                            description: `味方サポーターの攻撃力を自分の攻撃力の20％分増加させ(1ターン)、自分の攻撃力の200%分味方全体に治療を行い、さらに毎ターン自分の攻撃力の90%分味方全体に治療を行う(5ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `みんながんばって！`,
+                            description: `味方サポーターの攻撃力を自分の攻撃力の20％分増加させ(1ターン)、自分の攻撃力の200%分味方全体に治療を行い、さらに毎ターン自分の攻撃力の100%分味方全体に治療を行う(5ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `みんながんばって！`,
+                            description: `味方サポーターの攻撃力を自分の攻撃力の25％分増加させ(1ターン)、自分の攻撃力の200%分味方全体に治療を行い、さらに毎ターン自分の攻撃力の110%分味方全体に治療を行う(5ターン)[CD:4]`
+                        },
+                        [SkillType.ATTACK]: {
+                            name: `激励`,
+                            description: `自分の攻撃力の75%分味方全体に治療を行う`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `全力応援`,
+                            description: `攻撃時「自分の攻撃力の25％分、味方全体の攻撃力を増加させる(1ターン)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -153,8 +186,18 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,518,102\nMax ATK：889,817`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,518,102\nATK最大値：889,817`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,518,102\nAMax ATK：889,817`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -207,7 +250,20 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                             description: `Increase the party's Ultimate Skill Damage Power by 30%.\nOn Ultimate Skill, increase the target's Damage Taken from Wind attacks by 20% (max 2 stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `掻き立てられた支配欲`,
+                            description: `味方全体の最大HPが35％増加する\n味方全体の攻撃力が40％増加する\n味方全体の必殺技ダメージが25％増加する\n味方の与えるダメージが20％増加する\n味方のガーディアンの最大HPが15％増加する\n味方が治療を受けた時、回復HP量が30%増加する`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `追加治療`,
+                            description: `通常攻撃時「HPが一番低いメンバーが受けるダメージが15%減少する(1ターン)」を誘発する\n通常攻撃時「攻撃力の40%分、HPが一番低い味方メンバーに治療を行う」を誘発する`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `みんなに努力の成果を見せてやる！`,
+                            description: `味方全体の必殺技ダメージが30%増加する\n必殺技攻撃時「ターゲットが風属性から受けるダメージを20%増加させる(最高2スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

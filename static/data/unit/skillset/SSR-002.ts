@@ -177,56 +177,56 @@ export const SkillSet_10002: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `極悪非道`,
+                    description: `自分の攻撃力を30/40/50/50/50%増加させ(2/2/3/3/3ターン)、挑発(2/2/2/3/3ターン)を得て、防御状態になる[CD:4] [Lv5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `極悪非道`,
+                    description: `自分の攻撃力を30%増加させ(2ターン)、挑発(2ターン)を得て、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `極悪非道`,
+                    description: `自分の攻撃力を40%増加させ(2ターン)、挑発(2ターン)を得て、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `極悪非道`,
+                    description: `自分の攻撃力を50%増加させ(2ターン)、挑発(2ターン)を得て、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `極悪非道`,
+                    description: `自分の攻撃力を50%増加させ(3ターン)、挑発(3ターン)を得て、防御状態になる[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `極悪非道`,
+                    description: `自分の攻撃力を50%増加させ(3ターン)、挑発(3ターン)を得て、防御状態になる[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `引き裂く`,
+                    description: `50%の攻撃力でターゲットにダメージを与え、防御状態になる`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王サタンの小生意気`,
+                    description: `サタンに挑発(50ターン)を与え、防御時のダメージ軽減効果が15%増加する。ただし攻撃力が25パーセント減少する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王の覇気`,
+                    description: `自分の受けるダメージを15%減少させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `サタンの返礼`,
+                    description: `攻撃を受けた時、効果「自分の75%の攻撃力で反撃する」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `不敗の肉体`,
+                    description: `毎ターン自分の最大HPの10%分自分に治療を行う`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `防御ダメージ減少+`,
+                    description: `自分の防御時のダメージ軽減効果を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

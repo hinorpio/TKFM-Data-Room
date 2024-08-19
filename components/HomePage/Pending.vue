@@ -6,9 +6,6 @@
                 <h3 class="mb-4">{{ getLocalStr(pending_str) }}</h3>
                 <ul>
                     <li>
-                        <h3 class="mt-4">{{$t('Language')}} - 日本語</h3>
-                    </li>
-                    <li>
                         <h3 class="mt-4">{{$t('Language')}} - 한국어</h3>
                     </li>
                 </ul>
@@ -58,32 +55,32 @@ export default class Pending extends Vue {
         [Locale.tc]: '待更新事項',
         [Locale.sc]: '待更新事项',
         [Locale.en]: 'Pending',
-        [Locale.jp]: '',
-        [Locale.kr]: '',
+        [Locale.jp]: '更新予定事項',
+        [Locale.kr]: '업데이트 예정 사항',
     }
 
     discord_str: {[lang in Locale]: string} = {
-        [Locale.tc]: '天下布魔 TenkafuMA! 官方討論區',
-        [Locale.sc]: '天下布魔 TenkafuMA! 官方讨论区',
-        [Locale.en]: 'TenkafuMA! Chinese Channel',
-        [Locale.jp]: '天下布魔 TenkafuMA! 官方討論區',
-        [Locale.kr]: '',
+        [Locale.tc]: '天下布魔 TenkafuMA! Discord 官方討論區',
+        [Locale.sc]: '天下布魔 TenkafuMA! Discord 官方讨论区',
+        [Locale.en]: 'TenkafuMA! Chinese Discord Channel',
+        [Locale.jp]: '天下布魔 TenkafuMA! Discord 官方討論區',
+        [Locale.kr]: 'TenkafuMA! Chinese Discord Channel',
     }
 
     pending_str: {[lang in Locale]: string} = {
         [Locale.tc]: '本站目前只是Beta版本, 以下為此版本待更新事項',
         [Locale.sc]: '本站目前只是Beta版本, 以下為此版本待更新事項',
         [Locale.en]: 'This site is currently in Beta version. The following are the pending updates for this version.',
-        [Locale.jp]: '',
-        [Locale.kr]: '',
+        [Locale.jp]: 'このサイトは現在ベータ版です。以下はこのバージョンの更新予定事項です。',
+        [Locale.kr]: '본 사이트는 현재 베타 버전입니다. 아래는 이 버전의 업데이트 예정 사항입니다.',
     }
 
     help_str: {[lang in Locale]: string} = {
         [Locale.tc]: '如有玩家願意幫忙收集資料, 請在以下地方聯絡我',
         [Locale.sc]: '如有玩家願意幫忙收集資料, 請在以下地方聯絡我',
         [Locale.en]: 'If any players are willing to help collect data, please contact me at the following places:',
-        [Locale.jp]: '',
-        [Locale.kr]: '',
+        [Locale.jp]: '如有プレイヤーがデータ収集を手伝ってくれる場合は、以下の場所で連絡してください',
+        [Locale.kr]: '플레이어가 데이터 수집을 돕고 싶은 경우 아래 장소에서 연락해주세요.',
     }
 
 }

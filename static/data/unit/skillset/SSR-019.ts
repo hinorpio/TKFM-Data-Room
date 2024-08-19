@@ -177,56 +177,56 @@ export const SkillSet_10007: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `大天使の怒り`,
+                    description: `自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与え、毎ターン自分の29/35/41/46/52%の攻撃力でターゲットにダメージを与える(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `大天使の怒り`,
+                    description: `自分の330%の攻撃力でターゲットにダメージを与え、毎ターン自分の29%の攻撃力でターゲットにダメージを与える(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `大天使の怒り`,
+                    description: `自分の376%の攻撃力でターゲットにダメージを与え、毎ターン自分の35%の攻撃力でターゲットにダメージを与える(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `大天使の怒り`,
+                    description: `自分の422%の攻撃力でターゲットにダメージを与え、毎ターン自分の41%の攻撃力でターゲットにダメージを与える(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `大天使の怒り`,
+                    description: `自分の468%の攻撃力でターゲットにダメージを与え、毎ターン自分の46%の攻撃力でターゲットにダメージを与える(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `大天使の怒り`,
+                    description: `自分の514%の攻撃力でターゲットにダメージを与え、毎ターン自分の52%の攻撃力でターゲットにダメージを与える(4ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `審判の打撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `天使長の祝福`,
+                    description: `味方全体の光属性メンバーが「攻撃時、効果『味方全体の攻撃力を15%増加させる(1ターン)を誘発する』を得る。火、風属性メンバーが「攻撃時、効果『味方全体の通常攻撃ダメージを20%増加させる(1ターン)』を誘発する」を得る。水、闇属性メンバーが「攻撃時、効果『味方全体の必殺技ダメージを20%増加させる(1ターン)』を誘発する」を得る。`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `光の懲戒`,
+                    description: `通常攻撃時、効果「毎ターン自分の15%の攻撃力でターゲットにダメージを与える(2ターン)を誘発する」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `天使の祝福`,
+                    description: `味方全体の光属性メンバーが「攻撃時、効果『味方全体の攻撃力を5%増加させる(1ターン)を誘発する』を得る。火、風属性メンバーが「攻撃時、効果『味方全体の通常攻撃ダメージを7%増加させる(1ターン)』を誘発する」を得る。水、闇属性メンバーが「攻撃時、効果『味方全体の必殺技ダメージを7%増加させる(1ターン)』を誘発する」を得る。`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `天罰の力`,
+                    description: `攻撃時、効果「自分の攻撃力を15%増加させる(4ターン)を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

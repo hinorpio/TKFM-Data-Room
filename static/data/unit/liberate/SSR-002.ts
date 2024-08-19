@@ -123,7 +123,40 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                             description: `Reduce your Damage Taken by 20%.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `極悪非道`,
+                            description: `自分の攻撃力を60/80/100/100/100%増加させ(3ターン)、挑発([2/2/2/3/3]ターン)を得て防御状態になる[CD:4] [Lv5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `極悪非道`,
+                            description: `自分の攻撃力を60%増加させ(3ターン)、挑発(2ターン)を得て防御状態になる[CD:4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `極悪非道`,
+                            description: `自分の攻撃力を80%増加させ(3ターン)、挑発(2ターン)を得て防御状態になる[CD:4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `極悪非道`,
+                            description: `自分の攻撃力を100%増加させ(3ターン)、挑発(2ターン)を得て防御状態になる[CD:4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `極悪非道`,
+                            description: `自分の攻撃力を100%増加させ(3ターン)、挑発(3ターン)を得て防御状態になる[CD:4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `極悪非道`,
+                            description: `自分の攻撃力を100%増加させ(3ターン)、挑発(3ターン)を得て防御状態になる[CD:3]`
+                        },
+                        [SkillType.ATTACK]: {
+                            name: `引き裂く`,
+                            description: `100%の攻撃力でターゲットにダメージを与え、防御状態になる`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `魔王の覇気`,
+                            description: `自分の受けるダメージを20%減少させる`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -153,8 +186,18 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：4,947,826\nMax ATK：633,319`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：4,947,826\nATK最大値：633,319`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：4,947,826\nAMax ATK：633,319`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -207,7 +250,20 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                             description: `Heal yourself for 20% of your Max HP every turn.\nWhen Attacked, increase your Damage Output by 2% (Max 10 Stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `魔王サタンの小生意気`,
+                            description: `味方全体の攻撃力を40％増加させる\n味方全体の与えるダメージを20％増加させる\n自分の攻撃力を100%増加させる\nサタンに挑発を与え(永久)、防禦時のダメージ減少効果を15%増加させる`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `サタンの返礼`,
+                            description: `攻撃された時「自分の100%の攻撃力で反撃する」を誘発する\n攻撃された時「自分の攻撃力を10%増加させる(最高10スタック)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `不敗の肉体`,
+                            description: `毎ターン自分の最大HPの20%分、自分に治療を行う\n攻撃を受けた時「自分が与えるダメージを2%増加させる(最高10スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

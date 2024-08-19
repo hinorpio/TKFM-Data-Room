@@ -124,7 +124,7 @@ export const SkillSet_10048: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Poison Splash`,
-                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (130% Attack Power), increase the party's Basic Attack Power by 20/25/30/35/40% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (130/176/222/268/314% Attack Power)". CD: 4`
+                    description: `Gain the following effect: "On Basic Attack, deal additional damage to the target for 2 turns (130/176/222/268/314% Attack Power), increase the party's Basic Attack Power by 20/25/30/35/40% for 4 turns, increase your Basic Attack Power by 100% for 2 turns, then damage the target (200% Attack Power)". CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Poison Splash`,
@@ -177,56 +177,56 @@ export const SkillSet_10048: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `毒のしぶき`,
+                    description: `自分が「通常攻撃時『自分の130/176/222/268/314%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得し、味方全体の通常攻撃ダメージを20/25/30/35/40%増加させ(4ターン)、自分の通常攻撃ダメージを100%増加させ(2ターン)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `毒のしぶき`,
+                    description: `自分が「通常攻撃時『自分の130%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得し、味方全体の通常攻撃ダメージを20%増加させ(4ターン)、自分の通常攻撃ダメージを100%増加させ(2ターン)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `毒のしぶき`,
+                    description: `自分が「通常攻撃時『自分の176%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得し、味方全体の通常攻撃ダメージを25%増加させ(4ターン)、自分の通常攻撃ダメージを100%増加させ(2ターン)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `毒のしぶき`,
+                    description: `自分が「通常攻撃時『自分の222%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得し、味方全体の通常攻撃ダメージを30%増加させ(4ターン)、自分の通常攻撃ダメージを100%増加させ(2ターン)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `毒のしぶき`,
+                    description: `自分が「通常攻撃時『自分の268%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得し、味方全体の通常攻撃ダメージを35%増加させ(4ターン)、自分の通常攻撃ダメージを100%増加させ(2ターン)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `毒のしぶき`,
+                    description: `自分が「通常攻撃時『自分の314%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得し、味方全体の通常攻撃ダメージを40%増加させ(4ターン)、自分の通常攻撃ダメージを100%増加させ(2ターン)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `毒尾刺し`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `永久の毒`,
+                    description: `味方全体の最大HPが20%増加する\n味方全体の攻撃力が40%増加する\n味方のアタッカーとデバッファーが《術無しの毒》を獲得する\n\n《術無しの毒》\n通常攻撃ダメージが50%増加する\n与えるダメージが20%増加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `気狂いの前奏`,
+                    description: `必殺時「自分の攻撃力を80%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `腐盾の猛毒`,
+                    description: `必殺時「ターゲットが受ける通常攻撃ダメージを60%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `紅円の毒素`,
+                    description: `必殺時「ターゲットが水属性から受けるダメージを30%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10075: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `逆転劇開演だぴょん～`,
+                    description: `自分の攻撃力を30/35/40/45/50%増加させ(1ターン)、味方全体の攻撃力を自分の攻撃力の30/30/35/35/40%分増加させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `逆転劇開演だぴょん～`,
+                    description: `自分の攻撃力を30%増加させ(1ターン)、味方全体の攻撃力を自分の攻撃力の30%分増加させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `逆転劇開演だぴょん～`,
+                    description: `自分の攻撃力を35%増加させ(1ターン)、味方全体の攻撃力を自分の攻撃力の30%分増加させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `逆転劇開演だぴょん～`,
+                    description: `自分の攻撃力を40%増加させ(1ターン)、味方全体の攻撃力を自分の攻撃力の35%分増加させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `逆転劇開演だぴょん～`,
+                    description: `自分の攻撃力を45%増加させ(1ターン)、味方全体の攻撃力を自分の攻撃力の35%分増加させる(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `逆転劇開演だぴょん～`,
+                    description: `自分の攻撃力を50%増加させ(1ターン)、味方全体の攻撃力を自分の攻撃力の40%分増加させる(1ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `うさぎの応援～ぴょん♡`,
+                    description: `味方全体の攻撃力を自分の攻撃力の30%分増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `千鶴うさぎの番だぴょん～`,
+                    description: `味方全体が「メンバーに3名以上のアタッカーがいるとき『《子うさぎ一致団結》』を発動する」を得る\n自分が「メンバーに3名以上のアタッカーがいるとき『《みんなでぴょんぴょん》』を発動する」を得る\n1ターン毎に「《ぴょんぴょんジャンプ》」を誘発する\n\n《子うさぎ一致団結》\n必殺技ダメージを50%増加させる\n最大HPを30%増加させる\n\n《みんなでぴょんぴょん》\n必殺技攻撃時「味方のアタッカーの現在の必殺技CDを1ターン減少させる」を誘発する\n\n《ぴょんぴょんジャンプ》\n通常攻撃時『不思議の国 千鶴の攻撃力を15%増加させる(5ターン)』を誘発する(1ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `急がなくっちゃ～急がなくっちゃ～`,
+                    description: `1ターン毎に「味方全体の攻撃力を2.5%増加させる(最高8スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `手作りうさぎクッキー`,
+                    description: `1ターン目に「味方全体が治療を受けた時、回復HP量を30%増加させる(50ターン)」を誘発する\n1ターン毎に「自分の攻撃力の20%分味方全体に治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `うさぎの足`,
+                    description: `通常攻撃時「味方全体の通常攻撃ダメージを40%増加させる(1ターン)」を誘発する\n必殺技攻撃時「味方全体の必殺技ダメージを15%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

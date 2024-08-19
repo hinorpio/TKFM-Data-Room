@@ -177,56 +177,56 @@ export const SkillSet_10032: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `輝くビーチだにゃ～`,
+                    description: `自分の攻撃力を15%増加させ(2ターン) [Lv5]、ターゲットに効果「受ける必殺ダメージを35%増加させる(1ターン)」を発動し、475/550/625/700/775%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `輝くビーチだにゃ～`,
+                    description: `ターゲットに効果「受ける必殺技ダメージを35%増加させる(1ターン)」を与え、475%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `輝くビーチだにゃ～`,
+                    description: `ターゲットに効果「受ける必殺技ダメージを35%増加させる(1ターン)」を与え、550%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `輝くビーチだにゃ～`,
+                    description: `ターゲットに効果「受ける必殺技ダメージを35%増加させる(1ターン)」を与え、625%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `輝くビーチだにゃ～`,
+                    description: `ターゲットに効果「受ける必殺技ダメージを35%増加させる(1ターン)」を与え、700%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `輝くビーチだにゃ～`,
+                    description: `自分の攻撃力を15%増加させ(2ターン)、ターゲットに効果「受ける必殺ダメージを35%増加させる(1ターン)」を発動し、775%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `UVカット肉球攻撃`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `猫秘術奥義・すにゃ嵐`,
+                    description: `1ターン目に、味方全体が効果「攻撃時、65%の攻撃力でターゲットにダメージを与える(50ターン)」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `日焼けに気をつけるにゃ`,
+                    description: `攻撃時、効果「ターゲットが治療を受けるとき、回復HP量を50%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `油断してないよ`,
+                    description: `必殺時、効果「自分の攻撃力を30%増加させる(最高1スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `高速変形`,
+                    description: `攻撃時、効果「味方全体の必殺技ダメージを5%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺技ダメージ+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

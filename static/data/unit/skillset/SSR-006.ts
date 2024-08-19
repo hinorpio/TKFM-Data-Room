@@ -177,56 +177,56 @@ export const SkillSet_10006: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `攻撃力の200%分味方全体に治療を行い、効果「毎ターン69/73/76/80/80%の攻撃力で治療する(5ターン)」を得る[CD:5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `攻撃力の200%分味方全体に治療を行い、効果「毎ターン69%の攻撃力で治療する(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `攻撃力の200%分味方全体に治療を行い、効果「毎ターン73%の攻撃力で治療する(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `攻撃力の200%分味方全体に治療を行い、効果「毎ターン76%の攻撃力で治療する(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `攻撃力の200%分味方全体に治療を行い、効果「毎ターン80%の攻撃力で治療する(5ターン)」を得る[CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `攻撃力の200%分味方全体に治療を行い、効果「毎ターン80%の攻撃力で治療する(5ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `激励`,
+                    description: `攻撃力の50%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `掻き立てられた支配欲`,
+                    description: `味方全体の必殺技ダメージを25%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `追加治療`,
+                    description: `通常攻撃時、効果「HPが一番低い仲間に攻撃力の25%分治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `全力応援`,
+                    description: `攻撃時、効果「味方全体の攻撃力を自分の攻撃力の20%分増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `みんなに努力の成果を見せてやる！`,
+                    description: `必殺時、効果「味方全体の必殺技ダメージを25%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `防御ダメージ減少+`,
+                    description: `自分の防御時のダメージ軽減効果を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

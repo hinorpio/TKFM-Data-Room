@@ -177,56 +177,56 @@ export const SkillSet_10100: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫だよ！`,
+                    description: `自分の33/37.6%の攻撃力でターゲットに10回ダメージを与え、自分の与えるダメージを10/12.5%増加させる(4ターン)[CD:4]\n\nLv3+: 自分の与えるダメージを15/17.5/20%増加させ(4ターン)、自分の42.2/46.8/51.4%の攻撃力でターゲットに10回ダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫だよ！`,
+                    description: `自分の33%の攻撃力でターゲットに10回ダメージを与え、自分の与えるダメージを10%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫だよ！`,
+                    description: `自分の37.6%の攻撃力でターゲットに10回ダメージを与え、自分の与えるダメージを12.5%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫だよ！`,
+                    description: `自分の与えるダメージを15%増加させ(4ターン)、自分の42.2%の攻撃力でターゲットに10回ダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫だよ！`,
+                    description: `自分の与えるダメージを17.5%増加させ(4ターン)、自分の46.8%の攻撃力でターゲットに10回ダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫だよ！`,
+                    description: `自分の与えるダメージを20%増加させ(4ターン)、自分の51.4%の攻撃力でターゲットに10回ダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `兎姫剛掌波`,
+                    description: `自分の125%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `結界・悪兎王国！`,
+                    description: `味方全体の攻撃力を30%増加させる\n必殺時、効果「自分の攻撃力を50%増加させる(最高4スタック)」を誘発する\n1ターン目に、効果「味方全員の現在の必殺技のCDを2ターン減少させる」\n味方のアタッカー、ガーディアン、デバッファーが《無駄無駄無駄！》を得る\n\n《無駄無駄無駄！》\n通常攻撃時、スキル「自分の20%の攻撃力でターゲットに3回ダメージを与える」を追加する\n通常攻撃ダメージを60%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `無限おっぱい！`,
+                    description: `通常攻撃時「自分の10%の攻撃力でターゲットに6回ダメージを与える」を追加する\n通常攻撃時「味方全体の通常攻撃ダメージを15%増加させる(最高3スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `だが断る！`,
+                    description: `通常攻撃時「ターゲットが治療を受けるとき、回復効果を50%減少させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `いけ！悪兎三獣士！`,
+                    description: `1ターン毎に「敵全体が受ける通常攻撃ダメージを20%増加させる(最高5スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力増加`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

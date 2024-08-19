@@ -177,56 +177,56 @@ export const SkillSet_10001: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の精神攻撃`,
+                    description: `自分の攻撃力を25/25/25/35/35%増加させ(3ターン)、330/376/422/422/422%の攻撃力でターゲットにダメージを与える[CD:4] [Lv5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の精神攻撃`,
+                    description: `自分の攻撃力を25%増加させ(3ターン)、330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の精神攻撃`,
+                    description: `自分の攻撃力を25%増加させ(3ターン)、376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の精神攻撃`,
+                    description: `自分の攻撃力を25%増加させ(3ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の精神攻撃`,
+                    description: `自分の攻撃力を35%増加させ(3ターン)、422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `炎の精神攻撃`,
+                    description: `自分の攻撃力を35%増加させ(3ターン)、422%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `マジックボール`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王バルの悪知恵`,
+                    description: `バルの攻撃力を125%増加させる。ただし自分以外のメンバーの攻撃力が10%減少する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `魔王の肉体`,
+                    description: `自分の通常攻撃ダメージを25%増加させる`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `捉えどころの無い性格`,
+                    description: `攻撃を受けた際、効果「自分の攻撃力を15%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `バルのイタズラ`,
+                    description: `必殺時、効果「自分の必殺技CDを1ターン減少させ、ターゲットの必殺技CDを2ターン増加させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

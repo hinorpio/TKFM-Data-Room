@@ -177,56 +177,56 @@ export const SkillSet_10005: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、569/663/756/850/944%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを60/70/80/90/100%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、569%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを60%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、663%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを70%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、756%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを80%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、850%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを90%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、944%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを100%増加させる(3ターン)[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ジャンプ斬り`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `小人王の気迫`,
+                    description: `味方全体の攻撃力を20%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `エネルギーチャージ`,
+                    description: `通常攻撃時、効果「自分の攻撃力を2.5%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `精神統一`,
+                    description: `1ターン毎に、効果「自分の攻撃力を5%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `破龍の幻光`,
+                    description: `自分の必殺技ダメージを50%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {
@@ -460,56 +460,56 @@ export const SkillSet_10005: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、569/663/756/850/944%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、569%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、663%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、756%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、850%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `蒼天断裂破`,
+                    description: `ターゲットの防御状態を解除し、944%の攻撃力でターゲットにダメージを与える[CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ジャンプ斬り`,
+                    description: `100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `小人王の気迫`,
+                    description: `味方全体の攻撃力を20%増加させる`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `エネルギーチャージ`,
+                    description: `通常攻撃時、効果「自分の攻撃力を2.5%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `精神統一`,
+                    description: `1ターン毎に、効果「自分の攻撃力を5%増加させる(最高6スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `破龍の幻光`,
+                    description: `6ターン毎に、効果「自分の攻撃力を50%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分の受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

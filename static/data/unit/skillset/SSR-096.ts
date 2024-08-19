@@ -177,56 +177,56 @@ export const SkillSet_10132: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `闇夜の帳`,
+                    description: `味方全体の与える必殺技ダメージを20/30/40/50/60%増加させ(3ターン)、自分の盾効果を10/15/20/25/30%増加させ(3ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `闇夜の帳`,
+                    description: `味方全体の与える必殺技ダメージを20%増加させ(3ターン)、自分の盾効果を10%増加させ(3ターン)、自分の265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `闇夜の帳`,
+                    description: `味方全体の与える必殺技ダメージを30%増加させ(3ターン)、自分の盾効果を15%増加させ(3ターン)、自分の298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `闇夜の帳`,
+                    description: `味方全体の与える必殺技ダメージを40%増加させ(3ターン)、自分の盾効果を20%増加させ(3ターン)、自分の331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `闇夜の帳`,
+                    description: `味方全体の与える必殺技ダメージを50%増加させ(3ターン)、自分の盾効果を25%増加させ(3ターン)、自分の364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `闇夜の帳`,
+                    description: `味方全体の与える必殺技ダメージを60%増加させ(3ターン)、自分の盾効果を30%増加させ(3ターン)、自分の397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `夜雨破り`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `幽闇の女傑`,
+                    description: `味方全体の最大HPが20%増加する\n味方全体の攻撃力が80%増加する\nチーム内に3人以上の水属性キャラがいる時、自分が《闇夜の妖艶》を得る\nチーム内に2人以上の闇属性キャラがいる時、味方の3、5番目のキャラが《傭兵の掟》を得る\n\n《闇夜の妖艶》\n自分の攻撃力を60%増加させる\n必殺技攻撃時「ターゲットが受ける闇属性ダメージを5%増加させ(最高3スタック)、ターゲットが受ける水属性ダメージを5%増加させる(最高3スタック)」を誘発する\n攻撃時「味方全体の攻撃力を自分の攻撃力の40%分増加させる(1ターン)」を誘発する\n\n《傭兵の掟》\n与えるダメージが30%増加する\n必殺技攻撃時「自分の40%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `幽闇の令閨`,
+                    description: `必殺技攻撃時「ターゲットが受けるダメージを15%増加させる(7ターン)」を追加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `長雨の雫`,
+                    description: `必殺技攻撃時「自分の最大HPの7%分、味方全体に盾を張る(1ターン)」を追加する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `明けない夜`,
+                    description: `必殺技攻撃時「ターゲットの受ける必殺技ダメージを20%増加させる(7ターン)」を追加する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

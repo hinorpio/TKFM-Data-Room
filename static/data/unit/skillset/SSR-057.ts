@@ -177,56 +177,56 @@ export const SkillSet_10063: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・真メイド分身術`,
+                    description: `味方全体の攻撃力を自分の攻撃力の15/20/30/30/30%分増加させ(1ターン)、味方の5番目のメンバーの攻撃力を20/25/30/45/60%増加させ(1ターン)、攻撃力の100%分味方全体に治療を行い、味方の5番目のメンバーの必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・真メイド分身術`,
+                    description: `味方全体の攻撃力を自分の攻撃力の15%分増加させ(1ターン)、味方の5番目のメンバーの攻撃力を20%増加させ(1ターン)、攻撃力の100%分味方全体に治療を行い、味方の5番目のメンバーの必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・真メイド分身術`,
+                    description: `味方全体の攻撃力を自分の攻撃力の20%分増加させ(1ターン)、味方の5番目のメンバーの攻撃力を25%増加させ(1ターン)、攻撃力の100%分味方全体に治療を行い、味方の5番目のメンバーの必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・真メイド分身術`,
+                    description: `味方全体の攻撃力を自分の攻撃力の30%分増加させ(1ターン)、味方の5番目のメンバーの攻撃力を30%増加させ(1ターン)、攻撃力の100%分味方全体に治療を行い、味方の5番目のメンバーの必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・真メイド分身術`,
+                    description: `味方全体の攻撃力を自分の攻撃力の30%分増加させ(1ターン)、味方の5番目のメンバーの攻撃力を45%増加させ(1ターン)、攻撃力の100%分味方全体に治療を行い、味方の5番目のメンバーの必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・真メイド分身術`,
+                    description: `味方全体の攻撃力を自分の攻撃力の30%分増加させ(1ターン)、味方の5番目のメンバーの攻撃力を60%増加させ(1ターン)、攻撃力の100%分味方全体に治療を行い、味方の5番目のメンバーの必殺技CDを4ターン減少させる[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `スパルタ指導`,
+                    description: `味方全体の攻撃力を自分の攻撃力の30%分増加させる(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `完璧なメイド長`,
+                    description: `自分の攻撃力を100%増加させる\n1ターン毎に、効果「味方全体の攻撃力を自分の攻撃力の30%分増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・高速料理術`,
+                    description: `通常攻撃時、効果「自分の攻撃力を10%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・瞬間着替え術`,
+                    description: `必殺技攻撃時、効果「味方の5番目のメンバーの攻撃力を40%増加させる(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `メイド奥義・汚れ落とし術`,
+                    description: `必殺技攻撃時、効果「味方全体の与えるダメージを30%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分が受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

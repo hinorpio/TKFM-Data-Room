@@ -177,56 +177,56 @@ export const SkillSet_10113: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `暴力注射`,
+                    description: `自分の445/514/583/652/721%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `暴力注射`,
+                    description: `自分の445%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `暴力注射`,
+                    description: `自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `暴力注射`,
+                    description: `自分の583%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `暴力注射`,
+                    description: `自分の652%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `暴力注射`,
+                    description: `自分の721%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `血液検査`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `疑う余地の無いプロの治療！`,
+                    description: `味方にサポーターが(1/2)人いる時、1人の場合「必殺技ダメージを35%増加させ」を発動し、2人の場合再度同じ効果を発動する\n味方にヒーラーが(1/2)人いる時、1人の場合「必殺技ダメージを35%増加させ」を発動し、2人の場合再度同じ効果を発動する\n味方全体が「味方に闇属性キャラクターが3人いる時『《暗黒療法》』を発動する」を得る\n自分が必殺技攻撃をした時「《対症療法》」を誘発する\n\n《暗黒療法》\n最大HPが20%増加する\n攻撃力が50%増加する\n必殺技攻撃時「ターゲットが受けるダメージを8%増加させる(最高5スタック)」を誘発する\n必殺技攻撃時「ターゲットが受ける闇属性ダメージを8%増加させる(最高5スタック)」を誘発する\n\n《対症療法》\nターゲットが「攻撃された時『敵全体の治療時の回復HP量を5%増加させる(最高6スタック)』を誘発する(4ターン)」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `百発百中(?)`,
+                    description: `味方にアタッカーが(1/2)人いる時、1人の場合「必殺技攻撃時『自分の100%の攻撃力でターゲットにダメージを与える』を追加する」を発動し、2人の場合再度同じ効果を発動する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `カオス療法`,
+                    description: `味方に闇属性キャラクターが(2/3)人いる時、2人の場合「攻撃力が50%増加する」を発動し、3人の場合再度同じ効果を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `薬剤増量`,
+                    description: `味方にサポーターが(1/2)人いる時、1人の場合「与えるダメージが15%増加する」を発動し、2人の場合再度同じ効果を発動する\n味方にヒーラーが(1/2)人いる時、1人の場合「与えるダメージが15%増加する」を発動し、2人の場合再度同じ効果を発動する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

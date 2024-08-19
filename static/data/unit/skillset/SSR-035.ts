@@ -177,56 +177,56 @@ export const SkillSet_10067: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `秘剣・錦画神燃`,
+                    description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、ターゲットの受ける誘発スキルダメージを30/40/50/50/50%増加させる(最高2スタック) 。《明鏡止水》が与えた誘発スキルダメージ増加効果を[0/0/0/1/2]スタック増加させる[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `秘剣・錦画神燃`,
+                    description: `330%の攻撃力でターゲットにダメージを与え、ターゲットの受ける誘発スキルダメージを30%増加させる(最高2スタック) [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `秘剣・錦画神燃`,
+                    description: `376%の攻撃力でターゲットにダメージを与え、ターゲットの受ける誘発スキルダメージを40%増加させる(最高2スタック) [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `秘剣・錦画神燃`,
+                    description: `422%の攻撃力でターゲットにダメージを与え、ターゲットの受ける誘発スキルダメージを50%増加させる(最高2スタック) [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `秘剣・錦画神燃`,
+                    description: `468%の攻撃力でターゲットにダメージを与え、ターゲットの受ける誘発スキルダメージを50%増加させる(最高2スタック) 。《明鏡止水》が与えた誘発スキルダメージ増加効果を1スタック増加させる[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `秘剣・錦画神燃`,
+                    description: `514%の攻撃力でターゲットにダメージを与え、ターゲットの受ける誘発スキルダメージを50%増加させる(最高2スタック) 。《明鏡止水》が与えた誘発スキルダメージ増加効果を2スタック増加させる[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `正月の反省`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `刀返しの極意`,
+                    description: `毎Waveの1ターン目開始時、効果「敵全体が受ける誘発スキルダメージを100%増加させる(50ターン)」を誘発する\n味方全体の最大HPを15%、攻撃力を50%増加させる。\n1ターン目開始時、効果「自分以外の味方のアタッカー/ガーディアン/デバッファーが《神無二刀流・承継》を得る」を誘発する\n\n《神無二刀流・承継》\n通常攻撃時、効果「45%の攻撃力でターゲットに追撃を行う」を誘発する(50ターン)\n必殺技攻撃時、効果「135%の攻撃力でターゲットに追撃を行う」を誘発する(50ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `神無二刀流・羽子板`,
+                    description: `通常攻撃時、効果「60%の攻撃力でターゲットに追撃を行う」を誘発する\n必殺技攻撃時、効果「180%の攻撃力でターゲットに追撃を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `明鏡止水`,
+                    description: `ターン毎に、効果「自分の誘発スキル効果を10%増加させる(最大10スタック)」を誘発する\n必殺技攻撃時、効果「自分の《明鏡止水》が与えた誘発スキルダメージ増加効果を2スタック減少させる」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `精神統一`,
+                    description: `自分の誘発スキルダメージを50%増加させる\n攻撃時、効果「ターゲットの受ける誘発スキルダメージを12.5%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `誘発+`,
+                    description: `自分の誘発スキル効果を30%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
