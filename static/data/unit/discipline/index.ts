@@ -301,7 +301,7 @@ const SSR: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.s_satan]: Discipline_10145,
     [UnitCode.d_minayomi]: Discipline_10146,
     [UnitCode.oniyoiki]: Discipline_10147,
-    [UnitCode.d_shizuka]: Discipline_10148,
+    [UnitCode.beer_shizuka]: Discipline_10148,
     [UnitCode.tsubaki]: Discipline_10149,
 }
 

@@ -17,7 +17,7 @@ const events: Event[][] = [
                 [Locale.kr]: `【요호와 그녀의 생식지】`
             },
             image: EventBanner.EVENT_0144,
-            newUnit: [ UnitCode.d_shizuka, UnitCode.tsubaki ]
+            newUnit: [ UnitCode.beer_shizuka, UnitCode.tsubaki ]
         },
         {
             code: '0145',
