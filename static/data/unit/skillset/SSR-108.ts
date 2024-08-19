@@ -473,7 +473,7 @@ export const SkillSet_10138: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.BASE_STAT]: {
                     name: `ステータス最大値`,
-                    description: `HP：3,375,317\nATK：767,182\n基礎ATKとHPの値を増加`
+                    description: `HP最大値：3,375,317\nATK最大値：767,182\n基礎ATKとHPの値を増加`
                 },
                 [SkillType.SKILL_S]: {
                     name: `魔王城party time`,

@@ -111,7 +111,36 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                             description: `Increase your Basic Attack Damage by 25%.\nIncrease your Ultimate Skill Damage by 15%.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `炎の精神攻撃`,
+                            description: `自分の攻撃力を25/25/25/35/35%増加させ(3ターン)、与えるダメージを5/5/10/10/10%増加させ(3ターン)、393/448/503/503/503%の攻撃力でターゲットにダメージを与える[CD:4] [Lv5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `炎の精神攻撃`,
+                            description: `自分の攻撃力を25%増加させ(3ターン)、与えるダメージを5%増加させ(3ターン)、393%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `炎の精神攻撃`,
+                            description: `自分の攻撃力を25%増加させ(3ターン)、与えるダメージを5%増加させ(3ターン)、448%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `炎の精神攻撃`,
+                            description: `自分の攻撃力を25%増加させ(3ターン)、与えるダメージを10%増加させ(3ターン)、503%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `炎の精神攻撃`,
+                            description: `自分の攻撃力を35%増加させ(3ターン)、与えるダメージを10%増加させ(3ターン)、503%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `炎の精神攻撃`,
+                            description: `自分の攻撃力を35%増加させ(3ターン)、与えるダメージを10%増加させ(3ターン)、503%の攻撃力でターゲットにダメージを与える[CD:3]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `魔王の肉体`,
+                            description: `自分の通常攻撃ダメージを25%増加させる\n自分の必殺技ダメージを15%増加させる`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -141,8 +170,18 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,440,520\nAMax ATK：910,400`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,440,520\nATK最大値：910,400`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,440,520\nAMax ATK：910,400`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +234,20 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                             description: `On your first turn, reduce your current Ultimate Skill CD by 1 turn.\nOn Ultimate Skill, increase your current Ultimate Skill CD by 1 turn, and increase the target's current Ultimate Skill CD by 2 turns.\nOn Ultimate Skill, increase the target's Damage Taken from Fire attack by 10% (Max 2 Stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `魔王バルの悪知恵`,
+                            description: `味方全体の最大HPを20％増加させる\n味方全体の攻撃力を40％増加させる\n味方全体の与えるダメージを20％増加させる\n自分の攻撃力を125%増加させる\n自分の必殺攻撃ダメージを25%増加させる`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `捉えどころの無い性格`,
+                            description: `必殺技攻撃時「自分の攻撃力を15%増加させる(最高2スタック)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `バルのイタズラ`,
+                            description: `1ターン目開始時「自分の現在の必殺技CDを1ターン減少させる」を誘発する\n必殺技攻撃時「自分の現在の必殺技CDを1ターン減少させ、ターゲットの必殺技CDを2ターン増加させる」を誘発する\n必殺技攻撃時「ターゲットが火属性から受けるダメージを10%増加させる(最高2スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

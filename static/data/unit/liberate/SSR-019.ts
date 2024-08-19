@@ -123,7 +123,40 @@ export const LiberateSkillSet_10007: LiberateSkillSet[] = [
                             description: `On the first turn, trigger "Archangel's Blessing - Holy Punishment".\nOn the first turn, trigger "Archangel's Blessing - Judgment".\nOn the first turn, trigger "Archangel's Blessing - Conviction".\n\n"Archangel's Blessing - Holy Punishment"\nWhen all Light allies perform an action, trigger the following effect: "increase the party's Attack Power by 10% for 50 turns" for 1 turn.\n\n"Archangel's Blessing - Judgment".\nWhen all Fire and Wind allies perform an action, trigger the following effect: "increase the party's Basic Attack Power by 20% for 50 turns" for 1 turn.\n\n"Archangel's Blessing - Conviction".\nWhen all Water and Dark allies perform an action, trigger the following effect: "increase the party's Ultimate Skill Power by 10% for 50 turns" for 1 turn.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `大天使の怒り`,
+                            description: `330/376/422/468/514%の攻撃力でターゲットにダメージを与え、毎ターン399/458/518/578/638%の攻撃力でターゲットにダメージを与える(1ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `大天使の怒り`,
+                            description: `330%の攻撃力でターゲットにダメージを与え、毎ターン399%の攻撃力でターゲットにダメージを与える(1ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `大天使の怒り`,
+                            description: `376%の攻撃力でターゲットにダメージを与え、毎ターン458%の攻撃力でターゲットにダメージを与える(1ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `大天使の怒り`,
+                            description: `422%の攻撃力でターゲットにダメージを与え、毎ターン518%の攻撃力でターゲットにダメージを与える(1ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `大天使の怒り`,
+                            description: `468%の攻撃力でターゲットにダメージを与え、毎ターン578%の攻撃力でターゲットにダメージを与える(1ターン)[CD:4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `大天使の怒り`,
+                            description: `514%の攻撃力でターゲットにダメージを与え、毎ターン638%の攻撃力でターゲットにダメージを与える(1ターン)[CD:4]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `光の懲戒`,
+                            description: `通常攻撃時「毎ターン自分の130%の攻撃力でターゲットにダメージを与える(1ターン)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `天使の祝福`,
+                            description: `1ターン目に「《天使の祝福 - 聖罰》」を誘発する\n1ターン目に「《天使の祝福 - 審判》」を誘発する\n1ターン目に「《天使の祝福 - 断罪》」を誘発する\n\n《天使の祝福 - 聖罰》\n味方の光属性キャラクター全体が行動した時「味方全体の攻撃力を10%増加させる(50ターン)」を誘発する(1ターン)\n\n《天使の祝福 - 審判》\n味方の火・風属性キャラクター全体が行動した時「味方全体の通常攻撃ダメージを20%増加させる(50ターン)」を誘発する(1ターン)\n\n《天使的祝福 - 断罪》\n味方の水・闇属性キャラクター全体が行動した時「味方全体の必殺技ダメージを10%増加させる(50ターン)」を誘発する(1ターン)`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -153,8 +186,18 @@ export const LiberateSkillSet_10007: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,359,772\nMax ATK：930,983`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,359,772\nATK最大値：930,983`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,359,772\nAMax ATK：930,983`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +238,16 @@ export const LiberateSkillSet_10007: LiberateSkillSet[] = [
                             description: `On Attack, increase your Attack Power by 50% for 4 turns.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `天使長の祝福`,
+                            description: `1ターン目に「《天使長の祝福 - 聖罰》」を誘発する\n1ターン目に「《天使長の祝福 - 審判》」を誘発する\n1ターン目に「《天使長の祝福 - 断罪》」を誘発する\n\n《天使長の祝福 - 聖罰》\n味方の光属性キャラクター全体が行動した時「味方全体の攻撃力を30%増加させる(50ターン)」を誘発する(1ターン)\n\n《天使長の祝福 - 審判》\n味方の火・風属性キャラクター全体が行動した時「味方全体の通常攻撃ダメージを60%増加させる(50ターン)」を誘発する(1ターン)\n\n《天使長的祝福 - 断罪》\n味方の水・闇属性キャラクター全体が行動した時「味方全体の必殺技ダメージを30%増加させる(50ターン)」を誘発する(1ターン)`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `天罰の力`,
+                            description: `攻撃時「自分の攻撃力を50%増加させる(4ターン)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

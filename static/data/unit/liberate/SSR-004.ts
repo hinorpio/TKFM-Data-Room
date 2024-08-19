@@ -111,7 +111,36 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                             description: `On Attack, increase the party's Damage Output by 20% for 1 turn.\nOn Attack, increase the party's Basic Attack Power by 30% for 1 turn.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `導きの矢`,
+                            description: `475/550/625/625/625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15/15/15/20/25%増加させる(最高2スタック)[CD:6]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `導きの矢`,
+                            description: `475%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15%増加させる(最高2スタック)[CD:6]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `導きの矢`,
+                            description: `550%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15%増加させる(最高2スタック)[CD:6]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `導きの矢`,
+                            description: `625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を15%増加させる(最高2スタック)[CD:6]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `導きの矢`,
+                            description: `625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を20%増加させる(最高2スタック)[CD:6]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `導きの矢`,
+                            description: `625%の攻撃力でターゲットにダメージを与え、味方全体の攻撃力を25%増加させる(最高2スタック)[CD:6]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `案内人`,
+                            description: `攻撃時「味方全体の与えるダメージを20%増加させる(1ターン)」を誘発する\n攻撃時「味方全体の通常攻撃ダメージを30%増加させる(1ターン)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -141,8 +170,18 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,597,268\nMax ATK：870,818`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,597,268\nATK最大値：870,818`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,597,268\nAMax ATK：870,818`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +234,20 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                             description: `Increase the party's Attack Power by 25%.\nOn the first turn, reduce your Ultimate Skill CD by 6.`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `精霊の領域`,
+                            description: `味方全体の最大HPを20％増加させる\n味方全体の攻撃力を50％増加させる\n味方全体の与える通常攻撃ダメージを50％増加させる\n自分の攻撃力を50%増加させる`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `破天撃`,
+                            description: `必殺技攻撃時「敵全体の受けるダメージを12.5%増加させ(最高2スタック)、敵全体の防禦状態を解除する」を追加する\n必殺技攻撃時「ターゲットが受ける通常攻撃ダメージを35%増加させる(最高2スタック)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `吹き立つ勝利の風`,
+                            description: `味方全体の攻撃力が25％増加する\n1ターン目に「自分の必殺技のCDを6ターン減少させる」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

@@ -63,7 +63,20 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                             description: `While in Guard Stance, grant yourself a Shield for 50% of your max HP for 3 turns.\nWhile in Guard Stance, reduce 2 stacks of the Damage Output buff provided by "ML Battle System".`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.LEADER]: {
+                            name: `最終兵器少女モード`,
+                            description: `味方全体の攻撃力が70%増加する\n自分が《最終兵器・解放》を得る\n\n《最終兵器・解放》\n1ターン目に「自分の現在の必殺技CDを4ターン減少、必殺技の最大CDを3ターン減少(6ターン)させ、攻撃力を450%増加(6ターン)、通常攻撃ダメージを100%増加(6ターン)、必殺技ダメージを100%増加させる(6ターン)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `機械学習バトルモード`,
+                            description: `攻撃時「自分が与えるダメージを10%増加させる(最高5スタック)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `防御モード・切換`,
+                            description: `防御時「自分の最大HPの50%分、自分に盾を張る(3ターン)」を誘発する\n防御時「《機械学習バトルモード》が与えるダメージが増加する効果を2スタック減少させる」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -93,8 +106,18 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,353,438\nMax ATK：934,149`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,353,438\nATK最大値：934,149`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,353,438\nAMax ATK：934,149`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +218,36 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                             description: `On Attack, damage the target 4 times (25% Attack Power).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `全域殲滅モード・起動`,
+                            description: `自分の攻撃力を125/130/135/140/150％増加させ(最高2スタック)、60/70/80/90/100%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `全域殲滅モード・起動`,
+                            description: `自分の攻撃力を125％増加させ(最高2スタック)、60%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `全域殲滅モード・起動`,
+                            description: `自分の攻撃力を130％増加させ(最高2スタック)、70%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `全域殲滅モード・起動`,
+                            description: `自分の攻撃力を135％増加させ(最高2スタック)、80%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `全域殲滅モード・起動`,
+                            description: `自分の攻撃力を140％増加させ(最高2スタック)、90%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `全域殲滅モード・起動`,
+                            description: `自分の攻撃力を150％増加させ(最高2スタック)、100%の攻撃力でターゲットにダメージを与える[CD:4]`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `マインドセンサー機関砲・起動`,
+                            description: `攻撃時「25%の攻撃力でターゲットに4回攻撃する」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

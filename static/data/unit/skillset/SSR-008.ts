@@ -473,7 +473,7 @@ export const SkillSet_10025: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.BASE_STAT]: {
                     name: `ステータス最大値`,
-                    description: `HP：2,878,735\nATK：899,604\n「魔王 イブリース」のデータが誤って埋め込まれてしまった`
+                    description: `HP最大値：2,878,735\nATK最大値：899,604\n「魔王 イブリース」のデータが誤って埋め込まれてしまった`
                 },
                 [SkillType.SKILL_S]: {
                     name: `月夜の流行歌`,

@@ -51,7 +51,16 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                             description: `When performing an action, increase your Damage Output by 5% (max 4 stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.PASSIVE_1]: {
+                            name: `エネルギーチャージ`,
+                            description: `通常攻撃時、効果「自分の攻撃力を2.5％増加させる(最高6スタック)」を誘発する`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `精神統一`,
+                            description: `1ターン毎に、効果「自分の攻撃力を5％増加させる(最高6スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             },
@@ -81,8 +90,18 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                             description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,723,932\nMax ATK：840,735`
                         },
                     },
-                    [Locale.jp]: {},
-                    [Locale.kr]: {}
+                    [Locale.jp]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `ステータス最大値`,
+                            description: `HPとATKは永久に10%向上します\n\nHP最大値：3,723,932\nATK最大値：840,735`
+                        },
+                    },
+                    [Locale.kr]: {
+                        [SkillType.BASE_STAT]: {
+                            name: `스탯 최대치`,
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,723,932\nAMax ATK：840,735`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_3]:{
@@ -195,7 +214,40 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                             description: `Increase your Ultimate Skill damage by 50%.\nWhen performing an action, increase the target's Damage Taken from Water attacks by 6% (max 4 stacks).`
                         },
                     },
-                    [Locale.jp]: {},
+                    [Locale.jp]: {
+                        [SkillType.SKILL_S]: {
+                            name: `蒼天断裂破`,
+                            description: `ターゲットの防御状態を解除し、631/736/840/945/1050%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを60/70/80/90/100%増加させる(3ターン)[CD:6]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `蒼天断裂破`,
+                            description: `ターゲットの防御状態を解除し、631%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを60%増加させる(3ターン)[CD:6]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `蒼天断裂破`,
+                            description: `ターゲットの防御状態を解除し、736%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを70%増加させる(3ターン)[CD:6]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `蒼天断裂破`,
+                            description: `ターゲットの防御状態を解除し、840%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを80%増加させる(3ターン)[CD:6]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `蒼天断裂破`,
+                            description: `ターゲットの防御状態を解除し、945%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを90%増加させる(3ターン)[CD:6]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `蒼天断裂破`,
+                            description: `ターゲットの防御状態を解除し、1050%の攻撃力でターゲットにダメージを与え、自分の通常攻撃ダメージを100%増加させる(3ターン)[CD:6]`
+                        },
+                        [SkillType.LEADER]: {
+                            name: `小人王の気迫`,
+                            description: `味方全体の最大HPを20％増加させる\n自分の攻撃力を125％増加させる\n自分の通常攻撃ダメージを100％増加させる\n自分の与えるダメージを35%増加させる`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `破龍の幻光`,
+                            description: `自分の必殺技ダメージが50%増加する\n行動時「ターゲットが水属性から受けるダメージを6%増加させる(最高4スタック)」を誘発する`
+                        },
+                    },
                     [Locale.kr]: {}
                 }
             }

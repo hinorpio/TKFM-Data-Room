@@ -217,7 +217,7 @@ export const SkillSet_10006: SkillSet[] =  [
                     description: `攻撃時、効果「味方全体の攻撃力を自分の攻撃力の20%分増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `みんなに努力の成果を`,
+                    name: `みんなに努力の成果を見せてやる！`,
                     description: `必殺時、効果「味方全体の必殺技ダメージを25%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {

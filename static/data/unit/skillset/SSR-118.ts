@@ -124,7 +124,7 @@ export const SkillSet_10148: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Shizuka's Funtime~`,
-                    description: `Increase the target's Damage Taken from Water attacks by 10% (max 2 stacks). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (110% Attack Power) and damage the target (100% Attack Power). CD: 4`
+                    description: `Increase the target's Damage Taken from Water attacks by 10/12.5/15/17.5/20% (max 2 stacks). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 4 turns (110/125/140/155/170% Attack Power) and damage the target (100/125/150/175/200% Attack Power). CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Shizuka's Funtime~`,
@@ -177,56 +177,56 @@ export const SkillSet_10148: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `思いっきり遊ぶよ～`,
+                    description: `ターゲットが水属性から受けるダメージを10/12.5/15/17.5/20%増加させ(最高2スタック)、自分が「通常攻撃時『自分の110/125/140/155/170%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分の100/125/150/175/200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `思いっきり遊ぶよ～`,
+                    description: `ターゲットが水属性から受けるダメージを10%増加させ(最高2スタック)、自分が「通常攻撃時『自分の110%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分の100%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `思いっきり遊ぶよ～`,
+                    description: `ターゲットが水属性から受けるダメージを12.5%増加させ(最高2スタック)、自分が「通常攻撃時『自分の125%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分の125%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `思いっきり遊ぶよ～`,
+                    description: `ターゲットが水属性から受けるダメージを15%増加させ(最高2スタック)、自分が「通常攻撃時『自分の140%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分の150%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `思いっきり遊ぶよ～`,
+                    description: `ターゲットが水属性から受けるダメージを17.5%増加させ(最高2スタック)、自分が「通常攻撃時『自分の155%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分の175%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `思いっきり遊ぶよ～`,
+                    description: `ターゲットが水属性から受けるダメージを20%増加させ(最高2スタック)、自分が「通常攻撃時『自分の170%の攻撃力でターゲットにダメージを与える』を追加する(4ターン)」を獲得し、さらに自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `かんぱ～い！`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `妖狐探検隊しゅっぱーつ！`,
+                    description: `味方全体の最大HPが40%増加する\n味方全体の攻撃力が50%増加する\n味方全体のアタッカーとデバッファーが「味方に2人以上のヒーラーがいる時《もう一杯～》を発動する」を獲得する\n味方全体のヒーラーが「味方に2人以上のヒーラーがいる時《やんちゃな狐娘》を発動する」を獲得する\n\n《もう一杯～》\n通常攻撃時「自分の攻撃力の10%分味方全体に治療を行う」を追加する\n\n《やんちゃな狐娘》\n与えるダメージが30%増加する\n通常攻撃ダメージが60%増加する\n通常攻撃時「自分の100%の攻撃力でターゲットにダメージを与える」を追加する\n攻撃時「《イタズラタイム》」を誘発する\n\n《イタズラタイム》\n味方の1番目のメンバーが「通常攻撃時『自分の25%の攻撃力でターゲットにダメージを与える』を追加する(1ターン)」を獲得する\n味方全体の与えるダメージを5%増加させる(4ターン)\n味方全体の通常攻撃ダメージを6.25%増加させる(4ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `元気で可愛い妖狐`,
+                    description: `治療を受ける時「味方全体のアタッカー、デバッファーの攻撃力を2.5%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `とりあえずビール`,
+                    description: `攻撃時「自分の通常攻撃ダメージを10%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `お祭りへようこそ～`,
+                    description: `1ターン目に「味方全員のヒーラーの現在の必殺技のCDを4ターン減少させる」を誘発する\n味方全体のヒーラーが「攻撃時《お酒をすぐにお持ちします》を誘発する」を獲得する\n\n《お酒をすぐにお持ちします》\n味方全体のアタッカー、デバッファーの与えるダメージを10%増加させる(1ターン)\n味方全体のアタッカー、デバッファーが「通常攻撃時『自分の10%の攻撃力でターゲットにダメージを与える』を追加する(1ターン)」を獲得する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `通常攻撃ダメージ+`,
+                    description: `自分の通常攻撃ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
