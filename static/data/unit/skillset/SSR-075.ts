@@ -177,56 +177,56 @@ export const SkillSet_10069: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `シたいけどダメ！`,
+                    description: `味方のアタッカーとデバッファーの必殺技ダメージを10/15/20/25/30%増加させ(2ターン)、自分以外の味方が「攻撃時『自分の25/35/45/55/65%の攻撃力でターゲットにダメージを与える』を誘発する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `シたいけどダメ！`,
+                    description: `味方のアタッカーとデバッファーの必殺技ダメージを10%増加させ(2ターン)、自分以外の味方が「攻撃時『自分の25%の攻撃力でターゲットにダメージを与える』を誘発する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `シたいけどダメ！`,
+                    description: `味方のアタッカーとデバッファーの必殺技ダメージを15%増加させ(2ターン)、自分以外の味方が「攻撃時『自分の35%の攻撃力でターゲットにダメージを与える』を誘発する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `シたいけどダメ！`,
+                    description: `味方のアタッカーとデバッファーの必殺技ダメージを20%増加させ(2ターン)、自分以外の味方が「攻撃時『自分の45%の攻撃力でターゲットにダメージを与える』を誘発する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `シたいけどダメ！`,
+                    description: `味方のアタッカーとデバッファーの必殺技ダメージを25%増加させ(2ターン)、自分以外の味方が「攻撃時『自分の55%の攻撃力でターゲットにダメージを与える』を誘発する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `シたいけどダメ！`,
+                    description: `味方のアタッカーとデバッファーの必殺技ダメージを30%増加させ(2ターン)、自分以外の味方が「攻撃時『自分の65%の攻撃力でターゲットにダメージを与える』を誘発する(4ターン)」を得る[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ウサギの応援`,
+                    description: `味方全体の攻撃力を50%増加させ(1ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `ウサギ攻撃の術`,
+                    description: `味方全体のHPを20%増加させる\n味方全体の攻撃力を50%増加させる\n味方のアタッカーとデバッファーが《情欲のウサギ脚》を得る\n4ターン毎に「味方が与える必殺技ダメージを35%増加させる(2ターン)」を誘発する\n\n《情欲のウサギ脚》\n攻撃時「自分の攻撃力を20%増加させる(最高5スタック)」を誘発する\n攻撃時「ターゲットが受ける誘発スキルダメージを20%増加させる(最高5スタック)」を誘発する\n必殺技攻撃時「150%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `みんながんばって！`,
+                    description: `必殺技攻撃時「味方全体の攻撃力を50%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `んんんんっ！`,
+                    description: `必殺技攻撃時「自分の最大HPの15%分、自分に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `ロマンチックな愛！`,
+                    description: `味方全体の与えるダメージを20%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

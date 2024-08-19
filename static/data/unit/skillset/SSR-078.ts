@@ -177,56 +177,56 @@ export const SkillSet_10115: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `自動加熱振動モード`,
+                    description: `毎ターン自分の攻撃力の80/85/90/95/100%分味方全体に治療を行い(4ターン)、自分の最大HPの20/24/28/32/36%分味方全体に盾を張り(1ターン)、ターゲットが受けるダメージを0/0/10/15/20%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `自動加熱振動モード`,
+                    description: `毎ターン自分の攻撃力の80%分味方全体に治療を行い(4ターン)、自分の最大HPの20%分味方全体に盾を張り(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `自動加熱振動モード`,
+                    description: `毎ターン自分の攻撃力の85%分味方全体に治療を行い(4ターン)、自分の最大HPの24%分味方全体に盾を張り(1ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `自動加熱振動モード`,
+                    description: `毎ターン自分の攻撃力の90%分味方全体に治療を行い(4ターン)、自分の最大HPの28%分味方全体に盾を張り(1ターン)、ターゲットが受けるダメージを10%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `自動加熱振動モード`,
+                    description: `毎ターン自分の攻撃力の95%分味方全体に治療を行い(4ターン)、自分の最大HPの32%分味方全体に盾を張り(1ターン)、ターゲットが受けるダメージを15%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `自動加熱振動モード`,
+                    description: `毎ターン自分の攻撃力の100%分味方全体に治療を行い(4ターン)、自分の最大HPの36%分味方全体に盾を張り(1ターン)、ターゲットが受けるダメージを20%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `かしこくなーれビーム～！`,
+                    description: `攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `キラキラ☆天才魔法少女`,
+                    description: `毎Waveの1ターン目に、効果「敵全体が受ける風属性ダメージを35%増加させる(最高1スタック)」を誘発する\n自分の与えるダメージを50%増加させる\n攻撃時、効果「自分以外の味方全体が《正義に代わってお仕置きよ☆》を得る」を誘発する\n\n《正義に代わってお仕置きよ☆》\n与えるダメージを20%増加させる(1ターン)\n攻撃時、効果「味方の1番目のメンバーが《魔力集中》を得る」を誘発する(1ターン)\n\n《魔力集中》\n攻撃力を50%増加させる(2ターン)\n通常攻撃時、効果「自分の75%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)\n必殺時、効果「自分の125%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `催淫ピンクビーム♡`,
+                    description: `攻撃時「自分の攻撃力の20%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `露出狂モード`,
+                    description: `味方全体の盾効果を20%増加させる\n味方が治療を受けた時、回復HP量を20%増加させる`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `逃げるは役に立つが逃げられない`,
+                    description: `治療を受けた時、効果「味方全体の攻撃力を20%増加させる(1ターン)」を誘発する\n味方全体が効果「現在のHPが95%以上の時、『与えるダメージが15%増加する』を発動する」を得る`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃力+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

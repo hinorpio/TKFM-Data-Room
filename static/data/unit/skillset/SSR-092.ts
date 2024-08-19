@@ -177,56 +177,56 @@ export const SkillSet_10124: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `NyoroNyoroにしちゃうゾ♡`,
+                    description: `ターゲットが受ける「紺碧の薄紅 香草奈若」のダメージ30/30/35/35/40%増加させ(最高2スタック)、265/398/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `NyoroNyoroにしちゃうゾ♡`,
+                    description: `ターゲットが受ける「紺碧の薄紅 香草奈若」のダメージ30%増加させ(最高2スタック)、265%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `NyoroNyoroにしちゃうゾ♡`,
+                    description: `ターゲットが受ける「紺碧の薄紅 香草奈若」のダメージ30%増加させ(最高2スタック)、298%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `NyoroNyoroにしちゃうゾ♡`,
+                    description: `ターゲットが受ける「紺碧の薄紅 香草奈若」のダメージ35%増加させ(最高2スタック)、331%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `NyoroNyoroにしちゃうゾ♡`,
+                    description: `ターゲットが受ける「紺碧の薄紅 香草奈若」のダメージ35%増加させ(最高2スタック)、364%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `NyoroNyoroにしちゃうゾ♡`,
+                    description: `ターゲットが受ける「紺碧の薄紅 香草奈若」のダメージ40%増加させ(最高2スタック)、397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `ウーパールーパーキック`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `甘えんぼ系清純彼女`,
+                    description: `味方全体の最大HPが20%アップ\n味方全体が「チームに1体以上の光属性のキャラクターがいる場合、《兎姫てぇてぇ～》を発動する」を得る\n自分が「チームに1体以上の闇属性のキャラクターがいる場合、《ミルてぇてぇ～》を発動する」を得る\n自分が必殺技攻撃時、「自分が1スタックの《甘えんぼタイム》を得る(最高2スタック)」を誘発する\n自分の《甘えんぼタイム》が2スタック未満の時、《私を愛して！》を発動する\n自分の《甘えんぼタイム》が2スタックある時、《早く抱きしめて～！》を発動する\n\n《兎姫てぇてぇ～》\n攻撃力80%増加\n\n《ミルてぇてぇ～》\n自分の攻撃力が60%増加する\n必殺技攻撃時、「ターゲットが受ける火属性ダメージを25%増加させる(最高2スタック)」を誘発する\n必殺技攻撃時、「自分の160%の攻撃力でターゲットにダメージを与える」を追加する\n\n《私を愛して！》\n必殺技攻撃時、効果「自分の必殺技の最大CDを1ターン減少させる(50ターン)」を誘発する\n\n《早く抱きしめて～！》\n必殺技攻撃時、「Nyoroがあなたをきつく抱きしめ、ふにゃふにゃになる(50ターン)。自分の《甘えんぼタイム》と必殺技最大CD減少効果を消す」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `有尾目小型両生類`,
+                    description: `攻撃時、「自分の攻撃力を20%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ローズピンクの誘惑♡`,
+                    description: `必殺技攻撃時、「自分の66%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `Nyoro、みんなのこと大好き～`,
+                    description: `自分の与えるダメージを40%増加させる`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ+`,
+                    description: `自分の与えるダメージを7.5%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

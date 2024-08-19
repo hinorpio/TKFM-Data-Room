@@ -177,56 +177,56 @@ export const SkillSet_10077: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `サクサク！鶏肉味！`,
+                    description: `自分の最大HPの10/10/12.5/15/20%分、自分の攻撃力を増加させ(3/3/4/4/4ターン)、さらに自分の攻撃力の100/125/150/175/200%分味方全体に治療を行い、毎ターン自分の最大HPの30/35/40/45/50%味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `サクサク！鶏肉味！`,
+                    description: `自分の最大HPの10%分、自分の攻撃力を増加させ(3ターン)、さらに自分の攻撃力の100%分味方全体に治療を行い、毎ターン自分の最大HPの30%味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `サクサク！鶏肉味！`,
+                    description: `自分の最大HPの10%分、自分の攻撃力を増加させ(3ターン)、さらに自分の攻撃力の125%分味方全体に治療を行い、毎ターン自分の最大HPの35%味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `サクサク！鶏肉味！`,
+                    description: `自分の最大HPの12.5%分、自分の攻撃力を増加させ(4ターン)、さらに自分の攻撃力の150%分味方全体に治療を行い、毎ターン自分の最大HPの40%味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `サクサク！鶏肉味！`,
+                    description: `自分の最大HPの15%分、自分の攻撃力を増加させ(4ターン)、さらに自分の攻撃力の175%分味方全体に治療を行い、毎ターン自分の最大HPの45%味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `サクサク！鶏肉味！`,
+                    description: `自分の最大HPの20%分、自分の攻撃力を増加させ(4ターン)、さらに自分の攻撃力の200%分味方全体に治療を行い、毎ターン自分の最大HPの50%味方全体に治療を行う(4ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `応急処置`,
+                    description: `自分の最大HPの10%分味方全体に治療を行い、さらに毎ターン自分の最大HPの5%分味方全体に治療を行う(3ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `真なるサバイバル専門家`,
+                    description: `自分の最大HPが50%増加する\n通常攻撃時「自分の最大HPの6%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する\n必殺技攻撃時「自分の最大HPの8%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する\n味方全体の攻撃力が60%増加する\n味方のアタッカーとデバッファーの与えるダメージが50%増加する\n味方のガーディアン、ヒーラー、サポーターが「必殺時『味方全体の必殺技ダメージを30%増加させる(2ターン)』を誘発する」を得る`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `みんな行くよ！`,
+                    description: `通常攻撃時「自分の攻撃力の20%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する\n必殺技攻撃時「自分の攻撃力の25%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `好奇心旺盛`,
+                    description: `通常攻撃時「自分の最大HPの10%分味方全体に盾を張り(1ターン)、自分の攻撃力の10%分味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `頭を落とせば食べられる`,
+                    description: `必殺技攻撃時「味方全体の攻撃力を25%増加させる(8ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `継続治療+`,
+                    description: `自分の与える継続型治療効果を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {

@@ -177,56 +177,56 @@ export const SkillSet_10116: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `雄叫びを上げろ！カリバー！`,
+                    description: `自分の攻撃力を50/60/70/80/100%増加させ(2ターン)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `雄叫びを上げろ！カリバー！`,
+                    description: `自分の攻撃力を50%増加させ(2ターン)、自分の330%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `雄叫びを上げろ！カリバー！`,
+                    description: `自分の攻撃力を60%増加させ(2ターン)、自分の376%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `雄叫びを上げろ！カリバー！`,
+                    description: `自分の攻撃力を70%増加させ(3ターン)、自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `雄叫びを上げろ！カリバー！`,
+                    description: `自分の攻撃力を80%増加させ(4ターン)、自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `雄叫びを上げろ！カリバー！`,
+                    description: `自分の攻撃力を100%増加させ(4ターン)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `明け色の陽射し剣`,
+                    description: `自分の125%の攻撃力でターゲットにダメージを与える。`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `夏の勇者のバカンスタイム`,
+                    description: `味方全体の最大HPを25%増加させる\n味方全体の通常攻撃ダメージを50%増加させる\n味方の1番目のメンバーが「チームに3人以上のアタッカーがいるとき《我食べる、故に我あり》を発動する」を得る\n味方全体が「チームに3人以上の火属性キャラがいるとき《騎乗モードON》を発動する」を得る\n\n《我食べる、故に我あり》\n攻撃力が40%増加する\n通常攻撃時「自分の50%の攻撃力でターゲットにダメージを与える」を追加する\n必殺技攻撃時「ターゲットが火属性から受けるダメージを20%増加させる(最高2スタック)」を誘発する\n必殺技攻撃時「ターゲットが受ける通常攻撃ダメージを40%増加させる(最高2スタック)」を誘発する\n\n《騎乗モードON》\n攻撃力が40%増加する\n行動時「自分の与えるダメージが7%増加する(最高5スタック)」を誘発する\n行動時「自分の与える通常攻撃ダメージが15%増加する(最高5スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `デザート禁断症候群`,
+                    description: `通常攻撃ダメージが30%増加する\n必殺技ダメージが20%増加する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `ママにハワイで教わった`,
+                    description: `1ターン目に「敵全体が受けるダメージを15%増加させる(50ターン)」を誘発する\n8ターン目に「自分の必殺技ダメージを40%増加させる(50ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `セルフBGMの勇者`,
+                    description: `通常攻撃時「自分の25%の攻撃力でターゲットにダメージを与える」を追加する\n通常攻撃時「自分の与えるダメージが10%増加する(最高3スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `必殺+`,
+                    description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `沈黙無効`,
+                    description: `自分を沈黙無効にする`
                 }
             },
             [Locale.kr]: {

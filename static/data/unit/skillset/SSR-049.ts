@@ -124,7 +124,7 @@ export const SkillSet_10042: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Summer Lovin'`,
-                    description: `Increase the party's Water and Fire allies' Attack Power by 30/30/40/40/40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 5/7.5/10/12.5/12.5% (Max 2 Stacks), then damage the target (330/376/422/468/514% Attack Power). CD:4`
+                    description: `Increase the party's Water and Fire allies' Attack Power by 30/30/40/40/40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 5/7.5/10/12.5/15% (Max 2 Stacks), then damage the target (330/376/422/468/514% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Summer Lovin'`,
@@ -144,7 +144,7 @@ export const SkillSet_10042: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `Summer Lovin'`,
-                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 12.5% (Max 2 Stacks), then damage the target (514% Attack Power). CD:4`
+                    description: `Increase the party's Water and Fire allies' Attack Power by 40% for 1 turn.\nIncrease the target's Damage Taken by Water and Fire attacks by 15% (Max 2 Stacks), then damage the target (514% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
                     name: `Sunbrella`,
@@ -178,7 +178,7 @@ export const SkillSet_10042: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `夏の少女の恋心は無敵！`,
-                    description: `味方の水、火属性のメンバーの攻撃力を30/30/40/40/40%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを5/7.5/10/12.5/12.5%増加させ(最高2スタック)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `味方の水、火属性のメンバーの攻撃力を30/30/40/40/40%増加させ(1ターン)、ターゲットが水、火属性から受けるダメージを5/7.5/10/12.5/15%増加させ(最高2スタック)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `夏の少女の恋心は無敵！`,

@@ -177,56 +177,56 @@ export const SkillSet_10121: SkillSet[] =  [
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `画技・絵画投影`,
+                    description: `自分の通常攻撃ダメージを60/75/90/105/120%増加させ(4ターン)、ターゲットが受ける通常攻撃ダメージを30/45/60/75/90%増加させる(8ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `画技・絵画投影`,
+                    description: `自分の通常攻撃ダメージを60%増加させ(4ターン)、ターゲットが受ける通常攻撃ダメージを30%増加させる(8ターン)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `画技・絵画投影`,
+                    description: `自分の通常攻撃ダメージを75%増加させ(4ターン)、ターゲットが受ける通常攻撃ダメージを45%増加させる(8ターン)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `画技・絵画投影`,
+                    description: `自分の通常攻撃ダメージを90%増加させ(4ターン)、ターゲットが受ける通常攻撃ダメージを60%増加させる(8ターン)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `画技・絵画投影`,
+                    description: `自分の通常攻撃ダメージを105%増加させ(4ターン)、ターゲットが受ける通常攻撃ダメージを75%増加させる(8ターン)[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `画技・絵画投影`,
+                    description: `自分の通常攻撃ダメージを120%増加させ(4ターン)、ターゲットが受ける通常攻撃ダメージを90%増加させる(8ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `後方補給にゃ`,
+                    description: `味方全体の通常攻撃ダメージを40%増加させる(2ターン)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `熟練社畜船乗り`,
+                    description: `味方に風属性メンバーが3人以上いる時、味方全体が《カモメ海賊団》を得る\n味方にアタッカーが2人以上いる時、自分が《大海原へ航海！》を得る\n\n《カモメ海賊団》\n攻撃力が40%増加する\n通常攻撃ダメージが100%増加する\n通常攻撃時「自分の65%の攻撃力でターゲットにダメージを与える」を追加する\n\n《大海原へ航海！》\n通常攻撃時「ターゲットが受けるダメージを5%増加させる(最高10スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `暴風雨の航海`,
+                    description: `通常攻撃時「自分の最大HPの5%分、味方全体に盾を張る(1ターン)」を追加する\n必殺技攻撃時「自分に通常攻撃時『自分の100%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `投影砲撃`,
+                    description: `通常攻撃時「自分の50%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `永遠の思い出 `,
+                    description: `味方全体の与えるダメージを10%増加させる\n通常攻撃時「味方全体の攻撃力を10%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `ダメージ減少+`,
+                    description: `自分が受けるダメージを5%減少させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {
