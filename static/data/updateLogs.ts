@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.0.8',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `日本語 Ver`,
+                    [Locale.sc]: `日本語 Ver`,
+                    [Locale.en]: `日本語 Ver`,
+                    [Locale.jp]: `日本語 Ver`,
+                    [Locale.kr]: `日本語 Ver`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `全境徵才: 依標籤組合 - SR優先排序&外框顏色`,
+                    [Locale.sc]: `全境征才: 依标签组合 - SR优先排序&外框颜色`,
+                    [Locale.en]: `Recruitment: Filter By Combination - SR Sort & Tag Color`,
+                    [Locale.jp]: `召集令: タグの組み合わせ - SRソート & タグカラー`,
+                    [Locale.kr]: `전 지역 모집: 태그 조합 - SR 정렬 & 태그 색상`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.0.7',
         logs: [
             {
