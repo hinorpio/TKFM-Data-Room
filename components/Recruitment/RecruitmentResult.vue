@@ -91,23 +91,27 @@ export default class RecruitmentResult extends Vue {
         const combinationSet: TagID[][] = this.$util.extractCombination(this.selectedTag)
         const isFullfillSSR = this.recruitmentTime.hours >= 4 && this.selectedTag.includes(TagID.CLASS_LEADER)
         return combinationSet.map(combination => {
+            const unitList = this.$util.getFilterUnitByTag(combination, this.unitList, isFullfillSSR)
+                            .filter(r => (r.rarity !== Rarity.SSR && r.rarity !== Rarity.SR) || 
+                                (r.rarity === Rarity.SSR && this.recruitmentTime.hours >= 4 && combination.includes(TagID.CLASS_LEADER)) ||
+                                (r.rarity === Rarity.SR && this.recruitmentTime.hours >= 4))
+                            .map(unit => {
+                                return {
+                                    icon: unit.thumbnail,
+                                    rarity: unit.rarity,
+                                    name: unit.name[locale],
+                                }
+                            })
+                            .sort((a, b) => b.rarity.localeCompare(a.rarity))
             return {
                 isLeader: combination.includes(TagID.CLASS_LEADER),
+                hasSR: unitList.some(unit => unit.rarity === Rarity.SR),
                 tag: this.handleShowTag(combination).map((tag: Tag) => tag.name[locale]),
-                units: this.$util.getFilterUnitByTag(combination, this.unitList, isFullfillSSR)
-                    .filter(r => (r.rarity !== Rarity.SSR && r.rarity !== Rarity.SR) || 
-                        (r.rarity === Rarity.SSR && this.recruitmentTime.hours >= 4 && combination.includes(TagID.CLASS_LEADER)) ||
-                        (r.rarity === Rarity.SR && this.recruitmentTime.hours >= 4))
-                    .map(unit => {
-                        return {
-                            icon: unit.thumbnail,
-                            element: unit.element,
-                            name: unit.name[locale],
-                        }
-                    })
+                units: unitList
             }
         })
         .filter(combination => combination.units.length > 0)
+        .sort((a, b) => a.hasSR === b.hasSR ? 0 :a.hasSR? -1 : 1)
         .sort((a, b) => a.isLeader === b.isLeader ? 0 :a.isLeader? -1 : 1)
 
     }
