@@ -231,28 +231,28 @@ export const SkillSet_10001: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25/25/25/35/35% 증가(3턴), 공격 데미지의 330/376/422/422/422%만큼 타깃에게 데미지  [CD: 4] [Lv5: CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 330%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 376%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 422%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 422%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 422%만큼 타깃에게 데미지  [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
                     name: ``,
