@@ -232,56 +232,56 @@ export const SkillSet_10911: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `축복의 찬가`,
+                    description: `공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유, 아군 전체의 받는 치유량 22.5% 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `축복의 찬가`,
+                    description: `공격 데미지의 165%만큼 아군 전체를 치유, 아군 전체의 받는 치유량 22.5% 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `축복의 찬가`,
+                    description: `공격 데미지의 188%만큼 아군 전체를 치유, 아군 전체의 받는 치유량 22.5% 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `축복의 찬가`,
+                    description: `공격 데미지의 211%만큼 아군 전체를 치유, 아군 전체의 받는 치유량 22.5% 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `축복의 찬가`,
+                    description: `공격 데미지의 234%만큼 아군 전체를 치유, 아군 전체의 받는 치유량 22.5% 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `축복의 찬가`,
+                    description: `공격 데미지의 257%만큼 아군 전체를 치유, 아군 전체의 받는 치유량 22.5% 증가(2턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치유술`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 치유술`,
+                    description: `아군 광속성 캐릭터가 받는 치유량 15% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신이 내린 선물`,
+                    description: `궁극기 발동 시, 50% 확률로 "아군 전체가 매턴 공격 데미지의 30%만큼 자신을 치유(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `성빛쇄락`,
+                    description: `자신을 치유할 시 자신이 받는 치유량 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `새롭게 태어난 자`,
+                    description: `턴마다 "최대 HP 50%만큼 자신을 치유"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타고난 색마(일반 조련 도구↑)`,
+                    description: `파견 진행 시일반 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

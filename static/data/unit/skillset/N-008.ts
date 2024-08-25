@@ -232,56 +232,56 @@ export const SkillSet_10908: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `도약의 일격`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 475/550/625/700/775%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `도약의 일격`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 475%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `도약의 일격`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 550%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `도약의 일격`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 625%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `도약의 일격`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 700%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `도약의 일격`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 775%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `메이스 일격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `물의 격려`,
+                    description: `아군 수속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `난쟁이의 기백`,
+                    description: `피격 시, "자신의 공격 데미지 3% 증가(최대 10중첩)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `폭발력`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `난쟁이왕의 오의`,
+                    description: `6턴마다 "자신의 공격 데미지 30% 증가(1턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `노력가(경험치 포션↑)`,
+                    description: `파견 진행 시경험치 포션2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

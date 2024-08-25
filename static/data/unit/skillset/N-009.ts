@@ -232,56 +232,56 @@ export const SkillSet_10909: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `군단의 방패`,
+                    description: `공격 데미지의 165/188/211/234/257%만큼 적 전체에게 데미지, 적 전체에게 공격 데미지 10% 감소(2턴) 효과, 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `군단의 방패`,
+                    description: `공격 데미지의 165%만큼 적 전체에게 데미지, 적 전체에게 공격 데미지 10% 감소(2턴) 효과, 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `군단의 방패`,
+                    description: `공격 데미지의 188%만큼 적 전체에게 데미지, 적 전체에게 공격 데미지 10% 감소(2턴) 효과, 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `군단의 방패`,
+                    description: `공격 데미지의 211%만큼 적 전체에게 데미지, 적 전체에게 공격 데미지 10% 감소(2턴) 효과, 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `군단의 방패`,
+                    description: `공격 데미지의 234%만큼 적 전체에게 데미지, 적 전체에게 공격 데미지 10% 감소(2턴) 효과, 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `군단의 방패`,
+                    description: `공격 데미지의 257%만큼 적 전체에게 데미지, 적 전체에게 공격 데미지 10% 감소(2턴) 효과, 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `참격`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `불의 축복`,
+                    description: `아군 화속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `무장 해제의 공격`,
+                    description: `피격 시, 25% 확률로 "타깃의 공격 데미지 10% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수비 강화`,
+                    description: `방어 상태에서 받는 데미지 감소 효과 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `만반의 준비`,
+                    description: `각 웨이브의 첫 번째 턴에서, "자신의 궁극기 CD 4턴 감소"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타고난 색마(일반 조련 도구↑)`,
+                    description: `파견 진행 시일반 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

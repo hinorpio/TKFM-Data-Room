@@ -231,56 +231,56 @@ export const SkillSet_10005: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 569/663/756/850/944%만큼 타깃에게 데미지, 자신의 일반 공격 데미지 60/70/80/90/100%증가 (3턴) [CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 569%만큼 타깃에게 데미지, 자신의 일반 공격 데미지 60%증가 (3턴) [CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 663%만큼 타깃에게 데미지, 자신의 일반 공격 데미지 70%증가 (3턴) [CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 756%만큼 타깃에게 데미지, 자신의 일반 공격 데미지 80%증가 (3턴) [CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 850%만큼 타깃에게 데미지, 자신의 일반 공격 데미지 90%증가 (3턴) [CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 944%만큼 타깃에게 데미지, 자신의 일반 공격 데미지 100%증가 (3턴) [CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `점프 베기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `난쟁이왕의 기세`,
+                    description: `아군 전체의 공격 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `에너지 세이브`,
+                    description: `일반 공격 시, "자신의 공격 데미지 2.5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정신통일`,
+                    description: `1턴마다 "자신의 공격 데미지 5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파룡의 환광`,
+                    description: `자신의 궁극기 데미지 50% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -447,7 +447,7 @@ export const SkillSet_10005: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `Dragon Killer`,
-                    description: `After every 6 turns, Increase your Ultimate Skill damage by 50% for 1 turn.`
+                    description: `After every 6 turns, Increase your Attack Power by 50% for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `Protect (Self)`,
@@ -514,56 +514,56 @@ export const SkillSet_10005: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 569/663/756/850/944%만큼 타깃에게 데미지 [CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 569%만큼 타깃에게 데미지 [CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 663%만큼 타깃에게 데미지 [CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 756%만큼 타깃에게 데미지 [CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 850%만큼 타깃에게 데미지 [CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `활공 찢기`,
+                    description: `타깃의 방어 상태 해제, 공격 데미지의 944%만큼 타깃에게 데미지 [CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `점프 베기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `난쟁이왕의 기세`,
+                    description: `아군 전체의 공격 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `에너지 세이브`,
+                    description: `일반 공격 시, "자신의 공격 데미지 2.5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정신통일`,
+                    description: `1턴마다 "자신의 공격 데미지 5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파룡의 환광`,
+                    description: `6턴마다 "자신의 공격 데미지 50% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

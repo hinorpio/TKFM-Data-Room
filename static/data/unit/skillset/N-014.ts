@@ -232,56 +232,56 @@ export const SkillSet_10914: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마비의 독이빨`,
+                    description: `공격 데미지의 265/298/331/364/399%만큼 타깃에게 데미지, 50% 확률로 타깃에게 1턴간 마비 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마비의 독이빨`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, 50% 확률로 타깃에게 1턴간 마비 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비의 독이빨`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, 50% 확률로 타깃에게 1턴간 마비 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마비의 독이빨`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, 50% 확률로 타깃에게 1턴간 마비 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마비의 독이빨`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, 50% 확률로 타깃에게 1턴간 마비 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마비의 독이빨`,
+                    description: `공격 데미지의 399%만큼 타깃에게 데미지, 50% 확률로 타깃에게 1턴간 마비 효과 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `물어뜯기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `불의 격려`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `치명상의 독액`,
+                    description: `공격 시, "타깃이 치유를 받을 시 회복량 25% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `재빠른 뱀의 몸놀림`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `크레이지 헌터`,
+                    description: `일반 공격 시, "자신의 궁극기 CD 1턴 감소"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타락한 육체(레어 조련 도구↑)`,
+                    description: `파견 진행 시레어 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

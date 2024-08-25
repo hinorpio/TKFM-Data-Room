@@ -232,56 +232,56 @@ export const SkillSet_10917: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `비검. 도약 베기`,
+                    description: `공격 데미지 224/249/273/273/273%만큼 타깃에게 데미지 후, 자신을 방어 상태로 전환하여 받는 데미지 감소 효과 10/10/10/15/20% 증가(3턴), 하지만 자신이 받는 데미지도 25% 증가(1턴) [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `비검. 도약 베기`,
+                    description: `공격 데미지 224%만큼 타깃에게 데미지 후, 자신을 방어 상태로 전환하여 받는 데미지 감소 효과 10% 증가(3턴), 하지만 자신이 받는 데미지도 25% 증가(1턴) [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `비검. 도약 베기`,
+                    description: `공격 데미지 249%만큼 타깃에게 데미지 후, 자신을 방어 상태로 전환하여 받는 데미지 감소 효과 10% 증가(3턴), 하지만 자신이 받는 데미지도 25% 증가(1턴) [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `비검. 도약 베기`,
+                    description: `공격 데미지 273%만큼 타깃에게 데미지 후, 자신을 방어 상태로 전환하여 받는 데미지 감소 효과 10% 증가(3턴), 하지만 자신이 받는 데미지도 25% 증가(1턴) [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `비검. 도약 베기`,
+                    description: `공격 데미지 273%만큼 타깃에게 데미지 후, 자신을 방어 상태로 전환하여 받는 데미지 감소 효과 15% 증가(3턴), 하지만 자신이 받는 데미지도 25% 증가(1턴) [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `비검. 도약 베기`,
+                    description: `공격 데미지 273%만큼 타깃에게 데미지 후, 자신을 방어 상태로 전환하여 받는 데미지 감소 효과 20% 증가(3턴), 하지만 자신이 받는 데미지도 25% 증가(1턴) [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `참격`,
+                    description: `공격 데미지의 75%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 격려`,
+                    description: `아군 풍속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `검과 방패의 혼연일체`,
+                    description: `일반 공격 시, "자신을 방어 상태로 전환"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `숙련된 검술`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `돌격 찌르기`,
+                    description: `첫 번째 턴 시작 시 "자신의 궁극기 CD 3턴 감소"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `노력가(경험치 포션↑)`,
+                    description: `파견 진행 시경험치 포션2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

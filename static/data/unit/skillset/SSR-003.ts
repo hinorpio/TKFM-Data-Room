@@ -231,56 +231,56 @@ export const SkillSet_10003: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `장미 맹독`,
+                    description: `공격 데미지의 388/445/503/560/560%만큼 타깃에게 데미지 [CD: 4] [Lv5: CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `장미 맹독`,
+                    description: `공격 데미지의 388%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `장미 맹독`,
+                    description: `공격 데미지의 445%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `장미 맹독`,
+                    description: `공격 데미지의 503%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `장미 맹독`,
+                    description: `공격 데미지의 560%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `장미 맹독`,
+                    description: `공격 데미지의 560%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마력의 물결`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕 이블리스의 오만`,
+                    description: `공격 시, 공격 데미지의 75%만큼 적 전체에게 추가 공격`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `비전의 마력 의식`,
+                    description: `HP가 75%보다 많을 시 공격 데미지 15% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 섭취`,
+                    description: `일반 공격 데미지 20% 증가, 적에게 가한 데미지의 33%만큼 HP 회복`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `중생 압박`,
+                    description: `각 웨이브의 첫 번째 턴에서 "자신의 공격 데미지 25% 증가(3턴)" 효과`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

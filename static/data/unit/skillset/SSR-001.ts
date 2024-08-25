@@ -231,56 +231,56 @@ export const SkillSet_10001: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25/25/25/35/35% 증가(3턴), 공격 데미지의 330/376/422/422/422%만큼 타깃에게 데미지  [CD: 4] [Lv5: CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 330%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 376%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 422%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 422%만큼 타깃에게 데미지  [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `맹렬한 불길`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 422%만큼 타깃에게 데미지  [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마력의 탄환`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕 바알의 꿍꿍이`,
+                    description: `자신의 공격 데미지 125% 증가, 단 자신을 제외한 아군의 의한 데미지는 10% 감소.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕의 육체`,
+                    description: `자신의 일반 공격 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `알 수 없는 성격`,
+                    description: `피격 시, "자신의 공격 데미지 15% 증가(최대 2중첩)" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `바알의 장난`,
+                    description: `궁극기 발동 시, "자신의 궁극기 CD 1턴 감소, 타깃의 궁극기 CD 2턴 증가"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

@@ -232,56 +232,56 @@ export const SkillSet_10920: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙의 가호`,
+                    description: `공격 데미지의 265/298/331/364/397%만큼 가장 좌측에 있는 동료의 아머 강화(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙의 가호`,
+                    description: `공격 데미지의 265%만큼 가장 좌측에 있는 동료의 아머 강화(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙의 가호`,
+                    description: `공격 데미지의 298%만큼 가장 좌측에 있는 동료의 아머 강화(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙의 가호`,
+                    description: `공격 데미지의 331%만큼 가장 좌측에 있는 동료의 아머 강화(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙의 가호`,
+                    description: `공격 데미지의 364%만큼 가장 좌측에 있는 동료의 아머 강화(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙의 가호`,
+                    description: `공격 데미지의 397%만큼 가장 좌측에 있는 동료의 아머 강화(1턴) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `가호`,
+                    description: `공격 데미지의 80%만큼 가장 좌측에 있는 동료의 아머 강화(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 축복`,
+                    description: `아군 광속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 총애`,
+                    description: `일반 공격 시, "가장 좌측에 있는 동료가 받는 아머 강화 10% 증가(2턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `복음 전파`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신성한 축복`,
+                    description: `궁극기 발동 시, "가장 좌측에 있는 동료의 공격 데미지 50% 증가 (1턴)" 효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타고난 색마(일반 조련 도구↑)`,
+                    description: `파견 진행 시일반 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

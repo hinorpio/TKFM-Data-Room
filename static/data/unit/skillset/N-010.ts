@@ -232,56 +232,56 @@ export const SkillSet_10910: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `영광의 빛`,
+                    description: `공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유, 아군 전체가 받는 데미지 10% 감소(2턴), 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `영광의 빛`,
+                    description: `공격 데미지의 165%만큼 아군 전체를 치유, 아군 전체가 받는 데미지 10% 감소(2턴), 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `영광의 빛`,
+                    description: `공격 데미지의 188%만큼 아군 전체를 치유, 아군 전체가 받는 데미지 10% 감소(2턴), 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `영광의 빛`,
+                    description: `공격 데미지의 211%만큼 아군 전체를 치유, 아군 전체가 받는 데미지 10% 감소(2턴), 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `영광의 빛`,
+                    description: `공격 데미지의 234%만큼 아군 전체를 치유, 아군 전체가 받는 데미지 10% 감소(2턴), 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `영광의 빛`,
+                    description: `공격 데미지의 257%만큼 아군 전체를 치유, 아군 전체가 받는 데미지 10% 감소(2턴), 자신에게 2턴간 도발 효과 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `참격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 축복`,
+                    description: `아군 광속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 가호`,
+                    description: `치유를 받을 시, 25% 확률로 "최대 HP의 8%만큼 자신의 아머 강화(4턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `경건의 축복`,
+                    description: `자신이 받는 치유량 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신앙 회복`,
+                    description: `피격 시, "자신이 받는 치유량 10% 증가(1턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `행운아(빈손으로 귀환↓)`,
+                    description: `파견 진행 시빈손으로 귀환확률 초소폭 감소(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

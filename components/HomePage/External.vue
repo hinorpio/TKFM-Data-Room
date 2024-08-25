@@ -75,7 +75,7 @@ export default class External extends Vue {
         [Locale.sc]: '天下布魔官方网站',
         [Locale.en]: 'TenkafuMA! Offical Website',
         [Locale.jp]: '天下布魔公式ウェブサイト',
-        [Locale.kr]: '',
+        [Locale.kr]: '텐카푸마 공식 사이트',
     }
 
     discord: {[lang in Locale]: string} = {
@@ -91,7 +91,7 @@ export default class External extends Vue {
         [Locale.sc]: '天下布魔 TenkafuMA! 官方讨论区',
         [Locale.en]: 'TenkafuMA! Chinese Channel',
         [Locale.jp]: '天下布魔 TenkafuMA! 官方討論區',
-        [Locale.kr]: '',
+        [Locale.kr]: '天下布魔 TenkafuMA! 官方討論區',
     }
 
     youtube: {[lang in Locale]: string} = {
@@ -107,7 +107,7 @@ export default class External extends Vue {
         [Locale.sc]: '天下布魔 TenkafuMA! Offical Channel',
         [Locale.en]: 'TenkafuMA! Offical Channel',
         [Locale.jp]: '天下布魔 TenkafuMA! Offical Channel',
-        [Locale.kr]: '',
+        [Locale.kr]: '天下布魔 TenkafuMA! Offical Channel',
     }
 
     facebook_fanpage: {[lang in Locale]: string} = {
@@ -123,7 +123,7 @@ export default class External extends Vue {
         [Locale.sc]: '天下布魔 TenkafuMA! 中文粉丝专页',
         [Locale.en]: 'TenkafuMA! Chinese Fanpage',
         [Locale.jp]: '天下布魔 TenkafuMA! 中国語ファンページ',
-        [Locale.kr]: '',
+        [Locale.kr]: '텐카푸마 TenkafuMA! 중국 팬 페이지',
     }
 
     facebook_group: {[lang in Locale]: string} = {
@@ -139,7 +139,7 @@ export default class External extends Vue {
         [Locale.sc]: '天下布魔 TenkafuMA! 中文社团',
         [Locale.en]: 'TenkafuMA! Chinese Group',
         [Locale.jp]: '天下布魔 TenkafuMA! 中国語グループ',
-        [Locale.kr]: '',
+        [Locale.kr]: '텐카푸마 TenkafuMA! 중국 클럽',
     }
 
     tkfmtools: {[lang in Locale]: string} = {
@@ -171,7 +171,7 @@ export default class External extends Vue {
         [Locale.sc]: '天下布魔战斗模拟器',
         [Locale.en]: 'TenkafuMA Vercel App',
         [Locale.jp]: '天下布魔バトルシミュレーター',
-        [Locale.kr]: '',
+        [Locale.kr]: '텐카푸마 전투 시뮬레이터',
     }
     
 }

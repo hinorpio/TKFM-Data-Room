@@ -231,56 +231,56 @@ export const SkillSet_10002: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `잔학무도`,
+                    description: `자신의 공격 데미지 30/40/50/50/50% 증가(2/2/3/3/3턴), 도발 효과 흭득(2/2/2/3/3턴), 방어 상태로 전환 [CD : 4] [Lv5: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `잔학무도`,
+                    description: `자신의 공격 데미지 30% 증가(2턴), 도발 효과 흭득(2턴), 방어 상태로 전환 [CD : 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `잔학무도`,
+                    description: `자신의 공격 데미지 40% 증가(2턴), 도발 효과 흭득(2턴), 방어 상태로 전환 [CD : 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `잔학무도`,
+                    description: `자신의 공격 데미지 50% 증가(2턴), 도발 효과 흭득(2턴), 방어 상태로 전환 [CD : 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `잔학무도`,
+                    description: `자신의 공격 데미지 50% 증가(3턴), 도발 효과 흭득(3턴), 방어 상태로 전환 [CD : 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `잔학무도`,
+                    description: `자신의 공격 데미지 50% 증가(3턴), 도발 효과 흭득(3턴), 방어 상태로 전환 [CD : 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `출혈`,
+                    description: `공격 데미지의 50%만큼 타깃에게 데미지, 자신을 방어 상태로 전환`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕 사탄의 호기`,
+                    description: `자신에게 도발 효과 부여(영구), 방어 시, 받는 데미지 감소 효과 15% 증가, 단 공격 데미지 25% 감소.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕의 횡포`,
+                    description: `자신이 받는 데미지 15% 감소`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `사탄의 보답`,
+                    description: `피격 시, "75%의 공격 데미지로 반격" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `불패의 육체`,
+                    description: `매턴마다 자신의 최대 HP 10% 치유`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `방어 데미지 감소+`,
+                    description: `방어 상태에서 받는 데미지 감소 효과 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

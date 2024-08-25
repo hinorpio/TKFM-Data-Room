@@ -232,56 +232,56 @@ export const SkillSet_10918: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `폭렬 마법・EX`,
+                    description: `공격 데미지 357/419/480/541/603%만큼 적 전체에게 데미지, 하지만 자신의 궁극기 데미지 증가(중첩형) 효과 제거 후, 자신에게 2턴간 마비 부여 [CD:7]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `폭렬 마법・EX`,
+                    description: `공격 데미지 357%만큼 적 전체에게 데미지, 하지만 자신의 궁극기 데미지 증가(중첩형) 효과 제거 후, 자신에게 2턴간 마비 부여 [CD:7]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `폭렬 마법・EX`,
+                    description: `공격 데미지 419%만큼 적 전체에게 데미지, 하지만 자신의 궁극기 데미지 증가(중첩형) 효과 제거 후, 자신에게 2턴간 마비 부여 [CD:7]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `폭렬 마법・EX`,
+                    description: `공격 데미지 480%만큼 적 전체에게 데미지, 하지만 자신의 궁극기 데미지 증가(중첩형) 효과 제거 후, 자신에게 2턴간 마비 부여 [CD:7]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `폭렬 마법・EX`,
+                    description: `공격 데미지 541%만큼 적 전체에게 데미지, 하지만 자신의 궁극기 데미지 증가(중첩형) 효과 제거 후, 자신에게 2턴간 마비 부여 [CD:7]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `폭렬 마법・EX`,
+                    description: `공격 데미지 603%만큼 적 전체에게 데미지, 하지만 자신의 궁극기 데미지 증가(중첩형) 효과 제거 후, 자신에게 2턴간 마비 부여 [CD:7]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `물의 격려`,
+                    description: `아군 수속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `주문 읊기`,
+                    description: `일반 공격 시, "자신의 궁극기 데미지 5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `상급 마법`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `가호의 노래`,
+                    description: `공격 시, "자신의 공격 데미지 50%만큼 자신의 아머 강화(4턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `행운아(빈손으로 귀환↓)`,
+                    description: `파견 진행 시빈손으로 귀환확률 초소폭 감소(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

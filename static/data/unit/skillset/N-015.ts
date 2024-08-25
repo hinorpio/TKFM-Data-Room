@@ -232,56 +232,56 @@ export const SkillSet_10915: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `깊은 잠의 날개`,
+                    description: `공격 데미지의 265/298/331/364/399%만큼 타깃에게 데미지, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `깊은 잠의 날개`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `깊은 잠의 날개`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `깊은 잠의 날개`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `깊은 잠의 날개`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `깊은 잠의 날개`,
+                    description: `공격 데미지의 399%만큼 타깃에게 데미지, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `털어내기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 격려`,
+                    description: `아군 풍속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `가녀린 날개`,
+                    description: `공격 시, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `우위 비행`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `수렵광희`,
+                    description: `일반 공격 시, "자신의 궁극기 CD 1턴 감소"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `근검절약(구매 허가증↑)`,
+                    description: `파견 진행 시구매 허가증2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

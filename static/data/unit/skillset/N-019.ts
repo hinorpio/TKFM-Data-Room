@@ -232,56 +232,56 @@ export const SkillSet_10922: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력・맹격`,
+                    description: `공격 데미지의 133/149/166/182/199%만큼 타깃에게 데미지, 자신의 공격 데미지 12.5% 증가(최대 6중첩) [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력・맹격`,
+                    description: `공격 데미지의 133%만큼 타깃에게 데미지, 자신의 공격 데미지 12.5% 증가(최대 6중첩) [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력・맹격`,
+                    description: `공격 데미지의 149%만큼 타깃에게 데미지, 자신의 공격 데미지 12.5% 증가(최대 6중첩) [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력・맹격`,
+                    description: `공격 데미지의 166%만큼 타깃에게 데미지, 자신의 공격 데미지 12.5% 증가(최대 6중첩) [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력・맹격`,
+                    description: `공격 데미지의 182%만큼 타깃에게 데미지, 자신의 공격 데미지 12.5% 증가(최대 6중첩) [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력・맹격`,
+                    description: `공격 데미지의 199%만큼 타깃에게 데미지, 자신의 공격 데미지 12.5% 증가(최대 6중첩) [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `맹격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 격려`,
+                    description: `아군 광속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전투AI`,
+                    description: `일반 공격 시, "자신의 공격 데미지 1% 증가(최대 50중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고출력 성능`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `스틸합금`,
+                    description: `자신이 받는 일반 공격 데미지 50% 감소, 하지만 받는 궁극기 데미지 25% 증가`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `트레저헌터(강화 재료↑)`,
+                    description: `파견 진행 시강화 재료2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

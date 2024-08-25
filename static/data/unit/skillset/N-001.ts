@@ -232,56 +232,56 @@ export const SkillSet_10901: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `견고한 수비`,
+                    description: `공격 데미지 265/298/331/364/397%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `견고한 수비`,
+                    description: `공격 데미지 265%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `견고한 수비`,
+                    description: `공격 데미지 298%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `견고한 수비`,
+                    description: `공격 데미지 331%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `견고한 수비`,
+                    description: `공격 데미지 364%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `견고한 수비`,
+                    description: `공격 데미지 397%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `참격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠의 축복`,
+                    description: `아군 암속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공수전환`,
+                    description: `일반 공격 시, 50% 확률로 "자신을 방어 상태로 전환"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `파스제국 방어술`,
+                    description: `방어 상태에서 받는 데미지 감소 효과 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신속한 서포트`,
+                    description: `각 웨이브의 첫 번째 턴에서, "자신의 궁극기 CD 3턴 감소"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `목숨 같은 돈(구매 허가증↑)`,
+                    description: `파견 진행 시구매 허가증2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

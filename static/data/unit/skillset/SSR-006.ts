@@ -231,56 +231,56 @@ export const SkillSet_10006: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 화이팅!`,
+                    description: `공격 데미지의 200%만큼 아군 전체를 치유, "매턴 공격 데미지의 69/73/76/80/80%만큼 치유(5턴)" 효과 흭득 [CD:5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 화이팅!`,
+                    description: `공격 데미지의 200%만큼 아군 전체를 치유, "매턴 공격 데미지의 69%만큼 치유(5턴)" 효과 흭득 [CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 화이팅!`,
+                    description: `공격 데미지의 200%만큼 아군 전체를 치유, "매턴 공격 데미지의 73%만큼 치유(5턴)" 효과 흭득 [CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 화이팅!`,
+                    description: `공격 데미지의 200%만큼 아군 전체를 치유, "매턴 공격 데미지의 76%만큼 치유(5턴)" 효과 흭득 [CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 화이팅!`,
+                    description: `공격 데미지의 200%만큼 아군 전체를 치유, "매턴 공격 데미지의 80%만큼 치유(5턴)" 효과 흭득 [CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 화이팅!`,
+                    description: `공격 데미지의 200%만큼 아군 전체를 치유, "매턴 공격 데미지의 80%만큼 치유(5턴)" 효과 흭득 [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `격려`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `보호 욕구 자극`,
+                    description: `아군 전체의 궁극기 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `추가 치료`,
+                    description: `일반 공격 시, "공격 데미지의 25%만큼 HP가 가장 적은 동료 치유" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전격 지원`,
+                    description: `공격 시, "자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `모두에게 노력의 성과를 보여주겠어!`,
+                    description: `궁극기 발동 시, "아군 전체의 궁극기 데미지 25% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `방어 데미지 감소+`,
+                    description: `방어 상태에서 받는 데미지 감소 효과 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
