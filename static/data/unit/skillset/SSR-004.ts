@@ -231,56 +231,56 @@ export const SkillSet_10004: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `유도 화살`,
+                    description: `타깃에게 475/550/625/625/625%의 공격 데미지, 아군 전체의 공격 데미지 15/15/15/20/25% 증가(3턴) [CD:6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `유도 화살`,
+                    description: `타깃에게 475%의 공격 데미지, 아군 전체의 공격 데미지 15% 증가(3턴) [CD:6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `유도 화살`,
+                    description: `타깃에게 550%의 공격 데미지, 아군 전체의 공격 데미지 15% 증가(3턴) [CD:6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `유도 화살`,
+                    description: `타깃에게 625%의 공격 데미지, 아군 전체의 공격 데미지 15% 증가(3턴) [CD:6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `유도 화살`,
+                    description: `타깃에게 625%의 공격 데미지, 아군 전체의 공격 데미지 20% 증가(3턴) [CD:6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `유도 화살`,
+                    description: `타깃에게 625%의 공격 데미지, 아군 전체의 공격 데미지 25% 증가(3턴) [CD:6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `활 쏘기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프의 영역`,
+                    description: `아군 전체의 일반 공격 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `인도자`,
+                    description: `일반 공격 시 "아군 전체의 일반 공격 데미지 7.5% 증가(1턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `파천일격`,
+                    description: `궁극기 발동 시, "타깃이 받는 데미지 10% 증가(3턴) 및 방어 상태 해제" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `불어오는 승리의 바람`,
+                    description: `3턴마다 "아군 전체의 공격 데미지 20% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
