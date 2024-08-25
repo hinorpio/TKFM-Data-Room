@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.0.9',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【來自星空的妳-復刻-】, 【朋友與加班-復刻-】`,
+                    [Locale.sc]: `活动: 【来自星空的妳-复刻-】, 【朋友与加班-复刻-】`,
+                    [Locale.en]: `Event: [From the Stars -Comeback-], [Friends and Overtime -Comeback-]`,
+                    [Locale.jp]: `イベント: 「星から来たあなた-復刻-」, 「友達と残業-復刻-」`,
+                    [Locale.kr]: `이벤트: 【별에서 온 그녀-복각-】, 【친구와 야근-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.0.8',
         logs: [
             {
