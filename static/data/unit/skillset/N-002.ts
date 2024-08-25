@@ -232,56 +232,56 @@ export const SkillSet_10902: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄 연사`,
+                    description: `공격 데미지의 238/275/313/350/388%만큼 적 전체에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄 연사`,
+                    description: `공격 데미지의 238%만큼 적 전체에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄 연사`,
+                    description: `공격 데미지의 275%만큼 적 전체에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄 연사`,
+                    description: `공격 데미지의 313%만큼 적 전체에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄 연사`,
+                    description: `공격 데미지의 350%만큼 적 전체에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마력탄 연사`,
+                    description: `공격 데미지의 388%만큼 적 전체에게 데미지 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마력의 칼날`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 격려`,
+                    description: `아군 광속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마도구`,
+                    description: `공격 시, 25% 확률로 "자신의 공격 데미지 15% 증가(4턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 증폭기`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `기합 폭발`,
+                    description: `턴마다 "자신의 공격 데미지 30% 증가(1턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `목숨 같은 돈(구매 허가증↑)`,
+                    description: `파견 진행 시구매 허가증2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

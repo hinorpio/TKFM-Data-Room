@@ -232,56 +232,56 @@ export const SkillSet_10921: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `정확한 저격`,
+                    description: `자신의 공격 데미지 10/15/20/25/30% 증가(1턴), 다시 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `정확한 저격`,
+                    description: `자신의 공격 데미지 10% 증가(1턴), 다시 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정확한 저격`,
+                    description: `자신의 공격 데미지 15% 증가(1턴), 다시 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `정확한 저격`,
+                    description: `자신의 공격 데미지 20% 증가(1턴), 다시 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `정확한 저격`,
+                    description: `자신의 공격 데미지 25% 증가(1턴), 다시 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `정확한 저격`,
+                    description: `자신의 공격 데미지 30% 증가(1턴), 다시 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `단발 사격`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 주방장`,
+                    description: `아군 전체의 받는 데미지 10% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `약점 노출`,
+                    description: `궁극기 발동 시 「타깃이 받는 데미지 10% 증가(4턴)」 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `사격 위치 변경`,
+                    description: `일반 공격 시 「자신의 궁극기 데미지 20% 증가(2턴)」 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파편탄`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 2%만큼 타깃에게 10회 데미지」 추가`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `행운아(빈손으로 귀환↓)`,
+                    description: `파견 진행 시 빈손으로 귀환 확률 초소폭 감소(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

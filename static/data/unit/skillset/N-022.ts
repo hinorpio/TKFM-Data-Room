@@ -232,56 +232,56 @@ export const SkillSet_10923: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 차기`,
+                    description: `자신의 공격 데미지의 116/129/142/155/168%만큼 타깃에게 2회 데미지 [CD: 2]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 차기`,
+                    description: `자신의 공격 데미지의 116%만큼 타깃에게 2회 데미지 [CD: 2]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 차기`,
+                    description: `자신의 공격 데미지의 129%만큼 타깃에게 2회 데미지 [CD: 2]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 차기`,
+                    description: `자신의 공격 데미지의 142%만큼 타깃에게 2회 데미지 [CD: 2]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 차기`,
+                    description: `자신의 공격 데미지의 155%만큼 타깃에게 2회 데미지 [CD: 2]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 차기`,
+                    description: `자신의 공격 데미지의 168%만큼 타깃에게 2회 데미지 [CD: 2]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `짓밟기`,
+                    description: `자신의 공격 데미지의 62.5%만큼 타깃에게 2회 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 광무`,
+                    description: `아군 풍속성 캐릭터의 최대 HP 10% 증가, 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `앞발 내딛기`,
+                    description: `일반 공격 시 「자신의 궁극기 데미지 20% 증가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `뒷발 내딛기`,
+                    description: `궁극기 발동 시 「자신의 일반 공격 데미지 30% 증가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `앞으로 가!`,
+                    description: `공격 시 「자신의 공격 데미지 5% 증가(6턴)」발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `트레저헌터(강화 재료↑)`,
+                    description: `파견 진행 시 강화 재료 2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }

@@ -232,56 +232,56 @@ export const SkillSet_10912: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `자가 치유 체질`,
+                    description: `최대 HP 50%만큼 자신을 치유, "매턴 자신의 최대 HP 8.0/8.5/9.0/9.5/10.0%만큼 자신을 치유(5턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자가 치유 체질`,
+                    description: `최대 HP 50%만큼 자신을 치유, "매턴 자신의 최대 HP 8.0%만큼 자신을 치유(5턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `자가 치유 체질`,
+                    description: `최대 HP 50%만큼 자신을 치유, "매턴 자신의 최대 HP 8.5%만큼 자신을 치유(5턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `자가 치유 체질`,
+                    description: `최대 HP 50%만큼 자신을 치유, "매턴 자신의 최대 HP 9.0%만큼 자신을 치유(5턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `자가 치유 체질`,
+                    description: `최대 HP 50%만큼 자신을 치유, "매턴 자신의 최대 HP 9.5%만큼 자신을 치유(5턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `자가 치유 체질`,
+                    description: `최대 HP 50%만큼 자신을 치유, "매턴 자신의 최대 HP 10.0%만큼 자신을 치유(5턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `차지 어택`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `물의 치유`,
+                    description: `아군 수속성 캐릭터가 받는 치유량 15% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `부식 점액`,
+                    description: `공격 시, "타깃의 공격 데미지 5% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빠른 치유`,
+                    description: `자신이 받는 치유량 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `강산 점액`,
+                    description: `공격 시, "타깃이 받는 데미지 5% 증가(2턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `행운아(빈손으로 귀환↓)`,
+                    description: `파견 진행 시빈손으로 귀환확률 초소폭 감소(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

@@ -232,56 +232,56 @@ export const SkillSet_10913: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `술병 투척`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵, 자신에게 "도발 2턴"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `술병 투척`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵, 자신에게 "도발 2턴"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `술병 투척`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵, 자신에게 "도발 2턴"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `술병 투척`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵, 자신에게 "도발 2턴"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `술병 투척`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵, 자신에게 "도발 2턴"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `술병 투척`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵, 자신에게 "도발 2턴"효과 발동 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `두드리기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 축복`,
+                    description: `아군 풍속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `철의 의지`,
+                    description: `피격 시, "자신이 받는 피해 5% 감소(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `강인한 심신`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `치명타 일격`,
+                    description: `공격 시, "타깃이 받는 치유량 50% 감소(1턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `트레저헌터(강화 재료↑)`,
+                    description: `파견 진행 시강화 재료2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

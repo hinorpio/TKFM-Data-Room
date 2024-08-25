@@ -232,56 +232,56 @@ export const SkillSet_10919: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신력 반격`,
+                    description: `도발(1턴)을 얻고 방어 상태로 전환. 피격 시, "공격 데미지의 60/70/80/90/100%로 타깃에게 반격" 효과 발동(1턴)[CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신력 반격`,
+                    description: `도발(1턴)을 얻고 방어 상태로 전환. 피격 시, "공격 데미지의 60%로 타깃에게 반격" 효과 발동(1턴)[CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신력 반격`,
+                    description: `도발(1턴)을 얻고 방어 상태로 전환. 피격 시, "공격 데미지의 70%로 타깃에게 반격" 효과 발동(1턴)[CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신력 반격`,
+                    description: `도발(1턴)을 얻고 방어 상태로 전환. 피격 시, "공격 데미지의 80%로 타깃에게 반격" 효과 발동(1턴)[CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신력 반격`,
+                    description: `도발(1턴)을 얻고 방어 상태로 전환. 피격 시, "공격 데미지의 90%로 타깃에게 반격" 효과 발동(1턴)[CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신력 반격`,
+                    description: `도발(1턴)을 얻고 방어 상태로 전환. 피격 시, "공격 데미지의 100%로 타깃에게 반격" 효과 발동(1턴)[CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `베기`,
+                    description: `공격 데미지의 50%로 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 격려`,
+                    description: `아군 광속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `천계 전술`,
+                    description: `피격 시, "자신의 공격 데미지 1% 증가(최대 25중첩)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수호의 칼날`,
+                    description: `자신의 공격 데미지 15% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `불멸의 빛`,
+                    description: `궁극기 발동 시, "받는 데미지 감소 효과 25% 증가(1턴)" 효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `트레저헌터(강화 재료↑)`,
+                    description: `파견 진행 시강화 재료2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

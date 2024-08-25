@@ -232,56 +232,56 @@ export const SkillSet_10933: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `총검 돌격`,
+                    description: `자신의 공격 데미지의 37/42/47/52/58%만큼 타깃에게 3회 데미지(동일 효과 2회 더 반복) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `총검 돌격`,
+                    description: `자신의 공격 데미지의 37%만큼 타깃에게 3회 데미지(동일 효과 2회 더 반복) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `총검 돌격`,
+                    description: `자신의 공격 데미지의 42%만큼 타깃에게 3회 데미지(동일 효과 2회 더 반복) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `총검 돌격`,
+                    description: `자신의 공격 데미지의 47%만큼 타깃에게 3회 데미지(동일 효과 2회 더 반복) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `총검 돌격`,
+                    description: `자신의 공격 데미지의 52%만큼 타깃에게 3회 데미지(동일 효과 2회 더 반복) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `총검 돌격`,
+                    description: `자신의 공격 데미지의 58%만큼 타깃에게 3회 데미지(동일 효과 2회 더 반복) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `3연발 사격`,
+                    description: `자신의 공격 데미지의 33.3%만큼 타깃에게 3회 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `선봉 돌격`,
+                    description: `풍속성 아군의 최대 HP 10% 증가, 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `백전병`,
+                    description: `궁극기 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `화력 엄호`,
+                    description: `공격 시 「타깃이 받는 데미지 5% 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `하운드란 이름`,
+                    description: `가하는 데미지 10% 증가`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `트레저헌터(강화 재료↑)`,
+                    description: `파견 진행 시 강화 재료 2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }

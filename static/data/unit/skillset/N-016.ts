@@ -232,56 +232,56 @@ export const SkillSet_10916: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `반격 범위`,
+                    description: `자신에게 도발 효과(1턴) 부여 후, 방어 상태로 전환하여 "피격 시, 공격 데미지 51/58/65/72/79%만큼 적 전체에게 반격"효과 발동(1턴), [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `반격 범위`,
+                    description: `자신에게 도발 효과(1턴) 부여 후, 방어 상태로 전환하여 "피격 시, 공격 데미지 51%만큼 적 전체에게 반격"효과 발동(1턴), [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `반격 범위`,
+                    description: `자신에게 도발 효과(1턴) 부여 후, 방어 상태로 전환하여 "피격 시, 공격 데미지 58%만큼 적 전체에게 반격"효과 발동(1턴), [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `반격 범위`,
+                    description: `자신에게 도발 효과(1턴) 부여 후, 방어 상태로 전환하여 "피격 시, 공격 데미지 65%만큼 적 전체에게 반격"효과 발동(1턴), [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `반격 범위`,
+                    description: `자신에게 도발 효과(1턴) 부여 후, 방어 상태로 전환하여 "피격 시, 공격 데미지 72%만큼 적 전체에게 반격"효과 발동(1턴), [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `반격 범위`,
+                    description: `자신에게 도발 효과(1턴) 부여 후, 방어 상태로 전환하여 "피격 시, 공격 데미지 79%만큼 적 전체에게 반격"효과 발동(1턴), [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `휘둘러 베기`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `불의 축복`,
+                    description: `아군 화속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `불굴의 의지`,
+                    description: `현재 HP가 25% 미만일 시, "공격 데미지 30% 증가, 받는 데미지 50% 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `호신술`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `수호의 사명`,
+                    description: `치유받을 시, "자신의 공격 데미지 15% 증가(1턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타락한 육체(레어 조련 도구↑)`,
+                    description: `파견 진행 시레어 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

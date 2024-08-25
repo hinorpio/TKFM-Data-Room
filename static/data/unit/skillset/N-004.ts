@@ -232,56 +232,56 @@ export const SkillSet_10904: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `학살의 저주술법`,
+                    description: `공격 데미지의 388/445/503/560/618%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `학살의 저주술법`,
+                    description: `공격 데미지의 388%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `학살의 저주술법`,
+                    description: `공격 데미지의 445%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `학살의 저주술법`,
+                    description: `공격 데미지의 503%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `학살의 저주술법`,
+                    description: `공격 데미지의 560%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `학살의 저주술법`,
+                    description: `공격 데미지의 618%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마력의 참격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠의 격려`,
+                    description: `아군 암속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `광란의 학살`,
+                    description: `일반 공격 시, 20% 확률로 "자신의 궁극기 CD 1턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `급소 일격`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `사지분열`,
+                    description: `공격 시, "타깃의 궁극기 CD 1턴 증가"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타락한 육체(레어 조련 도구↑)`,
+                    description: `파견 진행 시레어 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

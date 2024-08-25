@@ -233,56 +233,56 @@ export const SkillSet_10903: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `도발의 일격`,
+                    description: `공격 데미지 265/298/331/364/397%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `도발의 일격`,
+                    description: `공격 데미지 265%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `도발의 일격`,
+                    description: `공격 데미지 298%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `도발의 일격`,
+                    description: `공격 데미지 331%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `도발의 일격`,
+                    description: `공격 데미지 364%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `도발의 일격`,
+                    description: `공격 데미지 397%만큼 타깃에게 데미지, 자신에게 도발 효과(1턴), 자신을 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `구타`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 축복`,
+                    description: `아군 광속성 캐릭터의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자가치유 주문`,
+                    description: `일반 공격 시, 50% 확률로 "HP 4% 회복"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `방어술`,
+                    description: `방어 상태에서 받는 데미지 감소 효과 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 아머`,
+                    description: `궁극기 발동 시, "자신이 받는 데미지 15% 감소(1턴)"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `타고난 색마(일반 조련 도구↑)`,
+                    description: `파견 진행 시일반 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

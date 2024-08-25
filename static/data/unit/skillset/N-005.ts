@@ -232,56 +232,56 @@ export const SkillSet_10905: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 397%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `휘둘러 베기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `불의 격려`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `카운터 공격`,
+                    description: `피격 시, 25% 확률로 "자신의 공격 데미지의 100%로 반격"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `심원의 검술`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파방의 일격`,
+                    description: `일반 공격 시 "타깃의 방어 상태 해제" 효과 추가\n궁극기 발동 시 " 타깃의 방어 상태 해제" 효과 추가`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `노력가(경험치 포션↑)`,
+                    description: `파견 진행 시경험치 포션2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
@@ -516,56 +516,56 @@ export const SkillSet_10905: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `일문자 베기`,
+                    description: `공격 데미지의 397%만큼 타깃에게 데미지, "타깃이 받는 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `휘둘러 베기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `불의 격려`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `카운터 공격`,
+                    description: `피격 시, 25% 확률로 "자신의 공격 데미지의 100%로 반격"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `심원의 검술`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파방의 일격`,
+                    description: `공격 시, "타깃의 방어 상태 해제"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `노력가(경험치 포션↑)`,
+                    description: `파견 진행 시경험치 포션2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

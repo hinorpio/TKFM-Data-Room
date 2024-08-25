@@ -232,56 +232,56 @@ export const SkillSet_10907: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `조준 사격`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지, 자신에게 "일반 공격 데미지 45% 증가(3턴)"효과 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `조준 사격`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지, 자신에게 "일반 공격 데미지 45% 증가(3턴)"효과 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `조준 사격`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지, 자신에게 "일반 공격 데미지 45% 증가(3턴)"효과 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `조준 사격`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지, 자신에게 "일반 공격 데미지 45% 증가(3턴)"효과 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `조준 사격`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지, 자신에게 "일반 공격 데미지 45% 증가(3턴)"효과 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `조준 사격`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지, 자신에게 "일반 공격 데미지 45% 증가(3턴)"효과 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `사격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 격려`,
+                    description: `아군 풍속성 캐릭터의 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `연사 테크닉`,
+                    description: `일반 공격 시, 25% 확률로 "공격 데미지의 100%만큼 타깃에게 데미지"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `장력 상승`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 질주`,
+                    description: `각 웨이브의 첫 번째 턴에서, "자신의 궁극기 CD 2턴 감소"효과 발동`
                 },
                 [SkillType.DISPATCH]: {
-                    name: ``,
-                    description: ``
+                    name: `트레저헌터(강화 재료↑)`,
+                    description: `파견 진행 시강화 재료2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
