@@ -4,6 +4,40 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0146',
+            type: EventType.POINT,
+            startDate: '2024/08/28',
+            endDate: '2024/09/11',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【來自星空的妳-復刻-】`,
+                [Locale.sc]: `【来自星空的妳-复刻-】`,
+                [Locale.en]: `[From the Stars -Comeback-]`,
+                [Locale.jp]: `「星から来たあなた-復刻-」`,
+                [Locale.kr]: `【별에서 온 그녀-복각-】`
+            },
+            image: EventBanner.EVENT_0057,
+            newUnit: []
+        },
+        {
+            code: '0147',
+            type: EventType.CHALLENGE,
+            startDate: '2024/09/04',
+            endDate: '2024/09/11',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【朋友與加班-復刻-】`,
+                [Locale.sc]: `【朋友与加班-复刻-】`,
+                [Locale.en]: `[Friends and Overtime -Comeback-]`,
+                [Locale.jp]: `「友達と残業-復刻-」`,
+                [Locale.kr]: `【친구와 야근-복각-】`
+            },
+            image: EventBanner.EVENT_0058,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0144',
             type: EventType.POINT,
             startDate: '2024/08/14',
