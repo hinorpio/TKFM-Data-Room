@@ -231,56 +231,56 @@ export const SkillSet_10061: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `얼레얼레`,
+                    description: `자신을 방어 상태로 전환. 아군 전체가 받는 데미지 50% 감소(1턴). 아군 전체는 피격 시, "자신이 받는 데미지 25/22.5/20/17.5/15% 증가(1턴)" 효과 발동.[CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `얼레얼레`,
+                    description: `자신을 방어 상태로 전환. 아군 전체가 받는 데미지 50% 감소(1턴). 아군 전체는 피격 시, "자신이 받는 데미지 25% 증가(1턴)" 효과 발동.[CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `얼레얼레`,
+                    description: `자신을 방어 상태로 전환. 아군 전체가 받는 데미지 50% 감소(1턴). 아군 전체는 피격 시, "자신이 받는 데미지 22.5% 증가(1턴)" 효과 발동.[CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `얼레얼레`,
+                    description: `자신을 방어 상태로 전환. 아군 전체가 받는 데미지 50% 감소(1턴). 아군 전체는 피격 시, "자신이 받는 데미지 20% 증가(1턴)" 효과 발동.[CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `얼레얼레`,
+                    description: `자신을 방어 상태로 전환. 아군 전체가 받는 데미지 50% 감소(1턴). 아군 전체는 피격 시, "자신이 받는 데미지 17.5% 증가(1턴)" 효과 발동.[CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `얼레얼레`,
+                    description: `자신을 방어 상태로 전환. 아군 전체가 받는 데미지 50% 감소(1턴). 아군 전체는 피격 시, "자신이 받는 데미지 15% 증가(1턴)" 효과 발동.[CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `발굽 공격`,
+                    description: `공격 데미지의 100%만큼 현재 적 타깃에게 데미지.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `엄마가 지켜줄게`,
+                    description: `아군 전체의 최대 HP 50% 증가. 아군 전체의 아머 효과 50% 감소.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `콜라겐`,
+                    description: `방어 시, "최대 HP의 10%만큼 자신을 회복" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `모성애`,
+                    description: `피격 시, "아군 전체가 받는 일반 공격 데미지 2.5% 감소(최대 4중첩)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `혈기왕성`,
+                    description: `자신의 최대 HP 30% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

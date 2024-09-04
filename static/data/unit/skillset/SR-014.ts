@@ -231,56 +231,56 @@ export const SkillSet_10055: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신사의 무희`,
+                    description: `아군 전체의 공격 데미지 1.5/1.75/2/2.25/2.5% 증가(최대 10중첩), 자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 공격 데미지의 60/70/80/90/100%만큼 아군 전체를 치유 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신사의 무희`,
+                    description: `아군 전체의 공격 데미지 1.5% 증가(최대 10중첩), 자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 공격 데미지의 60%만큼 아군 전체를 치유 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신사의 무희`,
+                    description: `아군 전체의 공격 데미지 1.75% 증가(최대 10중첩), 자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 공격 데미지의 70%만큼 아군 전체를 치유 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신사의 무희`,
+                    description: `아군 전체의 공격 데미지 2% 증가(최대 10중첩), 자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 공격 데미지의 80%만큼 아군 전체를 치유 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신사의 무희`,
+                    description: `아군 전체의 공격 데미지 2.25% 증가(최대 10중첩), 자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 공격 데미지의 90%만큼 아군 전체를 치유 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신사의 무희`,
+                    description: `아군 전체의 공격 데미지 2.5% 증가(최대 10중첩), 자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 공격 데미지의 100%만큼 아군 전체를 치유 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `유혹의 자태`,
+                    description: `자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `순결한 무희`,
+                    description: `자신의 공격 데미지 50% 증가, 아군 전체의 최대 HP 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `요조숙녀`,
+                    description: `일반 공격 시 「아군 전체의 궁극기 데미지 2% 증가(최대 5중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `도읍 최고의 무녀`,
+                    description: `궁극기 발동 시 「아군 전체의 일반 공격 데미지 10% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전국 최고의 무녀`,
+                    description: `궁극기 발동 시 「아군 전체의 공격 데미지 10% 증가(최대 3중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

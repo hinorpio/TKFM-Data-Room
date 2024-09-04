@@ -231,56 +231,56 @@ export const SkillSet_10012: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `전 전체가 "받는 데미지 20% 증가(1턴)" 효과 획득. 공격 데미지의 133/149/166/182/199%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `전 전체가 "받는 데미지 20% 증가(1턴)" 효과 획득. 공격 데미지의 133%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `전 전체가 "받는 데미지 20% 증가(1턴)" 효과 획득. 공격 데미지의 149%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `전 전체가 "받는 데미지 20% 증가(1턴)" 효과 획득. 공격 데미지의 166%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `전 전체가 "받는 데미지 20% 증가(1턴)" 효과 획득. 공격 데미지의 182%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `전 전체가 "받는 데미지 20% 증가(1턴)" 효과 획득. 공격 데미지의 199%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `난사`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `속공인법・질`,
+                    description: `첫 번째 턴 시작 시, "아군 전체의 궁극기 CD 4턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `즉효성 독약`,
+                    description: `일반 공격 시, "공격 데미지의 33%로 적 전체에게 추가 공격" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `집중인법・일엽`,
+                    description: `첫 번째 턴 시작 시, "자신의 공격 데미지 20% 증가(4턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `선제인법・식갑`,
+                    description: `각 웨이브의 첫 번째 턴에서 "적 전체가 받는 데미지 20% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10012: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `공격 데미지의 133/149/166/182/199%만큼 아군 전체에게 데미지, 적 전체가 "받는 데미지 20% 증가(1턴)" [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `공격 데미지의 133%만큼 아군 전체에게 데미지, 적 전체가 "받는 데미지 20% 증가(1턴)" [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `공격 데미지의 149%만큼 아군 전체에게 데미지, 적 전체가 "받는 데미지 20% 증가(1턴)" [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `공격 데미지의 166%만큼 아군 전체에게 데미지, 적 전체가 "받는 데미지 20% 증가(1턴)" [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `공격 데미지의 182%만큼 아군 전체에게 데미지, 적 전체가 "받는 데미지 20% 증가(1턴)" [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `인법・고통 흘리기`,
+                    description: `공격 데미지의 199%만큼 아군 전체에게 데미지, 적 전체가 "받는 데미지 20% 증가(1턴)" [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `난사`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `속공인법・질`,
+                    description: `첫 번째 턴 시작 시, "아군 전체의 궁극기 CD 4턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `즉효성 독약`,
+                    description: `일반 공격 시, "공격 데미지의 20%로 적 전체에게 추가 공격" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `집중인법・일엽`,
+                    description: `첫 번째 턴 시작 시, "자신의 공격 데미지 20% 증가(4턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `선제인법・식갑`,
+                    description: `각 웨이브의 첫 번째 턴에서 "적 전체가 받는 데미지 20% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10013: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 266/282/298/315/331%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 266%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 282%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 315%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `종베기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `신기・약점 간파`,
+                    description: `각 웨이브의 첫 번째 턴에서, "타깃이 받는 데미지 30% 증가(50턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신무류・추격 베기`,
+                    description: `일반 공격 시, "공격 데미지의 30%만큼 타깃에게 추가 공격"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신무류・무쇠 가르기`,
+                    description: `공격 시, "타깃이 받는 데미지 5% 증가(최대 5중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `호・기・만・천`,
+                    description: `공격 시, "자신의 공격 데미지 6% 증가(최대 5중첩)" 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10013: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신무이도류・멸천일격`,
+                    description: `공격 데미지의 397%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(최대 3중첩)"효과 발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `종베기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `신기・약점 간파`,
+                    description: `각 웨이브의 첫 번째 턴에서, "타깃이 받는 데미지 30% 증가(50턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신무류・추격 베기`,
+                    description: `일반 공격 시, "공격 데미지의 30%만큼 타깃에게 추가 공격"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신무류・무쇠 가르기`,
+                    description: `공격 시, "타깃이 받는 데미지 5% 증가(최대 5중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `호・기・만・천`,
+                    description: `공격 시, "자신의 공격 데미지 6% 증가(최대 5중첩)" 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

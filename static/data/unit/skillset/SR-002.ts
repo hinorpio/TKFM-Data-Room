@@ -231,56 +231,56 @@ export const SkillSet_10010: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 수호`,
+                    description: `최대 HP의 37.9/42.6/47.3/52.0/56.7%만큼 자신의 아머 강화(1턴), 1턴간 도발 효과, 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 수호`,
+                    description: `최대 HP의 37.9%만큼 자신의 아머 강화(1턴), 1턴간 도발 효과, 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 수호`,
+                    description: `최대 HP의 42.6%만큼 자신의 아머 강화(1턴), 1턴간 도발 효과, 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 수호`,
+                    description: `최대 HP의 47.3%만큼 자신의 아머 강화(1턴), 1턴간 도발 효과, 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 수호`,
+                    description: `최대 HP의 52.0%만큼 자신의 아머 강화(1턴), 1턴간 도발 효과, 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 수호`,
+                    description: `최대 HP의 56.7%만큼 자신의 아머 강화(1턴), 1턴간 도발 효과, 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `참격`,
+                    description: `공격 데미지의 50%만큼 타깃에게 데미지, 최대 HP의 7.5%만큼 자신의 아머 강화(2턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `솔선수범의 성기사단장`,
+                    description: `레오나의 최대 HP 50% 증가, 궁극기 CD 1턴 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `두려움을 모르는 마음`,
+                    description: `자신이 받는 데미지 10% 감소`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `일수불퇴`,
+                    description: `최대 HP 15% 증가, 치유를 받을 시 회복량 15% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 빛의 기사단의 방패`,
+                    description: `HP가 25%보다 적을 시, "받는 데미지 75% 감소" 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10016: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `제108계・전군격파`,
+                    description: `공격 데미지의 133/149/166/166/166%만큼 적 전체에게 데미지, "적 전체의 궁극기 CD 1턴 증가, 적 전체의 공격 데미지 15/15/15/20/20% 감소(1턴), 적 전체가 받는 궁극기 데미지 15/15/15/15/20% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `제108계・전군격파`,
+                    description: `공격 데미지의 133%만큼 적 전체에게 데미지, "적 전체의 궁극기 CD 1턴 증가, 적 전체의 공격 데미지 15% 감소(1턴), 적 전체가 받는 궁극기 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `제108계・전군격파`,
+                    description: `공격 데미지의 149%만큼 적 전체에게 데미지, "적 전체의 궁극기 CD 1턴 증가, 적 전체의 공격 데미지 15% 감소(1턴), 적 전체가 받는 궁극기 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `제108계・전군격파`,
+                    description: `공격 데미지의 166%만큼 적 전체에게 데미지, "적 전체의 궁극기 CD 1턴 증가, 적 전체의 공격 데미지 15% 감소(1턴), 적 전체가 받는 궁극기 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `제108계・전군격파`,
+                    description: `공격 데미지의 166%만큼 적 전체에게 데미지, "적 전체의 궁극기 CD 1턴 증가, 적 전체의 공격 데미지 20% 감소(1턴), 적 전체가 받는 궁극기 데미지 15% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `제108계・전군격파`,
+                    description: `공격 데미지의 166%만큼 적 전체에게 데미지, "적 전체의 궁극기 CD 1턴 증가, 적 전체의 공격 데미지 20% 감소(1턴), 적 전체가 받는 궁극기 데미지 20% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마광의 칼날`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `제26계・파상진격`,
+                    description: `자신에게 "3턴마다 아군 전체의 공격 데미지 50% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `간파`,
+                    description: `일반 공격 시, "적 전체의 공격 데미지 5% 감소(1턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `후속 배틀 배치 최적화`,
+                    description: `공격 시, "아군 전체의 받는 치유 회복량 22.5% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `제27계・파동 추격`,
+                    description: `3턴마다 "적 전체가 받는 데미지 25% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

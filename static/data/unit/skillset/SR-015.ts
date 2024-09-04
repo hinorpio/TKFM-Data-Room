@@ -231,56 +231,56 @@ export const SkillSet_10041: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `전 제 직업이 정말 좋아요!`,
+                    description: `자신의 공격 데미지 20% 증가 (4턴), 공격 데미지의 80/85/90/95/100%만큼 아군 전체를 치유, 아군 전체에게 [매턴마다 공격 데미지 40/40/50/50/60%의 수치만큼 치유(4턴)] 효과 부여 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전 제 직업이 정말 좋아요!`,
+                    description: `자신의 공격 데미지 20% 증가 (4턴), 공격 데미지의 80%만큼 아군 전체를 치유, 아군 전체에게 [매턴마다 공격 데미지 40%의 수치만큼 치유(4턴)] 효과 부여 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전 제 직업이 정말 좋아요!`,
+                    description: `자신의 공격 데미지 20% 증가 (4턴), 공격 데미지의 85%만큼 아군 전체를 치유, 아군 전체에게 [매턴마다 공격 데미지 40%의 수치만큼 치유(4턴)] 효과 부여 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전 제 직업이 정말 좋아요!`,
+                    description: `자신의 공격 데미지 20% 증가 (4턴), 공격 데미지의 90%만큼 아군 전체를 치유, 아군 전체에게 [매턴마다 공격 데미지 50%의 수치만큼 치유(4턴)] 효과 부여 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `전 제 직업이 정말 좋아요!`,
+                    description: `자신의 공격 데미지 20% 증가 (4턴), 공격 데미지의 95%만큼 아군 전체를 치유, 아군 전체에게 [매턴마다 공격 데미지 50%의 수치만큼 치유(4턴)] 효과 부여 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `전 제 직업이 정말 좋아요!`,
+                    description: `자신의 공격 데미지 20% 증가 (4턴), 공격 데미지의 100%만큼 아군 전체를 치유, 아군 전체에게 [매턴마다 공격 데미지 60%의 수치만큼 치유(4턴)] 효과 부여 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `오늘도 수고 많았어요~`,
+                    description: `공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `모험가 길드에 오신 것을 환영합니다!`,
+                    description: `아군 전체의 공격 데미지 30% 증가\n아군 전체의 HP 30% 증가\n아군 전체가 받는 치유 효과 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `오늘의 의뢰들이에요~`,
+                    description: `첫 번째 턴 시작 시, [자신을 제외한 동료들의 일반 공격 데미지 20% 증가 (최대 1중첩), 궁극기 데미지 10% 증가 (최대 1중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `여러분, 부디 몸조심하세요!`,
+                    description: `자신이 받는 데미지 10% 감소\n일반 공격 시, [자신이 부여하는 치유량 10% 증가 (최대 2중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `여러분의 든든한 지원군이 되어드릴 거예요!`,
+                    description: `자신의 궁극기 최대 CD 1턴 감소\n자신이 부여하는 지속 치유 효과 10% 증가\n공격 시, [아군 전체의 일반 공격 데미지 4% 증가 (5턴)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지속 치유+`,
+                    description: `자신이 부여하는 지속 치유 효과 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

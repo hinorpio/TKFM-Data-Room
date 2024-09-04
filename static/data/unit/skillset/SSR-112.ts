@@ -52,11 +52,11 @@ export const SkillSet_10142: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `咕嚕咕嚕滾啊滾∼`,
-                    description: `我方全體攻擊者獲得《扶正腦袋》\n\n《扶正腦袋》\n必殺時．觸發「使我方『夏日 千鶴』攻擊力增加20%(4回合)」`
+                    description: `我方全體攻擊者獲得《扶正腦袋》\n\n《扶正腦袋》\n必殺時・觸發「使我方『夏日 千鶴』攻擊力增加20%(4回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `婚紗兵裝。力量強化`,
-                    description: `第一回合時，觸發「使自身當前必殺技CD減少4回合」\n必殺時．觸發「使目標受到傷害增加20%(最多2層)」`
+                    description: `第一回合時，觸發「使自身當前必殺技CD減少4回合」\n必殺時・觸發「使目標受到傷害增加20%(最多2層)」`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻擊+ (6潛)`,
@@ -106,11 +106,11 @@ export const SkillSet_10142: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `咕噜咕噜滚啊滚∼`,
-                    description: `我方全体攻击者获得《扶正脑袋》\n\n《扶正脑袋》\n必杀时．触发「使我方『夏日 千鹤』攻击力增加20%(4回合)」`
+                    description: `我方全体攻击者获得《扶正脑袋》\n\n《扶正脑袋》\n必杀时・触发「使我方『夏日 千鹤』攻击力增加20%(4回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `婚纱兵装。力量强化`,
-                    description: `第一回合时，触发「使自身当前必杀技CD减少4回合」\n必杀时．触发「使目标受到伤害增加20%(最多2层)」`
+                    description: `第一回合时，触发「使自身当前必杀技CD减少4回合」\n必杀时・触发「使目标受到伤害增加20%(最多2层)」`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻击+ (6潜)`,

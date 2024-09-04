@@ -231,56 +231,56 @@ export const SkillSet_10046: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `찌르기 준비`,
+                    description: `자신의 공격 데미지의 265/298/331/364%만큼 타깃에게 데미지.타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). [CD: 3]\n\nLv5: 타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). 자신의 공격 데미지의 397%만큼 타깃에게 데미지. [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `찌르기 준비`,
+                    description: `자신의 공격 데미지의 265%만큼 타깃에게 데미지.타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `찌르기 준비`,
+                    description: `자신의 공격 데미지의 298%만큼 타깃에게 데미지.타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `찌르기 준비`,
+                    description: `자신의 공격 데미지의 331%만큼 타깃에게 데미지.타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `찌르기 준비`,
+                    description: `자신의 공격 데미지의 364%만큼 타깃에게 데미지.타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `찌르기 준비`,
+                    description: `타깃이 방어 상태에서 받는 데미지 감소 효과 15% 감소(3턴). 자신의 공격 데미지의 397%만큼 타깃에게 데미지. [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `꿰뚫기 공격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `초자연의 돌격`,
+                    description: `자신의 공격 데미지 50% 증가. 공격 시, "타깃의 도발 상태 해제" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `약점 발견`,
+                    description: `궁극기 발동 시, "타깃이 받는 가벨의 데미지 15% 증가(최대 3중첩)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정면돌파`,
+                    description: `첫 번째 턴 시작 시, "아군 전체가 방어 상태인 타깃에게 데미지 100% 증가(50턴)" 효과 획득.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `어리숙한 웃음`,
+                    description: `자신의 공격 데미지 30% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

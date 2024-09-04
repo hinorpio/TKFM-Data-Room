@@ -231,56 +231,56 @@ export const SkillSet_10009: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 30/35/40/45/50% 증가 (1턴), 공격 대미지의 100%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 30% 증가 (1턴), 공격 대미지의 100%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 35% 증가 (1턴), 공격 데미지의 100%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 40% 증가 (1턴), 공격 대미지의 100%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 45% 증가 (1턴), 공격 대미지의 100%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 50% 증가 (1턴), 공격 대미지의 100%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치료술`,
+                    description: `공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `아이카의 밀착 서비스`,
+                    description: `아군 3번 자리 동료의 공격 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `최고의 원군`,
+                    description: `일반 공격 시, "아군 3번 자리 동료의 공격 데미지 10% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `세심한 보살핌`,
+                    description: `궁극기 발동 시, "아군 3번 자리 동료의 침묵, 마비, 수면 효과 제거"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전력으로 공격!`,
+                    description: `공격 시, "아군 3번 자리 동료의 공격 데미지 감소, 일반 공격 데미지 감소, 궁극기 데미지 감소 효과 제거"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10009: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 30/35/40/45/50% 증가 (1턴), 공격 대미지의 75%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 30% 증가 (1턴), 공격 대미지의 75%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 35% 증가 (1턴), 공격 데미지의 75%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 40% 증가 (1턴), 공격 대미지의 75%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 45% 증가 (1턴), 공격 대미지의 75%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 메이드의 비기・마력 주입`,
+                    description: `아군 3번 자리 동료의 공격 데미지 50% 증가 (1턴), 공격 대미지의 75%만큼 아군 전체를 치유, 아군 3번 자리 동료의 궁극기 CD 4턴 감소 효과 부여 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치료술`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `아이카의 밀착 서비스`,
+                    description: `아군 3번 자리 동료의 공격 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `최고의 원군`,
+                    description: `일반 공격 시, "아군 3번 자리 동료의 공격 데미지 10% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `세심한 보살핌`,
+                    description: `궁극기 발동 시, "아군 3번 자리 동료의 침묵, 마비, 수면 효과 제거"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전력으로 공격!`,
+                    description: `공격 시, "아군 3번 자리 동료의 공격 데미지 감소, 일반 공격 데미지 감소, 궁극기 데미지 감소 효과 제거"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

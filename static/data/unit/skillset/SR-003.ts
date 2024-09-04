@@ -231,56 +231,56 @@ export const SkillSet_10011: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 95/110/125/140/155%만큼 아군 전체를 치유, 공격 데미지의 120/138/156/174/192%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 95%만큼 아군 전체를 치유, 공격 데미지의 120%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 110%만큼 아군 전체를 치유, 공격 데미지의 138%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 125%만큼 아군 전체를 치유, 공격 데미지의 156%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 140%만큼 아군 전체를 치유, 공격 데미지의 174%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 155%만큼 아군 전체를 치유, 공격 데미지의 192%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `수호술`,
+                    description: `공격 데미지의 50%만큼 아군 전체의 아머 강화(2턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `부상 방지의 기도`,
+                    description: `아군 전체의 아머 강화 효가 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 치유의 손길`,
+                    description: `일반 공격 시, "아군 전체가 매턴 공격 데미지의 15%만큼 자신을 치유(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 가호`,
+                    description: `피격 시, "자신이 받는 피해 10% 감소(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `성일의 도래`,
+                    description: `자신의 아머 강화 효과 30% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10011: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 66/75.9/85.8/95.7/105.6%만큼 아군 전체를 치유, 공격 데미지의 101.6/116.9/132.1/147.4/162.6%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 66%만큼 아군 전체를 치유, 공격 데미지의 101.6%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 75.9%만큼 아군 전체를 치유, 공격 데미지의 116.9%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 85.8%만큼 아군 전체를 치유, 공격 데미지의 132.1%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 95.7%만큼 아군 전체를 치유, 공격 데미지의 147.4%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 축복`,
+                    description: `공격 데미지의 105.6%만큼 아군 전체를 치유, 공격 데미지의 162.6%만큼 아군 전체의 아머 강화(2턴) [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `수호술`,
+                    description: `공격 데미지의 38.5%만큼 아군 전체의 아머 강화(2턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `부상 방지의 기도`,
+                    description: `아군 전체의 아머 강화 효가 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `성스러운 치유의 손길`,
+                    description: `일반 공격 시, "아군 전체가 매턴 공격 데미지의 15%만큼 자신을 치유(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 가호`,
+                    description: `피격 시, "자신이 받는 피해 10% 감소(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `성일의 도래`,
+                    description: `자신의 아머 강화 효과 30% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

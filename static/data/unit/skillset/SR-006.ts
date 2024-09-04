@@ -231,56 +231,56 @@ export const SkillSet_10014: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `음양술・봉마`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지, 50% 확률로 타깃에게 침묵 2턴 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `음양술・봉마`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지, 50% 확률로 타깃에게 침묵 2턴 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `음양술・봉마`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지, 50% 확률로 타깃에게 침묵 2턴 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `음양술・봉마`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지, 50% 확률로 타깃에게 침묵 2턴 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `음양술・봉마`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지, 50% 확률로 타깃에게 침묵 2턴 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `음양술・봉마`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지, 50% 확률로 타깃에게 침묵 2턴 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `주술`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `항마 결계`,
+                    description: `아군 전체는 침묵 면역, 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `결박의 술`,
+                    description: `공격 시, "타깃의 일반 공격 데미지 15% 감소(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `오행유지(五行流止)`,
+                    description: `공격 시, "타깃이 치유를 받을 시 회복량 50% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `호요술・환혹`,
+                    description: `3턴마다 "타깃의 공격 데미지 15% 감소, 타깃이 받는 데미지 15% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

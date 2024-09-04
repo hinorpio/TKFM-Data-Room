@@ -231,56 +231,56 @@ export const SkillSet_10038: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
+                    name: `필살기・마법소녀 빔!`,
                     description: ``
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `필살기・마법소녀 빔!`,
+                    description: `타깃이 받는 광속성 데미지 30% 증가(최대 1중첩). 공격 데미지의 445%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `필살기・마법소녀 빔!`,
+                    description: `타깃이 받는 광속성 데미지 30% 증가(최대 1중첩). 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `필살기・마법소녀 빔!`,
+                    description: `타깃이 받는 광속성 데미지 30% 증가(최대 1중첩). 공격 데미지의 583%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `필살기・마법소녀 빔!`,
+                    description: `타깃이 받는 광속성 데미지 30% 증가(최대 1중첩). 공격 데미지의 652%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `필살기・마법소녀 빔!`,
+                    description: `타깃이 받는 광속성 데미지 30% 증가(최대 1중첩). 공격 데미지의 721%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀의 선풍검!`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `사랑과 희망의 빛!`,
+                    description: `아군 광속성 동료의 공격 데미지 30% 증가. 자신의 궁극기 데미지 25% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 제재!`,
+                    description: `궁극기 발동 시, 50% 확률로 "자신의 궁극기 CD 2턴 감소" 효과 발동(1턴)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정의는 굴복하지 않아!`,
+                    description: `궁극기 발동 시, "자신의 궁극기 데미지 40% 증가(4턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀의 아우라!`,
+                    description: `궁극기 발동 시, "적 전체가 받는 광속성 데미지 20% 증가(4턴)" 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

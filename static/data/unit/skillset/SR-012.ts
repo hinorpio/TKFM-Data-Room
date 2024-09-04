@@ -231,56 +231,56 @@ export const SkillSet_10051: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인된 힘`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지. 타깃의 일반 공격 데미지 60/80/100/100/200% 감소[Lv1-3: (1턴)][Lv4+: (효과가 3턴 동안 차츰 감소)].[CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인된 힘`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지. 타깃의 일반 공격 데미지 60% 감소(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인된 힘`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지. 타깃의 일반 공격 데미지 80% 감소(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인된 힘`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지. 타깃의 일반 공격 데미지 100% 감소(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인된 힘`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지. 타깃의 일반 공격 데미지 100% 감소(효과가 3턴 동안 차츰 감소).[CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인된 힘`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지. 타깃의 일반 공격 데미지 200% 감소(효과가 3턴 동안 차츰 감소).[CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `은룡의 발톱`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `봉인 의식`,
+                    description: `아군 전체가 공격 시, "타깃의 궁극기 데미지 10% 감소(1턴)" 효과 획득.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `제1의 봉인`,
+                    description: `일반 공격 시, "타깃의 일반 공격 데미지 20% 감소(1턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `제2의 봉인`,
+                    description: `공격 시, 타깃의 공격 데미지 15% 감소(1턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `최후의 봉인`,
+                    description: `매 5턴마다 "공격시, 타깃의 데미지 12.5% 감소(최대 2중첩) 효과 발동(1턴)" 효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

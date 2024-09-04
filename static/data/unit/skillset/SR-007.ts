@@ -231,56 +231,56 @@ export const SkillSet_10015: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3/3/3/4/4턴), 공격 데미지의 400/460/520/520/520%만큼 타깃에게 데미지 [CD: 5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3턴), 공격 데미지의 400%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3턴), 공격 데미지의 460%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3턴), 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(4턴), 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(4턴), 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `자돌`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `평등의 검`,
+                    description: `아군 전체는 속성로 인해 받는 데미지 감소 효과 100% 감소, 공격 데미지 10% 증가, 받는 데미지 7.5% 감소, 최대 HP 15% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공수겸비`,
+                    description: `일반 공격 시 "자신의 공격 데미지 5% 증가(3턴), 받는 데미지 3.3% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `제국의 검술`,
+                    description: `자신의 일반 공격 데미지 40% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파스제국의 검술 전법`,
+                    description: `궁극기 발동 시, "동료의 공격 데미지 15% 증가, 동료가 받는 데미지 10% 감소(4턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10015: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3/3/3/4/4턴), 공격 데미지의 400/460/520/520/520%만큼 타깃에게 데미지 [CD: 5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3턴), 공격 데미지의 400%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3턴), 공격 데미지의 460%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(3턴), 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(4턴), 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `공수일체・광속 꿰뚫기`,
+                    description: `자신의 공격 데미지 15% 증가, 자신이 받는 데미지 10% 감소(4턴), 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `자돌`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `평등의 검`,
+                    description: `아군 전체는 속성로 인해 받는 데미지 감소 효과 100% 감소, 공격 데미지 10% 증가, 받는 데미지 7.5% 감소.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공수겸비`,
+                    description: `일반 공격 시 "자신의 공격 데미지 5% 증가(2턴), 받는 데미지 3.3% 감소(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `제국의 검술`,
+                    description: `자신의 일반 공격 데미지 30% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `파스제국의 검술 전법`,
+                    description: `궁극기 발동 시, "동료의 공격 데미지 15% 증가, 동료가 받는 데미지 10% 감소(2턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

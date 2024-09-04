@@ -231,56 +231,56 @@ export const SkillSet_10036: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `끈적끈적 미끌미끌`,
+                    description: `적 전체의 공격 데미지 10/12.5/15/15/15% 감소(1/1/1/2/2턴), 매턴마다 자신의 공격 데미지 200%로 자신을 회복(2턴) [CD:5] [Lv5: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `끈적끈적 미끌미끌`,
+                    description: `적 전체의 공격 데미지 10% 감소(1턴), 매턴마다 자신의 공격 데미지 200%로 자신을 회복(2턴) [CD:5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `끈적끈적 미끌미끌`,
+                    description: `적 전체의 공격 데미지 12.5% 감소(1턴), 매턴마다 자신의 공격 데미지 200%로 자신을 회복(2턴) [CD:5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `끈적끈적 미끌미끌`,
+                    description: `적 전체의 공격 데미지 15% 감소(1턴), 매턴마다 자신의 공격 데미지 200%로 자신을 회복(2턴) [CD:5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `끈적끈적 미끌미끌`,
+                    description: `적 전체의 공격 데미지 15% 감소(2턴), 매턴마다 자신의 공격 데미지 200%로 자신을 회복(2턴) [CD:5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `끈적끈적 미끌미끌`,
+                    description: `적 전체의 공격 데미지 15% 감소(2턴), 매턴마다 자신의 공격 데미지 200%로 자신을 회복(2턴) [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `점액 공격`,
+                    description: `타깃의 공격 데미지 20% 감소(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `나는 착한 슬라임이야`,
+                    description: `자신의 최대 HP 30% 증가. 매 4턴마다 "타깃의 받는 데미지 15% 증가(2턴), 자신의 받는 치유량 30% 증가(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `에너지 젤리`,
+                    description: `일반 공격 시, "공격 데미지의 100%만큼 HP가 가장 적은 동료 치유"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `시선강탈`,
+                    description: `자신의 받는 데미지 감소 효과 10% 증가. 매 4턴마다 "자신에게 도발(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `슬라임의 내성`,
+                    description: `피격 시, "자신이 받는 피해 15% 감소(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `회복량+`,
+                    description: `치유를 받을 시 회복량 15% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
