@@ -232,56 +232,56 @@ export const SkillSet_10805: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 혼`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 혼`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 혼`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 혼`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 혼`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 혼`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지, 75% 확률로 타깃을 1턴간 침묵 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `채찍질`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠의 포옹`,
+                    description: `아군 암속성 캐릭터가 받는 광속성 데미지 50% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `솟구치는 색욕`,
+                    description: `피격 시, 25% 확률로 "자신의 공격 데미지 15% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `맨손 봉사 테크닉`,
+                    description: `자신의 일반 공격 데미지 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `세바스의 착취술`,
+                    description: `4턴마다 "자신의 공격 데미지 30% 증가(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `음란한 본성(레어&일반 조련 도구↑)`,
+                    description: `파견 진행 시일반 조련 도구2배 획득률 초소폭(Lv1) 증가.레어 조련 도구2배 획득률 초소폭(Lv1) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

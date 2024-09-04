@@ -160,11 +160,11 @@ export const SkillSet_10094: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `Mimicry`,
-                    description: `On the first turn, trigger "Evolution Endeavor"\n\nEvolution Endeavor:\nOn Basic Attack, give all party members "Quick Learner" for 50 turns.\nWhen guarding, give all party members other than yourself "Adaptable" for 50 turns.\n\nQuick Learner:\nOn Ultimate Skill, increase your Damage Output by 20% for 4 turns.\n\nAdaptable:\nOn Ultimate Skill, increase Unknown Organism Geneva's Attack Power by 25% of your own Attack Power for 1 turn.`
+                    description: `On the 4th turn, trigger "Devour Stage 1"\nOn the 7th turn, trigger "Devour Stage 2"\nOn the 10th turn, trigger "Devour Stage 3"\n\nDevour Stage 1:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 20% (Max 1 Stack) for 1 turn.\n\nDevour Stage 2:\nOn Ultimate Skill, increase your Damage Output by 20% (Max 1 Stack) for 1 turn.\n\nDevour Stage 3:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 40% (Max 1 Stack) for 1 turn.`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `Star Swallower`,
-                    description: `On the 4th turn, trigger "Devour Stage 1"\nOn the 7th turn, trigger "Devour Stage 2"\nOn the 10th turn, trigger "Devour Stage 3"\n\nDevour Stage 1:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 20% (Max 1 Stack) for 1 turn.\n\nDevour Stage 2:\nOn Ultimate Skill, increase your Damage Output by 20% (Max 1 Stack) for 1 turn.\n\nDevour Stage 3:\nOn Ultimate Skill, increase your Ultimate Skill Damage by 40% (Max 1 Stack) for 1 turn.`
+                    description: `On the first turn, trigger "Evolution Endeavor"\n\nEvolution Endeavor:\nOn Basic Attack, give all party members "Quick Learner" for 50 turns.\nWhen guarding, give all party members other than yourself "Adaptable" for 50 turns.\n\nQuick Learner:\nOn Ultimate Skill, increase your Damage Output by 20% for 4 turns.\n\nAdaptable:\nOn Ultimate Skill, increase Unknown Organism Geneva's Attack Power by 25% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `Reduce Damage`,
@@ -214,11 +214,11 @@ export const SkillSet_10094: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `擬態算出`,
-                    description: `1ターン目に「《進化の岐路》」を誘発する\n\n《進化の岐路》\n通常攻撃時「味方全体が『《積極的学習》』を得る」を誘発する(1ターン)\n防御時「自分以外のメンバーが『《消極的適応》』を得る」を誘発する(1ターン)\n\n《積極的学習》\n必殺技攻撃時「自分が与えるダメージを20%増加させる(4ターン)」を誘発する(50ターン)\n\n《消極的適応》\n必殺技攻撃時「自分の攻撃力の25%分、未知の生命体ジベールの攻撃力を増加させる(1ターン)」を誘発する(50ターン)`
+                    description: `4ターン目に「《占領段階・1》」を誘発する\n7ターン目に「《占領段階・2》」を誘発する\n10ターン目に「《占領段階・3》」を誘発する\n\n《占領段階・1》\n必殺技攻撃時「自分の必殺技ダメージを20%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《占領段階・2》\n必殺技攻撃時「自分が与えるダメージを20%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《占領段階・3》\n必殺技攻撃時「自分の必殺技ダメージを40%増加させる(最高1スタック)」を誘発する(1ターン)`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `星の占領者`,
-                    description: `4ターン目に「《占領段階・1》」を誘発する\n7ターン目に「《占領段階・2》」を誘発する\n10ターン目に「《占領段階・3》」を誘発する\n\n《占領段階・1》\n必殺技攻撃時「自分の必殺技ダメージを20%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《占領段階・2》\n必殺技攻撃時「自分が与えるダメージを20%増加させる(最高1スタック)」を誘発する(1ターン)\n\n《占領段階・3》\n必殺技攻撃時「自分の必殺技ダメージを40%増加させる(最高1スタック)」を誘発する(1ターン)`
+                    description: `1ターン目に「《進化の岐路》」を誘発する\n\n《進化の岐路》\n通常攻撃時「味方全体が『《積極的学習》』を得る」を誘発する(1ターン)\n防御時「自分以外のメンバーが『《消極的適応》』を得る」を誘発する(1ターン)\n\n《積極的学習》\n必殺技攻撃時「自分が与えるダメージを20%増加させる(4ターン)」を誘発する(50ターン)\n\n《消極的適応》\n必殺技攻撃時「自分の攻撃力の25%分、未知の生命体ジベールの攻撃力を増加させる(1ターン)」を誘発する(50ターン)`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `ダメージ減少+`,

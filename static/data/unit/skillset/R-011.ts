@@ -232,56 +232,56 @@ export const SkillSet_10811: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `의료 지원`,
+                    description: `자신의 공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유. 자신의 공격 데미지의 82.5/94/105.5/117/128.5%만큼 HP가 가장 적은 동료를 치유. [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `의료 지원`,
+                    description: `자신의 공격 데미지의 165%만큼 아군 전체를 치유. 자신의 공격 데미지의 82.5%만큼 HP가 가장 적은 동료를 치유. [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `의료 지원`,
+                    description: `자신의 공격 데미지의 188%만큼 아군 전체를 치유. 자신의 공격 데미지의 94%만큼 HP가 가장 적은 동료를 치유. [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `의료 지원`,
+                    description: `자신의 공격 데미지의 211%만큼 아군 전체를 치유. 자신의 공격 데미지의 105.5%만큼 HP가 가장 적은 동료를 치유. [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `의료 지원`,
+                    description: `자신의 공격 데미지의 234%만큼 아군 전체를 치유. 자신의 공격 데미지의 117%만큼 HP가 가장 적은 동료를 치유. [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `의료 지원`,
+                    description: `자신의 공격 데미지의 257%만큼 아군 전체를 치유. 자신의 공격 데미지의 128.5%만큼 HP가 가장 적은 동료를 치유. [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `응급처치`,
+                    description: `공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `전선 의무관`,
+                    description: `자신의 치유량 50% 증가. 공격력 20% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `즉단 즉결`,
+                    description: `일반 공격 시, "자신의 공격 데미지의 30%만큼 HP가 가장 적은 동료를 치유"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `베테랑의 손길`,
+                    description: `자신의 치유량 15% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `생사 무감`,
+                    description: `4턴마다 "자신의 공격 데미지 12% 증가(최대 3중첩)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `차가운 미녀 (경험치 포션↑↑)`,
+                    description: `파견 진행 시 경험치 포션의 더블 획득 확률이 소폭 증가 Lv2(모든 지역 적용)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

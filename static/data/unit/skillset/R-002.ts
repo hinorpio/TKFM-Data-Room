@@ -232,56 +232,56 @@ export const SkillSet_10802: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・질풍조`,
+                    description: `공격 데미지의 265/398/331/364/397%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・질풍조`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・질풍조`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・질풍조`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・질풍조`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・질풍조`,
+                    description: `공격 데미지의 397%만큼 타깃에게 데미지, "타깃이 받는 데미지 10% 증가(1턴)"효과 발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `발톱 공격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 힘`,
+                    description: `아군 풍속성 캐릭터의 공격 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `흉터 새기기`,
+                    description: `공격 시, 50% 확률로 "타깃이 받는 데미지 10% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `흥분 상태`,
+                    description: `궁극기 발동 시, "자신의 일반 공격 데미지 20% 증가(3턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이 체술・2연격이다냥`,
+                    description: `일반 공격 시, "공격 데미지의 50%만큼 타깃에게 데미지"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `고양이의 직감(빈손으로 귀환↓↓)`,
+                    description: `파견 진행 시빈손으로 귀환확률 소폭 감소 (전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

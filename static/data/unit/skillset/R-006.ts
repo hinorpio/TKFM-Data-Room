@@ -232,56 +232,56 @@ export const SkillSet_10806: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 193.8/222.5/251.3/280/308.8%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 193.8%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 222.5%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 251.3%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 280%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 308.8%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `회복의 음표`,
+                    description: `공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `격려곡`,
+                    description: `아군 전체가 수면 효과 면역, 받는 데미지 10% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자가치유력`,
+                    description: `피격 시, 15% 확률로 "공격 데미지의 100%만큼 자신을 치유"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 음표`,
+                    description: `자신을 치유할 시 자신이 받는 치유량 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `노래 시간`,
+                    description: `4턴마다 "아군 전체가 받는 치유량 20% 증가(2턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Happy Ending(구매 허가증↑↑)`,
+                    description: `파견 진행 시구매 허가증2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -515,56 +515,56 @@ export const SkillSet_10806: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 165%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 188%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 211%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 234%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 노래`,
+                    description: `공격 데미지의 257%만큼 아군 전체를 치유, 66% 확률로 타깃에게 2턴간 수면 효과 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `회복의 음표`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `격려곡`,
+                    description: `아군 전체가 수면 효과 면역, 받는 데미지 10% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자가치유력`,
+                    description: `피격 시, 15% 확률로 "공격 데미지의 100%만큼 자신을 치유"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 음표`,
+                    description: `자신을 치유할 시 자신이 받는 치유량 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `노래 시간`,
+                    description: `4턴마다 "아군 전체가 받는 치유량 20% 증가(2턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `Happy Ending(구매 허가증↑↑)`,
+                    description: `파견 진행 시구매 허가증2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

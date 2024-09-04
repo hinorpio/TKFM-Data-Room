@@ -232,56 +232,56 @@ export const SkillSet_10812: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리의 마법`,
+                    description: `공격 데미지의 194/223/251/280/309%만큼 아군 전체를 치유. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리의 마법`,
+                    description: `공격 데미지의 194%만큼 아군 전체를 치유. [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리의 마법`,
+                    description: `공격 데미지의 223%만큼 아군 전체를 치유. [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리의 마법`,
+                    description: `공격 데미지의 251%만큼 아군 전체를 치유. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리의 마법`,
+                    description: `공격 데미지의 280%만큼 아군 전체를 치유. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리의 마법`,
+                    description: `공격 데미지의 309%만큼 아군 전체를 치유. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치유 마법`,
+                    description: `공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `다크 에너지`,
+                    description: `아군 암속성 캐릭터의 공격 데미지 10% 증가, 최대 HP 10% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `트릭 올 트릿`,
+                    description: `일반 공격 시, 20% 확률로 "공격 데미지의 35%만큼 HP가 가장 적은 아군을 치유"효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `할로윈의 트릭!`,
+                    description: `궁극기 발동 시, 20% 확률로 "자신의 공격 데미지 50% 증가(3턴)"효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 회수~!`,
+                    description: `일반 공격 시, 20% 확률로 "자신의 현재 궁극기 CD 1턴 감소"효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `페어리 오나홀 (레어 조련 도구↑↑)`,
+                    description: `파견 진행 시레어 조련 도구2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

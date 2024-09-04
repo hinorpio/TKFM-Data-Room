@@ -232,56 +232,56 @@ export const SkillSet_10807: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 폭발`,
+                    description: `공격 데미지의 330/353/373/399/422%만큼 타깃에게 데미지, 자신의 공격 데미지 10% 증가(최대 3중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 폭발`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지, 자신의 공격 데미지 10% 증가(최대 3중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 폭발`,
+                    description: `공격 데미지의 353%만큼 타깃에게 데미지, 자신의 공격 데미지 10% 증가(최대 3중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 폭발`,
+                    description: `공격 데미지의 373%만큼 타깃에게 데미지, 자신의 공격 데미지 10% 증가(최대 3중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 폭발`,
+                    description: `공격 데미지의 399%만큼 타깃에게 데미지, 자신의 공격 데미지 10% 증가(최대 3중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 폭발`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지, 자신의 공격 데미지 10% 증가(최대 3중첩) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `화염구`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `화염 증폭의 마법진`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마력의 영동`,
+                    description: `공격 시, 25% 확률로 "자신의 공격 데미지 30% 증가(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마력 집중술`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `시간 겹치기`,
+                    description: `궁극기 발동 시, 50% 확률로 "자신의 궁극기 CD 2턴 감소"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `연구를 위해(강화 재료↑↑)`,
+                    description: `파견 진행 시강화 재료2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

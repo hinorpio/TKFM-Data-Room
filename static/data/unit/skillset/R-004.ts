@@ -232,56 +232,56 @@ export const SkillSet_10804: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `충의의 수호`,
+                    description: `자신에게 받는 데미지 10/12.5/15/17.5/20% 감소 효과(2턴), 도발 효과(2턴), 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `충의의 수호`,
+                    description: `자신에게 받는 데미지 10% 감소 효과(2턴), 도발 효과(2턴), 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `충의의 수호`,
+                    description: `자신에게 받는 데미지 12.5% 감소 효과(2턴), 도발 효과(2턴), 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `충의의 수호`,
+                    description: `자신에게 받는 데미지 15% 감소 효과(2턴), 도발 효과(2턴), 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `충의의 수호`,
+                    description: `자신에게 받는 데미지 17.5% 감소 효과(2턴), 도발 효과(2턴), 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `충의의 수호`,
+                    description: `자신에게 받는 데미지 20% 감소 효과(2턴), 도발 효과(2턴), 방어 상태로 전환 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `발톱 공격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `고요한 물결의 가호`,
+                    description: `아군 풍속성 캐릭터가 받는 수속성 데미지 12.5% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `은혜에 대한 보답`,
+                    description: `치유를 받을 시, "매턴 공격 데미지의 25%만큼 자신을 치유(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `간단한 기쁨`,
+                    description: `자신이 받는 치유량 12.5% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `감사의 마음`,
+                    description: `치유를 받을 시, 50% 확률로 "자신의 궁극기 CD 1턴 감소"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `민감한 후각(빈손으로 귀환↓↓)`,
+                    description: `파견 진행 시빈손으로 귀환확률 소폭 감소 (전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

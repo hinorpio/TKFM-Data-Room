@@ -232,56 +232,56 @@ export const SkillSet_10803: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `용염`,
+                    description: `공격 데미지의 200%만큼 적 전체에게 데미지, "공격 데미지의 37.5/43.1/48.8/54.4/60.0%만큼 매턴 적에게 데미지(20턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `용염`,
+                    description: `공격 데미지의 200%만큼 적 전체에게 데미지, "공격 데미지의 37.5%만큼 매턴 적에게 데미지(20턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `용염`,
+                    description: `공격 데미지의 200%만큼 적 전체에게 데미지, "공격 데미지의 43.1%만큼 매턴 적에게 데미지(20턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `용염`,
+                    description: `공격 데미지의 200%만큼 적 전체에게 데미지, "공격 데미지의 48.8%만큼 매턴 적에게 데미지(20턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `용염`,
+                    description: `공격 데미지의 200%만큼 적 전체에게 데미지, "공격 데미지의 54.4%만큼 매턴 적에게 데미지(20턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `용염`,
+                    description: `공격 데미지의 200%만큼 적 전체에게 데미지, "공격 데미지의 60.0%만큼 매턴 적에게 데미지(20턴)"효과 발동 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `화염의 숨결`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `신염의 가호`,
+                    description: `아군 화속성 캐릭터가 받는 풍속성 데미지 12.5% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `용인족의 힘`,
+                    description: `공격 시, "자신의 공격 데미지 6% 증가(최대 15중첩)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `용의 혼`,
+                    description: `자신의 궁극기 최대 CD 1턴 감소`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `진룡 해방`,
+                    description: `궁극기 발동 시, "자신의 공격 데미지 20% 증가(최대 5중첩)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `명량쾌활(경험치 포션↑↑)`,
+                    description: `파견 진행 시경험치 포션 2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

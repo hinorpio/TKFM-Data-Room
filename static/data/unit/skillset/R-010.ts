@@ -232,56 +232,56 @@ export const SkillSet_10810: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `바... 발로 차버릴 거예요!`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `바... 발로 차버릴 거예요!`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `바... 발로 차버릴 거예요!`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `바... 발로 차버릴 거예요!`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `바... 발로 차버릴 거예요!`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `바... 발로 차버릴 거예요!`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `파...파이팅!`,
+                    description: `아군 전체의 공격 데미지 25% 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `튼튼한 육체`,
+                    description: `자신의 최대 HP 40% 증가. 자신의 공격 데미지 40% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `달지 않은 차`,
+                    description: `일반 공격 시, 50% 확률로 "아군 전체의 공격 데미지 10% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `싱거운 수프`,
+                    description: `공격 시, 20% 확률로 "자신의 공격 데미지 35% 증가(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `견딜 수 없는 고통`,
+                    description: `자신의 최대 HP 30% 증가. 공격 데미지 30% 증가.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `샘솟는 성수(일반 조련 도구↑↑)`,
+                    description: `파견 진행 시 일반 조련 도구의 더블 획득 확률이 소폭 증가 Lv2(모든 지역 적용)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

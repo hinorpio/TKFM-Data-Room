@@ -232,56 +232,56 @@ export const SkillSet_10801: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 96.9/111.3/125.6/140/154.4%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 96.9%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 111.3%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 125.6%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 140%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 154.4%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치유`,
+                    description: `공격 데미지의 150%만큼 HP가 가장 적은 아군을 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠을 향한 저항 의지`,
+                    description: `아군 광속성 캐릭터가 받는 암속성 데미지 50% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빠른 치유`,
+                    description: `일반 공격 시, "HP가 가장 적은 아군은 매턴 공격 데미지의 25%만큼 자신을 치유(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `따뜻한 후원`,
+                    description: `턴마다 "HP가 가장 적은 아군이 받는 치유 회복량 30% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `따뜻한 배려`,
+                    description: `궁극기 발동 시, "HP가 가장 적은 아군의 받는 데미지 증가, 방어 감소, 받는 치유 회복량 감소 효과 제거"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `타락한 유부여(일반 조련 도구↑↑)`,
+                    description: `파견 진행 시일반 조련 도구 2배 획득률 소폭(Lv2) 증가 (전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
@@ -515,56 +515,56 @@ export const SkillSet_10801: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 92.8/105.8/118.7/131.6/144.6%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 92.8%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 105.8%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 118.7%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 131.6%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `전심 수호`,
+                    description: `공격 데미지의 165%만큼 HP가 가장 적은 아군을 치유, "매턴 공격 데미지의 144.6%만큼 자신을 치유(4턴), 자신이 받는 데미지 15% 감소(4턴)"효과 발동 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치유`,
+                    description: `공격 데미지의 100%만큼 HP가 가장 적은 아군을 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠을 향한 저항 의지`,
+                    description: `아군 광속성 캐릭터가 받는 암속성 데미지 50% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빠른 치유`,
+                    description: `일반 공격 시, "HP가 가장 적은 아군은 매턴 공격 데미지의 25%만큼 자신을 치유(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `따뜻한 후원`,
+                    description: `턴마다 "HP가 가장 적은 아군이 받는 치유 회복량 30% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `따뜻한 배려`,
+                    description: `궁극기 발동 시, "HP가 가장 적은 아군의 받는 데미지 증가, 방어 감소, 받는 치유 회복량 감소 효과 제거"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `타락한 유부여(일반 조련 도구↑↑)`,
+                    description: `파견 진행 시일반 조련 도구 2배 획득률 소폭(Lv2) 증가 (전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

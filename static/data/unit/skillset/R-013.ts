@@ -232,56 +232,56 @@ export const SkillSet_10813: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마성의 매력`,
+                    description: `자신의 공격 데미지의 48.5/55/63/70/77%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마성의 매력`,
+                    description: `자신의 공격 데미지의 48.5%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마성의 매력`,
+                    description: `자신의 공격 데미지의 55%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마성의 매력`,
+                    description: `자신의 공격 데미지의 63%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마성의 매력`,
+                    description: `자신의 공격 데미지의 70%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마성의 매력`,
+                    description: `자신의 공격 데미지의 77%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `매혹의 미소`,
+                    description: `자신의 공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `암수 구별의 어려움`,
+                    description: `아군 광속성, 암속성이 받는 데미지 10%감소, 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `보일락 말락 치마`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `「그」는 사실......`,
+                    description: `자신의 공격 데미지 15% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `어느쪽이든 상관없어♡`,
+                    description: `자신이 가하는 지속형 치유량 20% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스토이 전문가(희귀 조교 아이템↑↑)`,
+                    description: `파견 진행 시레어 조련 도구2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

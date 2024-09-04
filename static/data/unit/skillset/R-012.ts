@@ -232,56 +232,56 @@ export const SkillSet_10809: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `괴도의 원칙`,
+                    description: `타깃의 일반 공격 데미지 10/12/12/15/15% 감소(3턴), 궁극기 데미지 10% 감소(3턴), 자신의 일반 공격 데미지 10/12/12/15/15% 증가(3턴), 궁극기 데미지 10% 증가(3턴), 자신의 공격 데미지 265/298/331/364/397%만큼 타깃에게 데미지[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `괴도의 원칙`,
+                    description: `타깃의 일반 공격 데미지 10% 감소(3턴), 궁극기 데미지 10% 감소(3턴), 자신의 일반 공격 데미지 10% 증가(3턴), 궁극기 데미지 10% 증가(3턴), 자신의 공격 데미지 265%만큼 타깃에게 데미지[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `괴도의 원칙`,
+                    description: `타깃의 일반 공격 데미지 12% 감소(3턴), 궁극기 데미지 10% 감소(3턴), 자신의 일반 공격 데미지 12% 증가(3턴), 궁극기 데미지 10% 증가(3턴), 자신의 공격 데미지 298%만큼 타깃에게 데미지[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `괴도의 원칙`,
+                    description: `타깃의 일반 공격 데미지 12% 감소(3턴), 궁극기 데미지 10% 감소(3턴), 자신의 일반 공격 데미지 12% 증가(3턴), 궁극기 데미지 10% 증가(3턴), 자신의 공격 데미지 331%만큼 타깃에게 데미지[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `괴도의 원칙`,
+                    description: `타깃의 일반 공격 데미지 15% 감소(3턴), 궁극기 데미지 10% 감소(3턴), 자신의 일반 공격 데미지 15% 증가(3턴), 궁극기 데미지 10% 증가(3턴), 자신의 공격 데미지 364%만큼 타깃에게 데미지[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `괴도의 원칙`,
+                    description: `타깃의 일반 공격 데미지 15% 감소(3턴), 궁극기 데미지 10% 감소(3턴), 자신의 일반 공격 데미지 15% 증가(3턴), 궁극기 데미지 10% 증가(3턴), 자신의 공격 데미지 397%만큼 타깃에게 데미지[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `트릭샷`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람을 타는 마음`,
+                    description: `아군 풍속성 캐릭터의 공격 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `당근 연막탄`,
+                    description: `일반 공격 시, 「타깃이 받는 치유량 25% 감소(2턴), 타깃이 받는 아머 강화 효과 15% 감소(2턴)」효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `흥분 상태`,
+                    description: `궁극기 발동 시, 「자신의 공격 데미지 20% 증가(3턴)」효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `버니 매직`,
+                    description: `일반 공격 데미지 40% 증가, 궁극기 데미지 20% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `음탕 본색(레어 조련 아이템↑↑)`,
+                    description: `파견 진행 시레어 조련 도구2배 획득률 소폭(Lv2) 증가(전지역 효과)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
