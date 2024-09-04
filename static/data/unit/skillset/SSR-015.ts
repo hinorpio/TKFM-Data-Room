@@ -231,56 +231,56 @@ export const SkillSet_10029: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `워터 슬라이드 최고!`,
+                    description: `자신의 공격 데미지 365/417/470/523%만큼 타깃에게 데미지, 타깃이 받는 데미지 20% 증가(최대 1중첩) [CD: 4]\n\nLv5: 타깃이 받는 데미지 20%증가(최대 1중첩), 자신의 공격 데미지의 576%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `워터 슬라이드 최고!`,
+                    description: `자신의 공격 데미지 365%만큼 타깃에게 데미지, 타깃이 받는 데미지 20% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `워터 슬라이드 최고!`,
+                    description: `자신의 공격 데미지 417%만큼 타깃에게 데미지, 타깃이 받는 데미지 20% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `워터 슬라이드 최고!`,
+                    description: `자신의 공격 데미지 470%만큼 타깃에게 데미지, 타깃이 받는 데미지 20% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `워터 슬라이드 최고!`,
+                    description: `자신의 공격 데미지 523%만큼 타깃에게 데미지, 타깃이 받는 데미지 20% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `워터 슬라이드 최고!`,
+                    description: `타깃이 받는 데미지 20%증가(최대 1중첩), 자신의 공격 데미지의 576%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `여름날의 주술`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `다들~전력을 다해 놀아보자구!`,
+                    description: `아군 전체의 딜러 공격 데미지 60% 증가, 아군 전체 침묵 면역`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `튜브 결박술!`,
+                    description: `공격 시, "타깃의 공격 데미지 10% 감소(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `요호술・환통`,
+                    description: `공격 시, "타깃이 받는 데미지 4.5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `멈출 수 없는 즐거움`,
+                    description: `자신의 공격 데미지 40% 증가; 궁극기 발동 시, "100%의 확률로 타깃에게 침묵(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

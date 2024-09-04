@@ -231,56 +231,56 @@ export const SkillSet_10057: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `종극의 암흑 화염 저승길의 섬멸진?`,
+                    description: `자신의 공격 데미지 165/188/188/211/211%만큼 아군 전체에게 아머 강화(2턴), 자신의 공격 데미지 30/30/30/30/40%만큼 아군 전체의 공격 데미지 증가(2턴) [CD: 4] [Lv3+: CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `종극의 암흑 화염 저승길의 섬멸진?`,
+                    description: `자신의 공격 데미지 165%만큼 아군 전체에게 아머 강화(2턴), 자신의 공격 데미지 30%만큼 아군 전체의 공격 데미지 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `종극의 암흑 화염 저승길의 섬멸진?`,
+                    description: `자신의 공격 데미지 188%만큼 아군 전체에게 아머 강화(2턴), 자신의 공격 데미지 30%만큼 아군 전체의 공격 데미지 증가(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `종극의 암흑 화염 저승길의 섬멸진?`,
+                    description: `자신의 공격 데미지 188%만큼 아군 전체에게 아머 강화(2턴), 자신의 공격 데미지 30%만큼 아군 전체의 공격 데미지 증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `종극의 암흑 화염 저승길의 섬멸진?`,
+                    description: `자신의 공격 데미지 211%만큼 아군 전체에게 아머 강화(2턴), 자신의 공격 데미지 30%만큼 아군 전체의 공격 데미지 증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `종극의 암흑 화염 저승길의 섬멸진?`,
+                    description: `자신의 공격 데미지 211%만큼 아군 전체에게 아머 강화(2턴), 자신의 공격 데미지 40%만큼 아군 전체의 공격 데미지 증가(2턴) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `암흑의 저승 결계`,
+                    description: `자신의 공격 데미지 50%만큼 아군 전체에게 아머 강화(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `저승 심연의 켈베로스!`,
+                    description: `아군 1, 3, 5번 자리 멤버의 공격 데미지 33% 증가, 궁극기 데미지 15% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 발톱!`,
+                    description: `자신의 일반 공격 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `심연의 해머`,
+                    description: `첫 번째 턴 시작 시 "2, 4번 자리 멤버가 받는 피해량 15% 감소(50턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `명계의 서의 계시`,
+                    description: `매 6턴마다 "아군 1, 3, 5번 자리 멤버의 궁극기 데미지 50% 증가(2턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10028: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12/12/12/15/18% 증가(최대 2중첩). 공격 데미지의 330/376/422/422/422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12% 증가(최대 2중첩). 공격 데미지의 330%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12% 증가(최대 2중첩). 공격 데미지의 376%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12% 증가(최대 2중첩). 공격 데미지의 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 15% 증가(최대 2중첩). 공격 데미지의 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 18% 증가(최대 2중첩). 공격 데미지의 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `정권`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `각성 치즈루!`,
+                    description: `자신의 공격 데미지 90% 증가, 궁극기 데미지 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `불사의 육체`,
+                    description: `자신이 받는 데미지 15% 감소하지만 받는 화속성 데미지 30% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `방어 가속`,
+                    description: `방어 시, "자신의 궁극기 CD 1턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `열풍의 격려`,
+                    description: `궁극기 발동 시, "아군의 풍속성 캐릭터의 궁극기 데미지 15% 증가(최대 2중첩)"효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10028: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12/12/12/15/18% 증가(최대 2중첩). 공격 데미지의 330/376/422/422/422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12% 증가(최대 2중첩). 공격 데미지의 330%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12% 증가(최대 2중첩). 공격 데미지의 376%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 12% 증가(최대 2중첩). 공격 데미지의 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 15% 증가(최대 2중첩). 공격 데미지의 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `치즈루 전력의 일격!`,
+                    description: `타깃이 받는 풍속성 데미지 18% 증가(최대 2중첩). 공격 데미지의 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `정권`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `각성 치즈루!`,
+                    description: `자신의 공격 데미지 90% 증가, 일반 공격 데미지 45% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `불사의 육체`,
+                    description: `자신이 받는 데미지 15% 감소하지만 받는 화속성 데미지 30% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `방어 가속`,
+                    description: `방어 시, "자신의 궁극기 CD 1턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `열풍의 격려`,
+                    description: `궁극기 발동 시, "아군의 풍속성 캐릭터의 공격 데미지 15% 증가(최대 2중첩)"효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

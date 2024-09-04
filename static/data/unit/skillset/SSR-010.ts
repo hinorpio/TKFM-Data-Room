@@ -231,56 +231,56 @@ export const SkillSet_10008: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `전지역 섬멸 모드・가동`,
+                    description: `자신에게 "공격 데미지 100/105/110/115/125% 증가(최대 2중첩)"효과 발동 [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전지역 섬멸 모드・가동`,
+                    description: `자신에게 "공격 데미지 100% 증가(최대 2중첩)"효과 발동 [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전지역 섬멸 모드・가동`,
+                    description: `자신에게 "공격 데미지 105% 증가(최대 2중첩)"효과 발동 [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전지역 섬멸 모드・가동`,
+                    description: `자신에게 "공격 데미지 110% 증가(최대 2중첩)"효과 발동 [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `전지역 섬멸 모드・가동`,
+                    description: `자신에게 "공격 데미지 115% 증가(최대 2중첩)"효과 발동 [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `전지역 섬멸 모드・가동`,
+                    description: `자신에게 "공격 데미지 125% 증가(최대 2중첩)"효과 발동 [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `기총소사`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `최종 병기 소녀 모드`,
+                    description: `첫째 턴 시작 시, "자신의 공격 데미지 400% 증가(6턴), 궁극기 CD 카운트다운 정지(2턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자아 학습 전투 시스템`,
+                    description: `공격 시, "자신의 공격 데미지 2% 증가(최대 10중첩)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `방어 모드・전환`,
+                    description: `방어 시, "공격 데미지의 100%만큼 자신에게 아머 강화(3턴) 효과, 하지만 타깃에게 가하는 데미지 50% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마인드 센서포・가동`,
+                    description: `일반 공격 시, "공격 데미지의 20%만큼 타깃에게 3회 추가 공격"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

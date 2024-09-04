@@ -231,56 +231,56 @@ export const SkillSet_10032: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `빛나는 모래사장이다냥!`,
+                    description: `자신의 공격 데미지 15% 증가(2턴) [Lv5], 타깃에게 "받는 궁극기 데미지 35% 증가(1턴)"효과 발동 후, 공격 데미지의 475/550/625/700/775%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빛나는 모래사장이다냥!`,
+                    description: `타깃에게 "받는 궁극기 데미지 35% 증가(1턴)"효과 발동 후, 공격 데미지의 475%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빛나는 모래사장이다냥!`,
+                    description: `타깃에게 "받는 궁극기 데미지 35% 증가(1턴)"효과 발동 후, 공격 데미지의 550%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `빛나는 모래사장이다냥!`,
+                    description: `타깃에게 "받는 궁극기 데미지 35% 증가(1턴)"효과 발동 후, 공격 데미지의 625%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `빛나는 모래사장이다냥!`,
+                    description: `타깃에게 "받는 궁극기 데미지 35% 증가(1턴)"효과 발동 후, 공격 데미지의 700%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `빛나는 모래사장이다냥!`,
+                    description: `자신의 공격 데미지 15% 증가(2턴), 타깃에게 "받는 궁극기 데미지 35% 증가(1턴)"효과 발동 후, 공격 데미지의 775%만큼 타깃에게 데미지 [CD: 6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `자외선 차단 육구 공격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `묘비술오의・모래바람 냥이`,
+                    description: `첫 번째 턴 시작 시, 아군 전체가 공격 획득할 경우 "공격 데미지의 65%만큼 타깃에게 데미지"효과(50턴) 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `화상을 조심해라냥`,
+                    description: `공격 시, "타깃의 받는 치유량 50% 감소(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `방심하지 않았다구`,
+                    description: `궁극기 발동 시, "자신의 공격 데미지 30% 증가(최대 1중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `민첩한 몸놀림`,
+                    description: `공격 시, "아군 전체의 궁극기 데미지 5% 증가(최대 6중첩)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

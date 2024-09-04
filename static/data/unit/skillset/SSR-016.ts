@@ -231,56 +231,56 @@ export const SkillSet_10030: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `여름이 최고!`,
+                    description: `아군 전체의 공격 데미지 20/25/25/30/30% 증가(2턴). 아군 힐러 및 서포터 공격 획득 시, "아군 전체의 공격 데미지 15/15/20/20/25% 증가(1턴) 효과"발동(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `여름이 최고!`,
+                    description: `아군 전체의 공격 데미지 20% 증가(2턴). 아군 힐러 및 서포터 공격 획득 시, "아군 전체의 공격 데미지 15% 증가(1턴) 효과"발동(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `여름이 최고!`,
+                    description: `아군 전체의 공격 데미지 25% 증가(2턴). 아군 힐러 및 서포터 공격 획득 시, "아군 전체의 공격 데미지 15% 증가(1턴) 효과"발동(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `여름이 최고!`,
+                    description: `아군 전체의 공격 데미지 25% 증가(2턴). 아군 힐러 및 서포터 공격 획득 시, "아군 전체의 공격 데미지 20% 증가(1턴) 효과"발동(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `여름이 최고!`,
+                    description: `아군 전체의 공격 데미지 30% 증가(2턴). 아군 힐러 및 서포터 공격 획득 시, "아군 전체의 공격 데미지 20% 증가(1턴) 효과"발동(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `여름이 최고!`,
+                    description: `아군 전체의 공격 데미지 30% 증가(2턴). 아군 힐러 및 서포터 공격 획득 시, "아군 전체의 공격 데미지 25% 증가(1턴) 효과"발동(2턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `공주의 응원`,
+                    description: `자신의 공격 데미지 30%만큼 아군 전체의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `집결! 공주호위대`,
+                    description: `아군 전체의 힐러, 서포터가 "일반 공격 시 공격 데미지의 100%만큼 타깃에게 데미지", 궁극기 발동 시 "공격 데미지의 200%만큼 타깃에게 데미지"효과 추가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `루루는 아픈 게 싫다구요`,
+                    description: `궁극기 발동 시, "자신의 공격 데미지 100%만큼 아군 전체에 아머 강화(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `루루를 괴롭히면 안 돼요~`,
+                    description: `4턴마다 "타깃의 피격 데미지 35% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `난 강해질 거예요`,
+                    description: `첫 번째 턴 시작 시, "아군 힐러 및 서포터의 궁극기 데미지 40% 증가(50턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

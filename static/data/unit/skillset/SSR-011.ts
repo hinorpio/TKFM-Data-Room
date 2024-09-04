@@ -231,56 +231,56 @@ export const SkillSet_10037: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 330/376/376/422/468%만큼 타깃에게 데미지. 100/110/120/130/150%확률로 타깃에게 마비 1턴. [CD: 4] [Lv3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지. 100%확률로 타깃에게 마비 1턴. [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지. 110%확률로 타깃에게 마비 1턴. [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지. 120%확률로 타깃에게 마비 1턴. [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지. 130%확률로 타깃에게 마비 1턴. [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지. 150%확률로 타깃에게 마비 1턴. [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `물어뜯기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `정열의 춤사위`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 35% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지연 독액`,
+                    description: `궁극기 발동 시, "타깃의 현재 궁극기 CD 2턴 증가"효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `카두케우스의 물어뜯기`,
+                    description: `일반 공격 시, "타깃이 받는 일반 공격 데미지 10% 증가(3턴)"효과 발동.\n궁극기 발동 시, "타깃이 받는 궁극기 데미지 15% 증가(2턴)"효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `메스, 케이티, 협공!`,
+                    description: `공격 시, "타깃이 받는 일반 공격 데미지 4% 증가(최대 5중첩), 받는 궁극기 데미지 3% 증가(최대 5중첩), 데미지 4% 감소(최대 5중첩)"효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10037: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 330/376/422/422/422%만큼 타깃에게 데미지를 가한 후, 다시 100%의 확률로 타깃에게 1턴간 마비 부여. 하지만 타깃의 마비 확률도 25/25/25/20/20% 감소(25턴) [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지를 가한 후, 다시 100%의 확률로 타깃에게 1턴간 마비 부여. 하지만 타깃의 마비 확률도 25% 감소(25턴) [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지를 가한 후, 다시 100%의 확률로 타깃에게 1턴간 마비 부여. 하지만 타깃의 마비 확률도 25% 감소(25턴) [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지를 가한 후, 다시 100%의 확률로 타깃에게 1턴간 마비 부여. 하지만 타깃의 마비 확률도 25% 감소(25턴) [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지를 가한 후, 다시 100%의 확률로 타깃에게 1턴간 마비 부여. 하지만 타깃의 마비 확률도 20% 감소(25턴) [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `휘감아 물어뜯기`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지를 가한 후, 다시 100%의 확률로 타깃에게 1턴간 마비 부여. 하지만 타깃의 마비 확률도 20% 감소(25턴) [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `물어뜯기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `정열의 춤사위`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 35% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `메스의 물어뜯기`,
+                    description: `일반 공격 시, "타깃이 받는 일반 공격 데미지 7.5% 증가(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `케이티의 물어뜯기`,
+                    description: `궁극기 발동 시, "타깃이 받는 궁극기 데미지 15% 증가(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `메스, 케이티, 협공!`,
+                    description: `공격 시, "타깃이 받는 일반 공격 데미지 2% 증가(최대 10중첩), 받는 궁극기 데미지 1.5% 증가(최대 10중첩)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10031: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 265/298%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 15% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]\n\nLv3+: 타깃의 궁극기 CD [1/1/2]턴 증가, 부여하는 데미지 15/20/20% 감소(1턴), 받는 데미지 15/20/20% 증가(3턴), 공격 데미지의 331/364/397%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 15% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 15% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `타깃의 궁극기 CD 1턴 증가, 부여하는 데미지 15% 감소(1턴), 받는 데미지 15% 증가(3턴), 공격 데미지의 331%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `타깃의 궁극기 CD 1턴 증가, 부여하는 데미지 20% 감소(1턴), 받는 데미지 20% 증가(3턴), 공격 데미지의 364%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `타깃의 궁극기 CD 2턴 증가, 부여하는 데미지 20% 감소(1턴), 받는 데미지 20% 증가(3턴), 공격 데미지의 397%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `발리볼 어택`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `신뢰가는 해변의 보디가드`,
+                    description: `각 Wave 첫 번째 턴에서  "타깃이 받는 궁극기 데미지 50% 증가(50턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `약점 분석`,
+                    description: `자신의 궁극기 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고속 미니 어뢰`,
+                    description: `3턴마다 자신이 공격 획득 시, "자신의 공격 데미지 40%만큼 타깃에게 추가 공격 3회(1턴)"효과 발동\n공격 시, [타깃이 받는 효과 발동의 데미지 7.5% 증가(최대 4중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `어획용 음폭탄`,
+                    description: `4턴마다 자신이 공격 획득 시, "자신의 공격 데미지 50%만큼 적 전체에게 추가 공격 4회(1턴)"효과 발동\n궁극기 발동 시, [적 전체가 받는 효과 발동의 데미지 32.5% 증가(최대 1중첩)] 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10031: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 265/298/331/331/364%만큼 타깃에게 데미지, 타깃의 궁극기 CD [1/1/1/1/2]턴 증가, 공격 데미지 15/15/15/20/20% 감소(1턴), 받는 데미지 15/15/15/20/20%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 265%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 15% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 298%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 15% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 15% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 331%만큼 타깃에게 데미지, 타깃의 궁극기 CD 1턴 증가, 공격 데미지 20% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `출력 120%・스매시`,
+                    description: `공격 데미지의 364%만큼 타깃에게 데미지, 타깃의 궁극기 CD 2턴 증가, 공격 데미지 20% 감소(1턴), 받는 데미지 15%증가(3턴) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `발리볼 어택`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `신뢰가는 해변의 보디가드`,
+                    description: `각 Wave 첫 번째 턴에서  "타깃이 받는 궁극기 데미지 50% 증가(50턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `약점 분석`,
+                    description: `자신의 궁극기 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고속 미니 어뢰`,
+                    description: `3턴마다 자신이 공격 획득 시, "자신의 공격 데미지 40%만큼 타깃에게 추가 공격 3회(1턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `어획용 음폭탄`,
+                    description: `4턴마다 자신이 공격 획득 시, "자신의 공격 데미지 50%만큼 적 전체에게 추가 공격 4회(1턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10035: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `쪽빛 방직`,
+                    description: `공격 데미지의 388/445/503/560/618%만큼 현재 적 타깃에게 데미지. 각 아군이 자신의 최대 HP 15%만큼 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `쪽빛 방직`,
+                    description: `공격 데미지의 388%만큼 현재 적 타깃에게 데미지. 각 아군이 자신의 최대 HP 15%만큼 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `쪽빛 방직`,
+                    description: `공격 데미지의 445%만큼 현재 적 타깃에게 데미지. 각 아군이 자신의 최대 HP 15%만큼 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `쪽빛 방직`,
+                    description: `공격 데미지의 503%만큼 현재 적 타깃에게 데미지. 각 아군이 자신의 최대 HP 15%만큼 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `쪽빛 방직`,
+                    description: `공격 데미지의 560%만큼 현재 적 타깃에게 데미지. 각 아군이 자신의 최대 HP 15%만큼 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `쪽빛 방직`,
+                    description: `공격 데미지의 618%만큼 현재 적 타깃에게 데미지. 각 아군이 자신의 최대 HP 15%만큼 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `봉제`,
+                    description: `공격 데미지의 100%만큼 현재 적 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `뒤엉킨 운명・블루`,
+                    description: `아군 화속성과 수속성 동료가 "피해량 50% 증가" 효과 획득.\n첫 번째 턴 시작 시 "자신과 붉은 재단사 아나스티의 궁극기 데미지 20% 증가(50턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `푸른 봉제`,
+                    description: `자신의 궁극기 데미지 30% 증가.\n"붉은 재단사 아나스티"가 아군 측에서 살아 있을 경우, "자신이 받는 풍속성 데미지 33% 감소" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `코발트 니들`,
+                    description: `자신의 궁극기 데미지 30% 증가.\n"붉은 재단사 아나스티"가 아군 측에서 살아 있을 경우, "자신의 데미지 20% 증가" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `냉정한 판단`,
+                    description: `일반 공격 시, "자신의 궁극기 데미지 10% 증가(6턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

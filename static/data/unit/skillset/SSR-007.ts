@@ -52,7 +52,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `痛感帶來愉悅`,
-                    description: `自身HP低於99%時，發動"使自身普攻傷害增加70%"效果`
+                    description: `自身HP低於99%時，發動"使自身普攻傷害增加50%"效果`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `最高境界是自攻自受`,
@@ -106,7 +106,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `痛感带来愉悦`,
-                    description: `自身HP低於99%时，发动"使自身普攻伤害增加70%"效果`
+                    description: `自身HP低於99%时，发动"使自身普攻伤害增加50%"效果`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `最高境界是自攻自受`,
@@ -160,7 +160,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `Pain is Pleasure`,
-                    description: `When HP is below 99%, increase Normal Attack Power by 70%.`
+                    description: `When HP is below 99%, increase Normal Attack Power by 50%.`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `Please Yourself`,
@@ -214,7 +214,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `痛みの快楽`,
-                    description: `自分のHPが99%未満の場合、効果「自分の通常攻撃ダメージを70%増加させる」を発動する`
+                    description: `自分のHPが99%未満の場合、効果「自分の通常攻撃ダメージを50%増加させる」を発動する`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `自分で受け責め`,
@@ -231,56 +231,56 @@ export const SkillSet_10017: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25/25/25/35/35% 증가(3/3/3/3/4턴), 공격 데미지의 165/188/211/211/211%만큼 적 전체에게 데미지 [CD: 4] [Lv5: CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 165%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 188%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 211%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 211%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 35% 증가(4턴), 공격 데미지의 211%만큼 적 전체에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `싸구려 음식 공격`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `축제 마왕의 기세`,
+                    description: `자신의 공격 데미지 35% 증가, 일반 공격 데미지 150% 증가, 자신 이외의 팀원이 가하는 데미지 15% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `돈은 행동력으로부터`,
+                    description: `자신의 HP가 99%보다 아래일 시 "자신의 공격 데미지 35% 증가"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `통증으로 인한 쾌감`,
+                    description: `자신의 HP가 99%보다 아래일 시 "자신의 일반 공격 데미지 50% 증가"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `자업자득`,
+                    description: `매턴 자신의 최대 HP 7.5% 회복.\n첫 번째 턴&1턴마다 "자신의 현재 HP 1.5만큼 자신에게 데미지"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -299,7 +299,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
                     name: `烈日祭典盛宴`,
-                    description: `使自身攻擊力增加25/25/25/35/35%(3/3/3/3/4回合)，再以攻擊力165/188/211/211/211%對敵全體造成傷害，CD: 4`
+                    description: `使自身攻擊力增加25/25/25/35/35%(3回合)，再以攻擊力165/188/211/211/211%對敵全體造成傷害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `烈日祭典盛宴`,
@@ -353,7 +353,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
                     name: `烈日祭典盛宴`,
-                    description: `使自身攻击力增加25/25/25/35/35%(3/3/3/3/4回合)，再以攻击力165/188/211/211/211%对敌全体造成伤害，CD: 4`
+                    description: `使自身攻击力增加25/25/25/35/35%(3回合)，再以攻击力165/188/211/211/211%对敌全体造成伤害，CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `烈日祭典盛宴`,
@@ -407,7 +407,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Summer Ceremony`,
-                    description: `Increase Attack Power by 25/25/25/35/35% for [3/3/3/3/4] turns, then deal damage to all enemies with 165/188/211/211/211% Attack Power (CD: 4)`
+                    description: `Increase Attack Power by 25/25/25/35/35% for 3 turns, then deal damage to all enemies with 165/188/211/211/211% Attack Power (CD: 4)`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Summer Ceremony`,
@@ -427,7 +427,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `Summer Ceremony`,
-                    description: `Increase Attack Power by 35% for 4 turns, then deal damage to all enemies with 211% Attack Power (CD: 4)`
+                    description: `Increase Attack Power by 35% for 3 turns, then deal damage to all enemies with 211% Attack Power (CD: 4)`
                 },
                 [SkillType.ATTACK]: {
                     name: `Street Food Attack`,
@@ -461,7 +461,7 @@ export const SkillSet_10017: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `烈陽祭の盛宴`,
-                    description: `自分の攻撃力を25/25/25/35/35増加させ(3/3/3/3/4ターン)、165/188/211/211/211%の攻撃力で敵全体にダメージを与える[CD:4]`
+                    description: `自分の攻撃力を25/25/25/35/35増加させ(3ターン)、165/188/211/211/211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `烈陽祭の盛宴`,
@@ -481,7 +481,7 @@ export const SkillSet_10017: SkillSet[] =  [
                 },
                 [SkillType.SKILL_5]: {
                     name: `烈陽祭の盛宴`,
-                    description: `自分の攻撃力を35増加させ(4ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
+                    description: `自分の攻撃力を35増加させ(3ターン)、211%の攻撃力で敵全体にダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
                     name: `B級グルメ攻撃`,
@@ -514,56 +514,56 @@ export const SkillSet_10017: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25/25/25/35/35% 증가(3턴), 공격 데미지의 165/188/211/211/211%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 165%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 188%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 25% 증가(3턴), 공격 데미지의 211%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 211%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `태양제의 성찬`,
+                    description: `자신의 공격 데미지 35% 증가(3턴), 공격 데미지의 211%만큼 적 전체에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `싸구려 음식 공격`,
+                    description: `공격 데미지의 50%만큼 적 전체에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `축제 마왕의 기세`,
+                    description: `첫 번째 턴 시작 시 "자신의 공격 데미지 35% 증가(4턴)"효과 발동, 일반 공격 데미지 150% 증가, 자신 이외의 팀원이 가하는 데미지 15% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `돈은 행동력으로부터`,
+                    description: `자신의 HP가 99%보다 아래일 시 "자신의 공격 데미지 17.5% 증가"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `통증으로 인한 쾌감`,
+                    description: `자신의 HP가 99%보다 아래일 시 "자신의 일반 공격 데미지 50% 증가"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `자업자득`,
+                    description: `매턴 자신의 최대 HP 7.5% 회복.\n첫 번째 턴&1턴마다 "자신의 현재 HP 1.5만큼 자신에게 데미지"효과 발동\n첫 번째 턴 시작 시 [자신의 궁극기 CD 4턴 감소] 효과 발동\n궁극기 발동 시 <고가 매입>효과 발동\n\n<고가 매입>\n일반 공격 시 "공격 데미지 150%만큼 현재 타깃에게 추가 공격"스킬 추가(4턴)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

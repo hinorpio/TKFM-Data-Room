@@ -231,56 +231,56 @@ export const SkillSet_10025: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 138.5/160.4/182.3/204.2/226.0%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 138.5%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 160.4%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 182.3%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 204.2%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 226.0%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `열창`,
+                    description: `타깃이 "매턴 공격 데미지 50%(4턴)"효과 획득`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `고귀하고 완벽한 마족 아이돌`,
+                    description: `자신의 공격 데미지 50% 증가, 각 웨이브의 첫 번째 턴에서 "자신의 궁극기 CD 6턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `가창력`,
+                    description: `HP가 95%보다 많을 시, "자신의 공격 데미지 20% 증가"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `무도력`,
+                    description: `받는 치유량 50% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `아이돌 파워・풀 가동`,
+                    description: `자신의 궁극기 최대 CD 2턴 감소`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -529,57 +529,61 @@ export const SkillSet_10025: SkillSet[] =  [
                 }
             },
             [Locale.kr]: {
+                [SkillType.BASE_STAT]: {
+                    name: `스탯 최대치`,
+                    description: `Max HP：2,878,735\nMax ATK：899,604\n"마왕 이블리스"의 데이터가 잘못 삽입되었습니다.`
+                },
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 138.5/160.4/182.3/204.2/226.0%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 138.5%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 160.4%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 182.3%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 204.2%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `달밤의 뜨거운 노래`,
+                    description: `타깃이 "매턴 공격 데미지 226.0%(6턴)", "공격력 15% 감소(6턴)", "받는 치유량 25% 감소(6턴)"효과 획득 [CD: 6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `열창`,
+                    description: `타깃이 "매턴 공격 데미지 50%(4턴)"효과 획득`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `고귀하고 완벽한 마족 아이돌`,
+                    description: `자신의 공격 데미지 50% 증가, 각 웨이브의 첫 번째 턴에서 "자신의 궁극기 CD 6턴 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `가창력`,
+                    description: `HP가 95%보다 많을 시, "자신의 공격 데미지 20% 증가"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `무도력`,
+                    description: `받는 치유량 50% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `아이돌 파워・풀 가동`,
+                    description: `자신의 궁극기 최대 CD 2턴 감소`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

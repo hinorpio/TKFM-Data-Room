@@ -231,56 +231,56 @@ export const SkillSet_10026: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `두근☆반짝`,
+                    description: `아군 전체가 "매턴 공격 데미지 79.2/91.7/104.2/116.7/129.2%의 수치만큼 치유(6턴)"효과 획득, 자신 이외 동료의 궁극기 CD 1턴 감소 [CD: 6]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `두근☆반짝`,
+                    description: `아군 전체가 "매턴 공격 데미지 79.2%의 수치만큼 치유(6턴)"효과 획득, 자신 이외 동료의 궁극기 CD 1턴 감소 [CD: 6]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `두근☆반짝`,
+                    description: `아군 전체가 "매턴 공격 데미지 91.7%의 수치만큼 치유(6턴)"효과 획득, 자신 이외 동료의 궁극기 CD 1턴 감소 [CD: 6]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `두근☆반짝`,
+                    description: `아군 전체가 "매턴 공격 데미지 104.2%의 수치만큼 치유(6턴)"효과 획득, 자신 이외 동료의 궁극기 CD 1턴 감소 [CD: 6]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `두근☆반짝`,
+                    description: `아군 전체가 "매턴 공격 데미지 116.7%의 수치만큼 치유(6턴)"효과 획득, 자신 이외 동료의 궁극기 CD 1턴 감소 [CD: 6]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `두근☆반짝`,
+                    description: `아군 전체가 "매턴 공격 데미지 129.2%의 수치만큼 치유(6턴)"효과 획득, 자신 이외 동료의 궁극기 CD 1턴 감소 [CD: 6]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `열창`,
+                    description: `자신의 공격 데미지 30%만큼 아군 전체의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `반짝☆아이돌 스타 노엘리`,
+                    description: `자신의 궁극기 최대 CD 2턴 감소, 아군 전체가 "매턴 공격 데미지 35%의 수치만큼 치유"효과 획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `두 손을 들어요☆`,
+                    description: `공격 시, "아군 전체의 받는 치유 회복량 12.5% 증가(2턴), 받는 아머 강화 효과 12.5% 증가(2턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 노래해요☆`,
+                    description: `궁극기 발동 시, "아군 전체의 공격 데미지 10% 증가(12턴)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `팬들을 사랑해☆`,
+                    description: `궁극기 발동 시, "공격 데미지의 100%만큼 아군 전체의 아머 강화(4턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `데미지 피해 감소`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10007: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 진노`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지. 매턴 공격 데미지의 29/35/41/46/52%만큼 타깃에게 데미지.(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 진노`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지. 매턴 공격 데미지의 29%만큼 타깃에게 데미지.(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 진노`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지. 매턴 공격 데미지의 35%만큼 타깃에게 데미지.(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 진노`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지. 매턴 공격 데미지의 41%만큼 타깃에게 데미지.(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 진노`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지. 매턴 공격 데미지의 46%만큼 타깃에게 데미지.(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 진노`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지. 매턴 공격 데미지의 52%만큼 타깃에게 데미지.(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `심판의 타격`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `대천사의 축복`,
+                    description: `아군 광속성 동료는 "공격 시 아군 전체의 공격 데미지 15% 증가(1턴)"효과 획득.\n아군 화속성, 풍속성 동료는 "공격 시 아군 전체의 일반 공격 데미지 20% 증가(1턴)"효과 획득.\n아군 수속성, 암속성 동료는 "공격 시 아군 전체의 궁극기 데미지 20% 증가(1턴)"효과 획득.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빛의 징계`,
+                    description: `일반 공격 시, "매턴 공격 데미지의 15%만큼 타깃에게 데미지(2턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `천사의 축복`,
+                    description: `아군 광속성 동료는 "공격 시 아군 전체의 공격 데미지 5% 증가(1턴)"효과 획득.\n아군 화속성, 풍속성 동료는 "공격 시 아군 전체의 일반 공격 데미지 7% 증가(1턴)"효과 획득.\n아군 수속성, 암속성 동료는 "공격 시 아군 전체의 궁극기 데미지 7% 증가(1턴)"효과 획득.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `천벌의 힘`,
+                    description: `공격 시, "자신의 공격 데미지 15% 증가(4턴)" 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
