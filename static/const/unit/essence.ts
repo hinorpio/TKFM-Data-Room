@@ -43,6 +43,7 @@ import ESSENCE_10040 from "@/assets/character/essence/IP10040.png"
 import ESSENCE_10041 from "@/assets/character/essence/IP10041.png"
 import ESSENCE_10042 from "@/assets/character/essence/IP10042.png"
 import ESSENCE_10043 from "@/assets/character/essence/IP10043.png"
+import ESSENCE_10044 from "@/assets/character/essence/IP10044.png"
 import ESSENCE_10045 from "@/assets/character/essence/IP10045.png"
 import ESSENCE_10046 from "@/assets/character/essence/IP10046.png"
 import ESSENCE_10047 from "@/assets/character/essence/IP10047.png"
@@ -134,6 +135,8 @@ import ESSENCE_10146 from "@/assets/character/essence/IP10146.png"
 import ESSENCE_10147 from "@/assets/character/essence/IP10147.png"
 import ESSENCE_10148 from "@/assets/character/essence/IP10148.png"
 import ESSENCE_10149 from "@/assets/character/essence/IP10149.png"
+import ESSENCE_10150 from "@/assets/character/essence/IP10150.png"
+import ESSENCE_10151 from "@/assets/character/essence/IP10151.png"
 
 import ESSENCE_10801 from "@/assets/character/essence/IP10801.png"
 import ESSENCE_10802 from "@/assets/character/essence/IP10802.png"
@@ -357,6 +360,9 @@ const SSR = {
     [UnitCode.oniyoiki]: ESSENCE_10147,
     [UnitCode.beer_shizuka]: ESSENCE_10148,
     [UnitCode.tsubaki]: ESSENCE_10149,
+    [UnitCode.amethystina]: ESSENCE_10044,
+    [UnitCode.r_ayane]: ESSENCE_10150,
+    [UnitCode.r_iblis]: ESSENCE_10151,
 }
 
 export const Essence = {

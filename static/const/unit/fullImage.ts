@@ -129,6 +129,9 @@ import FULLIMAGE_10042_2 from "@/assets/character/fullbody/10042_2-Lv1.png"
 import FULLIMAGE_10043_0 from "@/assets/character/fullbody/10043_0-Lv1.png"
 import FULLIMAGE_10043_1 from "@/assets/character/fullbody/10043_1-Lv1.png"
 import FULLIMAGE_10043_2 from "@/assets/character/fullbody/10043_2-Lv1.png"
+import FULLIMAGE_10044_0 from "@/assets/character/fullbody/10044_0-Lv1.png"
+import FULLIMAGE_10044_1 from "@/assets/character/fullbody/10044_1-Lv1.png"
+import FULLIMAGE_10044_2 from "@/assets/character/fullbody/10044_2-Lv1.png"
 import FULLIMAGE_10045_0 from "@/assets/character/fullbody/10045_0-Lv1.png"
 import FULLIMAGE_10045_1 from "@/assets/character/fullbody/10045_1-Lv1.png"
 import FULLIMAGE_10045_2 from "@/assets/character/fullbody/10045_2-Lv1.png"
@@ -402,6 +405,12 @@ import FULLIMAGE_10148_2 from "@/assets/character/fullbody/10148_2-Lv1.png"
 import FULLIMAGE_10149_0 from "@/assets/character/fullbody/10149_0-Lv1.png"
 import FULLIMAGE_10149_1 from "@/assets/character/fullbody/10149_1-Lv1.png"
 import FULLIMAGE_10149_2 from "@/assets/character/fullbody/10149_2-Lv1.png"
+import FULLIMAGE_10150_0 from "@/assets/character/fullbody/10150_0-Lv1.png"
+import FULLIMAGE_10150_1 from "@/assets/character/fullbody/10150_1-Lv1.png"
+import FULLIMAGE_10150_2 from "@/assets/character/fullbody/10150_2-Lv1.png"
+import FULLIMAGE_10151_0 from "@/assets/character/fullbody/10151_0-Lv1.png"
+import FULLIMAGE_10151_1 from "@/assets/character/fullbody/10151_1-Lv1.png"
+import FULLIMAGE_10151_2 from "@/assets/character/fullbody/10151_2-Lv1.png"
 
 import FULLIMAGE_10801_0 from "@/assets/character/fullbody/10801_0-Lv1.png"
 import FULLIMAGE_10801_1 from "@/assets/character/fullbody/10801_1-Lv1.png"
@@ -701,6 +710,9 @@ const SSR = {
     [UnitCode.oniyoiki]: [ FULLIMAGE_10147_0, FULLIMAGE_10147_1, FULLIMAGE_10147_2 ],
     [UnitCode.beer_shizuka]: [ FULLIMAGE_10148_0, FULLIMAGE_10148_1, FULLIMAGE_10148_2 ],
     [UnitCode.tsubaki]: [ FULLIMAGE_10149_0, FULLIMAGE_10149_1, FULLIMAGE_10149_2 ],
+    [UnitCode.amethystina]: [ FULLIMAGE_10044_0, FULLIMAGE_10044_1, FULLIMAGE_10044_2 ],
+    [UnitCode.r_ayane]: [ FULLIMAGE_10150_0, FULLIMAGE_10150_1, FULLIMAGE_10150_2 ],
+    [UnitCode.r_iblis]: [ FULLIMAGE_10151_0, FULLIMAGE_10151_1, FULLIMAGE_10151_2 ],
 }
 
 export const FullImage = {

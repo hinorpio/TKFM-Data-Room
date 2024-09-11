@@ -43,6 +43,7 @@ import SELECTION_10040 from "@/assets/character/selection/cs10040_0_0.png"
 import SELECTION_10041 from "@/assets/character/selection/cs10041_0_0.png"
 import SELECTION_10042 from "@/assets/character/selection/cs10042_0_0.png"
 import SELECTION_10043 from "@/assets/character/selection/cs10043_0_0.png"
+import SELECTION_10044 from "@/assets/character/selection/cs10044_0_0.png"
 import SELECTION_10045 from "@/assets/character/selection/cs10045_0_0.png"
 import SELECTION_10046 from "@/assets/character/selection/cs10046_0_0.png"
 import SELECTION_10047 from "@/assets/character/selection/cs10047_0_0.png"
@@ -134,6 +135,8 @@ import SELECTION_10146 from "@/assets/character/selection/cs10146_0_0.png"
 import SELECTION_10147 from "@/assets/character/selection/cs10147_0_0.png"
 import SELECTION_10148 from "@/assets/character/selection/cs10148_0_0.png"
 import SELECTION_10149 from "@/assets/character/selection/cs10149_0_0.png"
+import SELECTION_10150 from "@/assets/character/selection/cs10150_0_0.png"
+import SELECTION_10151 from "@/assets/character/selection/cs10151_0_0.png"
 
 import SELECTION_10801 from "@/assets/character/selection/cs10801_0_0.png"
 import SELECTION_10802 from "@/assets/character/selection/cs10802_0_0.png"
@@ -357,6 +360,9 @@ const SSR = {
     [UnitCode.oniyoiki]: SELECTION_10147,
     [UnitCode.beer_shizuka]: SELECTION_10148,
     [UnitCode.tsubaki]: SELECTION_10149,
+    [UnitCode.amethystina]: SELECTION_10044,
+    [UnitCode.r_ayane]: SELECTION_10150,
+    [UnitCode.r_iblis]: SELECTION_10151,
 }
 
 export const Selection = {

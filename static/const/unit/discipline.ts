@@ -127,6 +127,9 @@ import DISCIPLINE_10042_3 from "@/assets/character/discipline/cgs10042_3.png"
 import DISCIPLINE_10043_1 from "@/assets/character/discipline/cgs10043_1.png"
 import DISCIPLINE_10043_2 from "@/assets/character/discipline/cgs10043_2.png"
 import DISCIPLINE_10043_3 from "@/assets/character/discipline/cgs10043_3.png"
+import DISCIPLINE_10044_1 from "@/assets/character/discipline/cgs10044_1.png"
+import DISCIPLINE_10044_2 from "@/assets/character/discipline/cgs10044_2.png"
+import DISCIPLINE_10044_3 from "@/assets/character/discipline/cgs10044_3.png"
 import DISCIPLINE_10045_1 from "@/assets/character/discipline/cgs10045_1.png"
 import DISCIPLINE_10045_2 from "@/assets/character/discipline/cgs10045_2.png"
 import DISCIPLINE_10045_3 from "@/assets/character/discipline/cgs10045_3.png"
@@ -400,6 +403,12 @@ import DISCIPLINE_10148_3 from "@/assets/character/discipline/cgs10148_3.png"
 import DISCIPLINE_10149_1 from "@/assets/character/discipline/cgs10149_1.png"
 import DISCIPLINE_10149_2 from "@/assets/character/discipline/cgs10149_2.png"
 import DISCIPLINE_10149_3 from "@/assets/character/discipline/cgs10149_3.png"
+import DISCIPLINE_10150_1 from "@/assets/character/discipline/cgs10150_1.png"
+import DISCIPLINE_10150_2 from "@/assets/character/discipline/cgs10150_2.png"
+import DISCIPLINE_10150_3 from "@/assets/character/discipline/cgs10150_3.png"
+import DISCIPLINE_10151_1 from "@/assets/character/discipline/cgs10151_1.png"
+import DISCIPLINE_10151_2 from "@/assets/character/discipline/cgs10151_2.png"
+import DISCIPLINE_10151_3 from "@/assets/character/discipline/cgs10151_3.png"
 
 import DISCIPLINE_10801_1 from "@/assets/character/discipline/cgs10801_1.png"
 import DISCIPLINE_10801_3 from "@/assets/character/discipline/cgs10801_3.png"
@@ -658,6 +667,9 @@ const SSR = {
     [UnitCode.oniyoiki]: [ DISCIPLINE_10147_1, DISCIPLINE_10147_2, DISCIPLINE_10147_3 ],
     [UnitCode.beer_shizuka]: [ DISCIPLINE_10148_1, DISCIPLINE_10148_2, DISCIPLINE_10148_3 ],
     [UnitCode.tsubaki]: [ DISCIPLINE_10149_1, DISCIPLINE_10149_2, DISCIPLINE_10149_3 ],
+    [UnitCode.amethystina]: [ DISCIPLINE_10044_1, DISCIPLINE_10044_2, DISCIPLINE_10044_3 ],
+    [UnitCode.r_ayane]: [ DISCIPLINE_10150_1, DISCIPLINE_10150_2, DISCIPLINE_10150_3 ],
+    [UnitCode.r_iblis]: [ DISCIPLINE_10151_1, DISCIPLINE_10151_2, DISCIPLINE_10151_3 ],
 }
 
 export const DisciplinePreview = {
