@@ -253,7 +253,7 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.LEADER]: {
                             name: `魔王サタンの小生意気`,
-                            description: `味方全体の攻撃力を40％増加させる\n味方全体の与えるダメージを20％増加させる\n自分の攻撃力を100%増加させる\nサタンに挑発を与え(永久)、防禦時のダメージ減少効果を15%増加させる`
+                            description: `味方全体の攻撃力を40%増加させる\n味方全体の与えるダメージを20%増加させる\n自分の攻撃力を100%増加させる\nサタンに挑発を与え(永久)、防禦時のダメージ減少効果を15%増加させる`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `サタンの返礼`,

@@ -237,7 +237,7 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.LEADER]: {
                             name: `精霊の領域`,
-                            description: `味方全体の最大HPを20％増加させる\n味方全体の攻撃力を50％増加させる\n味方全体の与える通常攻撃ダメージを50％増加させる\n自分の攻撃力を50%増加させる`
+                            description: `味方全体の最大HPを20%増加させる\n味方全体の攻撃力を50%増加させる\n味方全体の与える通常攻撃ダメージを50%増加させる\n自分の攻撃力を50%増加させる`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `破天撃`,
@@ -245,7 +245,7 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                         },
                         [SkillType.PASSIVE_3]: {
                             name: `吹き立つ勝利の風`,
-                            description: `味方全体の攻撃力が25％増加する\n1ターン目に「自分の必殺技のCDを6ターン減少させる」を誘発する`
+                            description: `味方全体の攻撃力が25%増加する\n1ターン目に「自分の必殺技のCDを6ターン減少させる」を誘発する`
                         },
                     },
                     [Locale.kr]: {}

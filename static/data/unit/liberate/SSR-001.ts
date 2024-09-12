@@ -237,7 +237,7 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.LEADER]: {
                             name: `魔王バルの悪知恵`,
-                            description: `味方全体の最大HPを20％増加させる\n味方全体の攻撃力を40％増加させる\n味方全体の与えるダメージを20％増加させる\n自分の攻撃力を125%増加させる\n自分の必殺攻撃ダメージを25%増加させる`
+                            description: `味方全体の最大HPを20%増加させる\n味方全体の攻撃力を40%増加させる\n味方全体の与えるダメージを20%増加させる\n自分の攻撃力を125%増加させる\n自分の必殺攻撃ダメージを25%増加させる`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `捉えどころの無い性格`,
