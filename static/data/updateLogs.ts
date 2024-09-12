@@ -7,7 +7,7 @@ const events: UpdateLogs[] = [
             {
                 type: LogType.NEW,
                 content: {
-                    [Locale.tc]: `角色: 占星師 亞美西思特, 性感兔女郎 伊布力斯, 性感兔女郎 伊布力斯`,
+                    [Locale.tc]: `角色: 占星師 亞美西思特, 勇者兔女郎 神田綾音, 性感兔女郎 伊布力斯`,
                     [Locale.sc]: `角色: 占星师 亚美西思特, 勇者兔女郎 神田綾音, 性感兔女郎 伊布力斯`,
                     [Locale.en]: `Unit: Clairvoyant Amethystina, Bunny Croupier Ayane, Bunny Croupier Amethystina`,
                     [Locale.jp]: `キャラ: 星占い師 アメシスト, 勇者バニー 神田綾音, エッチバニー イブリース`,
