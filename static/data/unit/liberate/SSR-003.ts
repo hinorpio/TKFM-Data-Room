@@ -237,7 +237,7 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.LEADER]: {
                             name: `魔王イブリースの傲慢`,
-                            description: `味方全体の最大HPを20％増加させる\n味方全体の攻撃力を40％増加させる\n味方全体の与えるダメージを20％増加させる\n攻撃時「150%の攻撃力で敵全体に追撃を行う」を誘発する`
+                            description: `味方全体の最大HPを20%増加させる\n味方全体の攻撃力を40%増加させる\n味方全体の与えるダメージを20%増加させる\n攻撃時「150%の攻撃力で敵全体に追撃を行う」を誘発する`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `魔力吸収`,

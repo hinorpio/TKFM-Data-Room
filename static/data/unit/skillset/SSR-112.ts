@@ -221,12 +221,12 @@ export const SkillSet_10142: SkillSet[] =  [
                     description: `1ターン目に「自分の現在の必殺技CDを4ターン減少させる」を誘発する\n必殺技攻撃時「ターゲットが受けるダメージを20%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `睡眠無効`,
+                    description: `自分を睡眠無効にする`
                 }
             },
             [Locale.kr]: {

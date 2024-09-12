@@ -173,6 +173,9 @@ import { SkillSet_10146 } from "./SSR-116";
 import { SkillSet_10147 } from "./SSR-117";
 import { SkillSet_10148 } from "./SSR-118";
 import { SkillSet_10149 } from "./SSR-119";
+import { SkillSet_10044 } from "./SSR-120";
+import { SkillSet_10150 } from "./SSR-121";
+import { SkillSet_10151 } from "./SSR-122";
 
 const N: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.saria]: SkillSet_10901,
@@ -356,6 +359,9 @@ const SSR: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.oniyoiki]: SkillSet_10147,
     [UnitCode.beer_shizuka]: SkillSet_10148,
     [UnitCode.tsubaki]: SkillSet_10149,
+    [UnitCode.amethystina]: SkillSet_10044,
+    [UnitCode.r_ayane]: SkillSet_10150,
+    [UnitCode.r_iblis]: SkillSet_10151,
 }
 
 export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {

@@ -54,11 +54,11 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.PASSIVE_1]: {
                             name: `エネルギーチャージ`,
-                            description: `通常攻撃時、効果「自分の攻撃力を2.5％増加させる(最高6スタック)」を誘発する`
+                            description: `通常攻撃時、効果「自分の攻撃力を2.5%増加させる(最高6スタック)」を誘発する`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `精神統一`,
-                            description: `1ターン毎に、効果「自分の攻撃力を5％増加させる(最高6スタック)」を誘発する`
+                            description: `1ターン毎に、効果「自分の攻撃力を5%増加させる(最高6スタック)」を誘発する`
                         },
                     },
                     [Locale.kr]: {}
@@ -241,7 +241,7 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                         },
                         [SkillType.LEADER]: {
                             name: `小人王の気迫`,
-                            description: `味方全体の最大HPを20％増加させる\n自分の攻撃力を125％増加させる\n自分の通常攻撃ダメージを100％増加させる\n自分の与えるダメージを35%増加させる`
+                            description: `味方全体の最大HPを20%増加させる\n自分の攻撃力を125%増加させる\n自分の通常攻撃ダメージを100%増加させる\n自分の与えるダメージを35%増加させる`
                         },
                         [SkillType.PASSIVE_3]: {
                             name: `破龍の幻光`,
