@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.0.11',
+        logs: [
+            {
+                type: LogType.FIX,
+                content: {
+                    [Locale.tc]: `角色技能: 調皮搗蛋 白`,
+                    [Locale.sc]: `角色技能: 调皮捣蛋 白`,
+                    [Locale.en]: `Unit Skillset: Naughty Tirxie Shiro`,
+                    [Locale.jp]: `キャラスキル: イタズラっ子 ハク`,
+                    [Locale.kr]: `캐릭터 스킬: 말썽쟁이 하쿠`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.0.10',
         logs: [
             {
