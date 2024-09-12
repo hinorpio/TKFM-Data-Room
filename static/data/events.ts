@@ -4,6 +4,58 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0150',
+            type: EventType.SPIRE,
+            startDate: '2023/09/18',
+            endDate: '2024/11/27',
+            color: EventTypeColor.SPIRE,
+            name: {
+                [Locale.tc]: `【魔獄塔】第二十一季`,
+                [Locale.sc]: `【魔狱塔】第二十一季`,
+                [Locale.en]: `[The Demon Spire] Season 21`,
+                [Locale.jp]: `「魔獄塔」第21シーズン`,
+                [Locale.kr]: `【마옥탑】 제21시즌`
+            },
+            image: EventBanner.EVENT_0150,
+            newUnit: []
+        },
+    ],
+    [
+        {
+            code: '0148',
+            type: EventType.POINT,
+            startDate: '2024/09/11',
+            endDate: '2024/10/12',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【本大爺娛樂城】`,
+                [Locale.sc]: `【本大爷娱乐城】`,
+                [Locale.en]: `[Master's Wonderland]`,
+                [Locale.jp]: `「俺様のカジノ」`,
+                [Locale.kr]: `【이 몸의 카지노】`
+            },
+            image: EventBanner.EVENT_0148,
+            newUnit: [ UnitCode.amethystina, UnitCode.r_ayane, UnitCode.r_iblis ]
+        },
+        {
+            code: '0149',
+            type: EventType.CHALLENGE,
+            startDate: '2024/09/25',
+            endDate: '2024/10/12',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【星宿的指引】`,
+                [Locale.sc]: `【星宿的指引】`,
+                [Locale.en]: `[Cosmic Guidance]`,
+                [Locale.jp]: `「星宿の導き」`,
+                [Locale.kr]: `【별자리의 안내】`
+            },
+            image: EventBanner.EVENT_0149,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0146',
             type: EventType.POINT,
             startDate: '2024/08/28',
@@ -16,7 +68,7 @@ const events: Event[][] = [
                 [Locale.jp]: `「星から来たあなた-復刻-」`,
                 [Locale.kr]: `【별에서 온 그녀-복각-】`
             },
-            image: EventBanner.EVENT_0057,
+            image: EventBanner.EVENT_0146,
             newUnit: []
         },
         {
@@ -32,7 +84,7 @@ const events: Event[][] = [
                 [Locale.jp]: `「友達と残業-復刻-」`,
                 [Locale.kr]: `【친구와 야근-복각-】`
             },
-            image: EventBanner.EVENT_0058,
+            image: EventBanner.EVENT_0147,
             newUnit: []
         },
     ],
