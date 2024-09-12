@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.0.10',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 占星師 亞美西思特, 性感兔女郎 伊布力斯, 性感兔女郎 伊布力斯`,
+                    [Locale.sc]: `角色: 占星师 亚美西思特, 勇者兔女郎 神田綾音, 性感兔女郎 伊布力斯`,
+                    [Locale.en]: `Unit: Clairvoyant Amethystina, Bunny Croupier Ayane, Bunny Croupier Amethystina`,
+                    [Locale.jp]: `キャラ: 星占い師 アメシスト, 勇者バニー 神田綾音, エッチバニー イブリース`,
+                    [Locale.kr]: `캐릭터: 점술사 아메시스트, 용자 바니걸 칸다 아야네, 섹시 바니걸 이블리스`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【本大爺娛樂城】, 【星宿的指引】, 【魔獄塔】第二十一季`,
+                    [Locale.sc]: `活动: 【本大爷娱乐城】, 【星宿的指引】, 【魔狱塔】第二十一季`,
+                    [Locale.en]: `Event: [Master's Wonderland], [Cosmic Guidance], [The Demon Spire] Season 21`,
+                    [Locale.jp]: `イベント: 「俺様のカジノ」, 「星宿の導き」, 「魔獄塔」第21シーズン`,
+                    [Locale.kr]: `이벤트: 【이 몸의 카지노】, 【별자리의 안내】, 【마옥탑】 제21시즌`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.0.9',
         logs: [
             {

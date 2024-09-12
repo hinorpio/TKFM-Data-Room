@@ -15,13 +15,13 @@ export const General_10150: Unit = {
     name: {
         [Locale.tc]: "神田綾音",
         [Locale.sc]: "神田绫音",
-        [Locale.en]: "Amethystina",
+        [Locale.en]: "Ayane",
         [Locale.jp]: "神田綾音",
         [Locale.kr]: "칸다 아야네"
     },
     abbreviation: {
-        [Locale.tc]: [ "兔勇" ],
-        [Locale.sc]: [ "兔勇" ],
+        [Locale.tc]: [ "兔勇", "兔田" ],
+        [Locale.sc]: [ "兔勇", "兔田" ],
         [Locale.en]: [ "R.Ayane" ],
         [Locale.jp]: [],
         [Locale.kr]: []
