@@ -124,7 +124,7 @@ export const SkillSet_10085: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Jade Smile`,
-                    description: `Heal the party for 165/188/211/234/257% of your Attack Power, then reduce your Damage Taken by 10/12.5/12.5/15/17.5% for 2 turns. Increase your Attack Power by 20/25/25/30/35% for [3/3/4/4/4] turns and Basic Attack Damage by 30/30/40/40/50% for 4 turns. CD: 4`
+                    description: `Heal the party for 165/188/211/234/257% of your Attack Power, then reduce your Damage Taken by 10/12.5/12.5/15/17.5% for 1/1/2/2/2 turns. Increase your Attack Power by 20/25/25/30/35% for [3/3/4/4/4] turns and Basic Attack Damage by 30/30/40/40/50% for 4 turns. CD: 4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Jade Smile`,
@@ -178,7 +178,7 @@ export const SkillSet_10085: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `イタズラ`,
-                    description: `自分の攻撃力の165/188/211/234/257%分味方全体に治療を行い、さらに「受けるダメージを10/12.5/12.5/15/17.5%減少させ(1ターン)、攻撃力を20/25/25/30/35%増加させる(3/3/4/4/4ターン)」を得て、さらに自分の通常攻撃ダメージを30/30/40/40/50%増加させる(4ターン)[CD:4]`
+                    description: `自分の攻撃力の165/188/211/234/257%分味方全体に治療を行い、さらに「受けるダメージを10/12.5/12.5/15/17.5%減少させ(1/1/2/2/2ターン)、攻撃力を20/25/25/30/35%増加させる(3/3/4/4/4ターン)」を得て、さらに自分の通常攻撃ダメージを30/30/40/40/50%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `イタズラ`,
@@ -231,56 +231,56 @@ export const SkillSet_10085: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `애무의 손길`,
+                    description: `자신 공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유, 자신이 받는 데미지 10/12.5/12.5/15/17.5% 감소(1/1/2/2/2턴), 공격 데미지 20/25/25/30/35% 증가(3/3/4/4/4턴), 자신의 일반 공격 데미지 30/30/40/40/50% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `애무의 손길`,
+                    description: `자신 공격 데미지의 165%만큼 아군 전체를 치유, 자신이 받는 데미지 10% 감소(1턴), 공격 데미지 20% 증가(3턴), 자신의 일반 공격 데미지 30% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `애무의 손길`,
+                    description: `자신 공격 데미지의 188%만큼 아군 전체를 치유, 자신이 받는 데미지 12.5% 감소(1턴), 공격 데미지 25% 증가(3턴), 자신의 일반 공격 데미지 30% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `애무의 손길`,
+                    description: `자신 공격 데미지의 211%만큼 아군 전체를 치유, 자신이 받는 데미지 12.5% 감소(2턴), 공격 데미지 25% 증가(4턴), 자신의 일반 공격 데미지 40% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `애무의 손길`,
+                    description: `자신 공격 데미지의 234%만큼 아군 전체를 치유, 자신이 받는 데미지 15% 감소(2턴), 공격 데미지 30% 증가(4턴), 자신의 일반 공격 데미지 40% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `애무의 손길`,
+                    description: `자신 공격 데미지의 257%만큼 아군 전체를 치유, 자신이 받는 데미지 17.5% 감소(2턴), 공격 데미지 35% 증가(4턴), 자신의 일반 공격 데미지 50% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `춤추는 소매`,
+                    description: `자신 공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `시드는 꽃잎`,
+                    description: `아군 전체의 HP 35% 증가, 치유를 받을 시 회복량 25% 증가\n아군 화속성, 암속성 캐릭터가 「치유를 받을 시, 『자신이 가하는 궁극기 데미지 7.5% 증가(2턴), 일반 공격 데미지 10% 증가(2턴)』효과 발동」획득 (발동 스킬의 치유 효과로는 발동할 수 없다)\n아군 화속성, 암속성 캐릭터가 「 일반 공격, 궁극기 발동 시, 『자신의 공격 데미지의 5%만큼 아군 전체를 치유』 스킬 추가」획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `절세미인`,
+                    description: `첫 번째 턴 시작 시, 《취생몽사》발동\n\n《취생몽사》\n아군 전체가 「치유를 받을 시, 『자신의 공격 데미지 12.5% 증가(2턴)』효과 발동」획득 (발동 스킬의 치유 효과로는 발동할 수 없다)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `지지배배`,
+                    description: `첫 번째 턴 시작 시, 《무르익은 춘의》 발동\n\n《무르익은 춘의》 \n아군 전체가 「치유를 받을 시, 『자신이 가하는 데미지 5% 증가(2턴)』발동」획득 (발동 스킬의 치유 효과로는 발동할 수 없다)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `무가내하`,
+                    description: `첫 번째 턴 시작 시, 「자신이 가하는 치유량 25% 증가(최대 1중첩)」효과 발동\n첫 번째 턴 시작 시, 「아군 전체가 치유를 받을 시 회복량 12.5% 증가(최대 1중첩), 받는 지속 데미지 30% 감소(최대 1중첩)」효과 발동\n공격 시, 「현재 HP가 가장 적은 아군이 받는 데미지 20% 감소(1턴), 공격 데미지의 15%만큼 HP가 가장 적은 아군을 치유」효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

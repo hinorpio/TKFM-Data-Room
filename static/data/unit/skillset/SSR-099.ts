@@ -231,56 +231,56 @@ export const SkillSet_10129: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `맹록 착지 포즈`,
+                    description: `아군 전체의 가하는 데미지 10/15/20/25/30% 증가(4턴), 자신의 공격 데미지의 388/445/503/560/618%만큼 타깃에게 데미지를 가하고 자신은 도발 효과 획득(2턴) 후 방어 상태로 전환 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `맹록 착지 포즈`,
+                    description: `아군 전체의 가하는 데미지 10% 증가(4턴), 자신의 공격 데미지의 388%만큼 타깃에게 데미지를 가하고 자신은 도발 효과 획득(2턴) 후 방어 상태로 전환 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `맹록 착지 포즈`,
+                    description: `아군 전체의 가하는 데미지 15% 증가(4턴), 자신의 공격 데미지의 445%만큼 타깃에게 데미지를 가하고 자신은 도발 효과 획득(2턴) 후 방어 상태로 전환 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `맹록 착지 포즈`,
+                    description: `아군 전체의 가하는 데미지 20% 증가(4턴), 자신의 공격 데미지의 503%만큼 타깃에게 데미지를 가하고 자신은 도발 효과 획득(2턴) 후 방어 상태로 전환 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `맹록 착지 포즈`,
+                    description: `아군 전체의 가하는 데미지 25% 증가(4턴), 자신의 공격 데미지의 560%만큼 타깃에게 데미지를 가하고 자신은 도발 효과 획득(2턴) 후 방어 상태로 전환 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `맹록 착지 포즈`,
+                    description: `아군 전체의 가하는 데미지 30% 증가(4턴), 자신의 공격 데미지의 618%만큼 타깃에게 데미지를 가하고 자신은 도발 효과 획득(2턴) 후 방어 상태로 전환 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `엔진 가동`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지를 가하고 방어 상태로 전환`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `순결마성의 매력`,
+                    description: `자신의 최대 HP 30% 증가\n자신의 아머 효과 50% 증가\n각 웨이브의 첫 번째 턴에서 「적 전체가 받는 데미지 50% 증가(최대 1중첩)」 효과 발동\n아군 전체는 「팀에 풍속성 캐릭터가 4명 이상 있을 시, 《메리 섹스마스!》발동」획득\n\n《메리 섹스마스!》\n공격 데미지 130% 증가\n궁극기 데미지 50% 증가\n가하는 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `브레이크를 위한 액셀`,
+                    description: `1턴이 지날 때마다 「아군 전체의 궁극기 데미지 3% 증가(최대 15중첩)」발동\n피격 시 「《브레이크를 위한 액셀》의 아군 전체의 궁극기 데미지 증가 효과 1중첩 증가」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 파티 시작!`,
+                    description: `공격 시 「자신의 최대 HP 20%만큼 자신의 아머 강화(1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 속박의 힘!`,
+                    description: `피격 시「자신이 가하는 데미지 10% 증가(최대 4중첩)」발동\n피격 시 「자신의 최대 HP 23%만큼 자신의 아머 강화(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `아머+`,
+                    description: `자신의 아머 강화 효과 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

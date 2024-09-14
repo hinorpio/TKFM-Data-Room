@@ -231,56 +231,56 @@ export const SkillSet_10106: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프궁술・연격의 화살`,
+                    description: `자신이 가하는 데미지 10/10/15/15/20% 증가(3턴), 자신의 공격 데미지의 200%만큼 타깃에게 데미지를 가하고 자신은 「공격 시 『자신의 공격 데미지의 50/65/80/95/110%만큼 타깃에게 데미지』(3턴)」발동 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프궁술・연격의 화살`,
+                    description: `자신이 가하는 데미지 10% 증가(3턴), 자신의 공격 데미지의 200%만큼 타깃에게 데미지를 가하고 자신은 「공격 시 『자신의 공격 데미지의 50%만큼 타깃에게 데미지』(3턴)」발동 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프궁술・연격의 화살`,
+                    description: `자신이 가하는 데미지 10% 증가(3턴), 자신의 공격 데미지의 200%만큼 타깃에게 데미지를 가하고 자신은 「공격 시 『자신의 공격 데미지의 65%만큼 타깃에게 데미지』(3턴)」발동 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프궁술・연격의 화살`,
+                    description: `자신이 가하는 데미지 15% 증가(3턴), 자신의 공격 데미지의 200%만큼 타깃에게 데미지를 가하고 자신은 「공격 시 『자신의 공격 데미지의 80%만큼 타깃에게 데미지』(3턴)」발동 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프궁술・연격의 화살`,
+                    description: `자신이 가하는 데미지 15% 증가(3턴), 자신의 공격 데미지의 200%만큼 타깃에게 데미지를 가하고 자신은 「공격 시 『자신의 공격 데미지의 95%만큼 타깃에게 데미지』(3턴)」발동 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프궁술・연격의 화살`,
+                    description: `자신이 가하는 데미지 20% 증가(3턴), 자신의 공격 데미지의 200%만큼 타깃에게 데미지를 가하고 자신은 「공격 시 『자신의 공격 데미지의 110%만큼 타깃에게 데미지』(3턴)」발동 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `활 사격`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `숨길 수 없는 승부욕`,
+                    description: `아군 전체 HP 20% 증가\n아군 딜러, 디스럽터는 「팀에 풍속성 캐릭터가 최소 3명 이상 있을 시 《엘프 대장》발동」획득\n아군 전체는「팀에 화속성 캐릭터가 최소 2명 이상 있을 시, 《저격 포메이션》발동」획득\n\n《엘프 대장》\n공격 데미지 25% 증가\n발동형 스킬 데미지 175% 증가\n일반 공격 시 「자신의 공격 데미지의 40%만큼 타깃에게 데미지」발동\n궁극기 발동 시 「자신의 공격 데미지의 100%만큼 타깃에게 데미지」발동\n\n《저격 포메이션》\n공격 데미지 100% 증가\n부여하는 치유량 25% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `추풍의 맹격`,
+                    description: `궁극기 발동 시 「타깃의 궁극기 데미지 15% 감소(2턴)」발동\n궁극기 발동 시 「자신의 공격 데미지의 80%만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `부식 화살통`,
+                    description: `일반 공격 시 「타깃이 받는 발동형 스킬 데미지 20% 증가(최대 5중첩)」발동\n일반 공격 시 「자신의 공격 데미지의 35% 만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `영기의 강격`,
+                    description: `일반 공격 시 「아군 전체의 궁극기 데미지 6% 증가(최대 5중첩)」 발동\n궁극기 발동 시 「타깃이 받는 궁극기 데미지 15% 증가(최대 2중첩)」 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

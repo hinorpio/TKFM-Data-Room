@@ -157,7 +157,40 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                             description: `攻撃時「自分の攻撃力の25%分、味方全体の攻撃力を増加させる(1ターン)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `모두 화이팅!`,
+                            description: `자신의 공격 데미지 20/20/20/20/25%만큼 아군 서포터의 공격 데미지 증가(1턴), 공격 데미지의 200%만큼 아군 전체를 치유, 자신의 공격 데미지의 80/85/90/100/110%만큼 매턴 아군 전체를 치유(5턴) [CD: 5] [Lv3+: CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `모두 화이팅!`,
+                            description: `자신의 공격 데미지 20%만큼 아군 서포터의 공격 데미지 증가(1턴), 공격 데미지의 200%만큼 아군 전체를 치유, 자신의 공격 데미지의 80%만큼 매턴 아군 전체를 치유(5턴) [CD: 5]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `모두 화이팅!`,
+                            description: `자신의 공격 데미지 20%만큼 아군 서포터의 공격 데미지 증가(1턴), 공격 데미지의 200%만큼 아군 전체를 치유, 자신의 공격 데미지의 85%만큼 매턴 아군 전체를 치유(5턴) [CD: 5]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `모두 화이팅!`,
+                            description: `자신의 공격 데미지 20%만큼 아군 서포터의 공격 데미지 증가(1턴), 공격 데미지의 200%만큼 아군 전체를 치유, 자신의 공격 데미지의 90%만큼 매턴 아군 전체를 치유(5턴) [CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `모두 화이팅!`,
+                            description: `자신의 공격 데미지 20%만큼 아군 서포터의 공격 데미지 증가(1턴), 공격 데미지의 200%만큼 아군 전체를 치유, 자신의 공격 데미지의 100%만큼 매턴 아군 전체를 치유(5턴) [CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `모두 화이팅!`,
+                            description: `자신의 공격 데미지 25%만큼 아군 서포터의 공격 데미지 증가(1턴), 공격 데미지의 200%만큼 아군 전체를 치유, 자신의 공격 데미지의 110%만큼 매턴 아군 전체를 치유(5턴) [CD: 4]`
+                        },
+                        [SkillType.ATTACK]: {
+                            name: `격려`,
+                            description: `자신의 공격 데미지의 75%만큼 아군 전체를 치유`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `전격 지원`,
+                            description: `공격 시 「자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)」발동`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -195,7 +228,7 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,518,102\nAMax ATK：889,817`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,518,102\nMax ATK：889,817`
                         },
                     }
                 }
@@ -264,7 +297,20 @@ export const LiberateSkillSet_10006: LiberateSkillSet[] = [
                             description: `味方全体の必殺技ダメージが30%増加する\n必殺技攻撃時「ターゲットが風属性から受けるダメージを20%増加させる(最高2スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `보호 욕구 자극`,
+                            description: `아군 전체의 최대 HP 35% 증가\n아군 전체의 공격 데미지 40% 증가\n아군 전체의 궁극기 데미지 25% 증가\n아군 전체가 가하는 데미지 20% 증가\n아군 탱커의 최대 HP 15% 증가\n아군 전체는 치유를 받을 시 회복량 30% 증가`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `추가 치료`,
+                            description: `일반 공격 시 「HP가 가장 낮은 아군이 받는 데미지 15% 감소(1턴)」발동\n일반 공격 시 「공격 데미지의 40%만큼 HP가 가장 낮은 아군을 치유」발동`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `모두에게 노력의 성과를 보여주겠어!`,
+                            description: `아군 전체의 궁극기 데미지 30% 증가\n궁극기 발동 시 「타깃이 받는 풍속성 데미지 20% 증가(최대 2중첩)」발동`
+                        },
+                    }
                 }
             }
         }

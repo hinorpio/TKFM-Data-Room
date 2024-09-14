@@ -231,56 +231,56 @@ export const SkillSet_10149: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `천호요화`,
+                    description: `아군 화속성 캐릭터의 궁극기 데미지 20/30/40/50/60% 증가(4턴), 아군 디스럽터가 가하는 데미지 15/20/30/40/50% 증가(4턴), 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `천호요화`,
+                    description: `아군 화속성 캐릭터의 궁극기 데미지 20% 증가(4턴), 아군 디스럽터가 가하는 데미지 15% 증가(4턴), 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `천호요화`,
+                    description: `아군 화속성 캐릭터의 궁극기 데미지 30% 증가(4턴), 아군 디스럽터가 가하는 데미지 20% 증가(4턴), 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `천호요화`,
+                    description: `아군 화속성 캐릭터의 궁극기 데미지 40% 증가(4턴), 아군 디스럽터가 가하는 데미지 30% 증가(4턴), 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `천호요화`,
+                    description: `아군 화속성 캐릭터의 궁극기 데미지 50% 증가(4턴), 아군 디스럽터가 가하는 데미지 40% 증가(4턴), 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `천호요화`,
+                    description: `아군 화속성 캐릭터의 궁극기 데미지 60% 증가(4턴), 아군 디스럽터가 가하는 데미지 50% 증가(4턴), 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `꼬리치기`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `옥면과 은빛 꼬리의 구미호`,
+                    description: `아군의 최대 HP 30% 증가\n아군 전체의 공격 데미지 40% 증가\n아군 디스럽터의 궁극기 CD 변동 효과 면역\n궁극기 발동 시 「타깃이 받는 화속성 데미지 100% 증가(최대 1중첩)」트리거\n궁극기 발동 시 「타깃이 받는 디스럽터의 데미지 50% 증가(최대 2중첩)」트리거\n아군 디스럽터는 방어 시 「《요술달인》」트리거\n아군 전체는 「화속성 캐릭터가 2명 이상일 시 《과열》 발동」 획득\n\n《요술달인》\n자신의 공격 데미지 50% 증가(2턴)\n자신의 궁극기 데미지 60% 증가(2턴)\n자신은 궁극기 발동 시 「자신의 공격 데미지의 100%만큼 타깃에게 데미지」추가(2턴)\n\n《과열》\n자신의 공격 데미지 250% 감소\n자신의 궁극기 데미지 250% 감소\n자신이 치유를 받을 시 회복량 250% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `살짝 놀리기만 하면 돼.`,
+                    description: `4턴마다 「자신의 공격 데미지의 60%만큼 자신의 공격 데미지 증가(1턴)」트리거`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `나이는 비밀～♡`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지 75%만큼 자신을 치유」트리거`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `장난 전문가`,
+                    description: `궁극기 발동 시 「타깃이 받는 데미지 30% 증가(최대 2중첩)」 트리거`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

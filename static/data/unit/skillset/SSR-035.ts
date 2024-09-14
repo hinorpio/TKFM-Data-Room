@@ -231,56 +231,56 @@ export const SkillSet_10067: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `비검・근하신년`,
+                    description: `공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지, 타깃이 받는 발동기 데미지 30/40/50/50/50% 증가(최대 2중첩), [명경지수]로 부여된 발동기 효과 증가 상태가 [0/0/0/1/2]중첩 증가[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `비검・근하신년`,
+                    description: `공격 데미지의 330%만큼 타깃에게 데미지, 타깃이 받는 발동기 데미지 30% 증가(최대 2중첩)[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `비검・근하신년`,
+                    description: `공격 데미지의 376%만큼 타깃에게 데미지, 타깃이 받는 발동기 데미지 40% 증가(최대 2중첩)[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `비검・근하신년`,
+                    description: `공격 데미지의 422%만큼 타깃에게 데미지, 타깃이 받는 발동기 데미지 50% 증가(최대 2중첩)[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `비검・근하신년`,
+                    description: `공격 데미지의 468%만큼 타깃에게 데미지, 타깃이 받는 발동기 데미지 50% 증가(최대 2중첩), [명경지수]로 부여된 발동기 효과 증가 상태가 1중첩 증가[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `비검・근하신년`,
+                    description: `공격 데미지의 514%만큼 타깃에게 데미지, 타깃이 받는 발동기 데미지 50% 증가(최대 2중첩), [명경지수]로 부여된 발동기 효과 증가 상태가 2중첩 증가[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `정월의 반성`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `도검 극의`,
+                    description: `각 웨이브의 첫 번째 턴에서 [적 전체가 받는 발동기 데미지 100% 증가(50턴)] 효과 발동\n아군 전체의 최대 HP 15% 증가, 공격 데미지 50% 증가\n첫 번째 턴 시작 시, [자신 이외의 아군 딜러/탱커/디스럽터가 [신무이도류・전수] 획득] 효과 발동\n\n[신무이도류・전수] \n일반 공격 시, [공격 데미지의 45%로 타깃에게 추가 공격] 효과 발동(50턴)\n궁극기 발동 시, [공격 데미지의 135%로 타깃에게 추가 공격] 효과 발동(50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `미나요미 이도류・하고이타`,
+                    description: `일반 공격 시, [공격 데미지의 60%로 타깃에게 추가 공격] 효과 발동\n궁극기 발동 시, [공격 데미지의 180%로 타깃에게 추가 공격] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `명경지수`,
+                    description: `1턴마다 [자신의 발동기 효과 10% 증가(최대 10중첩)] 효과 발동\n궁극기 발동 시, [지신이 [명경지수]로 부여된 발동기 효과 증가 상태 2중첩 감소] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `정신통일`,
+                    description: `자신의 발동기 효과 50% 증가\n공격 시, [타깃이 받는 발동기 데미지 12.5% 증가(최대 4중첩)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `발동+`,
+                    description: `자신의 발동기 효과 30% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

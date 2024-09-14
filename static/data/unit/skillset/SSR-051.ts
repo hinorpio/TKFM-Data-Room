@@ -231,56 +231,56 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 공격 데미지의 40/45/45/50/55%만큼 아군 디스럽터의 공격 데미지 증가(1/1/2/2/2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 공격 데미지의 40%만큼 아군 디스럽터의 공격 데미지 증가(1턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 공격 데미지의 45%만큼 아군 디스럽터의 공격 데미지 증가(1턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 공격 데미지의 45%만큼 아군 디스럽터의 공격 데미지 증가(2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 공격 데미지의 50%만큼 아군 디스럽터의 공격 데미지 증가(2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 공격 데미지의 55%만큼 아군 디스럽터의 공격 데미지 증가(2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `열정의 제창`,
+                    description: `자신의 공격 데미지의 40%만큼 아군 디스럽터의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `여름의 운치♡해변의 빛나는 별`,
+                    description: `아군 전체의 HP 20% 증가, 공격 데미지 40% 증가\n자신이 일반 공격 시, [자신의 공격 데미지의 40%만큼 아군 디스럽터의 공격 데미지 증가(1턴)]발동\n자신이 공격할 시, [자신의 공격 데미지의 50%만큼 자신과 아군 디스럽터, 아군 탱커를 치유] 발동\n자신이 궁극기 발동 시, [자신의 공격 데미지의 25%만큼 아군 디스럽터의 공격 데미지 증가(10턴)] 발동\n아군 디스럽터가 《아이돌 응원단!》획득\n\n《아이돌 응원단!》\n자신이 공격할 시, [아군 1번 자리 동료의 공격 데미지 25% 증가(4턴)]발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `떨어지는 유성 같은～♪`,
+                    description: `궁극기 발동 시, [자신의 최대 HP 50%만큼 아군 전체가 아머 획득(1턴)] 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `무대 위의 초신성☆`,
+                    description: `첫 번째 턴에서 [아군 디스럽터의 궁극기 데미지 35% 증가(50턴)] 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `브릴리언트☆블링블링☆빅뱅☆`,
+                    description: `공격할 시, [자신의 공격 데미지의 10%만큼 아군 전체의 공격 데미지 증가(1턴)]발동\n첫 번째 턴에서 [아군 디스럽터가 가하는 데미지 20% 증가(50턴)] 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
@@ -493,7 +493,7 @@ export const SkillSet_10091: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `流れ星の如く～`,
-                    description: `必殺時「自分の最大HPの50%分、味方全体に盾を張る(1ターン)」を誘発する`
+                    description: `必殺時「自分の最大HPの40%分、味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `舞台上に降り立ったスター☆`,
@@ -514,56 +514,56 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 최대 HP의 30/40/40/50/60%만큼 아군 디스럽터의 공격 데미지 증가(1/1/2/2/2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 최대 HP의 30%만큼 아군 디스럽터의 공격 데미지 증가(1턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 최대 HP의 40%만큼 아군 디스럽터의 공격 데미지 증가(1턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 최대 HP의 40%만큼 아군 디스럽터의 공격 데미지 증가(2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 최대 HP의 50%만큼 아군 디스럽터의 공격 데미지 증가(2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링☆노엘리빔`,
+                    description: `자신의 최대 HP의 60%만큼 아군 디스럽터의 공격 데미지 증가(2턴), 아군 디스럽터의 현재 궁극기 CD 1턴 감소 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `열정의 제창`,
+                    description: `자신의 최대 HP의 30%만큼 아군 전체의 공격 데미지 증가(1턴))`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `여름의 운치♡해변의 빛나는 별`,
+                    description: `아군 전체의 HP 20% 증가, 공격 데미지 40% 증가\n자신이 일반 공격 시, [자신의 공격 데미지의 40%만큼 아군 디스럽터의 공격 데미지 증가(1턴)]발동\n자신이 공격할 시, [자신의 공격 데미지의 50%만큼 자신과 아군 디스럽터, 아군 탱커를 치유] 발동\n자신이 궁극기 발동 시, [자신의 공격 데미지의 25%만큼 아군 디스럽터의 공격 데미지 증가(10턴)] 발동\n아군 디스럽터가 《아이돌 응원단!》획득\n\n《아이돌 응원단!》\n자신이 공격할 시, [아군 1번 자리 동료의 공격 데미지 25% 증가(4턴)]발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `떨어지는 유성 같은～♪`,
+                    description: `궁극기 발동 시, [자신의 최대 HP 40%만큼 아군 전체가 아머 획득(1턴)] 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `무대 위의 초신성☆`,
+                    description: `첫 번째 턴에서 [아군 디스럽터의 궁극기 데미지 35% 증가(50턴)] 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `브릴리언트☆블링블링☆빅뱅☆`,
+                    description: `자신의 최대 HP 30% 증가\n첫 번째 턴에서 [아군 디스럽터가 가하는 데미지 20% 증가(50턴)] 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

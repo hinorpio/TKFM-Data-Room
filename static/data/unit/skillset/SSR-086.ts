@@ -231,56 +231,56 @@ export const SkillSet_10120: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `심해의 파인애플!`,
+                    description: `자신의 발동형 스킬 효과 40/60/60/80/100% 증가(3턴), 자신의 궁극기 데미지 0/0/20/37.5/45% 증가(1턴), 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `심해의 파인애플!`,
+                    description: `자신의 발동형 스킬 효과 40% 증가(3턴), 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `심해의 파인애플!`,
+                    description: `자신의 발동형 스킬 효과 60% 증가(3턴), 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `심해의 파인애플!`,
+                    description: `자신의 발동형 스킬 효과 60% 증가(3턴), 자신의 궁극기 데미지 20% 증가(1턴), 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `심해의 파인애플!`,
+                    description: `자신의 발동형 스킬 효과 80% 증가(3턴), 자신의 궁극기 데미지 37.5% 증가(1턴), 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `심해의 파인애플!`,
+                    description: `자신의 발동형 스킬 효과 100% 증가(3턴), 자신의 궁극기 데미지 45% 증가(1턴), 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `자유자재로 늘어난다~`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `난쟁이 선장과 함께!`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 50% 증가\n아군 딜러, 디스럽터는 「팀에 풍속성 캐릭터가 최소 3명 이상 있을 시 《바람을 타고》 획득」 발동\n매 Wave의 첫번 째 턴에서 「적 전체가 받는 풍속성 데미지 25% 증가(50턴)」 발동\n\n《바람을 타고》\n자신의 공격 데미지 80% 증가\n자신이 가하는 데미지 40% 증가\n자신이 공격을 가할 시 「《참파도랑》」발동\n\n《참파도랑》\n1번 자리 아군은 「일반 공격 시 『자신의 공격 데미지의 65%만큼 타깃에게 데미지』 발동(1턴)」 획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `화약 장전`,
+                    description: `일반 공격 시 「자신의 공격 데미지 50% 증가(3턴)」 발동\n1턴마다 「자신은 궁극기 발동 시 『자신에게 부여된 《화약 장전》의 공격 데미지 증가(턴제 형)효과 해제』 발동(1턴)」 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `애들아! 준비됐지?`,
+                    description: `일반 공격 시 「《네, 선장님!》」발동\n1턴마다 「자신은 궁극기 발동 시 『자신에게 부여된 《네, 선장님!》 효과 해제』(1턴)」발동\n\n《네, 선장님!》\n자신은 궁극기 발동 시 「자신의 공격 데미지의 80%만큼 타깃에게 데미지」 발동(3턴)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `목소리가 작다!`,
+                    description: `궁극기 최대 CD 1턴 감소\n일반 공격 시 「자신이 가하는 데미지 20% 증가(3턴)」발동\n1턴마다 「자신은 궁극기 발동 시 『자신에게 부여된 《목소리가 작다!》의 데미지 증가(턴제 형) 효과 해제』 발동(1턴)」 획득`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `데미지+`,
+                    description: `자신이 가하는 데미지 7.5% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }

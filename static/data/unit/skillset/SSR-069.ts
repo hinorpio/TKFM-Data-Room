@@ -231,56 +231,56 @@ export const SkillSet_10021: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `재생의 바람`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유, 자신의 공격 데미지의 60/70/80/90/100%만큼 매턴 아군 전체를 치유(4턴), 자신 이외의 아군의 공격 데미지 0/0/17.5/20/25% 증가(1턴), 자신 이외의 아군의 공격 데미지 15/17.5/17.5/20/25% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `재생의 바람`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유, 자신의 공격 데미지의 60%만큼 매턴 아군 전체를 치유(4턴), 자신 이외의 동료들의 공격 데미지 15% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `재생의 바람`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유, 자신의 공격 데미지의 70%만큼 매턴 아군 전체를 치유(4턴), 자신 이외의 동료들의 공격 데미지 17.5% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `재생의 바람`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유, 자신의 공격 데미지의 80%만큼 매턴 아군 전체를 치유(4턴), 자신 이외의 아군의 공격 데미지 17.5% 증가(1턴), 자신 이외의 아군의 공격 데미지 17.5% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `재생의 바람`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유, 자신의 공격 데미지의 90%만큼 매턴 아군 전체를 치유(4턴), 자신 이외의 아군의 공격 데미지 20% 증가(1턴), 자신 이외의 아군의 공격 데미지 20% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `재생의 바람`,
+                    description: `공격 데미지의 50%만큼 아군 전체를 치유, 자신의 공격 데미지의 100%만큼 매턴 아군 전체를 치유(4턴), 자신 이외의 아군의 공격 데미지 25% 증가(1턴), 자신 이외의 아군의 공격 데미지 25% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `유합술`,
+                    description: `자신의 공격 데미지의 25%만큼 아군 전체를 치유, 자신의 공격 데미지의 25%만큼 매턴 아군 전체를 치유(2턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `시공을 초월한 현자`,
+                    description: `아군 전체의 HP 10% 증가\n아군 전체의 공격 데미지 40% 증가\n아군 딜러가 가하는 데미지 20% 증가\n아군 탱커의 최대 HP 10% 증가\n아군 힐러의 공격 데미지 40% 증가\n아군 서포터의 공격 데미지 40% 증가\n아군 디스럽터가 가하는 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전능의 술`,
+                    description: `일반 공격 시 「자신의 공격 데미지의 25%만큼 현존 HP가 가장 낮은 아군을 치유」발동\n공격 시 「아군 타깃의 최대 HP의 10%만큼 아군 전체의 아머 강화(1턴)」발동\n공격 시 「자신의 공격 데미지의 20%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `천 년의 지혜`,
+                    description: `최대 HP 10% 증가\n공격 데미지 20% 증가\n치유량 25% 증가\n지속형 치유량 25% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `최적화 배치`,
+                    description: `첫 번째 턴 시작 시, 《적재적소》발동\n\n《적재적소》\n아군 딜러가 가하는 데미지 15% 증가(50턴)\n아군 탱커가 받는 데미지 15% 감소(50턴)\n아군 힐러의 공격 데미지 15% 증가(50턴)\n아군 서포터의 공격 데미지 15% 증가(50턴)\n아군 디스럽터가 가하는 데미지 15% 증가(50턴)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10144: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 최강의 플라잉킥`,
+                    description: `자신의 공격 데미지의 295/364/433/502/571% 및 자신의 최대 HP 89/107/125/143/161%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 최강의 플라잉킥`,
+                    description: `자신의 공격 데미지의 295% 및 자신의 최대 HP 89%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 최강의 플라잉킥`,
+                    description: `자신의 공격 데미지의 364% 및 자신의 최대 HP 107%만큼 타깃에게 데미지 [CD :4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 최강의 플라잉킥`,
+                    description: `자신의 공격 데미지의 433% 및 자신의 최대 HP 125%만큼 타깃에게 데미지 [CD :4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 최강의 플라잉킥`,
+                    description: `자신의 공격 데미지의 502% 및 자신의 최대 HP의 143%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 최강의 플라잉킥`,
+                    description: `자신의 공격 데미지의 571% 및 자신의 최대 HP의 161%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `수박만한 주먹`,
+                    description: `자신의 공격 데미지의 100% 및 자신의 최대 HP 50%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바다의 군림자!`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 50% 증가\n자신의 최대 HP 20% 증가\n자신은 「각 웨이브의 첫 번째 턴에서 『자신의 《웨딩드레스 병기・에너지 섭취》의 중첩 수 최대로 상승』 발동」획득\n자신 이외의 아군 동료는 《여름날 마왕의 위엄》획득\n\n《여름날 마왕의 위엄》 \n방어 및 궁극기 발동 시 「타깃이 받는 데미지 9% 증가(2턴), 자신의 기본 공격 데미지의 75%만큼 1번 자리 아군의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕 바다 가르기`,
+                    description: `공격 데미지 50% 증가\n궁극기 데미지 30% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `웨딩드레스 병기・에너지 섭취`,
+                    description: `1턴이 지날 때마다 「자신의 공격 데미지 5% 증가(최대 20중첩)」발동\n일반 공격 시 「적 전체가 받는 『여름날 시저』의 데미지 4% 증가(최대 15중첩)」발동\n궁극기 발동 시 「자신이 가하는 데미지 20% 증가(최대 4중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `웨딩드레스 병기・연산 공유`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 150%만큼 타깃에게 데미지」추가 \n1턴이 지날 때마다 「자신의 공격 데미지의 5%만큼 아군 전체의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역`
                 }
             }
         }

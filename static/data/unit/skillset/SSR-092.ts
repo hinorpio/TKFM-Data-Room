@@ -231,56 +231,56 @@ export const SkillSet_10124: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `네 마음을 NyoroNyoro하게♡`,
+                    description: `「스며드는 핑크빛 바닐라 뇨로」가 타깃에게 가하는 데미지 30/30/35/35/40% 증가(최대 2중첩), 공격 데미지의 265/398/331/364/397%만큼 타깃에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `네 마음을 NyoroNyoro하게♡`,
+                    description: `「스며드는 핑크빛 바닐라 뇨로」가 타깃에게 가하는 데미지 30% 증가(최대 2중첩), 공격 데미지의 265%만큼 타깃에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `네 마음을 NyoroNyoro하게♡`,
+                    description: `「스며드는 핑크빛 바닐라 뇨로」가 타깃에게 가하는 데미지 30% 증가(최대 2중첩), 공격 데미지의 298%만큼 타깃에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `네 마음을 NyoroNyoro하게♡`,
+                    description: `「스며드는 핑크빛 바닐라 뇨로」가 타깃에게 가하는 데미지 35% 증가(최대 2중첩), 공격 데미지의 331%만큼 타깃에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `네 마음을 NyoroNyoro하게♡`,
+                    description: `「스며드는 핑크빛 바닐라 뇨로」가 타깃에게 가하는 데미지 35% 증가(최대 2중첩), 공격 데미지의 364%만큼 타깃에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `네 마음을 NyoroNyoro하게♡`,
+                    description: `「스며드는 핑크빛 바닐라 뇨로」가 타깃에게 가하는 데미지 40% 증가(최대 2중첩), 공격 데미지의 397%만큼 타깃에게 데미지[CD: 3]`
                 },
                 [SkillType.ATTACK]: {
                     name: ``,
                     description: ``
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `애교계 청순한 여친`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체가 「팀원 중 최소 1명의 광속성 캐릭터가 있을 경우, 《우사기 히메 부비부비~》 발동」 획득\n자신은「팀원 중 최소 1명의 암속성 캐릭터가 있을 경우, 《미루 부비부비~》 발동」 획득\n자신이 궁극기 발동 시, 「자신이 《애교 시간》 1중첩 획득(최대 2중첩)」\n자신의 《애교 시간》이 2중첩 미만일 경우, 《얼른 예뻐해 줘!》 발동\n자신의 《애교 시간》이 2중첩일 경우, 《얼른 와서 안아줘~》 발동\n\n《우사기 히메 부비부비~》\n공격 데미지 80% 증가\n\n《미루 부비부비~》\n공격 데미지 60% 증가\n궁극기 발동 시, 「타깃이 받는 화속성 데미지 25% 증가(최대 2중첩)」 발동\n궁극기 발동 시, 「자신의 공격 데미지의 160%만큼 타깃에게 데미지」 추가\n\n《얼른 예뻐해 줘!》\n궁극기 발동 시, 「자신의 궁극기 최대 CD 1 감소(50턴)」 발동\n\n《얼른 와서 안아줘~》\n궁극기 발동 시, 「뇨로가 당신을 꽉 끌어안아, 말랑말랑해졌다(50턴)」. 자신의 《애교 시간》 및 최대 궁극기 CD 감소 효과」 제거 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `꼬리달린 소형 양생동물`,
+                    description: `공격 시, 「자신의 공격 데미지 20% 증가(최대 4중첩)」 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `핑크빛 유혹♡`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 66%만큼 타깃에게 데미지」 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `뇨로는 모두를 좋아해~`,
+                    description: `자신이 가하는 데미지 40% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피해+`,
+                    description: `자신이 가하는 데미지 7.5% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

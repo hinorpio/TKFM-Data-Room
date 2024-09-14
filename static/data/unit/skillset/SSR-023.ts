@@ -231,56 +231,56 @@ export const SkillSet_10039: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 침`,
+                    description: `자신에게 최대 HP 25%만큼의 확정 데미지. 자신의 공격 데미지 505/586/667/748/829%만큼 현재 적 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 침`,
+                    description: `자신에게 최대 HP 25%만큼의 확정 데미지. 자신의 공격 데미지 505%만큼 현재 적 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 침`,
+                    description: `자신에게 최대 HP 25%만큼의 확정 데미지. 자신의 공격 데미지 586%만큼 현재 적 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 침`,
+                    description: `자신에게 최대 HP 25%만큼의 확정 데미지. 자신의 공격 데미지 667%만큼 현재 적 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 침`,
+                    description: `자신에게 최대 HP 25%만큼의 확정 데미지. 자신의 공격 데미지 748%만큼 현재 적 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 침`,
+                    description: `자신에게 최대 HP 25%만큼의 확정 데미지. 자신의 공격 데미지 829%만큼 현재 적 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈의 날`,
+                    description: `자신에게 최대 HP 10%만큼의 확정 데미지. 자신의 공격 데미지 120%만큼 현재 적 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `피의 제물`,
+                    description: `아군 2, 4번 자리 멤버가 공격 시, "자신의 공격 데미지의 65%만큼 천년의 혈족 라티아의 공격 데미지 증가(1턴). 자신에게 최대 HP 25%만큼의 확정 데미지.공격 시, "라티아의 공격 데미지의 15%만큼 자신 이외의 모든 동료를 치유"효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈 섭취`,
+                    description: `자신이 적에게 가한 데미지의 33%만큼 HP 회복.\n일반 공격 시, "자신의 공격 데미지 5% 증가(최대 3중첩)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `홍혈의 암벽`,
+                    description: `HP가 15%보다 적을 시, "받는 데미지 95% 감소"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `선혈 광희`,
+                    description: `각 웨이브의 첫 번째 턴에서 "자신의 궁극기 현재 CD 5턴 감소. 자신의 최대 궁극기 CD 1턴 감소." 효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

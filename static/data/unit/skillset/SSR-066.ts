@@ -231,56 +231,56 @@ export const SkillSet_10024: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `네크로맨서술: 영혼 휘감기`,
+                    description: `자신의 공격 데미지 330/376/422/468/514%만큼 타깃에게 데미지, 아군 전체의 일반 공격 데미지 30/30/40/40/50% 증가(4턴), 적 전체가 받는 일반 공격 데미지 0/0/15/20/25% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `네크로맨서술: 영혼 휘감기`,
+                    description: `자신의 공격 데미지 330%만큼 타깃에게 데미지. 아군 전체의 일반 공격 데미지 30% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `네크로맨서술: 영혼 휘감기`,
+                    description: `자신의 공격 데미지 376%만큼 타깃에게 데미지. 아군 전체의 일반 공격 데미지 30% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `네크로맨서술: 영혼 휘감기`,
+                    description: `자신의 공격 데미지 422%만큼 타깃에게 데미지, 아군 전체의 일반 공격 데미지 40% 증가(4턴), 적 전체가 받는 일반 공격 데미지 15% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `네크로맨서술: 영혼 휘감기`,
+                    description: `자신의 공격 데미지 468%만큼 타깃에게 데미지, 아군 전체의 일반 공격 데미지 40% 증가(4턴), 적 전체가 받는 일반 공격 데미지 20% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `네크로맨서술: 영혼 휘감기`,
+                    description: `자신의 공격 데미지 514%만큼 타깃에게 데미지. 아군 전체의 일반 공격 데미지 50% 증가(4턴), 적 전체가 받는 일반 공격 데미지 25% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `저주술`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `영혼 조종술: 스릴 나이트`,
+                    description: `네크로맨서 여왕 엘리자베스가 《언데드 병사 강화술》획득\n아군 전체가 《망령 빙의》획득\n\n《언데드 병사 강화술》\n첫번째 턴에서 「자신의 공격 데미지의 20%만큼 아군 딜러와 디스럽터의 공격 데미지 증가(1턴)」발동\n1턴마다 「자신의 공격 데미지의 20%만큼 아군 딜러와 디스럽터의 공격 데미지 증가(1턴)」발동\n4턴마다 아군 딜러와 디스럽터는 2개의 《영혼 접촉》획득\n\n《영혼 접촉》\n일반 공격 시 「공격 데미지의 40%만큼 타깃에게 데미지」추가(4턴)(일반 공격 1회당 1개의 영혼 접촉 소모)\n\n《망령 빙의》\n팀원 중 최소 3명의 딜러, 또는 최소 2명의 디스럽터가 있을 시 아래 효과 발동:\n자신의 공격 데미지 40% 증가\n자신의 일반 공격 데미지 40% 증가\n자신의 궁극기 발동 시 「타깃이 받는 일반 공격 데미지 6% 증가(최대 4중첩)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `집령의 힘`,
+                    description: `자신의 HP가 50%보다 많을 시, 「공격 데미지 40% 증가」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `영혼 조종술: 대영혼 접촉`,
+                    description: `4턴마다 아군 딜러와 디스럽터는 2개의 《대영혼 접촉》획득\n\n《대영혼 접촉》\n일반 공격 시 「공격 데미지의 60%만큼 타깃에게 데미지」추가(4턴)(일반 공격 1회당 1개의 영혼 접촉 소모)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `영혼 찢어발기기`,
+                    description: `일반 공격 시, 「타깃이 받는 데미지 3.5% 증가(최대 8중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

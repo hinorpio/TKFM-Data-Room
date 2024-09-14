@@ -231,56 +231,56 @@ export const SkillSet_10048: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `독액 배출`,
+                    description: `자신은 「일반 공격 시 『자신의 공격 데미지의 130/176/222/268/314%만큼 타깃에게 데미지』추가(2턴)」 획득, 다시 아군 전체의 일반 공격 데미지 20/25/30/35/40% 증가(4턴), 자신의 일반 공격 데미지 100% 증가(2턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `독액 배출`,
+                    description: `자신은 「일반 공격 시 『자신의 공격 데미지의 130%만큼 타깃에게 데미지』추가(2턴)」 획득, 다시 아군 전체의 일반 공격 데미지 20% 증가(4턴), 자신의 일반 공격 데미지 100% 증가(2턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `독액 배출`,
+                    description: `자신은 「일반 공격 시 『자신의 공격 데미지의 176%만큼 타깃에게 데미지』추가(2턴)」 획득, 다시 아군 전체의 일반 공격 데미지 25% 증가(4턴), 자신의 일반 공격 데미지 100% 증가(2턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `독액 배출`,
+                    description: `자신은 「일반 공격 시 『자신의 공격 데미지의 222%만큼 타깃에게 데미지』추가(2턴)」 획득, 다시 아군 전체의 일반 공격 데미지 30% 증가(4턴), 자신의 일반 공격 데미지 100% 증가(2턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `독액 배출`,
+                    description: `자신은 「일반 공격 시 『자신의 공격 데미지의 268%만큼 타깃에게 데미지』추가(2턴)」 획득, 다시 아군 전체의 일반 공격 데미지 35% 증가(4턴), 자신의 일반 공격 데미지 100% 증가(2턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `독액 배출`,
+                    description: `자신은 「일반 공격 시 『자신의 공격 데미지의 314%만큼 타깃에게 데미지』추가(2턴)」 획득, 다시 아군 전체의 일반 공격 데미지 40% 증가(4턴), 자신의 일반 공격 데미지 100% 증가(2턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `전갈 꼬리 찌르기`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `치명적인 독`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 40% 증가\n아군 딜러, 디스럽터는 《무해지독》획득\n\n《무해지독》\n일반 공격 데미지 50% 증가\n가하는 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `통제불능의 전주곡`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지 80% 증가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `부식성 맹독`,
+                    description: `궁극기 발동 시 「타깃이 받는 일반 공격 데미지 60% 증가(2턴)」 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `스칼렛 톡신`,
+                    description: `궁극기 발동 시 「타깃이 받는 수속성 데미지 30% 증가(2턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역`
                 }
             }
         }

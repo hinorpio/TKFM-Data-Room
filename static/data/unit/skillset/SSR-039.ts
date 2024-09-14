@@ -231,56 +231,56 @@ export const SkillSet_10082: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `자신은「궁극기 데미지 20/20/40/40/50% 증가(최대 1중첩)」, 「일반 공격 데미지 40/40/80/80/100% 증가(최대 1중첩)」효과를 얻고 다시 공격 데미지의 490/568/646/724/802%만큼 타깃에게 피해를 입힘 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `자신은「궁극기 데미지 20% 증가(최대 1중첩)」, 「일반 공격 데미지 40% 증가(최대 1중첩)」효과를 얻고 다시 공격 데미지의 490%만큼 타깃에게 피해를 입힘 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `자신은「궁극기 데미지 20% 증가(최대 1중첩)」, 「일반 공격 데미지 40% 증가(최대 1중첩)」효과를 얻고 다시 공격 데미지의 568%만큼 타깃에게 피해를 입힘 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `자신은「궁극기 데미지 40% 증가(최대 1중첩)」, 「일반 공격 데미지 80% 증가(최대 1중첩)」효과를 얻고 다시 공격 데미지의 646%만큼 타깃에게 피해를 입힘 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `자신은「궁극기 데미지 40% 증가(최대 1중첩)」, 「일반 공격 데미지 80% 증가(최대 1중첩)」효과를 얻고 다시 공격 데미지의 724%만큼 타깃에게 피해를 입힘 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `자신은「궁극기 데미지 50% 증가(최대 1중첩)」, 「일반 공격 데미지 100% 증가(최대 1중첩)」효과를 얻고 다시 공격 데미지의 802%만큼 타깃에게 피해를 입힘 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `부케 클로`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `청순의 힘`,
+                    description: `아군 전체의 HP 최대치 20% 증가\n자신의 공격 데미지 100% 증가\n아군 전체의 공격 데미지 25% 증가\n5턴마다「아군 전체의 공격 데미지 50% 증가(3턴)」발동\n첫 번째 턴에서「자신 이외의 아군 캐릭터가《절대 복종》획득」발동\n\n《절대 복종》\n공격 시, 「타깃이 받는 암속성 데미지 1% 증가(최대 20중첩)」발동(50턴)\n공격 시, 「자신의 공격 데미지의 15%만큼 아군 1번 자리 캐릭터의 공격력 증가(1턴)」발동(50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `무구한 의복`,
+                    description: `공격 시, 「타깃이 받는 암속성 데미지 4% 증가(최대 5중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고통의 쾌락`,
+                    description: `방어 시, 「자신의 공격 데미지 100% 증가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전정한 힘`,
+                    description: `공격 시, 「아군 전체의 공격 데미지 3% 증가(최대 10중첩)」효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -435,7 +435,7 @@ export const SkillSet_10082: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `Pure Power`,
-                    description: `Increase the party's Max HP by 15%.\nAfter every 5 turns, increase the party's Attack Power by 150% for 3 turns.\nOn the first turn, all other allies gain "Absolute Obedience" for 50 turns.\n\nAbsolute Obedience:\nOn Attack, increase the target's Damage Taken from Dark attacks by 1% (Max 20 Stacks).\nOn Attack, increase the 1st-position ally's Attack Power by 15% of your own Attack Power for 1 turn.`
+                    description: `Increase the party's Max HP by 15%.\nAfter every 5 turns, increase the party's Attack Power by 150% for 3 turns.\nOn the first turn, all other allies gain "Absolute Obedience" for 50 turns.\n\nAbsolute Obedience:\nOn Attack, increase the target's Damage Taken from Dark attacks by 1% (Max 20 Stacks).\nOn Attack, increase the 1st-position ally's Attack Power by 30% of your own Attack Power for 1 turn.`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `Disgraced Vows`,
@@ -514,56 +514,56 @@ export const SkillSet_10082: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `공격 데미지의 490/568/646/724/802%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `공격 데미지의 490%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `공격 데미지의 560%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `공격 데미지의 646%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `공격 데미지의 724%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `지옥의 꽃`,
+                    description: `공격 데미지의 802%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `부케 클로`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `청순의 힘`,
+                    description: `아군 전체의 HP 최대치 15% 증가\n5턴마다「아군 전체의 공격 데미지 150% 증가(3턴)」발동\n첫 번째 턴에서「자신 이외의 아군 캐릭터가《절대 복종》획득」발동\n\n《절대 복종》\n공격 시, 「타깃이 받는 암속성 데미지 1% 증가(최대 20중첩)」발동(50턴)\n공격 시, 「자신의 공격 데미지의 30%만큼 아군 1번 자리 캐릭터의 공격력 증가(1턴)」발동(50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `무구한 의복`,
+                    description: `일반 공격 시, 「자신의 궁극기 데미지 8% 증가(최대 5중첩)」 발동.\n궁극기 발동 시, 「자신의 일반 공격 데미지 80% 증가(최대 1중첩)」 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `고통의 쾌락`,
+                    description: `공격 시, 「타깃이 받는 암속성 데미지 4% 증가(최대 5중첩)」발동\n방어 시, 「자신의 공격 데미지 40% 증가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전정한 힘`,
+                    description: `공격 시, 「아군 전체의 공격 데미지 3% 증가(최대 10중첩)」효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

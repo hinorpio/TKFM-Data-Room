@@ -231,56 +231,56 @@ export const SkillSet_10116: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `포효하라 칼리버!`,
+                    description: `자신의 공격 데미지 50/60/70/80/100% 증가(2턴) 시키고,  자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `포효하라 칼리버!`,
+                    description: `자신의 공격 데미지 50% 증가(2턴) 시키고,  자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `포효하라 칼리버!`,
+                    description: `자신의 공격 데미지 60% 증가(2턴) 시키고,  자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `포효하라 칼리버!`,
+                    description: `자신의 공격 데미지 70% 증가(3턴) 시키고,  자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `포효하라 칼리버!`,
+                    description: `자신의 공격 데미지 80% 증가(4턴) 시키고,  자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `포효하라 칼리버!`,
+                    description: `자신의 공격 데미지 100% 증가(4턴) 시키고, 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `아침 햇살 새벽 검`,
+                    description: `자신의 공격 데미지의 125%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `여름 용자의 바캉스 타임`,
+                    description: `아군 전체의 최대 HP 25% 증가\n아군 전체의 일반 공격 데미지 50% 증가\n1번 자리 아군은 「팀에 최소 3명 이상의 딜러가 있을 시 《나는 먹는다. 고로 존재한다》발동」획득\n아군 전체는 「팀에 최소 3명 이상의 화속성 캐릭터가 있을 시 《라이딩 모드・ON》발동」획득\n\n《나는 먹는다・고로 존재한다》\n공격 데미지 40% 증가\n일반 공격 시 「자신의 공격 데미지 50%만큼 타깃에게 데미지」추가\n궁극기 발동 시 「타깃이 받는 화속성 데미지 20% 증가(최대 2중첩)」발동\n궁극기 발동 시 「타깃이 받는 일반 공격 데미지 40% 증가(최대 2중첩)」발동\n\n《라이딩 모드・ON》\n공격 데미지40% 증가\n행동 시 「자신이 가하는 데미지 7% 증가(최대 5중첩)」발동\n행동 시 「자신의 일반 공격 데미지 15% 증가(최대 5중첩)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `디저트 금단 현상`,
+                    description: `일반 공격 데미지 30% 증가\n궁극기 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `우리 엄마가 하와이에서 가르쳐주셨어`,
+                    description: `첫째 턴에서, 「적군  전체가 받는 데미지 15% 증가(최대 50턴)」발동\n8번째 턴에서 「자신의 궁극기 데미지 40% 증가(50턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `셀프 BGM의 용자`,
+                    description: `일반 공격 시 「자신의 공격 데미지의 25%만큼 타깃에게 데미지」추가\n일반 공격 시 「자신이 가하는 데미지 10% 증가(최대 3중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

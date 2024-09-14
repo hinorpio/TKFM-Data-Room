@@ -178,7 +178,7 @@ export const SkillSet_10123: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `ミルからの大サービス！`,
-                    description: ``
+                    description: `味方全体の誘発スキル効果を60/70/80/90/100%増加させ(4ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える、味方全体のアタッカー・デバッファーが「攻撃時『自分の33/39/46/52/59%の攻撃力でターゲットにダメージを与える』を誘発する(3ターン)」を獲得[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `ミルからの大サービス！`,
@@ -231,56 +231,56 @@ export const SkillSet_10123: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `안닌궁주 보너스!`,
+                    description: `아군 전체의 발동형 스킬 효과 60/70/80/90/100% 증가(4턴), 자신의 공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지를 가하고, 아군 전체 딜러, 디스럽터가 공격 시 효과 「자신의 공격력의 33/39/46/52/59%만큼 타깃에게 데미지를 가함」(3턴)을 획득[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `안닌궁주 보너스!`,
+                    description: `아군 전체의 발동형 스킬 효과 60% 증가(4턴), 자신의 공격 데미지의 265%만큼 타깃에게 데미지를 가하고, 아군 전체 딜러, 디스럽터가 공격 시 효과 「자신의 공격력의 33%만큼 타깃에게 데미지를 가함」(3턴)을 획득[CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `안닌궁주 보너스!`,
+                    description: `아군 전체의 발동형 스킬 효과 70% 증가(4턴), 자신의 공격 데미지의 298%만큼 타깃에게 데미지를 가하고, 아군 전체 딜러, 디스럽터가 공격 시 효과 「자신의 공격력의 39%만큼 타깃에게 데미지를 가함」(3턴)을 획득[CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `안닌궁주 보너스!`,
+                    description: `아군 전체의 발동형 스킬 효과 80% 증가(4턴), 자신의 공격 데미지의 331%만큼 타깃에게 데미지를 가하고, 아군 전체 딜러, 디스럽터가 공격 시 효과 「자신의 공격력의 46%만큼 타깃에게 데미지를 가함」(3턴)을 획득[CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `안닌궁주 보너스!`,
+                    description: `아군 전체의 발동형 스킬 효과 90% 증가(4턴), 자신의 공격 데미지의 364%만큼 타깃에게 데미지를 가하고, 아군 전체 딜러, 디스럽터가 공격 시 효과 「자신의 공격력의 52%만큼 타깃에게 데미지를 가함」(3턴)을 획득[CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `안닌궁주 보너스!`,
+                    description: `아군 전체의 발동형 스킬 효과 100% 증가(4턴), 자신의 공격 데미지의 397%만큼 타깃에게 데미지를 가하고, 아군 전체 딜러, 디스럽터가 공격 시 효과 「자신의 공격력의 59%만큼 타깃에게 데미지를 가함」(3턴)을 획득[CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `냐아!`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `다같이 먀먀먀`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 70% 증가\n아군 전체가 「팀원 중 3명 이상의 딜러가 있으면 《같이 먀먀먀먀먀》 발동」 획득\n아군 전체가 「팀원 중 2명 이상의 디스럽터가 있으면 《같이 먀먀먀먀먀》 발동」획득\n\n《같이 먀먀먀먀먀》\n발동형 스킬 효과 150% 증가\n가하는 데미지 30% 증가\n궁극기 발동 시, 「타깃이 받는 화, 수, 풍, 광, 암속성 데미지 5% 증가(2턴)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `18 × 18 = 88`,
+                    description: `궁극기 발동 시, 「자신의 공격 데미지 40% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마음을 훔치는 소악마가 로그인했다고~`,
+                    description: `궁극기 발동 시 「타깃이 받는 궁극기 데미지 20% 증가(4턴)」 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `오늘은 야한 미루 꿈 꿔♡`,
+                    description: `궁극기 발동 시 「타깃이 받는 데미지 20% 증가(4턴)」 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

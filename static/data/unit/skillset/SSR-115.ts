@@ -231,56 +231,56 @@ export const SkillSet_10145: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `피비린내`,
+                    description: `자신의 공격 데미지의 330/376%만큼 타깃에게 데미지, 자신의 최대 HP 5/6.25%만큼 아군 전체의 공격 데미지 증가(5턴) [CD: 4]\n\nLv3+: 자신의 최대 HP 7.5/8.75/10%만큼 아군 전체의 공격 데미지 증가(5턴), 자신의 공격 데미지의 422/468/514%만큼 타깃에게 데미지를 가하고 다시 자신의 최대 HP 25%만큼 아군 전체에게 아머 강화 부여(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피비린내`,
+                    description: `자신의 공격 데미지의 330%만큼 타깃에게 데미지, 자신의 최대 HP 5%만큼 아군 전체의 공격 데미지 증가(5턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `피비린내`,
+                    description: `자신의 공격 데미지의 376%만큼 타깃에게 데미지, 자신의 최대 HP 6.25%만큼 아군 전체의 공격 데미지 증가(5턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `피비린내`,
+                    description: `자신의 최대 HP 7.5%만큼 아군 전체의 공격 데미지 증가(5턴), 자신의 공격 데미지의 422%만큼 타깃에게 데미지를 가하고 다시 자신의 최대 HP 25%만큼 아군 전체에게 아머 강화 부여(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `피비린내`,
+                    description: `자신의 최대 HP 8.75%만큼 아군 전체의 공격 데미지 증가(5턴), 자신의 공격 데미지의 468%만큼 타깃에게 데미지를 가하고 다시 자신의 최대 HP 25%만큼 아군 전체에게 아머 강화 부여(2턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `피비린내`,
+                    description: `자신의 최대 HP 10%만큼 아군 전체의 공격 데미지 증가(5턴), 자신의 공격 데미지의 514%만큼 타깃에게 데미지를 가하고 다시 자신의 최대 HP 25%만큼 아군 전체에게 아머 강화 부여(2턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `바다괴수 학살`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `마계의 낚시 마스터`,
+                    description: `아군 전체의 최대 HP 40% 증가\n아군 전체의 공격 데미지 70% 증가\n아군 전체의 일반 공격 데미지 60% 증가\n아군 전체의 궁극기 데미지 20% 증가\n공격 시 「자신의 최대 HP 5%만큼 아군 전체의 공격 데미지 증가(2턴)」발동\n피격 시 「《걸려들었다》」발동\n\n《걸려들었다》\n아군 전체의 가하는 데미지 1.33% 증가(최대 15중첩)\n적 전체의 받는 데미지 1.33% 증가(최대 15중첩)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 묻는 안부`,
+                    description: `일반 공격 시 「자신의 현재 HP 1%만큼 자신에게 확정 데미지를 가하고 아군 전체의 일반 공격 데미지 5% 증가(최대 10중첩)」추가 (「피격 시」발동 효과 발동 가능)\n궁극기 발동 시 「자신의 현재 HP 1%만큼 자신에게 확정 데미지를 가하고 아군 전체의 궁극기 데미지 10% 증가(최대 3중첩)」추가 (「피격 시」발동 효과 발동 가능)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `학살 욕망`,
+                    description: `피격 시 「아군 전체의 가하는 데미지 1.33% 증가(최대 15중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `웨딩드레스 병기・장애 식별`,
+                    description: `피격 시 「적 전체의 받는 데미지 1.33% 증가(최대 15중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `데미지+`,
+                    description: `자신이 가하는 데미지 7.5% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

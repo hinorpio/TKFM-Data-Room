@@ -231,56 +231,56 @@ export const SkillSet_10045: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `귀무에 취하다`,
+                    description: `자신의 공격 데미지 75/87.5/87.5/100/112.5% 증가(1턴). 가한 데미지 0/0/15/20/25% 증가(1턴). [CD: 1]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `귀무에 취하다`,
+                    description: `자신의 공격 데미지 75% 증가(1턴). [CD: 1]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `귀무에 취하다`,
+                    description: `자신의 공격 데미지 87.5% 증가(1턴). [CD: 1]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `귀무에 취하다`,
+                    description: `자신의 공격 데미지 87.5% 증가(1턴). 가한 데미지 15% 증가(1턴). [CD: 1]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `귀무에 취하다`,
+                    description: `자신의 공격 데미지 100% 증가(1턴). 가한 데미지 20% 증가(1턴). [CD: 1]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `귀무에 취하다`,
+                    description: `자신의 공격 데미지 112.5% 증가(1턴). 가한 데미지 25% 증가(1턴). [CD: 1]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `술잔 위로 비친 달`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `미몽의 취무`,
+                    description: `아군에 3명 이상의 딜러가 있을 시, 아군 전체가 "공격 데미지 30% 증가" 효과 발동.\n3개 이상의 화속성 캐릭터가 있을 시, "공격 데미지 40% 증가" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `오니의 웃음`,
+                    description: `일반 공격 시, "궁극기 발동 후 공격 데미지의 60.5%로 타깃에게 추가 공격(7턴)"효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `술 들이붓기`,
+                    description: `매 턴마다 "자신의 공격 데미지 15% 증가(최대 6중첩)" 효과 발동.. 궁극기 발동 시, "술 들이붓기의 공격 데미지 증가 효과 2중첩 감소" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `오니의 가무`,
+                    description: `자신의 궁극기 데미지 35% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

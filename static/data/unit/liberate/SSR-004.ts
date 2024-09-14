@@ -141,7 +141,36 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                             description: `攻撃時「味方全体の与えるダメージを20%増加させる(1ターン)」を誘発する\n攻撃時「味方全体の通常攻撃ダメージを30%増加させる(1ターン)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `유도 화살`,
+                            description: `공격력의 475/550/625/625/625%만큼 타깃에게 데미지, 아군 전체의 공격 데미지 15/15/15/20/25% 증가(최대 2중첩) [CD: 6]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `유도 화살`,
+                            description: `공격력의 475%만큼 타깃에게 데미지, 아군 전체의 공격 데미지 15% 증가(최대 2중첩) [CD: 6]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `유도 화살`,
+                            description: `공격력의 550%만큼 타깃에게 데미지, 아군 전체의 공격 데미지 15% 증가(최대 2중첩) [CD: 6]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `유도 화살`,
+                            description: `공격력의 625%만큼 타깃에게 데미지, 아군 전체의 공격 데미지 15% 증가(최대 2중첩) [CD: 6]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `유도 화살`,
+                            description: `공격력의 625%만큼 타깃에게 데미지, 아군 전체의 공격 데미지 20% 증가(최대 2중첩) [CD: 6]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `유도 화살`,
+                            description: `공격력의 625%만큼 타깃에게 데미지, 아군 전체의 공격 데미지 25% 증가(최대 2중첩) [CD: 6]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `인도자`,
+                            description: `공격 시「아군 전체가 가하는 데미지 20% 증가(1턴)」발동\n공격 시「아군 전체의 일반 공격 데미지 30% 증가(1턴)」발동`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -179,7 +208,7 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,597,268\nAMax ATK：870,818`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,597,268\nMax ATK：870,818`
                         },
                     }
                 }
@@ -248,7 +277,20 @@ export const LiberateSkillSet_10004: LiberateSkillSet[] = [
                             description: `味方全体の攻撃力が25%増加する\n1ターン目に「自分の必殺技のCDを6ターン減少させる」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `엘프의 영역`,
+                            description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 50% 증가\n아군 전체의 일반 공격 데미지 50% 증가\n자신의 공격 데미지 50% 증가`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `파천일격`,
+                            description: `궁극기 발동 시 「적 전체가 받는 데미지 12.5% 증가(최대 2중첩), 적 전체의 방어 상태 해제」추가\n궁극기 발동 시 「적 타깃이 받는 일반 공격 데미지 35% 증가(최대 2중첩)」발동`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `불어오는 승리의 바람`,
+                            description: `아군 전체의 공격 데미지 25% 증가\n첫번째 턴에서 「자신의 궁극기 CD 6턴 감소」발동`
+                        },
+                    }
                 }
             }
         }

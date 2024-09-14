@@ -231,56 +231,56 @@ export const SkillSet_10125: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `장난은 안치지만 사탕 내 놔`,
+                    description: `자신의 공격 데미지 200/200/250/250/300% 증가(1턴) 후 다시 자신의 공격 데미지의 25/30/35/40/45%만큼 자신의 공격 데미지 증가(1턴), 자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `장난은 안치지만 사탕 내 놔`,
+                    description: `자신의 공격 데미지 200% 증가(1턴) 후 다시 자신의 공격 데미지의 25%만큼 자신의 공격 데미지 증가(1턴), 자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `장난은 안치지만 사탕 내 놔`,
+                    description: `자신의 공격 데미지 200% 증가(1턴) 후 다시 자신의 공격 데미지의 30%만큼 자신의 공격 데미지 증가(1턴), 자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `장난은 안치지만 사탕 내 놔`,
+                    description: `자신의 공격 데미지 250% 증가(1턴) 후 다시 자신의 공격 데미지의 35%만큼 자신의 공격 데미지 증가(1턴), 자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `장난은 안치지만 사탕 내 놔`,
+                    description: `자신의 공격 데미지  250% 증가(1턴) 후 다시 자신의 공격 데미지의 40%만큼 자신의 공격 데미지 증가(1턴), 자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `장난은 안치지만 사탕 내 놔`,
+                    description: `자신의 공격 데미지 300% 증가(1턴) 후 다시 자신의 공격 데미지의 45%만큼 자신의 공격 데미지 증가(1턴), 자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `용기의 힘`,
+                    description: `아군 전체의 공격 데미지 50% 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `할로윈 코스프레 파티`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 50% 증가\n아군 전체의 가하는 데미지 50% 증가\n아군 전체의 궁극기 데미지 70% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `호박을 자르는 데 어찌 성검을 쓰겠는가`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 250%만큼 타깃에게 데미지」 추가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `즉석 호박파이`,
+                    description: `3턴마다 「자신이 궁극기 획득 시 『자신의 공격 데미지의 25%만큼 아군 딜러, 디스럽터의 공격 데미지 증가(1턴)』발동(1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `할로윈에 입을 옷`,
+                    description: `아군 딜러, 디스럽터는 「궁극기 발동 시 『자신의 공격 데미지의 100%만큼 타깃에게 데미지』추가(50턴)」획득`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }

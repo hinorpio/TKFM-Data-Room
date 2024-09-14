@@ -231,56 +231,56 @@ export const SkillSet_10083: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 가버리는 거야~`,
+                    description: `자신의 공격 데미지의 200%만큼 아군 전체를 치유. 자신의 공격 데미지의 40/45/50/50/50%만큼 아군 전체의 공격 데미지 증가(1턴). 아군 전체의 공격 데미지 0/0/10/15/20% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 가버리는 거야~`,
+                    description: `자신의 공격 데미지의 200%만큼 아군 전체를 치유. 자신의 공격 데미지의 40%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 가버리는 거야~`,
+                    description: `자신의 공격 데미지의 200%만큼 아군 전체를 치유. 자신의 공격 데미지의 45%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 가버리는 거야~`,
+                    description: `자신의 공격 데미지의 200%만큼 아군 전체를 치유. 자신의 공격 데미지의 50%만큼 아군 전체의 공격 데미지 증가(1턴). 아군 전체의 공격 데미지 10% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 가버리는 거야~`,
+                    description: `자신의 공격 데미지의 200%만큼 아군 전체를 치유. 자신의 공격 데미지의 50%만큼 아군 전체의 공격 데미지 증가(1턴). 아군 전체의 공격 데미지 15% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 가버리는 거야~`,
+                    description: `자신의 공격 데미지의 200%만큼 아군 전체를 치유. 자신의 공격 데미지의 50%만큼 아군 전체의 공격 데미지 증가(1턴). 아군 전체의 공격 데미지 20% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `모두를 기분 좋게 해줄게~`,
+                    description: `자신의 공격 데미지의 50%만큼 아군 전체를 치유.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `누구나 환영～`,
+                    description: `아군 전체의 공격 데미지 30% 증가.\n궁극기 발동 시, [크레이지 츄르릅] 효과 발동.\n궁극기 발동 시, [나도 기분 좋게 해줘~] 효과 발동.\n자신이 [절정으로 Fly] 획득\n\n[크레이지 츄르릅]\n일반 공격 시, "자신의 공격 데미지의 50%만큼 3회 추가 공격" 효과 발동 (2턴)\n[나도 기분 좋게 해줘~]\n자신 이외의 동료가 궁극기 발동 시, "자신의 공격 데미지의 50%만큼 드림 파라다이스 토이 점장님 사쿠야 유메의 공격 데미지 증가(2턴)"효과 발동(1턴)\n[절정으로 Fly]\n일반 공격 시, "자신의 공격 데미지 10% 증가(최대 7중첩)"효과 발동.\n궁극기 발동 시, "[절정으로 Fly]로 부여된 공격 데미지 증가 상태 해제"효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `고속 츄르릅`,
+                    description: `궁극기 발동 시, "[멈출 수 없는 츄르릅]"효과 발동.\n\n[멈출 수 없는 츄르릅]\n일반 공격 시, "자신 공격 데미지의 50%만큼 3회 추가 공격" 효과 발동 (2턴)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `갈수록 짜릿짜릿`,
+                    description: `일반 공격 시, "자신의 공격 데미지 10% 증가(최대 7중첩)"효과 발동.\n궁극기 발동 시, "[갈수록 짜릿짜릿]으로 부여된 공격 데미지 증가 상태 해제" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `멈출 수 없는 손`,
+                    description: `방어 시, "자신 공격 데미지의 50%만큼 아군 전체를 치유. [갈수록 짜릿짜릿]과 [절정으로 Fly]로 부여된 공격 데미지 증가 상태 3중첩 증가"효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

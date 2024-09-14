@@ -231,56 +231,56 @@ export const SkillSet_10020: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `일렉트로 마그네틱 펄스`,
+                    description: `자신의 공격 데미지의 265/298/311/364/397%만큼 타깃에게 데미지, 적 전체가 가하는 데미지 5/5/7.5/7.5/15%감소 (최대 [3/3/2/2/1]중첩) [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일렉트로 마그네틱 펄스`,
+                    description: `자신의 공격 데미지의 265%만큼 타깃에게 데미지, 적 전체가 가하는 데미지 5%감소 (최대 3중첩) [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `일렉트로 마그네틱 펄스`,
+                    description: `자신의 공격 데미지의 298%만큼 타깃에게 데미지, 적 전체가 가하는 데미지 5%감소 (최대 3중첩) [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `일렉트로 마그네틱 펄스`,
+                    description: `자신의 공격 데미지의 331%만큼 타깃에게 데미지, 적 전체가 가하는 데미지 7.5%감소 (최대 2중첩) [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `일렉트로 마그네틱 펄스`,
+                    description: `자신의 공격 데미지의 364%만큼 타깃에게 데미지, 적 전체가 가하는 데미지 7.5%감소 (최대 2중첩) [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `일렉트로 마그네틱 펄스`,
+                    description: `자신의 공격 데미지의 397%만큼 타깃에게 데미지, 적 전체가 가하는 데미지 15%감소 (최대 1중첩) [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `만능 메카닉 암`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `개조 시작...히히히...`,
+                    description: `아군 전체의 공격 데미지 40% 증가\n첫 번째 턴 시작 시, [아군 2, 4번 자리 동료가 《솟아오르는 힘》 획득]효과 발동\n\n《솟아오르는 힘》\n궁극기 데미지 30% 증가(50턴)\n일반 공격 데미지 60% 증가 (50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `재생 방지 스프레이`,
+                    description: `궁극기 발동 시, [타깃이 받는 치유량 100% 감소(3턴)]효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `커브드 포스필드`,
+                    description: `궁극기 발동 시, [아군 전체가 자신의 최대 HP의 30%만큼 자신의 아머 강화(1턴)]효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 개조 수술`,
+                    description: `4턴마다, [아군 2, 4번자리 동료가 "궁극기 데미지 50%증가 (2턴)"]효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

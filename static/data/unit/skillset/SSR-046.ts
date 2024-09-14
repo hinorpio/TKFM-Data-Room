@@ -231,56 +231,56 @@ export const SkillSet_10076: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹 전원 돌격`,
+                    description: `자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지, 아군 딜러 전체가 "일반 공격 시 [자신의 공격 데미지의 37.5/45/45/52.5/60%만큼 타깃에게 데미지] 스킬 추가(3/3/4/4/4턴) "획득 [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹 전원 돌격`,
+                    description: `자신의 공격 데미지의 330%만큼 타깃에게 데미지, 아군 딜러 전체가 "일반 공격 시 [자신의 공격 데미지의 37.5%만큼 타깃에게 데미지] 스킬 추가(3턴) "획득 [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹 전원 돌격`,
+                    description: `자신의 공격 데미지의 376%만큼 타깃에게 데미지, 아군 딜러 전체가 "일반 공격 시 [자신의 공격 데미지의 45%만큼 타깃에게 데미지] 스킬 추가(3턴) "획득 [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹 전원 돌격`,
+                    description: `자신의 공격 데미지의 422%만큼 타깃에게 데미지, 아군 딜러 전체가 "일반 공격 시 [자신의 공격 데미지의 45%만큼 타깃에게 데미지] 스킬 추가(4턴) "획득 [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹 전원 돌격`,
+                    description: `자신의 공격 데미지의 468%만큼 타깃에게 데미지, 아군 딜러 전체가 "일반 공격 시 [자신의 공격 데미지의 52.5%만큼 타깃에게 데미지] 스킬 추가(4턴) "획득 [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹 전원 돌격`,
+                    description: `자신의 공격 데미지의 514%만큼 타깃에게 데미지, 아군 딜러 전체가 "일반 공격 시 [자신의 공격 데미지의 60%만큼 타깃에게 데미지] 스킬 추가(4턴) "획득 [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `슈퍼 루루권`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `이상한 나라의 다과회 연맹`,
+                    description: `첫 번째 턴에서「자신의 궁극기 CD 4턴 감소」발동\n자신이 궁극기 발동 시, [《Shuffling》] 효과 발동\n아군 전체가 "팀원 중 최소 4명의 딜러가 있을 시,[《Four of a Kind》]발동" 효과 획득\n\n《Shuffling》\n아군 딜러 전체의 [일반 공격 시 『자신의 공격 데미지의 37.5%만큼 타깃에게 데미지』스킬 추가(4턴)] 획득\n\n《Four of a Kind》\n공격 데미지 70%증가\n일반 공격 데미지 100% 증가\n받는 데미지 10% 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `아름다운 소망`,
+                    description: `궁극기 발동 시 "아군 전체의 일반 공격 데미지 30% 증가(최대 2중첩)"발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `공주의 리더십(꿈)`,
+                    description: `첫 번째 턴 시작 시 "아군 전체의 일반 공격 데미지 30% 증가(50턴)"발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `다과회 동맹의 야심`,
+                    description: `궁극기 발동 시 "아군 전체가 가하는 데미지 12.5% 증가(최대 2중첩)"발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

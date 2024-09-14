@@ -231,56 +231,56 @@ export const SkillSet_10033: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `수마 기습`,
+                    description: `100/110/120/130/150% 확률로 현재 적 타깃에게 수면효과(2턴), 행동 불능, 받는 데미지 100/110/120/130/150% 증가. 데미지 받은 후 해제 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `수마 기습`,
+                    description: `100% 확률로 현재 적 타깃에게 수면효과(2턴), 행동 불능, 받는 데미지 100% 증가. 데미지 받은 후 해제 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수마 기습`,
+                    description: `110% 확률로 현재 적 타깃에게 수면효과(2턴), 행동 불능, 받는 데미지 110% 증가. 데미지 받은 후 해제 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `수마 기습`,
+                    description: `120% 확률로 현재 적 타깃에게 수면효과(2턴), 행동 불능, 받는 데미지 120% 증가. 데미지 받은 후 해제 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `수마 기습`,
+                    description: `130% 확률로 현재 적 타깃에게 수면효과(2턴), 행동 불능, 받는 데미지 130% 증가. 데미지 받은 후 해제 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `수마 기습`,
+                    description: `150% 확률로 현재 적 타깃에게 수면효과(2턴), 행동 불능, 받는 데미지 150% 증가. 데미지 받은 후 해제 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `악몽`,
+                    description: `현재 적 타깃이 받는 일반 공격 데미지 10% 증가히고 받는 궁극기 데미지 5% 증가(3턴), 공격 데미지의 50%만큼 자신에게 아머 강화(1턴) 효과.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `동상이몽`,
+                    description: `아군 전체가 일반 공격 시, "20% 확률로 현재 적 타깃에게 수면 효과(1턴), 행동 불능 상태에서 받는 데미지 30% 증가. 데미지를 받은 후 본 상태 해제" 효과 획득.\n모든 동료가 일반 공격 시, "현재 적 타깃에게 수면 효과 발동 확률 20% 증가(1턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자장가`,
+                    description: `일반 공격 시, "현재 적 타깃에게 수면 효과 발동 확률 40% 증가(1턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `더 잘래…`,
+                    description: `공격 시, "현재 적 타깃의 공격 데미지 15% 감소(2턴)" 효과 발동.\n궁극기 발동 시, "현재 적 타깃의 궁극기 CD가 카운트다운 정지(1턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `한방중의 꿈길`,
+                    description: `각 웨이브의 첫 번째 턴에서 "적 전체의 데미지 10% 감소(50턴)" 효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

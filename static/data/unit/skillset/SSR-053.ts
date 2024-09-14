@@ -178,7 +178,7 @@ export const SkillSet_10074: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `凍りの花の綻び`,
-                    description: ``
+                    description: `2、3、4番目の敵が受ける必殺技ダメージを2.5/2.5/3.75/3.75/5%増加させ(最高4スタック)、さらに自分の102/116/130/143/157%の攻撃力で2、3、4番目の敵にダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `凍りの花の綻び`,
@@ -231,56 +231,56 @@ export const SkillSet_10074: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `피어나는 눈꽃`,
+                    description: `2, 3, 4번 자리 적이 받는 궁극기 데미지 2.5/2.5/3.75/3.75/5% 증가(최대 4중첩), 자신의 공격 데미지 102/116/130/143/157%만큼 2, 3, 4번 자리 적에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피어나는 눈꽃`,
+                    description: `2, 3, 4번 자리 적이 받는 궁극기 데미지 2.5% 증가(최대 4중첩), 자신의 공격 데미지 102%만큼 2, 3, 4번 자리 적에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `피어나는 눈꽃`,
+                    description: `2, 3, 4번 자리 적이 받는 궁극기 데미지 2.5% 증가(최대 4중첩), 자신의 공격 데미지 116%만큼 2, 3, 4번 자리 적에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `피어나는 눈꽃`,
+                    description: `2, 3, 4번 자리 적이 받는 궁극기 데미지 3.75% 증가(최대 4중첩), 자신의 공격 데미지 130%만큼 2, 3, 4번 자리 적에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `피어나는 눈꽃`,
+                    description: `2, 3, 4번 자리 적이 받는 궁극기 데미지 3.75% 증가(최대 4중첩), 자신의 공격 데미지 143%만큼 2, 3, 4번 자리 적에게 데미지[CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `피어나는 눈꽃`,
+                    description: `2, 3, 4번 자리 적이 받는 궁극기 데미지 5% 증가(최대 4중첩), 자신의 공격 데미지 157%만큼 2, 3, 4번 자리 적에게 데미지[CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `서릿발`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `툰드라`,
+                    description: `아군 전체의 공격 데미지 40% 증가\n자신의 궁극기 최대 CD+1\n궁극기 발동 시, 「적 전체가 받는 데미지 7.5% 증가(최대 4중첩)」효과 발동\n궁극기 발동 시, 「적 전체가 받는 궁극기 데미지 12.5% 증가(최대 4중첩)」효과 발동\n일반 공격 시, 「자신의 공격 데미지 25% 만큼 아군 전체의 공격 데미지 증가(1턴)」효과 발동\n자신에게 침묵 면역 효과`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `설풍 장벽`,
+                    description: `방어 시, 「자신의 공격 데미지 50%만큼 아군 전체의 아머 강화(1턴)」효과 발동\n방어 시, 「100% 확률로 자신에게 침묵 효과(2턴)」효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `칼바람`,
+                    description: `궁극기 발동 시, 「자신의 데미지 18.75% 증가(최대 4중첩)」효과 발동\n궁극기 발동 시, 「자신의 궁극기 데미지 15% 증가(최대 4중첩)」효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `설산 미인`,
+                    description: `자신이 가하는 데미지 15% 증가\n궁극기 발동 시, 「아군 자신의 최대 HP 20%만큼 아군 전체의 아머 강화(1턴)」효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

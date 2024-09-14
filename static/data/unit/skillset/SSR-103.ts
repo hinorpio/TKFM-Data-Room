@@ -231,56 +231,56 @@ export const SkillSet_10133: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 프로 아이돌의 매력☆`,
+                    description: `자신의 기본 공격 데미지의 50/55/60/65/70%만큼 아군 전체의 공격 데미지 증가(4턴), 다시 아군 전체의 궁극기 데미지 20/25/30/35/40% 증가(4턴) [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 프로 아이돌의 매력☆`,
+                    description: `자신의 기본 공격 데미지의 50%만큼 아군 전체의 공격 데미지 증가(4턴), 다시 아군 전체의 궁극기 데미지 20% 증가(4턴) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 프로 아이돌의 매력☆`,
+                    description: `자신의 기본 공격 데미지의 55%만큼 아군 전체의 공격 데미지 증가(4턴), 다시 아군 전체의 궁극기 데미지 25% 증가(4턴) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 프로 아이돌의 매력☆`,
+                    description: `자신의 기본 공격 데미지의 60%만큼 아군 전체의 공격 데미지 증가(4턴), 다시 아군 전체의 궁극기 데미지 30% 증가(4턴) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 프로 아이돌의 매력☆`,
+                    description: `자신의 기본 공격 데미지의 65%만큼 아군 전체의 공격 데미지 증가(4턴), 다시 아군 전체의 궁극기 데미지 35% 증가(4턴) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 프로 아이돌의 매력☆`,
+                    description: `자신의 기본 공격 데미지의 70%만큼 아군 전체의 공격 데미지 증가(4턴), 다시 아군 전체의 궁극기 데미지 40% 증가(4턴) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `한눈 팔기 없기~♡`,
+                    description: `자신의 공격 데미지의 25%만큼 아군 전체에게 아머 강화(1턴), 자신의 최대 HP 30%만큼 아군 전체에게 아머 강화(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `악수회 시간이야~`,
+                    description: `아군 전체의 공격 데미지 50% 증가\n아군 전체의 가하는 발동형 스킬 효과 100% 증가\n아군 전체의 가하는 데미지 20% 증가\n자신은 팀에 서포터 캐릭터 2명 이상 있을 시 「받는 아머 효과 600% 감소」 발동\n\n자신 이외의 아군은 《돈은 사라지지 않아》획득\n자신은 《나나미의 형상으로 변한 것뿐》획득\n\n《돈은 사라지지 않아》\n공격 시 「자신의 공격 데미지의 30%만큼 1번 자리 아군에게 아머 강화 부여(1턴)」발동\n\n《나나미의 형상으로 변한 것뿐》\n일반 공격 시 「자신의 현재 아머량 55%만큼 타깃에게 데미지」발동\n궁극기 발동 시 「자신의 현재 아머량 60%만큼 타깃에게 데미지」발동\n공격 시 「자신의 현재 아머량 100%만큼 자신의 아머에 확정 데미지」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `무대 준비`,
+                    description: `자신이 가하는 아머 강화 효과 15% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `「청순」 아이돌`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 25%만큼 아군 전체에게 아머 강화(1턴), 자신의 최대 HP 30%만큼 아군 전체에게 아머 강화(1턴)」추가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `OnlySex♡`,
+                    description: `1턴마다 「자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

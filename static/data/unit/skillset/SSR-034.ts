@@ -231,56 +231,56 @@ export const SkillSet_10054: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `손잡이를 꼭 잡아주세요!`,
+                    description: `자신의 최대 HP의 30/40/40/50/50%만큼 회복, 도발 효과(2턴) 획득 후 방어 상태로 전환. 아군 전체가 받는 데미지 0/0/0/5/10% 감소(1턴). [CD:4] [Lv3+: CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `손잡이를 꼭 잡아주세요!`,
+                    description: `자신의 최대 HP의 30%만큼 회복, 도발 효과(2턴) 획득 후 방어 상태로 전환. [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `손잡이를 꼭 잡아주세요!`,
+                    description: `자신의 최대 HP의 40%만큼 회복, 도발 효과(2턴) 획득 후 방어 상태로 전환. [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `손잡이를 꼭 잡아주세요!`,
+                    description: `자신의 최대 HP의 40%만큼 회복, 도발 효과(2턴) 획득 후 방어 상태로 전환. [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `손잡이를 꼭 잡아주세요!`,
+                    description: `자신의 최대 HP의 50%만큼 회복, 도발 효과(2턴) 획득 후 방어 상태로 전환. 아군 전체가 받는 데미지 5% 감소(1턴). [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `손잡이를 꼭 잡아주세요!`,
+                    description: `자신의 최대 HP의 50%만큼 회복, 도발 효과(2턴) 획득 후 방어 상태로 전환. 아군 전체가 받는 데미지 10% 감소(1턴). [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `질주하는 꽃사슴`,
+                    description: `자신의 공격 데미지의 50%만큼 타깃에게 데미지. 자신을 방어 상태로 전환.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 이브의 수호자`,
+                    description: `궁극기 발동 시, 「받는 데미지 20% 감소(1턴)」 효과 발동\n첫 번째 턴 시작 시, 「매턴 공격 데미지의 70%만큼 아군 전체 치유(50턴)」 효과 발동\n첫 번째 턴 시작 시, 「아군 1, 2, 5번 자리 캐릭터 『《기적의 사자》』 획득」 효과 발동\n\n《기적의 사자》\n「공격 데미지 40% 증가(최대 1중첩)」, 궁극기 데미지 20% 증가(최대 1중첩)」, 「일반 공격 데미지 40% 증가(최대 1중첩)」`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 스피릿`,
+                    description: `궁극기 발동 시, 「《크리스마스 야쿠자》」 효과 발동\n\n《크리스마스 야쿠자》\n아군 1, 2번 자리 캐릭터 「군중 제어를 받을 확률 75% 감소(1턴)」, 「공격 데미지 30% 증가(2턴)」 획득`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `음성 제어 썰매`,
+                    description: `궁극기 발동 시, 「아군 2번 자리와 5번 자리 『받는 데미지 20% 감소(1턴)』」효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `순록의 축복`,
+                    description: `HP 10% 증가\n피격 시, 「자신의 기본 공격 데미지의 100%만큼 아군 전체 치유」 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `데미지 피해 감소`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

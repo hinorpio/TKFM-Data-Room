@@ -231,56 +231,56 @@ export const SkillSet_10114: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `전력 해방! 별빛 분쇄 스매쉬!`,
+                    description: `5번 자리 아군의 궁극기 데미지 30/40/50/60/70% 증가(2턴), 자신의 공격 데미지의 388/445/503/560/618%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전력 해방! 별빛 분쇄 스매쉬!`,
+                    description: `5번 자리 아군의 궁극기 데미지 30% 증가(2턴), 자신의 공격 데미지의 388%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전력 해방! 별빛 분쇄 스매쉬!`,
+                    description: `5번 자리 아군의 궁극기 데미지 40% 증가(2턴), 자신의 공격 데미지의 445%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전력 해방! 별빛 분쇄 스매쉬!`,
+                    description: `5번 자리 아군의 궁극기 데미지 50% 증가(2턴), 자신의 공격 데미지의 503%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `전력 해방! 별빛 분쇄 스매쉬!`,
+                    description: `5번 자리 아군의 궁극기 데미지 60% 증가(2턴), 자신의 공격 데미지의 560%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `전력 해방! 별빛 분쇄 스매쉬!`,
+                    description: `5번 자리 아군의 궁극기 데미지 70% 증가(2턴), 자신의 공격 데미지의 618%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `죄, 죄송합니다!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `아름다운 감동♡섹시한 마법소녀`,
+                    description: `아군 전체의 HP 30% 증가\n아군 전체는 「팀에 암속성 캐릭터가 최소 3명 이상 있을 시 《원초의 마법소녀》발동」획득\n아군 전체는 「팀에 광속성 캐릭터가 최소 2명 이상 있을 시 《성월의 축복》발동」획득\n1번 자리 아군은 「《힘 증폭》」획득\n\n《원초의 마법소녀》\n공격 데미지 40% 증가\n행동 시 「타깃이 받는 데미지 2.5% 증가(최대 12중첩)」발동\n행동 시 「타깃이 받는 발동형 스킬 데미지 5% 증가(최대 12중첩)」발동\n\n《성월의 축복》\n가하는 피해 20% 증가\n궁극기 발동 시 「타깃이 받는 암속성 데미지 17.5% 증가(최대 2중첩)」발동\n궁극기 발동 시 「타깃이 받는 광속성 데미지 17.5% 증가(최대 2중첩)」발동\n\n《힘 증폭》\n공격 데미지 80% 증가\n일반 공격 데미지 60% 증가\n궁극기 데미지 40% 증가\n궁극기 발동 시 「자신의 공격 데미지의 150%만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `다가오지 마!`,
+                    description: `공격 데미지 40% 증가\n궁극기 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠을 내쫓는 빛`,
+                    description: `5번 자리 아군은 《다시 찾은 광명》획득\n\n《다시 찾은 광명》\n궁극기 데미지 40% 증가\n가하는 데미지 40% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀의 힘의 『근』원`,
+                    description: `발동형 스킬 데미지 100% 증가\n궁극기 발동 시 「자신의 공격 데미지의 180%만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

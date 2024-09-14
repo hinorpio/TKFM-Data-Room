@@ -231,56 +231,56 @@ export const SkillSet_10062: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `특선 상품 2.3% 할인`,
+                    description: `자신의 공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유, 자신의 공격 데미지의 69/73/76/80/88%만큼 매턴 아군 전체를 치유(4턴), 아군 전체의 궁극기 데미지 10/15/20/25/30% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `특선 상품 2.3% 할인`,
+                    description: `자신의 공격 데미지의 165%만큼 아군 전체를 치유, 자신의 공격 데미지의 69%만큼 매턴 아군 전체를 치유(4턴), 아군 전체의 궁극기 데미지 10% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `특선 상품 2.3% 할인`,
+                    description: `자신의 공격 데미지의 188%만큼 아군 전체를 치유, 자신의 공격 데미지의 73%만큼 매턴 아군 전체를 치유(4턴), 아군 전체의 궁극기 데미지 15% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `특선 상품 2.3% 할인`,
+                    description: `자신의 공격 데미지의 211%만큼 아군 전체를 치유, 자신의 공격 데미지의 76%만큼 매턴 아군 전체를 치유(4턴), 아군 전체의 궁극기 데미지 20% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `특선 상품 2.3% 할인`,
+                    description: `자신의 공격 데미지의 234%만큼 아군 전체를 치유, 자신의 공격 데미지의 80%만큼 매턴 아군 전체를 치유(4턴), 아군 전체의 궁극기 데미지 25% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `특선 상품 2.3% 할인`,
+                    description: `자신의 공격 데미지의 257%만큼 아군 전체를 치유, 자신의 공격 데미지의 88%만큼 매턴 아군 전체를 치유(4턴), 아군 전체의 궁극기 데미지 30% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `정밀계산`,
+                    description: `자신의 공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `상인본색`,
+                    description: `아군 전체의 최대 HP 30% 증가\n아군 전체의 공격 데미지 30% 증가\n궁극기 발동 시 「자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴)」발동\n첫째 턴 시작 시 「《저가 매입》」\n\n《저가 매입》\n자신 이외의 아군은 「공격 시 『아군 이국 상인 세라프의 공격 데미지 3% 증가(최대 15중첩)』(50턴)발동」획득\n자신 이외의 아군은 「공격 시 『아군 이국 상인 세라프가 부여하는 치유량 2%증가(최대 15중첩)』(50턴)발동」획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `정보의 중요성`,
+                    description: `공격 시 「자신의 공격 데미지의 25%만큼 아군 딜러의 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `최신 상품`,
+                    description: `일반 공격 시 「타깃의 최대 HP 20% 만큼 현재 최저 HP의 아군에게 아머 부여(1턴)」발동\n일반 공격 시 「자신의 공격 데미지의 40%만큼 현재 최저 HP의 아군을 치유」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `VIP 골드 멤버십 카드`,
+                    description: `첫째 턴 시작 시 「자신 이외의 아군《선착순 1명》발동」\n\n《선착순 1명》\n방어 시 「자신의 궁극기 데미지 15% 증가(최대 1중첩)」(1턴)발동\n방어 시 「자신이 가하는 데미지 15% 증가(최대 1중첩)」(1턴)발동\n방어 시 「자신의 공격 데미지 30% 증가(최대 1중첩)」(1턴)발동\n방어 시 「세라프 상회 VIP 멤버십 카드」(1턴)발동\n방어 시 「자신 이외의 아군의 《선착순 1명》가 부여한 모든 효과 제거」(1턴)발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피해 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

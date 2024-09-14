@@ -231,56 +231,56 @@ export const SkillSet_10060: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `풍작의 축제`,
+                    description: `아군 전체 공격 데미지 0/0/0/15/20% 증가(2턴), 아군 전체 딜러, 탱커의 현재 궁극기 CD 1턴 감소, 아군 전체가 받는 치유량 50% 증가(5턴), "풍작의 성녀 피오라의 공격 데미지의 80/95/110/110/110%만큼 치유(5턴)"효과 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `풍작의 축제`,
+                    description: `아군 전체 딜러, 탱커의 현재 궁극기 CD 1턴 감소, 아군 전체가 받는 치유량 50% 증가(5턴), "풍작의 성녀 피오라의 공격 데미지의 80%만큼 치유(5턴)"효과 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `풍작의 축제`,
+                    description: `아군 전체 딜러, 탱커의 현재 궁극기 CD 1턴 감소, 아군 전체가 받는 치유량 50% 증가(5턴), "풍작의 성녀 피오라의 공격 데미지의 95%만큼 치유(5턴)"효과 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `풍작의 축제`,
+                    description: `아군 전체 딜러, 탱커의 현재 궁극기 CD 1턴 감소, 아군 전체가 받는 치유량 50% 증가(5턴), 풍작의 성녀 피오라의 공격 데미지의 110%만큼 치유(5턴)"효과 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `풍작의 축제`,
+                    description: `아군 전체 공격 데미지 15% 증가(2턴), 아군 전체 딜러, 탱커의 현재 궁극기 CD 1턴 감소, 아군 전체가 받는 치유량 50% 증가(5턴), "풍작의 성녀 피오라의 공격 데미지의 110%만큼 치유(5턴)"효과 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `풍작의 축제`,
+                    description: `아군 전체 공격 데미지 20% 증가(2턴), 아군 전체 딜러, 탱커의 현재 궁극기 CD 1턴 감소, 아군 전체가 받는 치유량 50% 증가(5턴), "풍작의 성녀 피오라의 공격 데미지의 110%만큼 치유(5턴)"효과 획득 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `춤사위`,
+                    description: `공격 데미지의 25%만큼 아군 전체를 치유, "풍작의 성녀 피오라의 공격 데미지의 25%만큼 아군 전체를 치유(3턴)" 효과 획득`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `신도의 광희`,
+                    description: `아군 전체의 최대 HP 35% 증가. 아군 전체는 ""팀원 중 최소 (1/2/3)명의 딜러가 있을 시, 각각 "공격력 (15/15/30)% 증가" 발동, 아군 전체는 "팀원 중 최소 1명의 탱커가 있을 시 "일반 공격 데미지 40% 증가, 궁극기 데미지 20% 증가" 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `혈기폭발`,
+                    description: `일반 공격 시, "아군 전체의 지속형 치유 효과가 10% 증가(최대 3중첩)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `멈출 수 없는 환락`,
+                    description: `공격 시, "자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)" 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `열정과 흥분`,
+                    description: `공격 시 "아군 전체가 가하는 데미지 5% 증가(최대 5중첩)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

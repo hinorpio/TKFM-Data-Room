@@ -231,56 +231,56 @@ export const SkillSet_10128: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `흔들리는 와인잔`,
+                    description: `타깃이 받는 딜러의 데미지 30/36.5/40/46.5/50% 증가(최대 2중첩), 자신은 「일반 공격 시 『공격 데미지의 50/56.5/70/76.5/90%만큼 타깃에게 데미지』추가(4턴)」획득, 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `흔들리는 와인잔`,
+                    description: `타깃이 받는 딜러의 데미지 30% 증가(최대 2중첩), 자신은 「일반 공격 시 『공격 데미지의 50%만큼 타깃에게 데미지』추가(4턴)」획득, 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `흔들리는 와인잔`,
+                    description: `타깃이 받는 딜러의 데미지 36.5% 증가(최대 2중첩), 자신은 「일반 공격 시 『공격 데미지의 56.5%만큼 타깃에게 데미지』추가(4턴)」획득, 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `흔들리는 와인잔`,
+                    description: `타깃이 받는 딜러의 데미지 40% 증가(최대 2중첩), 자신은 「일반 공격 시 『공격 데미지의 70%만큼 타깃에게 데미지』추가(4턴)」획득, 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `흔들리는 와인잔`,
+                    description: `타깃이 받는 딜러의 데미지 46.5% 증가(최대 2중첩), 자신은 「일반 공격 시 『공격 데미지의 76.5%만큼 타깃에게 데미지』추가(4턴)」획득, 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `흔들리는 와인잔`,
+                    description: `타깃이 받는 딜러의 데미지 50% 증가(최대 2중첩), 자신은 「일반 공격 시 『공격 데미지의 90%만큼 타깃에게 데미지』추가(4턴)」획득, 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `날카로운 하이힐`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `숨막히는 여왕`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 40% 증가\n자신은 「팀에 최소 3명 이상의 광속성 캐릭터가 있을 시 《야릇한 음악》발동」획득\n아군 딜러는 「팀에 최소 3명 이상의 딜러 캐릭터가 있을 시, 《무장방어》발동」획득\n\n《야릇한 음악》\n속성 상성 효과 55% 감소\n일반 공격 시 「자신의 기본 공격 데미지의 30%만큼 아군 딜러의 공격 데미지 증가(4턴)」발동\n일반 공격 시 「타깃이 받는 광속성 데미지 7% 증가(최대 8중첩)」 발동\n\n《무장방어》\n받는 암속성 데미지 25% 감소\n자신에게 궁극기 CD 변경 면역\n자신이 가하는 데미지 20% 증가\n일반 공격 시 「공격 데미지의 40%만큼 타깃에게 데미지」추가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `곡도 같은 눈썹`,
+                    description: `아군 딜러의 일반 공격 데미지 30% 증가\n자신의 일반 공격 데미지 60% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `핏빛 입술`,
+                    description: `아군 딜러의 공격 데미지 30% 증가\n공격 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `모든 것을 독점한 아름다움`,
+                    description: `아군 딜러가 가하는 데미지 15% 증가\n가하는 데미지 20% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `가하는 데미지+`,
+                    description: `자신이 가하는 데미지 7.5% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

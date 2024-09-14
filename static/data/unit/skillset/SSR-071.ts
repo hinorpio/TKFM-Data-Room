@@ -231,56 +231,56 @@ export const SkillSet_10107: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `회전 회오리 슛!`,
+                    description: `4중첩의 공격 데미지 18.75/22.5/26.25/30/33.75% 증가(최대 4중첩), 자신의 공격 데미지의 353/404/454/505/555%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `회전 회오리 슛!`,
+                    description: `4중첩의 공격 데미지 18.75% 증가(최대 4중첩), 자신의 공격 데미지의 353%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `회전 회오리 슛!`,
+                    description: `4중첩의 공격 데미지 22.5% 증가(최대 4중첩), 자신의 공격 데미지의 404%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `회전 회오리 슛!`,
+                    description: `4중첩의 공격 데미지 26.25% 증가(최대 4중첩), 자신의 공격 데미지의 454%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `회전 회오리 슛!`,
+                    description: `4중첩의 공격 데미지 30% 증가(최대 4중첩), 자신의 공격 데미지의 505%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `회전 회오리 슛!`,
+                    description: `4중첩의 공격 데미지 33.75% 증가(최대 4중첩), 자신의 공격 데미지의 555%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `강타!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `악수는 승패가 난 후에!`,
+                    description: `아군 전체 HP 20% 증가\n아군 전체의 공격 데미지 40% 증가\n자신이 일반 공격 시 「자신의 공격 데미지의 40%만큼 아군 딜러의 공격 데미지 증가(1턴)」발동\n\n아군 딜러는 「팀에 최소 4명 이상의 딜러가 있을 시 《일파만파!》발동」 획득\n\n《일파만파!》\n공격 데미지 110% 증가\n궁극기 발동 시 「자신의 공격 데미지의 60%만큼 1번 자리 아군의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `파워 차징!`,
+                    description: `일반 공격 시 「자신의 공격 데미지 12.5%증가(최대 4중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `큰거 한방!`,
+                    description: `4턴마다 「자신의 공격 데미지 75% 증가(최대 1중첩)」발동\n궁극기 발동 후 「자신에게 부여된 《큰거 한방!》의 자신의 공격 데미지 증가 효과 해제」발동\n일반 공격 시 「자신에게 부여된《회전 회오리 슛!！》의 자신이 가하는 데미지 증가 효과 1중첩 감소」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `공수 전환!!`,
+                    description: `4턴이 지날 때마다 「자신이 가하는 데미지 40% 증가(최대 1중첩)」발동\n궁극기 발동 후 「자신에게 부여된《공수전환!!》의 자신이 가하는 데미지 증가 효과 해제」발동\n아군 전체의 가하는 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

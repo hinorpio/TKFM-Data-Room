@@ -231,56 +231,56 @@ export const SkillSet_10077: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `바삭바삭 닭고기 맛!`,
+                    description: `자신의 최대 HP 10/10/12.5/15/20%만큼 자신의 공격 데미지 증가(3/3/4/4/4턴), 자신의 공격 데미지의 100/125/150/175/200%만큼 아군 전체를 치유하고 자신의 최대 HP 30/35/40/45/50%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `바삭바삭 닭고기 맛!`,
+                    description: `자신의 최대 HP 10%만큼 자신의 공격 데미지 증가(3턴), 자신의 공격 데미지의 100%만큼 아군 전체를 치유하고 자신의 최대 HP 30%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `바삭바삭 닭고기 맛!`,
+                    description: `자신의 최대 HP 10%만큼 자신의 공격 데미지 증가(3턴), 자신의 공격 데미지의 125%만큼 아군 전체를 치유하고 자신의 최대 HP 35%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `바삭바삭 닭고기 맛!`,
+                    description: `자신의 최대 HP 12.5%만큼 자신의 공격 데미지 증가(4턴), 자신의 공격 데미지의 150%만큼 아군 전체를 치유하고 자신의 최대 HP 40%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `바삭바삭 닭고기 맛!`,
+                    description: `자신의 최대 HP 15%만큼 자신의 공격 데미지 증가(4턴), 자신의 공격 데미지의 175%만큼 아군 전체를 치유하고 자신의 최대 HP 45%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `바삭바삭 닭고기 맛!`,
+                    description: `자신의 최대 HP 20%만큼 자신의 공격 데미지 증가(4턴), 자신의 공격 데미지의 200%만큼 아군 전체를 치유하고 자신의 최대 HP 50%만큼 매턴 아군 전체를 치유(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `응급치료`,
+                    description: `자신의 최대 HP 10%만큼 아군 전체를 치유하고 자신의 최대 HP 5%만큼 매턴 아군 전체를 치유(3턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `진정한 생존 전문가`,
+                    description: `자신의 최대 HP 50% 증가\n일반 공격 시 「자신의 최대 HP 6%만큼 아군 전체의 공격 데미지 증가(1턴)」발동\n궁극기 발동 시 「자신의 최대 HP 8%만큼 아군 전체의 공격 데미지 증가(1턴)」발동\n아군 전체의 공격 데미지 60% 증가\n아군 딜러, 디스럽터가 가하는 데미지 50% 증가\n아군 탱커, 힐러, 서포터는 「궁극기 발동 시 『아군 전체의 궁극기 데미지 30% 증가(2턴)』발동」획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `다같이 가자!`,
+                    description: `일반 공격 시 「자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴)」발동\n궁극기 발동 시 「자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `왕성한 호기심`,
+                    description: `일반 공격 시 「자신의 최대 HP 10%만큼 아군 전체의 아머 강화(1턴), 자신의 공격 데미지의 10%만큼 아군 전체의 아머 강화(1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `머리 빼고 다먹을 수 있어`,
+                    description: `궁극기 발동 시 「아군 전체의 공격 데미지 25% 증가(8턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지속 치유+`,
+                    description: `자신이 가하는 지속형 치유 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

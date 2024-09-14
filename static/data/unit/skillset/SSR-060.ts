@@ -231,56 +231,56 @@ export const SkillSet_10094: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 빔!`,
+                    description: `자신의 공격 데미지의 306/348/389/430/471%만큼 타깃에게 데미지 [CD: 50]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 빔!`,
+                    description: `자신의 공격 데미지의 306%만큼 타깃에게 데미지 [CD: 50]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 빔!`,
+                    description: `자신의 공격 데미지의 348%만큼 타깃에게 데미지 [CD: 50]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 빔!`,
+                    description: `자신의 공격 데미지의 389%만큼 타깃에게 데미지 [CD: 50]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 빔!`,
+                    description: `자신의 공격 데미지의 430%만큼 타깃에게 데미지 [CD: 50]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 빔!`,
+                    description: `자신의 공격 데미지의 471%만큼 타깃에게 데미지 [CD: 50]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `키베루 어택!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `아직 3번이나 더 변신할 수 있다구~`,
+                    description: `자신의 최대 HP 70% 증가\n4번째 턴에 [《잔화단계．일》] 효과 발동\n7번째 턴에 [《잔화단계．이》] 효과 발동\n10번째 턴에 [《잔화단계．삼》] 효과 발동\n\n《잔화단계．일》\n궁극기 발동 시, [자신의 궁극기 데미지 60% 증가(최대 1중첩)] 효과 발동 (1턴)\n\n《잔화단계．이》\n궁극기 발동 시, [자신이 가하는 데미지 60% 증가(최대 1중첩)] 효과 발동 (1턴)\n\n《잔화단계．삼》\n궁극기 발동 시, [자신의 궁극기 데미지 120% 증가(최대 1중첩)] 효과 발동 (1턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `적응 재진화`,
+                    description: `자신의 궁극기 CD 카운트다운 정지\n3턴마다 [자신의 현재 궁극기 CD 50턴 감소] 효과 발동\n4턴마다 [자신의 현재 궁극기 CD 50턴 감소] 효과 발동\n1턴마다 [자신의 공격 데미지 5%증가 (최대 50중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `의태 연역`,
+                    description: `첫 번째 턴 시작 시, [《진화의 갈림길》] 효과 발동\n\n《진화의 갈림길》\n일반 공격 시, [아군 전체가 "《자주학습》" 획득] 효과 발동 (1턴)\n방어 시, [자신 이외의 동료가 "《소극 적응》" 획득] 효과 발동 (1턴)\n\n《자주학습》\n궁극기 발동 시, [자신이 가하는 데미지 20% 증가 (4턴)] 효과 발동 (50턴)\n\n《소극 적응》\n궁극기 발동 시, [자신의 공격 데미지만큼 미지의 생명체 키베루의 공격 데미지 25% 증가(1턴)]효과 발동 (50턴)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `별을 삼키는 자`,
+                    description: `4번째 턴에 [《잠식단계．일》] 효과 발동\n7번째 턴에 [《잠식단계．이》] 효과 발동\n10번째 턴에 [《잠식단계．삼》] 효과 발동\n\n《잠식단계．일》\n궁극기 발동 시, [자신의 궁극기 데미지 20% 증가(최대 1중첩)] 효과 발동 (1턴)\n\n《잠식단계．이》\n궁극기 발동 시, [자신이 가하는 데미지 20% 증가(최대 1중첩)] 효과 발동 (1턴)\n\n《잠식단계．삼》\n궁극기 발동 시, [자신의 궁극기 데미지 40% 증가(최대 1중첩)] 효과 발동 (1턴)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

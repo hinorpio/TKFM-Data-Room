@@ -231,56 +231,56 @@ export const SkillSet_10047: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍 신성`,
+                    description: `타깃이 받는 데미지 15/15/20/20/25%증가 (최대 1중첩), 자신 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍 신성`,
+                    description: `타깃이 받는 데미지 15%증가 (최대 1중첩), 자신 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍 신성`,
+                    description: `타깃이 받는 데미지 15%증가 (최대 1중첩), 자신 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍 신성`,
+                    description: `타깃이 받는 데미지 20%증가 (최대 1중첩), 자신 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍 신성`,
+                    description: `타깃이 받는 데미지 20%증가 (최대 1중첩), 자신 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍 신성`,
+                    description: `타깃이 받는 데미지 25%증가 (최대 1중첩), 자신 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 칼`,
+                    description: `자신 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `바람의 인재`,
+                    description: `아군 풍속성 캐릭터의 공격 데미지 80% 증가\n아군 풍속성 캐릭터의 일반 공격 데미지 60% 증가\n아군 풍속성 캐릭터의 궁극기 데미지 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍이여, 내게 복종하라!`,
+                    description: `궁극기 데미지 20%증가\n궁극기 발동 시, [자신의 공격 데미지 50%만큼 타깃에게 데미지] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `광풍의 장벽`,
+                    description: `방어 시, [아군 전체가 받는 데미지 20% 감소(1턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마법 검사`,
+                    description: `가하는 데미지 10% 증가\n궁극기 발동 시, [자신의 공격 데미지 50%만큼 타깃에게 데미지] 효과 발동\n4턴마다, [적 전체가 받는 풍속성 데미지 25%증가 (1턴)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

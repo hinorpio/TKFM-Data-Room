@@ -77,7 +77,20 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                             description: `防御時「自分の攻撃力を50%増加させる(最高1スタック)」を誘発する\n防御時「自分の現在の必殺技CDを1ターン減少させる」を誘発する\n必殺技攻撃時「自分の《防御加速》の攻撃力増加効果を消す」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `각성 치즈루!`,
+                            description: `자신의 최대 HP 50% 증가\n자신의 공격 데미지 200% 증가, 궁극기 데미지 100% 증가\n1턴 경과할 때마다 「자신의 최대 HP 100%만큼 자신을 치유」발동`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `불사의 육체`,
+                            description: `자신이 받는 치유 회복량 20% 증가\n자신이 받는 데미지 15% 감소`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `방어 가속`,
+                            description: `방어 시, 「자신의 공격 데미지 50% 증가(최대 1중첩)」발동\n방어 시, 「자신의 현재 궁극기 CD 1턴 감소」발동\n궁극기 발동 시, 「자신에게 부여된 《방어 가속》의 자신의 공격 데미지 증가 효과 해제」발동`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -115,7 +128,7 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,412,021\nAMax ATK：918,317`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,412,021\nMax ATK：918,317`
                         },
                     }
                 }
@@ -248,7 +261,36 @@ export const LiberateSkillSet_10028: LiberateSkillSet[] = [
                             description: `必殺技攻撃時「味方全体の与えるダメージを20%増加させる(4ターン)」を誘発する\n必殺技攻撃時「味方の風属性キャラクターの必殺技ダメージを20%増加させる(最高2スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `치즈루 전력의 일격!`,
+                            description: `타깃이 받는 풍속성 데미지 15/15/15/20/25% 증가(최대 2중첩), 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `치즈루 전력의 일격!`,
+                            description: `타깃이 받는 풍속성 데미지 15% 증가(최대 2중첩), 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `치즈루 전력의 일격!`,
+                            description: `타깃이 받는 풍속성 데미지 15% 증가(최대 2중첩), 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `치즈루 전력의 일격!`,
+                            description: `타깃이 받는 풍속성 데미지 15% 증가(최대 2중첩), 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `치즈루 전력의 일격!`,
+                            description: `타깃이 받는 풍속성 데미지 20% 증가(최대 2중첩), 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `치즈루 전력의 일격!`,
+                            description: `타깃이 받는 풍속성 데미지 25% 증가(최대 2중첩), 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `열풍의 격려`,
+                            description: `궁극기 발동 시 「아군 전체의 가하는 데미지 20% 증가(4턴)」발동\n궁극기 발동 시 「풍속성 아군의 궁극기 데미지 20% 증가(최대 2중첩)」발동`
+                        },
+                    }
                 }
             }
         }

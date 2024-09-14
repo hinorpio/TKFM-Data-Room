@@ -124,7 +124,7 @@ export const SkillSet_10139: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Super Flash Bash☆`,
-                    description: `Increase the target's Damage Taken from Light attacks by 10/15/20/20/20% (max 1 stack), increase the target's Damage Taken by 10% (max 2 stacks), increase the party's Attack Power by 0/10/10/10/10% (max 1 stack), then damage the target (520/550/580/610/640% Attack Power). CD: 5`
+                    description: `Increase the target's Damage Taken from Light attacks by 10/15/20/20/20% (max 1 stack), increase the target's Damage Taken by 10% (max 1/2/2/2/2 stacks), increase the party's Attack Power by 0/10/10/10/10% (max 1 stack), then damage the target (520/550/580/610/640% Attack Power). CD: 5`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Super Flash Bash☆`,
@@ -178,7 +178,7 @@ export const SkillSet_10139: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `魔法少女・超健全ビーム☆`,
-                    description: `ターゲットが受ける光属性ダメージを10/15/20/20/20%増加させ(最高1スタック)、ターゲットの受けるダメージを10%増加させ(最高2スタック)、味方全体の攻撃力を0/10/10/10/10%増加させ(最高1スタック)、自分の520/550/580/610/640%の攻撃力でターゲットにダメージを与える[CD:5]`
+                    description: `ターゲットが受ける光属性ダメージを10/15/20/20/20%増加させ(最高1スタック)、ターゲットの受けるダメージを10%増加させ(最高1/2/2/2/2スタック)、味方全体の攻撃力を0/10/10/10/10%増加させ(最高1スタック)、自分の520/550/580/610/640%の攻撃力でターゲットにダメージを与える[CD:5]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `魔法少女・超健全ビーム☆`,
@@ -231,56 +231,56 @@ export const SkillSet_10139: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀・초건전 빔☆`,
+                    description: `타깃이 받는 광속성 데미지 10/15/20/20/20% 증가(최대 1중첩), 타깃이 받는 데미지 10% 증가(최대 1/2/2/2/2중첩), 아군 전체의 공격 데미지 0/10/10/10/10% 증가(최대 1중첩), 자신의 공격 데미지의 520/550/580/610/640%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀・초건전 빔☆`,
+                    description: `타깃이 받는 광속성 데미지 10% 증가(최대 1중첩), 타깃이 받는 데미지 10% 증가(최대 1중첩), 자신의 공격 데미지의 520%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀・초건전 빔☆`,
+                    description: `타깃이 받는 광속성 데미지 15% 증가(최대 1중첩), 타깃이 받는 데미지 10% 증가(최대 2중첩), 아군 전체의 공격 데미지 10% 증가(최대 1중첩), 자신의 공격 데미지의 550%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀・초건전 빔☆`,
+                    description: `타깃이 받는 광속성 데미지 20% 증가(최대 1중첩), 타깃이 받는 데미지 10% 증가(최대 2중첩), 아군 전체의 공격 데미지 10% 증가(최대 1중첩), 자신의 공격 데미지의 580%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀・초건전 빔☆`,
+                    description: `타깃이 받는 광속성 데미지 20% 증가(최대 1중첩), 타깃이 받는 데미지 10% 증가(최대 2중첩), 아군 전체의 공격 데미지 10% 증가(최대 1중첩), 자신의 공격 데미지의 610%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마법소녀・초건전 빔☆`,
+                    description: `타깃이 받는 광속성 데미지 20% 증가(최대 1중첩), 타깃이 받는 데미지 10% 증가(최대 2중첩), 아군 전체의 공격 데미지 10% 증가(최대 1중첩), 자신의 공격 데미지의 640%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링 마법소녀 킥`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `이것이 바로 우정의 힘`,
+                    description: `자신의 「마법소녀의 힘」≧2중첩일 시 「공격 데미지 50% 증가, 가하는 데미지 20% 증가」발동\n자신의 「마법소녀의 힘」≧3중첩일 시 「공격 시 『타깃이 받는 데미지 10% 증가(최대 4중첩)』발동」발동\n자신의 「마법소녀의 힘」≧4중첩일 시 「궁극기 발동 시 『자신의 공격 데미지의 120%만큼 타깃에게 데미지』추가」발동\n아군 광속성, 화속성 캐릭터는 《마법소녀・집결☆!》획득\n\n《마법소녀・집결☆!》\n최대 HP 30% 증가\n공격 데미지 100% 증가\n가하는 데미지 20% 증가\n궁극기 데미지 40% 증가\n행동 시 「1번 자리 아군은 『마법소녀의 힘(최대 4중첩)』획득」발동(행동 후 본 효과 제거)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `서포트 변신`,
+                    description: `자신 이외의 광속성 딜러는 궁극기 CD 변동 효과 면역\n궁극기 발동 시 「자신의 현재 궁극기 CD 2턴 감소」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `블링블링 베개 분쇄기`,
+                    description: `궁극기 발동 시 「자신이 가하는 데미지 15% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `어렴풋이 보여`,
+                    description: `첫 번째 턴 시작 시 「자신의 현재 궁극기 CD 2턴 감소」발동\n궁극기 발동 시 「타깃이 받는 광속성 데미지 20% 증가(최대 1중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }
