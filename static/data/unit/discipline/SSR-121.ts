@@ -5,7 +5,7 @@ import { Discipline } from '@/interface/unit/discipline';
 
 export const Discipline_10150: Discipline[] = [
     {
-        preview: UnitDisciplinePreview[UnitCode.r_ayane][0],
+        preview: UnitDisciplinePreview[UnitCode.bg_ayane][0],
         name: {
             [Locale.tc]: `兔女郎的特殊服務`,
             [Locale.sc]: `兔女郎的特殊服务`,
@@ -15,7 +15,7 @@ export const Discipline_10150: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.r_ayane][1],
+        preview: UnitDisciplinePreview[UnitCode.bg_ayane][1],
         name: {
             [Locale.tc]: `發情的兔女郎`,
             [Locale.sc]: `发情的兔女郎`,
@@ -25,7 +25,7 @@ export const Discipline_10150: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.r_ayane][2],
+        preview: UnitDisciplinePreview[UnitCode.bg_ayane][2],
         name: {
             [Locale.tc]: `兔女郎的售後服務`,
             [Locale.sc]: `兔女郎的售后服务`,

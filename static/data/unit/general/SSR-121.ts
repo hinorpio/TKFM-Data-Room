@@ -4,7 +4,7 @@ import { Unit } from '@/interface/unit';
 
 export const General_10150: Unit = {
     ID: "10150",
-    metaCode: "r_ayane",
+    metaCode: "bg_ayane",
     prefix: {
         [Locale.tc]: "勇者兔女郎",
         [Locale.sc]: "勇者兔女郎",
@@ -22,7 +22,7 @@ export const General_10150: Unit = {
     abbreviation: {
         [Locale.tc]: [ "兔勇", "兔田" ],
         [Locale.sc]: [ "兔勇", "兔田" ],
-        [Locale.en]: [ "R.Ayane" ],
+        [Locale.en]: [ "BG.Ayane" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },
@@ -39,10 +39,10 @@ export const General_10150: Unit = {
     potential: PotentialType.ATTACK,
     isLimited: true,
     releaseDate: "2024/09/11",
-    essence: UnitEssence[UnitCode.r_ayane],
-    thumbnail: UnitEssence[UnitCode.r_ayane],
-    selection: UnitSelection[UnitCode.r_ayane],
-    clothes: UnitFullImage[UnitCode.r_ayane],
+    essence: UnitEssence[UnitCode.bg_ayane],
+    thumbnail: UnitEssence[UnitCode.bg_ayane],
+    selection: UnitSelection[UnitCode.bg_ayane],
+    clothes: UnitFullImage[UnitCode.bg_ayane],
     tagList: [],
     otherVersion: [ UnitCode.ayane, UnitCode.s_ayane, UnitCode.h_ayane ],
     puzzle: [],

@@ -307,8 +307,8 @@ const SSR: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.beer_shizuka]: Discipline_10148,
     [UnitCode.tsubaki]: Discipline_10149,
     [UnitCode.amethystina]: Discipline_10044,
-    [UnitCode.r_ayane]: Discipline_10150,
-    [UnitCode.r_iblis]: Discipline_10151,
+    [UnitCode.bg_ayane]: Discipline_10150,
+    [UnitCode.bg_iblis]: Discipline_10151,
 }
 
 export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {

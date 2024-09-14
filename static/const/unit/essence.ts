@@ -361,8 +361,8 @@ const SSR = {
     [UnitCode.beer_shizuka]: ESSENCE_10148,
     [UnitCode.tsubaki]: ESSENCE_10149,
     [UnitCode.amethystina]: ESSENCE_10044,
-    [UnitCode.r_ayane]: ESSENCE_10150,
-    [UnitCode.r_iblis]: ESSENCE_10151,
+    [UnitCode.bg_ayane]: ESSENCE_10150,
+    [UnitCode.bg_iblis]: ESSENCE_10151,
 }
 
 export const Essence = {

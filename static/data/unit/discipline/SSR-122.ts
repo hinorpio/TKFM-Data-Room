@@ -5,7 +5,7 @@ import { Discipline } from '@/interface/unit/discipline';
 
 export const Discipline_10151: Discipline[] = [
     {
-        preview: UnitDisciplinePreview[UnitCode.r_iblis][0],
+        preview: UnitDisciplinePreview[UnitCode.bg_iblis][0],
         name: {
             [Locale.tc]: `兔女郎的鋼管舞服務`,
             [Locale.sc]: `兔女郎的钢管舞服务`,
@@ -15,7 +15,7 @@ export const Discipline_10151: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.r_iblis][1],
+        preview: UnitDisciplinePreview[UnitCode.bg_iblis][1],
         name: {
             [Locale.tc]: `強制後入`,
             [Locale.sc]: `强制后入`,
@@ -25,7 +25,7 @@ export const Discipline_10151: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.r_iblis][2],
+        preview: UnitDisciplinePreview[UnitCode.bg_iblis][2],
         name: {
             [Locale.tc]: `鋼管舞的性技指導`,
             [Locale.sc]: `钢管舞的性技指导`,

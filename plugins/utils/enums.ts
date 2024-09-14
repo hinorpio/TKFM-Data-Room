@@ -481,6 +481,6 @@ export enum UnitCode {
     beer_shizuka = 'SSR-118',
     tsubaki = 'SSR-119',
     amethystina = 'SSR-120',
-    r_ayane = 'SSR-121',
-    r_iblis = 'SSR-122'
+    bg_ayane = 'SSR-121',
+    bg_iblis = 'SSR-122'
 }

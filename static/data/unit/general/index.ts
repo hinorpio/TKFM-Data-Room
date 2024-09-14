@@ -362,8 +362,8 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.beer_shizuka]: General_10148,
     [UnitCode.tsubaki]: General_10149,
     [UnitCode.amethystina]: General_10044,
-    [UnitCode.r_ayane]: General_10150,
-    [UnitCode.r_iblis]: General_10151,
+    [UnitCode.bg_ayane]: General_10150,
+    [UnitCode.bg_iblis]: General_10151,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {

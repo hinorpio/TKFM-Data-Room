@@ -35,7 +35,7 @@ const events: Event[][] = [
                 [Locale.kr]: `【이 몸의 카지노】`
             },
             image: EventBanner.EVENT_0148,
-            newUnit: [ UnitCode.amethystina, UnitCode.r_ayane, UnitCode.r_iblis ]
+            newUnit: [ UnitCode.amethystina, UnitCode.bg_ayane, UnitCode.bg_iblis ]
         },
         {
             code: '0149',

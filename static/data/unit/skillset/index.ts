@@ -360,8 +360,8 @@ const SSR: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.beer_shizuka]: SkillSet_10148,
     [UnitCode.tsubaki]: SkillSet_10149,
     [UnitCode.amethystina]: SkillSet_10044,
-    [UnitCode.r_ayane]: SkillSet_10150,
-    [UnitCode.r_iblis]: SkillSet_10151,
+    [UnitCode.bg_ayane]: SkillSet_10150,
+    [UnitCode.bg_iblis]: SkillSet_10151,
 }
 
 export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {

@@ -4,7 +4,7 @@ import { Unit } from '@/interface/unit';
 
 export const General_10151: Unit = {
     ID: "10151",
-    metaCode: "r_iblis",
+    metaCode: "bg_iblis",
     prefix: {
         [Locale.tc]: "性感兔女郎",
         [Locale.sc]: "性感兔女郎",
@@ -22,7 +22,7 @@ export const General_10151: Unit = {
     abbreviation: {
         [Locale.tc]: [ "兔伊", "風伊" ],
         [Locale.sc]: [ "兔伊", "风伊" ],
-        [Locale.en]: [ "R.Iblis" ],
+        [Locale.en]: [ "BG.Iblis" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },
@@ -39,10 +39,10 @@ export const General_10151: Unit = {
     potential: PotentialType.ATTACK,
     isLimited: true,
     releaseDate: "2024/09/11",
-    essence: UnitEssence[UnitCode.r_iblis],
-    thumbnail: UnitEssence[UnitCode.r_iblis],
-    selection: UnitSelection[UnitCode.r_iblis],
-    clothes: UnitFullImage[UnitCode.r_iblis],
+    essence: UnitEssence[UnitCode.bg_iblis],
+    thumbnail: UnitEssence[UnitCode.bg_iblis],
+    selection: UnitSelection[UnitCode.bg_iblis],
+    clothes: UnitFullImage[UnitCode.bg_iblis],
     tagList: [],
     otherVersion: [ UnitCode.iblis, UnitCode.i_iblis, UnitCode.b_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis ],
     puzzle: [],

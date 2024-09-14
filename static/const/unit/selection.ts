@@ -361,8 +361,8 @@ const SSR = {
     [UnitCode.beer_shizuka]: SELECTION_10148,
     [UnitCode.tsubaki]: SELECTION_10149,
     [UnitCode.amethystina]: SELECTION_10044,
-    [UnitCode.r_ayane]: SELECTION_10150,
-    [UnitCode.r_iblis]: SELECTION_10151,
+    [UnitCode.bg_ayane]: SELECTION_10150,
+    [UnitCode.bg_iblis]: SELECTION_10151,
 }
 
 export const Selection = {
