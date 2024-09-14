@@ -231,56 +231,56 @@ export const SkillSet_10081: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 오버클럭・연정`,
+                    description: `공격 데미지의 388/445/503/560/618%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 오버클럭・연정`,
+                    description: `공격 데미지의 388%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 오버클럭・연정`,
+                    description: `공격 데미지의 445%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 오버클럭・연정`,
+                    description: `공격 데미지의 503%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 오버클럭・연정`,
+                    description: `공격 데미지의 560%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 오버클럭・연정`,
+                    description: `공격 데미지의 618%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `장미의 신부`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `진정한 후궁 최강자`,
+                    description: `일반 공격 시「자신의 공격 데미지의 50%만큼 전체 적에게 추가 공격」\n아군 수속성, 광속성 멤버가 1턴 동안 《고귀한 웨딩》발동\n\n《고귀한 웨딩》\n자신의 공격 데미지 70% 증가(50턴)\n궁극기 발동 시 「타깃이 받는 발동기 데미지 20% 증가(최대 5중첩)」효과 발동(50턴)\n일반 공격 시 「타깃이 받는 궁극기 데미지 2% 증가(최대 25중첩)」효과 발동(50턴)\n일반 공격 시 「타깃이 받는 수속성 데미지 5% 증가(최대 4중첩)」효과 발동(50턴)\n일반 공격 시 「타깃이 받는 광속성 데미지 5% 증가(최대 4중첩)」효과 발동(50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `웨딩 암즈 서포트 AI`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지 120%만큼 타깃에게 추가 공격」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `암즈 공명 - 소녀의 마음`,
+                    description: `매 1턴 종료 시「자신의 궁극기 데미지 3% 증가(최대 33중첩)」효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `프로토타입 Z`,
+                    description: `일반 공격 시「타깃이 받는 수속성 데미지 5% 증가(최대 3중첩)발동」\n일반 공격 시「타깃이 받는 광속성 데미지 5% 증가(최대 3중첩)발동\n궁극기 발동 시「자신의 공격 데미지의 150%만큼 타깃에게 추가 공격」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

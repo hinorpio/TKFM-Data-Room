@@ -231,56 +231,56 @@ export const SkillSet_10053: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 선물`,
+                    description: `아군 전체 「매턴 공격 데미지의 69/73/76/80/88%만큼 치유(5턴)」, 「최대 HP 50/55/55/60/60%만큼 아머 강화(1턴)」, 「공격 데미지 10/15/15/20/20% 증가(3턴) [Lv5: (4턴)]」 획득 [CD: 5] [Lv3+: CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 선물`,
+                    description: `아군 전체 「매턴 공격 데미지의 69%만큼 치유(5턴)」, 「최대 HP 50%만큼 아머 강화(1턴)」, 「공격 데미지 10% 증가(3턴)」 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 선물`,
+                    description: `아군 전체 「매턴 공격 데미지의 73%만큼 치유(5턴)」, 「최대 HP 55%만큼 아머 강화(1턴)」, 「공격 데미지 15% 증가(3턴)」 획득 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 선물`,
+                    description: `아군 전체 「매턴 공격 데미지의 76%만큼 치유(5턴)」, 「최대 HP 55%만큼 아머 강화(1턴)」, 「공격 데미지 15% 증가(3턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 선물`,
+                    description: `아군 전체 「매턴 공격 데미지의 80%만큼 치유(5턴)」, 「최대 HP 60%만큼 아머 강화(1턴)」, 「공격 데미지 20% 증가(3턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 선물`,
+                    description: `아군 전체 「매턴 공격 데미지의 88%만큼 치유(5턴)」, 「최대 HP 60%만큼 아머 강화(1턴)」, 「공격 데미지 20% 증가(4턴)」 획득 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `사탕 쿠키`,
+                    description: `자신의 공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `X-mas 난쟁이의 기백`,
+                    description: `자신의 공격 데미지 100% 증가\n첫 번째 턴 시작 시, 「아군 전체 딜러에게 『《시저의 특별 메뉴》(50턴)」 효과 발동\n\n《시저의 특별 메뉴》\n일반 공격 시, 「궁극기 데미지 15% 증가(최대 2중첩)」 효과 발동\n궁극기 발동 시, 「일반 공격 데미지 50% 증가(최대 1중첩)」 효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `썰매 진짜 빠르다~`,
+                    description: `공격 시, 「자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)」 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `사탕은 달고 맛있어~`,
+                    description: `첫 번째 턴 시작 시, 「아군 1번 자리 캐릭터의 치유량 20% 증가(최대 1중첩), 지속형 치유 20% 증가(최대 1중첩), 아머 강화량 20% 증가(최대 1중첩)」 효과 발동\n첫 번째 턴 시작 시, 「아군 5번 자리 캐릭터의 공격 데미지 20% 증가(최대 1중첩), 궁극기 데미지 10% 증가(최대 1중첩), 일반 공격 데미지 20% 증가(최대 1중첩)」 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스는 우리가 지킨다!`,
+                    description: `첫 번째 턴 시작 시, 「딜러와 힐러 『궁극기 데미지 25% 증가』(50턴) 획득」 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

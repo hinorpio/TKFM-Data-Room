@@ -508,7 +508,7 @@ export const SkillSet_10028: SkillSet[] =  [
                     description: `自分の必殺技ダメージを10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `自分の必殺技ダメージを10%増加させる`,
+                    name: `麻痺無効`,
                     description: `自分を麻痺無効にする`
                 }
             },

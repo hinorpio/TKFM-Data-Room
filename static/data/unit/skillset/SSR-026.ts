@@ -231,56 +231,56 @@ export const SkillSet_10056: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 벽`,
+                    description: `최대 HP의 40/45/45/50/50%만큼 자신의 아머 강화(1턴). 결정증 스킬로 부여한 받는 데미지 감소 효과 [1/1/2/2/3]중첩 증가. 도발 효과 획득(1턴). 자신이 방어 상태로 전환(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 벽`,
+                    description: `최대 HP의 40%만큼 자신의 아머 강화(1턴). 결정증 스킬로 부여한 받는 데미지 감소 효과 1중첩 증가. 도발 효과 획득(1턴). 자신이 방어 상태로 전환(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 벽`,
+                    description: `최대 HP의 45%만큼 자신의 아머 강화(1턴). 결정증 스킬로 부여한 받는 데미지 감소 효과 1중첩 증가. 도발 효과 획득(1턴). 자신이 방어 상태로 전환(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 벽`,
+                    description: `최대 HP의 45%만큼 자신의 아머 강화(1턴). 결정증 스킬로 부여한 받는 데미지 감소 효과 2중첩 증가. 도발 효과 획득(1턴). 자신이 방어 상태로 전환(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 벽`,
+                    description: `최대 HP의 50%만큼 자신의 아머 강화(1턴). 결정증 스킬로 부여한 받는 데미지 감소 효과 2중첩 증가. 도발 효과 획득(1턴). 자신이 방어 상태로 전환(1턴). [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 벽`,
+                    description: `최대 HP의 50%만큼 자신의 아머 강화(1턴). 결정증 스킬로 부여한 받는 데미지 감소 효과 3중첩 증가. 도발 효과 획득(1턴). 자신이 방어 상태로 전환(1턴). [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 용발톱`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `삶의 의미`,
+                    description: `자신의 최대 HP 60% 증가. 자신의 궁극기 최대 CD 1턴 감소. 궁극기 발동 시, "결정증 스킬로 부여한 받는 데미지 감소 효과 2중첩 증가" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `결정증`,
+                    description: `첫 번째 턴에 "자신이 받는 데미지 7.5% 감소(최대 10중첩), 결정증 스킬로 부여한 받는 데미지 감소 효과 4중첩 증가" 효과 발동.\n매 턴마다 "자신이 받는 데미지 7.5% 감소(최대 10중첩)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `결정과 공생`,
+                    description: `일반 공격 시, "최대 HP의 5%만큼 자신의 아머 강화(50턴), 결정증 스킬로 부여한 받는 데미지 감소 효과 1중첩 증가" 효과 발동.\n방어 시, "자신이 도발 효과 획득(1턴), 받는 데미지 60% 증가" 효과 발동.\n피격 시, "결정증 스킬로 부여한 받는 데미지 감소 효과 1중첩 감소" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `결정의 침식`,
+                    description: `궁극기 발동 시, "피격 시, 300%의 공격 데미지로 타깃에게 반격 효과(1턴) 발동" 효과 발동.\n방어 시, "피격 시, 100%의 공격 데미지로 타깃에게 반격 효과(1턴) 발동" 효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

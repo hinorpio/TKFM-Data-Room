@@ -231,56 +231,56 @@ export const SkillSet_10040: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `자신의 공격 데미지 330/376%만큼 타깃에게 데미지. 타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩) [CD: 4]\n\nLv3+: 타깃이 받는 서큐버스 브리트니의 데미지 10/15/15% 증가(최대 2중첩). 자신의 공격 데미지 422/422/468%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `자신의 공격 데미지 330%만큼 타깃에게 데미지. 타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `자신의 공격 데미지 376%만큼 타깃에게 데미지. 타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩). 자신의 공격 데미지 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `타깃이 받는 서큐버스 브리트니의 데미지 15% 증가(최대 2중첩). 자신의 공격 데미지 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `타깃이 받는 서큐버스 브리트니의 데미지 15% 증가(최대 2중첩). 자신의 공격 데미지 468%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `이 군사가 나서겠어`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `여러분의 마력을 내게 내줄래... 농담이야`,
+                    description: `아군 전체의 공격 데미지 40% 증가.\n자신의 궁극기 CD 카운트다운 정지. 궁극기 데미지 100% 증가.\n자신 이외의 탱커가 아닌 동료를 방어 상태로 전환 시, "서큐버스 브리트니의 현재 궁극기 CD 2턴 감소, 자신의 공격 데미지 20%만큼 서큐버스 브리트니의 공격 데미지 증가(2턴), 자신의 궁극기 CD 1턴 증가" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `서큐버스의 달란트`,
+                    description: `일반 공격 시, "궁극기 데미지 10% 증가(4턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빠진 독에 마력 붓기`,
+                    description: `궁극기 발동 시, "자신의 공격 데미지 50% 증가, 해당 효과는 4턴 내 점차 감소" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `서큐버스 군사의 비책`,
+                    description: `자신의 데미지 35% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }
@@ -514,56 +514,56 @@ export const SkillSet_10040: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `자신의 공격 데미지 330/376%만큼 타깃에게 데미지. 타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩) [CD: 4]\n\nLv3+: 타깃이 받는 서큐버스 브리트니의 데미지 10/15/15% 증가(최대 2중첩). 자신의 공격 데미지 422/422/468%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `자신의 공격 데미지 330%만큼 타깃에게 데미지. 타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `자신의 공격 데미지 376%만큼 타깃에게 데미지. 타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `타깃이 받는 서큐버스 브리트니의 데미지 10% 증가(최대 2중첩). 자신의 공격 데미지 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `타깃이 받는 서큐버스 브리트니의 데미지 15% 증가(최대 2중첩). 자신의 공격 데미지 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `천재 특제, 할로윈 한정 마력포`,
+                    description: `타깃이 받는 서큐버스 브리트니의 데미지 15% 증가(최대 2중첩). 자신의 공격 데미지 468%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `이 군사가 나서겠어`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `여러분의 마력을 내게 내줄래... 농담이야`,
+                    description: `아군 전체의 공격 데미지 40% 증가.\n자신의 궁극기 CD 카운트다운 정지. 궁극기 데미지 100% 증가.\n자신 이외의 탱커가 아닌 동료를 방어 상태로 전환 시, "서큐버스 브리트니의 현재 궁극기 CD가 2턴 감소하고, 필살기(1턴)의 CD 변경 효과에 면역이 됩니다, 자신의 공격 데미지 20%만큼 서큐버스 브리트니의 공격 데미지 증가(2턴), 자신의 궁극기 CD 1턴 증가" 효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `서큐버스의 달란트`,
+                    description: `일반 공격 시, "궁극기 데미지 10% 증가(4턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빠진 독에 마력 붓기`,
+                    description: `궁극기 발동 시, "자신의 공격 데미지 50% 증가, 해당 효과는 4턴 내 점차 감소" 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `서큐버스 군사의 비책`,
+                    description: `자신의 데미지 35% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 데미지+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

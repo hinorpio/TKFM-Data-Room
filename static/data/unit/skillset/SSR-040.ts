@@ -231,56 +231,56 @@ export const SkillSet_10084: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 25/30/35/40/45% 증가(1턴), 자신의 공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 25% 증가(1턴), 자신의 공격 데미지의 265%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 30% 증가(1턴), 자신의 공격 데미지의 298%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 35% 증가(1턴), 자신의 공격 데미지의 331%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 40% 증가(1턴), 자신의 공격 데미지의 364%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 45% 증가(1턴), 자신의 공격 데미지의 397%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `구르기`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `죽었지만 죽지 않았어.`,
+                    description: `아군 전체의 최대 HP 40% 증가\n아군 전체가 받는 치유량 80% 증가\n아군 전체의 공격 데미지 40% 증가\n자신의 궁극기 최대 CD 1턴 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `구르기 스탯 올인`,
+                    description: `방어 시 받는 데미지 감소 효과 10% 증가\n공격을 받을 시 「자신이 받는 데미지 10% 감소(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `슈퍼챗`,
+                    description: `공격 시, [자신의 공격 데미지 20%증가 (3턴)] 효과 발동\n궁극기 발동 시, [자신이 《신나게 라이브를!》획득] 효과 발동\n\n《신나게 라이브를!》\n[시청자수: 1000] (최대 20중첩)\n[Donate $ 100000] (20턴)\n가하는 데미지 7% 증가(최대 5중첩)\n자신은 「공격 시 [자신의 공격 데미지의 50%만큼 타깃에게 데미지] 발동」획득(3턴)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `이방인의 전법`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 99.9%만큼 타깃에게 데미지」발동\n공격 시 「자신의 궁극기 데미지 10% 증가(5턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `필살+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }
@@ -461,7 +461,7 @@ export const SkillSet_10084: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `不意打ち！`,
-                    description: `ターゲットが受ける必殺ダメージを25/30/35/40/45%増加させ(1ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
+                    description: `ターゲットが受ける必殺ダメージを10/15/20/25/35%増加させ(1ターン)、自分の265/298/331/364/397%の攻撃力でターゲットにダメージを与える[CD:3]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `不意打ち！`,
@@ -514,56 +514,56 @@ export const SkillSet_10084: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 10/15/20/25/35% 증가(1턴), 자신의 공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 10% 증가(1턴), 자신의 공격 데미지의 265%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 15% 증가(1턴), 자신의 공격 데미지의 298%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 20% 증가(1턴), 자신의 공격 데미지의 331%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 25% 증가(1턴), 자신의 공격 데미지의 364%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈 발견!`,
+                    description: `타깃이 받는 궁극기 데미지 35% 증가(1턴), 자신의 공격 데미지의 397%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `구르기`,
+                    description: `자신이 받는 데미지 45% 감소(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `죽었지만 죽지 않았어.`,
+                    description: `아군 전체의 최대 HP 40% 증가\n아군 전체가 받는 치유량 80% 증가\n자신의 궁극기 최대 CD 1턴 감소`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `구르기 스탯 올인`,
+                    description: `방어 시 받는 데미지 감소 효과 10% 증가\n일반 공격 시 「궁극기 데미지 10% 증가(7턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `슈퍼챗`,
+                    description: `공격 시, [자신의 공격 데미지 20%증가 (3턴)] 효과 발동\n궁극기 발동 시, [자신이 《신나게 라이브를!》획득] 효과 발동\n\n《신나게 라이브를!》\n[시청자수: 1000] (최대 20중첩)\n[Donate $ 100000] (20턴)\n가하는 데미지 7% 증가(최대 5중첩)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `이방인의 전법`,
+                    description: `궁극기 발동 시 「자신의 공격 데미지의 99.9%만큼 타깃에게 데미지」발동\n공격 시 「자신이 받는 피해 15% 감소(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `필살+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

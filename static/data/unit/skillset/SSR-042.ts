@@ -231,56 +231,56 @@ export const SkillSet_10019: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `성검해방・성신역법`,
+                    description: `자신의 공격 데미지 30/30/35/40/45% 증가(3턴). 자신의 공격 데미지 330/376/422/468/514%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `성검해방・성신역법`,
+                    description: `자신의 공격 데미지 30% 증가(3턴). 자신의 공격 데미지 330%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `성검해방・성신역법`,
+                    description: `자신의 공격 데미지 30% 증가(3턴). 자신의 공격 데미지 376%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `성검해방・성신역법`,
+                    description: `자신의 공격 데미지 35% 증가(3턴). 자신의 공격 데미지 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `성검해방・성신역법`,
+                    description: `자신의 공격 데미지 40% 증가(3턴). 자신의 공격 데미지 468%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `성검해방・성신역법`,
+                    description: `자신의 공격 데미지 45% 증가(3턴). 자신의 공격 데미지 514%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `백은의 참격`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `기원의 힘`,
+                    description: `아군 전체의 공격 데미지 40% 증가\n자신이외의 아군 딜러/탱커/힐러/서포터/디스럽터가 공격 시, [현대 용자 칸다 아야네가 《공격 습득》/《방어 습득》/《치유 습득》/《보조 습득》/《방애 습득》 획득] 효과 발동\n《공격 습득》\n가하는 데미지 25% 증가(1턴)\n공격 시, [자신의 공격 데미지의 75%로 타깃에게 추가 공격] 효과 발동 (1턴)\n《방어 습득》\n행동 시, [아군 전체가 받는 데미지 15% 감소(1턴)] 효과 발동 (1턴)\n《치유 습득》\n치유량 50% 증가(1턴)\n공격 시, [자신의 공격 데미지의 50%만큼 아군 전체를 치유] 효과 발동 (1턴)\n《보조 습득》\n공격 시, [자신의 공격 데미지 50% 증가 (2턴)] 효과 발동 (1턴)\n《방애 습득》\n공격 시, [타깃이 받는 치유량 50% 감소 (1턴), 받는 데미지 20% 증가 (2턴)] 효과 발동 (1턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `흩날리는 별빛의 검`,
+                    description: `궁극기 발동 시, [자신의 공격 데미지 10%만큼 타깃에게 10회 추가 공격] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `메테오의 궤적`,
+                    description: `첫 번째 턴 시작 시, [자신의 동료가 《스타더스트 플래시》 획득] 효과 발동\n《스타더스트 플래시》\n공격 시, [현대 용자 칸다 아야네의 일반 공격 데미지 10%증가 (1턴), 궁극기 데미지 4%증가 (1턴)] 효과 발동 (50턴)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `구원의 별빛`,
+                    description: `받는 데미지 15%감소\n일반 공격 시, [자신의 최대 HP의 12.5%만큼 자신의 아머 강화(1턴)] 효과 발동\n궁극기 발동 시, [타깃이 받는 현대 용자 칸다 아야네의 데미지 17.5% 증가(최대 2중첩)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

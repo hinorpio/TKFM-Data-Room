@@ -231,56 +231,56 @@ export const SkillSet_10058: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `월하의 하울링`,
+                    description: `공격 데미지의 200%만큼 현재 적 타깃에게 데미지. 자신의 일반 공격 데미지 96/118/141/163/186% 증가(6턴)[CD: 8]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `월하의 하울링`,
+                    description: `공격 데미지의 200%만큼 현재 적 타깃에게 데미지. 자신의 일반 공격 데미지 96% 증가(6턴)[CD: 8]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `월하의 하울링`,
+                    description: `공격 데미지의 200%만큼 현재 적 타깃에게 데미지. 자신의 일반 공격 데미지 118% 증가(6턴)[CD: 8]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `월하의 하울링`,
+                    description: `공격 데미지의 200%만큼 현재 적 타깃에게 데미지. 자신의 일반 공격 데미지 141% 증가(6턴)[CD: 8]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `월하의 하울링`,
+                    description: `공격 데미지의 200%만큼 현재 적 타깃에게 데미지. 자신의 일반 공격 데미지 163% 증가(6턴)[CD: 8]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `월하의 하울링`,
+                    description: `공격 데미지의 200%만큼 현재 적 타깃에게 데미지. 자신의 일반 공격 데미지 186% 증가(6턴)[CD: 8]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `발톱 공격`,
+                    description: `공격 데미지의 100%만큼 현재 적 타깃에게 데미지.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `겁쟁이 늑대의 여정`,
+                    description: `자신의 일반 공격 데미지 20% 증가. 아군 전체의 일반 공격 데미지 40% 증가.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `아드레날린`,
+                    description: `첫 번째 턴 시작 시, 자신의 궁극기 현재 CD 6턴 감소.\n궁극기 발동 시, "자신에게 궁극기 CD 변경 면역(8턴)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `3연격 발톱 공격`,
+                    description: `궁극기 발동 시 "일방 공격 시 자신의 공격 데미지의 30%만큼 적의 1, 2, 5번 자리 타깃에게 데미지(6턴)"효과 발동(만약 해당 자리에 적이 없을 경우 랜덤으로 타깃 지정)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `심해지는 광기`,
+                    description: `궁극기 발동 시, "가하는 데미지 20% 증가(최대 2중첩)" 효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

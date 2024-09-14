@@ -231,56 +231,56 @@ export const SkillSet_10043: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `최강 최고 최상의 할로 엘프 퀸`,
+                    description: `자신의 공격 데미지 330/376%만큼 타깃에게 데미지. 자신의 공격 데미지 20% 증가(3턴) [CD: 4]\n\nLv3-Lv4: 자신의 공격 데미지 30% 증가(3턴). 자신의 공격 데미지 422/468%만큼 타깃에게 데미지. [CD: 4]\n\nLv5: 자신의 공격 데미지 30% 증가(3턴). 타깃이 받는 할로 퀸 살루시아의 데미지 15% 증가(3턴). 자신의 공격 데미지 514%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `최강 최고 최상의 할로 엘프 퀸`,
+                    description: `자신의 공격 데미지 330%만큼 타깃에게 데미지. 자신의 공격 데미지 20% 증가(3턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `최강 최고 최상의 할로 엘프 퀸`,
+                    description: `자신의 공격 데미지 376%만큼 타깃에게 데미지. 자신의 공격 데미지 20% 증가(3턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `최강 최고 최상의 할로 엘프 퀸`,
+                    description: `자신의 공격 데미지 30% 증가(3턴). 자신의 공격 데미지 422%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `최강 최고 최상의 할로 엘프 퀸`,
+                    description: `자신의 공격 데미지 30% 증가(3턴). 자신의 공격 데미지 468%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `최강 최고 최상의 할로 엘프 퀸`,
+                    description: `자신의 공격 데미지 30% 증가(3턴). 타깃이 받는 할로 퀸 살루시아의 데미지 15% 증가(3턴). 자신의 공격 데미지 514%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `할로 퀸의 칙령`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `꽉 막힌 그녀, 아웃!`,
+                    description: `아군 풍속성 캐릭터의 최대 HP 35% 증가. 팀 중에 5개의 풍속성 캐릭터가 있을 경우, "자신이 받는 치유량 25% 증가, 공격 데미지 100% 증가"효과 발동.\n첫 번째 턴 시작 시, "할로 퀸 살루시아의 공격 데미지 40%만큼 아군 풍속성 캐릭터의 공격 데미지 증가(50턴)"효과 발동.\n엘프의 왕 살루시아의 궁극기 최대 CD 2턴 감소. 궁극기 발동 후, "타깃이 받는 데미지 20% 증가(3턴)"효과 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `출격! 나의 엘프(노예)여!`,
+                    description: `일반 공격 시, "타깃이 받는 아군 딜러의 데미지 6% 증가(최대 4중첩), 엘프의 왕 살루시아의 받는 데미지 6% 증가(4중첩)" 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `사탕 징수령`,
+                    description: `일반 공격 시, "타깃이 받는 일반 공격 데미지 7.5% 증가(최대 4중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `엘프의 왕, 나를 위한 전투`,
+                    description: `궁극기 발동 시, "아군 풍속성 캐릭터의 데미지 15% 증가(최대 2중첩)"효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                   name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

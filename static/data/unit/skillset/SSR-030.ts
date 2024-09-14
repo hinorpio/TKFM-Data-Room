@@ -231,56 +231,56 @@ export const SkillSet_10059: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `팬텀 킬러`,
+                    description: `자신의 공격 데미지 20/20/25/25/30% 증가(3턴). 자신의 공격 데미지의 205/226/247/268/289%만큼 타깃에게 데미지. [CD: 2]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `팬텀 킬러`,
+                    description: `자신의 공격 데미지 20% 증가(3턴). 자신의 공격 데미지의 205%만큼 타깃에게 데미지. [CD: 2]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `팬텀 킬러`,
+                    description: `자신의 공격 데미지 20% 증가(3턴). 자신의 공격 데미지의 226%만큼 타깃에게 데미지. [CD: 2]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `팬텀 킬러`,
+                    description: `자신의 공격 데미지 25% 증가(3턴). 자신의 공격 데미지의 247%만큼 타깃에게 데미지. [CD: 2]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `팬텀 킬러`,
+                    description: `자신의 공격 데미지 25% 증가(3턴). 자신의 공격 데미지의 268%만큼 타깃에게 데미지. [CD: 2]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `팬텀 킬러`,
+                    description: `자신의 공격 데미지 30% 증가(3턴). 자신의 공격 데미지의 289%만큼 타깃에게 데미지. [CD: 2]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `돌려차기`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지.`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `댄싱 머신`,
+                    description: `아군 전체 캐릭터의 공격 데미지 20% 증가. 「공격 시, 『아군 전체 캐릭터의 공격 데미지 8% 증가(2턴)』」 발동.`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `유망주`,
+                    description: `일반 공격 시, 「자신의 궁극기 데미지 5% 증가(최대 4중첩)」 발동.\n일반 공격 시, 「<백은의 바람>」 발동.\n\n<백은의 바람>\n자신이 「궁극기 발동 시, 추가로 『자신의 공격 데미지의 75%만큼 타깃에게 데미지』(2턴)」 효과 발동.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `잠재력 폭발`,
+                    description: `궁극기 발동 시, 「자신의 일반 공격 데미지 5% 증가(최대 4중첩)」 발동.\n궁극기 발동 시, 「<팬텀의 바람>」 발동.\n\n<팬텀의 바람>\n자신이「일반 공격 시, 추가로 『자신의 공격 데미지의 20%만큼 타깃에게 데미지』(2턴)」 효과 발동.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마하 선봉`,
+                    description: `궁극기 데미지 50% 증가.\n궁극기 발동 시, 「<음벽 초월>」 발동.\n\n<음벽 초월>\n자신 이외의 모든 캐릭터 「공격 후, 『아군 전체의 궁극기 데미지 5% 증가(2턴)』(2턴)」 효과 발동.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

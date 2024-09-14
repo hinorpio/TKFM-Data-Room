@@ -231,56 +231,56 @@ export const SkillSet_10052: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 파괴해주지..`,
+                    description: `자신의 공격 데미지 475/550/625/700/775%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 파괴해주지..`,
+                    description: `자신의 공격 데미지 475%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 파괴해주지..`,
+                    description: `자신의 공격 데미지 550%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 파괴해주지..`,
+                    description: `자신의 공격 데미지 625%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 파괴해주지..`,
+                    description: `자신의 공격 데미지 700%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 파괴해주지..`,
+                    description: `자신의 공격 데미지 775%만큼 타깃에게 데미지 [CD: 5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `방해하는 자에게 죽음을!`,
+                    description: `자신의 공격 데미지 125%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `크리스마스 킬러`,
+                    description: `자신의 최대 HP 50% 증가\n아군 전체의 암속성 팀원 공격 데미지 20% 증가\n\nX-mas 난쟁이 란 아군 팀에 있을 경우, 《공포에 굴복》 발동, 암흑의 크리스마스 아이카의 《광기》발동\nX-mas 순록 릴리 아군 팀에 있을 경우, 《공포에 굴복》 발동, 암흑의 크리스마스 아이카가 《광기》 발동\n\n《광기》\n자신의 데미지 50% 증가\n아군 암속성 팀원 전체의 공격 데미지 25% 증가\n\n《공포에 굴복》\n첫 번째 턴 시작 시, 「자신의 공격 데미지 100%만큼 암흑의 산타 아이카 공격 데미지 증가(50턴), 궁극기 CD 5턴간 카운트 정지, 궁극기 최대 CD 2턴 증가」 효과 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `빌어먹을 순록`,
+                    description: `일반 공격 시, 「타깃이 받는 궁극기 데미지 2.5% 증가(최대 4중첩)」 효과 발동\n「X-mas 순록 릴리」가 아군 팀에 있을 경우, 「《순록 사살》」 발동\n\n《순록 사살》\n자신이 공격 시, 「자신 이외의 팀원에게 최대 HP의 10%만큼 확정 데미지」 효과 발동\n일반 공격 시, 「적군 타깃이 받는 암속성 데미지 5% 증가(최대 4중첩)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `빌어먹을 크리스마스`,
+                    description: `일반 공격 시, 「타깃이 받는 일반 공격 데미지 5% 증가(최대 4중첩)」 효과 발동\n「X-mas 난쟁이 란」이 아군 팀에 있을 경우, 「《크리스마스 파괴》」 발동\n\n《크리스마스 파괴》\n자신이 공격 시, 「자신 이외의 팀원에게 최대 HP의 10%만큼 확정 데미지」 효과 발동\n일반 공격 시, 「적군 타깃이 받는 일반 공격 데미지 6% 증가(최대 5중첩)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `암흑의 크리스마스`,
+                    description: `자신의 일반 공격 데미지 50% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

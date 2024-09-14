@@ -178,7 +178,7 @@ export const SkillSet_10079: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `正月忍法・錦画神燃`,
-                    description: ``
+                    description: `50/65/80/95/110%増加させ(3/3/3/4/4ターン)、200%の攻撃力でターゲットにダメージを与え、自分の与えるダメージを0/0/10/15/20%増加させる(最高1スタック)[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `正月忍法・錦画神燃`,
@@ -231,56 +231,56 @@ export const SkillSet_10079: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `정월인법・근하신년`,
+                    description: `자신의 공격 데미지 50/65/80/95/110% 증가(3/3/3/4/4턴), 공격 데미지의 200%만큼 타깃에게 데미지, 자신의 데미지 0/0/10/15/20% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `정월인법・근하신년`,
+                    description: `자신의 공격 데미지 50% 증가(3턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정월인법・근하신년`,
+                    description: `자신의 공격 데미지 65% 증가(3턴), 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `정월인법・근하신년`,
+                    description: `자신의 공격 데미지 80% 증가(3턴), 공격 데미지의 200%만큼 타깃에게 데미지, 자신의 데미지 10% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `정월인법・근하신년`,
+                    description: `자신의 공격 데미지 95% 증가(4턴), 공격 데미지의 200%만큼 타깃에게 데미지, 자신의 데미지 15% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `정월인법・근하신년`,
+                    description: `자신의 공격 데미지 110% 증가(4턴), 공격 데미지의 200%만큼 타깃에게 데미지, 자신의 데미지 20% 증가(최대 1중첩) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `새해맞이 쿠나이`,
+                    description: `공격 데미지의 125%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `축제 거행 전문가`,
+                    description: `아군 전체의 공격 데미지 50% 증가, 일반 공격  데미지 30% 증가\n첫 번째 턴 시작 시, [최대 HP가 가장 적은 아군 캐릭터가 받는 데미지 20% 감소(최대 1중첩), 자신의 현재 궁극기 CD 4턴 감소]효과 발동\n첫 번째 턴 시작 시, [자신이 궁극기 발동 시, [새해의 축복]효과(1턴)]효과 발동\n\n[새해의 축복]\n자신의 공격 데미지의 100%만큼 자신의 공격 데미지 증가(50턴)\n자신의 궁극기 CD 카운트 정지(50턴), 궁극기의 CD 변동 효과 면역(50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `닌닌・전과 확대술`,
+                    description: `일반 공격 시, [타깃이 받는 일반 공격 데미지 20% 증가(최대 4중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `닌닌・암암리 지원술`,
+                    description: `첫 번째 턴 시작 시, [아군 전체의 일반 공격 효과가 30% 증가 (50턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `닌닌・분위기 띄운술`,
+                    description: `자신의 데미지 10% 증가\n공격 시, [타깃이 받는 데미지 5% 증가(최대 5중첩)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }
