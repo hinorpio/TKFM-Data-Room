@@ -141,7 +141,36 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                             description: `現在のHPが75%を超えている時、効果「与えるダメージが20%増加する」を発動する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `장미 맹독`,
+                            description: `타깃이 받는 마왕 이블리스의 데미지 5/5/10/10/10% 증가(최대 3중첩), 자신의 공격 데미지 388/445/503/560/560%만큼 타깃에게 데미지. [CD: 4] [Lv5: CD:3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `장미 맹독`,
+                            description: `타깃이 받는 마왕 이블리스의 데미지 5% 증가(최대 3중첩), 자신의 공격 데미지 388%만큼 타깃에게 데미지. [CD: 4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `장미 맹독`,
+                            description: `타깃이 받는 마왕 이블리스의 데미지 5% 증가(최대 3중첩), 자신의 공격 데미지 445%만큼 타깃에게 데미지. [CD: 4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `장미 맹독`,
+                            description: `타깃이 받는 마왕 이블리스의 데미지 10% 증가(최대 3중첩), 자신의 공격 데미지 503%만큼 타깃에게 데미지. [CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `장미 맹독`,
+                            description: `타깃이 받는 마왕 이블리스의 데미지 10% 증가(최대 3중첩), 자신의 공격 데미지 560%만큼 타깃에게 데미지. [CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `장미 맹독`,
+                            description: `타깃이 받는 마왕 이블리스의 데미지 10% 증가(최대 3중첩), 자신의 공격 데미지 560%만큼 타깃에게 데미지. [CD: 3]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `비전의 마력 의식`,
+                            description: `현재 HP가 75%보다 많을 시, 「공격력 20% 증가」 발동`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -179,7 +208,7 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,166,609\nAMax ATK：989,565`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,166,609\nMax ATK：989,565`
                         },
                     }
                 }
@@ -248,7 +277,20 @@ export const LiberateSkillSet_10003: LiberateSkillSet[] = [
                             description: `自分の攻撃力を25%増加させる\n攻撃時「敵全体が光属性から受けるダメージを4%増加させる(最高5スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `마왕 이블리스의 오만`,
+                            description: `아군 전체의 최대 HP 20%\n아군 전체의 공격 데미지 40% 증가\n아군 전체의 가하는 데미지 20% 증가\n공격 시 「공격 데미지의 150%만큼 적 전체에게 추가 공격」발동`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `마력 섭취`,
+                            description: `일반 공격 데미지 20% 증가\n데미지를 입힐 시 가한 데미지의 33%만큼 자신의 HP 회복\n자신의 궁극기 데미지 25% 증가`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `중생 압박`,
+                            description: `자신의 공격 데미지25% 증가\n공격 시 「적 전체가 받는 광속성 데미지 4% 증가(최대 5중첩)」발동`
+                        },
+                    }
                 }
             }
         }

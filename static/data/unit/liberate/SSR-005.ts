@@ -54,14 +54,23 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.PASSIVE_1]: {
                             name: `エネルギーチャージ`,
-                            description: `通常攻撃時、効果「自分の攻撃力を2.5%増加させる(最高6スタック)」を誘発する`
+                            description: `行動時「自分の攻撃力を15%増加させる(最高4スタック)」を誘発する`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `精神統一`,
-                            description: `1ターン毎に、効果「自分の攻撃力を5%増加させる(最高6スタック)」を誘発する`
+                            description: `行動時「自分の与えるダメージが5%増加させる(最高4スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.PASSIVE_1]: {
+                            name: `에너지 세이브`,
+                            description: `행동 시 「자신의 공격 데미지 15% 증가(최대 4중첩)」발동`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `정신통일`,
+                            description: `행동 시 「자신이 가하는 데미지 5% 증가(최대 4중첩)」발동`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -99,7 +108,7 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,723,932\nAMax ATK：840,735`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,723,932\nMax ATK：840,735`
                         },
                     }
                 }
@@ -248,7 +257,40 @@ export const LiberateSkillSet_10005: LiberateSkillSet[] = [
                             description: `自分の必殺技ダメージが50%増加する\n行動時「ターゲットが水属性から受けるダメージを6%増加させる(最高4スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `활공 찢기`,
+                            description: `타깃의 방어 상태를 해제하고 공격 데미지의 631/736/840/945/1050%만큼 타깃에게 데미지, 자신은 일반 공격 데미지 60/70/80/90/100% 증가 획득(3턴) [CD: 6]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `활공 찢기`,
+                            description: `타깃의 방어 상태를 해제하고 공격 데미지의 631%만큼 타깃에게 데미지, 자신은 일반 공격 데미지 60% 증가 획득(3턴) [CD: 6]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `활공 찢기`,
+                            description: `타깃의 방어 상태를 해제하고 공격 데미지의 736%만큼 타깃에게 데미지, 자신은 일반 공격 데미지 70% 증가 획득(3턴) [CD: 6]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `활공 찢기`,
+                            description: `타깃의 방어 상태를 해제하고 공격 데미지의 840%만큼 타깃에게 데미지, 자신은 일반 공격 데미지 80% 증가 획득(3턴) [CD: 6]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `활공 찢기`,
+                            description: `타깃의 방어 상태를 해제하고 공격 데미지의 945%만큼 타깃에게 데미지, 자신은 일반 공격 데미지 90% 증가 획득(3턴) [CD: 6]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `활공 찢기`,
+                            description: `타깃의 방어 상태를 해제하고 공격 데미지의 1050%만큼 타깃에게 데미지, 자신은 일반 공격 데미지 100% 증가 획득(3턴) [CD: 6]`
+                        },
+                        [SkillType.LEADER]: {
+                            name: `난쟁이왕의 기세`,
+                            description: `아군 전체의 최대 HP 20% 증가\n자신의 공격 데미지 125% 증가\n자신의 일반 공격 데미지 100% 증가\n자신이 가하는 데미지 35% 증가`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `파룡의 환광`,
+                            description: `자신의 궁극기 데미지 50% 증가\n행동 시 「타깃이 받는 수속성 데미지 6% 증가(최대 4중첩)」발동`
+                        },
+                    }
                 }
             }
         }

@@ -141,7 +141,36 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                             description: `自分の通常攻撃ダメージを25%増加させる\n自分の必殺技ダメージを15%増加させる`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `맹렬한 불길`,
+                            description: `자신의 공격 데미지 25/25/25/35/35% 증가(3턴), 가하는 데미지 5/5/10/10/10% 증가(3턴), 다시 공격 데미지의 393/448/503/503/503%만큼 타깃에게 데미지 [CD: 4] [Lv5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `맹렬한 불길`,
+                            description: `자신의 공격 데미지 25% 증가(3턴), 가하는 데미지 5% 증가(3턴), 다시 공격 데미지의 393%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `맹렬한 불길`,
+                            description: `자신의 공격 데미지 25% 증가(3턴), 가하는 데미지 5% 증가(3턴), 다시 공격 데미지의 448%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `맹렬한 불길`,
+                            description: `자신의 공격 데미지 25% 증가(3턴), 가하는 데미지 10% 증가(3턴), 다시 공격 데미지의 503%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `맹렬한 불길`,
+                            description: `자신의 공격 데미지 35% 증가(3턴), 가하는 데미지 10% 증가(3턴), 다시 공격 데미지의 503%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `맹렬한 불길`,
+                            description: `자신의 공격 데미지 35% 증가(3턴), 가하는 데미지 10% 증가(3턴), 다시 공격 데미지의 503%만큼 타깃에게 데미지 [CD: 3]`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `魔王の肉体`,
+                            description: `자신의 일반 공격 데미지 25% 증가\n자신의 궁극기 데미지 15% 증가`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -167,7 +196,7 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.en]: {
                         [SkillType.BASE_STAT]: {
                             name: `Maxed Data`,
-                            description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,440,520\nAMax ATK：910,400`
+                            description: `Permanently Increase HP and ATK by 10%\n\nMax HP：3,440,520\nMax ATK：910,400`
                         },
                     },
                     [Locale.jp]: {
@@ -179,7 +208,7 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,440,520\nAMax ATK：910,400`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,440,520\nMax ATK：910,400`
                         },
                     }
                 }
@@ -248,7 +277,20 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                             description: `1ターン目開始時「自分の現在の必殺技CDを1ターン減少させる」を誘発する\n必殺技攻撃時「自分の現在の必殺技CDを1ターン減少させ、ターゲットの必殺技CDを2ターン増加させる」を誘発する\n必殺技攻撃時「ターゲットが火属性から受けるダメージを10%増加させる(最高2スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `마왕 바알의 꿍꿍이`,
+                            description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 40% 증가\n아군 전체의 가하는 데미지 20% 증가\n자신의 공격 데미지 125% 증가\n자신의 궁극기 데미지 25% 증가`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `알 수 없는 성격`,
+                            description: `궁극기 발동 시, 「자신의 공격 데미지 15% 증가(최대 2중첩)」발동`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `바알의 장난`,
+                            description: `첫번째 턴 시작 시 「자신의 현재 궁극기 CD 1턴 감소」발동\n궁극기 발동 시 「자신의 현재 궁극기 CD 1턴 감소, 타깃의 현재 궁극기 CD 2턴 증가」발동\n궁극기 발동 시 「타깃이 받는 화속성 데미지 10% 증가(최대 2중첩)」발동`
+                        },
+                    }
                 }
             }
         }

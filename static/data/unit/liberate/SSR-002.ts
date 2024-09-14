@@ -126,7 +126,7 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                     [Locale.jp]: {
                         [SkillType.SKILL_S]: {
                             name: `極悪非道`,
-                            description: `自分の攻撃力を60/80/100/100/100%増加させ(3ターン)、挑発([2/2/2/3/3]ターン)を得て防御状態になる[CD:4] [Lv5: CD: 3]`
+                            description: `自分の攻撃力を60/80/100/100/100%増加させ(3ターン)、挑発([2/2/2/3/3]ターン)を得て防御状態になる[CD: 4] [Lv5: CD: 3]`
                         },
                         [SkillType.SKILL_1]: {
                             name: `極悪非道`,
@@ -157,7 +157,40 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                             description: `自分の受けるダメージを20%減少させる`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `잔학무도`,
+                            description: `자신의 공격 데미지 60/80/100/100/100% 증가(3턴) , 도발 효과 획득(2/2/2/3/3턴)하고 방어 상태로 전환 [CD: 4] [Lv5: CD: 3]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `잔학무도`,
+                            description: `자신의 공격 데미지 60% 증가(3턴) , 도발 효과 획득(2턴)하고 방어 상태로 전환 [CD: 4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `잔학무도`,
+                            description: `자신의 공격 데미지 80% 증가(3턴) , 도발 효과 획득(2턴)하고 방어 상태로 전환 [CD: 4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `잔학무도`,
+                            description: `자신의 공격 데미지 100% 증가(3턴) , 도발 효과 획득(2턴)하고 방어 상태로 전환 [CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `잔학무도`,
+                            description: `자신의 공격 데미지 100% 증가(3턴) , 도발 효과 획득(3턴)하고 방어 상태로 전환 [CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `잔학무도`,
+                            description: `자신의 공격 데미지 100% 증가(3턴) , 도발 효과 획득(3턴)하고 방어 상태로 전환 [CD: 3]`
+                        },
+                        [SkillType.ATTACK]: {
+                            name: `출혈`,
+                            description: `공격 데미지의 100%만큼 타깃에게 데미지, 자신을 방어 상태로 전환`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `마왕의 횡포`,
+                            description: `자신이 받는 데미지 20% 감소`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -195,7 +228,7 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：4,947,826\nAMax ATK：633,319`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：4,947,826\nMax ATK：633,319`
                         },
                     }
                 }
@@ -264,7 +297,20 @@ export const LiberateSkillSet_10002: LiberateSkillSet[] = [
                             description: `毎ターン自分の最大HPの20%分、自分に治療を行う\n攻撃を受けた時「自分が与えるダメージを2%増加させる(最高10スタック)」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `마왕 사탄의 호기`,
+                            description: `아군 전체의 공격 데미지 40% 증가\n아군 전체의 가하는 데미지 20% 증가\n자신의 공격 데미지 100% 증가\n사탄은 영구적으로 도발을 얻고 방어 상태 시 받는 피해 감소 효과 15% 증가`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `사탄의 보답`,
+                            description: `피격 시 「자신의 공격 데미지의 100%로 반격」발동\n피격 시 「자신의 공격 데미지 10% 증가(최대 10중첩)」발동`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `불패의 육체`,
+                            description: `매턴 자신의 최대 HP 20%만큼 회복\n피격 시 「자신이 가하는 데미지 2% 증가(최대 10중첩)」발동`
+                        },
+                    }
                 }
             }
         }

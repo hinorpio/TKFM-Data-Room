@@ -77,7 +77,20 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                             description: `防御時「自分の最大HPの50%分、自分に盾を張る(3ターン)」を誘発する\n防御時「《機械学習バトルモード》が与えるダメージが増加する効果を2スタック減少させる」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.LEADER]: {
+                            name: `최종 병기 소녀 모드`,
+                            description: `아군 전체의 공격 데미지 70% 증가\n자신은 《최종병기・해방》획득\n\n《최종병기・해방》\n첫 번째 턴에서 「자신의 현재 궁극기 CD 4턴 감소, 궁극기 최대 CD 3턴 감소(6턴), 공격 데미지 450% 증가(6턴), 일반 공격 데미지 100% 증가(6턴), 궁극기 데미지 100% 증가(6턴)」발동`
+                        },
+                        [SkillType.PASSIVE_1]: {
+                            name: `자아 학습 전투 시스템`,
+                            description: `공격 시, 「자신이 가하는 데미지 10% 증가(최대 5중첩)」 발동`
+                        },
+                        [SkillType.PASSIVE_2]: {
+                            name: `방어 모드・전환`,
+                            description: `방어 시 「자신의 최대 HP 50%만큼 자신의 아머 강화(3턴)」발동\n방어 시 「자신의 《자아 학습 전투 시스템》의 가하는 데미지 증가 효과 2중첩 감소」발동`
+                        },
+                    }
                 }
             },
             [LiberationStage.LIBERATION_2]:{
@@ -115,7 +128,7 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                     [Locale.kr]: {
                         [SkillType.BASE_STAT]: {
                             name: `스탯 최대치`,
-                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,353,438\nAMax ATK：934,149`
+                            description: `HP와 ATK는 영구적으로 10% 상승합니다\n\nMax HP：3,353,438\nMax ATK：934,149`
                         },
                     }
                 }
@@ -248,7 +261,36 @@ export const LiberateSkillSet_10008: LiberateSkillSet[] = [
                             description: `攻撃時「25%の攻撃力でターゲットに4回攻撃する」を誘発する`
                         },
                     },
-                    [Locale.kr]: {}
+                    [Locale.kr]: {
+                        [SkillType.SKILL_S]: {
+                            name: `전지역 섬멸 모드・가동`,
+                            description: `자신의 공격 데미지 125/130/135/140/150% 증가(최대 2중첩), 공격 데미지의 60/70/80/90/100%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_1]: {
+                            name: `전지역 섬멸 모드・가동`,
+                            description: `자신의 공격 데미지 125% 증가(최대 2중첩), 공격 데미지의 60%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_2]: {
+                            name: `전지역 섬멸 모드・가동`,
+                            description: `자신의 공격 데미지 130% 증가(최대 2중첩), 공격 데미지의 70%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_3]: {
+                            name: `전지역 섬멸 모드・가동`,
+                            description: `자신의 공격 데미지 135% 증가(최대 2중첩), 공격 데미지의 80%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_4]: {
+                            name: `전지역 섬멸 모드・가동`,
+                            description: `자신의 공격 데미지 140% 증가(최대 2중첩), 공격 데미지의 90%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.SKILL_5]: {
+                            name: `전지역 섬멸 모드・가동`,
+                            description: `자신의 공격 데미지 150% 증가(최대 2중첩), 공격 데미지의 100%만큼 타깃에게 데미지 [CD: 4]`
+                        },
+                        [SkillType.PASSIVE_3]: {
+                            name: `마인드 센서포・가동`,
+                            description: `공격 시 「공격 데미지의 25%만큼 타깃에게 4회 공격」 발동`
+                        },
+                    }
                 }
             }
         }
