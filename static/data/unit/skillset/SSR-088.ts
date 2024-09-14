@@ -231,56 +231,56 @@ export const SkillSet_10071: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `저주 멸살의 눈`,
+                    description: `자신의 공격 데미지 180/180/200/200/200% 증가(2턴), 일반 공격 데미지 60/80/80/100/100% 증가(2턴), 타깃이 받는 화속성 데미지 0/0/5/5/5% 증가(최대 2중첩), 자신은 일반 공격 시 「자신의 공격 데미지의 80/100/100/110/130%만큼 타깃에게 데미지」추가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `저주 멸살의 눈`,
+                    description: `자신의 공격 데미지 180% 증가(2턴), 일반 공격 데미지 60% 증가(2턴), 자신은 일반 공격 시 「자신의 공격 데미지의 80%만큼 타깃에게 데미지」추가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `저주 멸살의 눈`,
+                    description: `자신의 공격 데미지 180% 증가(2턴), 일반 공격 데미지 80% 증가(2턴), 자신은 일반 공격 시 「자신의 공격 데미지의 100%만큼 타깃에게 데미지」추가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `저주 멸살의 눈`,
+                    description: `자신의 공격 데미지 200% 증가(2턴), 일반 공격 데미지 80% 증가(2턴), 타깃이 받는 화속성 데미지 5% 증가(최대 2중첩), 자신은 일반 공격 시 「자신의 공격 데미지의 100%만큼 타깃에게 데미지」추가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `저주 멸살의 눈`,
+                    description: `자신의 공격 데미지 200% 증가(2턴), 일반 공격 데미지 100% 증가(2턴), 타깃이 받는 화속성 데미지 5% 증가(최대 2중첩), 자신은 일반 공격 시 「자신의 공격 데미지의 110%만큼 타깃에게 데미지」추가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `저주 멸살의 눈`,
+                    description: `자신의 공격 데미지 240% 증가(2턴), 일반 공격 데미지 100% 증가(2턴), 타깃이 받는 화속성 데미지 5% 증가(최대 2중첩), 자신은 일반 공격 시 「자신의 공격 데미지의 130%만큼 타깃에게 데미지」추가(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `크로스보우 샷`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `금지구역의 수호자`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 60% 증가\n아군 전체의 일반 공격 데미지 60% 증가\n자신이 가하는 데미지 50% 증가\n자신은 일반 공격 시 「타깃이 받는 데미지 5% 증가(최대 8중첩)」발동\n궁극기 발동 시 「일반 공격 시 『자신의 공격 데미지의 150%만큼 타깃에게 데미지』추가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `전율의 사냥`,
+                    description: `공격 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `2연발`,
+                    description: `궁극기 발동 시 「일반 공격 시 『자신의 공격 데미지의 70%만큼 타깃에게 데미지』추가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `쇠약의 저주`,
+                    description: `6번째 턴에서 「적 전체가 받는 일반 공격 데미지 100% 증가(50턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `데미지+`,
+                    description: `자신이 가하는 데미지 7.5% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

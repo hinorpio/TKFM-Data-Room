@@ -231,56 +231,56 @@ export const SkillSet_10117: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `돌진! 시저 호!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지, 자신은 「일반 공격 시 『자신의 공격 데미지의 96/115/135/154/173%만큼 타깃에게 데미지』 추가 획득(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `돌진! 시저 호!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지, 자신은 「일반 공격 시 『자신의 공격 데미지의 96%만큼 타깃에게 데미지』 추가 획득(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `돌진! 시저 호!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지, 자신은 「일반 공격 시 『자신의 공격 데미지의 115%만큼 타깃에게 데미지』 추가 획득(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `돌진! 시저 호!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지, 자신은 「일반 공격 시 『자신의 공격 데미지의 135%만큼 타깃에게 데미지』 추가 획득(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `돌진! 시저 호!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지, 자신은 「일반 공격 시 『자신의 공격 데미지의 154%만큼 타깃에게 데미지』 추가 획득(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `돌진! 시저 호!`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지, 자신은 「일반 공격 시 『자신의 공격 데미지의 173%만큼 타깃에게 데미지』 추가 획득(4턴)」 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `찌걱～`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `여름 상품 전면 세일 중~`,
+                    description: `자신 및 화속성, 광속성 동료의 최대 HP 20% 증가\n자신 및 화속성, 광속성 동료의 가하는 데미지 20% 증가\n자신의 공격 데미지 50% 증가\n자신의 일반 공격 데미지 20% 증가\n화속성, 광속성 동료의 공격 데미지 80% 증가\n화속성, 광속성 동료의 일반 공격 데미지 50% 증가\n아군 딜러 및 디스럽터는 「팀에 최소 2명 이상의 화속성 동료가 있을 시 《바알상회 특제 BBQ 그릴》발동」획득\n아군 딜러 및 디스럽터는 「팀에 최소 2명 이상의 광속성 동료가 있을 시 《바알상회 특제 BBQ 그릴》발동」획득\n\n《바알상회 특제 BBQ 그릴》\n일반 공격 시 「자신의 공격 데미지의 40%만큼 타깃에게 데미지」추가\n일반 공격 시 「타깃이 받는 일반 공격 데미지 18% 증가(최대 5중첩)」추가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `수영복 모카 피부 마왕`,
+                    description: `수속성 아군의 공격 데미지 30% 증가\n수속성 아군의 일반 공격 데미지 20% 증가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `얼굴에 한 발～`,
+                    description: `아군 딜러 및 디스럽터는 「《바알상회 특제 물총》」획득\n\n《바알상회 특제 물총》\n팀에 최소 (4/5)명의 수속성 동료가 있을 시 「일반 공격 시 『자신의 공격 데미지의 (15/15)%만큼 타깃에게 데미지』추가」발동\n팀에 최소 (4/5)명의 수속성 동료가 있을 시 「일반 공격 시 『타깃이 받는 일반 공격 데미지 (9/9)% 증가(최대 5중첩)』추가」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `접대는 내게 맡겨～`,
+                    description: `아군 전체에게 「《해변의 집 프리미엄 상품》」을 부여한다.\n\n《해변의 집 프리미엄 상품》\n팀에 최소 2명의 딜러가 있을 경우「가하는 데미지 30% 증가」 획득\n팀에 최소 2명의 딜러가 있을 경우「일반 공격 데미지 30% 증가」획득`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역`
                 }
             }
         }

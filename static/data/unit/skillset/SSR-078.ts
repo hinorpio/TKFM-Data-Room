@@ -231,56 +231,56 @@ export const SkillSet_10115: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `자동 가열 진동 모드?`,
+                    description: `자신의 공격 데미지의 80/85/90/95/100%만큼 매턴 아군 전체를 치유(4턴), 자신의 최대 HP의 20/24/28/32/36%만큼 아군 전체의 아머 강화(1턴), 타깃이 받는 데미지 0/0/10/15/20% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `자동 가열 진동 모드?`,
+                    description: `자신의 공격 데미지의 80%만큼 매턴 아군 전체를 치유(4턴), 자신의 최대 HP의 20%만큼 아군 전체의 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `자동 가열 진동 모드?`,
+                    description: `자신의 공격 데미지의 85%만큼 매턴 아군 전체를 치유(4턴), 자신의 최대 HP의 24%만큼 아군 전체의 아머 강화(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `자동 가열 진동 모드?`,
+                    description: `자신의 공격 데미지의 90%만큼 매턴 아군 전체를 치유(4턴), 자신의 최대 HP의 28%만큼 아군 전체의 아머 강화(1턴), 타깃이 받는 데미지 10% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `자동 가열 진동 모드?`,
+                    description: `자신의 공격 데미지의 95%만큼 매턴 아군 전체를 치유(4턴), 자신의 최대 HP의 32%만큼 아군 전체의 아머 강화(1턴), 타깃이 받는 데미지 15% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `자동 가열 진동 모드?`,
+                    description: `자신의 공격 데미지의 100%만큼 매턴 아군 전체를 치유(4턴), 자신의 최대 HP의 36%만큼 아군 전체의 아머 강화(1턴), 타깃이 받는 데미지 20% 증가(4턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `스마트빔~`,
+                    description: `공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `별이 반짝☆천재 마법소녀`,
+                    description: `매 Wave의 첫째 턴 시작 시「적 전체가 받는 풍속성 데미지 35% 증가(최대 1중첩)」발동\n자신이 가하는 데미지 50% 증가\n공격 시 「자신 이외의 아군 전체는 《정의의 이름으로 널 심판하겠다☆》획득」발동\n\n《정의의 이름으로 널 심판하겠다☆》\n가하는 데미지 20% 증가(1턴)\n공격 시 「1번 자리 아군은 《마력 응집》획득」발동(1턴)\n\n《마력 응집》\n공격 데미지 50% 증가(2턴)\n일반 공격 시 『자신의 공격 데미지의 75%만큼 타깃에게 데미지』추가(2턴)\n궁극기 발동 시 『자신의 공격 데미지의 125%만큼 타깃에게 데미지』추가(2턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `분홍빛 최음 광선♡`,
+                    description: `공격 시 「자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `노출광 모드`,
+                    description: `아군 전체가 받는 아머 강화 효과 20% 증가\n아군 전체는 치유를 받을 시 HP 회복량 20% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `도피는 유용하지만 도피할 수 없어`,
+                    description: `치유를 받을 시 「아군 전체의 공격 데미지 20% 증가(1턴)」발동\n아군 전체에게 「현존 HP≧95%일 경우 『가하는 데미지 15% 증가』발동」부여`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }

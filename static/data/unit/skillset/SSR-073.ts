@@ -231,56 +231,56 @@ export const SkillSet_10109: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `설탕처럼 진한 달콤함`,
+                    description: `자신의 공격 데미지 20/20/20/30/40%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 30/35/40/40/40%만큼 5번 자리 동료의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `설탕처럼 진한 달콤함`,
+                    description: `자신의 공격 데미지 20%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 30%만큼 5번 자리 동료의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `설탕처럼 진한 달콤함`,
+                    description: `자신의 공격 데미지 20%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 35%만큼 5번 자리 동료의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `설탕처럼 진한 달콤함`,
+                    description: `자신의 공격 데미지 20%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 40%만큼 5번 자리 동료의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `설탕처럼 진한 달콤함`,
+                    description: `자신의 공격 데미지 30%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 40%만큼 5번 자리 동료의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `설탕처럼 진한 달콤함`,
+                    description: `자신의 공격 데미지 40%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 40%만큼 5번 자리 동료의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `네게만 줄게`,
+                    description: `자신의 공격 데미지 10%만큼 아군 광속성 캐릭터의 공격 데미지 증가(1턴), 자신의 공격 데미지 20%만큼 5번 자리 동료의 공격 데미지 증가(1턴), 5번 자리 동료의 일반 공격 데미지 35% 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `달콤한 날`,
+                    description: `아군의 최대 HP 30% 증가\n아군의 공격 데미지 40% 증가\n아군 힐러, 서포터는 《가장 사랑하는 그대에게》획득\n5번 자리 동료은 《정이 담긴 초콜릿》획득\n\n《가장 사랑하는 그대에게》\n궁극기 발동 시 「5번 자리 동료 가하는 데미지 15% 증가(1턴)」발동\n궁극기 발동 시 「5번 자리 동료는 『궁극기 발동 시 「자신의 공격 데미지의 50%만큼 타깃에게 데미지」발동(1턴)』획득」발동\n\n《정이 담긴 초콜릿》\n궁극기 발동 시 「자신 이외의 아군의 공격 데미지 50% 증가(최대 1중첩)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `달콤한 선물`,
+                    description: `첫번 째 턴 시작 시, 「5번 자리 동료의 일반 공격 데미지 50% 증가(최대 1중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정성 가득 초콜릿`,
+                    description: `4턴마다 「5번 자리 동료의 궁극기 데미지 40%증가 (1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `연애, 마왕, 초콜릿`,
+                    description: `궁극기 발동 시 「5번 자리 동료의 궁극기 데미지 30% 증가(1턴)」발동\n궁극기 발동 시 「아군 딜러의 궁극기 데미지 20% 증가(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

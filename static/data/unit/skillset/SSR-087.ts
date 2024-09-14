@@ -231,56 +231,56 @@ export const SkillSet_10121: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `회기・백화투영`,
+                    description: `자신의 일반 공격 데미지 60/75/90/105/120% 증가(4턴), 타깃이 받는 일반 공격 데미지 30/45/60/75/90% 증가(8턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `회기・백화투영`,
+                    description: `자신의 일반 공격 데미지 60% 증가(4턴), 타깃이 받는 일반 공격 데미지 30% 증가(8턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `회기・백화투영`,
+                    description: `자신의 일반 공격 데미지 75% 증가(4턴), 타깃이 받는 일반 공격 데미지 45% 증가(8턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `회기・백화투영`,
+                    description: `자신의 일반 공격 데미지 90% 증가(4턴), 타깃이 받는 일반 공격 데미지 60% 증가(8턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `회기・백화투영`,
+                    description: `자신의 일반 공격 데미지 105% 증가(4턴), 타깃이 받는 일반 공격 데미지 75% 증가(8턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `회기・백화투영`,
+                    description: `자신의 일반 공격 데미지 120% 증가(4턴), 타깃이 받는 일반 공격 데미지 90% 증가(8턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `후방 보급이다냥`,
+                    description: `아군 전체의 일반 공격 데미지 40% 증가(2턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `노예 선원`,
+                    description: `팀에 풍속성 캐릭터가 최소  3명 있을 시 아군 전체는 《갈매기 도적단》 획득\n팀에 딜러가 최소  2명 있을 시 자신은 《대해를 향하여!》획득\n\n《갈매기 도적단》\n공격 데미지 40% 증가\n일반 공격 데미지 100% 증가\n일반 공격 시 「자신의 공격 데미지의 65%만큼 타깃에게 데미지」추가\n\n《대해를 향하여!》\n일반 공격 시 「타깃이 받는 데미지 5% 증가(최대10중첩)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `폭풍우 감행`,
+                    description: `일반 공격 시 「자신의 최대 HP의 5%만큼 아군 전체의 아머 강화(1회)」추가\n궁극기 발동 시 「자신이 일반 공격을 가할 시 『자신의 공격 데미지의 100%만큼 타깃에게 데미지』 추가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `프로젝터 캐논`,
+                    description: `일반 공격 시 「자신의 공격 데미지의 50%만큼 타깃에게 데미지」추가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `오랜 추억`,
+                    description: `아군 전체가 가하는 데미지 10% 증가\n일반 공격 시 「아군 전체의 공격 데미지 10% 증가(최대 4중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피해 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 부여`
                 }
             }
         }

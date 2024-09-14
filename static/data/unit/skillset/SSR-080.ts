@@ -231,56 +231,56 @@ export const SkillSet_10113: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `난폭한 주사질`,
+                    description: `자신 공격 데미지의 445/514/583/652/721%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `난폭한 주사질`,
+                    description: `자신 공격 데미지의 445%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `난폭한 주사질`,
+                    description: `자신 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `난폭한 주사질`,
+                    description: `자신 공격 데미지의 583%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `난폭한 주사질`,
+                    description: `자신 공격 데미지의 652%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `난폭한 주사질`,
+                    description: `자신 공격 데미지의 721%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `혈액 검사`,
+                    description: `자신 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `내 전문적인 의료행위에 딴지 걸지 마!`,
+                    description: `팀에 최소 (1/2)명의 서포터가 있을 경우, 「궁극기 데미지 (35/35)% 증가」 발동\n팀에 최소 (1/2)명의 힐러가 있을 경우, 「궁극기 데미지 (35/35)% 증가」 발동\n아군 전체는 「팀에 최소 3명의 암속성 아군이 있을 경우, 『《암흑요법》』발동」 획득\n자신의 궁극기 발동 시 「《적절한 처방》」발동\n\n《암흑요법》\n최대 HP 20% 증가\n공격 데미지 50% 증가\n궁극기 발동 시 『타깃이 받는 데미지 8% 증가(최대 5중첩)』발동\n궁극기 발동 시 『타깃이 받는 암속성 데미지 8% 증가(최대 5중첩)』발동\n\n《적절한 처방》\n타깃은 「피격 시 『적 전체가 받는 치유 회복량 5% 증가(최대 6중첩)』발동(4턴)」 획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일침견혈(?)`,
+                    description: `팀에 최소 (1/2)명의 딜러가 있을 경우 「궁극기 발동 시 『자신의 공격 데미지의 (100/100)%만큼 타깃에게 데미지』추가」 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `혼돈 요법`,
+                    description: `팀에 최소 (2/3)명의 암속성 멤버가 있을 경우 「공격 데미지 (50/50)% 증가」 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `투여량 대폭 증가`,
+                    description: `팀에 최소 (1/2)명의 서포터가 있을 경우 「가하는 데미지 (15/15)% 증가」발동\n팀에 최소 (1/2)명의 힐러가 있을 경우 「가하는 데미지 (15/15)% 증가」 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역`
                 }
             }
         }

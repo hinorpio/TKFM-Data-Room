@@ -231,56 +231,56 @@ export const SkillSet_10069: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `너무 하고 싶지만 안 돼!`,
+                    description: `아군 딜러, 디스럽터의 궁극기 데미지 10/15/20/25/30% 증가(2턴), 자신 이외의 아군 전체는 「공격 시 『자신의 공격 데미지의 25/35/45/55/65%만큼 타깃에게 데미지』발동(4턴)」획득 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `너무 하고 싶지만 안 돼!`,
+                    description: `아군 딜러, 디스럽터의 궁극기 데미지 10% 증가(2턴), 자신 이외의 아군 전체는 「공격 시 『자신의 공격 데미지의 25%만큼 타깃에게 데미지』발동(4턴)」획득 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `너무 하고 싶지만 안 돼!`,
+                    description: `아군 딜러, 디스럽터의 궁극기 데미지 15% 증가(2턴), 자신 이외의 아군 전체는 「공격 시 『자신의 공격 데미지의 35%만큼 타깃에게 데미지』발동(4턴)」획득 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `너무 하고 싶지만 안 돼!`,
+                    description: `아군 딜러, 디스럽터의 궁극기 데미지 20% 증가(2턴), 자신 이외의 아군 전체는 「공격 시 『자신의 공격 데미지의 45%만큼 타깃에게 데미지』발동(4턴)」획득 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `너무 하고 싶지만 안 돼!`,
+                    description: `아군 딜러, 디스럽터의 궁극기 데미지 25% 증가(2턴), 자신 이외의 아군 전체는 「공격 시 『자신의 공격 데미지의 55%만큼 타깃에게 데미지』발동(4턴)」획득 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `너무 하고 싶지만 안 돼!`,
+                    description: `아군 딜러, 디스럽터의 궁극기 데미지 30% 증가(2턴), 자신 이외의 아군 전체는 「공격 시 『자신의 공격 데미지의 65%만큼 타깃에게 데미지』발동(4턴)」획득 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `토끼의 서포트`,
+                    description: `아군 전체의 공격 데미지 50% 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `토끼 공격술`,
+                    description: `아군 전체의 HP 20% 증가\n아군 전체의 공격 데미지 50% 증가\n아군 딜러, 디스럽터는 《성욕 토끼발》획득\n4턴마다 「아군 전체의 궁극기 데미지 35% 증가(2턴)」발동\n\n《성욕 토끼발》\n공격 시 「자신의 공격 데미지 20% 증가(최대 5중첩)」발동\n공격 시 「타깃이 받는 발동형 스킬 데미지 20% 증가(최대 5중첩)」발동\n궁극기 발동 시 「자신의 공격 데미지의 150%만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `모두 파이팅!`,
+                    description: `궁극기 발동 시 「아군 전체의 공격 데미지 50% 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `야아아아아아!`,
+                    description: `궁극기 발동 시 「자신의 최대 HP 15%만큼 자신에게 아머 강화 부여(1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `로맨틱한 연애!`,
+                    description: `아군 전체의 가하는 데미지 20% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격 데미지+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

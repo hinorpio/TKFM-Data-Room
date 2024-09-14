@@ -231,56 +231,56 @@ export const SkillSet_10118: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `지상신국이 도래한다~`,
+                    description: `자신이 부여하는 치유량 30/35/40/45/50% 증가(4턴), 자신의 공격 데미지의 165/188/211/234/257%만큼 아군 전체를 치유, 타깃이 받는 광속성 데미지 10/10/15/20/25% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `지상신국이 도래한다~`,
+                    description: `자신이 부여하는 치유량 30% 증가(4턴), 자신의 공격 데미지의 165%만큼 아군 전체를 치유, 타깃이 받는 광속성 데미지 10% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `지상신국이 도래한다~`,
+                    description: `자신이 부여하는 치유량 35% 증가(4턴), 자신의 공격 데미지의 188%만큼 아군 전체를 치유, 타깃이 받는 광속성 데미지 10% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `지상신국이 도래한다~`,
+                    description: `자신이 부여하는 치유량 40% 증가(4턴), 자신의 공격 데미지의 211%만큼 아군 전체를 치유, 타깃이 받는 광속성 데미지 15% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `지상신국이 도래한다~`,
+                    description: `자신이 부여하는 치유량 45% 증가(4턴), 자신의 공격 데미지의 234%만큼 아군 전체를 치유, 타깃이 받는 광속성 데미지 20% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `지상신국이 도래한다~`,
+                    description: `자신이 부여하는 치유량 50% 증가(4턴), 자신의 공격 데미지의 257%만큼 아군 전체를 치유, 타깃이 받는 광속성 데미지 25% 증가(1턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스 성가`,
+                    description: `자신의 공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스의 복음 전파자`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체는 「팀에 최소 4명 이상의 광속성 동료가 있을 시 『공격 데미지 100%증가』발동」획득\n광속성 동료의 궁극기 데미지 50% 증가\n4턴마다 「타깃이 받는 데미지 50% 증가(1턴)」발동\n치유를 받을 시 「아군 전체가 가하는 데미지 15% 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `절정으로 사랑이 널리 퍼지기를♡`,
+                    description: `궁극기 발동 시 「아군 전체의 공격 데미지 40% 증가(최대 1중첩)」발동\n치유를 받을 시 「아군 전체의 공격 데미지 10% 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 절정을 느껴봐요~`,
+                    description: `궁극기 발동 시 「아군 전체의 궁극기 데미지 30% 증가(최대 1중첩)」발동\n치유를 받을 시 「아군 전체의 궁극기 데미지 10% 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스의 진리♡`,
+                    description: `궁극기 발동 시 「아군 전체가 가하는 데미지 20% 증가(최대 1중첩)」발동\n치유를 받을 시 「아군 전체가 가하는 데미지 5% 증가(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `일반 공격 데미지+`,
+                    description: `자신의 일반 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

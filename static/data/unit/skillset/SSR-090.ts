@@ -231,56 +231,56 @@ export const SkillSet_10122: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `히메는, 모두를 사랑해~`,
+                    description: `아군 전체가 가하는 데미지 25/30/30/35/35% 증가(1턴)、아군 전체가 가하는 데미지 10/10/15/15/20% 증가(4턴)、아군 전체의 공격 데미지 10/15/20/25/30% 증가(최대 3/2/2/2/2중첩)，CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `히메는, 모두를 사랑해~`,
+                    description: `아군 전체가 가하는 데미지 25% 증가(1턴)、아군 전체가 가하는 데미지 10% 증가(4턴)、아군 전체의 공격 데미지 10% 증가(최대 3중첩)，CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `히메는, 모두를 사랑해~`,
+                    description: `아군 전체가 가하는 데미지 30% 증가(1턴)、아군 전체가 가하는 데미지 10% 증가(4턴)、아군 전체의 공격 데미지 15% 증가(최대 2중첩)，CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `히메는, 모두를 사랑해~`,
+                    description: `아군 전체가 가하는 데미지 30% 증가(1턴)、아군 전체가 가하는 데미지 15% 증가(4턴)、아군 전체의 공격 데미지 20% 증가(최대 2중첩)，CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `히메는, 모두를 사랑해~`,
+                    description: `아군 전체가 가하는 데미지 35% 증가(1턴)、아군 전체가 가하는 데미지 15% 증가(4턴)、아군 전체의 공격 데미지 25% 증가(최대 2중첩)，CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `히메는, 모두를 사랑해~`,
+                    description: `아군 전체가 가하는 데미지 35% 증가(1턴)、아군 전체가 가하는 데미지 20% 증가(4턴)、아군 전체의 공격 데미지 30% 증가(최대 2중첩)，CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `성(性)광의 축복`,
+                    description: `아군 전체가 가하는 데미지 25% 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `가슴이 커야 사람들의 마음을 수용할 수 있는 법`,
+                    description: `아군 전체의 최대 HP 20% 증가\n매4턴마다, 「자신이 《시기의 화염》 획득」 발동\n궁극기 발동 시 「타깃이 받는 데미지 20% 증가(9턴)」 발동\n아군 전체가 「팀원 중 최소 1명의 화속성 캐릭터가 있을 경우, 『공격 데미지 40% 증가』」 획득\n아군 전체가 「팀원 중 최소 1명의 암속성 캐릭터가 있을 경우, 『공격 데미지 40% 증가』」 획득」 \n\n《시기의 화염》\n궁극기 발동 시, 「타깃이 받는 궁극기 데미지 20% 증가(최대 2중첩)」(4턴)(궁극기 발동 후에 이 효과는 사라짐) 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `드라이브 엔젤 하트`,
+                    description: `궁극기 발동 시 「아군 전체의 궁극기 데미지 20% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `이게 히메의 사랑이야`,
+                    description: `궁극기 발동 시, 「자신의 공격 데미지의 150%만큼 타깃에게 데미지」 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `불안해지면 먼저 가슴을 만져`,
+                    description: `일반 공격 시 「자신의 공격 데미지의 50%만큼 타깃에게 데미지」발동\n궁극기 발동 시, 「자신의 공격 데미지의 100%만큼 타깃에게 데미지」 발동\n매 4턴마다 「아군 전체가 궁극기 발동 시, 『아군 전체의 발동기 효과 30% 증가(4턴)』 (궁극기 발동 후에 이 효과는 사라짐)」 발동(4턴)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기 발동 +`,
+                    description: `궁극기 발동 시, 「자신의 공격 데미지의 30%만큼 타깃에게 데미지」 발동`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역`
                 }
             }
         }
