@@ -231,56 +231,56 @@ export const SkillSet_10131: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 초월한 희망`,
+                    description: `타깃이 받는 시간을 다스리는 자 이나스의 데미지 50/62.5/75/87.5/100% 증가(3턴), 자신의 공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 초월한 희망`,
+                    description: `타깃이 받는 시간을 다스리는 자 이나스의 데미지 50% 증가(3턴), 자신의 공격 데미지의 265%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 초월한 희망`,
+                    description: `타깃이 받는 시간을 다스리는 자 이나스의 데미지 62.5% 증가(3턴), 자신의 공격 데미지의 298%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 초월한 희망`,
+                    description: `타깃이 받는 시간을 다스리는 자 이나스의 데미지 75% 증가(3턴), 자신의 공격 데미지의 331%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 초월한 희망`,
+                    description: `타깃이 받는 시간을 다스리는 자 이나스의 데미지 87.5% 증가(3턴), 자신의 공격 데미지의 364%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 초월한 희망`,
+                    description: `타깃이 받는 시간을 다스리는 자 이나스의 데미지 100% 증가(3턴), 자신의 공격 데미지의 397%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `시파참`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `시간을 다스리는 자`,
+                    description: `아군 전체의 HP 25% 증가\n아군 전체의 공격 데미지 90% 증가\n아군 딜러가 가하는 데미지 40% 증가\n아군 디스럽터가 가하는 데미지 40% 증가\n자신의 공격 데미지 90% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `부서진 창공`,
+                    description: `첫째 턴 시작 시 「자신이 가하는 데미지 4% 증가(최대 5중첩)」발동\n3턴마다 「자신의 《부서진 창공》이 가하는 데미지 효과 2중첩」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `시공간 지배`,
+                    description: `가하는 데미지 20% 증가\n궁극기 발동 시 자신의 《부서진 창공》이 가하는 데미지 효과 중첩수에 따라 「타깃이 받는 시간을 다스리는 자 이나스의 데미지 10% 증가(4턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `찬란한 세월`,
+                    description: `일반 공격 시 「자신의 공격 데미지 70%만큼 타깃에게 데미지」발동\n궁극기 발동 시 「자신의 공격 데미지의 70%만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격 데미지+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

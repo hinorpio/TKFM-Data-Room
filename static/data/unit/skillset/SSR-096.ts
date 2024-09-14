@@ -231,56 +231,56 @@ export const SkillSet_10132: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `드리워진 밤의 장막`,
+                    description: `아군 전체가 가하는 궁극기 데미지 20/30/40/50/60% 증가(3턴)하고 자신의 실드 효과 10/15/20/25/30% 증가(3턴) 및 자신의 공격 데미지의 265/298/331/364/397% 만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `드리워진 밤의 장막`,
+                    description: `아군 전체가 가하는 궁극기 데미지 20% 증가(3턴)하고 자신의 실드 효과 10% 증가(3턴) 및 자신의 공격 데미지의 265% 만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `드리워진 밤의 장막`,
+                    description: `아군 전체가 가하는 궁극기 데미지 30% 증가(3턴)하고 자신의 실드 효과 15% 증가(3턴) 및 자신의 공격 데미지의 298% 만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `드리워진 밤의 장막`,
+                    description: `아군 전체가 가하는 궁극기 데미지 40% 증가(3턴)하고 자신의 실드 효과 20% 증가(3턴) 및 자신의 공격 데미지의 331% 만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `드리워진 밤의 장막`,
+                    description: `아군 전체가 가하는 궁극기 데미지 50% 증가(3턴)하고 자신의 실드 효과 25% 증가(3턴) 및 자신의 공격 데미지의 364% 만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `드리워진 밤의 장막`,
+                    description: `아군 전체가 가하는 궁극기 데미지 60% 증가(3턴)하고 자신의 실드 효과 30% 증가(3턴) 및 자신의 공격 데미지의 397% 만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `야우파`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `어둠의 여제`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 80% 증가\n아군팀에 수속성 캐릭터가 3명 이상일 시 자신은《어두운 밤》획득\n아군팀에 암속성 캐릭터가 2명 이상일 시 3번, 5번 자리 아군은《용병 지침》획득\n\n《어두운 밤》\n자신의 공격 데미지 60% 증가\n궁극기 발동 시 「타깃이 받는 암속성 데미지 5% 증가(최대 3중첩), 타깃이 받는 수속성 데미지 5% 증가(최대 3중첩)」발동\n공격 시 「자신의 공격 데미지의 40%만큼 아군 전체의 공격 데미지 증가(1턴)」발동\n\n《용병 지침》\n가하는 데미지 30% 증가\n궁극기 발동 시 「자신의 공격 데미지의 40%만큼 타깃에게 데미지」추가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `희미한 규방`,
+                    description: `궁극기 발동 시 「타깃이 받는 데미지 15% 증가(7턴)」추가`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `부슬비`,
+                    description: `궁극기 발동 시 「자신의 최대 HP의 7%만큼 아군 전체에게 실드 부여(1턴)」추가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `끝없이 흐르는 밤`,
+                    description: `궁극기 발동 시 「타깃이 받는 궁극기 데미지 20% 증가(7턴)」추가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

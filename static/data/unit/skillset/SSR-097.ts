@@ -231,56 +231,56 @@ export const SkillSet_10127: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈나라의 왕`,
+                    description: `아군 전체의 궁극기 데미지 10/15/20/25/30% 증가(15턴), 자신은 「공격 시 『자신의 공격 데미지의 20/22.5/25/27.5/30%만큼 아군 전체의 공격 데미지 증가(1턴)』발동(15턴)」획득 [CD: 30]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈나라의 왕`,
+                    description: `아군 전체의 궁극기 데미지 10% 증가(15턴), 자신은 「공격 시 『자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴)』발동(15턴)」획득 [CD: 30]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈나라의 왕`,
+                    description: `아군 전체의 궁극기 데미지 15% 증가(15턴), 자신은 「공격 시 『자신의 공격 데미지의 22.5%만큼 아군 전체의 공격 데미지 증가(1턴)』발동(15턴)」획득 [CD: 30]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈나라의 왕`,
+                    description: `아군 전체의 궁극기 데미지 20% 증가(15턴), 자신은 「공격 시 『자신의 공격 데미지의 25%만큼 아군 전체의 공격 데미지 증가(1턴)』발동(15턴)」획득 [CD: 30]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈나라의 왕`,
+                    description: `아군 전체의 궁극기 데미지 25% 증가(15턴), 자신은 「공격 시 『자신의 공격 데미지의 27.5%만큼 아군 전체의 공격 데미지 증가(1턴)』발동(15턴)」획득 [CD: 30]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈나라의 왕`,
+                    description: `아군 전체의 궁극기 데미지 30% 증가(15턴), 자신은 「공격 시 『자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴)』발동(15턴)」획득 [CD: 30]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈의 거품`,
+                    description: `아군 수속성 캐릭터의 공격 데미지 40% 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `전설의 환수`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 40% 증가\n10번째 턴에서 「아군 전체의 궁극기 데미지 150% 증가(40턴)」발동\n아군 전체는 「팀에 수속성 캐릭터가 4명 이상 있을 시, 『《영원한 꿈》』발동」획득\n\n《영원한 꿈》\n공격 데미지 80% 증가\n궁극기 발동 시 「아군 전체가 가하는 데미지 50% 증가(최대 1중첩)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `몽붕 내습`,
+                    description: `첫 번째 턴에서 「자신의 궁극기 현재 CD 30턴 감소」발동\n행동 시 「자신의 궁극기 현재 CD 1턴 감소」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `전부 기절시킬 거야`,
+                    description: `일반 공격 시 「《강제 수면》」발동\n\n《강제 수면》\n자신 이외의 아군은 공격 시 「자신의 공격 데미지의 25%만큼 타깃에게 데미지」발동(1턴)`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `분노한 드림이터`,
+                    description: `4번째 턴에서 「아군 전체의 궁극기 데미지 30% 증가(16턴)」발동\n7번째 턴에서 「아군 전체의 궁극기 데미지 30% 증가(13턴)」발동\n10번째 턴에서 「아군 전체의 궁극기 데미지 40% 증가(10턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }
