@@ -22,7 +22,7 @@ export const General_10151: Unit = {
     abbreviation: {
         [Locale.tc]: [ "兔伊", "風伊" ],
         [Locale.sc]: [ "兔伊", "风伊" ],
-        [Locale.en]: [ "BG.Iblis" ],
+        [Locale.en]: [ "Bg.Iblis" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },

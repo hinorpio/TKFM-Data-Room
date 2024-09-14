@@ -36,6 +36,10 @@
                 <a class="hyperlink-class" target="_blank" :href="getLocalStr(tkfmvercelapp)">
                     <span :class="linkClass">{{ getLocalStr(tkfmvercelapp_str) }}</span>
                 </a>
+                <br />
+                <a class="hyperlink-class" target="_blank" :href="getLocalStr(tenkaAssist)">
+                    <span :class="linkClass">{{ getLocalStr(tenkaAssist_str) }}</span>
+                </a>
             </div>
         </base-expand-card>
         <v-spacer></v-spacer>
@@ -170,8 +174,24 @@ export default class External extends Vue {
         [Locale.tc]: '天下布魔戰鬥模擬器',
         [Locale.sc]: '天下布魔战斗模拟器',
         [Locale.en]: 'TenkafuMA Vercel App',
-        [Locale.jp]: '天下布魔バトルシミュレーター',
-        [Locale.kr]: '텐카푸마 전투 시뮬레이터',
+        [Locale.jp]: 'TenkafuMA Vercel App',
+        [Locale.kr]: 'TenkafuMA Vercel App',
+    }
+
+    tenkaAssist: {[lang in Locale]: string} = {
+        [Locale.tc]: 'https://inittt.github.io/tenkaassist/',
+        [Locale.sc]: 'https://inittt.github.io/tenkaassist/',
+        [Locale.en]: 'https://inittt.github.io/tenkaassist/',
+        [Locale.jp]: 'https://inittt.github.io/tenkaassist/',
+        [Locale.kr]: 'https://inittt.github.io/tenkaassist/',
+    }
+
+    tenkaAssist_str: {[lang in Locale]: string} = {
+        [Locale.tc]: 'TenkaAssist (Korea)',
+        [Locale.sc]: 'TenkaAssist (Korea)',
+        [Locale.en]: 'TenkaAssist (Korea)',
+        [Locale.jp]: 'TenkaAssist (Korea)',
+        [Locale.kr]: 'TenkaAssist (Korea)',
     }
     
 }
