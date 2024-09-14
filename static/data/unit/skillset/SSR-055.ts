@@ -231,56 +231,56 @@ export const SkillSet_10088: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `아나스티의 특제 칵테일`,
+                    description: `타깃이 받는 데미지 18/18/20/20/20% 증가(7턴), 공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `아나스티의 특제 칵테일`,
+                    description: `타깃이 받는 데미지 18% 증가(7턴), 공격 데미지의 265%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `아나스티의 특제 칵테일`,
+                    description: `타깃이 받는 데미지 18% 증가(7턴), 공격 데미지의 298%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `아나스티의 특제 칵테일`,
+                    description: `타깃이 받는 데미지 20% 증가(7턴), 공격 데미지의 331%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `아나스티의 특제 칵테일`,
+                    description: `타깃이 받는 데미지 20% 증가(7턴), 공격 데미지의 364%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `아나스티의 특제 칵테일`,
+                    description: `타깃이 받는 데미지 20% 증가(7턴), 공격 데미지의 397%만큼 타깃에게 데미지 [CD:3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `열정적인 접대`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `열정적인 쌍성 점장`,
+                    description: `아군 전체가 《술》,《미인》,《기도》,《예쁜 동생》효과 획득\n궁극기 발동 시, [아군 전체가 가한 데미지 35% 증가(1턴)] 효과 발동\n\n《술》\n팀원 중 최소 1/2/3명의 딜러가 있을 시, 각각 [공격 데미지 15/20/30% 증가] 발동\n\n《미인》\n팀원 중 최소 1/2/3명의 디스럽터가 있을 시, 각각 [공격 데미지 15/20/30% 증가] 발동\n\n《기도》\n팀원 중 최소 1명의 탱커가 있을 시, [궁극기 데미지 50% 증가] 발동\n\n《예쁜 동생》\n[푸른 은하 - 아나스나]가 아군 측에서 살아 있을 경우, [가하는 데미지 20% 증가] 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `기세등등`,
+                    description: `궁극기 발동 시, [아군 전체의 궁극기 데미지 25% 증가(1턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `연애 충동`,
+                    description: `궁극기 발동 시, [《추가 주문》] 효과 발동\n\n《추가 주문》\n아군의 딜러와 디스럽터는 [궁극기 발동 시, "공격 데미지의 77%만큼 타깃에게 데미지" 효과 발동(1턴)] 효과 획득`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `칠석의 기원`,
+                    description: `일곱 번째 턴 시작 시, [아군 전체가 가하는 데미지 30% 증가(최대 1중첩)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격 데미지+`,
+                    description: `공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `마비 면역`
                 }
             }
         }

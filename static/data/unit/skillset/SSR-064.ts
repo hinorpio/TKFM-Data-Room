@@ -231,56 +231,56 @@ export const SkillSet_10096: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 물든 밤의 광기`,
+                    description: `자신의 공격 데미지의 30/35/35/40/40%만큼 아군 전체의 공격 데미지 증가(1턴), 아군 딜러, 디스럽터, 탱커는 "공격 시 『자신의 공격 데미지의 10/10/12.5/12.5/15%만큼 자신 이외의 아군 전체의 공격 데미지 증가(1턴)』(1턴)" 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 물든 밤의 광기`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴), 아군 딜러, 디스럽터, 탱커는 "공격 시 『자신의 공격 데미지의 10%만큼 자신 이외의 아군 전체의 공격 데미지 증가(1턴)』(1턴)" 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 물든 밤의 광기`,
+                    description: `자신의 공격 데미지의 35%만큼 아군 전체의 공격 데미지 증가(1턴), 아군 딜러, 디스럽터, 탱커는 "공격 시 『자신의 공격 데미지의 10%만큼 자신 이외의 아군 전체의 공격 데미지 증가(1턴)』(1턴)" 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 물든 밤의 광기`,
+                    description: `자신의 공격 데미지의 35%만큼 아군 전체의 공격 데미지 증가(1턴), 아군 딜러, 디스럽터, 탱커는 "공격 시 『자신의 공격 데미지의 12.5%만큼 자신 이외의 아군 전체의 공격 데미지 증가(1턴)』(1턴)" 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 물든 밤의 광기`,
+                    description: `자신의 공격 데미지의 40%만큼 아군 전체의 공격 데미지 증가(1턴), 아군 딜러, 디스럽터, 탱커는 "공격 시 『자신의 공격 데미지의 12.5%만큼 자신 이외의 아군 전체의 공격 데미지 증가(1턴)』(1턴)" 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `피로 물든 밤의 광기`,
+                    description: `자신의 공격 데미지의 40%만큼 아군 전체의 공격 데미지 증가(1턴), 아군 딜러, 디스럽터, 탱커는 "공격 시 『자신의 공격 데미지의 15%만큼 자신 이외의 아군 전체의 공격 데미지 증가(1턴)』(1턴)" 획득 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `피의 축복`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `순결의 향연`,
+                    description: `아군 전체가 데미지를 가할 시 가한 데미지의 30%만큼 자신의 HP 회복\n아군 암속성 캐릭터는 《은혜》획득\n\n《은혜》\n공격 데미지 100% 증가\n궁극기 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `할로윈의 광기`,
+                    description: `일반 공격 시 "아군 전체의 일반 공격 데미지 30% 증가(1턴)" 발동\n궁극기 발동 시 "아군 전체의 궁극기 데미지 10% 증가(2턴)" 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `피안개`,
+                    description: `4턴 지날 때마다 "적군 전체가 받는 데미지 30% 증가(1턴)" 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `여왕의 칠중주`,
+                    description: `첫턴 시작 시 "아군 딜러, 디스럽터, 탱커가 《소나타》획득(1턴)" 발동\n\n《소나타》\n행동 시 "아군 전체의 공격 데미지 15%증가(50턴)" 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

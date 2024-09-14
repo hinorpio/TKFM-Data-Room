@@ -231,56 +231,56 @@ export const SkillSet_10075: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `역전극 개연~ 깡총~`,
+                    description: `자신의 공격 데미지 30/35/40/45/50%증가(1턴), 다시 자신의 공격 데미지의 30/30/35/35/40%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `역전극 개연~ 깡총~`,
+                    description: `자신의 공격 데미지 30%증가(1턴), 다시 자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `역전극 개연~ 깡총~`,
+                    description: `자신의 공격 데미지 35%증가(1턴), 다시 자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `역전극 개연~ 깡총~`,
+                    description: `자신의 공격 데미지 40%증가(1턴), 다시 자신의 공격 데미지의 35%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `역전극 개연~ 깡총~`,
+                    description: `자신의 공격 데미지 45%증가(1턴), 다시 자신의 공격 데미지의 35%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `역전극 개연~ 깡총~`,
+                    description: `자신의 공격 데미지 50%증가(1턴), 다시 자신의 공격 데미지의 40%만큼 아군 전체의 공격 데미지 증가(1턴) [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `토끼의 응원~ 깡총♡`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `갑니다~ 깡총~`,
+                    description: `아군 전체가 "팀원 중 최소 3명의 딜러가 있을 시, [《래빗의 팀워크》]발동"효과 획득\n자신이 "팀원 중 최소 3명의 딜러가 있을 시, [《우리 함께 깡총!》]발동"효과 획득\n1턴마다 "《깡총 깡총 깡깡총》" 발동\n\n《래빗의 팀워크》\n궁극기 데미지 50%증가\n최대 HP 30%증가\n\n《우리 함께 깡총!》\n궁극기 발동 시 "아군 딜러 전체의 궁극기 CD 1턴 감소" 발동\n\n《깡총 깡총 깡깡총》\n일반 공격 시, "이상한 나라의 치즈루의 공격 데미지 15% 증가(5턴)" 발동(1턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `급하다 급해~`,
+                    description: `1턴마다 "아군 전체의 공격 데미지 2.5% 증가(최대 8중첩)" 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수제 토끼 쿠키`,
+                    description: `첫 번째 턴 시작 시 "아군 전체가 받는 치유량 30% 증가(50턴)" 발동\n1턴 마다 "자신의 공격 데미지의 20%만큼 아군 전체를 치유"발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `행운의 토끼 다리`,
+                    description: `일반 공격 시 "아군 전체의 일반 공격 데미지 40% 증가(1턴)" 발동\n궁극기 발동 시 "아군 전체의 궁극기 데미지 15% 증가(1턴)" 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

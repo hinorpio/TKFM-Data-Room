@@ -231,56 +231,56 @@ export const SkillSet_10090: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `넘치는 신의 사랑`,
+                    description: `자신의 공격 데미지 330/376/422/468/514%만큼 타깃에게 데미지, 아군 전체에게 [일반 공격 시 "자신의 공격 데미지 10/15/15/20/25%만큼 타깃에게 데미지(3/3/4/4/4턴)" 발동] 효과 부여 [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `넘치는 신의 사랑`,
+                    description: `자신의 공격 데미지 330%만큼 타깃에게 데미지, 아군 전체에게 [일반 공격 시 "자신의 공격 데미지 10%만큼 타깃에게 데미지(3턴)" 발동] 효과 부여 [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `넘치는 신의 사랑`,
+                    description: `자신의 공격 데미지 376%만큼 타깃에게 데미지, 아군 전체에게 [일반 공격 시 "자신의 공격 데미지 15%만큼 타깃에게 데미지(3턴)" 발동] 효과 부여 [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `넘치는 신의 사랑`,
+                    description: `자신의 공격 데미지 422%만큼 타깃에게 데미지, 아군 전체에게 [일반 공격 시 "자신의 공격 데미지 15%만큼 타깃에게 데미지(4턴)" 발동] 효과 부여 [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `넘치는 신의 사랑`,
+                    description: `자신의 공격 데미지 468%만큼 타깃에게 데미지, 아군 전체에게 [일반 공격 시 "자신의 공격 데미지 20%만큼 타깃에게 데미지(4턴)" 발동] 효과 부여 [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `넘치는 신의 사랑`,
+                    description: `자신의 공격 데미지 514%만큼 타깃에게 데미지, 아군 전체에게 [일반 공격 시 "자신의 공격 데미지 25%만큼 타깃에게 데미지(4턴)" 발동] 효과 부여 [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `샘솟는 사랑`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `천사의 헌팅 구역`,
+                    description: `아군 전체의 공격 데미지 50% 증가\n1턴 마다 [아군 전체의 발동 스킬 효과 20% 증가(최대 10중첩)] 발동\n아군 딜러, 탱커, 디스럽터는 《섹스 신의 부름》획득\n\n《섹스 신의 부름》\n궁극기 데미지 40% 증가\n궁극기 발동 시, [자신의 공격 데미지 80%만큼 타깃에게 데미지] 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `낙원의 인`,
+                    description: `1턴마다 [자신의 공격 데미지 10% 증가(최대 10중첩)] 발동\n궁극기 발동 시, [자신의 공격 데미지 80%만큼 타깃에게 데미지] 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `실신의 파도`,
+                    description: `일반 공격 시 [타깃이 받는 발동 스킬 데미지 20% 증가(최대 5중첩)] 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `신의 애무`,
+                    description: `자신의 데미지 20% 증가\n자신의 궁극기 데미지 40% 증가`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `필살+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

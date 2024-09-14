@@ -231,56 +231,56 @@ export const SkillSet_10098: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `연쇄 트랩!`,
+                    description: `타깃이 받는 궁극기 데미지 8/8/8/18/22.5% 증가(최대 3/3/3/2/2중첩), 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `연쇄 트랩!`,
+                    description: `타깃이 받는 궁극기 데미지 8% 증가(최대 3중첩), 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `연쇄 트랩!`,
+                    description: `타깃이 받는 궁극기 데미지 8% 증가(최대 3중첩), 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `연쇄 트랩!`,
+                    description: `타깃이 받는 궁극기 데미지 8% 증가(최대 3중첩), 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `연쇄 트랩!`,
+                    description: `타깃이 받는 궁극기 데미지 18% 증가(최대 2중첩), 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `연쇄 트랩!`,
+                    description: `타깃이 받는 궁극기 데미지 22.5% 증가(최대 2중첩), 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `선물 투척`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `함께 놀수록 재밌는 법~`,
+                    description: `아군 전체의 공격 데미지 40% 증가\n아군 전체의 최대 HP 10% 증가\n5번째 턴에서 「아군 전체의 궁극기 데미지 30% 증가(최대 1중첩)」발동\n9번째 턴에서 「아군 전체가 가하는 데미지 20% 증가(최대 1중첩)」발동\n아군 전체가 《크리스마스 최고!》획득\n\n《크리스마스 최고!》\n만약 아군 팀에 탱커가 있을 경우 자신의 공격 데미지 50% 증가\n만약 아군 팀에 2명 이상의 광속성 캐릭터가 있을 경우 자신의 공격 데미지 25% 증가\n만약 아군 팀에 화속성 캐릭터가 있을 경우 자신의 공격 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `다방구 시작~`,
+                    description: `1턴마다 「적 전체가 받는 데미지 5% 증가(최대 11중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `잡을 수 있다면 어디 해봐~`,
+                    description: `자신이 받는 아머 강화 효과 25% 증가\n치유를 받을 시 회복량 25% 증가\n자신이 받는 지속형 치유 효과 25% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `시험작 999호`,
+                    description: `자신이 가하는 데미지 35% 증가\n궁극기 발동 시 「타깃이 《다방구 시작~》으로 받는 데미지 4중첩 증가」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

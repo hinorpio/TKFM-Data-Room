@@ -231,56 +231,56 @@ export const SkillSet_10093: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `과로의 냥이 빔!`,
+                    description: `자신의 공격 데미지 0/0/20/25/30% 증가(최대 3중첩). 자신의 공격 데미지 422/486/551/615/680%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `과로의 냥이 빔!`,
+                    description: `자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `과로의 냥이 빔!`,
+                    description: `자신의 공격 데미지의 486%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `과로의 냥이 빔!`,
+                    description: `자신의 공격 데미지 20% 증가(최대 3중첩). 자신의 공격 데미지 551%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `과로의 냥이 빔!`,
+                    description: `자신의 공격 데미지 25% 증가(최대 3중첩). 자신의 공격 데미지 615%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `과로의 냥이 빔!`,
+                    description: `자신의 공격 데미지 30% 증가(최대 3중첩). 자신의 공격 데미지 680%만큼 타깃에게 데미지. [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `밤새 야근한 냥이킥!`,
+                    description: `자신의 공격 데미지 125%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `별의 공진`,
+                    description: `자신의 공격 데미지 75% 증가\n첫 번째 턴 시작 시, [《에너지 집중》] 효과 발동\n아군 전체가 《별의 조각》 획득\n\n《에너지 집중》\n자신 이외의 동료가 [공격 시, "자신의 공격 데미지의 20%만큼 적격자 나나의 공격 데미지 증가(1턴)"(50턴)] 획득\n아군 전체가 [일반 공격 시, "타깃이 받는 광속성, 암속성 데미지 4% 증가 (최대 15중첩)"(50턴)] 획득\n\n《별의 조각》\n팀원 중 최소 (1/2/3)명의 광속성 동료가 있을 시, [공격 데미지 (5/10/15)% 증가] 발동\n팀원 중 최소 (1/2/3)명의 암속성 동료가 있을 시, [공격 데미지 (5/10/15)% 증가] 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `과로사할 운명`,
+                    description: `일반 공격 시, [자신의 일반 공격 데미지 6% 증가(최대 5중첩)] 효과 발동\n궁극기 발동 시, [자신의 궁극기 데미지 10% 증가(최대 3중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `출출하다냥!`,
+                    description: `치유를 받을 시, [자신이 받는 데미지 3% 감소(최대 5중첩)] 효과 발동\n치유를 받을 시, [자신의 공격 데미지 8% 증가(최대 5중첩)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `슈퍼 야근 모드!`,
+                    description: `치유를 받을 시, [자신이 가하는 데미지 4% 증가(최대 5중첩)] 효과 발동\n궁극기 발동 시, [《초과 근무의 죽빵》]효과 발동\n\n《초과 근무의 죽빵》\n일반 공격 시, [자신의 공격 데미지 45%만큼 타깃에게 데미지]효과 발동 (12턴)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 면역`,
+                    description: `자신에게 수면 면역 효과`
                 }
             }
         }

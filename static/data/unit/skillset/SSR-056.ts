@@ -231,56 +231,56 @@ export const SkillSet_10089: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `언니는 내가 지켜!`,
+                    description: `자신의 최대 HP의 40/45/50/55/60%만큼 자신의 아머 강화(1턴), 도발 효과 획득(1턴), 타깃이 받는 화속성, 수속성 데미지 14/18/22/26/30%증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `언니는 내가 지켜!`,
+                    description: `자신의 최대 HP의 40%만큼 자신의 아머 강화(1턴), 도발 효과 획득(1턴), 타깃이 받는 화속성, 수속성 데미지 14%증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `언니는 내가 지켜!`,
+                    description: `자신의 최대 HP의 45%만큼 자신의 아머 강화(1턴), 도발 효과 획득(1턴), 타깃이 받는 화속성, 수속성 데미지 18%증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `언니는 내가 지켜!`,
+                    description: `자신의 최대 HP의 50%만큼 자신의 아머 강화(1턴), 도발 효과 획득(1턴), 타깃이 받는 화속성, 수속성 데미지 22%증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `언니는 내가 지켜!`,
+                    description: `자신의 최대 HP의 55%만큼 자신의 아머 강화(1턴), 도발 효과 획득(1턴), 타깃이 받는 화속성, 수속성 데미지 26%증가(2턴) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `언니는 내가 지켜!`,
+                    description: `자신의 최대 HP의 60%만큼 자신의 아머 강화(1턴), 도발 효과 획득(1턴), 타깃이 받는 화속성, 수속성 데미지 30%증가(2턴) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `감언이설`,
+                    description: `자신의 공격 데미지의 50%만큼 타깃에게 데미지, 자신의 공격 데미지의 50%만큼 자신과 [붉은 쌍성 - 아나스티]를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `최고급 클럽 매니저`,
+                    description: `아군 전체의 최대 HP 30% 증가\n아군 전체의 공격 데미지 40% 증가\n자신 최대 HP 40% 증가\n자신과 [붉은 쌍성 - 아나스티]가 받는 데미지 20% 감소, 받는 아머 강화 효과 30% 증가, 받는 치유 효과 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈의 직장`,
+                    description: `일반 공격 시, [자신의 최대 HP 10%만큼 아군 전체의 아머 강화(1턴)] 효과 발동\n일반 공격 시, [자신의 최대 HP 10%만큼 [붉은 쌍성 - 아나스티]의 아머 강화(1턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `하늘의 하오리`,
+                    description: `궁극기 발동 시, [자신이 받는 데미지 30% 감소(2턴)] 효과 발동\n궁극기 발동 시, ["붉은 쌍성 - 아나스티"가 받는 데미지 30% 감소(2턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `은하로 갈라놓인 쌍둥이`,
+                    description: `아군 화속성과 수속성 동료가 [《뒤엉킨 운명》] 효과 획득\n아군 화속성과 수속성 동료가 ["붉은 쌍성 - 아나스티"가 아군 측에서 살아 있을 경우,《뒤엉킨 운명・구속》발동] 획득\n\n《뒤엉킨 운명》\n공격 시, [타깃이 받는 화속성과 수속성 데미지 1.5% 증가(최대 7중첩)] 효과 발동\n공격 시, [자신이 가하는 데미지 1.5% 증가(최대 7중첩)] 효과 발동\n공격 시, [자신의 궁극기 데미지 1.5% 증가(최대 7중첩)] 효과 발동\n\n《뒤엉킨 운명・구속》\n공격 시, [자신이 가하는 데미지 1.5% 증가(최대 7중첩)] 효과 발동\n공격 시, [자신의 궁극기 데미지 1.5% 증가(최대 7중첩)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

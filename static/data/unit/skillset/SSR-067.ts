@@ -231,56 +231,56 @@ export const SkillSet_10097: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 강림!`,
+                    description: `아군 전체 궁극기 데미지 25/30/30/30/35% 증가(2턴), 자신이 가하는 데미지 0/0/20/20/25% 증가(2턴), 다시 공격 데미지의 265/298/331/364/397%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 강림!`,
+                    description: `아군 전체 궁극기 데미지 25% 증가(2턴), 다시 공격 데미지의 265%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 강림!`,
+                    description: `아군 전체 궁극기 데미지 30% 증가(2턴), 다시 공격 데미지의 298%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 강림!`,
+                    description: `아군 전체 궁극기 데미지 30% 증가(2턴), 자신이 가하는 데미지 20% 증가(2턴), 다시 공격 데미지의 331%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 강림!`,
+                    description: `아군 전체 궁극기 데미지 30% 증가(2턴), 자신이 가하는 데미지 20% 증가(2턴), 다시 공격 데미지의 364%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 강림!`,
+                    description: `아군 전체 궁극기 데미지 35% 증가(2턴), 자신이 가하는 데미지 25% 증가(2턴), 다시 공격 데미지의 397%만큼 타깃에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `반죽음 정도면 괜찮아`,
+                    description: `공격력의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `섹스마스 전파자`,
+                    description: `자신은 3턴마다 《연속 오르가즘》발동\n아군 전체는「팀에 최소 3명 이상의 광속성 동료가 있을 경우 《오럴송》발동」효과 획득\n아군 전체는 「팀에 최소 2명 이상의 풍속성 동료가 있을 경우 《난교 파티》발동」효과 획득\n\n《연속 오르가즘》\n궁극기 발동 시 「자신의 궁극기 쿨타임 3턴 감소」발동(3턴)(궁극기 발동 후 해당 효과 해제)\n\n《오럴송》\n최대 HP 10% 증가\n공격 데미지 65% 증가\n공격 시 「타깃이 받는 광속성 데미지 4% 증가(최대 5중첩)」발동\n공격 시 「타깃이 받는 풍속성 데미지 4% 증가(최대 5중첩)」발동\n\n《난교 파티》\n최대 HP 10% 증가\n공격 데미지 65% 증가\n공격 시 「타깃이 받는 광속성 데미지 4% 증가(최대 5중첩)」발동\n공격 시 「타깃이 받는 풍속성 데미지 4% 증가(최대 5 중첩)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `발골`,
+                    description: `궁극기 발동 시 「타깃이 받는 섹스마스 바니걸 아이카의 데미지 50% 증가(최대 1중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `정신통일`,
+                    description: `궁극기 발동 시, 「자신의 공격 데미지 50% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `시저 님을 위하여`,
+                    description: `자신이 가하는 데미지 15% 증가\n궁극기 발동 시 「타깃이 받는 데미지 35% 증가(2턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

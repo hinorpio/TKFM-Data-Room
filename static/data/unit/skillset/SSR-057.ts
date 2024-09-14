@@ -231,56 +231,56 @@ export const SkillSet_10063: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・진・메이드 분신술`,
+                    description: `자신의 공격 데미지의 15/20/30/30/30%만큼 아군 전체의 공격 데미지 증가(1턴), 다시 5번 자리 아군의 공격 데미지가 20/25/30/45/60% 증가(1턴)하고 공격 데미지의 100%만큼 아군 전체를 치유, 5번 자리 아군의 현재 궁극기 CD 4턴 감소 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・진・메이드 분신술`,
+                    description: `자신의 공격 데미지의 15%만큼 아군 전체의 공격 데미지 증가(1턴), 다시 5번 자리 아군의 공격 데미지가 20% 증가(1턴)하고 공격 데미지의 100%만큼 아군 전체를 치유, 5번 자리 아군의 현재 궁극기 CD 4턴 감소 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・진・메이드 분신술`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 다시 5번 자리 아군의 공격 데미지가 25% 증가(1턴)하고 공격 데미지의 100%만큼 아군 전체를 치유, 5번 자리 아군의 현재 궁극기 CD 4턴 감소 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・진・메이드 분신술`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴), 다시 5번 자리 아군의 공격 데미지가 30% 증가(1턴)하고 공격 데미지의 100%만큼 아군 전체를 치유, 5번 자리 아군의 현재 궁극기 CD 4턴 감소 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・진・메이드 분신술`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴), 다시 5번 자리 아군의 공격 데미지가 45% 증가(1턴)하고 공격 데미지의 100%만큼 아군 전체를 치유, 5번 자리 아군의 현재 궁극기 CD 4턴 감소 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・진・메이드 분신술`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴), 다시 5번 자리 아군의 공격 데미지가 60% 증가(1턴)하고 공격 데미지의 100%만큼 아군 전체를 치유, 5번 자리 아군의 현재 궁극기 CD 4턴 감소 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `엄격한 지도`,
+                    description: `자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴)`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `빈틈없는 메이드장`,
+                    description: `자신의 공격 데미지 100% 증가\n1턴마다 「자신의 공격 데미지의 30%만큼 아군 전체의 공격 데미지 증가(1턴)」발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・고속요리술`,
+                    description: `일반 공격 시 「자신의 공격 데미지 10% 증가(최대 4중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・순간환복술`,
+                    description: `궁극기 발동 시 「5번 자리 아군의 공격 데미지 40% 증가(2턴)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `메이드 비기・무결청소술`,
+                    description: `궁극기 발동 시 「아군 전체가 가하는 데미지 30% 증가(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피해감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }

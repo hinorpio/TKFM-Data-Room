@@ -231,56 +231,56 @@ export const SkillSet_10068: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 승룡교자 나왔습니다!`,
+                    description: `자신 공격 데미지의 133/149/165/182/198%만큼 아군 전체를 치유, 아군 전체가 받는 치유량 45% 증가(해당 효과는 3턴 내 점차 감소), 아군 전체의 궁극기 데미지 5/5/7.5/10/12.5% 증가 (최대 3중첩) [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 승룡교자 나왔습니다!`,
+                    description: `자신 공격 데미지의 133%만큼 아군 전체를 치유, 아군 전체가 받는 치유량 45% 증가(해당 효과는 3턴 내 점차 감소), 아군 전체의 궁극기 데미지 5% 증가 (최대 3중첩) [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 승룡교자 나왔습니다!`,
+                    description: `자신 공격 데미지의 149%만큼 아군 전체를 치유, 아군 전체가 받는 치유량 45% 증가(해당 효과는 3턴 내 점차 감소), 아군 전체의 궁극기 데미지 5% 증가 (최대 3중첩) [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 승룡교자 나왔습니다!`,
+                    description: `자신 공격 데미지의 165%만큼 아군 전체를 치유, 아군 전체가 받는 치유량 45% 증가(해당 효과는 3턴 내 점차 감소), 아군 전체의 궁극기 데미지 7.5% 증가 (최대 3중첩) [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 승룡교자 나왔습니다!`,
+                    description: `자신 공격 데미지의 182%만큼 아군 전체를 치유, 아군 전체가 받는 치유량 45% 증가(해당 효과는 3턴 내 점차 감소), 아군 전체의 궁극기 데미지 10% 증가 (최대 3중첩) [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 승룡교자 나왔습니다!`,
+                    description: `자신 공격 데미지의 198%만큼 아군 전체를 치유, 아군 전체가 받는 치유량 45% 증가(해당 효과는 3턴 내 점차 감소), 아군 전체의 궁극기 데미지 12.5% 증가 (최대 3중첩) [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `식사하세요~`,
+                    description: `자신 공격 데미지의 75%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `배고픔을 느껴라!`,
+                    description: `아군 전체의 공격 데미지 30% 증가\n아군 전체의 최대 HP 30% 증가\n모든 동료가 《꼬르륵꼬르륵》효과 획득\n모든 동료가 《더는... 못 먹겠어...》효과 획득\n\n《꼬르륵꼬르륵》\n자신의 현재 HP≦50% 시, [받는 치유량 100% 증가] 효과 발동(50턴)\n\n《더는... 못 먹겠어...》\n자신의 현재 HP≧99% 시, [공격 데미지 40%증가] 효과 발동(50턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 전복만두 나왔습니다!`,
+                    description: `3턴마다 [아군 전체가 받는 치유량 35% 증가(3턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 크림스튜 나왔습니다!`,
+                    description: `3턴마다 [자신의 최대 HP의 10%만큼 아군 전체의 아머 강화(1턴), 공격 데미지 20%증가 (1턴)] 효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `주문하신 최상급 "시저" 스테이크 나왔습니다!`,
+                    description: `3턴마다 [아군 전체의 궁극기 데미지 30% 증가(1턴), 자신의 공격 데미지만큼 아군 전체의 공격 데미지 20%증가(1턴)] 효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `받는 데미지 감소+`,
+                    description: `자신이 받는 데미지 5% 감소`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

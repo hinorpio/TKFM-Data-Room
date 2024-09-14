@@ -231,56 +231,56 @@ export const SkillSet_10092: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `거대한 파도「크레이지 빅독」`,
+                    description: `자신의 궁극기 데미지 10/10/12.5/12.5/15% 증가(12턴), 공격 데미지의 116/132/149/165/182%만큼 2, 3, 4번 자리의 적에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `거대한 파도「크레이지 빅독」`,
+                    description: `자신의 궁극기 데미지 10% 증가(12턴), 공격 데미지의 116%만큼 2, 3, 4번 자리의 적에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `거대한 파도「크레이지 빅독」`,
+                    description: `자신의 궁극기 데미지 10% 증가(12턴), 공격 데미지의 132%만큼 2, 3, 4번 자리의 적에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `거대한 파도「크레이지 빅독」`,
+                    description: `자신의 궁극기 데미지 12.5% 증가(12턴), 공격 데미지의 149%만큼 2, 3, 4번 자리의 적에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `거대한 파도「크레이지 빅독」`,
+                    description: `자신의 궁극기 데미지 12.5% 증가(12턴), 공격 데미지의 165%만큼 2, 3, 4번 자리의 적에게 데미지 [CD: 3]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `거대한 파도「크레이지 빅독」`,
+                    description: `자신의 궁극기 데미지 15% 증가(12턴), 공격 데미지의 182%만큼 2, 3, 4번 자리의 적에게 데미지 [CD: 3]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `서핑`,
+                    description: `공격 데미지 40%만큼 2, 3, 4번 자리의 적에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `레전더리 서퍼 전승자`,
+                    description: `아군 전체의 공격 데미지 50% 증가, 받는 데미지 15% 감소\n자신은 《파도 추격》, 《파도 탑승》획득\n\n《파도 추격》\n3턴마다 [자신이 가하는 데미지 125% 증가(1턴), 적 전체가 받는 데미지 50% 증가(1턴)] 발동\n\n《파도 탑승》\n6턴마다 [자신이 가하는 궁극기 데미지 125% 증가(1턴)] 발동`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `숨만 쉬면 돼…`,
+                    description: `자신의 HP가 75%보다 높을 시, [공격 데미지 50% 증가] 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `출렁이는 여파`,
+                    description: `궁극기 발동 시 [공격 데미지의 30%만큼 2, 3, 4번 자리의 적에게 데미지] 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `수면 부족의 분노`,
+                    description: `4턴 째에서 [자신의 공격 데미지 40% 증가(50턴)] 발동\n7턴 째에서 [자신의 공격 데미지 80% 증가(50턴)] 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

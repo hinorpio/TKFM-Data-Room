@@ -231,56 +231,56 @@ export const SkillSet_10049: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈이 하나 있어`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 최대 HP의 50/60/65/70/75%만큼 아군 전체를 치유하고 자신에게「일반 공격 시 『자신의 공격 데미지의 15/20/20/22.5/25%만큼 아군 전체의 공격데미지 증가(1턴)』스킬 추가(3/3/4/4/4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈이 하나 있어`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 최대 HP의 50%만큼 아군 전체를 치유하고 자신에게「일반 공격 시 『자신의 공격 데미지의 15%만큼 아군 전체의 공격데미지 증가(1턴)』스킬 추가(3턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈이 하나 있어`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 최대 HP의 60%만큼 아군 전체를 치유하고 자신에게「일반 공격 시 『자신의 공격 데미지의 20%만큼 아군 전체의 공격데미지 증가(1턴)』스킬 추가(3턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈이 하나 있어`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 최대 HP의 65%만큼 아군 전체를 치유하고 자신에게「일반 공격 시 『자신의 공격 데미지의 20%만큼 아군 전체의 공격데미지 증가(1턴)』스킬 추가(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈이 하나 있어`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 최대 HP의 70%만큼 아군 전체를 치유하고 자신에게「일반 공격 시 『자신의 공격 데미지의 22.5%만큼 아군 전체의 공격데미지 증가(1턴)』스킬 추가(4턴)」 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `꿈이 하나 있어`,
+                    description: `자신의 공격 데미지의 20%만큼 아군 전체의 공격 데미지 증가(1턴), 자신의 최대 HP의 75%만큼 아군 전체를 치유하고 자신에게「일반 공격 시 『자신의 공격 데미지의 25%만큼 아군 전체의 공격데미지 증가(1턴)』스킬 추가(4턴)」 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `치유의 목소리`,
+                    description: `자신의 공격 데미지의 50%만큼 아군 전체를 치유`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `강자의 자비`,
+                    description: `아군 전체의 최대 HP 20% 증가\n아군 전체의 공격 데미지 20% 증가\n아군 전체의 일반 공격 데미지 40% 증가\n아군 전체가 받는 치유량 30% 증가\n아군 전체가 받는 아머 30% 증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `방해 마법`,
+                    description: `일반 공격 시 「자신의 최대 HP의 20%만큼 아군 전체에게 아머 강화(1턴)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `선한 마음`,
+                    description: `일반 공격 시 「아군 전체가 받는 아머 효과 5% 증가(최대 6중첩)」발동\n궁극기 발동 시 「아군 전체가 받는 치유량 15% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `귀족의 보호`,
+                    description: `첫째 턴 시작 시 「자신의 현재 궁극기 CD 2턴 감소」발동\n궁극기 발동 시「아군 전체의 일반 공격 데미지 22.5% 증가(최대 2중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

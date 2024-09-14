@@ -231,56 +231,56 @@ export const SkillSet_10066: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `마술회로・저주전개`,
+                    description: `자신의 공격 데미지 20/35/35/50/50% 증가(4턴), 자신이 받는 데미지가 10/12.5/15/17.5/20% 감소(4턴)하고 다시 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마술회로・저주전개`,
+                    description: `자신의 공격 데미지 20% 증가(4턴), 자신이 받는 데미지가 10% 감소(4턴)하고 다시 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마술회로・저주전개`,
+                    description: `자신의 공격 데미지 35% 증가(4턴), 자신이 받는 데미지가 12.5% 감소(4턴)하고 다시 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `마술회로・저주전개`,
+                    description: `자신의 공격 데미지 35% 증가(4턴), 자신이 받는 데미지가 15% 감소(4턴)하고 다시 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `마술회로・저주전개`,
+                    description: `자신의 공격 데미지 50% 증가(4턴), 자신이 받는 데미지가 17.5% 감소(4턴)하고 다시 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `마술회로・저주전개`,
+                    description: `자신의 공격 데미지 50% 증가(4턴), 자신이 받는 데미지가 20% 감소(4턴)하고 다시 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `주문 읊기`,
+                    description: `공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `마도 현자`,
+                    description: `아군 전체의 속성 상성 효과 100% 감소\n아군 전체의 공격 데미지 30% 증가\n아군 전체의 최대 HP 15% 증가\n자신은 1턴마다「아군 전체의 공격 데미지 5% 증가(최대 25중첩)」발동 획득`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `천주`,
+                    description: `자신의 궁극기 데미지 25% 증가\n공격 시 「자신의 궁극기 데미지 2% 증가(최대 25중첩)」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `구조 해석`,
+                    description: `자신이 가하는 데미지 10% 증가\n궁극기 발동 시 「자신이 가하는 데미지 6% 증가(최대 5중첩)」발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `편집광`,
+                    description: `1턴마다 「자신의 공격 데미지 4% 증가(최대 50중첩)」발동\n공격 시 「자신의 공격 데미지 2% 증가(최대 50중첩)」발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `궁극기+`,
+                    description: `자신의 궁극기 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 부여`
                 }
             }
         }

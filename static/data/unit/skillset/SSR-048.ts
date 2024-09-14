@@ -231,56 +231,56 @@ export const SkillSet_10100: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 히메데스!`,
+                    description: `자신의 공격 데미지 33/37.6%만큼 타깃에게 10회 데미지, 자신이 가하는 데미지 10/12.5% 증가 (4턴) [CD:4]\n\nLv3+: 자신이 가하는 데미지 15/17.5/20% 증가(4턴), 자신의 공격 데미지 42.2/46.8/51.4%만큼 타깃에게 10회 데미지 [CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 히메데스!`,
+                    description: `자신의 공격 데미지 33%만큼 타깃에게 10회 데미지, 자신이 가하는 데미지 10% 증가 (4턴) [CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 히메데스!`,
+                    description: `자신의 공격 데미지 37.6%만큼 타깃에게 10회 데미지, 자신이 가하는 데미지 12.5% 증가 (4턴) [CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 히메데스!`,
+                    description: `자신이 가하는 데미지 15% 증가(4턴), 자신의 공격 데미지 42.2%만큼 타깃에게 10회 데미지 [CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 히메데스!`,
+                    description: `자신이 가하는 데미지 17.5% 증가(4턴), 자신의 공격 데미지 46.8%만큼 타깃에게 10회 데미지 [CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 히메데스!`,
+                    description: `자신이 가하는 데미지 20% 증가(4턴), 자신의 공격 데미지 51.4%만큼 타깃에게 10회 데미지 [CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `우사기 펀치`,
+                    description: `자신의 공격 데미지 125%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `고유 결계・악토끼 왕국!`,
+                    description: `아군 전체의 공격 데미지 30% 증가\n궁극기 발동 시, [자신의 공격 데미지 50% 증가(최대 4중첩)]효과 발동\n첫 번째 턴 시작 시 [아군 전체의 현재 궁극기 CD 2턴 감소],\n아군의 딜러, 탱커, 디스럽터가 《무다 무다 무다!》 획득\n\n《무다 무다 무다!》\n일반 공격 시, [자신의 공격 20%만큼 타깃에게 3회 데미지] 스킬 추가\n일반 공격 데미지 60%증가`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `무한 찌찌!`,
+                    description: `일반 공격 시, [자신의 공격 데미지 10% 만큼 타깃에게 6회 데미지] 추가\n일반 공격 시, [아군 전체의 일반 공격 데미지 15% 증가(최대 3중첩)] 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `사양할게!`,
+                    description: `일반 공격 시, [타깃이 받는 치유 효과 50% 감소 (2턴)] 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `가라! 악토끼 삼전사!`,
+                    description: `1턴마다 [적 전체가 받는 일반 공격 데미지 20% 증가(최대 5중첩)] 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `침묵 면역`,
+                    description: `자신에게 침묵 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10042: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `소녀의 연심은 무적!`,
+                    description: `수속성, 화속성 아군의 공격 데미지 30/30/40/40/40% 증가(1턴), 타깃이 받는 수속성, 화속성 데미지 5/7.5/10/12.5/15% 증가(최대 2중첩), 자신의 공격 데미지 330/376/422/468/514%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `소녀의 연심은 무적!`,
+                    description: `수속성, 화속성 아군의 공격 데미지 30% 증가(1턴), 타깃이 받는 수속성, 화속성 데미지 5% 증가(최대 2중첩), 자신의 공격 데미지 330%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `소녀의 연심은 무적!`,
+                    description: `수속성, 화속성 아군의 공격 데미지 30% 증가(1턴), 타깃이 받는 수속성, 화속성 데미지 7.5% 증가(최대 2중첩), 자신의 공격 데미지 376%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `소녀의 연심은 무적!`,
+                    description: `수속성, 화속성 아군의 공격 데미지 40% 증가(1턴), 타깃이 받는 수속성, 화속성 데미지 10% 증가(최대 2중첩), 자신의 공격 데미지 422%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `소녀의 연심은 무적!`,
+                    description: `수속성, 화속성 아군의 공격 데미지 40% 증가(1턴), 타깃이 받는 수속성, 화속성 데미지 12.5% 증가(최대 2중첩), 자신의 공격 데미지 468%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `소녀의 연심은 무적!`,
+                    description: `수속성, 화속성 아군의 공격 데미지 40% 증가(1턴), 타깃이 받는 수속성, 화속성 데미지 15% 증가(최대 2중첩), 자신의 공격 데미지 514%만큼 타깃에게 데미지[CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `파라솔 어택`,
+                    description: `자신의 공격 데미지 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `고품격 우아함! 이블리스의 초호화 리조트!`,
+                    description: `아군 전체의 공격 데미지 100% 증가\n공격 시, [아군 전체가 각자 최대 HP 25%의 아머를 획득(1턴)] 발동\n아군 전체가 [팀에 5명의 딜러가 있을 시 "《여름 만끽》발동"] 효과 획득\n\n《여름 만끽》\n공격 시, [자신의 공격 데미지 15%만큼 아군 전체를 치유] 발동\n궁극기 발동 시, [자신의 공격 데미지 12.5%만큼 아군 전체에게 아머 부여(1턴)] 발동\n공격 시, [아군 전체의 궁극기 데미지 5% 증가(최대 10중첩)] 발동\n공격 시, [타깃이 받는 수속성, 화속성 데미지 3% 증가(최대 10중첩)]`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `여름 해변의 꽃`,
+                    description: `방어 시, [수속성, 화속성 아군이 받는 치유량 50% 증가(2턴)] 발동\n궁극기 발동 시, [수속성, 화속성 아군의 공격 데미지 15% 증가(최대 2중첩)] 발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `나에게 굴복하라!`,
+                    description: `자신의 데미지 25% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `오만하구나!`,
+                    description: `4턴마다 [타깃이 받는 수속성, 화속성 데미지 40% 증가(1턴)] 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `공격력 증가`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 효과`
                 }
             }
         }

@@ -231,56 +231,56 @@ export const SkillSet_10050: SkillSet[] =  [
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: ``,
-                    description: ``
+                    name: `날 흥분시켜봐!`,
+                    description: `자신의 공격 데미지 330/376/422/468/514% 및 자신의 최대 HP의 89/107/125/143/161%만큼 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `날 흥분시켜봐!`,
+                    description: `자신의 공격 데미지 330% 및 자신의 최대 HP의 89%만큼 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `날 흥분시켜봐!`,
+                    description: `자신의 공격 데미지 376% 및 자신의 최대 HP의 107%만큼 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: ``,
-                    description: ``
+                    name: `날 흥분시켜봐!`,
+                    description: `자신의 공격 데미지 422% 및 자신의 최대 HP의 125%만큼 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: ``,
-                    description: ``
+                    name: `날 흥분시켜봐!`,
+                    description: `자신의 공격 데미지 468% 및 자신의 최대 HP의 143%만큼 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: ``,
-                    description: ``
+                    name: `날 흥분시켜봐!`,
+                    description: `자신의 공격 데미지 514% 및 자신의 최대 HP의 161%만큼 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: ``,
-                    description: ``
+                    name: `마력분쇄권`,
+                    description: `자신의 공격 데미지 100% 및 자신의 최대 HP 50%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: ``,
-                    description: ``
+                    name: `마왕의 꼭대기`,
+                    description: `자신의 최대 HP 100% 증가\n자신의 일반 공격 데미지 125%\n자신의 궁극기 데미지 100% 증가\n공격 시 "타깃의 데미지 10% 감소(1턴)"발동\n공격 시 "자신이 받는 데미지 10% 감소(1턴)"발동\n아군 전체의 공격 데미지 40% 증가\n아군 전체가 가하는 데미지 20% 증가\n자신 이외의 아군 전원은 《굴복하라》획득\n\n《굴복하라》\n방어, 필살기 발동 시 "타깃이 받는 화, 수, 풍, 광, 암속성 피해량 6% 증가(2턴)"효과 발동(50 턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: ``,
-                    description: ``
+                    name: `마주한 절망`,
+                    description: `공격 시 "타깃이 받는 치유량 50% 감소"효과 발동(2턴)`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: ``,
-                    description: ``
+                    name: `마주한 공포`,
+                    description: `궁극기 발동 시 "자신이 가하는 데미지 20% 증가(최대 2중첩)"효과 발동`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: ``,
-                    description: ``
+                    name: `시저라는 이름`,
+                    description: `첫 번째 턴 시작 시, "적 전체가 받는 피해량 20% 증가(50턴), 적 전체가 가하는 데미지 10% 감소(50턴)"효과 발동`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: ``,
-                    description: ``
+                    name: `피해+`,
+                    description: `자신이 가하는 데미지 7.5% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: ``,
-                    description: ``
+                    name: `완전 면역`,
+                    description: `자신에게 수면 면역\n자신에게 마비 면역\n자신에게 침묵 면역`
                 }
             }
         }
