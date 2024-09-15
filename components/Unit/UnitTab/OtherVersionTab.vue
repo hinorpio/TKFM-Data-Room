@@ -1,5 +1,5 @@
 <template>
-    <v-row class="mt-4 px-1">
+    <v-row class="mt-4 px-1 py-1">
         <v-img 
             v-for="(form, index) in handleGetOtherVersion()" 
             :key="index" 
