@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.1.0',
+        logs: [
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `UI調整`,
+                    [Locale.sc]: `UI调整`,
+                    [Locale.en]: `UI Adjustment`,
+                    [Locale.jp]: `UIの調整`,
+                    [Locale.kr]: `UI 조정`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.0.12',
         logs: [
             {
