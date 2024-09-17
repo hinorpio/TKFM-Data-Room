@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-if="r18WarningAcknowledged" v-model="drawer" :mini-variant="miniVariant" fixed app clipped color="#323232">
+    <v-navigation-drawer v-if="r18WarningAcknowledged" v-model="drawer" fixed app clipped color="#323232">
       <v-list shaped>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact >
           <v-list-item-action>
@@ -16,9 +16,9 @@
     </v-navigation-drawer>
 
     <v-app-bar fixed app clipped-left :color="$store.state.themeColor" dense >
-      <v-btn icon @click.stop="miniVariant = !miniVariant" >
+      <!-- <v-btn icon @click.stop="miniVariant = !miniVariant" >
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'double-right' : 'double-left'}` }}</v-icon>
-      </v-btn>
+      </v-btn> -->
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title color="white">
         <h5>{{ $t('TKFM Data Room') }}</h5>
