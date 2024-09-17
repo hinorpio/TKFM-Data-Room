@@ -8,8 +8,6 @@
                 <span class="ml-4 body-1 font-weight-bold">
                     {{getSkillName()}}
                 </span>
-                <v-spacer></v-spacer>
-                <v-switch v-if="!isLiberation" v-model="isDetail" class="mt-5" inset ></v-switch>
             </v-row>
         </v-toolbar>
         <v-card-text>
@@ -32,6 +30,13 @@
             <div v-else class="ml-4">
                 <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype)"></span>
             </div>
+            <v-divider class="my-2"></v-divider>
+            <v-row v-if="!isLiberation" class="align-center justify-center">
+                <v-btn @click="isDetail = !isDetail" block x-small>
+                    <v-icon>{{ isDetail ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                    {{ $t('Detail') }}
+                </v-btn>
+            </v-row>
         </v-card-text>
     </v-card>
 </template>
