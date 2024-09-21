@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.1.1',
+        logs: [
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `角色 韓文暱稱`,
+                    [Locale.sc]: `角色 韩文昵称`,
+                    [Locale.en]: `Character Korean Abbreviations`,
+                    [Locale.jp]: `キャラ 韓国語 略語`,
+                    [Locale.kr]: `한국어 캐릭터 약어`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.1.0',
         logs: [
             {

@@ -24,7 +24,7 @@ export const General_10067: Unit = {
         [Locale.sc]: [ "春剑" ],
         [Locale.en]: [ "Tm.Mina", "Tm.Minayomi" ],
         [Locale.jp]: [],
-        [Locale.kr]: []
+        [Locale.kr]: [ "신미나" ]
     },
     background: {
         [Locale.tc]: `換下了便於活動的輕裝，換上如大家閨秀般的和服，神無雪出席了烈日國的慶典。撐著和傘，漫步花道之上，神無雪女性的一面被大幅強調。然而，若以為她收起了利刃，變為無害的少女，絕對是大錯特錯。別於腰間的長刃、藏於傘中的短刃會在剎那間出鞘。\n\n『正月期間，不動刀劍，平心靜氣，省身克己。』`,

@@ -24,7 +24,7 @@ export const General_10079: Unit = {
         [Locale.sc]: [ "春忍" ],
         [Locale.en]: [ "Tm.Ritsuki" ],
         [Locale.jp]: [],
-        [Locale.kr]: []
+        [Locale.kr]: [ "신츠키" ]
     },
     background: {
         [Locale.tc]: `凜月第一次不是作為護衛的身分參加初詣。原本要在繪馬上寫下「守護千鶴公主」的祈願，卻被千鶴指出凜月已經沒有保護她的義務，應該要許下新的願望。凜月因此陷入思考，自己的願望為何物？\n\n『正月是新一年的開始，也祝您今年都能順遂平安。』`,

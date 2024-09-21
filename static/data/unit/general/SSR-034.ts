@@ -24,7 +24,7 @@ export const General_10054: Unit = {
         [Locale.sc]: [ "驯鹿", "鹿", "CE" ],
         [Locale.en]: [],
         [Locale.jp]: [],
-        [Locale.kr]: []
+        [Locale.kr]: [ "구릴리" ]
     },
     background: {
         [Locale.tc]: `希依對聖誕老人完全忠心耿耿，雖然外表亮麗，但至今仍然是處子之身。對於送小孩禮物一事感到開心，一整年最期待的就是聖誕節那一天。由於聖誕老人出事，所以只好委託當今最有權勢的凱薩大人幫忙製造玩具，代價則是獻出自己的身體。對於希依來說，只要能讓小孩子們開心，就算獻出自己的身體也沒關係。\n\n『Jingle bells～jingle bells～Jingle all the way～（歌聲）』`,
