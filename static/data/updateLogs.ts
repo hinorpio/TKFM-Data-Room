@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.1.2',
+        logs: [
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `2023 夏日拼圖`,
+                    [Locale.sc]: `2023 夏日拼图`,
+                    [Locale.en]: `2023 Summer Puzzle`,
+                    [Locale.jp]: `2023 夏の日 パズル`,
+                    [Locale.kr]: `2023 여름 관련 퍼즐`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.1.1',
         logs: [
             {
