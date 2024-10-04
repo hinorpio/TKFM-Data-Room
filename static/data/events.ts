@@ -4,6 +4,40 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0151',
+            type: EventType.POINT,
+            startDate: '2024/10/02',
+            endDate: '2024/10/16',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【萬聖大驚奇-復刻-】`,
+                [Locale.sc]: `【万圣大惊奇-复刻-】`,
+                [Locale.en]: `[Halloween Surprise -Comeback-]`,
+                [Locale.jp]: `「ハロウィンのサプライズ-復刻-」`,
+                [Locale.kr]: `【할로윈 서프라이즈-복각-】`
+            },
+            image: EventBanner.EVENT_0151,
+            newUnit: []
+        },
+        {
+            code: '0152',
+            type: EventType.CHALLENGE,
+            startDate: '2024/10/09',
+            endDate: '2024/10/16',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【無盡搗蛋夜-復刻-】`,
+                [Locale.sc]: `【无尽捣蛋夜-复刻-】`,
+                [Locale.en]: `[Never-ending Trick -Comeback-]`,
+                [Locale.jp]: `「ハロウィンフィーバー-復刻-」`,
+                [Locale.kr]: `【무한의 트릭 나잇-복각-】`
+            },
+            image: EventBanner.EVENT_0152,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0150',
             type: EventType.SPIRE,
             startDate: '2023/09/18',

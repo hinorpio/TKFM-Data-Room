@@ -15,27 +15,27 @@ export const SkillSet_10091: SkillSet[] =  [
         skill: {
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身攻擊力40/45/45/50/55%使我方全體妨礙者攻擊力增加(1/1/2/2/2回合)，並使我方全體妨礙者當前必殺技CD減少1回合，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身攻擊力40%使我方全體妨礙者攻擊力增加(1回合)，並使我方全體妨礙者當前必殺技CD減少1回合，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身攻擊力45%使我方全體妨礙者攻擊力增加(1回合)，並使我方全體妨礙者當前必殺技CD減少1回合，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身攻擊力45%使我方全體妨礙者攻擊力增加(2回合)，並使我方全體妨礙者當前必殺技CD減少1回合，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身攻擊力50%使我方全體妨礙者攻擊力增加(2回合)，並使我方全體妨礙者當前必殺技CD減少1回合，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身攻擊力55%使我方全體妨礙者攻擊力增加(2回合)，並使我方全體妨礙者當前必殺技CD減少1回合，CD: 3`
                 },
                 [SkillType.ATTACK]: {
@@ -51,11 +51,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `必殺時，觸發「以自身最大血量50%使我方全體獲得護盾(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `舞台上的超級新星★`,
+                    name: `舞台上的超級新星☆`,
                     description: `第一回合時，觸發「使我方全體妨礙者必殺技傷害增加35%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `華麗★閃亮★爆誕★`,
+                    name: `華麗☆閃亮☆爆誕☆`,
                     description: `攻擊時，觸發「以自身攻擊力10%使我方全體攻擊力增加(1回合)」\n第一回合時，觸發「使我方全體妨礙者造成傷害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
@@ -69,27 +69,27 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身攻击力40/45/45/50/55%使我方全体妨碍者攻击力增加(1/1/2/2/2回合)，并使我方全体妨碍者当前必杀技CD减少1回合，CD: 3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身攻击力40%使我方全体妨碍者攻击力增加(1回合)，并使我方全体妨碍者当前必杀技CD减少1回合，CD: 3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身攻击力45%使我方全体妨碍者攻击力增加(1回合)，并使我方全体妨碍者当前必杀技CD减少1回合，CD: 3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身攻击力45%使我方全体妨碍者攻击力增加(2回合)，并使我方全体妨碍者当前必杀技CD减少1回合，CD: 3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身攻击力50%使我方全体妨碍者攻击力增加(2回合)，并使我方全体妨碍者当前必杀技CD减少1回合，CD: 3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身攻击力55%使我方全体妨碍者攻击力增加(2回合)，并使我方全体妨碍者当前必杀技CD减少1回合，CD: 3`
                 },
                 [SkillType.ATTACK]: {
@@ -105,11 +105,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `必杀时，触发「以自身最大血量50%使我方全体获得护盾(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `舞台上的超级新星★`,
+                    name: `舞台上的超级新星☆`,
                     description: `第一回合时，触发「使我方全体妨碍者必杀技伤害增加35%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `华丽★闪亮★爆诞★`,
+                    name: `华丽☆闪亮☆爆诞☆`,
                     description: `攻击时，触发「以自身攻击力10%使我方全体攻击力增加(1回合)」\n第一回合时，触发「使我方全体妨碍者造成伤害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
@@ -298,27 +298,27 @@ export const SkillSet_10091: SkillSet[] =  [
         skill: {
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身最大血量30/40/40/50/60%使我方全體妨礙者攻擊力增加(1/1/2/2/2回合), 並使我方全體妨礙者當前必殺技CD減少1回合,CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身最大血量30%使我方全體妨礙者攻擊力增加(1回合), 並使我方全體妨礙者當前必殺技CD減少1回合,CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身最大血量40%使我方全體妨礙者攻擊力增加(1回合), 並使我方全體妨礙者當前必殺技CD減少1回合,CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身最大血量40%使我方全體妨礙者攻擊力增加(2回合), 並使我方全體妨礙者當前必殺技CD減少1回合,CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身最大血量50%使我方全體妨礙者攻擊力增加(2回合), 並使我方全體妨礙者當前必殺技CD減少1回合,CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `閃亮閃亮★諾艾莉光線`,
+                    name: `閃亮閃亮☆諾艾莉光線`,
                     description: `以自身最大血量60%使我方全體妨礙者攻擊力增加(2回合), 並使我方全體妨礙者當前必殺技CD減少1回合,CD:3`
                 },
                 [SkillType.ATTACK]: {
@@ -334,11 +334,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `必殺時，觸發「以自身最大血量40%使我方全體獲得護盾(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `舞台上的超級新星★`,
+                    name: `舞台上的超級新星☆`,
                     description: `第一回合時，觸發「使我方全體妨礙者必殺技傷害增加35%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `華麗★閃亮★爆誕★`,
+                    name: `華麗☆閃亮☆爆誕☆`,
                     description: `攻擊時，觸發「以自身攻擊力10%使我方全體攻擊力增加(1回合)」\n第一回合時，觸發「使我方全體妨礙者造成傷害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
@@ -352,27 +352,27 @@ export const SkillSet_10091: SkillSet[] =  [
             },
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身最大血量30/40/40/50/60%使我方全体妨碍者攻击力增加(1/1/2/2/2回合), 并使我方全体妨碍者当前必杀技CD减少1回合,CD:3`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身最大血量30%使我方全体妨碍者攻击力增加(1回合), 并使我方全体妨碍者当前必杀技CD减少1回合,CD:3`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身最大血量40%使我方全体妨碍者攻击力增加(1回合), 并使我方全体妨碍者当前必杀技CD减少1回合,CD:3`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身最大血量40%使我方全体妨碍者攻击力增加(2回合), 并使我方全体妨碍者当前必杀技CD减少1回合,CD:3`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身最大血量50%使我方全体妨碍者攻击力增加(2回合), 并使我方全体妨碍者当前必杀技CD减少1回合,CD:3`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `闪亮闪亮★诺艾莉光线`,
+                    name: `闪亮闪亮☆诺艾莉光线`,
                     description: `以自身最大血量60%使我方全体妨碍者攻击力增加(2回合), 并使我方全体妨碍者当前必杀技CD减少1回合,CD:3`
                 },
                 [SkillType.ATTACK]: {
@@ -388,11 +388,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `必杀时，触发「以自身最大血量40%使我方全体获得护盾(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `舞台上的超级新星★`,
+                    name: `舞台上的超级新星☆`,
                     description: `第一回合时，触发「使我方全体妨碍者必杀技伤害增加35%(50回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `华丽★闪亮★爆诞★`,
+                    name: `华丽☆闪亮☆爆诞☆`,
                     description: `攻击时，触发「以自身攻击力10%使我方全体攻击力增加(1回合)」\n第一回合时，触发「使我方全体妨碍者造成伤害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
