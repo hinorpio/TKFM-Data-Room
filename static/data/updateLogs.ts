@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.1.3',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `解放技能: 「祭典狂歡 巴爾」,「偶像 黑白諾艾莉」`,
+                    [Locale.sc]: `解放技能: 「祭典狂欢 巴尔」,「偶像 黑白诺艾莉」`,
+                    [Locale.en]: `Liberation: [Festive Ba'al], [Idol Noel]`,
+                    [Locale.jp]: `解放スキル: 「祭りの バル」,「モノクロのノエル」`,
+                    [Locale.kr]: `해방스킬: 「광란의 페스티벌 바알」, 「아이돌 블랙앤화이트 노엘리」`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【萬聖大驚奇-復刻-】, 【無盡搗蛋夜-復刻-】`,
+                    [Locale.sc]: `活动: 【万圣大惊奇-复刻-】, 【无尽捣蛋夜-复刻-】`,
+                    [Locale.en]: `Event: [Halloween Surprise -Comeback-], [Never-ending Trick -Comeback-]`,
+                    [Locale.jp]: `イベント: 「ハロウィンのサプライズ-復刻-」, 「ハロウィンフィーバー-復刻-」`,
+                    [Locale.kr]: `이벤트: 【할로윈 서프라이즈-복각-】, 【무한의 트릭 나잇-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.1.2',
         logs: [
             {
