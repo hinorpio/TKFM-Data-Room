@@ -45,6 +45,6 @@ export const General_10921: Unit = {
     clothes: UnitFullImage[UnitCode.molly],
     tagList: [],
     otherVersion: [],
-    puzzle: [],
+    puzzle: [ PuzzleCode.HUMAN_MOLLY ],
     skillSet: []
 }

@@ -281,6 +281,8 @@ export enum PuzzleCode {
     HUMAN_ANNA = 'HUMAN_ANNA',
     HUMAN_BLAIRE = 'HUMAN_BLAIRE',
     HUMAN_NATASHA = 'HUMAN_NATASHA',
+    HUMAN_MOLLY = 'HUMAN_MOLLY',
+    HUMAN_ANYA = 'HUMAN_ANYA',
     DEMON_FLAY = 'DEMON_FLAY',
     DEMON_MANUELLA = 'DEMON_MANUELLA',
     DEMON_LORI = 'DEMON_LORI',
@@ -482,5 +484,7 @@ export enum UnitCode {
     tsubaki = 'SSR-119',
     amethystina = 'SSR-120',
     bg_ayane = 'SSR-121',
-    bg_iblis = 'SSR-122'
+    bg_iblis = 'SSR-122',
+    susan = 'SSR-123',
+    h_satan = 'SSR-124'
 }

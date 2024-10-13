@@ -52,7 +52,7 @@ export const General_10057: Unit = {
         TagID.CLASS_LEADER,
         TagID.OTHER_SUPPORT,
     ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.susan ],
     puzzle: [],
     skillSet: []
 }

@@ -45,6 +45,6 @@ export const General_10933: Unit = {
     clothes: UnitFullImage[UnitCode.anya],
     tagList: [],
     otherVersion: [],
-    puzzle: [],
+    puzzle: [ PuzzleCode.HUMAN_ANYA ],
     skillSet: []
 }

@@ -409,6 +409,12 @@ import DISCIPLINE_10150_3 from "@/assets/character/discipline/cgs10150_3.png"
 import DISCIPLINE_10151_1 from "@/assets/character/discipline/cgs10151_1.png"
 import DISCIPLINE_10151_2 from "@/assets/character/discipline/cgs10151_2.png"
 import DISCIPLINE_10151_3 from "@/assets/character/discipline/cgs10151_3.png"
+import DISCIPLINE_10152_1 from "@/assets/character/discipline/cgs10152_1.png"
+import DISCIPLINE_10152_2 from "@/assets/character/discipline/cgs10152_2.png"
+import DISCIPLINE_10152_3 from "@/assets/character/discipline/cgs10152_3.png"
+import DISCIPLINE_10153_1 from "@/assets/character/discipline/cgs10153_1.png"
+import DISCIPLINE_10153_2 from "@/assets/character/discipline/cgs10153_2.png"
+import DISCIPLINE_10153_3 from "@/assets/character/discipline/cgs10153_3.png"
 
 import DISCIPLINE_10801_1 from "@/assets/character/discipline/cgs10801_1.png"
 import DISCIPLINE_10801_3 from "@/assets/character/discipline/cgs10801_3.png"
@@ -512,6 +518,7 @@ import DISCIPLINE_10924_3 from "@/assets/character/discipline/cgs10924_3.png"
 import DISCIPLINE_10933_1 from "@/assets/character/discipline/cgs10933_1.png"
 import DISCIPLINE_10933_2 from "@/assets/character/discipline/cgs10933_2.png"
 import DISCIPLINE_10933_3 from "@/assets/character/discipline/cgs10933_3.png"
+
 
 const R = {
     [UnitCode.irene]: [ DISCIPLINE_10801_1, DISCIPLINE_PRESENT, DISCIPLINE_10801_3 ],
@@ -670,6 +677,8 @@ const SSR = {
     [UnitCode.amethystina]: [ DISCIPLINE_10044_1, DISCIPLINE_10044_2, DISCIPLINE_10044_3 ],
     [UnitCode.bg_ayane]: [ DISCIPLINE_10150_1, DISCIPLINE_10150_2, DISCIPLINE_10150_3 ],
     [UnitCode.bg_iblis]: [ DISCIPLINE_10151_1, DISCIPLINE_10151_2, DISCIPLINE_10151_3 ],
+    [UnitCode.susan]: [ DISCIPLINE_10152_1, DISCIPLINE_10152_2, DISCIPLINE_10152_3 ],
+    [UnitCode.h_satan]: [ DISCIPLINE_10153_1, DISCIPLINE_10153_2, DISCIPLINE_10153_3 ],
 }
 
 export const DisciplinePreview = {

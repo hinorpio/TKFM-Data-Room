@@ -137,6 +137,9 @@ import SELECTION_10148 from "@/assets/character/selection/cs10148_0_0.png"
 import SELECTION_10149 from "@/assets/character/selection/cs10149_0_0.png"
 import SELECTION_10150 from "@/assets/character/selection/cs10150_0_0.png"
 import SELECTION_10151 from "@/assets/character/selection/cs10151_0_0.png"
+import SELECTION_10152 from "@/assets/character/selection/cs10152_0_0.png"
+import SELECTION_10153 from "@/assets/character/selection/cs10153_0_0.png"
+
 
 import SELECTION_10801 from "@/assets/character/selection/cs10801_0_0.png"
 import SELECTION_10802 from "@/assets/character/selection/cs10802_0_0.png"
@@ -363,6 +366,8 @@ const SSR = {
     [UnitCode.amethystina]: SELECTION_10044,
     [UnitCode.bg_ayane]: SELECTION_10150,
     [UnitCode.bg_iblis]: SELECTION_10151,
+    [UnitCode.susan]: SELECTION_10152,
+    [UnitCode.h_satan]: SELECTION_10153,
 }
 
 export const Selection = {

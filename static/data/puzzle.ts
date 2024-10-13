@@ -458,6 +458,32 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.HUMAN_NATASHA,
     },
     {
+        code: PuzzleCode.HUMAN_MOLLY,
+        type: PuzzleType.HUMAN,
+        preview: PuzzlePreview.HUMAN_MOLLY,
+        name: {
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
+        },
+        fullImage: PuzzleImage.HUMAN_MOLLY,
+    },
+    {
+        code: PuzzleCode.HUMAN_ANYA,
+        type: PuzzleType.HUMAN,
+        preview: PuzzlePreview.HUMAN_ANYA,
+        name: {
+            [Locale.tc]: ``,
+            [Locale.sc]: ``,
+            [Locale.en]: ``,
+            [Locale.jp]: ``,
+            [Locale.kr]: ``
+        },
+        fullImage: PuzzleImage.HUMAN_ANYA,
+    },
+    {
         code: PuzzleCode.DEMON_FLAY,
         type: PuzzleType.DEMON,
         preview: PuzzlePreview.DEMON_FLAY,
