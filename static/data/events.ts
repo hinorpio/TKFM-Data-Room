@@ -4,6 +4,76 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0067',
+            type: EventType.DISCIPLINE,
+            startDate: '2024/10/30',
+            endDate: '2024/11/13',
+            color: EventTypeColor.DISCIPLINE,
+            name: {
+                [Locale.tc]: `【異世界情趣店-復刻-】`,
+                [Locale.sc]: `【异世界情趣店-复刻-】`,
+                [Locale.en]: `[Parallel Paradise Toys -Comeback-]`,
+                [Locale.jp]: `「異世界アダルトショップ-復刻-」`,
+                [Locale.kr]: `【이세계 성인용품점-복각-】`
+            },
+            image: EventBanner.EVENT_0067,
+            newUnit: []
+        },
+    ],
+    [
+        {
+            code: 'TIMERIFT_018',
+            type: EventType.TIMERIFT,
+            startDate: '2024/10/23',
+            endDate: '2024/12/18',
+            color: EventTypeColor.TIMERIFT,
+            name: {
+                [Locale.tc]: `【時之裂縫】第十八季`,
+                [Locale.sc]: `【时之裂缝】第十八季`,
+                [Locale.en]: `[Time Rift] Season 18`,
+                [Locale.jp]: `「時空の裂け目」第18シーズン`,
+                [Locale.kr]: `【시공간의 균열】 제18시즌`
+            },
+            image: EventBanner.EVENT_TIMERIFT,
+            newUnit: []
+        },
+    ],
+    [
+        {
+            code: '0153',
+            type: EventType.POINT,
+            startDate: '2024/10/16',
+            endDate: '2024/11/06',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【驚懼撒旦夜】`,
+                [Locale.sc]: `【惊惧撒旦夜】`,
+                [Locale.en]: `[Fear Satan's Night]`,
+                [Locale.jp]: `「恐怖のサタンナイト」`,
+                [Locale.kr]: `【공포스러운 사탄의 밤】`
+            },
+            image: EventBanner.EVENT_0153,
+            newUnit: [ UnitCode.susan, UnitCode.h_satan ]
+        },
+        {
+            code: '0154',
+            type: EventType.CHALLENGE,
+            startDate: '2024/10/30',
+            endDate: '2024/11/06',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【殺意的行進】`,
+                [Locale.sc]: `【杀意的行进】`,
+                [Locale.en]: `[Murderous Path]`,
+                [Locale.jp]: `「殺意の行進」`,
+                [Locale.kr]: `【살의의 행진】`
+            },
+            image: EventBanner.EVENT_0154,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0151',
             type: EventType.POINT,
             startDate: '2024/10/02',
@@ -40,7 +110,7 @@ const events: Event[][] = [
         {
             code: '0150',
             type: EventType.SPIRE,
-            startDate: '2023/09/18',
+            startDate: '2024/09/18',
             endDate: '2024/11/27',
             color: EventTypeColor.SPIRE,
             name: {
@@ -177,7 +247,7 @@ const events: Event[][] = [
             code: '0143',
             type: EventType.POTENTIAL,
             startDate: '2024/07/31',
-            endDate: '2023/08/14',
+            endDate: '2024/08/14',
             color: EventTypeColor.POTENTIAL,
             name: {
                 [Locale.tc]: `【魔王城夜未眠-復刻-】`,
@@ -228,7 +298,7 @@ const events: Event[][] = [
         {
             code: '0140',
             type: EventType.SPIRE,
-            startDate: '2023/07/10',
+            startDate: '2024/07/10',
             endDate: '2024/09/18',
             color: EventTypeColor.SPIRE,
             name: {
@@ -346,7 +416,7 @@ const events: Event[][] = [
         {
             code: '0135',
             type: EventType.SPIRE,
-            startDate: '2023/05/22',
+            startDate: '2024/05/22',
             endDate: '2024/07/10',
             color: EventTypeColor.SPIRE,
             name: {
@@ -482,7 +552,7 @@ const events: Event[][] = [
         {
             code: '0129',
             type: EventType.SPIRE,
-            startDate: '2023/04/03',
+            startDate: '2024/04/03',
             endDate: '2024/05/22',
             color: EventTypeColor.SPIRE,
             name: {
@@ -636,7 +706,7 @@ const events: Event[][] = [
         {
             code: '0122',
             type: EventType.SPIRE,
-            startDate: '2023/02/07',
+            startDate: '2024/02/07',
             endDate: '2024/04/03',
             color: EventTypeColor.SPIRE,
             name: {
