@@ -44,7 +44,7 @@ export const General_10027: Unit = {
     selection: UnitSelection[UnitCode.e_satan],
     clothes: UnitFullImage[UnitCode.e_satan],
     tagList: [],
-    otherVersion: [ UnitCode.satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.s_satan ],
+    otherVersion: [ UnitCode.satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.s_satan, UnitCode.h_satan ],
     puzzle: [],
     skillSet: []
 }

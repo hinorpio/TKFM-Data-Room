@@ -35,6 +35,8 @@ import PUZZLE_HUMAN_CLARIE from "@/assets/puzzle/scg10911.png"
 import PUZZLE_HUMAN_ANNA from "@/assets/puzzle/scg10916.png"
 import PUZZLE_HUMAN_BLAIRE from "@/assets/puzzle/scg10917.png"
 import PUZZLE_HUMAN_NATASHA from "@/assets/puzzle/scg10918.png"
+import PUZZLE_HUMAN_MOLLY from "@/assets/puzzle/scg10921.png"
+import PUZZLE_HUMAN_ANYA from "@/assets/puzzle/scg10933.png"
 import PUZZLE_DEMON_FLAY from "@/assets/puzzle/scg10903.png"
 import PUZZLE_DEMON_MANUELLA from "@/assets/puzzle/scg10904.png"
 import PUZZLE_DEMON_LORI from "@/assets/puzzle/scg10912.png"
@@ -79,6 +81,8 @@ import PUZZLE_PREVIEW_HUMAN_CLARIE from "@/assets/puzzle/scg10911s.png"
 import PUZZLE_PREVIEW_HUMAN_ANNA from "@/assets/puzzle/scg10916s.png"
 import PUZZLE_PREVIEW_HUMAN_BLAIRE from "@/assets/puzzle/scg10917s.png"
 import PUZZLE_PREVIEW_HUMAN_NATASHA from "@/assets/puzzle/scg10918s.png"
+import PUZZLE_PREVIEW_HUMAN_MOLLY from "@/assets/puzzle/scg10921s.png"
+import PUZZLE_PREVIEW_HUMAN_ANYA from "@/assets/puzzle/scg10933s.png"
 import PUZZLE_PREVIEW_DEMON_FLAY from "@/assets/puzzle/scg10903s.png"
 import PUZZLE_PREVIEW_DEMON_MANUELLA from "@/assets/puzzle/scg10904s.png"
 import PUZZLE_PREVIEW_DEMON_LORI from "@/assets/puzzle/scg10912s.png"
@@ -126,6 +130,8 @@ export const Preview = {
     [PuzzleCode.HUMAN_ANNA]: PUZZLE_PREVIEW_HUMAN_ANNA,
     [PuzzleCode.HUMAN_BLAIRE]: PUZZLE_PREVIEW_HUMAN_BLAIRE,
     [PuzzleCode.HUMAN_NATASHA]: PUZZLE_PREVIEW_HUMAN_NATASHA,
+    [PuzzleCode.HUMAN_MOLLY]: PUZZLE_PREVIEW_HUMAN_MOLLY,
+    [PuzzleCode.HUMAN_ANYA]: PUZZLE_PREVIEW_HUMAN_ANYA,
     [PuzzleCode.DEMON_FLAY]: PUZZLE_PREVIEW_DEMON_FLAY,
     [PuzzleCode.DEMON_MANUELLA]: PUZZLE_PREVIEW_DEMON_MANUELLA,
     [PuzzleCode.DEMON_LORI]: PUZZLE_PREVIEW_DEMON_LORI,
@@ -174,6 +180,8 @@ export const Image = {
     [PuzzleCode.HUMAN_ANNA]: PUZZLE_HUMAN_ANNA,
     [PuzzleCode.HUMAN_BLAIRE]: PUZZLE_HUMAN_BLAIRE,
     [PuzzleCode.HUMAN_NATASHA]: PUZZLE_HUMAN_NATASHA,
+    [PuzzleCode.HUMAN_MOLLY]: PUZZLE_HUMAN_MOLLY,
+    [PuzzleCode.HUMAN_ANYA]: PUZZLE_HUMAN_ANYA,
     [PuzzleCode.DEMON_FLAY]: PUZZLE_DEMON_FLAY,
     [PuzzleCode.DEMON_MANUELLA]: PUZZLE_DEMON_MANUELLA,
     [PuzzleCode.DEMON_LORI]: PUZZLE_DEMON_LORI,

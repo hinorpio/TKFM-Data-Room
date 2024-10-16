@@ -137,6 +137,8 @@ import ESSENCE_10148 from "@/assets/character/essence/IP10148.png"
 import ESSENCE_10149 from "@/assets/character/essence/IP10149.png"
 import ESSENCE_10150 from "@/assets/character/essence/IP10150.png"
 import ESSENCE_10151 from "@/assets/character/essence/IP10151.png"
+import ESSENCE_10152 from "@/assets/character/essence/IP10152.png"
+import ESSENCE_10153 from "@/assets/character/essence/IP10153.png"
 
 import ESSENCE_10801 from "@/assets/character/essence/IP10801.png"
 import ESSENCE_10802 from "@/assets/character/essence/IP10802.png"
@@ -363,6 +365,8 @@ const SSR = {
     [UnitCode.amethystina]: ESSENCE_10044,
     [UnitCode.bg_ayane]: ESSENCE_10150,
     [UnitCode.bg_iblis]: ESSENCE_10151,
+    [UnitCode.susan]: ESSENCE_10152,
+    [UnitCode.h_satan]: ESSENCE_10153,
 }
 
 export const Essence = {

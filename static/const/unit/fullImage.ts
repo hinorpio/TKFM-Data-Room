@@ -411,6 +411,12 @@ import FULLIMAGE_10150_2 from "@/assets/character/fullbody/10150_2-Lv1.png"
 import FULLIMAGE_10151_0 from "@/assets/character/fullbody/10151_0-Lv1.png"
 import FULLIMAGE_10151_1 from "@/assets/character/fullbody/10151_1-Lv1.png"
 import FULLIMAGE_10151_2 from "@/assets/character/fullbody/10151_2-Lv1.png"
+import FULLIMAGE_10152_0 from "@/assets/character/fullbody/10152_0-Lv1.png"
+import FULLIMAGE_10152_1 from "@/assets/character/fullbody/10152_1-Lv1.png"
+import FULLIMAGE_10152_2 from "@/assets/character/fullbody/10152_2-Lv1.png"
+import FULLIMAGE_10153_0 from "@/assets/character/fullbody/10153_0-Lv1.png"
+import FULLIMAGE_10153_1 from "@/assets/character/fullbody/10153_1-Lv1.png"
+import FULLIMAGE_10153_2 from "@/assets/character/fullbody/10153_2-Lv1.png"
 
 import FULLIMAGE_10801_0 from "@/assets/character/fullbody/10801_0-Lv1.png"
 import FULLIMAGE_10801_1 from "@/assets/character/fullbody/10801_1-Lv1.png"
@@ -713,6 +719,8 @@ const SSR = {
     [UnitCode.amethystina]: [ FULLIMAGE_10044_0, FULLIMAGE_10044_1, FULLIMAGE_10044_2 ],
     [UnitCode.bg_ayane]: [ FULLIMAGE_10150_0, FULLIMAGE_10150_1, FULLIMAGE_10150_2 ],
     [UnitCode.bg_iblis]: [ FULLIMAGE_10151_0, FULLIMAGE_10151_1, FULLIMAGE_10151_2 ],
+    [UnitCode.susan]: [ FULLIMAGE_10152_0, FULLIMAGE_10152_1, FULLIMAGE_10152_2 ],
+    [UnitCode.h_satan]: [ FULLIMAGE_10153_0, FULLIMAGE_10153_1, FULLIMAGE_10153_2 ],
 }
 
 export const FullImage = {

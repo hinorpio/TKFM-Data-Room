@@ -8,7 +8,7 @@ export const General_10051: Unit = {
     prefix: {
         [Locale.tc]: "最後的銀龍",
         [Locale.sc]: "最后的银龙",
-        [Locale.en]: "Last of the Sliver Dragons",
+        [Locale.en]: "Last of the Silver Dragons",
         [Locale.jp]: "最後の銀龍",
         [Locale.kr]: "최후의 은룡"
     },
