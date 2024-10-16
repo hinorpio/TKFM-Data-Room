@@ -2,6 +2,41 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.1.4',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `相關拼圖 & 全境徵才: 獵犬小隊 茉莉, 獵犬小隊 安雅`,
+                    [Locale.sc]: `相关拼图 & 全境征才: 猎犬小队 茉莉, 猎犬小队 安雅`,
+                    [Locale.en]: `Puzzle & Recruitment: Hound Hunter Molly, Hound Hunter Anya`,
+                    [Locale.jp]: `パズル & 召集令: ハウンド小隊 ジュリー, ハウンド小隊 アンヤ`,
+                    [Locale.kr]: `관련 퍼즐 & 전 지역 모집 필터: 하운드 소대 몰리, 하운드 소대 안야`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `角色: 治癒之星 蘇珊, 純真殺意 撒旦`,
+                    [Locale.sc]: `角色: 治愈之星 苏珊, 纯真杀意 撒旦`,
+                    [Locale.en]: `Unit: Healing Star Susan, Genuine Murderess Satan`,
+                    [Locale.jp]: `キャラ: 治癒のスター スーザン, ピュアな殺意 サタン`,
+                    [Locale.kr]: `캐릭터: 치유의 별 수잔, 순수한 살의 사탄`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【驚懼撒旦夜】, 【殺意的行進】, 【時之裂縫】第十八季, 【異世界情趣店-復刻-】`,
+                    [Locale.sc]: `活动: 【惊惧撒旦夜】, 【杀意的行进】, 【时之裂缝】第十八季, 【异世界情趣店-复刻-】`,
+                    [Locale.en]: `Event: [Fear Satan's Night], [Murderous Path], [Time Rift] Season 18, [Parallel Paradise Toys -Comeback-]`,
+                    [Locale.jp]: `イベント: 「恐怖のサタンナイト」, 「殺意の行進」, 「時空の裂け目」第18シーズン, 「異世界アダルトショップ-復刻-」`,
+                    [Locale.kr]: `이벤트: 【공포스러운 사탄의 밤】, 【살의의 행진】, 【시공간의 균열】 제18시즌, 【이세계 성인용품점-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.1.3',
         logs: [
             {
