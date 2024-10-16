@@ -4,7 +4,7 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
-            code: '0067',
+            code: '0155',
             type: EventType.DISCIPLINE,
             startDate: '2024/10/30',
             endDate: '2024/11/13',
@@ -16,7 +16,7 @@ const events: Event[][] = [
                 [Locale.jp]: `「異世界アダルトショップ-復刻-」`,
                 [Locale.kr]: `【이세계 성인용품점-복각-】`
             },
-            image: EventBanner.EVENT_0067,
+            image: EventBanner.EVENT_0155,
             newUnit: []
         },
     ],
