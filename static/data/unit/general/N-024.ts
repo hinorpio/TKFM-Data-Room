@@ -43,7 +43,13 @@ export const General_10921: Unit = {
     thumbnail: UnitEssence[UnitCode.molly],
     selection: UnitSelection[UnitCode.molly],
     clothes: UnitFullImage[UnitCode.molly],
-    tagList: [],
+    tagList: [
+        TagID.ELEMENT_WATER,
+        TagID.POSITION_ATTACKER,
+        TagID.BODY_SMALL_SIZED,
+        TagID.CLASS_SOLDIER,
+        TagID.OTHER_DAMAGE_OUTPUT
+    ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_MOLLY ],
     skillSet: []

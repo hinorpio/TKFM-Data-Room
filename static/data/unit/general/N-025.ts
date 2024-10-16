@@ -43,7 +43,11 @@ export const General_10933: Unit = {
     thumbnail: UnitEssence[UnitCode.anya],
     selection: UnitSelection[UnitCode.anya],
     clothes: UnitFullImage[UnitCode.anya],
-    tagList: [],
+    tagList: [
+        TagID.ELEMENT_WIND,
+        TagID.POSITION_OBSTRUCTER,
+        TagID.CLASS_SOLDIER
+    ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_ANYA ],
     skillSet: []

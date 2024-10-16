@@ -462,11 +462,11 @@ const puzzles: Puzzle[] = [
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_MOLLY,
         name: {
-            [Locale.tc]: ``,
-            [Locale.sc]: ``,
-            [Locale.en]: ``,
-            [Locale.jp]: ``,
-            [Locale.kr]: ``
+            [Locale.tc]: `獵犬的反審問訓練`,
+            [Locale.sc]: `猎犬的反审问训练`,
+            [Locale.en]: `Hound Interrogation Training`,
+            [Locale.jp]: `ハウンドの反尋問訓練`,
+            [Locale.kr]: `하운드의 반심문 훈련`
         },
         fullImage: PuzzleImage.HUMAN_MOLLY,
     },
@@ -475,11 +475,11 @@ const puzzles: Puzzle[] = [
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_ANYA,
         name: {
-            [Locale.tc]: ``,
-            [Locale.sc]: ``,
-            [Locale.en]: ``,
-            [Locale.jp]: ``,
-            [Locale.kr]: ``
+            [Locale.tc]: `鋼鐵般的意志`,
+            [Locale.sc]: `钢铁般的意志`,
+            [Locale.en]: `Iron Will`,
+            [Locale.jp]: `鋼のような意志`,
+            [Locale.kr]: `강철 같은 의지`
         },
         fullImage: PuzzleImage.HUMAN_ANYA,
     },
