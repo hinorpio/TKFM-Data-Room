@@ -60,11 +60,11 @@ export const SkillSet_10809: SkillSet[] =  [
                     description: `普攻傷害增加40%、必殺技傷害增加20%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `好色本性(稀有調教道具↑↑) (3潛)`,
+                    name: `好色本性(稀有調教道具↑↑)`,
                     description: `進行派遣時，少量提升稀有調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10809: SkillSet[] =  [
                     description: `普攻伤害增加40%丶必杀技伤害增加20%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `好色本性(稀有调教道具↑↑) (3潜)`,
+                    name: `好色本性(稀有调教道具↑↑)`,
                     description: `进行派遣时，少量提升稀有调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

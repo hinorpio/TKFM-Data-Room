@@ -59,11 +59,11 @@ export const SkillSet_10057: SkillSet[] =  [
                     description: `每經過6回合，觸發"使我方站位1、3、5的隊員必殺技傷害增加50%(2回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10057: SkillSet[] =  [
                     description: `每经过6回合，触发"使我方站位1丶3丶5的队员必杀技伤害增加50%(2回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

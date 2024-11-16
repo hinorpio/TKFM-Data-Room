@@ -59,11 +59,11 @@ export const SkillSet_10115: SkillSet[] =  [
                     description: `被治療時，觸發「使我方全體攻擊力增加20%(1回合)」\n給予我方全體「當前HP≧95%時，發動『造成傷害增加15%』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力+ (6潛)`,
+                    name: `攻擊力+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10115: SkillSet[] =  [
                     description: `被治疗时，触发「使我方全体攻击力增加20%(1回合)」\n给予我方全体「当前HP≥95%时，发动『造成伤害增加15%』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

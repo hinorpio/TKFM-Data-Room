@@ -59,11 +59,11 @@ export const SkillSet_10023: SkillSet[] =  [
                     description: `當自身《反攻的時機》層數=1層時，發動「《逆襲的彈雨》」\n\n《逆襲的彈雨》\n必殺時，追加「以自身攻擊力45.5%對目標造成傷害8次」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10023: SkillSet[] =  [
                     description: `当自身《反攻的时机》层数=1层时，发动「《逆袭的弹雨》」\n\n《逆袭的弹雨》\n必杀时，追加「以自身攻击力45.5%对目标造成伤害8次」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

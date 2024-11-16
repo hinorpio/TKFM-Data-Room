@@ -60,11 +60,11 @@ export const SkillSet_10901: SkillSet[] =  [
                     description: `每Wave的第1回合，觸發\"自身必殺技CD減少3回合\"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `視財如命(購買許可↑) (3潛)`,
+                    name: `視財如命(購買許可↑)`,
                     description: `進行派遣時，微量提升購買許可雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10901: SkillSet[] =  [
                     description: `每Wave的第1回合，触发\"自身必杀技CD减少3回合\"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `视财如命(购买许可↑) (3潜)`,
+                    name: `视财如命(购买许可↑)`,
                     description: `进行派遣时，微量提升购买许可双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

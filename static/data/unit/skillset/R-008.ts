@@ -60,11 +60,11 @@ export const SkillSet_10808: SkillSet[] =  [
                     description: `使自身普攻傷害增加50%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `被虐體質(稀有調教道具↑↑) (3潛)`,
+                    name: `被虐體質(稀有調教道具↑↑)`,
                     description: `進行派遣時，少量提升稀有調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10808: SkillSet[] =  [
                     description: `使自身普攻伤害增加50%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `被虐体质(稀有调教道具↑↑) (3潜)`,
+                    name: `被虐体质(稀有调教道具↑↑)`,
                     description: `进行派遣时，少量提升稀有调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

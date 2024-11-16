@@ -60,11 +60,11 @@ export const SkillSet_10803: SkillSet[] =  [
                     description: `必殺時，觸發"使自身攻擊力增加20%(最多5層)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `活潑開朗(經驗藥水↑↑) (3潛)`,
+                    name: `活潑開朗(經驗藥水↑↑)`,
                     description: `進行派遣時，少量提升經驗藥水雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10803: SkillSet[] =  [
                     description: `必杀时，触发"使自身攻击力增加20%(最多5层)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `活泼开朗(经验药水↑↑) (3潜)`,
+                    name: `活泼开朗(经验药水↑↑)`,
                     description: `进行派遣时，少量提升经验药水双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

@@ -59,11 +59,11 @@ export const SkillSet_10004: SkillSet[] =  [
                     description: `每經過3回合，觸發"使我方全體攻擊力增加20%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10004: SkillSet[] =  [
                     description: `每经过3回合，触发"使我方全体攻击力增加20%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

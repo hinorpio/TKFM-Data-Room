@@ -59,11 +59,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `攻擊時，觸發「以自身攻擊力10%使我方全體攻擊力增加(1回合)」\n第一回合時，觸發「使我方全體妨礙者造成傷害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `攻击时，触发「以自身攻击力10%使我方全体攻击力增加(1回合)」\n第一回合时，触发「使我方全体妨碍者造成伤害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `攻擊時，觸發「以自身攻擊力10%使我方全體攻擊力增加(1回合)」\n第一回合時，觸發「使我方全體妨礙者造成傷害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10091: SkillSet[] =  [
                     description: `攻击时，触发「以自身攻击力10%使我方全体攻击力增加(1回合)」\n第一回合时，触发「使我方全体妨碍者造成伤害增加20%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

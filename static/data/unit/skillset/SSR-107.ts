@@ -59,11 +59,11 @@ export const SkillSet_10137: SkillSet[] =  [
                     description: `造成傷害增加20%\n必殺時，觸發「使目標受到風屬性傷害增加10%(最多3層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+ (6潛)`,
+                    name: `普攻+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10137: SkillSet[] =  [
                     description: `造成伤害增加20%\n必杀时，触发「使目标受到风属性伤害增加10%(最多3层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+ (6潜)`,
+                    name: `普攻+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

@@ -59,11 +59,11 @@ export const SkillSet_10082: SkillSet[] =  [
                     description: `攻擊時，觸發「使我方全體造成傷害增加3%(最多10層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10082: SkillSet[] =  [
                     description: `攻击时，触发「使我方全体造成伤害增加3%(最多10层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10082: SkillSet[] =  [
                     description: `攻擊時，觸發「使我方全體造成傷害增加3%(最多10層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10082: SkillSet[] =  [
                     description: `攻击时，触发「使我方全体造成伤害增加3%(最多10层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

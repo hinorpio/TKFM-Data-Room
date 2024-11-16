@@ -59,11 +59,11 @@ export const SkillSet_10045: SkillSet[] =  [
                     description: `使自身必殺技傷害增加35%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10045: SkillSet[] =  [
                     description: `使自身必杀技伤害增加35%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

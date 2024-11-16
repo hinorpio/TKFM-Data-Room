@@ -59,11 +59,11 @@ export const SkillSet_10007: SkillSet[] =  [
                     description: `攻擊時，觸發"使自身攻擊力增加15%(4回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10007: SkillSet[] =  [
                     description: `攻击时，触发"使自身攻击力增加15%(4回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

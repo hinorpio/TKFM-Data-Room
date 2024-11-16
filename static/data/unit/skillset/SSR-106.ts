@@ -59,11 +59,11 @@ export const SkillSet_10136: SkillSet[] =  [
                     description: `第1回合時，觸發「使自身當前必殺技CD減少4回合」\n第1回合時，觸發「使自身以外的我方全體水屬性隊員當前必殺技CD減少1回合`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+ (6潛)`,
+                    name: `普攻+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10136: SkillSet[] =  [
                     description: `第1回合时，触发「使自身当前必杀技CD减少4回合」\n第1回合时，触发「使自身以外的我方全体水属性队员当前必杀技CD减少1回合`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+ (6潜)`,
+                    name: `普攻+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

@@ -59,11 +59,11 @@ export const SkillSet_10055: SkillSet[] =  [
                     description: `必殺時，觸發「使我方全體攻擊力增加10%(最多3層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力+ (6潛)`,
+                    name: `攻擊力+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10055: SkillSet[] =  [
                     description: `必杀时，触发「使我方全体攻击力增加10%(最多3层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

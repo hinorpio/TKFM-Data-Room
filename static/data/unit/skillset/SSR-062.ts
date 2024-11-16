@@ -59,11 +59,11 @@ export const SkillSet_10047: SkillSet[] =  [
                     description: `造成傷害增加10%\n必殺時，觸發「以自身攻擊力50%對目標造成傷害」\n每經過4回合，觸發「使敵方全體受到風屬性傷害增加25%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10047: SkillSet[] =  [
                     description: `造成伤害增加10%\n必杀时，触发「以自身攻击力50%对目标造成伤害」\n每经过4回合，触发「使敌方全体受到风属性伤害增加25%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

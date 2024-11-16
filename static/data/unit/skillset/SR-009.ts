@@ -59,11 +59,11 @@ export const SkillSet_10036: SkillSet[] =  [
                     description: `被攻擊時，觸發"使自身受到傷害減少15%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `回復量+ (6潛)`,
+                    name: `回復量+`,
                     description: `使自身被治療時回復量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10036: SkillSet[] =  [
                     description: `被攻击时，触发"使自身受到伤害减少15%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `回复量+ (6潜)`,
+                    name: `回复量+`,
                     description: `使自身被治疗时回复量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

@@ -59,11 +59,11 @@ export const SkillSet_10022: SkillSet[] =  [
                     description: `普攻時，觸發「使自身獲得《腎上腺素》」\n\n《腎上腺素》\n必殺技傷害增加50%(2回合)\n必殺時，追加「以自身攻擊力100%對目標造成傷害」(2回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺追擊+ (6潛)`,
+                    name: `必殺追擊+`,
                     description: `必殺時，追加「以自身攻擊力30%對目標造成傷害」`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10022: SkillSet[] =  [
                     description: `普攻时，触发「使自身获得《肾上腺素》」\n\n《肾上腺素》\n必杀技伤害增加50%(2回合)\n必杀时，追加「以自身攻击力100%对目标造成伤害」(2回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀追击+ (6潜)`,
+                    name: `必杀追击+`,
                     description: `必杀时，追加「以自身攻击力30%对目标造成伤害」`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

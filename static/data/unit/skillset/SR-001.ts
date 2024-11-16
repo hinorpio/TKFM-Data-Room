@@ -59,11 +59,11 @@ export const SkillSet_10009: SkillSet[] =  [
                     description: `攻擊時，觸發"清除我方站位3的隊員的攻擊力減少、普攻傷害減少、必殺技傷害減少效果"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10009: SkillSet[] =  [
                     description: `攻击时，触发"清除我方站位3的队员的攻击力减少丶普攻伤害减少丶必杀技伤害减少效果"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10009: SkillSet[] =  [
                     description: `攻擊時，觸發"清除我方站位3的隊員的攻擊力減少、普攻傷害減少、必殺技傷害減少效果"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10009: SkillSet[] =  [
                     description: `攻击时，触发"清除我方站位3的队员的攻击力减少丶普攻伤害减少丶必杀技伤害减少效果"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

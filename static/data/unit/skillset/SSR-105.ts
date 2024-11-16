@@ -59,11 +59,11 @@ export const SkillSet_10135: SkillSet[] =  [
                     description: `使我方站位3的隊員獲得必殺時，觸發「使【偶像經紀人 梅絲米奈雅】獲得造成傷害增加40%(2回合)」\n自身第1回合時，觸發「使自身必殺時不再清除《妾身，蛇后，小白臉！》的所有層數」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `傷害+ (6潛)`,
+                    name: `傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10135: SkillSet[] =  [
                     description: `使我方站位3的队员获得必杀时，触发「使【偶像经纪人 梅丝米奈雅】获得造成伤害增加40%(2回合)」\n自身第1回合时，触发「使自身必杀时不再清除《妾身，蛇后，小白脸！》的所有层数」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `伤害+ (6潜)`,
+                    name: `伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

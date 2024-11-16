@@ -59,11 +59,11 @@ export const SkillSet_10030: SkillSet[] =  [
                     description: `第1回合時，觸發"使我方治療者與輔助者必殺技傷害增加40%(50回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10030: SkillSet[] =  [
                     description: `第1回合时，触发"使我方治疗者与辅助者必杀技伤害增加40%(50回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

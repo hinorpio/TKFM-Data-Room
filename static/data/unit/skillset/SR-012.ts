@@ -59,11 +59,11 @@ export const SkillSet_10051: SkillSet[] =  [
                     description: `每經過5回合，觸發"攻擊時，觸發"使目標造成傷害減少12.5%(最多2層)"效果(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10051: SkillSet[] =  [
                     description: `每经过5回合，触发"攻击时，触发"使目标造成伤害减少12.5%(最多2层)"效果(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

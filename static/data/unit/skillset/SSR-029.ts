@@ -59,11 +59,11 @@ export const SkillSet_10043: SkillSet[] =  [
                     description: `必殺時，觸發"使我方全體風屬性隊員造成傷害增加15%(最多2層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10043: SkillSet[] =  [
                     description: `必杀时，触发"使我方全体风属性队员造成伤害增加15%(最多2层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

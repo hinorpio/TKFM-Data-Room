@@ -59,11 +59,11 @@ export const SkillSet_10122: SkillSet[] =  [
                     description: `普攻時，觸發「以自身攻擊力50%對目標造成傷害」\n必殺時，觸發「以自身攻擊力100%對目標造成傷害」\n每經過4回合，觸發「給予我方全體必殺時，觸發「使我方全體觸發技效果增加30%(4回合)』(4回合)(施放必殺後會消除此效果)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺觸發+ (6潛)`,
+                    name: `必殺觸發+`,
                     description: `必殺時，觸發「以自身攻擊力30%對目標造成傷害」`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10122: SkillSet[] =  [
                     description: `普攻时，触发「以自身攻击力50%对目标造成伤害」\n必杀时，触发「以自身攻击力100%对目标造成伤害」\n每经过4回合，触发「给予我方全体必杀时，触发「使我方全体触发技效果增加30%(4回合)』(4回合)(施放必杀後会消除此效果)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀触发+ (6潜)`,
+                    name: `必杀触发+`,
                     description: `必杀时，触发「以自身攻击力30%对目标造成伤害」`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

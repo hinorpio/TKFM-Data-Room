@@ -59,11 +59,11 @@ export const SkillSet_10071: SkillSet[] =  [
                     description: `第6回合時，觸發「使敵方全體受到普攻傷害增加100%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `傷害+ (6潛)`,
+                    name: `傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10071: SkillSet[] =  [
                     description: `第6回合时，触发「使敌方全体受到普攻伤害增加100%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `伤害+ (6潜)`,
+                    name: `伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

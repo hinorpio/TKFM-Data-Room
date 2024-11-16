@@ -59,11 +59,11 @@ export const SkillSet_10037: SkillSet[] =  [
                     description: `攻擊時，觸發"使目標受到普攻傷害增加4%(最多5層)、受到必殺傷害增加3%(最多5層)、造成傷害減少4%(最多5層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10037: SkillSet[] =  [
                     description: `攻击时，触发"使目标受到普攻伤害增加4%(最多5层)丶受到必杀伤害增加3%(最多5层)丶造成伤害减少4%(最多5层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10037: SkillSet[] =  [
                     description: `攻擊時，觸發"使目標受到普攻傷害增加2%(最多10層)、受到必殺傷害增1.5%(最多10層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10037: SkillSet[] =  [
                     description: `攻击时，触发"使目标受到普攻伤害增加2%(最多10层)丶受到必杀伤害增1.5%(最多10层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

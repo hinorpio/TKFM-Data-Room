@@ -59,11 +59,11 @@ export const SkillSet_10147: SkillSet[] =  [
                     description: `使我方站位2獲得「必殺時，觸發『《魔物肢解》』」\n\n《魔物肢解》\n使目標受到必殺技傷害增加100%(1回合)\n使目標被治療時回復量減少20%(4回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10147: SkillSet[] =  [
                     description: `使我方站位2获得「必杀时，触发『《魔物肢解》』」\n\n《魔物肢解》\n使目标受到必杀技伤害增加100%(1回合)\n使目标被治疗时回复量减少20%(4回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

@@ -60,11 +60,11 @@ export const SkillSet_10905: SkillSet[] =  [
                     description: `普攻時，追加「使目標解除防禦狀態」\n必殺時，追加「使目標解除防禦狀態」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(經驗藥水↑) (3潛)`,
+                    name: `努力家(經驗藥水↑)`,
                     description: `進行派遣時，微量提升經驗藥水雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10905: SkillSet[] =  [
                     description: `普攻时，追加「使目标解除防御状态」\n必杀时，追加「使目标解除防御状态」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(经验药水↑) (3潜)`,
+                    name: `努力家(经验药水↑)`,
                     description: `进行派遣时，微量提升经验药水双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },
@@ -344,11 +344,11 @@ export const SkillSet_10905: SkillSet[] =  [
                     description: `攻擊時，觸發"使目標解除防禦狀態"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(經驗藥水↑) (3潛)`,
+                    name: `努力家(經驗藥水↑)`,
                     description: `進行派遣時，微量提升經驗藥水雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -398,11 +398,11 @@ export const SkillSet_10905: SkillSet[] =  [
                     description: `攻击时，触发"使目标解除防御状态"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(经验药水↑) (3潜)`,
+                    name: `努力家(经验药水↑)`,
                     description: `进行派遣时，微量提升经验药水双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

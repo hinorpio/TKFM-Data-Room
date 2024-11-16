@@ -60,11 +60,11 @@ export const SkillSet_10918: SkillSet[] =  [
                     description: `攻擊時，觸發"以自身攻擊力50%對自身施放護盾(4回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸運兒(空手而歸↓) (3潛)`,
+                    name: `幸運兒(空手而歸↓)`,
                     description: `進行派遣時，微量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10918: SkillSet[] =  [
                     description: `攻擊時，觸發"以自身攻擊力50%對自身施放護盾(4回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸運兒(空手而歸↓) (3潛)`,
+                    name: `幸運兒(空手而歸↓)`,
                     description: `進行派遣時，微量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

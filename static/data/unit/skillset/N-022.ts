@@ -60,11 +60,11 @@ export const SkillSet_10923: SkillSet[] =  [
                     description: `攻擊時，觸發「使自身攻擊力增加5%(6回合)」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `寶藏獵人(強化素材↑) (3潛)`,
+                    name: `寶藏獵人(強化素材↑)`,
                     description: `進行派遣時，微量提升強化素材雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10923: SkillSet[] =  [
                     description: `攻击时，触发「使自身攻击力增加5%(6回合)」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `宝藏猎人(强化素材↑) (3潜)`,
+                    name: `宝藏猎人(强化素材↑)`,
                     description: `进行派遣时，微量提升强化素材双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

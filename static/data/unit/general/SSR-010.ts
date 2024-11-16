@@ -52,7 +52,7 @@ export const General_10008: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
         TagID.OTHER_MORE_POWER,
     ],
-    otherVersion: [ UnitCode.s_ks8 ],
+    otherVersion: [ UnitCode.s_ks8, UnitCode.m_ks8 ],
     puzzle: [],
     skillSet: []
 }

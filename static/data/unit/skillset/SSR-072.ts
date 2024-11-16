@@ -59,11 +59,11 @@ export const SkillSet_10108: SkillSet[] =  [
                     description: `我方治療者以及輔助者獲得《激情夜晚》\n\n《激情夜晚》\n攻擊力增加40%\n防禦時，觸發「我方全體受到持續型治療增加20%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10108: SkillSet[] =  [
                     description: `我方治疗者以及辅助者获得《激情夜晚》\n\n《激情夜晚》\n攻击力增加40%\n防御时，触发「我方全体受到持续型治疗增加20%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

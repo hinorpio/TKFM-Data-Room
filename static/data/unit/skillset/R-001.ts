@@ -60,11 +60,11 @@ export const SkillSet_10801: SkillSet[] =  [
                     description: `必殺時，觸發"清除我方HP最低者的受到傷害增加、防禦減傷減少、被回復量減少效果"`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `墜落人妻(普通調教道具↑↑) (3潛)`,
+                    name: `墜落人妻(普通調教道具↑↑)`,
                     description: `進行派遣時，少量提升普通調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10801: SkillSet[] =  [
                     description: `必杀时，触发"清除我方HP最低者的受到伤害增加丶防御减伤减少丶被回复量减少效果"`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `坠落人妻(普通调教道具↑↑) (3潜)`,
+                    name: `坠落人妻(普通调教道具↑↑)`,
                     description: `进行派遣时，少量提升普通调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -343,11 +343,11 @@ export const SkillSet_10801: SkillSet[] =  [
                     description: `必殺時，觸發"清除我方HP最低者的受到傷害增加、防禦減傷減少、被回復量減少效果"`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `墜落人妻(普通調教道具↑↑) (3潛)`,
+                    name: `墜落人妻(普通調教道具↑↑)`,
                     description: `進行派遣時，少量提升普通調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -397,11 +397,11 @@ export const SkillSet_10801: SkillSet[] =  [
                     description: `必杀时，触发"清除我方HP最低者的受到伤害增加丶防御减伤减少丶被回复量减少效果"`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `坠落人妻(普通调教道具↑↑) (3潜)`,
+                    name: `坠落人妻(普通调教道具↑↑)`,
                     description: `进行派遣时，少量提升普通调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

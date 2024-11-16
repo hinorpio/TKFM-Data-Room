@@ -59,11 +59,11 @@ export const SkillSet_10095: SkillSet[] =  [
                     description: `普攻時，觸發「使自身獲得『小騎士(最多10層)』」\n普攻時，觸發「依據自身『小騎士』的層數觸發『以自身攻擊力10%對目標造成傷害』」\n必殺時，觸發「依據自身『小騎士』的層數觸發『使目標受到觸發技傷害增加10%(最多10層)』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10095: SkillSet[] =  [
                     description: `普攻时，触发「使自身获得『小骑士(最多10层)』」\n普攻时，触发「依据自身『小骑士』的层数触发『以自身攻击力10%对目标造成伤害』」\n必杀时，触发「依据自身『小骑士』的层数触发『使目标受到触发技伤害增加10%(最多10层)』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

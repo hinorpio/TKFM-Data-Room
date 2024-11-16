@@ -59,11 +59,11 @@ export const SkillSet_10144: SkillSet[] =  [
                     description: `必殺時，追加「以自身攻擊力150%對目標造成傷害」\n每經過1回合時，觸發「以自身攻擊力5%使我方全體攻擊力增加(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10144: SkillSet[] =  [
                     description: `必杀时，追加「以自身攻击力150%对目标造成伤害」\n每经过1回合时，触发「以自身攻击力5%使我方全体攻击力增加(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

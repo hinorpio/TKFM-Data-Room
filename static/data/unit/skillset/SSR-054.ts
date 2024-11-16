@@ -59,11 +59,11 @@ export const SkillSet_10085: SkillSet[] =  [
                     description: `第1回合時，觸發「使自身造成治療量增加25%(最多1層)」\n第1回合時，觸發「我方全體被治療時回復量增加12.5%(最多1層)、受到持續型傷害減少30%(最多1層)」\n攻擊時，觸發「使我方當前HP最低者受到傷害減少20%(1回合)，再以攻擊力15%對我方當前HP最低者進行治療`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10085: SkillSet[] =  [
                     description: `第1回合时，触发「使自身造成治疗量增加25%(最多1层)」\n第1回合时，触发「我方全体被治疗时回复量增加12.5%(最多1层)丶受到持续型伤害减少30%(最多1层)」\n攻击时，触发「使我方当前HP最低者受到伤害减少20%(1回合)，再以攻击力15%对我方当前HP最低者进行治疗`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

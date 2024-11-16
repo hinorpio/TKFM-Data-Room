@@ -63,7 +63,7 @@ export const SkillSet_10153: SkillSet[] =  [
                     description: `使自身造成觸發技效果增加30%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -117,7 +117,7 @@ export const SkillSet_10153: SkillSet[] =  [
                     description: `使自身造成触发技效果增加30%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

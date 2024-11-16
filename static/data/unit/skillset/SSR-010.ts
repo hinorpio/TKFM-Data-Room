@@ -59,11 +59,11 @@ export const SkillSet_10008: SkillSet[] =  [
                     description: `普攻時，觸發"以攻擊力20%對目標進行3次追擊"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10008: SkillSet[] =  [
                     description: `普攻时，触发"以攻击力20%对目标进行3次追击"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

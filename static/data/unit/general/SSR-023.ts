@@ -53,7 +53,7 @@ export const General_10039: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
         TagID.OTHER_EXPLOSIVENESS,
     ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.h_lotiya ],
     puzzle: [],
     skillSet: []
 }

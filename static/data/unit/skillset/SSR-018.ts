@@ -59,11 +59,11 @@ export const SkillSet_10032: SkillSet[] =  [
                     description: `攻擊時，觸發"使我方全體必殺技傷害增加5%(最多6層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺技+ (6潛)`,
+                    name: `必殺技+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10032: SkillSet[] =  [
                     description: `攻击时，触发"使我方全体必杀技伤害增加5%(最多6层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀技+ (6潜)`,
+                    name: `必杀技+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

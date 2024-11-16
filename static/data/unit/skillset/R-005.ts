@@ -60,11 +60,11 @@ export const SkillSet_10805: SkillSet[] =  [
                     description: `每經過4回合，觸發"使自身攻擊力增加30%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `淫靡本性(稀有&普通調教道具↑) (3潛)`,
+                    name: `淫靡本性(稀有&普通調教道具↑)`,
                     description: `進行派遣時，微量提升普通調教道具雙倍獲得機率Lv1，稀有調教道具雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10805: SkillSet[] =  [
                     description: `每经过4回合，触发"使自身攻击力增加30%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `淫靡本性(稀有&普通调教道具↑) (3潜)`,
+                    name: `淫靡本性(稀有&普通调教道具↑)`,
                     description: `进行派遣时，微量提升普通调教道具双倍获得机率Lv1，稀有调教道具双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

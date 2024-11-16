@@ -60,11 +60,11 @@ export const SkillSet_10810: SkillSet[] =  [
                     description: `使自身最大HP增加30%、攻擊力增加30%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `聖水湧泉(普通調教道具↑↑) (3潛)`,
+                    name: `聖水湧泉(普通調教道具↑↑)`,
                     description: `進行派遣時，少量提升普通調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10810: SkillSet[] =  [
                     description: `使自身最大HP增加30%丶攻击力增加30%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `圣水涌泉(普通调教道具↑↑) (3潜)`,
+                    name: `圣水涌泉(普通调教道具↑↑)`,
                     description: `进行派遣时，少量提升普通调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

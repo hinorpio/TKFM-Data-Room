@@ -59,11 +59,11 @@ export const SkillSet_10012: SkillSet[] =  [
                     description: `每Wave的第1回合，觸發"使敵全體受到傷害增加20%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10012: SkillSet[] =  [
                     description: `每Wave的第1回合，触发"使敌全体受到伤害增加20%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10012: SkillSet[] =  [
                     description: `每Wave的第1回合，觸發"使敵全體受到傷害增加20%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10012: SkillSet[] =  [
                     description: `每Wave的第1回合，触发"使敌全体受到伤害增加20%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

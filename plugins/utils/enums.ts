@@ -486,5 +486,7 @@ export enum UnitCode {
     bg_ayane = 'SSR-121',
     bg_iblis = 'SSR-122',
     susan = 'SSR-123',
-    h_satan = 'SSR-124'
+    h_satan = 'SSR-124',
+    m_nanami = 'SSR-125',
+    m_ks8 = 'SSR-126'
 }

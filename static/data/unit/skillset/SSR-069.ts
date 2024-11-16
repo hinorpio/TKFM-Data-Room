@@ -59,11 +59,11 @@ export const SkillSet_10021: SkillSet[] =  [
                     description: `第1回合時，觸發《適才適所》\n\n《適才適所》\n使我方全體攻擊者造成傷害增加15%(50回合)\n使我方全體守護者受到傷害減少15%(50回合)\n使我方全體治療者攻擊力增加15%(50回合)\n使我方全體輔助者攻擊力增加15%(50回合)\n使我方全體妨礙者造成傷害增加15%(50回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10021: SkillSet[] =  [
                     description: `第1回合时，触发《适才适所》\n\n《适才适所》\n使我方全体攻击者造成伤害增加15%(50回合)\n使我方全体守护者受到伤害减少15%(50回合)\n使我方全体治疗者攻击力增加15%(50回合)\n使我方全体辅助者攻击力增加15%(50回合)\n使我方全体妨碍者造成伤害增加15%(50回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

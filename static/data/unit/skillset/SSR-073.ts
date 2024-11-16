@@ -59,11 +59,11 @@ export const SkillSet_10109: SkillSet[] =  [
                     description: `必殺時，觸發「使我方站位5的隊員必殺技傷害增加30%(1回合)」\n必殺時，觸發「使我方全體攻擊者必殺傷害增加20%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10109: SkillSet[] =  [
                     description: `必杀时，触发「使我方站位5的队员必杀技伤害增加30%(1回合)」\n必杀时，触发「使我方全体攻击者必杀伤害增加20%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

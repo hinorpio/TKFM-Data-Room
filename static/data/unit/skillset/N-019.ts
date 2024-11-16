@@ -60,11 +60,11 @@ export const SkillSet_10922: SkillSet[] =  [
                     description: `使自身受到普攻傷害減少50%，但受到必殺傷害增加25%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `寶藏獵人(強化素材↑) (3潛)`,
+                    name: `寶藏獵人(強化素材↑)`,
                     description: `進行派遣時，微量提升強化素材雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10922: SkillSet[] =  [
                     description: `使自身受到普攻伤害减少50%，但受到必杀伤害增加25%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `宝藏猎人(强化素材↑) (3潜)`,
+                    name: `宝藏猎人(强化素材↑)`,
                     description: `进行派遣时，微量提升强化素材双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

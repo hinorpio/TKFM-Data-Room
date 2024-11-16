@@ -59,11 +59,11 @@ export const SkillSet_10106: SkillSet[] =  [
                     description: `普攻時，觸發「使我方全體必殺技傷害增加6%(最多5層)」\n必殺時，觸發「使目標受到必殺技傷害增加15%(最多2層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10106: SkillSet[] =  [
                     description: `普攻时，触发「使我方全体必杀技伤害增加6%(最多5层)」\n必杀时，触发「使目标受到必杀技伤害增加15%(最多2层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

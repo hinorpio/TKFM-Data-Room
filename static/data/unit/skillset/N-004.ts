@@ -60,11 +60,11 @@ export const SkillSet_10904: SkillSet[] =  [
                     description: `攻擊時，觸發"使目標當前必殺技CD增加1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `墮落肉體(稀有調教道具↑) (3潛)`,
+                    name: `墮落肉體(稀有調教道具↑)`,
                     description: `進行派遣時，微量提升稀有調教道具雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10904: SkillSet[] =  [
                     description: `攻击时，触发"使目标当前必杀技CD增加1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `堕落肉体(稀有调教道具↑) (3潜)`,
+                    name: `堕落肉体(稀有调教道具↑)`,
                     description: `进行派遣时，微量提升稀有调教道具双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

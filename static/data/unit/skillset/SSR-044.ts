@@ -59,11 +59,11 @@ export const SkillSet_10050: SkillSet[] =  [
                     description: `第1回合，觸發「使敵方全體受到傷害增加20%(50回合)、使敵方全體造成傷害減少10%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `傷害+ (6潛)`,
+                    name: `傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `完全免疫 (12潛)`,
+                    name: `完全免疫`,
                     description: `使自身免疫睡眠\n使自身免疫麻痺\n使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10050: SkillSet[] =  [
                     description: `第1回合，触发「使敌方全体受到伤害增加20%(50回合)丶使敌方全体造成伤害减少10%(50回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `伤害+ (6潜)`,
+                    name: `伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `完全免疫 (12潜)`,
+                    name: `完全免疫`,
                     description: `使自身免疫睡眠\n使自身免疫麻痹\n使自身免疫沉默`
                 }
             },

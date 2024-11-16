@@ -60,11 +60,11 @@ export const SkillSet_10908: SkillSet[] =  [
                     description: `每經過6回合，觸發"自身攻擊力增加30%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(經驗藥水↑) (3潛)`,
+                    name: `努力家(經驗藥水↑)`,
                     description: `進行派遣時，微量提升經驗藥水雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10908: SkillSet[] =  [
                     description: `每经过6回合，触发"自身攻击力增加30%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(经验药水↑) (3潜)`,
+                    name: `努力家(经验药水↑)`,
                     description: `进行派遣时，微量提升经验药水双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

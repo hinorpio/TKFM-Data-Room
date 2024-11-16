@@ -59,11 +59,11 @@ export const SkillSet_10088: SkillSet[] =  [
                     description: `第7回合時，觸發「使我方全體造成傷害增加30%(最多1層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力+ (6潛)`,
+                    name: `攻擊力+`,
                     description: `攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10088: SkillSet[] =  [
                     description: `第7回合时，触发「使我方全体造成伤害增加30%(最多1层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `免疫麻痹`
                 }
             },

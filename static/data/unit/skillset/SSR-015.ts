@@ -59,11 +59,11 @@ export const SkillSet_10029: SkillSet[] =  [
                     description: `使自身攻擊力增加40%；且必殺時，觸發"以100%機率使目標沉默(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10029: SkillSet[] =  [
                     description: `使自身攻击力增加40%；且必杀时，触发"以100%机率使目标沉默(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

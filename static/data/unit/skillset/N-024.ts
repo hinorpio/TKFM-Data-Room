@@ -60,11 +60,11 @@ export const SkillSet_10921: SkillSet[] =  [
                     description: `必殺時，追加「以自身攻擊力2%對目標造成10次傷害」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸運兒(空手而歸↓) (3潛)`,
+                    name: `幸運兒(空手而歸↓)`,
                     description: `進行派遣時，微量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10921: SkillSet[] =  [
                     description: `必杀时，追加「以自身攻击力2%对目标造成10次伤害」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸运儿(空手而归↓) (3潜)`,
+                    name: `幸运儿(空手而归↓)`,
                     description: `进行派遣时，微量降低空手而归机率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

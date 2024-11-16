@@ -60,11 +60,11 @@ export const SkillSet_10924: SkillSet[] =  [
                     description: `普攻時，觸發「使目標受到麻痺機率增加10%(6回合)」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸運兒(空手而歸↓) (3潛)`,
+                    name: `幸運兒(空手而歸↓)`,
                     description: `進行派遣時，微量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10924: SkillSet[] =  [
                     description: `普攻时，触发「使目标受到麻痹机率增加10%(6回合)」`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸运儿(空手而归↓) (3潜)`,
+                    name: `幸运儿(空手而归↓)`,
                     description: `进行派遣时，微量降低空手而归机率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

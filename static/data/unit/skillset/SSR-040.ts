@@ -59,11 +59,11 @@ export const SkillSet_10084: SkillSet[] =  [
                     description: `必殺時，觸發「以自身攻擊力99.9%對目標造成傷害」\n攻擊時，觸發「使自身必殺技傷害增加10%(5回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10084: SkillSet[] =  [
                     description: `必杀时，触发「以自身攻击力99.9%对目标造成伤害」\n攻击时，触发「使自身必杀技伤害增加10%(5回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10084: SkillSet[] =  [
                     description: `必殺時，觸發「以自身攻擊力99.9%對目標造成傷害」\n被攻擊時，觸發「使自身受到傷害減少15%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10084: SkillSet[] =  [
                     description: `必杀时，触发「以自身攻击力99.9%对目标造成伤害」\n被攻击时，触发「使自身受到伤害减少15%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

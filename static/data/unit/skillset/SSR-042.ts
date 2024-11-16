@@ -59,11 +59,11 @@ export const SkillSet_10019: SkillSet[] =  [
                     description: `受到傷害減少15%\n普攻時，觸發「以自身最大HP12.5%給予自身護盾效果(1回合)」\n必殺時，觸發「使目標受到現代勇者神田綾音受到傷害增加17.5%(最多2層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10019: SkillSet[] =  [
                     description: `受到伤害减少15%\n普攻时，触发「以自身最大HP12.5%给予自身护盾效果(1回合)」\n必杀时，触发「使目标受到现代勇者神田绫音受到伤害增加17.5%(最多2层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

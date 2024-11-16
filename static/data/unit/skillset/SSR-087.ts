@@ -59,11 +59,11 @@ export const SkillSet_10121: SkillSet[] =  [
                     description: `使我方全體造成傷害增加10%\n普攻時，觸發「使我方全體攻擊力增加10%(最多4層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10121: SkillSet[] =  [
                     description: `使我方全体造成伤害增加10%\n普攻时，触发「使我方全体攻击力增加10%(最多4层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

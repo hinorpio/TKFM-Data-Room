@@ -59,11 +59,11 @@ export const SkillSet_10002: SkillSet[] =  [
                     description: `使自身每回合以自身最大HP10%進行治療`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `防禦減傷+ (6潛)`,
+                    name: `防禦減傷+`,
                     description: `使自身防禦時的減傷效果增加10%%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10002: SkillSet[] =  [
                     description: `使自身每回合以自身最大HP10%进行治疗`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `防御减伤+ (6潜)`,
+                    name: `防御减伤+`,
                     description: `使自身防御时的减伤效果增加10%%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫睡眠`
                 }
             },

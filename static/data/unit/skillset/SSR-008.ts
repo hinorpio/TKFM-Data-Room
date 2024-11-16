@@ -59,11 +59,11 @@ export const SkillSet_10025: SkillSet[] =  [
                     description: `使自身必殺技最大CD減少2回合`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力增加 (6潛)`,
+                    name: `攻擊力增加`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10025: SkillSet[] =  [
                     description: `使自身必杀技最大CD减少2回合`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力增加 (6潜)`,
+                    name: `攻击力增加`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -346,11 +346,11 @@ export const SkillSet_10025: SkillSet[] =  [
                     description: `使自身必殺技最大CD減少2回合`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力增加 (6潛)`,
+                    name: `攻擊力增加`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -404,11 +404,11 @@ export const SkillSet_10025: SkillSet[] =  [
                     description: `使自身必杀技最大CD减少2回合`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力增加 (6潜)`,
+                    name: `攻击力增加`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

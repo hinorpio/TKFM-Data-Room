@@ -59,11 +59,11 @@ export const SkillSet_10068: SkillSet[] =  [
                     description: `每經過3回合，觸發「使我方全體必殺技傷害增加30%(1回合)、以自身攻擊力20%使我方全體攻擊力增加(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10068: SkillSet[] =  [
                     description: `每经过3回合，触发「使我方全体必杀技伤害增加30%(1回合)丶以自身攻击力20%使我方全体攻击力增加(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

@@ -60,11 +60,11 @@ export const SkillSet_10906: SkillSet[] =  [
                     description: `每經過4回合，觸發"使自身攻擊力增加7.5%(最多4層)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸運兒(空手而歸↓) (3潛)`,
+                    name: `幸運兒(空手而歸↓)`,
                     description: `進行派遣時，微量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10906: SkillSet[] =  [
                     description: `每经过4回合，触发"使自身攻击力增加7.5%(最多4层)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `幸运儿(空手而归↓) (3潜)`,
+                    name: `幸运儿(空手而归↓)`,
                     description: `进行派遣时，微量降低空手而归机率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

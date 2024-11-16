@@ -60,11 +60,11 @@ export const SkillSet_10804: SkillSet[] =  [
                     description: `被治療時，有50%機率觸發"使自身當前必殺技CD減少1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `嗅覺敏銳(空手而歸↓↓) (3潛)`,
+                    name: `嗅覺敏銳(空手而歸↓↓)`,
                     description: `進行派遣時，少量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10804: SkillSet[] =  [
                     description: `被治疗时，有50%机率触发"使自身当前必杀技CD减少1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `嗅觉敏锐(空手而归↓↓) (3潜)`,
+                    name: `嗅觉敏锐(空手而归↓↓)`,
                     description: `进行派遣时，少量降低空手而归机率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

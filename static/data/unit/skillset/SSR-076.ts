@@ -59,11 +59,11 @@ export const SkillSet_10078: SkillSet[] =  [
                     description: `普攻時，觸發「使目標受到水屬性傷害增加2%(最多5層)」\n普攻時，觸發「使目標受到普攻傷害增加15%(最多5層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `傷害+ (6潛)`,
+                    name: `傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10078: SkillSet[] =  [
                     description: `普攻时，触发「使目标受到水属性伤害增加2%(最多5层)」\n普攻时，触发「使目标受到普攻伤害增加15%(最多5层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `伤害+ (6潜)`,
+                    name: `伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

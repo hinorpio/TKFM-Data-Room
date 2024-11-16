@@ -415,6 +415,12 @@ import DISCIPLINE_10152_3 from "@/assets/character/discipline/cgs10152_3.png"
 import DISCIPLINE_10153_1 from "@/assets/character/discipline/cgs10153_1.png"
 import DISCIPLINE_10153_2 from "@/assets/character/discipline/cgs10153_2.png"
 import DISCIPLINE_10153_3 from "@/assets/character/discipline/cgs10153_3.png"
+import DISCIPLINE_10154_1 from "@/assets/character/discipline/cgs10154_1.png"
+import DISCIPLINE_10154_2 from "@/assets/character/discipline/cgs10154_2.png"
+import DISCIPLINE_10154_3 from "@/assets/character/discipline/cgs10154_3.png"
+import DISCIPLINE_10155_1 from "@/assets/character/discipline/cgs10155_1.png"
+import DISCIPLINE_10155_2 from "@/assets/character/discipline/cgs10155_2.png"
+import DISCIPLINE_10155_3 from "@/assets/character/discipline/cgs10155_3.png"
 
 import DISCIPLINE_10801_1 from "@/assets/character/discipline/cgs10801_1.png"
 import DISCIPLINE_10801_3 from "@/assets/character/discipline/cgs10801_3.png"
@@ -679,6 +685,8 @@ const SSR = {
     [UnitCode.bg_iblis]: [ DISCIPLINE_10151_1, DISCIPLINE_10151_2, DISCIPLINE_10151_3 ],
     [UnitCode.susan]: [ DISCIPLINE_10152_1, DISCIPLINE_10152_2, DISCIPLINE_10152_3 ],
     [UnitCode.h_satan]: [ DISCIPLINE_10153_1, DISCIPLINE_10153_2, DISCIPLINE_10153_3 ],
+    [UnitCode.m_nanami]: [ DISCIPLINE_10154_1, DISCIPLINE_10154_2, DISCIPLINE_10154_3 ],
+    [UnitCode.m_ks8]: [ DISCIPLINE_10155_1, DISCIPLINE_10155_2, DISCIPLINE_10155_3 ],
 }
 
 export const DisciplinePreview = {

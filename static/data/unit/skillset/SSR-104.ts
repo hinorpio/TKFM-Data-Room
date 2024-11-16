@@ -59,11 +59,11 @@ export const SkillSet_10134: SkillSet[] =  [
                     description: `必殺時，觸發「以自身攻擊力15使自身以外我方全體攻擊力增加(1回合)」\n防禦時，觸發「以自身攻擊力120每回合對我方全體進行治療(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `造成治療+ (6潛)`,
+                    name: `造成治療+`,
                     description: `使自身造成治療量提升15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10134: SkillSet[] =  [
                     description: `必杀时，触发「以自身攻击力15使自身以外我方全体攻击力增加(1回合)」\n防御时，触发「以自身攻击力120每回合对我方全体进行治疗(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `造成治疗+ (6潜)`,
+                    name: `造成治疗+`,
                     description: `使自身造成治疗量提升15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

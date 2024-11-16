@@ -59,11 +59,11 @@ export const SkillSet_10067: SkillSet[] =  [
                     description: `使自身造成觸發技效果增加50%\n攻擊時，觸發「使目標受到觸發技傷害增加12.5%(最多4層)」效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `觸發+ (6潛)`,
+                    name: `觸發+`,
                     description: `使自身造成觸發技效果增加30%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10067: SkillSet[] =  [
                     description: `使自身造成触发技效果增加50%\n攻击时，触发「使目标受到触发技伤害增加12.5%(最多4层)」效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `触发+ (6潜)`,
+                    name: `触发+`,
                     description: `使自身造成触发技效果增加30%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

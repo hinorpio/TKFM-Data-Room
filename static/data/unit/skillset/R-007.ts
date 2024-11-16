@@ -60,11 +60,11 @@ export const SkillSet_10807: SkillSet[] =  [
                     description: `必殺時，有50%機率觸發"使自身當前必殺技CD減少2回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `為了研究(強化素材↑↑) (3潛)`,
+                    name: `為了研究(強化素材↑↑)`,
                     description: `進行派遣時，少量提升強化素材雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10807: SkillSet[] =  [
                     description: `必杀时，有50%机率触发"使自身当前必杀技CD减少2回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `为了研究(强化素材↑↑) (3潜)`,
+                    name: `为了研究(强化素材↑↑)`,
                     description: `进行派遣时，少量提升强化素材双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

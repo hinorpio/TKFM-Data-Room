@@ -59,11 +59,11 @@ export const SkillSet_10027: SkillSet[] =  [
                     description: `防禦減傷效果增加10%\n造成傷害增加35%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `回復量+ (6潛)`,
+                    name: `回復量+`,
                     description: `使自身被治療時回復量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10027: SkillSet[] =  [
                     description: `防御减伤效果增加10%\n造成伤害增加35%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `回复量+ (6潜)`,
+                    name: `回复量+`,
                     description: `使自身被治疗时回复量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10027: SkillSet[] =  [
                     description: `必殺時，觸發"自身造成傷害增加33%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `回復量+ (6潛)`,
+                    name: `回復量+`,
                     description: `使自身被治療時回復量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10027: SkillSet[] =  [
                     description: `必杀时，触发"自身造成伤害增加33%(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `回复量+ (6潜)`,
+                    name: `回复量+`,
                     description: `使自身被治疗时回复量增加15%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

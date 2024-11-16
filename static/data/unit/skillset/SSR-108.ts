@@ -59,11 +59,11 @@ export const SkillSet_10138: SkillSet[] =  [
                     description: `防禦時，觸發「使我方最大HP最低者受到傷害減少20%(1回合)」\n防禦時，觸發「以自身攻擊力50%對我方全體進行治療」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持續治療+ (6潛)`,
+                    name: `持續治療+`,
                     description: `使自身造成持續型治療增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10138: SkillSet[] =  [
                     description: `防御时，触发「使我方最大HP最低者受到伤害减少20%(1回合)」\n防御时，触发「以自身攻击力50%对我方全体进行治疗」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持续治疗+ (6潜)`,
+                    name: `持续治疗+`,
                     description: `使自身造成持续型治疗增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -346,11 +346,11 @@ export const SkillSet_10138: SkillSet[] =  [
                     description: `防禦時，觸發「使我方最大HP最低者受到傷害減少20%(1回合)」\n防禦時，觸發「以自身攻擊力50%對我方全體進行治療」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持續治療+ (6潛)`,
+                    name: `持續治療+`,
                     description: `使自身造成持續型治療增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -404,11 +404,11 @@ export const SkillSet_10138: SkillSet[] =  [
                     description: `防御时，触发「使我方最大HP最低者受到伤害减少20%(1回合)」\n防御时，触发「以自身攻击力50%对我方全体进行治疗」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持续治疗+ (6潜)`,
+                    name: `持续治疗+`,
                     description: `使自身造成持续型治疗增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

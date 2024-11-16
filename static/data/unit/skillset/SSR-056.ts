@@ -59,11 +59,11 @@ export const SkillSet_10089: SkillSet[] =  [
                     description: `使我方全體火、水屬性隊員獲得「《命運交織》」\n使我方全體火、水屬性隊員獲得 「當『雙星之紅 安絲蒂』 在我方場上且存活時，發動《命運交織。絆》』」\n\n《命運交織》\n攻擊時，觸發「使目標受到火、水屬性傷害增加1.5%(最多7層)」\n攻擊時，觸發「使自身造成傷害增加1.5%(最多7層)」\n攻擊時，觸發「使自身必殺技傷害增加1.5%(最多7層)」\n \n《命運交織。絆》\n攻擊時，觸發「使自身造成傷害增加1.5%(最多7層)」\n攻擊時，觸發「使自身必殺技傷害增加1.5%(最多7層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10089: SkillSet[] =  [
                     description: `第7回合时，触发「使我方全体造成伤害增加30%(最多1层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `免疫麻痹`
                 }
             },

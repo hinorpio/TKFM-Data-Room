@@ -59,11 +59,11 @@ export const SkillSet_10110: SkillSet[] =  [
                     description: `依據「致命香氣」層數獲得不同效果：\n3層以上：「自身造成傷害增加20%」\n6層以上：「普攻時，觸發『使自身普攻傷害增加10%(最多3層)』」\n9層以上：「攻擊時，觸發『使目標受到傷害增加15%(最多1層)』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力+ (6潛)`,
+                    name: `攻擊力+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10110: SkillSet[] =  [
                     description: `依据「致命香气」层数获得不同效果：\n3层以上：「自身造成伤害增加20%」\n6层以上：「普攻时，触发『使自身普攻伤害增加10%(最多3层)』」\n9层以上：「攻击时，触发『使目标受到伤害增加15%(最多1层)』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

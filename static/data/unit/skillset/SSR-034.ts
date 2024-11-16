@@ -59,11 +59,11 @@ export const SkillSet_10054: SkillSet[] =  [
                     description: `HP增加10%\n被攻擊時，觸發「以自身基礎攻擊力100%對我方全體進行治療」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `受到傷害減少 (6潛)`,
+                    name: `受到傷害減少`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10054: SkillSet[] =  [
                     description: `HP增加10%\n被攻击时，触发「以自身基础攻击力100%对我方全体进行治疗」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `受到伤害减少 (6潜)`,
+                    name: `受到伤害减少`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

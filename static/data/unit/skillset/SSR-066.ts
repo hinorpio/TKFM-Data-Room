@@ -59,11 +59,11 @@ export const SkillSet_10024: SkillSet[] =  [
                     description: `普攻時，觸發「使目標受到傷害增加3.5%(最多8層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+ (6潛)`,
+                    name: `普攻+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10024: SkillSet[] =  [
                     description: `普攻时，触发「使目标受到伤害增加3.5%(最多8层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+ (6潜)`,
+                    name: `普攻+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

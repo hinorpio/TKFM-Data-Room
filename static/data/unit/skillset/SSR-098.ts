@@ -59,11 +59,11 @@ export const SkillSet_10128: SkillSet[] =  [
                     description: `使我方全體攻擊者造成傷害增加15%\n造成傷害增加20%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `造成傷害+ (6潛)`,
+                    name: `造成傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10128: SkillSet[] =  [
                     description: `使我方全体攻击者造成伤害增加15%\n造成伤害增加20%`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `造成伤害+ (6潜)`,
+                    name: `造成伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

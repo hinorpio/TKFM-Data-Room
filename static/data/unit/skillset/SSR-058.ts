@@ -59,11 +59,11 @@ export const SkillSet_10066: SkillSet[] =  [
                     description: `每經過一回合，觸發「使自身攻擊力增加4%(最多50層)」\n攻擊時，觸發「使自身攻擊力增加2%(最多50層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10066: SkillSet[] =  [
                     description: `每经过一回合，触发「使自身攻击力增加4%(最多50层)」\n攻击时，触发「使自身攻击力增加2%(最多50层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

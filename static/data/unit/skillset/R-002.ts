@@ -60,11 +60,11 @@ export const SkillSet_10802: SkillSet[] =  [
                     description: `普攻時，觸發"以攻擊力50%對目標造成傷害"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `貓咪直覺(空手而歸↓↓) (3潛)`,
+                    name: `貓咪直覺(空手而歸↓↓)`,
                     description: `進行派遣時，少量降低空手而歸機率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10802: SkillSet[] =  [
                     description: `普攻时，触发"以攻击力50%对目标造成伤害"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `猫咪直觉(空手而归↓↓) (3潜)`,
+                    name: `猫咪直觉(空手而归↓↓)`,
                     description: `进行派遣时，少量降低空手而归机率(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

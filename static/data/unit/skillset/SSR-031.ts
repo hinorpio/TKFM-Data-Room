@@ -59,11 +59,11 @@ export const SkillSet_10083: SkillSet[] =  [
                     description: `防禦時，觸發「以自身攻擊力50%對我方全體進行治療， 並使《越來越爽囉》與《爽到升天》賦予的攻擊力增加狀態增加3層」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10083: SkillSet[] =  [
                     description: `防御时，触发「以自身攻击力50%对我方全体进行治疗， 并使《越来越爽罗》与《爽到升天》赋予的攻击力增加状态增加3层」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

@@ -59,11 +59,11 @@ export const SkillSet_10026: SkillSet[] =  [
                     description: `必殺時，觸發"以攻擊力100%對我方全體施放護盾(4回合)" 效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `受到傷害減少 (6潛)`,
+                    name: `受到傷害減少`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10026: SkillSet[] =  [
                     description: `必杀时，触发"以攻击力100%对我方全体施放护盾(4回合)" 效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `受到伤害减少 (6潜)`,
+                    name: `受到伤害减少`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

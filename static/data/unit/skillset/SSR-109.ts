@@ -59,11 +59,11 @@ export const SkillSet_10139: SkillSet[] =  [
                     description: `第一回合時，觸發「使自身當前必殺技CD減少2回合」\n必殺時，觸發「使目標受到光屬性傷害增加20%(最多1層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10139: SkillSet[] =  [
                     description: `第一回合时，触发「使自身当前必杀技CD减少2回合」\n必杀时，触发「使目标受到光属性伤害增加20%(最多1层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

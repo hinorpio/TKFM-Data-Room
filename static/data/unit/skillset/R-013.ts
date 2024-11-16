@@ -60,11 +60,11 @@ export const SkillSet_10813: SkillSet[] =  [
                     description: `使自身造成持續型治療增加20%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `情趣玩具專家(稀有調教道具↑↑) (3潛)`,
+                    name: `情趣玩具專家(稀有調教道具↑↑)`,
                     description: `進行派遣時，少量提升稀有調教道具雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10813: SkillSet[] =  [
                     description: `使自身造成持续型治疗增加20%`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `情趣玩具专家(稀有调教道具↑↑) (3潜)`,
+                    name: `情趣玩具专家(稀有调教道具↑↑)`,
                     description: `进行派遣时，少量提升稀有调教道具双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

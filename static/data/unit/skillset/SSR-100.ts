@@ -59,11 +59,11 @@ export const SkillSet_10130: SkillSet[] =  [
                     description: `當自身《喧嘩上等！》層數=10層時，發動「《夜露死苦！》」\n\n《夜露死苦！》\n行動時，觸發「使自身獲得《巴格耶鹿！》」\n\n《巴格耶鹿！》\n被攻擊時，觸發「以自身攻擊力100%對目標進行反擊(被攻擊1次後解除)」(1回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `傷害+ (6潛)`,
+                    name: `傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10130: SkillSet[] =  [
                     description: `当自身《喧哗上等！》层数=10层时，发动「《夜露死苦！》」\n\n《夜露死苦！》\n行动时，触发「使自身获得《巴格耶鹿！》」\n\n《巴格耶鹿！》\n被攻击时，触发「以自身攻击力100%对目标进行反击(被攻击1次後解除)」(1回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `伤害+ (6潜)`,
+                    name: `伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

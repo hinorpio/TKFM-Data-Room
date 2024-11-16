@@ -59,11 +59,11 @@ export const SkillSet_10081: SkillSet[] =  [
                     description: `普攻時，觸發「使目標受到水屬性傷害增加5%(最多3層)」\n普攻時，觸發「使目標受到光屬性傷害增加5%(最多3層)」\n必殺時，觸發「以自身攻擊力150%對目標進行追擊」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10081: SkillSet[] =  [
                     description: `普攻时，触发「使目标受到水属性伤害增加5%(最多3层)」\n普攻时，触发「使目标受到光属性伤害增加5%(最多3层)」\n必杀时，触发「以自身攻击力150%对目标进行追击」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

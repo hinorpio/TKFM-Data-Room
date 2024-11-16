@@ -59,11 +59,11 @@ export const SkillSet_10028: SkillSet[] =  [
                     description: `必殺時，觸發"使我方全體風屬性角色必殺技傷害增加15%(最多2層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10028: SkillSet[] =  [
                     description: `必杀时，触发"使我方全体风属性角色必杀技伤害增加15%(最多2层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10028: SkillSet[] =  [
                     description: `必殺時，觸發"使我方全體風屬性角色攻擊力增加15%(最多2層)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺+ (6潛)`,
+                    name: `必殺+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10028: SkillSet[] =  [
                     description: `必杀时，触发"使我方全体风属性角色攻击力增加15%(最多2层)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀+ (6潜)`,
+                    name: `必杀+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

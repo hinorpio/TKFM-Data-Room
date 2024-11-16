@@ -60,11 +60,11 @@ export const SkillSet_10806: SkillSet[] =  [
                     description: `每經過4回合，觸發"使我方全體被治療時回復量增加20%(2回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `Happy Ending(購買許可↑↑) (3潛)`,
+                    name: `Happy Ending(購買許可↑↑)`,
                     description: `進行派遣時，少量提升購買許可雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10806: SkillSet[] =  [
                     description: `每经过4回合，触发"使我方全体被治疗时回复量增加20%(2回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `Happy Ending(购买许可↑↑) (3潜)`,
+                    name: `Happy Ending(购买许可↑↑)`,
                     description: `进行派遣时，少量提升购买许可双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -343,11 +343,11 @@ export const SkillSet_10806: SkillSet[] =  [
                     description: `每經過4回合，觸發"使我方全體被治療時回復量增加20%(2回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `Happy Ending(購買許可↑↑) (3潛)`,
+                    name: `Happy Ending(購買許可↑↑)`,
                     description: `進行派遣時，少量提升購買許可雙倍獲得機率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -397,11 +397,11 @@ export const SkillSet_10806: SkillSet[] =  [
                     description: `每经过4回合，触发"使我方全体被治疗时回复量增加20%(2回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `Happy Ending(购买许可↑↑) (3潜)`,
+                    name: `Happy Ending(购买许可↑↑)`,
                     description: `进行派遣时，少量提升购买许可双倍获得机率Lv2(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

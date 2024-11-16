@@ -60,11 +60,11 @@ export const SkillSet_10915: SkillSet[] =  [
                     description: `普攻時，觸發"使自身當前必殺技CD減少1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `勤儉持家(購買許可↑) (3潛)`,
+                    name: `勤儉持家(購買許可↑)`,
                     description: `進行派遣時，微量提升購買許可雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10915: SkillSet[] =  [
                     description: `普攻时，触发"使自身当前必杀技CD减少1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `勤俭持家(购买许可↑) (3潜)`,
+                    name: `勤俭持家(购买许可↑)`,
                     description: `进行派遣时，微量提升购买许可双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

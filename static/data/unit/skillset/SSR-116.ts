@@ -59,11 +59,11 @@ export const SkillSet_10146: SkillSet[] =  [
                     description: `每經過一回合時，觸發「使自身獲得『摒除雜念(最多8層)』」\n當自身「摒除雜念」層數=8時，開啟「必殺時，追加『以自身攻擊力220%對目標造成傷害』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10146: SkillSet[] =  [
                     description: `每经过一回合时，触发「使自身获得『摒除杂念(最多8层)』」\n当自身「摒除杂念」层数=8时，开启「必杀时，追加『以自身攻击力220%对目标造成伤害』」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

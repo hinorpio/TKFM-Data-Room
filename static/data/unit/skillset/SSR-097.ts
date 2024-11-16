@@ -59,11 +59,11 @@ export const SkillSet_10127: SkillSet[] =  [
                     description: `第4回合時，觸發「使我方全體必殺技傷害增加30%(16回合)」\n第7回合時，觸發「使我方全體必殺技傷害增加30%(13回合)」\n第10回合時，觸發「使我方全體必殺技傷害增加40%(10回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10127: SkillSet[] =  [
                     description: `第4回合时，触发「使我方全体必杀技伤害增加30%(16回合)」\n第7回合时，触发「使我方全体必杀技伤害增加30%(13回合)」\n第10回合时，触发「使我方全体必杀技伤害增加40%(10回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

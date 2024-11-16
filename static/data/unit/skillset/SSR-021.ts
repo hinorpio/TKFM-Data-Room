@@ -59,11 +59,11 @@ export const SkillSet_10035: SkillSet[] =  [
                     description: `普攻時，觸發"使自身必殺傷害增加10%(6回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必殺技+ (6潛)`,
+                    name: `必殺技+`,
                     description: `使自身必殺技傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10035: SkillSet[] =  [
                     description: `普攻时，触发"使自身必杀伤害增加10%(6回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `必杀技+ (6潜)`,
+                    name: `必杀技+`,
                     description: `使自身必杀技伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

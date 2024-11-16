@@ -59,11 +59,11 @@ export const SkillSet_10031: SkillSet[] =  [
                     description: `每經過4回合，觸發「使自身攻擊時，觸發『以自身攻擊力50%對敵方全體進行4次追擊』(1回合)」\n必殺時，觸發「使敵方全體受到觸發技傷害增加32.5%(最多1層)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力+ (6潛)`,
+                    name: `攻擊力+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10031: SkillSet[] =  [
                     description: `每经过4回合，触发「使自身攻击时，触发『以自身攻击力50%对敌方全体进行4次追击』(1回合)」\n必杀时，触发「使敌方全体受到触发技伤害增加32.5%(最多1层)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10031: SkillSet[] =  [
                     description: `每經過4回合，觸發"自身攻擊時，觸發以自身攻擊力50%對敵方全體進行4次追擊(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊力+ (6潛)`,
+                    name: `攻擊力+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10031: SkillSet[] =  [
                     description: `每经过4回合，触发"自身攻击时，触发以自身攻击力50%对敌方全体进行4次追击(1回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击力+ (6潜)`,
+                    name: `攻击力+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

@@ -60,11 +60,11 @@ export const SkillSet_10917: SkillSet[] =  [
                     description: `第1回合開始時，觸發"使自身當前必殺技CD減少3回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(經驗藥水↑) (3潛)`,
+                    name: `努力家(經驗藥水↑)`,
                     description: `進行派遣時，微量提升經驗藥水雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (6潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10917: SkillSet[] =  [
                     description: `第1回合开始时，触发"使自身当前必杀技CD减少3回合"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `努力家(经验药水↑) (3潜)`,
+                    name: `努力家(经验药水↑)`,
                     description: `进行派遣时，微量提升经验药水双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (6潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

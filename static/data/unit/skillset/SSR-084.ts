@@ -59,11 +59,11 @@ export const SkillSet_10118: SkillSet[] =  [
                     description: `必殺時，觸發「使我方全體造成傷害增加20%(最多1層)」\n被治療時，觸發「使我方全體造成傷害增加5%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10118: SkillSet[] =  [
                     description: `必杀时，触发「使我方全体造成伤害增加20%(最多1层)」\n被治疗时，触发「使我方全体造成伤害增加5%(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

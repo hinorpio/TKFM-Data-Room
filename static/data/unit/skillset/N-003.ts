@@ -60,11 +60,11 @@ export const SkillSet_10903: SkillSet[] =  [
                     description: `必殺時，觸發"使自身受到傷害減少15%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `天生淫蕩(普通調教道具↑) (3潛)`,
+                    name: `天生淫蕩(普通調教道具↑)`,
                     description: `進行派遣時，微量提升普通調教道具雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10903: SkillSet[] =  [
                     description: `必杀时，触发"使自身受到伤害减少15%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `天生淫荡(普通调教道具↑) (3潜)`,
+                    name: `天生淫荡(普通调教道具↑)`,
                     description: `进行派遣时，微量提升普通调教道具双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (6潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

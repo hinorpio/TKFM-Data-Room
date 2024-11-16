@@ -60,11 +60,11 @@ export const SkillSet_10913: SkillSet[] =  [
                     description: `攻擊時，觸發"目標受到治療量減少50%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `寶藏獵人(強化素材↑) (3潛)`,
+                    name: `寶藏獵人(強化素材↑)`,
                     description: `進行派遣時，微量提升強化素材雙倍獲得機率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -114,11 +114,11 @@ export const SkillSet_10913: SkillSet[] =  [
                     description: `攻击时，触发"目标受到治疗量减少50%(1回合)"效果`
                 },
                 [SkillType.DISPATCH]: {
-                    name: `宝藏猎人(强化素材↑) (3潜)`,
+                    name: `宝藏猎人(强化素材↑)`,
                     description: `进行派遣时，微量提升强化素材双倍获得机率Lv1(全域效果)`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (6潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

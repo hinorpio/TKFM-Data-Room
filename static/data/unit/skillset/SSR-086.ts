@@ -59,11 +59,11 @@ export const SkillSet_10120: SkillSet[] =  [
                     description: `必殺技最大CD減少1回合\n普攻時，觸發「使自身造成傷害增加20%(3回合)」\n每經過1回合，觸發「使自身獲得必殺時，觸發『清除自身《太小聲囉！》的造成傷害增加(回合型)效果』(1回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `傷害+ (6潛)`,
+                    name: `傷害+`,
                     description: `使自身造成傷害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10120: SkillSet[] =  [
                     description: `必杀技最大CD减少1回合\n普攻时，触发「使自身造成伤害增加20%(3回合)」\n每经过1回合，触发「使自身获得必杀时，触发『清除自身《太小声罗！》的造成伤害增加(回合型)效果』(1回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `伤害+ (6潜)`,
+                    name: `伤害+`,
                     description: `使自身造成伤害增加7.5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

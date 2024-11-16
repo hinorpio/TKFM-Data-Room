@@ -59,11 +59,11 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `使自身必殺技最大CD減少1回合\n自身造成持續型治療增加10%\n攻擊時，觸發「使我方全體普攻傷害增加4%(5回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持續治療+ (6潛)`,
+                    name: `持續治療+`,
                     description: `使自身造成持續型治療增加10%%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `使自身必杀技最大CD减少1回合\n自身造成持续型治疗增加10%\n攻击时，触发「使我方全体普攻伤害增加4%(5回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持续治疗+ (6潜)`,
+                    name: `持续治疗+`,
                     description: `使自身造成持续型治疗增加10%%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

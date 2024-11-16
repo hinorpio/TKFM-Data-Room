@@ -59,11 +59,11 @@ export const SkillSet_10129: SkillSet[] =  [
                     description: `被攻擊時，觸發「使自身造成傷害增加10%(最多4層)」\n被攻擊時，觸發「以自身最大HP23%對自身施放護盾(1回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `護盾+ (6潛)`,
+                    name: `護盾+`,
                     description: `使自身護盾效果增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10129: SkillSet[] =  [
                     description: `被攻击时，触发「使自身造成伤害增加10%(最多4层)」\n被攻击时，触发「以自身最大HP23%对自身施放护盾(1回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `护盾+ (6潜)`,
+                    name: `护盾+`,
                     description: `使自身护盾效果增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

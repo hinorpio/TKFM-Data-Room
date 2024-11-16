@@ -59,11 +59,11 @@ export const SkillSet_10093: SkillSet[] =  [
                     description: `被治療時，觸發「使自身造成傷害增加4%(最多5層)」\n必殺時，觸發「《連續加班拳》」\n\n《連續加班拳》\n普攻時，觸發「以自身攻擊力45%對目標造成傷害」(12回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10093: SkillSet[] =  [
                     description: `被治疗时，触发「使自身造成伤害增加4%(最多5层)」\n必杀时，触发「《连续加班拳》」\n\n《连续加班拳》\n普攻时，触发「以自身攻击力45%对目标造成伤害」(12回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

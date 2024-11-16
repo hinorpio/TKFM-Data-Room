@@ -59,11 +59,11 @@ export const SkillSet_10141: SkillSet[] =  [
                     description: `第1回合時，觸發「使自身當前必殺技CD減少3回合」\n必殺時，觸發「《理智值:笨蛋凱薩》」\n\n《理智值:笨蛋凱薩》\n以自身攻擊力100%對目標造成傷害\n使自身獲得50層《理智值》(最多50層)\n使自身不受「《理智值》層數減少」效果影響(4回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `觸發+ (6潛)`,
+                    name: `觸發+`,
                     description: `使自身造成觸發技效果增加30%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潛)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10141: SkillSet[] =  [
                     description: `第1回合时，触发「使自身当前必杀技CD减少3回合」\n必杀时，触发「《理智值:笨蛋凯萨》」\n\n《理智值:笨蛋凯萨》\n以自身攻击力100%对目标造成伤害\n使自身获得50层《理智值》(最多50层)\n使自身不受「《理智值》层数减少」效果影响(4回合)`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `触发+ (6潜)`,
+                    name: `触发+`,
                     description: `使自身造成触发技效果增加30%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠 (12潜)`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },

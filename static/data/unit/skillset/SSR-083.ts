@@ -59,11 +59,11 @@ export const SkillSet_10117: SkillSet[] =  [
                     description: `使我方全體獲得「《海之屋高級商品》」\n\n《海之屋高級商品》\n我方隊伍中至少有2名攻擊者時，發動「造成傷害增加30%」\n我方隊伍中至少有2名攻擊者時，發動「普攻傷害增加30%」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻傷害+ (6潛)`,
+                    name: `普攻傷害+`,
                     description: `使自身普攻傷害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10117: SkillSet[] =  [
                     description: `使我方全体获得「《海之屋高级商品》」\n\n《海之屋高级商品》\n我方队伍中至少有2名攻击者时，发动「造成伤害增加30%」\n我方队伍中至少有2名攻击者时，发动「普攻伤害增加30%」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻伤害+ (6潜)`,
+                    name: `普攻伤害+`,
                     description: `使自身普攻伤害增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

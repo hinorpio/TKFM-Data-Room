@@ -59,11 +59,11 @@ export const SkillSet_10113: SkillSet[] =  [
                     description: `我方隊伍中至少有(1/2)名輔助者時，各發動「造成傷害增加(15/15)%」\n我方隊伍中至少有(1/2)名治療者時，各發動「造成傷害增加(15/15)%」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻擊+ (6潛)`,
+                    name: `攻擊+`,
                     description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10113: SkillSet[] =  [
                     description: `我方队伍中至少有(1/2)名辅助者时，各发动「造成伤害增加(15/15)%」\n我方队伍中至少有(1/2)名治疗者时，各发动「造成伤害增加(15/15)%」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `攻击+ (6潜)`,
+                    name: `攻击+`,
                     description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },

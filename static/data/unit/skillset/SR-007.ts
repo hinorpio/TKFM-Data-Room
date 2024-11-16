@@ -59,11 +59,11 @@ export const SkillSet_10015: SkillSet[] =  [
                     description: `必殺時，觸發"使自身以外的隊員攻擊力增加15%、受到傷害減少10%(4回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10015: SkillSet[] =  [
                     description: `必杀时，触发"使自身以外的队员攻击力增加15%丶受到伤害减少10%(4回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -342,11 +342,11 @@ export const SkillSet_10015: SkillSet[] =  [
                     description: `必殺時，觸發"使自身以外的隊員攻擊力增加15%、受到傷害減少10%(4回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `減傷+ (6潛)`,
+                    name: `減傷+`,
                     description: `使自身受到傷害減少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潛)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },
@@ -396,11 +396,11 @@ export const SkillSet_10015: SkillSet[] =  [
                     description: `必杀时，触发"使自身以外的队员攻击力增加15%丶受到伤害减少10%(4回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `减伤+ (6潜)`,
+                    name: `减伤+`,
                     description: `使自身受到伤害减少5%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默 (12潜)`,
+                    name: `免疫沉默`,
                     description: `使自身免疫沉默`
                 }
             },

@@ -59,11 +59,11 @@ export const SkillSet_10077: SkillSet[] =  [
                     description: `必殺時 ，觸發「使我方全體攻擊力增加25%(8回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持續治療+ (6潛)`,
+                    name: `持續治療+`,
                     description: `使自身造成持續型治療增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痺 (12潛)`,
+                    name: `免疫麻痺`,
                     description: `使自身免疫麻痺`
                 }
             },
@@ -113,11 +113,11 @@ export const SkillSet_10077: SkillSet[] =  [
                     description: `必杀时 ，触发「使我方全体攻击力增加25%(8回合)」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `持续治疗+ (6潜)`,
+                    name: `持续治疗+`,
                     description: `使自身造成持续型治疗增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫麻痹 (12潜)`,
+                    name: `免疫麻痹`,
                     description: `使自身免疫麻痹`
                 }
             },
