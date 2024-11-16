@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.1.5',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 甜蜜女僕 星空奈奈美, 冷淡女僕 KS-Ⅷ`,
+                    [Locale.sc]: `角色: 甜蜜女仆 星空奈奈美, 冷淡女仆 KS-Ⅷ`,
+                    [Locale.en]: `Unit: Sweet Maid Nanami, Cold Maid KS-Ⅷ`,
+                    [Locale.jp]: `キャラ: 甘いメイド 星空ななみ, 冷酷メイド KS-Ⅷ`,
+                    [Locale.kr]: `캐릭터: 달콤한 메이드 나나미, 냉담한 메이드 KS-Ⅷ`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【夢幻偶像☆一日女僕】, 【☆星光少女☆】, 【魔獄塔】第二十二季, 【空氣怪獸大戰-復刻-】`,
+                    [Locale.sc]: `活动: 【梦幻偶像☆一日女仆】, 【☆星光少女☆】, 【魔狱塔】第二十二季, 【空气怪兽大战-复刻-】`,
+                    [Locale.en]: `Event: [Dreamy Idol ☆ Maid], [☆ Starlight Girl ☆], [The Demon Spire] Season 22, [The Battle of Thin Air -Comeback-]`,
+                    [Locale.jp]: `イベント: 「夢のアイドル☆1日メイド」, 「☆スターライトガール☆」, 「魔獄塔」第22シーズン, 「空気怪獣ごっこ-復刻-」`,
+                    [Locale.kr]: `이벤트: 【꿈의 아이돌☆일일 메이드】, 【☆스타라이트 걸☆】, 【마옥탑】 제22시즌, 【공기 괴수 대전-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.1.4',
         logs: [
             {
@@ -15,7 +40,7 @@ const events: UpdateLogs[] = [
                 }
             },
             {
-                type: LogType.CHANGE,
+                type: LogType.NEW,
                 content: {
                     [Locale.tc]: `角色: 治癒之星 蘇珊, 純真殺意 撒旦`,
                     [Locale.sc]: `角色: 治愈之星 苏珊, 纯真杀意 撒旦`,
