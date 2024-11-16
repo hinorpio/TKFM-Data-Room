@@ -4,6 +4,74 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0158',
+            type: EventType.SPIRE,
+            startDate: '2024/11/27',
+            endDate: '2025/01/29',
+            color: EventTypeColor.SPIRE,
+            name: {
+                [Locale.tc]: `【魔獄塔】第二十二季`,
+                [Locale.sc]: `【魔狱塔】第二十二季`,
+                [Locale.en]: `[The Demon Spire] Season 22`,
+                [Locale.jp]: `「魔獄塔」第22シーズン`,
+                [Locale.kr]: `【마옥탑】 제22시즌`
+            },
+            image: EventBanner.EVENT_0158,
+            newUnit: []
+        },
+        {
+            code: '0159',
+            type: EventType.EVOLVE,
+            startDate: '2024/11/27',
+            endDate: '2024/12/11',
+            color: EventTypeColor.EVOLVE,
+            name: {
+                [Locale.tc]: `【空氣怪獸大戰-復刻-】`,
+                [Locale.sc]: `【空气怪兽大战-复刻-】`,
+                [Locale.en]: `[The Battle of Thin Air -Comeback-]`,
+                [Locale.jp]: `「空気怪獣ごっこ-復刻-」`,
+                [Locale.kr]: `【공기 괴수 대전-복각-】`
+            },
+            image: EventBanner.EVENT_0159,
+            newUnit: []
+        },
+    ],
+    [
+        {
+            code: '0156',
+            type: EventType.POINT,
+            startDate: '2024/11/13',
+            endDate: '2024/12/04',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【夢幻偶像☆一日女僕】`,
+                [Locale.sc]: `【梦幻偶像☆一日女仆】`,
+                [Locale.en]: `[Dreamy Idol ☆ Maid]`,
+                [Locale.jp]: `「夢のアイドル☆1日メイド」`,
+                [Locale.kr]: `【꿈의 아이돌☆일일 메이드】`
+            },
+            image: EventBanner.EVENT_0156,
+            newUnit: [ UnitCode.m_nanami, UnitCode.m_ks8 ]
+        },
+        {
+            code: '0157',
+            type: EventType.GUILDBOSS,
+            startDate: '2024/11/20',
+            endDate: '2024/12/04',
+            color: EventTypeColor.GUILDBOSS,
+            name: {
+                [Locale.tc]: `【☆星光少女☆】`,
+                [Locale.sc]: `【☆星光少女☆】`,
+                [Locale.en]: `[☆ Starlight Girl ☆]`,
+                [Locale.jp]: `「☆スターライトガール☆」`,
+                [Locale.kr]: `【☆스타라이트 걸☆】`
+            },
+            image: EventBanner.EVENT_0157,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0155',
             type: EventType.DISCIPLINE,
             startDate: '2024/10/30',
