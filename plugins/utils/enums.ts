@@ -269,6 +269,8 @@ export enum PuzzleCode {
     EVENT_2024_SUMMER_2 = 'EVENT_2024_SUMMER_2',
     EVENT_2024_SUMMER_3 = 'EVENT_2024_SUMMER_3',
     EVENT_2024_SUMMER_4 = 'EVENT_2024_SUMMER_4',
+    EVENT_2024_XMAS_1 = 'EVENT_2024_XMAS_1',
+    EVENT_2024_XMAS_2 = 'EVENT_2024_XMAS_2',
     HUMAN_SARIA = 'HUMAN_SARIA',
     HUMAN_PETRA = 'HUMAN_PETRA',
     HUMAN_KIKYOU = 'HUMAN_KIKYOU',
@@ -488,5 +490,9 @@ export enum UnitCode {
     susan = 'SSR-123',
     h_satan = 'SSR-124',
     m_nanami = 'SSR-125',
-    m_ks8 = 'SSR-126'
+    m_ks8 = 'SSR-126',
+    x_baal = 'SSR-127',
+    x_muila = 'SSR-128',
+    x_britney = 'SSR-129',
+    x_ichika = 'SSR-130',
 }

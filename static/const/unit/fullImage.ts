@@ -423,6 +423,18 @@ import FULLIMAGE_10154_2 from "@/assets/character/fullbody/10154_2-Lv1.png"
 import FULLIMAGE_10155_0 from "@/assets/character/fullbody/10155_0-Lv1.png"
 import FULLIMAGE_10155_1 from "@/assets/character/fullbody/10155_1-Lv1.png"
 import FULLIMAGE_10155_2 from "@/assets/character/fullbody/10155_2-Lv1.png"
+import FULLIMAGE_10156_0 from "@/assets/character/fullbody/10156_0-Lv1.png"
+import FULLIMAGE_10156_1 from "@/assets/character/fullbody/10156_1-Lv1.png"
+import FULLIMAGE_10156_2 from "@/assets/character/fullbody/10156_2-Lv1.png"
+import FULLIMAGE_10157_0 from "@/assets/character/fullbody/10157_0-Lv1.png"
+import FULLIMAGE_10157_1 from "@/assets/character/fullbody/10157_1-Lv1.png"
+import FULLIMAGE_10157_2 from "@/assets/character/fullbody/10157_2-Lv1.png"
+import FULLIMAGE_10158_0 from "@/assets/character/fullbody/10158_0-Lv1.png"
+import FULLIMAGE_10158_1 from "@/assets/character/fullbody/10158_1-Lv1.png"
+import FULLIMAGE_10158_2 from "@/assets/character/fullbody/10158_2-Lv1.png"
+import FULLIMAGE_10175_0 from "@/assets/character/fullbody/10175_0-Lv1.png"
+import FULLIMAGE_10175_1 from "@/assets/character/fullbody/10175_1-Lv1.png"
+import FULLIMAGE_10175_2 from "@/assets/character/fullbody/10175_2-Lv1.png"
 
 import FULLIMAGE_10801_0 from "@/assets/character/fullbody/10801_0-Lv1.png"
 import FULLIMAGE_10801_1 from "@/assets/character/fullbody/10801_1-Lv1.png"
@@ -729,6 +741,10 @@ const SSR = {
     [UnitCode.h_satan]: [ FULLIMAGE_10153_0, FULLIMAGE_10153_1, FULLIMAGE_10153_2 ],
     [UnitCode.m_nanami]: [ FULLIMAGE_10154_0, FULLIMAGE_10154_1, FULLIMAGE_10154_2 ],
     [UnitCode.m_ks8]: [ FULLIMAGE_10155_0, FULLIMAGE_10155_1, FULLIMAGE_10155_2 ],
+    [UnitCode.x_baal]: [ FULLIMAGE_10156_0, FULLIMAGE_10156_1, FULLIMAGE_10156_2 ],
+    [UnitCode.x_muila]: [ FULLIMAGE_10157_0, FULLIMAGE_10157_1, FULLIMAGE_10157_2 ],
+    [UnitCode.x_britney]: [ FULLIMAGE_10158_0, FULLIMAGE_10158_1, FULLIMAGE_10158_2 ],
+    [UnitCode.x_ichika]: [ FULLIMAGE_10175_0, FULLIMAGE_10175_1, FULLIMAGE_10175_2 ],
 }
 
 export const FullImage = {
