@@ -110,14 +110,14 @@ export default class DefaultLayout extends Vue {
 
     if (!r18WarningAcknowledged) {
       const isRedirectFromR18 = currentPath.includes("r18-warning");
-      var queryParam = this.$route.fullPath;
+      var queryParam = (this.$route.query.query == null) ? '' : this.$route.query.query;
       if(!isRedirectFromR18){
         this.$router.push({
             path: `${localePrefix}/r18-warning?query=${currentFullPath}`,
         });
       }else{
         this.$router.push({
-            path: `${localePrefix}/r18-warning?query=${this.$route.query.query}`,
+            path: `${localePrefix}/r18-warning?query=${queryParam}`,
         });
       }
     }
