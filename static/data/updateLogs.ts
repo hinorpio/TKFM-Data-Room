@@ -2,6 +2,41 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.2.1',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 性誕魔王 巴爾, 純真祈願 牧愛菈, 聖夜奇謀 布蘭妮, 翩舞雪花 初華`,
+                    [Locale.sc]: `角色: 性诞魔王 巴尔, 纯真祈愿 牧爱菈, 圣夜奇谋 布兰妮, 翩舞雪花 初华`,
+                    [Locale.en]: `Unit: Sexmas Demon Ba'al, Pure Prayer Muila, Conspirator Britney, Snowflake Ichika`,
+                    [Locale.jp]: `キャラ: セックスマス魔王 バル, 純粋な祈り マイラ, 聖夜の奇策 ブリトニー, 舞い散る雪の花 初華`,
+                    [Locale.kr]: `캐릭터: 섹스마스 마왕 바알, 순진한 소원 무엘라, 크리스마스의 기책 브리트니, 춤추는 눈꽃 이치카`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【聖誕的少女想要愛】, 【聖誕無戰事】, 【時之裂縫】第十九季`,
+                    [Locale.sc]: `活动: 【圣诞的少女想要爱】, 【圣诞无战事】, 【时之裂缝】第十九季`,
+                    [Locale.en]: `Event: [Christmas Love], [No Battle on Christmas], [Time Rift] Season 19`,
+                    [Locale.jp]: `イベント: 「クリスマス少女は愛がほしい」, 「クリスマス休戦」, 「時空の裂け目」第19シーズン`,
+                    [Locale.kr]: `이벤트: 【크리스마스 소녀는 사랑을 원해】, 【크리스마스의 평화】, 【시공간의 균열】 제19시즌`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `R18 頁面導向問題`,
+                    [Locale.sc]: `R18 页面导向问题`,
+                    [Locale.en]: `R18 Page redirect issue`,
+                    [Locale.jp]: `R18 ページのナビゲーション`,
+                    [Locale.kr]: `R18 페이지 탐색 문제`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.1.5',
         logs: [
             {

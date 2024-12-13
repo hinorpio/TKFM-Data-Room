@@ -8,23 +8,23 @@ export const General_10175: Unit = {
     prefix: {
         [Locale.tc]: "翩舞雪花",
         [Locale.sc]: "翩舞雪花",
-        [Locale.en]: "Ichika",
+        [Locale.en]: "Snowflake",
         [Locale.jp]: "舞い散る雪の花",
         [Locale.kr]: "춤추는 눈꽃"
     },
     name: {
         [Locale.tc]: "初華",
         [Locale.sc]: "初华",
-        [Locale.en]: "Britney",
+        [Locale.en]: "Ichika",
         [Locale.jp]: "初華",
         [Locale.kr]: "이치카"
     },
     abbreviation: {
-        [Locale.tc]: [ "誕軍", "性軍", "聖軍" ],
-        [Locale.sc]: [ "诞军", "性军", "圣军" ],
-        [Locale.en]: [ "X.Britney", "C.Britney" ],
+        [Locale.tc]: [ "雪人" ],
+        [Locale.sc]: [ "雪人" ],
+        [Locale.en]: [ "X.Ichika", "C.Ichika" ],
         [Locale.jp]: [],
-        [Locale.kr]: [ "크브리" ]
+        [Locale.kr]: [ "크치카" ]
     },
     background: {
         [Locale.tc]: `隱居於深山之中的雪姬，常年避開人群生活，只有在冬天來臨之際才會出現在他人面前。這是因為初華知道，一年之中也只有在這個季節，自己無意間釋放的寒氣才不會影響到別人，對他人造成困擾。也因如此，所以每當冬天到來，初華都會陷入和平時的文靜模樣相差甚遠的興奮狀態，到處堆雪人、打雪仗、或者是在自己蓋好的巨大冰雪城堡裡唱歌。在來到魔王城居住後也不例外，今年的初華也同樣望著緩緩落下的細雪，興起了玩樂之心。於皚雪中翩翩起舞，興高采烈的雪姬這次也打算好好享受冬日雪景。\n\n『滾啊滾～滾啊滾～滾出圓圓大大的身體，再捏出貓耳和眼睛，這樣一個可愛的雪人就完成了～♪』`,
