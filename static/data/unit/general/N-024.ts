@@ -46,7 +46,9 @@ export const General_10921: Unit = {
     tagList: [
         TagID.ELEMENT_WATER,
         TagID.POSITION_ATTACKER,
+        TagID.SPECIES_HUMAN,
         TagID.BODY_SMALL_SIZED,
+        TagID.BREAST_FLAT_TITS,
         TagID.CLASS_SOLDIER,
         TagID.OTHER_DAMAGE_OUTPUT
     ],
