@@ -302,6 +302,32 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.EVENT_2024_SUMMER_4,
     },
     {
+        code: PuzzleCode.EVENT_2024_XMAS_1,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2024_XMAS_1,
+        name: {
+            [Locale.tc]: `與性誕共舞：美尻攝影紀實`,
+            [Locale.sc]: `与性诞共舞：美尻摄影纪实`,
+            [Locale.en]: `Sexmas Dance: Pelvic Photo Documentary`,
+            [Locale.jp]: `セックスマス：美尻ドキュメンタリー`,
+            [Locale.kr]: `섹스마스의 몸짓: 아름다운 된장통의 기록`
+        },
+        fullImage: PuzzleImage.EVENT_2024_XMAS_1,
+    },
+    {
+        code: PuzzleCode.EVENT_2024_XMAS_2,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2024_XMAS_2,
+        name: {
+            [Locale.tc]: `人王加冕之時`,
+            [Locale.sc]: `人王加冕之时`,
+            [Locale.en]: `Human Empress Coronation`,
+            [Locale.jp]: `人王戴冠式の時`,
+            [Locale.kr]: `인왕의 대관식`
+        },
+        fullImage: PuzzleImage.EVENT_2024_XMAS_2,
+    },
+    {
         code: PuzzleCode.HUMAN_SARIA,
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_SARIA,

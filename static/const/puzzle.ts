@@ -23,6 +23,8 @@ import PUZZLE_EVENT_2024_SUMMER_1 from "@/assets/puzzle/scg00019.png"
 import PUZZLE_EVENT_2024_SUMMER_2 from "@/assets/puzzle/scg00020.png"
 import PUZZLE_EVENT_2024_SUMMER_3 from "@/assets/puzzle/scg00021.png"
 import PUZZLE_EVENT_2024_SUMMER_4 from "@/assets/puzzle/scg00022.png"
+import PUZZLE_EVENT_2024_XMAS_1 from "@/assets/puzzle/scg00023.png"
+import PUZZLE_EVENT_2024_XMAS_2 from "@/assets/puzzle/scg00024.png"
 import PUZZLE_HUMAN_SARIA from "@/assets/puzzle/scg10901.png"
 import PUZZLE_HUMAN_PETRA from "@/assets/puzzle/scg10902.png"
 import PUZZLE_HUMAN_KIKYOU from "@/assets/puzzle/scg10905.png"
@@ -69,6 +71,8 @@ import PUZZLE_PREVIEW_EVENT_2024_SUMMER_1 from "@/assets/puzzle/scg00019s.png"
 import PUZZLE_PREVIEW_EVENT_2024_SUMMER_2 from "@/assets/puzzle/scg00020s.png"
 import PUZZLE_PREVIEW_EVENT_2024_SUMMER_3 from "@/assets/puzzle/scg00021s.png"
 import PUZZLE_PREVIEW_EVENT_2024_SUMMER_4 from "@/assets/puzzle/scg00022s.png"
+import PUZZLE_PREVIEW_EVENT_2024_XMAS_1 from "@/assets/puzzle/scg00023s.png"
+import PUZZLE_PREVIEW_EVENT_2024_XMAS_2 from "@/assets/puzzle/scg00024s.png"
 import PUZZLE_PREVIEW_HUMAN_SARIA from "@/assets/puzzle/scg10901s.png"
 import PUZZLE_PREVIEW_HUMAN_PETRA from "@/assets/puzzle/scg10902s.png"
 import PUZZLE_PREVIEW_HUMAN_KIKYOU from "@/assets/puzzle/scg10905s.png"
@@ -118,6 +122,8 @@ export const Preview = {
     [PuzzleCode.EVENT_2024_SUMMER_2]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_2,
     [PuzzleCode.EVENT_2024_SUMMER_3]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_3,
     [PuzzleCode.EVENT_2024_SUMMER_4]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_4,
+    [PuzzleCode.EVENT_2024_XMAS_1]: PUZZLE_PREVIEW_EVENT_2024_XMAS_1,
+    [PuzzleCode.EVENT_2024_XMAS_2]: PUZZLE_PREVIEW_EVENT_2024_XMAS_2,
     [PuzzleCode.HUMAN_SARIA]: PUZZLE_PREVIEW_HUMAN_SARIA,
     [PuzzleCode.HUMAN_PETRA]: PUZZLE_PREVIEW_HUMAN_PETRA,
     [PuzzleCode.HUMAN_KIKYOU]: PUZZLE_PREVIEW_HUMAN_KIKYOU,
@@ -168,6 +174,8 @@ export const Image = {
     [PuzzleCode.EVENT_2024_SUMMER_2]: PUZZLE_EVENT_2024_SUMMER_2,
     [PuzzleCode.EVENT_2024_SUMMER_3]: PUZZLE_EVENT_2024_SUMMER_3,
     [PuzzleCode.EVENT_2024_SUMMER_4]: PUZZLE_EVENT_2024_SUMMER_4,
+    [PuzzleCode.EVENT_2024_XMAS_1]: PUZZLE_EVENT_2024_XMAS_1,
+    [PuzzleCode.EVENT_2024_XMAS_2]: PUZZLE_EVENT_2024_XMAS_2,
     [PuzzleCode.HUMAN_SARIA]: PUZZLE_HUMAN_SARIA,
     [PuzzleCode.HUMAN_PETRA]: PUZZLE_HUMAN_PETRA,
     [PuzzleCode.HUMAN_KIKYOU]: PUZZLE_HUMAN_KIKYOU,

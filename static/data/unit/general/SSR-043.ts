@@ -52,7 +52,7 @@ export const General_10020: Unit = {
         TagID.OTHER_SUPPORT,
         TagID.OTHER_WEAKEN,
     ],
-    otherVersion: [],
+    otherVersion: [ UnitCode.x_muila ],
     puzzle: [],
     skillSet: []
 }

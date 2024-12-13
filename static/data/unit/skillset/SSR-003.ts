@@ -218,7 +218,7 @@ export const SkillSet_10003: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `生命への抑圧`,
-                    description: `毎Waveの1ターン目に、効果「自分の攻撃力を25%増加させる（3ターン）」を誘発する`
+                    description: `毎Waveの1ターン目に、効果「自分の攻撃力を25%増加させる(3ターン)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `通常攻撃ダメージ+`,
