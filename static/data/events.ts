@@ -4,6 +4,40 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0160',
+            type: EventType.POINT,
+            startDate: '2024/12/11',
+            endDate: '2025/01/08',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【聖誕的少女想要愛】`,
+                [Locale.sc]: `【圣诞的少女想要爱】`,
+                [Locale.en]: `[Christmas Love]`,
+                [Locale.jp]: `「クリスマス少女は愛がほしい」`,
+                [Locale.kr]: `【크리스마스 소녀는 사랑을 원해】`
+            },
+            image: EventBanner.EVENT_0160,
+            newUnit: [ UnitCode.x_baal, UnitCode.x_muila, UnitCode.x_britney, UnitCode.x_ichika ]
+        },
+        {
+            code: '0161',
+            type: EventType.CHALLENGE,
+            startDate: '2024/12/25',
+            endDate: '2025/01/08',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【聖誕無戰事】`,
+                [Locale.sc]: `【圣诞无战事】`,
+                [Locale.en]: `[No Battle on Christmas]`,
+                [Locale.jp]: `「クリスマス休戦」`,
+                [Locale.kr]: `【크리스마스의 평화】`
+            },
+            image: EventBanner.EVENT_0161,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0158',
             type: EventType.SPIRE,
             startDate: '2024/11/27',
