@@ -103,14 +103,23 @@ export default class DefaultLayout extends Vue {
 
   mounted(){
     const r18WarningAcknowledged = this.r18WarningAcknowledged
-    const currentPath = this.$route.path
     const locale = this.$i18n.locale as keyof typeof Locale
     const localePrefix = (locale === 'tc')?`` :`/${locale}`
+    const currentPath = this.$route.path
+    const currentFullPath = this.$route.fullPath.substring((locale === 'tc')?0 :3)
 
-    if (!r18WarningAcknowledged && currentPath !== '/r18-warning') {
-      this.$router.push({
-          path: `${localePrefix}/r18-warning`,
-      });
+    if (!r18WarningAcknowledged) {
+      const isRedirectFromR18 = currentPath.includes("r18-warning");
+      var queryParam = this.$route.fullPath;
+      if(!isRedirectFromR18){
+        this.$router.push({
+            path: `${localePrefix}/r18-warning?query=${currentFullPath}`,
+        });
+      }else{
+        this.$router.push({
+            path: `${localePrefix}/r18-warning?query=${this.$route.query.query}`,
+        });
+      }
     }
 
     this.drawer = this.isDrawerOpen()

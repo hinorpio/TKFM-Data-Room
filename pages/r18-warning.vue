@@ -27,8 +27,11 @@ export default class R18Warning extends Vue {
     }
 
     proceed(): void {
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const localePrefix = (locale === 'tc')?`` :`/${locale}`
+        const path = this.$route.query.query as string
         this.$cookies.set('r18_warning_acknowledged', true); // Store the acknowledgment status in a cookie
-        location.replace("/")
+        location.replace(`${localePrefix}${path}`)
     }
 
     decline(): void {
@@ -39,10 +42,10 @@ export default class R18Warning extends Vue {
     mounted(): void {
         const locale = this.$i18n.locale as keyof typeof Locale
         const localePrefix = (locale === 'tc')?`` :`/${locale}`
-
+        
         const r18WarningAcknowledged = this.$cookies.get('r18_warning_acknowledged');
         if (r18WarningAcknowledged) {
-            this.$router.push(`${localePrefix}/`); // Redirect the user to the home page or any other appropriate page
+            this.$router.push(`${this.$route.query}`); // Redirect the user to the home page or any other appropriate page
         }
     }
 
