@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.2.2',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `解放技能: 「花嫁 伊布力斯」,「雪姬 初華」`,
+                    [Locale.sc]: `解放技能: 「花嫁 伊布力斯」,「雪姬 初华」`,
+                    [Locale.en]: `Liberation: [Bride Iblis], [Yuki-Hime Ichika]`,
+                    [Locale.jp]: `解放スキル: 「花嫁 イブリース」,「雪姫 初華」`,
+                    [Locale.kr]: `해방스킬: 「새신부 이블리스」, 「유키히메 이치카」`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【風雲！新春大運動會-復刻-】, 【勝負！風林火山-復刻-】`,
+                    [Locale.sc]: `活动: 【风云！新春大运动会-复刻-】, 【胜负！风林火山-复刻-】`,
+                    [Locale.en]: `Event: [Field Day -Comeback-], [The Final Battle! -Comeback-]`,
+                    [Locale.jp]: `イベント: 「風雲！新春大運動会-復刻-」, 「勝負！風林火山-復刻-」`,
+                    [Locale.kr]: `이벤트: 【풍운! 신춘 대운동회-복각-】, 【승부! 풍림화산-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.2.1',
         logs: [
             {
