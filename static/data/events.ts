@@ -4,6 +4,40 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0162',
+            type: EventType.POINT,
+            startDate: '2025/01/08',
+            endDate: '2025/01/22',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【風雲！新春大運動會-復刻-】`,
+                [Locale.sc]: `【风云！新春大运动会-复刻-】`,
+                [Locale.en]: `[Field Day -Comeback-]`,
+                [Locale.jp]: `「風雲！新春大運動会-復刻-」`,
+                [Locale.kr]: `【풍운! 신춘 대운동회-복각-】`
+            },
+            image: EventBanner.EVENT_0162,
+            newUnit: []
+        },
+        {
+            code: '0163',
+            type: EventType.CHALLENGE,
+            startDate: '2025/01/15',
+            endDate: '2025/01/22',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【勝負！風林火山-復刻-】`,
+                [Locale.sc]: `【胜负！风林火山-复刻-】`,
+                [Locale.en]: `[The Final Battle! -Comeback-]`,
+                [Locale.jp]: `「勝負！風林火山-復刻-」`,
+                [Locale.kr]: `【승부! 풍림화산-복각-】`
+            },
+            image: EventBanner.EVENT_0163,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0160',
             type: EventType.POINT,
             startDate: '2024/12/11',
