@@ -7,7 +7,7 @@ Vue.use(Vuex);
 const store = () => new Vuex.Store({
     state: {
       themeColor: '#5f9df7',
-      version: 'beta-0.2.1'
+      version: 'beta-0.2.2'
     },
     mutations: {
       // Define your mutations here
