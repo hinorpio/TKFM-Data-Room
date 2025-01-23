@@ -4,6 +4,56 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0164',
+            type: EventType.POINT,
+            startDate: '2025/01/22',
+            endDate: '2025/02/12',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【精遊記】`,
+                [Locale.sc]: `【精游记】`,
+                [Locale.en]: `[Journey to the Jizz]`,
+                [Locale.jp]: `「精遊記」`,
+                [Locale.kr]: `【정유기】`
+            },
+            image: EventBanner.EVENT_0164,
+            newUnit: [ UnitCode.ny_fiora, UnitCode.zaskia ]
+        },
+        {
+            code: '0165',
+            type: EventType.CHALLENGE,
+            startDate: '2025/02/05',
+            endDate: '2025/02/12',
+            color: EventTypeColor.CHALLENGE,
+            name: {
+                [Locale.tc]: `【凱薩大鬧火焰山】`,
+                [Locale.sc]: `【凯萨大闹火焰山】`,
+                [Locale.en]: `[Caesar's Moutain Hellfire]`,
+                [Locale.jp]: `「シーザーが火焔山で大暴れ」`,
+                [Locale.kr]: `【시저의 화염산 대소동】`
+            },
+            image: EventBanner.EVENT_0165,
+            newUnit: []
+        },
+        {
+            code: '0166',
+            type: EventType.SPIRE,
+            startDate: '2025/01/29',
+            endDate: '2025/04/16',
+            color: EventTypeColor.SPIRE,
+            name: {
+                [Locale.tc]: `【魔獄塔】第二十三季`,
+                [Locale.sc]: `【魔狱塔】第二十三季`,
+                [Locale.en]: `[The Demon Spire] Season 23`,
+                [Locale.jp]: `「魔獄塔」第23シーズン`,
+                [Locale.kr]: `【마옥탑】 제23시즌`
+            },
+            image: EventBanner.EVENT_0166,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0162',
             type: EventType.POINT,
             startDate: '2025/01/08',
