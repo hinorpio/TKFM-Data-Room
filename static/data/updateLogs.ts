@@ -2,6 +2,41 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.3.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `簡易造型`,
+                    [Locale.sc]: `简易造型`,
+                    [Locale.en]: `Simple Outfits`,
+                    [Locale.jp]: `簡易スキン`,
+                    [Locale.kr]: `간이 스킨`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 喜迎性春 菲歐菈, 舞焰赤龍 薩夏`,
+                    [Locale.sc]: `角色: 喜迎性春 菲欧菈, 舞焰赤龙 萨夏`,
+                    [Locale.en]: `Unit: Spring Lust Fiora, Dancing Dragon Zaskia`,
+                    [Locale.jp]: `キャラ: 性なる迎春 フィオラ, 炎舞の赤竜 サーシャ`,
+                    [Locale.kr]: `캐릭터: 성의 봄맞이 피오라, 춤추는 불꽃의 적룡 사샤`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【精遊記】, 【凱薩大鬧火焰山】, 【魔獄塔】第二十三季`,
+                    [Locale.sc]: `活动: 【精游记】, 【凯萨大闹火焰山】, 【魔狱塔】第二十三季`,
+                    [Locale.en]: `Event: [Journey to the Jizz], [Caesar's Moutain Hellfire], [The Demon Spire] Season 23`,
+                    [Locale.jp]: `イベント: 「精遊記」, 「シーザーが火焔山で大暴れ」, 「魔獄塔」第23シーズン`,
+                    [Locale.kr]: `이벤트: 【정유기】, 【시저의 화염산 대소동】, 【마옥탑】 제23시즌`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.2.2',
         logs: [
             {
