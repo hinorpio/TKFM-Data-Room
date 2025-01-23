@@ -34,4 +34,5 @@ export interface Unit {
     discipline?: Discipline[];
     liberateSkillSet?: LiberateSkillSet[];
     puzzle?: PuzzleCode[];
+    outfits?: string[];
 }

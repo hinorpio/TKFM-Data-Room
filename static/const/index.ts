@@ -49,3 +49,4 @@ export const UnitEssence = UnitImage.Essence
 export const UnitSelection = UnitImage.Selection
 export const UnitFullImage = UnitImage.FullImage 
 export const UnitDisciplinePreview = UnitImage.DisciplinePreview
+export const UnitOutfits = UnitImage.Outfits

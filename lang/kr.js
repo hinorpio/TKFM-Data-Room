@@ -78,4 +78,5 @@ export default {
     "Offical": "공식 사이트",
     "Useful Tools": "유용한 도구",
     "Language": "언어",
+    "Simple Outfits": "간이 스킨",
 }

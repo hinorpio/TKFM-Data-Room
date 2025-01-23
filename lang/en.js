@@ -78,4 +78,5 @@ export default {
     "Offical": "Offical",
     "Useful Tools": "Useful Tools",
     "Language": "Language",
+    "Simple Outfits": "Simple Outfits",
 }

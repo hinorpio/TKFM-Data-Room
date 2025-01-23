@@ -78,4 +78,5 @@ export default {
     "Offical": "官网",
     "Useful Tools": "有用工具",
     "Language": "语言",
+    "Simple Outfits": "简易造型",
 }

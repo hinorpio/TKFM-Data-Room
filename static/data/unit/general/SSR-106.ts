@@ -1,5 +1,5 @@
 import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
-import { UnitEssence, UnitSelection, UnitFullImage } from '~/static/const';
+import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
 export const General_10136: Unit = {

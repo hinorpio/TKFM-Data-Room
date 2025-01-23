@@ -78,4 +78,5 @@ export default {
     "Offical": "公式",
     "Useful Tools": "便利なツール",
     "Language": "言語",
+    "Simple Outfits": "簡易スキン",
 }

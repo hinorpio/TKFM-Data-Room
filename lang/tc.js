@@ -78,4 +78,5 @@ export default {
     "Offical": "官網",
     "Useful Tools": "有用工具",
     "Language": "語言",
+    "Simple Outfits": "簡易造型",
 }
