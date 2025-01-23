@@ -144,7 +144,9 @@ import SELECTION_10155 from "@/assets/character/selection/cs10155_0_0.png"
 import SELECTION_10156 from "@/assets/character/selection/cs10156_0_0.png"
 import SELECTION_10157 from "@/assets/character/selection/cs10157_0_0.png"
 import SELECTION_10158 from "@/assets/character/selection/cs10158_0_0.png"
+import SELECTION_10159 from "@/assets/character/selection/cs10159_0_0.png"
 import SELECTION_10175 from "@/assets/character/selection/cs10175_0_0.png"
+import SELECTION_10161 from "@/assets/character/selection/cs10161_0_0.png"
 
 
 import SELECTION_10801 from "@/assets/character/selection/cs10801_0_0.png"
@@ -380,6 +382,8 @@ const SSR = {
     [UnitCode.x_muila]: SELECTION_10157,
     [UnitCode.x_britney]: SELECTION_10158,
     [UnitCode.x_ichika]: SELECTION_10175,
+    [UnitCode.ny_fiora]: SELECTION_10159,
+    [UnitCode.zaskia]: SELECTION_10161,
 }
 
 export const Selection = {

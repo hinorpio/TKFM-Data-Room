@@ -144,6 +144,8 @@ import ESSENCE_10155 from "@/assets/character/essence/IP10155.png"
 import ESSENCE_10156 from "@/assets/character/essence/IP10156.png"
 import ESSENCE_10157 from "@/assets/character/essence/IP10157.png"
 import ESSENCE_10158 from "@/assets/character/essence/IP10158.png"
+import ESSENCE_10159 from "@/assets/character/essence/IP10159.png"
+import ESSENCE_10161 from "@/assets/character/essence/IP10161.png"
 import ESSENCE_10175 from "@/assets/character/essence/IP10175.png"
 
 import ESSENCE_10801 from "@/assets/character/essence/IP10801.png"
@@ -379,6 +381,8 @@ const SSR = {
     [UnitCode.x_muila]: ESSENCE_10157,
     [UnitCode.x_britney]: ESSENCE_10158,
     [UnitCode.x_ichika]: ESSENCE_10175,
+    [UnitCode.ny_fiora]: ESSENCE_10159,
+    [UnitCode.zaskia]: ESSENCE_10161,
 }
 
 export const Essence = {

@@ -430,6 +430,12 @@ import DISCIPLINE_10157_3 from "@/assets/character/discipline/cgs10157_3.png"
 import DISCIPLINE_10158_1 from "@/assets/character/discipline/cgs10158_1.png"
 import DISCIPLINE_10158_2 from "@/assets/character/discipline/cgs10158_2.png"
 import DISCIPLINE_10158_3 from "@/assets/character/discipline/cgs10158_3.png"
+import DISCIPLINE_10159_3 from "@/assets/character/discipline/cgs10159_3.png"
+import DISCIPLINE_10159_1 from "@/assets/character/discipline/cgs10159_1.png"
+import DISCIPLINE_10159_2 from "@/assets/character/discipline/cgs10159_2.png"
+import DISCIPLINE_10161_1 from "@/assets/character/discipline/cgs10161_1.png"
+import DISCIPLINE_10161_2 from "@/assets/character/discipline/cgs10161_2.png"
+import DISCIPLINE_10161_3 from "@/assets/character/discipline/cgs10161_3.png"
 import DISCIPLINE_10175_1 from "@/assets/character/discipline/cgs10175_1.png"
 import DISCIPLINE_10175_2 from "@/assets/character/discipline/cgs10175_2.png"
 import DISCIPLINE_10175_3 from "@/assets/character/discipline/cgs10175_3.png"
@@ -627,6 +633,8 @@ const SSR = {
     [UnitCode.x_muila]: [ DISCIPLINE_10157_1, DISCIPLINE_10157_2, DISCIPLINE_10157_3 ],
     [UnitCode.x_britney]: [ DISCIPLINE_10158_1, DISCIPLINE_10158_2, DISCIPLINE_10158_3 ],
     [UnitCode.x_ichika]: [ DISCIPLINE_10175_1, DISCIPLINE_10175_2, DISCIPLINE_10175_3 ],
+    [UnitCode.ny_fiora]: [ DISCIPLINE_10159_1, DISCIPLINE_10159_2, DISCIPLINE_10159_3 ],
+    [UnitCode.zaskia]: [ DISCIPLINE_10161_1, DISCIPLINE_10161_2, DISCIPLINE_10161_3 ],
 }
 
 export const DisciplinePreview = {

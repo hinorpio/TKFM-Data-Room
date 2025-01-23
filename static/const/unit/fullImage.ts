@@ -432,6 +432,12 @@ import FULLIMAGE_10157_2 from "@/assets/character/fullbody/10157_2-Lv1.png"
 import FULLIMAGE_10158_0 from "@/assets/character/fullbody/10158_0-Lv1.png"
 import FULLIMAGE_10158_1 from "@/assets/character/fullbody/10158_1-Lv1.png"
 import FULLIMAGE_10158_2 from "@/assets/character/fullbody/10158_2-Lv1.png"
+import FULLIMAGE_10159_0 from "@/assets/character/fullbody/10159_0-Lv1.png"
+import FULLIMAGE_10159_1 from "@/assets/character/fullbody/10159_1-Lv1.png"
+import FULLIMAGE_10159_2 from "@/assets/character/fullbody/10159_2-Lv1.png"
+import FULLIMAGE_10161_0 from "@/assets/character/fullbody/10161_0-Lv1.png"
+import FULLIMAGE_10161_1 from "@/assets/character/fullbody/10161_1-Lv1.png"
+import FULLIMAGE_10161_2 from "@/assets/character/fullbody/10161_2-Lv1.png"
 import FULLIMAGE_10175_0 from "@/assets/character/fullbody/10175_0-Lv1.png"
 import FULLIMAGE_10175_1 from "@/assets/character/fullbody/10175_1-Lv1.png"
 import FULLIMAGE_10175_2 from "@/assets/character/fullbody/10175_2-Lv1.png"
@@ -745,6 +751,8 @@ const SSR = {
     [UnitCode.x_muila]: [ FULLIMAGE_10157_0, FULLIMAGE_10157_1, FULLIMAGE_10157_2 ],
     [UnitCode.x_britney]: [ FULLIMAGE_10158_0, FULLIMAGE_10158_1, FULLIMAGE_10158_2 ],
     [UnitCode.x_ichika]: [ FULLIMAGE_10175_0, FULLIMAGE_10175_1, FULLIMAGE_10175_2 ],
+    [UnitCode.ny_fiora]: [ FULLIMAGE_10159_0, FULLIMAGE_10159_1, FULLIMAGE_10159_2 ],
+    [UnitCode.zaskia]: [ FULLIMAGE_10161_0, FULLIMAGE_10161_1, FULLIMAGE_10161_2 ],
 }
 
 export const FullImage = {

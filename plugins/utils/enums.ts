@@ -495,4 +495,6 @@ export enum UnitCode {
     x_muila = 'SSR-128',
     x_britney = 'SSR-129',
     x_ichika = 'SSR-130',
+    ny_fiora = 'SSR-131',
+    zaskia = 'SSR-132',
 }

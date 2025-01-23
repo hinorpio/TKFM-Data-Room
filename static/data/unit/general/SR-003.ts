@@ -52,7 +52,7 @@ export const General_10011: Unit = {
         TagID.CLASS_ELITE, 
         TagID.OTHER_RECOVERY,
     ], 
-    otherVersion: [ UnitCode.hm_fiora, UnitCode.s_fiora ],
+    otherVersion: [ UnitCode.hm_fiora, UnitCode.s_fiora, UnitCode.ny_fiora ],
     puzzle: [],
     skillSet: []
 }
