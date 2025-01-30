@@ -9,6 +9,7 @@ import Tags from "./components/Tags";
 import Puzzles from "./components/Puzzles";
 import Events from "./components/Events";
 import Units from "./components/Units";
+import Arts from "./components/Arts";
 
 const util = {
     ...Global,
@@ -20,6 +21,7 @@ const util = {
     ...Puzzles,
     ...Events,
     ...Units,
+    ...Arts,
 }
 
 

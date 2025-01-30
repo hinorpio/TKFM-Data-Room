@@ -16,6 +16,7 @@ export enum ErrorMessage {
     PAGE_NOT_FOUND = 'PAGE_NOT_FOUND',
     UNKNOWN_ERROR = 'UNKNOWN_ERROR',
     CANNOT_FIND_CHARACTER = 'CANNOT_FIND_CHARACTER',
+    CANNOT_FIND_ART = 'CANNOT_FIND_ART',
 }
 
 export enum LogType {
@@ -236,6 +237,20 @@ export enum TagID {
     OTHER_MORE_POWER = 31,
     OTHER_AOE = 32,
     OTHER_COUNTERSTRIKE = 33,
+}
+
+export enum ArtSource {
+    OFFICAL = 'OFFICAL',
+    FANART = 'FANART'
+}
+
+export enum ArtType {
+    PHOTO = 'PHOTO',
+    STICKER = 'STICKER',
+    COMIC = 'COMIC',
+    FICTION = 'FICTION',
+    VIDEO = 'VIDEO',
+    OTHER = 'OTHER'
 }
 
 export enum PuzzleType {

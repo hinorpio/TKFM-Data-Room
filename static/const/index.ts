@@ -7,6 +7,7 @@ import * as General from './general';
 import * as Puzzle from './puzzle';
 import * as UnitImage from './unit';
 import * as Event from './event';
+import * as ArtSrc from './art';
 import { NuxtError } from '@nuxt/types';
 
 export const CustomError: {[code in ErrorCode]: NuxtError} = {
@@ -50,3 +51,5 @@ export const UnitSelection = UnitImage.Selection
 export const UnitFullImage = UnitImage.FullImage 
 export const UnitDisciplinePreview = UnitImage.DisciplinePreview
 export const UnitOutfits = UnitImage.Outfits
+
+export const ArtFile = ArtSrc
