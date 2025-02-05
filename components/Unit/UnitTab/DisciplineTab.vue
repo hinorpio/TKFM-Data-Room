@@ -4,7 +4,7 @@
             <v-row v-if="$vuetify.breakpoint.name == 'xs'">
                 <v-col :cols="12">
                     <v-img :src="room.preview" :lazy-src="room.preview" max-width="100%" />
-                    <span :class="titleClass">{{ getRoomName(room) }}</span>
+                    <span style="word-break: normal" :class="titleClass">{{ getRoomName(room) }}</span>
                 </v-col>
             </v-row>
             <v-row v-else>
@@ -12,7 +12,7 @@
                     <v-img :src="room.preview" :lazy-src="room.preview" max-width="100%" />
                 </v-col>
                 <v-col :cols="8">
-                    <span :class="titleClass">{{ getRoomName(room) }}</span>
+                    <span style="word-break: normal" :class="titleClass">{{ getRoomName(room) }}</span>
                 </v-col>
             </v-row>
             <v-divider class="mt-4"></v-divider>

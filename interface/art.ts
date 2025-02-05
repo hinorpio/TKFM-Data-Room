@@ -5,6 +5,7 @@ export interface Art {
     source: ArtSource;
     type: ArtType;
     author: string;
+    authorLink?: string;
     name: {
         [lang in Locale]?: null | string;
     };

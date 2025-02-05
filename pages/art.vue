@@ -1,23 +1,15 @@
 <template>
     <v-layout v-if="isMounted">
-        <v-container>
-            <v-row>
+        <v-container :key="key">
+            <v-row v-if="isNoArtSelected">
+
+            </v-row>
+            <v-row v-else>
                 <v-spacer></v-spacer>
                 <v-card :style="{background: '#424242', width: dialogWidth}" :elevation="0">
-                    <v-card-title> 
-                        {{ getArtName(art) }}
-                        <v-spacer></v-spacer>
-                        已取得作者 독군 Dokgun 授權轉載
-                    </v-card-title>
-                    <v-card-text>
-                        {{ `${$t('Author')}: ${art.author}` }}
-                    </v-card-text>
-                    <v-divider></v-divider>
-                    <v-row class="mt-4">
-                        <v-col v-for="(path, index) in art.paths" :key="index" :cols="(12/itemsPerRow)" class="pa-2 mt-4" > 
-                            <v-img :src="path" :height="itemSize" :width="itemSize" contain/>
-                        </v-col>
-                    </v-row>
+                    <art-header :art="art" />
+                    <v-divider class="mb-8"></v-divider>
+                    <sticker-page v-if="isSticker" :art="art" />
                 </v-card>
                 <v-spacer></v-spacer>
             </v-row>
@@ -27,46 +19,36 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
-import { Dispatch } from '@/interface/dispatch'
-import { Unit } from '@/interface/unit'
-import DispatchSummary from "@/components/Dispatch/DispatchSummary.vue";
-import DispatchPassive from "@/components/Dispatch/DispatchPassive.vue";
-import { Locale } from "~/plugins/utils/enums";
+import { ArtType } from "~/plugins/utils/enums";
 import { Art } from "~/interface/art";
-
+import ArtHeader from "@/components/Art/ArtHeader.vue";
+import StickerPage from "~/components/Art/StickerPage.vue";
 
 @Component({
     components: {
-        DispatchSummary,
-        DispatchPassive
+        ArtHeader,
+        StickerPage,
     }
 })
 export default class DispatchPage extends Vue {
 
     isMounted: boolean = false 
+    isNoArtSelected: boolean = false
     dialogWidth: String = '80em';
     metaCode: string = 'Art-001'
-
     art: Art | undefined
-
-    get itemsPerRow (): number {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 3, 4, 6, 6, 6)
-    }
-
-    get itemSize (): string {
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '8em', '10em', '8em', '10em', '12em')
-    }
-
-    getArtName(art: Art): string{
-        const locale = this.$i18n.locale as keyof typeof Locale;
-        const result = art.name[locale];
-        return result ?? ''
-    }
+    key: number = 0;
 
     mounted(): void{
-        this.isMounted = true
         this.art = this.$util.getArt(this.metaCode)
+        this.isNoArtSelected = false
+        this.isMounted = true
     }
+
+    get isSticker(): boolean{
+        return this.art?.type == ArtType.STICKER
+    }
+
 }
 
 </script>

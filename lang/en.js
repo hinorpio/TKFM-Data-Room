@@ -79,4 +79,6 @@ export default {
     "Useful Tools": "Useful Tools",
     "Language": "Language",
     "Simple Outfits": "Simple Outfits",
+    "Author": "Author",
+    "Author Link": "Author Link",
 }

@@ -79,4 +79,6 @@ export default {
     "Useful Tools": "유용한 도구",
     "Language": "언어",
     "Simple Outfits": "간이 스킨",
+    "Author": "작가",
+    "Author Link": "작가 링크",
 }

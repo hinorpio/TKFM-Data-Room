@@ -79,4 +79,6 @@ export default {
     "Useful Tools": "有用工具",
     "Language": "语言",
     "Simple Outfits": "简易造型",
+    "Author": "作者",
+    "Author Link": "作者連結",
 }

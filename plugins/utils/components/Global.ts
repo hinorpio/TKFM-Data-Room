@@ -23,6 +23,22 @@ export default {
     showPreLineText(text: string): string{
         return text.replace(/\n/g, '<br>');
     },
+    handleCopyLink(path: string): void{
+        navigator.clipboard.writeText(path);
+    },
+    handleDownload(path: string): void{
+        const link = document.createElement('a');
+        link.href = path;
+        link.target = '_blank';
+        link.download = this.getFileNameFromUrl(path);
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    },
+    getFileNameFromUrl(url: string): string {
+        return url.substring(url.lastIndexOf('/') + 1);
+    },
     getCustomError(code: ErrorCode): NuxtError{
         return CustomError[code]
     },
