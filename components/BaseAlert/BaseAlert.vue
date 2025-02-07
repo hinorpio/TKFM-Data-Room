@@ -1,6 +1,6 @@
 <template>
     <v-snackbar v-model="localVisible" :timeout="timeout" color="primary">
-        {{ message }}
+        <b>{{ message }}</b>
     </v-snackbar>
 </template>
 <script lang="ts">

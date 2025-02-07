@@ -81,4 +81,5 @@ export default {
     "Simple Outfits": "簡易造型",
     "Author": "作者",
     "Author Link": "作者連結",
+    "Link Copied": "連結已複製",
 }

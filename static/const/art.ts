@@ -32,6 +32,36 @@ import DOKGUN_STICKER_KR_030 from "@/assets/arts/fanart/Dokgun/sticker/kr/30.gif
 import DOKGUN_STICKER_KR_031 from "@/assets/arts/fanart/Dokgun/sticker/kr/31.gif"
 import DOKGUN_STICKER_KR_032 from "@/assets/arts/fanart/Dokgun/sticker/kr/32.gif"
 import DOKGUN_STICKER_KR_033 from "@/assets/arts/fanart/Dokgun/sticker/kr/33.gif"
+import DOKGUN_STICKER_KR_034 from "@/assets/arts/fanart/Dokgun/sticker/kr/34.gif"
+import DOKGUN_STICKER_KR_035 from "@/assets/arts/fanart/Dokgun/sticker/kr/35.gif"
+import DOKGUN_STICKER_KR_036 from "@/assets/arts/fanart/Dokgun/sticker/kr/36.gif"
+
+import DOKGUN_STICKER_EN_000 from "@/assets/arts/fanart/Dokgun/sticker/en/0.gif"
+import DOKGUN_STICKER_EN_001 from "@/assets/arts/fanart/Dokgun/sticker/en/1.gif"
+import DOKGUN_STICKER_EN_002 from "@/assets/arts/fanart/Dokgun/sticker/en/2.gif"
+import DOKGUN_STICKER_EN_004 from "@/assets/arts/fanart/Dokgun/sticker/en/4.gif"
+import DOKGUN_STICKER_EN_006 from "@/assets/arts/fanart/Dokgun/sticker/en/6.gif"
+import DOKGUN_STICKER_EN_007 from "@/assets/arts/fanart/Dokgun/sticker/en/7.gif"
+import DOKGUN_STICKER_EN_008 from "@/assets/arts/fanart/Dokgun/sticker/en/8.gif"
+import DOKGUN_STICKER_EN_009 from "@/assets/arts/fanart/Dokgun/sticker/en/9.gif"
+import DOKGUN_STICKER_EN_010 from "@/assets/arts/fanart/Dokgun/sticker/en/10.gif"
+import DOKGUN_STICKER_EN_011 from "@/assets/arts/fanart/Dokgun/sticker/en/11.gif"
+import DOKGUN_STICKER_EN_013 from "@/assets/arts/fanart/Dokgun/sticker/en/13.gif"
+import DOKGUN_STICKER_EN_014 from "@/assets/arts/fanart/Dokgun/sticker/en/14.gif"
+import DOKGUN_STICKER_EN_015 from "@/assets/arts/fanart/Dokgun/sticker/en/15.gif"
+import DOKGUN_STICKER_EN_016 from "@/assets/arts/fanart/Dokgun/sticker/en/16.gif"
+import DOKGUN_STICKER_EN_018 from "@/assets/arts/fanart/Dokgun/sticker/en/18.gif"
+import DOKGUN_STICKER_EN_019 from "@/assets/arts/fanart/Dokgun/sticker/en/19.gif"
+import DOKGUN_STICKER_EN_020 from "@/assets/arts/fanart/Dokgun/sticker/en/20.gif"
+import DOKGUN_STICKER_EN_023 from "@/assets/arts/fanart/Dokgun/sticker/en/23.gif"
+import DOKGUN_STICKER_EN_024 from "@/assets/arts/fanart/Dokgun/sticker/en/24.gif"
+import DOKGUN_STICKER_EN_026 from "@/assets/arts/fanart/Dokgun/sticker/en/26.gif"
+import DOKGUN_STICKER_EN_030 from "@/assets/arts/fanart/Dokgun/sticker/en/30.gif"
+import DOKGUN_STICKER_EN_031 from "@/assets/arts/fanart/Dokgun/sticker/en/31.gif"
+import DOKGUN_STICKER_EN_032 from "@/assets/arts/fanart/Dokgun/sticker/en/32.gif"
+import DOKGUN_STICKER_EN_033 from "@/assets/arts/fanart/Dokgun/sticker/en/33.gif"
+import DOKGUN_STICKER_EN_034 from "@/assets/arts/fanart/Dokgun/sticker/en/34.gif"
+import DOKGUN_STICKER_EN_035 from "@/assets/arts/fanart/Dokgun/sticker/en/35.gif"
 
 export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_000,
@@ -68,4 +98,36 @@ export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_031,
     DOKGUN_STICKER_KR_032,
     DOKGUN_STICKER_KR_033,
+    DOKGUN_STICKER_KR_034,
+    DOKGUN_STICKER_KR_035,
+    DOKGUN_STICKER_KR_036,
+]
+
+export const DOKGUN_STICKER_EN = [
+    DOKGUN_STICKER_EN_000,
+    DOKGUN_STICKER_EN_001,
+    DOKGUN_STICKER_EN_002,
+    DOKGUN_STICKER_EN_004,
+    DOKGUN_STICKER_EN_006,
+    DOKGUN_STICKER_EN_007,
+    DOKGUN_STICKER_EN_008,
+    DOKGUN_STICKER_EN_009,
+    DOKGUN_STICKER_EN_010,
+    DOKGUN_STICKER_EN_011,
+    DOKGUN_STICKER_EN_013,
+    DOKGUN_STICKER_EN_014,
+    DOKGUN_STICKER_EN_015,
+    DOKGUN_STICKER_EN_016,
+    DOKGUN_STICKER_EN_018,
+    DOKGUN_STICKER_EN_019,
+    DOKGUN_STICKER_EN_020,
+    DOKGUN_STICKER_EN_023,
+    DOKGUN_STICKER_EN_024,
+    DOKGUN_STICKER_EN_026,
+    DOKGUN_STICKER_EN_030,
+    DOKGUN_STICKER_EN_031,
+    DOKGUN_STICKER_EN_032,
+    DOKGUN_STICKER_EN_033,
+    DOKGUN_STICKER_EN_034,
+    DOKGUN_STICKER_EN_035,
 ]

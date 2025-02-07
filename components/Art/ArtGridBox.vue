@@ -22,7 +22,6 @@
         </v-card>
         <basic-image-viewer :visible.sync="visible" :title.sync="currentTitle" :src.sync="currentPhoto" />
         <base-alert :visible.sync="alertVisible" :message="alertMessage" />
-
     </div>
 </template>
 <script lang="ts">
@@ -64,7 +63,7 @@ export default class ArtGridBox extends Vue {
     
     handleCopyLink(path: string): void{
         this.$util.handleCopyLink(path)
-        this.alertMessage = "Link Copied"
+        this.alertMessage = this.$t("Link Copied")
         this.alertVisible = true
     }
 

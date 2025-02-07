@@ -2,8 +2,8 @@ import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
-const Art_001: Art = {
-    code: 'Art-001',
+const DOKGUN_STICKER_KR: Art = {
+    code: 'DOKGUN_STICKER_KR',
     source: ArtSource.FANART,
     type: ArtType.STICKER,
     author: '독군 Dokgun',
@@ -25,4 +25,4 @@ const Art_001: Art = {
     paths: ArtFile.DOKGUN_STICKER_KR,
 }
 
-export default Art_001
+export default DOKGUN_STICKER_KR

@@ -63,7 +63,7 @@ export default class BasicImageViewer extends Vue {
 
     handleCopyLink(): void{
         this.$util.handleCopyLink(this.src)
-        this.alertMessage = "Link Copied"
+        this.alertMessage = this.$t("Link Copied")
         this.alertVisible = true
     }
 }

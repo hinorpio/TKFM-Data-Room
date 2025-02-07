@@ -81,4 +81,5 @@ export default {
     "Simple Outfits": "簡易スキン",
     "Author": "著者",
     "Author Link": "著者リンク",
+    "Link Copied": "リンクがコピーされました",
 }

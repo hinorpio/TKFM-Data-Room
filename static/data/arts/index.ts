@@ -1,7 +1,9 @@
-import Art_001 from "./Art-001"
+import DOKGUN_STICKER_KR from "./DOKGUN_STICKER_KR"
+import DOKGUN_STICKER_EN from "./DOKGUN_STICKER_EN"
 
 const artData = [
-    Art_001
+    DOKGUN_STICKER_KR,
+    DOKGUN_STICKER_EN,
 ]
 
 export default artData

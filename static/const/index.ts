@@ -23,6 +23,10 @@ export const CustomError: {[code in ErrorCode]: NuxtError} = {
             statusCode: ErrorCode.CANNOT_FIND_CHARACTER,
             message: ErrorMessage.CANNOT_FIND_CHARACTER
     },
+    [ErrorCode.CANNOT_FIND_ART]: {
+        statusCode: ErrorCode.CANNOT_FIND_ART,
+        message: ErrorMessage.CANNOT_FIND_ART
+},
 }
 
 export const ElementIcon = General.ElementIcon

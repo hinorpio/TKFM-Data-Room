@@ -1,6 +1,11 @@
 <template>
     <div>
         <v-card-title> 
+            <v-btn icon outlined color="white" class="mr-2" :small="isButtonSmall" @click="handleBack">
+                <v-icon color="white">
+                    mdi-arrow-left
+                </v-icon>
+            </v-btn>
             {{ getArtName(art) }}
             <v-spacer></v-spacer>
             <b>{{ `${$t('Author')}: ${art.author}` }}</b>
@@ -48,6 +53,14 @@ export default class ArtHeader extends Vue {
         const locale = this.$i18n.locale as keyof typeof Locale;
         const result = art.remark[locale];
         return result ?? ''
+    }
+
+    handleBack(): void{
+        const locale = this.$i18n.locale
+        const langPrefix = (locale === 'tc')?`` :`/${locale}`
+        this.$router.push({
+            path: `${langPrefix}/art`,
+        });
     }
 
 }

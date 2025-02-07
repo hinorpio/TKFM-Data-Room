@@ -10,6 +10,7 @@ export enum ErrorCode {
     PAGE_NOT_FOUND = 404,
     UNKNOWN_ERROR = 500,
     CANNOT_FIND_CHARACTER = 801,
+    CANNOT_FIND_ART = 802,
 }
 
 export enum ErrorMessage {

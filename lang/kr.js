@@ -81,4 +81,5 @@ export default {
     "Simple Outfits": "간이 스킨",
     "Author": "작가",
     "Author Link": "작가 링크",
+    "Link Copied": "링크가 복사되었습니다",
 }

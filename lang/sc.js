@@ -80,5 +80,6 @@ export default {
     "Language": "语言",
     "Simple Outfits": "简易造型",
     "Author": "作者",
-    "Author Link": "作者連結",
+    "Author Link": "作者链接",
+    "Link Copied": "链接已复制",
 }

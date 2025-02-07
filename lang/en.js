@@ -81,4 +81,5 @@ export default {
     "Simple Outfits": "Simple Outfits",
     "Author": "Author",
     "Author Link": "Author Link",
+    "Link Copied": "Link Copied",
 }
