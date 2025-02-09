@@ -79,6 +79,8 @@ export default {
     "Useful Tools": "Useful Tools",
     "Language": "Language",
     "Simple Outfits": "Simple Outfits",
+    "Artwork / Fanart": "Artwork / Fanart",
+    "All": "All",
     "Author": "Author",
     "Author Link": "Author Link",
     "Link Copied": "Link Copied",

@@ -29,6 +29,8 @@ export const CustomError: {[code in ErrorCode]: NuxtError} = {
 },
 }
 
+export const LocaleString = General.LocaleString
+
 export const ElementIcon = General.ElementIcon
 export const ElementColor = General.ElementColor
 export const PositionIcon = General.PositionIcon
@@ -40,6 +42,12 @@ export const LiberateIcon = General.LiberateIcon
 export const PotentialBuffIcon = General.PotentialBuffIcon
 export const DispatchImage = General.DispatchImage
 export const DispatchSkillTypeString = General.DispatchSkillTypeString
+export const LogTypeColor = General.LogTypeColor
+export const LogTypeStr = General.LogTypeStr
+export const ArtSourceColor = General.ArtSourceColor
+export const ArtSourceStr = General.ArtSourceStr
+export const ArtTypeColor = General.ArtTypeColor
+export const ArtTypeStr = General.ArtTypeStr
 
 export const ItemIcon = Item.Icon
 

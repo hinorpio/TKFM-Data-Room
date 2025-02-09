@@ -11,10 +11,12 @@
             <b>{{ `${$t('Author')}: ${art.author}` }}</b>
         </v-card-title>
         <v-card-text>
-            {{ `${$t('Author Link')}: ` }}
-            <a :href="art.authorLink" class="hyperlink-class" target="_blank">
-                {{ art.authorLink }}
-            </a>
+            <div v-if="art.authorLink != null" >
+                {{ `${$t('Author Link')}: ` }}
+                <a :href="art.authorLink" class="hyperlink-class" target="_blank">
+                    {{ art.authorLink }}
+                </a>
+            </div>
             <br>
             <span v-html="$util.showPreLineText(getArtRemark(art))"></span>
         </v-card-text>

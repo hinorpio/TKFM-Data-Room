@@ -246,7 +246,7 @@ export enum ArtSource {
 }
 
 export enum ArtType {
-    PHOTO = 'PHOTO',
+    PAINTING = 'PAINTING',
     STICKER = 'STICKER',
     COMIC = 'COMIC',
     FICTION = 'FICTION',

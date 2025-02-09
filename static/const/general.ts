@@ -1,4 +1,4 @@
-import { Locale, LogType, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType } from '@/plugins/utils/enums';
+import { Locale, LogType, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType, ArtSource, ArtType } from '@/plugins/utils/enums';
 
 import ELEMENT_FIRE from "@/assets/general/element_fire.png"
 import ELEMENT_WATER from "@/assets/general/element_water.png"
@@ -53,6 +53,15 @@ import DISPATCH_SEALED_CHAMBER_SC from "@/assets/dispatch/dp0005_sc.png"
 import DISPATCH_SEALED_CHAMBER_EN from "@/assets/dispatch/dp0005_en.png"
 import DISPATCH_SEALED_CHAMBER_JP from "@/assets/dispatch/dp0005_jp.png"
 import DISPATCH_SEALED_CHAMBER_KR from "@/assets/dispatch/dp0005_kr.png"
+
+
+export const LocaleString = {
+    [Locale.tc]: '繁體中文',
+    [Locale.sc]: '简体中文',
+    [Locale.en]: 'English',
+    [Locale.jp]: '日本語',
+    [Locale.kr]: '한국어',
+}
 
 export const LogTypeColor = {
     [LogType.NEW]: 'green',
@@ -361,4 +370,80 @@ export const EventTypeString = {
         [Locale.jp]: '特別',
         [Locale.kr]: '특별한',
     }
+}
+
+export const ArtSourceColor = {
+    [ArtSource.OFFICAL]: 'purple',
+    [ArtSource.FANART]: 'blue',
+}
+
+export const ArtSourceStr = {
+    [ArtSource.OFFICAL]: {
+        [Locale.tc]: '官方',
+        [Locale.sc]: '官方',
+        [Locale.en]: 'Offcal',
+        [Locale.jp]: '公式',
+        [Locale.kr]: '공식적인',
+    },
+    [ArtSource.FANART]: {
+        [Locale.tc]: '二創',
+        [Locale.sc]: '二创',
+        [Locale.en]: 'Fanart',
+        [Locale.jp]: '同人',
+        [Locale.kr]: '팬아트',
+    }
+}
+
+export const ArtTypeColor = {
+    [ArtType.PAINTING]: 'green darken-1',
+    [ArtType.STICKER]: 'amber darken-3',
+    [ArtType.COMIC]: 'red darken-2',
+    [ArtType.FICTION]: 'brown',
+    [ArtType.VIDEO]: 'indigo darken-1',
+    [ArtType.OTHER]: 'grey darken-2',
+}
+
+export const ArtTypeStr = {
+    [ArtType.PAINTING]: {
+        [Locale.tc]: '畫作',
+        [Locale.sc]: '画作',
+        [Locale.en]: 'Painting',
+        [Locale.jp]: '絵画',
+        [Locale.kr]: '그림',
+    },
+    [ArtType.STICKER]: {
+        [Locale.tc]: '貼圖',
+        [Locale.sc]: '贴图',
+        [Locale.en]: 'Sticker',
+        [Locale.jp]: 'スタンプ',
+        [Locale.kr]: '스티커',
+    },
+    [ArtType.COMIC]: {
+        [Locale.tc]: '漫畫',
+        [Locale.sc]: '漫画',
+        [Locale.en]: 'Comic',
+        [Locale.jp]: 'マンガ',
+        [Locale.kr]: '만화',
+    },
+    [ArtType.FICTION]: {
+        [Locale.tc]: '小說',
+        [Locale.sc]: '小说',
+        [Locale.en]: 'Fiction',
+        [Locale.jp]: '小説',
+        [Locale.kr]: '소설',
+    },
+    [ArtType.VIDEO]: {
+        [Locale.tc]: '影片',
+        [Locale.sc]: '视频',
+        [Locale.en]: 'Video',
+        [Locale.jp]: 'ビデオ',
+        [Locale.kr]: '비디오',
+    },
+    [ArtType.OTHER]: {
+        [Locale.tc]: '其他',
+        [Locale.sc]: '其他',
+        [Locale.en]: 'Other',
+        [Locale.jp]: '他の',
+        [Locale.kr]: '다른',
+    },
 }

@@ -97,7 +97,7 @@ export default class DefaultLayout extends Vue {
     },
     {
       icon: 'mdi-panorama-variant',
-      title: this.$t('Art'),
+      title: this.$t('Artwork / Fanart'),
       to: `${this.langPrefix}/art/`
     },
   ]

@@ -14,6 +14,7 @@
                     <art-header :art="art" />
                     <v-divider class="mb-8"></v-divider>
                     <sticker-page v-if="isSticker" :art="art" />
+                    <comic-page v-if="isComic" :art="art" />
                 </v-card>
                 <v-spacer></v-spacer>
             </v-row>
@@ -27,13 +28,15 @@ import { ArtType, ErrorCode } from "~/plugins/utils/enums";
 import { Art } from "~/interface/art";
 import ArtHeader from "@/components/Art/ArtHeader.vue";
 import StickerPage from "~/components/Art/StickerPage.vue";
+import ComicPage from "~/components/Art/ComicPage.vue";
 import ArtSearch from "~/components/Art/ArtSearch.vue";
 
 @Component({
     components: {
         ArtHeader,
+        ArtSearch,
         StickerPage,
-        ArtSearch
+        ComicPage
     }
 })
 export default class DispatchPage extends Vue {
@@ -56,6 +59,10 @@ export default class DispatchPage extends Vue {
 
     get isSticker(): boolean{
         return this.art?.type == ArtType.STICKER
+    }
+
+    get isComic(): boolean{
+        return this.art?.type == ArtType.COMIC
     }
 
     get watchedQueryParams(){
