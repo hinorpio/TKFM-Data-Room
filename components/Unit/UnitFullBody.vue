@@ -18,7 +18,7 @@
             <v-spacer></v-spacer>
             <v-btn @click="isOutfits = !isOutfits">
                 <v-icon>mdi-sync</v-icon>
-                {{ $t('Simple Outfits') }}
+                {{ getSwitchOutfitString() }}
             </v-btn>
             <v-spacer></v-spacer>
         </v-row>
@@ -44,6 +44,10 @@ export default class UnitFullBody extends Vue {
 
     get imgHeight(): string{
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '50vh', '30vh', '70vh', '80vh', '80vh')
+    }
+
+    getSwitchOutfitString() :void{
+        return (this.isOutfits) ?this.$t('Original Outfits') :this.$t('Simple Outfits')
     }
 }
 </script>

@@ -79,6 +79,7 @@ export default {
     "Useful Tools": "便利なツール",
     "Language": "言語",
     "Simple Outfits": "簡易スキン",
+    "Original Outfits": "オリジナルスキン",
     "Artwork / Fanart": "アートワーク / 同人",
     "All": "全て",
     "Author": "著者",

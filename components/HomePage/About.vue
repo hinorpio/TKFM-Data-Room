@@ -29,6 +29,10 @@
                     <span :class="linkClass">{{ getLocalStr(tkfmtools_str) }}</span>
                 </a>
                 <br />
+                <a class="hyperlink-class" target="_blank" :href="getLocalStr(gamekeeTkfmWiki)">
+                    <span :class="linkClass">{{ getLocalStr(this.gamekeeTkfmWiki_str) }}</span>
+                </a>
+                <br />
                 <a class="hyperlink-class" target="_blank" :href="getLocalStr(japanTkfmWiki)">
                     <span :class="linkClass">{{ getLocalStr(japanTkfmWiki_str) }}</span>
                 </a>
@@ -67,11 +71,11 @@ export default class About extends Vue {
     }
 
     introduction_str: {[lang in Locale]: string} = {
-        [Locale.tc]: `本人為天下布魔 Discord 中文官方討論區內的機器人「過勞的娜娜」的作者。鑑於「天下布魔工具箱」的作者已經停更了網站，本站的初衷便是接替該站的功能並且融合「過勞的娜娜」的功能而製成的網站。\n\n本站為基於手遊「天下布魔」中數據所建之網站，旨在統整資料、並提供方便的工具。\n\n本站包含全境徵才、角色技能資料、角色潛力計算、活動時序、派遣資訊。`,
-        [Locale.sc]: `本人为天下布魔 Discord 中文官方讨论区内的机器人「过劳的娜娜」的作者。鉴于「天下布魔工具箱」的作者已经停更了网站，本站的初衷便是接替该站的功能并且融合「过劳的娜娜」的功能而制成的网站。\n\n本站为基于手游「天下布魔」中数据所建之网站，旨在统整资料、并提供方便的工具。\n\n本站包含全境征才、角色技能资料、角色潜力计算、活动时序、派遣资讯。`,
-        [Locale.en]: `I am the author of the Bot "Overworked Nana" in TenkafuMA! Offical Discord Chinese Channel. Since the author of "TenkafuMA Toolbox" has stopped updating the website, the aim of this website is to take over the functions of that website and integrate the functions of "Overworked Nana".\n\nThe goal of this website is to collect, organize, and present TenkafuMA data.\n\nThis website includes a recruitment filter, character detail, character potential calculator, event timeline, and dispatch info.`,
-        [Locale.jp]: `<u>ChatGPTによる翻訳 - (Translated by ChatGPT)</u>\n\n私は「天下布魔 Discord 中国語公式チャンネル」におけるボット「過労のナナ」の作者です。『天下布魔道具箱』の作者がウェブサイトの更新を停止しているため、このウェブサイトの目的はそのウェブサイトの機能を引き継ぎ、「過労のナナ」の機能を統合することです。\n\nこのウェブサイトの目標は、天下布魔のデータを収集し、整理して提示することです。\n\nこのウェブサイトには、召集令、キャラクターの詳細、キャラクターのポテンシャル計算機、イベントタイムライン、および派遣情報が含まれています。`,
-        [Locale.kr]: `<u>ChatGPT로 번역됨 - (Translated by ChatGPT)</u>\n\n공식 텐카푸마 디스코드 중국어 채널의 '지친 나나' 봇의 저자입니다. '텐카푸마 툴박스'의 저자가 웹사이트 업데이트를 중단했기 때문에 이 웹사이트의 목적은 그 웹사이트의 기능을 이어받고 '지친 나나'의 기능을 통합하는 것입니다.\n\n이 웹사이트의 목표는 텐카푸마 데이터를 수집, 정리하고 제공하는 것입니다.\n\n이 웹사이트에는 모든 구인 정보, 캐릭터 세부 정보, 캐릭터 잠재력 계산기, 이벤트 타임라인 및 파견 정보가 포함되어 있습니다.`,
+        [Locale.tc]: `本人為天下布魔 Discord 中文官方討論區內的機器人「過勞的娜娜」的作者。鑑於「天下布魔工具箱」的作者已經停更了網站，本站的初衷便是接替該站的功能並且融合「過勞的娜娜」的功能而製成的網站。\n\n本站為基於手遊「天下布魔」中數據所建之網站，旨在統整資料、並提供方便的工具。\n\n本站包含全境徵才、角色技能資料、角色潛力計算、活動時序、派遣資訊、畫作/二創。`,
+        [Locale.sc]: `本人为天下布魔 Discord 中文官方讨论区内的机器人「过劳的娜娜」的作者。鉴于「天下布魔工具箱」的作者已经停更了网站，本站的初衷便是接替该站的功能并且融合「过劳的娜娜」的功能而制成的网站。\n\n本站为基于手游「天下布魔」中数据所建之网站，旨在统整资料、并提供方便的工具。\n\n本站包含全境征才、角色技能资料、角色潜力计算、活动时序、派遣资讯、画作/二创。`,
+        [Locale.en]: `I am the author of the Bot "Overworked Nana" in TenkafuMA! Offical Discord Chinese Channel. Since the author of "TenkafuMA Toolbox" has stopped updating the website, the aim of this website is to take over the functions of that website and integrate the functions of "Overworked Nana".\n\nThe goal of this website is to collect, organize, and present TenkafuMA data.\n\nThis website includes a recruitment filter, character detail, character potential calculator, event timeline, dispatch info and artwork / fanart .`,
+        [Locale.jp]: `<u>ChatGPTによる翻訳 - (Translated by ChatGPT)</u>\n\n私は「天下布魔 Discord 中国語公式チャンネル」におけるボット「過労のナナ」の作者です。『天下布魔道具箱』の作者がウェブサイトの更新を停止しているため、このウェブサイトの目的はそのウェブサイトの機能を引き継ぎ、「過労のナナ」の機能を統合することです。\n\nこのウェブサイトの目標は、天下布魔のデータを収集し、整理して提示することです。\n\nこのウェブサイトには、召集令、キャラクターの詳細、キャラクターのポテンシャル計算機、イベントタイムライン、および派遣情報、アートワーク / 同人が含まれています。`,
+        [Locale.kr]: `<u>ChatGPT로 번역됨 - (Translated by ChatGPT)</u>\n\n공식 텐카푸마 디스코드 중국어 채널의 '지친 나나' 봇의 저자입니다. '텐카푸마 툴박스'의 저자가 웹사이트 업데이트를 중단했기 때문에 이 웹사이트의 목적은 그 웹사이트의 기능을 이어받고 '지친 나나'의 기능을 통합하는 것입니다.\n\n이 웹사이트의 목표는 텐카푸마 데이터를 수집, 정리하고 제공하는 것입니다.\n\n이 웹사이트에는 모든 구인 정보, 캐릭터 세부 정보, 캐릭터 잠재력 계산기, 이벤트 타임라인, 파견 정보가 및 아트워크 / 팬 창작 포함되어 있습니다.`,
     }
 
     disclaimer_str: {[lang in Locale]: string} = {
@@ -120,6 +124,22 @@ export default class About extends Vue {
         [Locale.en]: 'TenkafuMA Toolboxs',
         [Locale.jp]: '天下布魔道具箱',
         [Locale.kr]: '텐카푸마 툴박스',
+    }
+
+    gamekeeTkfmWiki: {[lang in Locale]: string} = {
+        [Locale.tc]: 'https://www.gamekee.com/tenkafuma/',
+        [Locale.sc]: 'https://www.gamekee.com/tenkafuma/',
+        [Locale.en]: 'https://www.gamekee.com/tenkafuma/',
+        [Locale.jp]: 'https://www.gamekee.com/tenkafuma/',
+        [Locale.kr]: 'https://www.gamekee.com/tenkafuma/',
+    }
+
+    gamekeeTkfmWiki_str: {[lang in Locale]: string} = {
+        [Locale.tc]: '天下布魔 Wiki (Gamekee)',
+        [Locale.sc]: '天下布魔 Wiki (Gamekee)',
+        [Locale.en]: 'TKFM Wiki (Gamekee)',
+        [Locale.jp]: '天下布魔 Wiki (Gamekee)',
+        [Locale.kr]: '텐카푸마 Wiki (Gamekee)',
     }
 
     japanTkfmWiki: {[lang in Locale]: string} = {

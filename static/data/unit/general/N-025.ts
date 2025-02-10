@@ -46,6 +46,7 @@ export const General_10933: Unit = {
     tagList: [
         TagID.ELEMENT_WIND,
         TagID.POSITION_OBSTRUCTER,
+        TagID.SPECIES_HUMAN,
         TagID.CLASS_SOLDIER
     ],
     otherVersion: [],

@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.4.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創`,
+                    [Locale.sc]: `画作/二创`,
+                    [Locale.en]: `Artwork / Fanart`,
+                    [Locale.jp]: `アートワーク / 同人`,
+                    [Locale.kr]: `아트워크 / 팬 창작`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                content: {
+                    [Locale.tc]: `「關於本站」更新`,
+                    [Locale.sc]: `画作/二创`,
+                    [Locale.en]: `"About" Section Update`,
+                    [Locale.jp]: `「サイトについて」更新`,
+                    [Locale.kr]: `『사이트 정보』 업데이트`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.3.0',
         logs: [
             {

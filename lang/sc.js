@@ -79,6 +79,7 @@ export default {
     "Useful Tools": "有用工具",
     "Language": "语言",
     "Simple Outfits": "简易造型",
+    "Original Outfits": "基本造型",
     "Artwork / Fanart": "画作/二创",
     "All": "所有",
     "Author": "作者",

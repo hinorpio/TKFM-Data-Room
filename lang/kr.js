@@ -79,6 +79,7 @@ export default {
     "Useful Tools": "유용한 도구",
     "Language": "언어",
     "Simple Outfits": "간이 스킨",
+    "Original Outfits": "기초 스킨",
     "Artwork / Fanart": "아트워크 / 팬 창작",
     "All": "모두",
     "Author": "작가",
