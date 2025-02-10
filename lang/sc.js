@@ -89,4 +89,5 @@ export default {
     "Display": "显示",
     "Grid": "网格",
     "Slide": "轮播格",
+    "Please be patient when loading the page at first time": "首次读取页面时, 请耐心等候",
 }

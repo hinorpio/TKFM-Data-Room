@@ -77,7 +77,7 @@ export default {
     "Offical Link": "Offical Link",
     "Offical": "Offical",
     "Useful Tools": "Useful Tools",
-    "Language": "Language",
+    "Language": "Lang",
     "Simple Outfits": "Simple Outfits",
     "Original Outfits": "Original Outfits",
     "Artwork / Fanart": "Artwork / Fanart",
@@ -89,4 +89,5 @@ export default {
     "Display": "Display",
     "Grid": "Grid",
     "Slide": "Slide",
+    "Please be patient when loading the page at first time": "Please be patient when loading the page at first time.",
 }

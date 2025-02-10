@@ -89,4 +89,5 @@ export default {
     "Display": "표시하다",
     "Grid": "그리드",
     "Slide": "슬라이드",
+    "Please be patient when loading the page at first time": "처음 페이지를 로드할 때는 잠시 기다려 주십시오.",
 }

@@ -15,6 +15,9 @@
                 </v-chip>
             </v-chip-group>
         </v-col>
+        <v-row>
+            <b class="pb-4 px-8 red--text">*{{ $t('Please be patient when loading the page at first time') }}</b>
+        </v-row>
     </v-row>
 </template>
 <script lang="ts">

@@ -89,4 +89,5 @@ export default {
     "Display": "表示方法",
     "Grid": "グリッド",
     "Slide": "スライド",
+    "Please be patient when loading the page at first time": "初めてページを読み込むときはしばらくお待ちください",
 }

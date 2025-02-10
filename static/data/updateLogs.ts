@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.4.1',
+        logs: [
+            {
+                type: LogType.FIX,
+                content: {
+                    [Locale.tc]: `畫作/二創 複製問題`,
+                    [Locale.sc]: `画作/二创 复制问题`,
+                    [Locale.en]: `Artwork / Fanart copy issue`,
+                    [Locale.jp]: `アートワーク / 同人のコピー`,
+                    [Locale.kr]: `아트워크 / 팬 창작 복사 문제`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.4.0',
         logs: [
             {

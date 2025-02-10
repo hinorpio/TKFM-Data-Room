@@ -17,21 +17,24 @@ import {
     PotentialBuffIcon,
     SkillTypeColor,
     CustomError,
+    BaerUrl
 } from '~/static/const';
 import JSZip from 'jszip';
+import { log } from 'console';
 
 export default {
     showPreLineText(text: string): string{
         return text.replace(/\n/g, '<br>');
     },
     handleCopyLink(path: string): void{
-        navigator.clipboard.writeText(path);
+        navigator.clipboard.writeText(`${BaerUrl}${path}`);
     },
     handleDownload(path: string): void{
         const link = document.createElement('a');
         link.href = path;
         link.target = '_blank';
-        link.download = this.getFileNameFromUrl(path);
+        const originalFileName = this.getFileNameFromUrl(path);
+        link.download = this.handleFilename(originalFileName);
 
         document.body.appendChild(link);
         link.click();
@@ -42,7 +45,9 @@ export default {
         for (const filePath of filePaths) {
             const response = await fetch(filePath);
             const blob = await response.blob();
-            const fileName = filePath.split('/').pop();
+            const originalFileName = filePath.split('/').pop();
+            const fileName = (originalFileName != undefined) ?this.handleFilename(originalFileName) :originalFileName;
+
             if (fileName) {
               zip.file(fileName, blob);
             }
@@ -58,6 +63,12 @@ export default {
     },
     getFileNameFromUrl(url: string): string {
         return url.substring(url.lastIndexOf('/') + 1);
+    },
+    handleFilename(filename: string): string {
+        const parts = filename.split('.');
+        const name = parts[0];
+        const extension = parts[parts.length-1];
+        return `${name}.${extension}`;
     },
     getCustomError(code: ErrorCode): NuxtError{
         return CustomError[code]
