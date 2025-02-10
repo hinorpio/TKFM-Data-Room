@@ -15,6 +15,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "cookie-universal-nuxt": "^2.2.2",
     "core-js": "^3.25.3",
+    "jszip": "^3.10.1",
     "nuxt": "^2.15.8",
     "nuxt-i18n": "^6.28.1",
     "vue": "^2.7.10",

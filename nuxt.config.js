@@ -21,7 +21,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon/favicon-16x16.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon/favicon-32x32.png' },
+      { rel: 'apple-touch-icon', href: '/favicon/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/favicon/site.webmanifest' },
     ],
   },
 
@@ -105,6 +109,33 @@ export default {
     manifest: {
       lang: 'en',
       theme_color: "#5f9df7",
+      icons: [
+        {
+          src: '/favicon/android-chrome-192x192.png',
+          sizes: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: '/favicon/android-chrome-512x512.png',
+          sizes: '512x512',
+          type: 'image/png'
+        },
+        {
+          src: '/favicon/apple-touch-icon.png',
+          sizes: '180x180',
+          type: 'image/png'
+        },
+        {
+          src: '/favicon/favicon-16x16.png',
+          sizes: '16x16',
+          type: 'image/png'
+        },
+        {
+          src: '/favicon/favicon-32x32.png',
+          sizes: '32x32',
+          type: 'image/png'
+        }
+      ]
     }
   },
 

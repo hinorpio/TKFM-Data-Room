@@ -18,6 +18,7 @@ import {
     SkillTypeColor,
     CustomError,
 } from '~/static/const';
+import JSZip from 'jszip';
 
 export default {
     showPreLineText(text: string): string{
@@ -31,6 +32,25 @@ export default {
         link.href = path;
         link.target = '_blank';
         link.download = this.getFileNameFromUrl(path);
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    },
+    async handleDownloadZip(filePaths: string[], fileName: string): Promise<void>{
+        const zip = new JSZip();
+        for (const filePath of filePaths) {
+            const response = await fetch(filePath);
+            const blob = await response.blob();
+            const fileName = filePath.split('/').pop();
+            if (fileName) {
+              zip.file(fileName, blob);
+            }
+        }
+        const content = await zip.generateAsync({ type: 'blob' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(content);
+        link.download = `${fileName}.zip`;
 
         document.body.appendChild(link);
         link.click();

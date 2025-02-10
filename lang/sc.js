@@ -84,4 +84,8 @@ export default {
     "Author": "作者",
     "Author Link": "作者链接",
     "Link Copied": "链接已复制",
+    "Download ZIP": "下载 ZIP",
+    "Display": "显示",
+    "Grid": "网格",
+    "Slide": "轮播格",
 }

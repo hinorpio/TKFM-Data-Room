@@ -84,4 +84,8 @@ export default {
     "Author": "著者",
     "Author Link": "著者リンク",
     "Link Copied": "リンクがコピーされました",
+    "Download ZIP": "ZIP ダウンロード",
+    "Display": "表示方法",
+    "Grid": "グリッド",
+    "Slide": "スライド",
 }

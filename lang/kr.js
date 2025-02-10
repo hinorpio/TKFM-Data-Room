@@ -84,4 +84,8 @@ export default {
     "Author": "작가",
     "Author Link": "작가 링크",
     "Link Copied": "링크가 복사되었습니다",
+    "Download ZIP": "ZIP 다운로드",
+    "Display": "표시하다",
+    "Grid": "그리드",
+    "Slide": "슬라이드",
 }

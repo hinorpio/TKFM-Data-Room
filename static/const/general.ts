@@ -398,8 +398,8 @@ export const ArtTypeColor = {
     [ArtType.PAINTING]: 'green darken-1',
     [ArtType.STICKER]: 'amber darken-3',
     [ArtType.COMIC]: 'red darken-2',
-    [ArtType.FICTION]: 'brown',
-    [ArtType.VIDEO]: 'indigo darken-1',
+    [ArtType.FICTION]: 'indigo darken-1',
+    [ArtType.VIDEO]: 'brown',
     [ArtType.OTHER]: 'grey darken-2',
 }
 

@@ -84,4 +84,8 @@ export default {
     "Author": "Author",
     "Author Link": "Author Link",
     "Link Copied": "Link Copied",
+    "Download ZIP": "Download ZIP",
+    "Display": "Display",
+    "Grid": "Grid",
+    "Slide": "Slide",
 }

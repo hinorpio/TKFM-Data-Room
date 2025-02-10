@@ -7,7 +7,7 @@ const SHAKE_STICKER: Art = {
     source: ArtSource.OFFICAL,
     type: ArtType.STICKER,
     locale: [ Locale.tc, Locale.sc, Locale.en, Locale.jp, Locale.kr ],
-    author: '天下布魔',
+    author: 'TKFM',
     authorLink: null,
     name: {
         [Locale.tc]: '天下布魔 - 抖腰',
