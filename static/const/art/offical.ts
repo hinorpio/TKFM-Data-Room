@@ -83,12 +83,14 @@ import NANA_IBLIS_ARGUE_001 from "@/assets/arts/offical/fb/fiction/NANA_IBLIS_AR
 import NANA_IBLIS_ARGUE_002 from "@/assets/arts/offical/fb/fiction/NANA_IBLIS_ARGUE/2.png"
 import NANA_IBLIS_ARGUE_003 from "@/assets/arts/offical/fb/fiction/NANA_IBLIS_ARGUE/3.png"
 
+import FB_PAINTING_001 from "@/assets/arts/offical/fb/painting/1.png"
 import FB_PAINTING_002 from "@/assets/arts/offical/fb/painting/2.png"
 import FB_PAINTING_003 from "@/assets/arts/offical/fb/painting/3.png"
 import FB_PAINTING_004 from "@/assets/arts/offical/fb/painting/4.png"
 import FB_PAINTING_005 from "@/assets/arts/offical/fb/painting/5.png"
 import FB_PAINTING_006 from "@/assets/arts/offical/fb/painting/6.png"
 import FB_PAINTING_007 from "@/assets/arts/offical/fb/painting/7.png"
+import FB_PAINTING_008 from "@/assets/arts/offical/fb/painting/8.png"
 import FB_PAINTING_009 from "@/assets/arts/offical/fb/painting/9.png"
 import FB_PAINTING_010 from "@/assets/arts/offical/fb/painting/10.png"
 import FB_PAINTING_011 from "@/assets/arts/offical/fb/painting/11.png"
@@ -126,9 +128,10 @@ import FB_PAINTING_042 from "@/assets/arts/offical/fb/painting/42.png"
 import FB_PAINTING_043 from "@/assets/arts/offical/fb/painting/43.png"
 import FB_PAINTING_044 from "@/assets/arts/offical/fb/painting/44.png"
 import FB_PAINTING_045 from "@/assets/arts/offical/fb/painting/45.png"
-import FB_PAINTING_046 from "@/assets/arts/offical/fb/painting/46.gif"
-import FB_PAINTING_047 from "@/assets/arts/offical/fb/painting/47.png"
+import FB_PAINTING_046 from "@/assets/arts/offical/fb/painting/46.png"
+import FB_PAINTING_047 from "@/assets/arts/offical/fb/painting/47.gif"
 import FB_PAINTING_048 from "@/assets/arts/offical/fb/painting/48.png"
+import FB_PAINTING_049 from "@/assets/arts/offical/fb/painting/49.png"
 
 import FB_COMIC_001 from "@/assets/arts/offical/fb/comic/1.png"
 import FB_COMIC_002 from "@/assets/arts/offical/fb/comic/2.png"
@@ -295,12 +298,14 @@ export const NANA_IBLIS_ARGUE = [
 ]
 
 export const FB_PAINTING = [
+    FB_PAINTING_001,
     FB_PAINTING_002,
     FB_PAINTING_003,
     FB_PAINTING_004,
     FB_PAINTING_005,
     FB_PAINTING_006,
     FB_PAINTING_007,
+    FB_PAINTING_008,
     FB_PAINTING_009,
     FB_PAINTING_010,
     FB_PAINTING_011,
@@ -341,6 +346,7 @@ export const FB_PAINTING = [
     FB_PAINTING_046,
     FB_PAINTING_047,
     FB_PAINTING_048,
+    FB_PAINTING_049,
 ]
 
 export const FB_COMIC = [
