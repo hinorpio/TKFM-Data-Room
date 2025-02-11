@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `CDN`,
+                    [Locale.sc]: `CDN`,
+                    [Locale.en]: `CDN`,
+                    [Locale.jp]: `CDN`,
+                    [Locale.kr]: `CDN`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色圖像`,
+                    [Locale.sc]: `角色图像`,
+                    [Locale.en]: `Character Image`,
+                    [Locale.jp]: `キャラクターイメージ`,
+                    [Locale.kr]: `캐릭터 이미지`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.4.1',
         logs: [
             {
