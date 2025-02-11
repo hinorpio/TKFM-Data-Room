@@ -27,12 +27,12 @@ export interface Unit {
     essence: string;
     thumbnail: string;
     selection: string;
-    clothes: string[];
+    clothes: string[][];
     tagList: TagID[];
     otherVersion: UnitCode[];
     skillSet: SkillSet[];
     discipline?: Discipline[];
     liberateSkillSet?: LiberateSkillSet[];
     puzzle?: PuzzleCode[];
-    outfits?: string[];
+    outfits?: string[][];
 }

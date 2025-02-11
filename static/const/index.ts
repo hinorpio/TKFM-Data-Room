@@ -29,7 +29,8 @@ export const CustomError: {[code in ErrorCode]: NuxtError} = {
 },
 }
 
-export const BaerUrl = "https://tkfmdata.com"
+export const baseURL = "https://tkfmdata.com"
+export const cdnURL = `https://cdn.tkfmdata.com`
 
 export const LocaleString = General.LocaleString
 

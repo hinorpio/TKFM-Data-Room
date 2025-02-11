@@ -1,22 +1,30 @@
 <template>
     <v-col>
         <v-carousel v-if="!isOutfits" v-model="fullBody" width="100%" :height="imgHeight" hide-delimiter-background>
-            <v-carousel-item  v-for="(clothes, index) in unit.clothes" :key="index">
+            <v-carousel-item  v-for="(clothes, index) in unit.clothes[nudeLevel]" :key="index">
                 <div class="image-container">
                     <v-img :src="clothes" :lazy-src="clothes" height="100%" width="100%" contain />
                 </div>
             </v-carousel-item>
         </v-carousel>
         <v-carousel v-else v-model="fullBody" width="100%" :height="imgHeight" hide-delimiter-background>
-            <v-carousel-item  v-for="(outfit, index) in unit.outfits" :key="index">
+            <v-carousel-item  v-for="(outfit, index) in unit.outfits[nudeLevel]" :key="index">
                 <div class="image-container">
                     <v-img :src="outfit" :lazy-src="outfit" height="100%" width="100%" contain />
                 </div>
             </v-carousel-item>
         </v-carousel>
-        <v-row v-if="hasOutfits" class="align-center justify-center mt-2">
+        <v-row class="align-center justify-center">
             <v-spacer></v-spacer>
-            <v-btn @click="isOutfits = !isOutfits">
+            <v-chip-group v-model="nudeLevel" @change="handleNudeLevel">
+                <v-chip v-for="(level, index) in 3" :key="index" :value="index" active-class="blue" >
+                    <v-icon>
+                        mdi-lingerie
+                    </v-icon>
+                    <b>{{ index + 1 }}</b>
+                </v-chip>
+            </v-chip-group>
+            <v-btn v-if="hasOutfits" class="ml-4" @click="isOutfits = !isOutfits">
                 <v-icon>mdi-sync</v-icon>
                 {{ getSwitchOutfitString() }}
             </v-btn>
@@ -35,7 +43,8 @@ export default class UnitFullBody extends Vue {
     @Prop({ required: true, default: {} })
     unit!: Unit;
     isOutfits: boolean = false;
-    fullBody: Number = 0;
+    fullBody: number = 0;
+    nudeLevel: number = 0
     
     get hasOutfits(): boolean{
         const outfit = this.unit.outfits ?? [];
@@ -44,6 +53,10 @@ export default class UnitFullBody extends Vue {
 
     get imgHeight(): string{
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '50vh', '30vh', '70vh', '80vh', '80vh')
+    }
+
+    handleNudeLevel(level: number): void{
+        this.nudeLevel = level
     }
 
     getSwitchOutfitString() :void{
