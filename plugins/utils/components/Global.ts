@@ -40,8 +40,7 @@ export default {
     async handleDownloadZip(filePaths: string[], fileName: string): Promise<void>{
         const zip = new JSZip();
         for (const filePath of filePaths) {
-            const a = `<a href="${filePath};" class="underline" target="_blank"></a>`
-            const response = await fetch(a);
+            const response = await fetch(filePath);
             const blob = await response.blob();
             const fileName = filePath.split('/').pop();
 
