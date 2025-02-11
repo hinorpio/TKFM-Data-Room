@@ -30,7 +30,7 @@ export default {
     handleDownload(path: string): void{
         const link = document.createElement('a');
         link.href = path;
-        link.target = '_blank';
+        link.href = `<a href="${path};" class="underline" target="_blank"></a>`;
         link.download = this.getFileNameFromUrl(path);
 
         document.body.appendChild(link);
@@ -40,9 +40,9 @@ export default {
     async handleDownloadZip(filePaths: string[], fileName: string): Promise<void>{
         const zip = new JSZip();
         for (const filePath of filePaths) {
-            const response = await fetch(filePath);
+            const a = `<a href="${filePath};" class="underline" target="_blank"></a>`
+            const response = await fetch(a);
             const blob = await response.blob();
-            const originalFileName = filePath.split('/').pop();
             const fileName = filePath.split('/').pop();
 
             if (fileName) {
