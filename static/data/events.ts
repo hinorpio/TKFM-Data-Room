@@ -4,6 +4,58 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const events: Event[][] = [
     [
         {
+            code: '0169',
+            type: EventType.DISCIPLINE,
+            startDate: '2025/02/26',
+            endDate: '2025/03/12',
+            color: EventTypeColor.DISCIPLINE,
+            name: {
+                [Locale.tc]: `【魔法少女☆托特拉-復刻-】`,
+                [Locale.sc]: `【魔法少女☆托特拉-复刻-】`,
+                [Locale.en]: `[Knight ☆ Tyrella -Comeback-]`,
+                [Locale.jp]: `「魔法少女☆トトラ-復刻-」`,
+                [Locale.kr]: `【마법소녀☆토타라-복각-】`
+            },
+            image: EventBanner.EVENT_0169,
+            newUnit: []
+        },
+    ],
+    [
+        {
+            code: '0167',
+            type: EventType.POINT,
+            startDate: '2025/02/12',
+            endDate: '2025/03/05',
+            color: EventTypeColor.POINT,
+            name: {
+                [Locale.tc]: `【烈日逢妖譚】`,
+                [Locale.sc]: `【烈日逢妖谭】`,
+                [Locale.en]: `[Demon Encounters]`,
+                [Locale.jp]: `「妖魔邂逅録」`,
+                [Locale.kr]: `【태양과 요물의 만남】`
+            },
+            image: EventBanner.EVENT_0167,
+            newUnit: [ UnitCode.p_aiko, UnitCode.ni_caesar, UnitCode.f_kana ]
+        },
+        {
+            code: '0168',
+            type: EventType.GUILDBOSS,
+            startDate: '2025/02/19',
+            endDate: '2025/03/06',
+            color: EventTypeColor.GUILDBOSS,
+            name: {
+                [Locale.tc]: `【極悅！春日祭】`,
+                [Locale.sc]: `【极悦！春日祭】`,
+                [Locale.en]: `[Ultimate Joy! Spring Festival]`,
+                [Locale.jp]: `「喜極！春祭り」`,
+                [Locale.kr]: `【극락! 봄맞이 축제】`
+            },
+            image: EventBanner.EVENT_0168,
+            newUnit: []
+        },
+    ],
+    [
+        {
             code: '0164',
             type: EventType.POINT,
             startDate: '2025/01/22',

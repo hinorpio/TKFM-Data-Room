@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.2',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 虔信神祀 艾可, 夜之影 凱薩, 祭典花韻 香奈`,
+                    [Locale.sc]: `角色: 虔信神祀 艾可, 夜之影 凯萨, 祭典花韵 香奈`,
+                    [Locale.en]: `Unit: Devout Miko Aiko, Night Shadow Caesar, Festival Blossom Kana`,
+                    [Locale.jp]: `キャラ: 敬虔な神祭 アイカ, 夜ノ影 シーザー, 祭りの花 香奈`,
+                    [Locale.kr]: `캐릭터: 경신신사 아이카, 밤의 그림자 시저, 제전의 꽃 카나`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【烈日逢妖譚】, 【極悅！春日祭】, 【魔法少女☆托特拉-復刻-】`,
+                    [Locale.sc]: `活动: 【烈日逢妖譚】, 【极悦！春日祭】, 【魔法少女☆托特拉-复刻-】`,
+                    [Locale.en]: `Event: [Demon Encounters], [Ultimate Joy! Spring Festival], [Knight ☆ Tyrella -Comeback-]`,
+                    [Locale.jp]: `イベント: 「妖魔邂逅録」, 「喜極！春祭り」, 「魔法少女☆トトラ-復刻-」`,
+                    [Locale.kr]: `이벤트: 【태양과 요물의 만남】, 【극락! 봄맞이 축제】, 【마법소녀☆토타라-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.1',
         logs: [
             {

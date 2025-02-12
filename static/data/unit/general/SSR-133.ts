@@ -8,7 +8,7 @@ export const General_10162: Unit = {
     prefix: {
         [Locale.tc]: "虔信神祀",
         [Locale.sc]: "虔信神祀",
-        [Locale.en]: "Devout Priestess",
+        [Locale.en]: "Devout Miko",
         [Locale.jp]: "敬虔な神祭",
         [Locale.kr]: "경신신사"
     },
