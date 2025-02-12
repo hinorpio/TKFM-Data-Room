@@ -16,7 +16,7 @@
         </v-carousel>
         <v-row class="align-center justify-center">
             <v-spacer></v-spacer>
-            <v-chip-group v-model="nudeLevel" @change="handleNudeLevel">
+            <v-chip-group class="ml-2" v-model="nudeLevel" @change="handleNudeLevel">
                 <v-chip v-for="(level, index) in 3" :key="index" :value="index" active-class="blue" >
                     <v-icon>
                         mdi-lingerie
