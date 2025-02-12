@@ -1316,6 +1316,33 @@ const FULLIMAGE_10161_1_LV3 = `${cdnURL}/character/fullbody/10161_1-Lv3.png`
 const FULLIMAGE_10161_2_LV1 = `${cdnURL}/character/fullbody/10161_2-Lv1.png`
 const FULLIMAGE_10161_2_LV2 = `${cdnURL}/character/fullbody/10161_2-Lv2.png`
 const FULLIMAGE_10161_2_LV3 = `${cdnURL}/character/fullbody/10161_2-Lv3.png`
+const FULLIMAGE_10162_0_LV1 = `${cdnURL}/character/fullbody/10162_0-Lv1.png`
+const FULLIMAGE_10162_0_LV2 = `${cdnURL}/character/fullbody/10162_0-Lv2.png`
+const FULLIMAGE_10162_0_LV3 = `${cdnURL}/character/fullbody/10162_0-Lv3.png`
+const FULLIMAGE_10162_1_LV1 = `${cdnURL}/character/fullbody/10162_1-Lv1.png`
+const FULLIMAGE_10162_1_LV2 = `${cdnURL}/character/fullbody/10162_1-Lv2.png`
+const FULLIMAGE_10162_1_LV3 = `${cdnURL}/character/fullbody/10162_1-Lv3.png`
+const FULLIMAGE_10162_2_LV1 = `${cdnURL}/character/fullbody/10162_2-Lv1.png`
+const FULLIMAGE_10162_2_LV2 = `${cdnURL}/character/fullbody/10162_2-Lv2.png`
+const FULLIMAGE_10162_2_LV3 = `${cdnURL}/character/fullbody/10162_2-Lv3.png`
+const FULLIMAGE_10163_0_LV1 = `${cdnURL}/character/fullbody/10163_0-Lv1.png`
+const FULLIMAGE_10163_0_LV2 = `${cdnURL}/character/fullbody/10163_0-Lv2.png`
+const FULLIMAGE_10163_0_LV3 = `${cdnURL}/character/fullbody/10163_0-Lv3.png`
+const FULLIMAGE_10163_1_LV1 = `${cdnURL}/character/fullbody/10163_1-Lv1.png`
+const FULLIMAGE_10163_1_LV2 = `${cdnURL}/character/fullbody/10163_1-Lv2.png`
+const FULLIMAGE_10163_1_LV3 = `${cdnURL}/character/fullbody/10163_1-Lv3.png`
+const FULLIMAGE_10163_2_LV1 = `${cdnURL}/character/fullbody/10163_2-Lv1.png`
+const FULLIMAGE_10163_2_LV2 = `${cdnURL}/character/fullbody/10163_2-Lv2.png`
+const FULLIMAGE_10163_2_LV3 = `${cdnURL}/character/fullbody/10163_2-Lv3.png`
+const FULLIMAGE_10164_0_LV1 = `${cdnURL}/character/fullbody/10164_0-Lv1.png`
+const FULLIMAGE_10164_0_LV2 = `${cdnURL}/character/fullbody/10164_0-Lv2.png`
+const FULLIMAGE_10164_0_LV3 = `${cdnURL}/character/fullbody/10164_0-Lv3.png`
+const FULLIMAGE_10164_1_LV1 = `${cdnURL}/character/fullbody/10164_1-Lv1.png`
+const FULLIMAGE_10164_1_LV2 = `${cdnURL}/character/fullbody/10164_1-Lv2.png`
+const FULLIMAGE_10164_1_LV3 = `${cdnURL}/character/fullbody/10164_1-Lv3.png`
+const FULLIMAGE_10164_2_LV1 = `${cdnURL}/character/fullbody/10164_2-Lv1.png`
+const FULLIMAGE_10164_2_LV2 = `${cdnURL}/character/fullbody/10164_2-Lv2.png`
+const FULLIMAGE_10164_2_LV3 = `${cdnURL}/character/fullbody/10164_2-Lv3.png`
 const FULLIMAGE_10175_0_LV1 = `${cdnURL}/character/fullbody/10175_0-Lv1.png`
 const FULLIMAGE_10175_0_LV2 = `${cdnURL}/character/fullbody/10175_0-Lv2.png`
 const FULLIMAGE_10175_0_LV3 = `${cdnURL}/character/fullbody/10175_0-Lv3.png`
@@ -2604,6 +2631,21 @@ const SSR = {
         [ FULLIMAGE_10161_0_LV1, FULLIMAGE_10161_1_LV1, FULLIMAGE_10161_2_LV1 ],
         [ FULLIMAGE_10161_0_LV2, FULLIMAGE_10161_1_LV2, FULLIMAGE_10161_2_LV2 ],
         [ FULLIMAGE_10161_0_LV3, FULLIMAGE_10161_1_LV3, FULLIMAGE_10161_2_LV3 ],
+    ],
+    [UnitCode.p_aiko]: [
+        [ FULLIMAGE_10162_0_LV1, FULLIMAGE_10162_1_LV1, FULLIMAGE_10162_2_LV1 ],
+        [ FULLIMAGE_10162_0_LV2, FULLIMAGE_10162_1_LV2, FULLIMAGE_10162_2_LV2 ],
+        [ FULLIMAGE_10162_0_LV3, FULLIMAGE_10162_1_LV3, FULLIMAGE_10162_2_LV3 ],
+    ],
+    [UnitCode.ni_caesar]: [
+        [ FULLIMAGE_10163_0_LV1, FULLIMAGE_10163_1_LV1, FULLIMAGE_10163_2_LV1 ],
+        [ FULLIMAGE_10163_0_LV2, FULLIMAGE_10163_1_LV2, FULLIMAGE_10163_2_LV2 ],
+        [ FULLIMAGE_10163_0_LV3, FULLIMAGE_10163_1_LV3, FULLIMAGE_10163_2_LV3 ],
+    ],
+    [UnitCode.f_kana]: [
+        [ FULLIMAGE_10164_0_LV1, FULLIMAGE_10164_1_LV1, FULLIMAGE_10164_2_LV1 ],
+        [ FULLIMAGE_10164_0_LV2, FULLIMAGE_10164_1_LV2, FULLIMAGE_10164_2_LV2 ],
+        [ FULLIMAGE_10164_0_LV3, FULLIMAGE_10164_1_LV3, FULLIMAGE_10164_2_LV3 ],
     ],
 }
 

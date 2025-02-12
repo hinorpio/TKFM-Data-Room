@@ -147,8 +147,11 @@ const SELECTION_10156 = `${cdnURL}/character/selection/cs10156_0_0.png`
 const SELECTION_10157 = `${cdnURL}/character/selection/cs10157_0_0.png`
 const SELECTION_10158 = `${cdnURL}/character/selection/cs10158_0_0.png`
 const SELECTION_10159 = `${cdnURL}/character/selection/cs10159_0_0.png`
-const SELECTION_10175 = `${cdnURL}/character/selection/cs10175_0_0.png`
 const SELECTION_10161 = `${cdnURL}/character/selection/cs10161_0_0.png`
+const SELECTION_10162 = `${cdnURL}/character/selection/cs10162_0_0.png`
+const SELECTION_10163 = `${cdnURL}/character/selection/cs10163_0_0.png`
+const SELECTION_10164 = `${cdnURL}/character/selection/cs10164_0_0.png`
+const SELECTION_10175 = `${cdnURL}/character/selection/cs10175_0_0.png`
 
 
 const SELECTION_10801 = `${cdnURL}/character/selection/cs10801_0_0.png`
@@ -386,6 +389,9 @@ const SSR = {
     [UnitCode.x_ichika]: SELECTION_10175,
     [UnitCode.ny_fiora]: SELECTION_10159,
     [UnitCode.zaskia]: SELECTION_10161,
+    [UnitCode.p_aiko]: SELECTION_10162,
+    [UnitCode.ni_caesar]: SELECTION_10163,
+    [UnitCode.f_kana]: SELECTION_10164,
 }
 
 export const Selection = {
