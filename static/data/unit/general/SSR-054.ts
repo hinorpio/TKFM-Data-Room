@@ -44,7 +44,7 @@ export const General_10085: Unit = {
     selection: UnitSelection[UnitCode.kana],
     clothes: UnitFullImage[UnitCode.kana],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.f_kana ],
     puzzle: [],
     skillSet: []
 }

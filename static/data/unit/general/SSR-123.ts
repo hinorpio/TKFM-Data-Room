@@ -20,8 +20,8 @@ export const General_10152: Unit = {
         [Locale.kr]: "수잔"
     },
     abbreviation: {
-        [Locale.tc]: [ "萬煌" ],
-        [Locale.sc]: [ "万煌" ],
+        [Locale.tc]: [ "奶煌", "萬煌" ],
+        [Locale.sc]: [ "奶煌", "万煌" ],
         [Locale.en]: [ "H.Daphne", "H.Susan" ],
         [Locale.jp]: [],
         [Locale.kr]: []

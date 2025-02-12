@@ -22,7 +22,7 @@ export const General_10144: Unit = {
     abbreviation: {
         [Locale.tc]: [ "夏凱" ],
         [Locale.sc]: [ "夏凯" ],
-        [Locale.en]: [ "S.Caesar" ],
+        [Locale.en]: [ "S.Caesar", "S.Caez" ],
         [Locale.jp]: [],
         [Locale.kr]: [ "수저" ]
     },
@@ -44,7 +44,7 @@ export const General_10144: Unit = {
     selection: UnitSelection[UnitCode.s_caesar],
     clothes: UnitFullImage[UnitCode.s_caesar],
     tagList: [],
-    otherVersion: [ UnitCode.f_caesar, UnitCode.n_caesar ],
+    otherVersion: [ UnitCode.f_caesar, UnitCode.n_caesar, UnitCode.ni_caesar ],
     puzzle: [ PuzzleCode.EVENT_2024_SUMMER_3 ],
     skillSet: []
 }

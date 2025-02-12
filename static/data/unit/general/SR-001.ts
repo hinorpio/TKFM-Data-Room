@@ -52,7 +52,7 @@ export const General_10009: Unit = {
         TagID.CLASS_ELITE, 
         TagID.OTHER_SUPPORT,
     ], 
-    otherVersion: [ UnitCode.x_aiko, UnitCode.xx_aiko, UnitCode.s_aiko ],
+    otherVersion: [ UnitCode.x_aiko, UnitCode.xx_aiko, UnitCode.s_aiko, UnitCode.p_aiko ],
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_2 ],
     skillSet: []
 }
