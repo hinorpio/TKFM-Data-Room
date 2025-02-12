@@ -88,5 +88,6 @@ export default class FilterArtBar extends Vue {
         const artTypeStr: {[lang in Locale]: string} = this.$util.getArtTypeStr(artType)
         return artTypeStr[locale]
     }
+    
 }
 </script>
