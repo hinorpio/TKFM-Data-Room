@@ -39,5 +39,4 @@ export default {
     getAllArtTypeColor(): { [key: string]: string }[] {
         return Object.entries(ArtTypeColor).map(([key, value]) => ({ code: key, color: value }));
     },
-
 };
