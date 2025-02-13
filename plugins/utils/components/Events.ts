@@ -1,5 +1,5 @@
 import { Event } from '@/interface/event';
-import eventData from '@/static/data/events';
+import eventData from '@/static/data/event';
 import { Locale, EventType } from '../enums';
 import { EventTypeString } from '~/static/const';
 
