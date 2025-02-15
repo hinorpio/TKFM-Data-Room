@@ -37,6 +37,8 @@ const DOKGUN_STICKER_KR_033 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/해피뉴
 const DOKGUN_STICKER_KR_034 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/팝콘콘.gif`
 const DOKGUN_STICKER_KR_035 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/피곤콘.gif`
 const DOKGUN_STICKER_KR_036 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/정답콘.gif`
+const DOKGUN_STICKER_KR_037 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/thug_life.gif`
+const DOKGUN_STICKER_KR_038 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/dont_cry.gif`
 
 const DOKGUN_STICKER_EN_000 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/0.gif`
 const DOKGUN_STICKER_EN_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/콘.gif`
@@ -65,6 +67,8 @@ const DOKGUN_STICKER_EN_032 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/푸하하
 const DOKGUN_STICKER_EN_033 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/해피뉴얼유얼콘.gif`
 const DOKGUN_STICKER_EN_034 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/팝콘콘.gif`
 const DOKGUN_STICKER_EN_035 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/피곤콘.gif`
+const DOKGUN_STICKER_EN_037 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/thug_life.gif`
+const DOKGUN_STICKER_EN_038 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/dont_cry.gif`
 
 const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/Phoenix/扑倒.gif`
 const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/Phoenix/震惊.gif`
@@ -119,6 +123,8 @@ export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_034,
     DOKGUN_STICKER_KR_035,
     DOKGUN_STICKER_KR_036,
+    DOKGUN_STICKER_KR_037,
+    DOKGUN_STICKER_KR_038,
 ]
 
 export const DOKGUN_STICKER_EN = [
@@ -149,6 +155,8 @@ export const DOKGUN_STICKER_EN = [
     DOKGUN_STICKER_EN_033,
     DOKGUN_STICKER_EN_034,
     DOKGUN_STICKER_EN_035,
+    DOKGUN_STICKER_EN_037,
+    DOKGUN_STICKER_EN_038,
 ]
 
 export const LITTLE_PEA_STICKER = [
