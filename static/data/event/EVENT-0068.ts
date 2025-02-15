@@ -15,7 +15,14 @@ const EVENT_0068: Event = {
         [Locale.jp]: `「AbysSeducer」`,
         [Locale.kr]: `【AbysSeducer】`
     },
-    image: EventBanner.EVENT_0068,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0068,
     newUnit: [ UnitCode.sherana, UnitCode.iyan ]
 }
 

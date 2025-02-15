@@ -15,7 +15,14 @@ const EVENT_0050: Event = {
         [Locale.jp]: `「休暇村改築王！」`,
         [Locale.kr]: `【리모델링의 왕!】`
     },
-    image: EventBanner.EVENT_0050,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0050,
     newUnit: [ UnitCode.s_iblis, UnitCode.s_milae, UnitCode.s_noel, UnitCode.s_aridya ]
 }
 

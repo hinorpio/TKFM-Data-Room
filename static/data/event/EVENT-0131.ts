@@ -15,7 +15,14 @@ const EVENT_0131: Event = {
         [Locale.jp]: `「正義・知謀・魔法の杖-復刻-」`,
         [Locale.kr]: `【정의, 지략, 마법봉-복각-】`
     },
-    image: EventBanner.EVENT_0131,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0131,
     newUnit: []
 }
 

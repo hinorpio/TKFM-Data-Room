@@ -15,7 +15,14 @@ const EVENT_0082: Event = {
         [Locale.jp]: `「ご注文はケモ耳ですか？」`,
         [Locale.kr]: `【동물귀 주문하시겠어요?】`
     },
-    image: EventBanner.EVENT_0082,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0082,
     newUnit: [ UnitCode.lillane, UnitCode.c_lulu ]
 }
 

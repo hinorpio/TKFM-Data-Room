@@ -15,7 +15,14 @@ const EVENT_0144: Event = {
         [Locale.jp]: `「妖狐とその生息地」`,
         [Locale.kr]: `【요호와 그녀의 생식지】`
     },
-    image: EventBanner.EVENT_0144,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0144,
     newUnit: [ UnitCode.beer_shizuka, UnitCode.tsubaki ]
 }
 

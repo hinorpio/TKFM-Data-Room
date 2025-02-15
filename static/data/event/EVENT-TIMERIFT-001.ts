@@ -15,7 +15,14 @@ const EVENT_TIMERIFT_001: Event = {
         [Locale.jp]: `「時空の裂け目」Beta`,
         [Locale.kr]: `【시공간의 균열】 Beta`
     },
-    image: EventBanner.EVENT_TIMERIFT,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_TIMERIFT,
     newUnit: []
 }
 

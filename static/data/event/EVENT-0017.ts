@@ -15,7 +15,14 @@ const EVENT_0017: Event = {
         [Locale.jp]: `「ステージ3～挑戦！休暇村ジャッジ」`,
         [Locale.kr]: `【제3탄~도전! 리조트 평가】`
     },
-    image: EventBanner.EVENT_0017,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0017,
     newUnit: []
 }
 

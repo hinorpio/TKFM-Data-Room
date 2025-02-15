@@ -15,7 +15,14 @@ const EVENT_0033: Event = {
         [Locale.jp]: `「異世界アダルトショップ」`,
         [Locale.kr]: `【이세계 성인용품점】`
     },
-    image: EventBanner.EVENT_0033,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0033,
     newUnit: [ UnitCode.sakuya ]
 }
 

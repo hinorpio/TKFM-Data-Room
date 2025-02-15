@@ -6,7 +6,7 @@ import * as Item from './item';
 import * as General from './general';
 import * as Puzzle from './puzzle';
 import * as UnitImage from './unit';
-import * as Event from './event';
+import * as Event from './event'
 import * as ArtSrc from './art';
 import { NuxtError } from '@nuxt/types';
 
@@ -59,7 +59,7 @@ export const PuzzleImage = Puzzle.Image
 
 export const EventTypeColor = General.EventTypeColor
 export const EventTypeString = General.EventTypeString
-export const EventBanner = Event
+export const EventBanner = Event.Banner
 
 export const UnitEssence = UnitImage.Essence
 export const UnitSelection = UnitImage.Selection

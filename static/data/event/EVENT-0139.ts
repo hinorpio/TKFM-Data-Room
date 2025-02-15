@@ -15,7 +15,14 @@ const EVENT_0139: Event = {
         [Locale.jp]: `「海賊王の秘宝-復刻-」`,
         [Locale.kr]: `【해적왕의 비보-복각-】`
     },
-    image: EventBanner.EVENT_0139,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0139,
     newUnit: []
 }
 

@@ -15,7 +15,14 @@ const EVENT_0154: Event = {
         [Locale.jp]: `「殺意の行進」`,
         [Locale.kr]: `【살의의 행진】`
     },
-    image: EventBanner.EVENT_0154,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0154,
     newUnit: []
 }
 

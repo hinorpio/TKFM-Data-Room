@@ -15,7 +15,14 @@ const EVENT_0006: Event = {
         [Locale.jp]: `「魔界アイドル大騒動」`,
         [Locale.kr]: `【마계 아이돌 대소동】`
     },
-    image: EventBanner.EVENT_0006,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0006,
     newUnit: []
 }
 

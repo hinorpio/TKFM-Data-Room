@@ -15,7 +15,14 @@ const EVENT_0124: Event = {
         [Locale.jp]: `「ケモミミ郷の伝説」`,
         [Locale.kr]: `【케모미미촌의 전설】`
     },
-    image: EventBanner.EVENT_0124,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0124,
     newUnit: [ UnitCode.angelina, UnitCode.w_lillane ]
 }
 

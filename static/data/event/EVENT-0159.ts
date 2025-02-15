@@ -15,7 +15,14 @@ const EVENT_0159: Event = {
         [Locale.jp]: `「空気怪獣ごっこ-復刻-」`,
         [Locale.kr]: `【공기 괴수 대전-복각-】`
     },
-    image: EventBanner.EVENT_0159,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0159,
     newUnit: []
 }
 

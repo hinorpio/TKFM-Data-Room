@@ -15,7 +15,14 @@ const EVENT_0143: Event = {
         [Locale.jp]: `「魔王城の眠らぬ夜-復刻-」`,
         [Locale.kr]: `【마왕성 잠 못 이루는 밤-복각-】`
     },
-    image: EventBanner.EVENT_0143,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0143,
     newUnit: []
 }
 

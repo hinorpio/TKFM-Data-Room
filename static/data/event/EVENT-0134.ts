@@ -15,7 +15,14 @@ const EVENT_0134: Event = {
         [Locale.jp]: `「魔族の友達-復刻-」`,
         [Locale.kr]: `【마족 친구-복각-】`
     },
-    image: EventBanner.EVENT_0134,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0134,
     newUnit: []
 }
 

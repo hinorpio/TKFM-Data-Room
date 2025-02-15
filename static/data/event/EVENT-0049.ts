@@ -15,7 +15,14 @@ const EVENT_0049: Event = {
         [Locale.jp]: `「緊急！悪兎襲来」`,
         [Locale.kr]: `【긴급! 악토끼 내습!】`
     },
-    image: EventBanner.EVENT_0049,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0049,
     newUnit: [ UnitCode.usagihime ]
 }
 

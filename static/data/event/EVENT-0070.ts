@@ -15,7 +15,14 @@ const EVENT_0070: Event = {
         [Locale.jp]: `「イースターエッグの進撃-復刻-」`,
         [Locale.kr]: `【부활절 달걀의 진격-복각-】`
     },
-    image: EventBanner.EVENT_0070,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0070,
     newUnit: []
 }
 

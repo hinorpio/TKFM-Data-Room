@@ -15,7 +15,14 @@ const EVENT_0012: Event = {
         [Locale.jp]: `「復活した「C」」`,
         [Locale.kr]: `【부활한 [C]】`
     },
-    image: EventBanner.EVENT_0012,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0012,
     newUnit: [ UnitCode.chizuru ]
 }
 

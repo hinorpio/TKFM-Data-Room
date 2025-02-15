@@ -15,7 +15,14 @@ const EVENT_0149: Event = {
         [Locale.jp]: `「星宿の導き」`,
         [Locale.kr]: `【별자리의 안내】`
     },
-    image: EventBanner.EVENT_0149,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0149,
     newUnit: []
 }
 

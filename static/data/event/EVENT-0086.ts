@@ -15,7 +15,14 @@ const EVENT_0086: Event = {
         [Locale.jp]: `「伝説の魔法少女」`,
         [Locale.kr]: `【전설의 마법소녀】`
     },
-    image: EventBanner.EVENT_0086,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0086,
     newUnit: [ UnitCode.juneau, UnitCode.britney ]
 }
 

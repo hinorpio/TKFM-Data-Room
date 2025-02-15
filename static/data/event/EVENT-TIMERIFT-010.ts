@@ -15,7 +15,14 @@ const EVENT_TIMERIFT_010: Event = {
         [Locale.jp]: `「時空の裂け目」第10シーズン`,
         [Locale.kr]: `【시공간의 균열】 제10시즌`
     },
-    image: EventBanner.EVENT_TIMERIFT,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_TIMERIFT,
     newUnit: []
 }
 

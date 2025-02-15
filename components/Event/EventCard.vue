@@ -53,7 +53,7 @@ export default class EventCard extends Vue {
 
     getEventBanner(event: Event): string{
         const locale = this.$i18n.locale as keyof typeof Locale
-        const image = event.image[locale]
+        const image = event.banner[locale]
         return (image)? image :''
     }
 

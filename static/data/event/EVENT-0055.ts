@@ -15,7 +15,14 @@ const EVENT_0055: Event = {
         [Locale.jp]: `「Let's Party All Night！」`,
         [Locale.kr]: `【Let's Party All Night！】`
     },
-    image: EventBanner.EVENT_0055,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0055,
     newUnit: []
 }
 

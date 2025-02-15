@@ -15,7 +15,14 @@ const EVENT_0163: Event = {
         [Locale.jp]: `「勝負！風林火山-復刻-」`,
         [Locale.kr]: `【승부! 풍림화산-복각-】`
     },
-    image: EventBanner.EVENT_0163,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0163,
     newUnit: []
 }
 

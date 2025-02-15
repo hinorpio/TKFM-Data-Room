@@ -15,7 +15,14 @@ const EVENT_0060: Event = {
         [Locale.jp]: `【ナーガ戦記-復刻-】`,
         [Locale.kr]: `【나가 전기-복각-】`
     },
-    image: EventBanner.EVENT_0060,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0060,
     newUnit: []
 }
 

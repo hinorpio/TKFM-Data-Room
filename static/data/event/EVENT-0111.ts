@@ -15,7 +15,14 @@ const EVENT_0111: Event = {
         [Locale.jp]: `「極楽の宴-復刻-」`,
         [Locale.kr]: `【극락의 향연-복각-】`
     },
-    image: EventBanner.EVENT_0111,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0111,
     newUnit: []
 }
 

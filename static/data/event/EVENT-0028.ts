@@ -15,7 +15,14 @@ const EVENT_0028: Event = {
         [Locale.jp]: `「極楽の宴」`,
         [Locale.kr]: `【극락의 향연】`
     },
-    image: EventBanner.EVENT_0028,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0028,
     newUnit: [ UnitCode.ibuki ]
 }
 

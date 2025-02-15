@@ -15,7 +15,14 @@ const EVENT_0010: Event = {
         [Locale.jp]: `「イースターエッグの進撃」`,
         [Locale.kr]: `【부활절 달걀의 진격】`
     },
-    image: EventBanner.EVENT_0010,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0010,
     newUnit: [ UnitCode.e_satan ]
 }
 

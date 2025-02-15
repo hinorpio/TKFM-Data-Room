@@ -15,7 +15,14 @@ const EVENT_0147: Event = {
         [Locale.jp]: `「友達と残業-復刻-」`,
         [Locale.kr]: `【친구와 야근-복각-】`
     },
-    image: EventBanner.EVENT_0147,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0147,
     newUnit: []
 }
 

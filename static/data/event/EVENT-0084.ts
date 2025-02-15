@@ -15,7 +15,14 @@ const EVENT_0084: Event = {
         [Locale.jp]: `「不思議の旅-復刻-」`,
         [Locale.kr]: `【기묘한 여정-복각-】`
     },
-    image: EventBanner.EVENT_0084,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0084,
     newUnit: []
 }
 

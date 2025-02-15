@@ -15,7 +15,14 @@ const EVENT_0007: Event = {
         [Locale.jp]: `「狩猟休暇」`,
         [Locale.kr]: `【사냥 휴가】`
     },
-    image: EventBanner.EVENT_0007,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0007,
     newUnit: []
 }
 

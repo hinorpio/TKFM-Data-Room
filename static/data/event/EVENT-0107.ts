@@ -15,7 +15,14 @@ const EVENT_0107: Event = {
         [Locale.jp]: `「走れ！ケンタウロス娘！-復刻-」`,
         [Locale.kr]: `【질주해라 켄타우로스 소녀!-복각-】`
     },
-    image: EventBanner.EVENT_0107,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0107,
     newUnit: []
 }
 

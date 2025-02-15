@@ -15,7 +15,14 @@ const EVENT_0120: Event = {
         [Locale.jp]: `「キラキラ☆スーパーアイドル対決」`,
         [Locale.kr]: `【반짝이는 별☆슈퍼아이돌 대결】`
     },
-    image: EventBanner.EVENT_0120,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0120,
     newUnit: []
 }
 

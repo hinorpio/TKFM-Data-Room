@@ -15,7 +15,14 @@ const EVENT_0128: Event = {
         [Locale.jp]: `「後宮枕投げバトル」`,
         [Locale.kr]: `【후궁들의 파자마 베개 싸움】`
     },
-    image: EventBanner.EVENT_0128,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0128,
     newUnit: []
 }
 

@@ -15,7 +15,14 @@ const EVENT_0073: Event = {
         [Locale.jp]: `「雪色のクリスマス・イヴ」`,
         [Locale.kr]: `【화이트 크리스마스】`
     },
-    image: EventBanner.EVENT_0073,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0073,
     newUnit: []
 }
 

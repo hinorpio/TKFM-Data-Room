@@ -15,7 +15,14 @@ const EVENT_0133: Event = {
         [Locale.jp]: `「Vkdgrz ri Wkh Vxsuhph Rqh」`,
         [Locale.kr]: `【Vkdgrz ri Wkh Vxsuhph Rqh】`
     },
-    image: EventBanner.EVENT_0133,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0133,
     newUnit: []
 }
 

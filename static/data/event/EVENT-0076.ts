@@ -15,7 +15,14 @@ const EVENT_0076: Event = {
         [Locale.jp]: `「風雲！新春大運動会」`,
         [Locale.kr]: `【풍운! 신춘 대운동회】`
     },
-    image: EventBanner.EVENT_0076,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0076,
     newUnit: [ UnitCode.ny_salucia, UnitCode.ny_lana ]
 }
 

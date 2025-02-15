@@ -15,7 +15,14 @@ const EVENT_0141: Event = {
         [Locale.jp]: `「魔界飯」`,
         [Locale.kr]: `【마계밥】`
     },
-    image: EventBanner.EVENT_0141,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0141,
     newUnit: [ UnitCode.d_minayomi, UnitCode.oniyoiki ]
 }
 

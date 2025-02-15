@@ -15,7 +15,14 @@ const EVENT_0130: Event = {
         [Locale.jp]: `「伝説の魔法少女-復刻-」`,
         [Locale.kr]: `【전설의 마법소녀-복각-】`
     },
-    image: EventBanner.EVENT_0130,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0130,
     newUnit: []
 }
 

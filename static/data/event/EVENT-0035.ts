@@ -15,7 +15,14 @@ const EVENT_0035: Event = {
         [Locale.jp]: `「絶倫セックスマス」`,
         [Locale.kr]: `【황당한 섹스마스 이브】`
     },
-    image: EventBanner.EVENT_0035,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0035,
     newUnit: []
 }
 

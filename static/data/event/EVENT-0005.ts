@@ -15,7 +15,14 @@ const EVENT_0005: Event = {
         [Locale.jp]: `「外伝：超時空アイドル」`,
         [Locale.kr]: `【외전: 시공초월 아이돌】`
     },
-    image: EventBanner.EVENT_0005,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0005,
     newUnit: [ UnitCode.noel, UnitCode.i_iblis ]
 }
 

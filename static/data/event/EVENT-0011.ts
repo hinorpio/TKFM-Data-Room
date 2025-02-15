@@ -15,7 +15,14 @@ const EVENT_0011: Event = {
         [Locale.jp]: `「怨念を十倍にして晴らせ」`,
         [Locale.kr]: `【10배로 되갚아준 원념】`
     },
-    image: EventBanner.EVENT_0011,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0011,
     newUnit: []
 }
 

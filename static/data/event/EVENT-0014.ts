@@ -15,7 +15,14 @@ const EVENT_0014: Event = {
         [Locale.jp]: `「外伝：世界終末の日」`,
         [Locale.kr]: `【외전: 세계 종말의 날】`
     },
-    image: EventBanner.EVENT_0014,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0014,
     newUnit: [ UnitCode.daphne ]
 }
 

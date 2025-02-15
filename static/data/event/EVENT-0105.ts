@@ -15,7 +15,14 @@ const EVENT_0105: Event = {
         [Locale.jp]: `「ゲームナイトパニック」`,
         [Locale.kr]: `【게임 나이트 오브 소울】`
     },
-    image: EventBanner.EVENT_0105,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0105,
     newUnit: [ UnitCode.a_usagihime, UnitCode.d_miru, UnitCode.nyoro ]
 }
 

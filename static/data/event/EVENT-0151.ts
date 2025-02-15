@@ -15,7 +15,14 @@ const EVENT_0151: Event = {
         [Locale.jp]: `「ハロウィンのサプライズ-復刻-」`,
         [Locale.kr]: `【할로윈 서프라이즈-복각-】`
     },
-    image: EventBanner.EVENT_0151,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0151,
     newUnit: []
 }
 

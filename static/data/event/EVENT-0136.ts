@@ -15,7 +15,14 @@ const EVENT_0136: Event = {
         [Locale.jp]: `「混乱の青海原！」`,
         [Locale.kr]: `【혼란의 광조】`
     },
-    image: EventBanner.EVENT_0136,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0136,
     newUnit: [ UnitCode.s_chizuru, UnitCode.s_salucia, UnitCode.s_caesar, UnitCode.s_satan ]
 }
 

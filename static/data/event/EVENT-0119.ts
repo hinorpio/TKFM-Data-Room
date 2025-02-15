@@ -15,7 +15,14 @@ const EVENT_0119: Event = {
         [Locale.jp]: `「Automaton's Dream！」`,
         [Locale.kr]: `【Automaton's Dream！】`
     },
-    image: EventBanner.EVENT_0119,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0119,
     newUnit: [ UnitCode.nanami, UnitCode.w_noel, UnitCode.w_mesmiia ]
 }
 

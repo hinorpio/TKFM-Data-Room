@@ -15,7 +15,14 @@ const EVENT_0008: Event = {
         [Locale.jp]: `「ナーガ戦記」`,
         [Locale.kr]: `【나가 전기】`
     },
-    image: EventBanner.EVENT_0008,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0008,
     newUnit: [ UnitCode.mesmiia ]
 }
 

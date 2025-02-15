@@ -15,7 +15,14 @@ const EVENT_0043: Event = {
         [Locale.jp]: `「シーザー½」`,
         [Locale.kr]: `【시저½】`
     },
-    image: EventBanner.EVENT_0043,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0043,
     newUnit: [ UnitCode.f_caesar ]
 }
 

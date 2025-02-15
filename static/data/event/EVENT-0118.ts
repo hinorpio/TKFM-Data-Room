@@ -15,7 +15,14 @@ const EVENT_0118: Event = {
         [Locale.jp]: `「銃砲、銃剣&ハウンド」`,
         [Locale.kr]: `【총포, 총검&하운드】`
     },
-    image: EventBanner.EVENT_0118,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0118,
     newUnit: []
 }
 

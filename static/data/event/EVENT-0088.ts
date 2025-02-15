@@ -15,7 +15,14 @@ const EVENT_0088: Event = {
         [Locale.jp]: `「魔王シーザーの事件簿-復刻-」`,
         [Locale.kr]: `【마왕 시저의 사건부-복각-】`
     },
-    image: EventBanner.EVENT_0088,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0088,
     newUnit: []
 }
 

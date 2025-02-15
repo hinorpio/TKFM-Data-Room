@@ -15,7 +15,14 @@ const EVENT_0042: Event = {
         [Locale.jp]: `「征伐される魔王」`,
         [Locale.kr]: `【켠 김에 마왕까지】`
     },
-    image: EventBanner.EVENT_0042,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0042,
     newUnit: [ UnitCode.miru, UnitCode.uruta, UnitCode.ayane, UnitCode.muila ]
 }
 

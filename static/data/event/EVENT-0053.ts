@@ -15,7 +15,14 @@ const EVENT_0053: Event = {
         [Locale.jp]: `「魔王シーザーの事件簿」`,
         [Locale.kr]: `【마왕 시저의 사건부】`
     },
-    image: EventBanner.EVENT_0053,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0053,
     newUnit: [ UnitCode.ichika, UnitCode.kana ]
 }
 

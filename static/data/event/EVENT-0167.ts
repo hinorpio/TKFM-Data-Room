@@ -15,7 +15,14 @@ const EVENT_0167: Event = {
         [Locale.jp]: `「妖魔邂逅録」`,
         [Locale.kr]: `【태양과 요물의 만남】`
     },
-    image: EventBanner.EVENT_0167,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0167,
     newUnit: [ UnitCode.p_aiko, UnitCode.ni_caesar, UnitCode.f_kana ]
 }
 

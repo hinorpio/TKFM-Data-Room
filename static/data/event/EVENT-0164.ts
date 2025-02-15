@@ -15,7 +15,14 @@ const EVENT_0164: Event = {
         [Locale.jp]: `「精遊記」`,
         [Locale.kr]: `【정유기】`
     },
-    image: EventBanner.EVENT_0164,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0164,
     newUnit: [ UnitCode.ny_fiora, UnitCode.zaskia ]
 }
 

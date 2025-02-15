@@ -15,7 +15,14 @@ const EVENT_0110: Event = {
         [Locale.jp]: `「ハロウィンクエスト城」`,
         [Locale.kr]: `【할로윈 성 돌파】`
     },
-    image: EventBanner.EVENT_0110,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0110,
     newUnit: []
 }
 

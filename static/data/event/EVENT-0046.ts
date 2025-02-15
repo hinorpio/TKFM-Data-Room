@@ -15,7 +15,14 @@ const EVENT_0046: Event = {
         [Locale.jp]: `「不思議の旅」`,
         [Locale.kr]: `【기묘한 여정】`
     },
-    image: EventBanner.EVENT_0046,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0046,
     newUnit: [ UnitCode.w_chizuru, UnitCode.w_lulu ]
 }
 

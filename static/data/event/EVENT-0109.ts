@@ -15,7 +15,14 @@ const EVENT_0109: Event = {
         [Locale.jp]: `「ハロウィン鹿娘大暴走！」`,
         [Locale.kr]: `【할로윈 순록의 대횡포!】`
     },
-    image: EventBanner.EVENT_0109,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0109,
     newUnit: [ UnitCode.h_ayane, UnitCode.h_shiro ]
 }
 

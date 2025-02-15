@@ -15,7 +15,14 @@ const EVENT_0006_CHALLENGE: Event = {
         [Locale.jp]: `「天下一アイドル大会」`,
         [Locale.kr]: `【천하제일 아이돌 대회】`
     },
-    image: EventBanner.EVENT_0006_CHALLENGE,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0006_CHALLENGE,
     newUnit: []
 }
 

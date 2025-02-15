@@ -15,7 +15,14 @@ const EVENT_0097: Event = {
         [Locale.jp]: `「大海原へ進め！」`,
         [Locale.kr]: `【대양을 향해 전진】`
     },
-    image: EventBanner.EVENT_0097,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0097,
     newUnit: [ UnitCode.o_lana, UnitCode.o_nana ]
 }
 

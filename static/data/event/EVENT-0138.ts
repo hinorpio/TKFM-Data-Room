@@ -15,7 +15,14 @@ const EVENT_0138: Event = {
         [Locale.jp]: `「大海原へ進め！-復刻-」`,
         [Locale.kr]: `【대양을 향해 전진-복각-】`
     },
-    image: EventBanner.EVENT_0138,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0138,
     newUnit: []
 }
 

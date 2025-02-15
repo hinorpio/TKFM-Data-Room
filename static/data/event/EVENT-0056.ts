@@ -15,7 +15,14 @@ const EVENT_0056: Event = {
         [Locale.jp]: `「メイド&マジック」`,
         [Locale.kr]: `【메이드&마법】`
     },
-    image: EventBanner.EVENT_0056,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0056,
     newUnit: [ UnitCode.emily, UnitCode.anjelica ]
 }
 

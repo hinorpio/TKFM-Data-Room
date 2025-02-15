@@ -15,7 +15,14 @@ const EVENT_0104: Event = {
         [Locale.jp]: `「祈りの復讐者-復刻-」`,
         [Locale.kr]: `【기도하는 어벤저-복각-】`
     },
-    image: EventBanner.EVENT_0104,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0104,
     newUnit: []
 }
 

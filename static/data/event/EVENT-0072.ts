@@ -15,7 +15,14 @@ const EVENT_0072: Event = {
         [Locale.jp]: `「静の秘湯巡り」`,
         [Locale.kr]: `【시즈카의 온천 순례】`
     },
-    image: EventBanner.EVENT_0072,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0072,
     newUnit: [ UnitCode.xx_aiko, UnitCode.x_shizuka ]
 }
 

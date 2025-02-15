@@ -15,7 +15,14 @@ const EVENT_0116: Event = {
         [Locale.jp]: `「クリスマスの約束」`,
         [Locale.kr]: `【크리스마스 약속】`
     },
-    image: EventBanner.EVENT_0116,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0116,
     newUnit: [ UnitCode.x_aridya, UnitCode.x_iblis, UnitCode.w_evie, UnitCode.salina ]
 }
 

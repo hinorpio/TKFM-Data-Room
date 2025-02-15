@@ -15,7 +15,14 @@ const EVENT_0145: Event = {
         [Locale.jp]: `「人妻シリーズ」`,
         [Locale.kr]: `【유부녀 시리즈】`
     },
-    image: EventBanner.EVENT_0145,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0145,
     newUnit: []
 }
 

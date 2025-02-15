@@ -15,7 +15,14 @@ const EVENT_0044: Event = {
         [Locale.jp]: `「魔王の3つの挑戦」`,
         [Locale.kr]: `【마왕의 세 가지 도전】`
     },
-    image: EventBanner.EVENT_0044,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0044,
     newUnit: []
 }
 

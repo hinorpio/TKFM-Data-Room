@@ -15,7 +15,14 @@ const EVENT_0125: Event = {
         [Locale.jp]: `「古墳の呪い」`,
         [Locale.kr]: `【고묘의 저주】`
     },
-    image: EventBanner.EVENT_0125,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0125,
     newUnit: []
 }
 

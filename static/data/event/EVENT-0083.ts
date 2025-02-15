@@ -15,7 +15,14 @@ const EVENT_0083: Event = {
         [Locale.jp]: `「魔族ALL獣耳化計画」`,
         [Locale.kr]: `【전마족 동물귀화 계획】`
     },
-    image: EventBanner.EVENT_0083,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0083,
     newUnit: []
 }
 

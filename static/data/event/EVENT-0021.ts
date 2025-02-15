@@ -15,7 +15,14 @@ const EVENT_0021: Event = {
         [Locale.jp]: `「裁縫大捜査線」`,
         [Locale.kr]: `【재봉의 대수사선】`
     },
-    image: EventBanner.EVENT_0021,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0021,
     newUnit: [ UnitCode.asida, UnitCode.asina ]
 }
 

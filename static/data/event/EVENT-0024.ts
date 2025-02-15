@@ -15,7 +15,14 @@ const EVENT_0024: Event = {
         [Locale.jp]: `「月夜の童話」`,
         [Locale.kr]: `【월야의 동화】`
     },
-    image: EventBanner.EVENT_0024,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0024,
     newUnit: [ UnitCode.hm_fiora, UnitCode.fufu, UnitCode.teresa ]
 }
 

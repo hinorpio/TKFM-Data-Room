@@ -15,7 +15,14 @@ const EVENT_0126: Event = {
         [Locale.jp]: `「メイド&マジック-復刻-」`,
         [Locale.kr]: `【메이드&마법-복각-】`
     },
-    image: EventBanner.EVENT_0126,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0126,
     newUnit: []
 }
 

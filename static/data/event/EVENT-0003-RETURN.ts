@@ -15,7 +15,14 @@ const EVENT_0003_RETURN: Event = {
         [Locale.jp]: `【祭りの逆襲-復刻-】`,
         [Locale.kr]: `【Crash the Party!!-복각-】`
     },
-    image: EventBanner.EVENT_0003_RETURN,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0003_RETURN,
     newUnit: []
 }
 

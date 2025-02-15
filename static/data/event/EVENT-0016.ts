@@ -15,7 +15,14 @@ const EVENT_0016: Event = {
         [Locale.jp]: `「ステージ2～ゆったりパズルタイム」`,
         [Locale.kr]: `【제2탄～느긋한 퍼즐 시간】`
     },
-    image: EventBanner.EVENT_0016,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0016,
     newUnit: []
 }
 

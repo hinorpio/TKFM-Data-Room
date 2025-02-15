@@ -15,7 +15,14 @@ const EVENT_0025: Event = {
         [Locale.jp]: `「狂喜の夜」`,
         [Locale.kr]: `【환락의 밤】`
     },
-    image: EventBanner.EVENT_0025,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0025,
     newUnit: []
 }
 

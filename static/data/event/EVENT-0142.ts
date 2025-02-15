@@ -15,7 +15,14 @@ const EVENT_0142: Event = {
         [Locale.jp]: `「修行の道」`,
         [Locale.kr]: `【수행의 길】`
     },
-    image: EventBanner.EVENT_0142,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0142,
     newUnit: []
 }
 

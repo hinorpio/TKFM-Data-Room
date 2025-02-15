@@ -15,7 +15,14 @@ const EVENT_0121: Event = {
         [Locale.jp]: `「パンパンアイドルフェス」`,
         [Locale.kr]: `【두근두근 아이돌제】`
     },
-    image: EventBanner.EVENT_0121,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0121,
     newUnit: []
 }
 

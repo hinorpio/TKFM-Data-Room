@@ -15,7 +15,14 @@ const EVENT_0057: Event = {
         [Locale.jp]: `「星から来たあなた」`,
         [Locale.kr]: `【별에서 온 그녀】`
     },
-    image: EventBanner.EVENT_0057,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0057,
     newUnit: [ UnitCode.c1_nana, UnitCode.geneva ]
 }
 

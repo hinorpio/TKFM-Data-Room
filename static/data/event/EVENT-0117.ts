@@ -15,7 +15,14 @@ const EVENT_0117: Event = {
         [Locale.jp]: `「ハウンド小隊派遣中！」`,
         [Locale.kr]: `【하운드 소대 파견 중!】`
     },
-    image: EventBanner.EVENT_0117,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0117,
     newUnit: [ UnitCode.noma, UnitCode.belladonna ]
 }
 

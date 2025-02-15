@@ -15,7 +15,14 @@ const EVENT_0048: Event = {
         [Locale.jp]: `「魔族の友達」`,
         [Locale.kr]: `【마족 친구】`
     },
-    image: EventBanner.EVENT_0048,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0048,
     newUnit: [ UnitCode.faya, UnitCode.tanocia ]
 }
 

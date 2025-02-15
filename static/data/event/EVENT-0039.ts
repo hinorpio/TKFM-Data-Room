@@ -15,7 +15,14 @@ const EVENT_0039: Event = {
         [Locale.jp]: `「幸せのウェディング」`,
         [Locale.kr]: `【행복의 웨딩드레스】`
     },
-    image: EventBanner.EVENT_0039,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0039,
     newUnit: [ UnitCode.b_baal, UnitCode.b_iblis, UnitCode.b_satan ]
 }
 

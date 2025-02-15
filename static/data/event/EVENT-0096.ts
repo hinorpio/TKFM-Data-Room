@@ -15,7 +15,14 @@ const EVENT_0096: Event = {
         [Locale.jp]: `「外伝：世界終末の日-復刻-」`,
         [Locale.kr]: `【외전: 세계 종말의 날-복각-】`
     },
-    image: EventBanner.EVENT_0096,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0096,
     newUnit: []
 }
 

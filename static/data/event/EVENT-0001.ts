@@ -15,7 +15,14 @@ const EVENT_0001: Event = {
         [Locale.jp]: `「魔族の新年祭り」`,
         [Locale.kr]: `【마족의 신년 축제】`
     },
-    image: EventBanner.EVENT_0001,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0001,
     newUnit: [ UnitCode.f_baal ]
 }
 

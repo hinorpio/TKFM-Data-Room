@@ -15,7 +15,14 @@ const EVENT_0113: Event = {
         [Locale.jp]: `「闇夜の妖艶」`,
         [Locale.kr]: `【어두운 밤】`
     },
-    image: EventBanner.EVENT_0113,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0113,
     newUnit: []
 }
 

@@ -15,7 +15,14 @@ const EVENT_0066: Event = {
         [Locale.jp]: `「ラティヤハロウィンタワー」`,
         [Locale.kr]: `【로티아 할로윈 탑】`
     },
-    image: EventBanner.EVENT_0066,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0066,
     newUnit: []
 }
 

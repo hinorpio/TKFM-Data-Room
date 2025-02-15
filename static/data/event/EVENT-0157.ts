@@ -15,7 +15,14 @@ const EVENT_0157: Event = {
         [Locale.jp]: `「☆スターライトガール☆」`,
         [Locale.kr]: `【☆스타라이트 걸☆】`
     },
-    image: EventBanner.EVENT_0157,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0157,
     newUnit: []
 }
 

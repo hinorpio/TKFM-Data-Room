@@ -15,7 +15,14 @@ const EVENT_0169: Event = {
         [Locale.jp]: `「魔法少女☆トトラ-復刻-」`,
         [Locale.kr]: `【마법소녀☆토타라-복각-】`
     },
-    image: EventBanner.EVENT_0169,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0169,
     newUnit: []
 }
 

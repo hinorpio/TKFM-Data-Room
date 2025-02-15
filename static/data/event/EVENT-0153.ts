@@ -15,7 +15,14 @@ const EVENT_0153: Event = {
         [Locale.jp]: `「恐怖のサタンナイト」`,
         [Locale.kr]: `【공포스러운 사탄의 밤】`
     },
-    image: EventBanner.EVENT_0153,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0153,
     newUnit: [ UnitCode.susan, UnitCode.h_satan ]
 }
 

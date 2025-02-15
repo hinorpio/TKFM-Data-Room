@@ -15,7 +15,14 @@ const EVENT_0029: Event = {
         [Locale.jp]: `「ハロウィンのサプライズ」`,
         [Locale.kr]: `【할로윈 서프라이즈】`
     },
-    image: EventBanner.EVENT_0029,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0029,
     newUnit: [ UnitCode.h_britney, UnitCode.h_salucia ]
 }
 

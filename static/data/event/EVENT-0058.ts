@@ -15,7 +15,14 @@ const EVENT_0058: Event = {
         [Locale.jp]: `「友達と残業」`,
         [Locale.kr]: `【친구와 야근】`
     },
-    image: EventBanner.EVENT_0058,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0058,
     newUnit: []
 }
 

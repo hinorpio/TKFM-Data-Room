@@ -15,7 +15,14 @@ const EVENT_0075: Event = {
         [Locale.jp]: `「正月お遊戯-復刻-」`,
         [Locale.kr]: `【정월 놀이-복각-】`
     },
-    image: EventBanner.EVENT_0075,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0075,
     newUnit: []
 }
 

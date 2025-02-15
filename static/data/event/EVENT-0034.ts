@@ -15,7 +15,14 @@ const EVENT_0034: Event = {
         [Locale.jp]: `「メイドがベルを鳴らす」`,
         [Locale.kr]: `【메이드의 종소리】`
     },
-    image: EventBanner.EVENT_0034,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0034,
     newUnit: [ UnitCode.x_aiko, UnitCode.x_lana, UnitCode.evie ]
 }
 

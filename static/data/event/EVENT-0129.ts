@@ -15,7 +15,14 @@ const EVENT_0129: Event = {
         [Locale.jp]: `「魔獄塔」第18シーズン`,
         [Locale.kr]: `【마옥탑】 제18시즌`
     },
-    image: EventBanner.EVENT_0129,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0129,
     newUnit: []
 }
 

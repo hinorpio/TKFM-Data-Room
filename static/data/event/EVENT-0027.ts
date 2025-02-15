@@ -15,7 +15,14 @@ const EVENT_0027: Event = {
         [Locale.jp]: `「ドラゴン玉の謎」`,
         [Locale.kr]: `【드레곤볼의 비밀】`
     },
-    image: EventBanner.EVENT_0027,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0027,
     newUnit: [ UnitCode.karina ]
 }
 

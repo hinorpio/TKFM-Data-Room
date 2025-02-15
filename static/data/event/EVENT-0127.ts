@@ -15,7 +15,14 @@ const EVENT_0127: Event = {
         [Locale.jp]: `「ルルのパーティー計画」`,
         [Locale.kr]: `【루루는 파티를 열고 싶어】`
     },
-    image: EventBanner.EVENT_0127,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0127,
     newUnit: [ UnitCode.p_lulu, UnitCode.p_tyrella ]
 }
 

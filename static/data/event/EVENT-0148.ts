@@ -15,7 +15,14 @@ const EVENT_0148: Event = {
         [Locale.jp]: `「俺様のカジノ」`,
         [Locale.kr]: `【이 몸의 카지노】`
     },
-    image: EventBanner.EVENT_0148,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0148,
     newUnit: [ UnitCode.amethystina, UnitCode.bg_ayane, UnitCode.bg_iblis ]
 }
 

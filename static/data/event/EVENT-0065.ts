@@ -15,7 +15,14 @@ const EVENT_0065: Event = {
         [Locale.jp]: `「鮮血の城 X 少女狂想曲」`,
         [Locale.kr]: `【선혈의 성 X 소녀의 광상곡】`
     },
-    image: EventBanner.EVENT_0065,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0065,
     newUnit: [ UnitCode.h_leona, UnitCode.h_lotiya ]
 }
 

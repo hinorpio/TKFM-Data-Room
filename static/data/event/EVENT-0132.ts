@@ -15,7 +15,14 @@ const EVENT_0132: Event = {
         [Locale.jp]: `「奇妙な村の調査記録」`,
         [Locale.kr]: `【괴이한 마을 조사록】`
     },
-    image: EventBanner.EVENT_0132,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0132,
     newUnit: [ UnitCode.lelya, UnitCode.a_nana ]
 }
 

@@ -15,7 +15,14 @@ const EVENT_0165: Event = {
         [Locale.jp]: `「シーザーが火焔山で大暴れ」`,
         [Locale.kr]: `【시저의 화염산 대소동】`
     },
-    image: EventBanner.EVENT_0165,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0165,
     newUnit: []
 }
 

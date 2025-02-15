@@ -15,7 +15,14 @@ const EVENT_0081: Event = {
         [Locale.jp]: `「空気怪獣ごっこ」`,
         [Locale.kr]: `【공기 괴수 대전】`
     },
-    image: EventBanner.EVENT_0081,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0081,
     newUnit: []
 }
 

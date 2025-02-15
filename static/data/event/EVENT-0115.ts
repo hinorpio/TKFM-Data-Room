@@ -15,7 +15,14 @@ const EVENT_0115: Event = {
         [Locale.jp]: `「ドラゴン玉の謎」-復刻-`,
         [Locale.kr]: `【드레곤볼의 비밀】-복각-`
     },
-    image: EventBanner.EVENT_0115,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0115,
     newUnit: []
 }
 

@@ -15,7 +15,14 @@ const EVENT_0015: Event = {
         [Locale.jp]: `「集まれ！魔王休暇村」`,
         [Locale.kr]: `【집합! 마왕 리조트】`
     },
-    image: EventBanner.EVENT_0015,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0015,
     newUnit: [ UnitCode.s_shizuka, UnitCode.s_lulu, UnitCode.s_ks8, UnitCode.s_nana ]
 }
 

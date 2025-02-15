@@ -15,7 +15,14 @@ const EVENT_0037: Event = {
         [Locale.jp]: `「正月の祭典」`,
         [Locale.kr]: `【정월 축제】`
     },
-    image: EventBanner.EVENT_0037,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0037,
     newUnit: [ UnitCode.tm_minayomi, UnitCode.tm_ritsuki ]
 }
 

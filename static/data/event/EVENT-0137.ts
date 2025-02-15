@@ -15,7 +15,14 @@ const EVENT_0137: Event = {
         [Locale.jp]: `「乙姫の怒り」`,
         [Locale.kr]: `【오토히메의 분노】`
     },
-    image: EventBanner.EVENT_0137,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0137,
     newUnit: []
 }
 

@@ -9,7 +9,10 @@ export interface Event {
     name: {
         [lang in Locale]?: null | string;
     };
-    image: {
+    description: {
+        [lang in Locale]?: null | string;
+    };
+    banner: {
         [lang in Locale]?: null | string;
     };
     newUnit: UnitCode[]

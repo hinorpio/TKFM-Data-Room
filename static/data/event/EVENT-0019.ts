@@ -15,7 +15,14 @@ const EVENT_0019: Event = {
         [Locale.jp]: `「魔法少女☆トトラ」`,
         [Locale.kr]: `【마법소녀☆토타라】`
     },
-    image: EventBanner.EVENT_0019,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0019,
     newUnit: [ UnitCode.tyrella ]
 }
 

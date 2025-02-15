@@ -15,7 +15,14 @@ const EVENT_0101: Event = {
         [Locale.jp]: `「Biadlo IX 魔影再臨」`,
         [Locale.kr]: `【Biadlo IX 악마의 그림자 재림】`
     },
-    image: EventBanner.EVENT_0101,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0101,
     newUnit: [ UnitCode.sasha, UnitCode.bayliss ]
 }
 

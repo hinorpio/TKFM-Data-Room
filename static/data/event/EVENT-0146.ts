@@ -15,7 +15,14 @@ const EVENT_0146: Event = {
         [Locale.jp]: `「星から来たあなた-復刻-」`,
         [Locale.kr]: `【별에서 온 그녀-복각-】`
     },
-    image: EventBanner.EVENT_0146,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0146,
     newUnit: []
 }
 

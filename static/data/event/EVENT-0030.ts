@@ -15,7 +15,14 @@ const EVENT_0030: Event = {
         [Locale.jp]: `「ハロウィンフィーバー」`,
         [Locale.kr]: `【무한의 트릭 나잇】`
     },
-    image: EventBanner.EVENT_0030,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0030,
     newUnit: []
 }
 

@@ -15,7 +15,14 @@ const EVENT_0156: Event = {
         [Locale.jp]: `「夢のアイドル☆1日メイド」`,
         [Locale.kr]: `【꿈의 아이돌☆일일 메이드】`
     },
-    image: EventBanner.EVENT_0156,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0156,
     newUnit: [ UnitCode.m_nanami, UnitCode.m_ks8 ]
 }
 

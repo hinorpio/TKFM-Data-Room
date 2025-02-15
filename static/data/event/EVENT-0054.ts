@@ -15,7 +15,14 @@ const EVENT_0054: Event = {
         [Locale.jp]: `「Pasadena」`,
         [Locale.kr]: `【Pasadena】`
     },
-    image: EventBanner.EVENT_0054,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0054,
     newUnit: [ UnitCode.q_asida, UnitCode.asina ]
 }
 

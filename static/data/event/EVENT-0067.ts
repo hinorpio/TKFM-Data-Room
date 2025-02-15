@@ -15,7 +15,14 @@ const EVENT_0067: Event = {
         [Locale.jp]: `「異世界アダルトショップ-復刻-」`,
         [Locale.kr]: `【이세계 성인용품점-복각-】`
     },
-    image: EventBanner.EVENT_0067,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0067,
     newUnit: []
 }
 

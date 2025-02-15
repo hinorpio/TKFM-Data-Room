@@ -15,7 +15,14 @@ const EVENT_0079: Event = {
         [Locale.jp]: `「チョコレート大騒動」`,
         [Locale.kr]: `【초콜릿 대소동】`
     },
-    image: EventBanner.EVENT_0079,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0079,
     newUnit: [ UnitCode.v_baal, UnitCode.v_iblis, UnitCode.v_satan ]
 }
 

@@ -15,7 +15,14 @@ const EVENT_0106: Event = {
         [Locale.jp]: `「Vtuber」`,
         [Locale.kr]: `【Vtuber】`
     },
-    image: EventBanner.EVENT_0106,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0106,
     newUnit: []
 }
 

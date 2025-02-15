@@ -15,7 +15,14 @@ const EVENT_0094: Event = {
         [Locale.jp]: `「水着競艇大作戦」`,
         [Locale.kr]: `【수영복 카누 대작전】`
     },
-    image: EventBanner.EVENT_0094,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0094,
     newUnit: [ UnitCode.s_ayane, UnitCode.s_baal, UnitCode.s_fiora, UnitCode.s_aiko ]
 }
 

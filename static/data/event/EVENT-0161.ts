@@ -15,7 +15,14 @@ const EVENT_0161: Event = {
         [Locale.jp]: `「クリスマス休戦」`,
         [Locale.kr]: `【크리스마스의 평화】`
     },
-    image: EventBanner.EVENT_0161,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0161,
     newUnit: []
 }
 

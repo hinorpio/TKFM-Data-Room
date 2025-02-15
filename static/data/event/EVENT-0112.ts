@@ -15,7 +15,14 @@ const EVENT_0111: Event = {
         [Locale.jp]: `「エロスの降臨 異世界幻想」`,
         [Locale.kr]: `【원욕의 신 강림】`
     },
-    image: EventBanner.EVENT_0112,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0112,
     newUnit: [ UnitCode.inase, UnitCode.cartilla ]
 }
 

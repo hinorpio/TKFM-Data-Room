@@ -15,7 +15,14 @@ const EVENT_0103: Event = {
         [Locale.jp]: `「裁縫大捜査線-復刻-」`,
         [Locale.kr]: `【재봉의 대수사선-복각-】`
     },
-    image: EventBanner.EVENT_0103,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0103,
     newUnit: []
 }
 

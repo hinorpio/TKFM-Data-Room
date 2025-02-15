@@ -15,7 +15,14 @@ const EVENT_0063: Event = {
         [Locale.jp]: `「天下一アイドル大会-復刻-」`,
         [Locale.kr]: `【천하제일 아이돌 대회-복각-】`
     },
-    image: EventBanner.EVENT_0063,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0063,
     newUnit: []
 }
 

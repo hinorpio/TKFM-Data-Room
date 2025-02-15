@@ -15,7 +15,14 @@ const EVENT_0168: Event = {
         [Locale.jp]: `「喜極！春祭り」`,
         [Locale.kr]: `【극락! 봄맞이 축제】`
     },
-    image: EventBanner.EVENT_0168,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0168,
     newUnit: []
 }
 

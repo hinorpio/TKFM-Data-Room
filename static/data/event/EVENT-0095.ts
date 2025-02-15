@@ -15,7 +15,14 @@ const EVENT_0095: Event = {
         [Locale.jp]: `「ジョシュの野望」`,
         [Locale.kr]: `【죠쉬의 야망】`
     },
-    image: EventBanner.EVENT_0095,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0095,
     newUnit: []
 }
 

@@ -15,7 +15,14 @@ const EVENT_0092: Event = {
         [Locale.jp]: `「医療機器の誤った使い方」`,
         [Locale.kr]: `【의료기기의 잘못된 사용법】`
     },
-    image: EventBanner.EVENT_0092,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0092,
     newUnit: []
 }
 

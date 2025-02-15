@@ -15,7 +15,14 @@ const EVENT_0031: Event = {
         [Locale.jp]: `「走れ！ケンタウロス娘！」`,
         [Locale.kr]: `【질주해라 켄타우로스 소녀!】`
     },
-    image: EventBanner.EVENT_0031,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0031,
     newUnit: [ UnitCode.inori ]
 }
 

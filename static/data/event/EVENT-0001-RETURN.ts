@@ -15,7 +15,14 @@ const EVENT_0001_RETURN: Event = {
         [Locale.jp]: `「魔族の新年祭り-復刻-」`,
         [Locale.kr]: `【마족의 신년 축제-복각-】`
     },
-    image: EventBanner.EVENT_0001_RETURN,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0001_RETURN,
     newUnit: []
 }
 

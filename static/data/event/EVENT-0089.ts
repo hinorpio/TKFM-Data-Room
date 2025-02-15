@@ -15,7 +15,14 @@ const EVENT_0089: Event = {
         [Locale.jp]: `「事件現場-復刻-」`,
         [Locale.kr]: `【사건 현장-복각-】`
     },
-    image: EventBanner.EVENT_0089,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0089,
     newUnit: []
 }
 

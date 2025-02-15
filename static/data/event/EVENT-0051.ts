@@ -15,7 +15,14 @@ const EVENT_0051: Event = {
         [Locale.jp]: `「大改造！休暇村」`,
         [Locale.kr]: `【리조트 개조!】`
     },
-    image: EventBanner.EVENT_0051,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0051,
     newUnit: []
 }
 

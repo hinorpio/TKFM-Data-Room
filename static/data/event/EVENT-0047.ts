@@ -15,7 +15,14 @@ const EVENT_0047: Event = {
         [Locale.jp]: `「法廷パーティー」`,
         [Locale.kr]: `【법정 파티】`
     },
-    image: EventBanner.EVENT_0047,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0047,
     newUnit: []
 }
 

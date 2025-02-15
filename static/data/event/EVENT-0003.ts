@@ -15,7 +15,14 @@ const EVENT_0003: Event = {
         [Locale.jp]: `【祭りの逆襲】`,
         [Locale.kr]: `【Crash the Party!!】`
     },
-    image: EventBanner.EVENT_0003,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0003,
     newUnit: []
 }
 

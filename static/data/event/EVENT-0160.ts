@@ -15,7 +15,14 @@ const EVENT_0160: Event = {
         [Locale.jp]: `「クリスマス少女は愛がほしい」`,
         [Locale.kr]: `【크리스마스 소녀는 사랑을 원해】`
     },
-    image: EventBanner.EVENT_0160,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0160,
     newUnit: [ UnitCode.x_baal, UnitCode.x_muila, UnitCode.x_britney, UnitCode.x_ichika ]
 }
 

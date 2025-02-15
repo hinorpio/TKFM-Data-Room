@@ -15,7 +15,14 @@ const EVENT_0080: Event = {
         [Locale.jp]: `「チョコレート帝国の野心」`,
         [Locale.kr]: `【초콜릿 제국의 야심】`
     },
-    image: EventBanner.EVENT_0080,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0080,
     newUnit: []
 }
 

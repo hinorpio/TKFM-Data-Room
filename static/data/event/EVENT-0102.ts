@@ -15,7 +15,14 @@ const EVENT_0102: Event = {
         [Locale.jp]: `「Biadlo IX 破滅の偶像」`,
         [Locale.kr]: `【Biadlo IX 파멸의 우상】`
     },
-    image: EventBanner.EVENT_0102,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0102,
     newUnit: []
 }
 

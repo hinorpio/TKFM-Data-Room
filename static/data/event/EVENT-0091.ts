@@ -15,7 +15,14 @@ const EVENT_0091: Event = {
         [Locale.jp]: `「背徳心療内科」`,
         [Locale.kr]: `【배덕심 요법】`
     },
-    image: EventBanner.EVENT_0091,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0091,
     newUnit: [ UnitCode.n_caesar, UnitCode.d_irene ]
 }
 

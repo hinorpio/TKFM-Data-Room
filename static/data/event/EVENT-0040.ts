@@ -15,7 +15,14 @@ const EVENT_0040: Event = {
         [Locale.jp]: `「魔王の執念」`,
         [Locale.kr]: `【마왕의 집념】`
     },
-    image: EventBanner.EVENT_0040,
+    description: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``
+    },
+    banner: EventBanner.EVENT_0040,
     newUnit: []
 }
 
