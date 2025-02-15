@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.3',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: 독군 Dokgun`,
+                    [Locale.sc]: `画作/二创: 독군 Dokgun`,
+                    [Locale.en]: `Artwork / Fanart: 독군 Dokgun`,
+                    [Locale.jp]: `アートワーク / 同人: 독군 Dokgun`,
+                    [Locale.kr]: `아트워크 / 팬 창작: 독군 Dokgun`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.2',
         logs: [
             {
