@@ -2,6 +2,41 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.4',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 銀鴞武裝 米婭, 白熊武裝 冬。艾妮`,
+                    [Locale.sc]: `角色: 银鸮武装 米娅, 白熊武装 冬。艾妮`,
+                    [Locale.en]: `Unit: The Silver Owl Mia, The White Cub Annee Winter`,
+                    [Locale.jp]: `キャラ: フクロウ装甲 ミア, シロクマ装甲 アイニー・ウィンター"`,
+                    [Locale.kr]: `캐릭터: 실버아울 미아, 폴라 베어 애니．윈터`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【星欲機工隊】, 【異星：猛攻】`,
+                    [Locale.sc]: `活动: 【星欲机工队】, 【异星：猛攻】`,
+                    [Locale.en]: `Event: [Star Lusts Squad], [Alien Planet: Assault]`,
+                    [Locale.jp]: `イベント: 「星欲機工隊」, 「異星：猛攻」`,
+                    [Locale.kr]: `이벤트: 【스타러스트 기공대】, 【이계 행성: 맹공】`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: 독군 Dokgun`,
+                    [Locale.sc]: `画作/二创: 독군 Dokgun`,
+                    [Locale.en]: `Artwork / Fanart: 독군 Dokgun`,
+                    [Locale.jp]: `アートワーク / 同人: 독군 Dokgun`,
+                    [Locale.kr]: `아트워크 / 팬 창작: 독군 Dokgun`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.3',
         logs: [
             {
