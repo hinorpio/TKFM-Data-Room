@@ -39,6 +39,11 @@ const DOKGUN_STICKER_KR_035 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/피곤콘
 const DOKGUN_STICKER_KR_036 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/정답콘.gif`
 const DOKGUN_STICKER_KR_037 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/thug_life.gif`
 const DOKGUN_STICKER_KR_038 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/dont_cry.gif`
+const DOKGUN_STICKER_KR_039 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/겜오버콘.gif`
+const DOKGUN_STICKER_KR_040 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/얼탱콘.gif`
+const DOKGUN_STICKER_KR_041 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/yah.gif`
+const DOKGUN_STICKER_KR_042 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/겜망해콘.gif`
+const DOKGUN_STICKER_KR_043 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/할짝콘.gif`
 
 const DOKGUN_STICKER_EN_000 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/0.gif`
 const DOKGUN_STICKER_EN_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/콘.gif`
@@ -69,6 +74,10 @@ const DOKGUN_STICKER_EN_034 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/팝콘콘
 const DOKGUN_STICKER_EN_035 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/피곤콘.gif`
 const DOKGUN_STICKER_EN_037 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/thug_life.gif`
 const DOKGUN_STICKER_EN_038 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/dont_cry.gif`
+const DOKGUN_STICKER_EN_039 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/겜오버콘.gif`
+const DOKGUN_STICKER_EN_040 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/얼탱콘.gif`
+const DOKGUN_STICKER_EN_041 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/yah.gif`
+const DOKGUN_STICKER_EN_043 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/할짝콘.gif`
 
 const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/Phoenix/扑倒.gif`
 const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/Phoenix/震惊.gif`
@@ -125,6 +134,11 @@ export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_036,
     DOKGUN_STICKER_KR_037,
     DOKGUN_STICKER_KR_038,
+    DOKGUN_STICKER_KR_039,
+    DOKGUN_STICKER_KR_040,
+    DOKGUN_STICKER_KR_041,
+    DOKGUN_STICKER_KR_042,
+    DOKGUN_STICKER_KR_043,
 ]
 
 export const DOKGUN_STICKER_EN = [
@@ -157,6 +171,10 @@ export const DOKGUN_STICKER_EN = [
     DOKGUN_STICKER_EN_035,
     DOKGUN_STICKER_EN_037,
     DOKGUN_STICKER_EN_038,
+    DOKGUN_STICKER_EN_039,
+    DOKGUN_STICKER_EN_040,
+    DOKGUN_STICKER_EN_041,
+    DOKGUN_STICKER_EN_043,
 ]
 
 export const LITTLE_PEA_STICKER = [

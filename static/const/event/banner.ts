@@ -833,6 +833,16 @@ const EVENT_0169_SC = `${cdnURL}/event/banner/ln30169_sc.png`
 const EVENT_0169_EN = `${cdnURL}/event/banner/ln30169_en.png`
 const EVENT_0169_JP = `${cdnURL}/event/banner/ln30169_jp.png`
 const EVENT_0169_KR = `${cdnURL}/event/banner/ln30169_kr.png`
+const EVENT_0170_TC = `${cdnURL}/event/banner/ln30170_tc.png`
+const EVENT_0170_SC = `${cdnURL}/event/banner/ln30170_sc.png`
+const EVENT_0170_EN = `${cdnURL}/event/banner/ln30170_en.png`
+const EVENT_0170_JP = `${cdnURL}/event/banner/ln30170_jp.png`
+const EVENT_0170_KR = `${cdnURL}/event/banner/ln30170_kr.png`
+const EVENT_0171_TC = `${cdnURL}/event/banner/ln30171_tc.png`
+const EVENT_0171_SC = `${cdnURL}/event/banner/ln30171_sc.png`
+const EVENT_0171_EN = `${cdnURL}/event/banner/ln30171_en.png`
+const EVENT_0171_JP = `${cdnURL}/event/banner/ln30171_jp.png`
+const EVENT_0171_KR = `${cdnURL}/event/banner/ln30171_kr.png`
 
 export const EVENT_TIMERIFT = {
     [Locale.tc]: EVENT_TIMERIFT_TC,
@@ -2023,4 +2033,18 @@ export const EVENT_0169 = {
     [Locale.en]: EVENT_0169_EN,
     [Locale.jp]: EVENT_0169_JP,
     [Locale.kr]: EVENT_0169_KR,
+}
+export const EVENT_0170 = {
+    [Locale.tc]: EVENT_0170_TC,
+    [Locale.sc]: EVENT_0170_SC,
+    [Locale.en]: EVENT_0170_EN,
+    [Locale.jp]: EVENT_0170_JP,
+    [Locale.kr]: EVENT_0170_KR,
+}
+export const EVENT_0171 = {
+    [Locale.tc]: EVENT_0171_TC,
+    [Locale.sc]: EVENT_0171_SC,
+    [Locale.en]: EVENT_0171_EN,
+    [Locale.jp]: EVENT_0171_JP,
+    [Locale.kr]: EVENT_0171_KR,
 }

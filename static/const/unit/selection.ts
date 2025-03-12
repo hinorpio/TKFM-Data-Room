@@ -151,6 +151,8 @@ const SELECTION_10161 = `${cdnURL}/character/selection/cs10161_0_0.png`
 const SELECTION_10162 = `${cdnURL}/character/selection/cs10162_0_0.png`
 const SELECTION_10163 = `${cdnURL}/character/selection/cs10163_0_0.png`
 const SELECTION_10164 = `${cdnURL}/character/selection/cs10164_0_0.png`
+const SELECTION_10165 = `${cdnURL}/character/selection/cs10165_0_0.png`
+const SELECTION_10166 = `${cdnURL}/character/selection/cs10166_0_0.png`
 const SELECTION_10175 = `${cdnURL}/character/selection/cs10175_0_0.png`
 
 
@@ -392,6 +394,8 @@ const SSR = {
     [UnitCode.p_aiko]: SELECTION_10162,
     [UnitCode.ni_caesar]: SELECTION_10163,
     [UnitCode.f_kana]: SELECTION_10164,
+    [UnitCode.star_mia]: SELECTION_10165,
+    [UnitCode.star_annee]: SELECTION_10166,
 }
 
 export const Selection = {

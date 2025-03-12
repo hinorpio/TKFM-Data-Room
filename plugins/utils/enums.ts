@@ -518,4 +518,6 @@ export enum UnitCode {
     p_aiko = 'SSR-133',
     ni_caesar = 'SSR-134',
     f_kana = 'SSR-135',
+    star_mia = 'SSR-136',
+    star_annee = 'SSR-137'
 }
