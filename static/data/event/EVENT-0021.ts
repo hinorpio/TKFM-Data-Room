@@ -23,7 +23,12 @@ const EVENT_0021: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0021,
-    newUnit: [ UnitCode.asida, UnitCode.asina ]
+    newUnit: [ UnitCode.asida, UnitCode.asina ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0021

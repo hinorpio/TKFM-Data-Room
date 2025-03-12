@@ -23,7 +23,12 @@ const EVENT_0079: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0079,
-    newUnit: [ UnitCode.v_baal, UnitCode.v_iblis, UnitCode.v_satan ]
+    newUnit: [ UnitCode.v_baal, UnitCode.v_iblis, UnitCode.v_satan ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0079

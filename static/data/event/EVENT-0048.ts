@@ -23,7 +23,12 @@ const EVENT_0048: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0048,
-    newUnit: [ UnitCode.faya, UnitCode.tanocia ]
+    newUnit: [ UnitCode.faya, UnitCode.tanocia ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0048

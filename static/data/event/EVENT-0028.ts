@@ -23,7 +23,12 @@ const EVENT_0028: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0028,
-    newUnit: [ UnitCode.ibuki ]
+    newUnit: [ UnitCode.ibuki ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0028

@@ -23,7 +23,12 @@ const EVENT_0141: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0141,
-    newUnit: [ UnitCode.d_minayomi, UnitCode.oniyoiki ]
+    newUnit: [ UnitCode.d_minayomi, UnitCode.oniyoiki ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0141

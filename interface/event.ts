@@ -15,5 +15,10 @@ export interface Event {
     banner: {
         [lang in Locale]?: null | string;
     };
-    newUnit: UnitCode[]
+    newUnit: UnitCode[];
+    isParentEvent: boolean;
+    parentEvent: null | string;
+    childEvent: string[];
+    isReturn: boolean;
+    returnFrom: null | string;
 }

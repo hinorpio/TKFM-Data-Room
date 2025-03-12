@@ -23,7 +23,12 @@ const EVENT_0008: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0008,
-    newUnit: [ UnitCode.mesmiia ]
+    newUnit: [ UnitCode.mesmiia ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0008

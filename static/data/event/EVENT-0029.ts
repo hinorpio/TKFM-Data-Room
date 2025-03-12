@@ -23,7 +23,12 @@ const EVENT_0029: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0029,
-    newUnit: [ UnitCode.h_britney, UnitCode.h_salucia ]
+    newUnit: [ UnitCode.h_britney, UnitCode.h_salucia ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0029

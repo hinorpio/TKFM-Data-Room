@@ -23,7 +23,12 @@ const EVENT_0056: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0056,
-    newUnit: [ UnitCode.emily, UnitCode.anjelica ]
+    newUnit: [ UnitCode.emily, UnitCode.anjelica ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0056

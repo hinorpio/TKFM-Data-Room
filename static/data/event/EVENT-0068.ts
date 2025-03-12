@@ -23,7 +23,12 @@ const EVENT_0068: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0068,
-    newUnit: [ UnitCode.sherana, UnitCode.iyan ]
+    newUnit: [ UnitCode.sherana, UnitCode.iyan ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0068

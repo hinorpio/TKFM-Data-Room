@@ -23,7 +23,12 @@ const EVENT_0076: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0076,
-    newUnit: [ UnitCode.ny_salucia, UnitCode.ny_lana ]
+    newUnit: [ UnitCode.ny_salucia, UnitCode.ny_lana ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0076

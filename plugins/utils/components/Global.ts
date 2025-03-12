@@ -27,11 +27,16 @@ export default {
     handleCopyLink(path: string): void{
         navigator.clipboard.writeText(`${path}`);
     },
-    handleDownload(path: string): void{
+    async handleDownload(path: string): Promise<void>{
+        const response = await fetch(path);
+        const blob = await response.blob();
+        const fileName = path.split('/').pop();
+
+        const objectURL = URL.createObjectURL(blob);
+
         const link = document.createElement('a');
-        link.href = path;
-        link.href = `<a href="${path};" class="underline" target="_blank"></a>`;
-        link.download = this.getFileNameFromUrl(path);
+        link.href = objectURL;
+        link.download = `${fileName}`;
 
         document.body.appendChild(link);
         link.click();

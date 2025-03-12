@@ -23,7 +23,12 @@ const EVENT_0003_RETURN: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0003_RETURN,
-    newUnit: []
+    newUnit: [],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0003_RETURN

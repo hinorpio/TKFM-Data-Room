@@ -90,4 +90,6 @@ export default {
     "Grid": "网格",
     "Slide": "轮播格",
     "Please be patient when loading the page at first time": "首次读取页面时, 请耐心等候",
+    "Start Date": "开始日期",
+    "End Date": "结束日期",
 }

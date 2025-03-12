@@ -23,7 +23,12 @@ const EVENT_0014: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0014,
-    newUnit: [ UnitCode.daphne ]
+    newUnit: [ UnitCode.daphne ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0014

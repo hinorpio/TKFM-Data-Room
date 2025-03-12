@@ -23,7 +23,12 @@ const EVENT_0164: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0164,
-    newUnit: [ UnitCode.ny_fiora, UnitCode.zaskia ]
+    newUnit: [ UnitCode.ny_fiora, UnitCode.zaskia ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0164

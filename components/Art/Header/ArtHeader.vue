@@ -29,7 +29,10 @@
                     </v-btn>
                 </v-col>
                 <v-col class="py-1" :cols="12" :xl="3" :lg="3" :md="4" :sm="5" :xs="12">
-                    <v-btn @click="handleDownloadZip" block>
+                    <v-btn v-if="isDownloading" block>
+                        <v-progress-circular indeterminate color="blue" ></v-progress-circular>
+                    </v-btn>
+                    <v-btn v-else @click="handleDownloadZip" block>
                         <v-icon class="mr-4" color="blue">mdi-folder-zip</v-icon>
                         {{ $t('Download ZIP') }}
                     </v-btn>
@@ -55,6 +58,7 @@ export default class ArtHeader extends Vue {
 
     isMounted: boolean = false 
     localIsDisplayGrid: boolean = true
+    isDownloading: boolean = false
 
     @Watch('isDisplayGrid')
     onIsDisplayGridChange(newVal: boolean): void {
@@ -95,7 +99,9 @@ export default class ArtHeader extends Vue {
     }
 
     async handleDownloadZip(): Promise<void>{
+        this.isDownloading = true
         await this.$util.handleDownloadZip(this.art.paths, this.art.code)
+        this.isDownloading = false
     }
 
     getDisplayString(): string{

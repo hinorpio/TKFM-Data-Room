@@ -1,10 +1,9 @@
 <template>
     <div>
-        <!-- {{ getEventName(event) }} -->
         <span :class="titleClass">{{ `${event.startDate} ~ ${event.endDate}` }}</span>
         <v-tooltip top>
             <template v-slot:activator="{ on, attrs }">
-                <v-img v-bind="attrs" v-on="on" :src="getEventBanner(event)" :lazy-src="getEventBanner(event)" contain />
+                <v-img @click="handleClick" v-bind="attrs" v-on="on" :src="getEventBanner(event)" :lazy-src="getEventBanner(event)" contain />
             </template>
             {{ getEventName(event) }}
         </v-tooltip>
@@ -12,15 +11,6 @@
             <v-chip :color="event.color" :small="isChipSmall" :x-small="isChipXSmall" >
                 {{getEventTypeString(event)}}
             </v-chip>
-            <v-spacer></v-spacer>
-            <!-- <v-avatar class="pb-3" v-for="(unit, unitIndex) in getNewUnit(event.newUnit)" :key="unitIndex" :size="iconSize" tile >
-                <v-tooltip bottom>
-                    <template v-slot:activator="{ on, attrs }">
-                        <v-img v-bind="attrs" v-on="on" :src="unit.thumbnail" contain />
-                    </template>
-                    {{ unit.name }}
-                </v-tooltip>
-            </v-avatar> -->
         </v-row>
     </div>
 </template>
@@ -29,6 +19,7 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { Locale, UnitCode } from "@/plugins/utils/enums";
 import { Event } from '@/interface/event'
+import { log } from "console";
 
 @Component
 export default class EventCard extends Vue {
@@ -76,6 +67,15 @@ export default class EventCard extends Vue {
             name: `${newUnit.rarity} - ${newUnit.prefix[locale]} ${newUnit.name[locale]}`
         }
       })
+    }
+
+    handleClick(): void{
+        console.log("Still under dev")
+        // const locale = this.$i18n.locale
+        // const langPrefix = (locale === 'tc')?`` :`/${locale}`
+        // this.$router.push({
+        //     path: `${langPrefix}/event?code=${this.event.code}`,
+        // });
     }
 }
 

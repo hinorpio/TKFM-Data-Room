@@ -90,4 +90,6 @@ export default {
     "Grid": "Grid",
     "Slide": "Slide",
     "Please be patient when loading the page at first time": "Please be patient when loading the page at first time.",
+    "Start Date": "Start Date",
+    "End Date": "End Date",
 }

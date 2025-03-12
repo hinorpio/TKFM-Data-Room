@@ -23,7 +23,12 @@ const EVENT_0012: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0012,
-    newUnit: [ UnitCode.chizuru ]
+    newUnit: [ UnitCode.chizuru ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0012

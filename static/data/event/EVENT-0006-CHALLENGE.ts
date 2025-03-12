@@ -23,7 +23,12 @@ const EVENT_0006_CHALLENGE: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0006_CHALLENGE,
-    newUnit: []
+    newUnit: [],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0006_CHALLENGE

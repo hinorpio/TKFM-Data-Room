@@ -23,7 +23,12 @@ const EVENT_0040: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0040,
-    newUnit: []
+    newUnit: [],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0040

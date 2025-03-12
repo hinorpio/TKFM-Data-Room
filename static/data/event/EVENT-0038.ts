@@ -22,8 +22,13 @@ const EVENT_0038: Event = {
         [Locale.jp]: ``,
         [Locale.kr]: ``
     },
-    banner: EventBanner.EVENT_0038,
-    newUnit: []
+    banner: EventBanner.EVENT_0168,
+    newUnit: [],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0038

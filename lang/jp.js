@@ -90,4 +90,6 @@ export default {
     "Grid": "グリッド",
     "Slide": "スライド",
     "Please be patient when loading the page at first time": "初めてページを読み込むときはしばらくお待ちください",
+    "Start Date": "開始日",
+    "End Date": "終了日",
 }

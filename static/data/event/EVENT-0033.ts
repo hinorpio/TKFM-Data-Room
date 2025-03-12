@@ -23,7 +23,12 @@ const EVENT_0033: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0033,
-    newUnit: [ UnitCode.sakuya ]
+    newUnit: [ UnitCode.sakuya ],
+    isParentEvent: true,
+    parentEvent: null,
+    childEvent: [],
+    isReturn: false,
+    returnFrom: null
 }
 
 export default EVENT_0033

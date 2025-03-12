@@ -11,22 +11,26 @@ import * as ArtSrc from './art';
 import { NuxtError } from '@nuxt/types';
 
 export const CustomError: {[code in ErrorCode]: NuxtError} = {
-    [ErrorCode.PAGE_NOT_FOUND]: {
-            statusCode: ErrorCode.PAGE_NOT_FOUND,
-            message: ErrorMessage.PAGE_NOT_FOUND
-    },
-    [ErrorCode.UNKNOWN_ERROR]:  {
-            statusCode: ErrorCode.UNKNOWN_ERROR,
-            message: ErrorMessage.UNKNOWN_ERROR
-    },
-    [ErrorCode.CANNOT_FIND_CHARACTER]: {
-            statusCode: ErrorCode.CANNOT_FIND_CHARACTER,
-            message: ErrorMessage.CANNOT_FIND_CHARACTER
-    },
-    [ErrorCode.CANNOT_FIND_ART]: {
-        statusCode: ErrorCode.CANNOT_FIND_ART,
-        message: ErrorMessage.CANNOT_FIND_ART
-},
+        [ErrorCode.PAGE_NOT_FOUND]: {
+                statusCode: ErrorCode.PAGE_NOT_FOUND,
+                message: ErrorMessage.PAGE_NOT_FOUND
+        },
+        [ErrorCode.UNKNOWN_ERROR]:  {
+                statusCode: ErrorCode.UNKNOWN_ERROR,
+                message: ErrorMessage.UNKNOWN_ERROR
+        },
+        [ErrorCode.CANNOT_FIND_CHARACTER]: {
+                statusCode: ErrorCode.CANNOT_FIND_CHARACTER,
+                message: ErrorMessage.CANNOT_FIND_CHARACTER
+        },
+        [ErrorCode.CANNOT_FIND_EVENT]: {
+                statusCode: ErrorCode.CANNOT_FIND_EVENT,
+                message: ErrorMessage.CANNOT_FIND_EVENT
+        },
+        [ErrorCode.CANNOT_FIND_ART]: {
+                statusCode: ErrorCode.CANNOT_FIND_ART,
+                message: ErrorMessage.CANNOT_FIND_ART
+        },
 }
 
 export const baseURL = "https://tkfmdata.com"
