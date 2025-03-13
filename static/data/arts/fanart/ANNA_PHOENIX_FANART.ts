@@ -5,7 +5,7 @@ import { ArtFile } from '~/static/const';
 const ANNA_PHOENIX_FANART: Art = {
     code: 'ANNA_PHOENIX_FANART',
     source: ArtSource.FANART,
-    type: ArtType.STICKER,
+    type: ArtType.PAINTING,
     locale: [ Locale.tc, Locale.sc, Locale.en, Locale.jp, Locale.kr ],
     author: '真吾鳳',
     authorLink: null,

@@ -5,7 +5,7 @@ import { ArtFile } from '~/static/const';
 const C_FANART: Art = {
     code: 'C_FANART',
     source: ArtSource.FANART,
-    type: ArtType.STICKER,
+    type: ArtType.PAINTING,
     locale: [ Locale.tc, Locale.sc ],
     author: '嗯C郎',
     authorLink: 'https://www.pixiv.net/users/10499555',
