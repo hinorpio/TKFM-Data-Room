@@ -12,7 +12,12 @@ import FB_COMIC from "./offical/FB_COMIC"
 
 import DOKGUN_STICKER_KR from "./fanart/DOKGUN_STICKER_KR"
 import DOKGUN_STICKER_EN from "./fanart/DOKGUN_STICKER_EN"
+import DOKGUN_NANA_STICKER from "./fanart/DOKGUN_NANA_STICKER"
+import DOKGUN_OLD_STICKER from "./fanart/DOKGUN_OLD_STICKER"
 import LITTLE_PEA_STICKER from "./fanart/LITTLE_PEA_STICKER"
+import ANNA_PHOENIX_FANART from "./fanart/ANNA_PHOENIX_FANART"
+import C_FANART from "./fanart/C_FANART"
+import C_FANART_R18 from "./fanart/C_FANART_R18"
 
 const officalData = [
     Q_STICKER,
@@ -31,7 +36,12 @@ const officalData = [
 const fanartData = [
     DOKGUN_STICKER_KR,
     DOKGUN_STICKER_EN,
+    DOKGUN_NANA_STICKER,
+    DOKGUN_OLD_STICKER,
     LITTLE_PEA_STICKER,
+    ANNA_PHOENIX_FANART,
+    C_FANART,
+    C_FANART_R18,
 ]
 
 export default [

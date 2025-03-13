@@ -20,8 +20,8 @@ export const General_10159: Unit = {
         [Locale.kr]: "피오라"
     },
     abbreviation: {
-        [Locale.tc]: [ "春菲" ],
-        [Locale.sc]: [ "春菲" ],
+        [Locale.tc]: [ "春菲", "春肥", "水肥" ],
+        [Locale.sc]: [ "春菲", "春肥", "水肥" ],
         [Locale.en]: [ "Ny.Fiora" ],
         [Locale.jp]: [],
         [Locale.kr]: [ "춘오라" ]
