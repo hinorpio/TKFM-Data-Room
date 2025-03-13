@@ -28,7 +28,11 @@ export default {
         navigator.clipboard.writeText(`${path}`);
     },
     async handleDownload(path: string): Promise<void>{
-        const response = await fetch(path);
+        const response = await fetch(path, {
+            headers: {
+                'Access-Control-Allow-Origin': '*'
+            }
+        });
         const blob = await response.blob();
         const fileName = path.split('/').pop();
 
@@ -47,7 +51,11 @@ export default {
     async handleDownloadZip(filePaths: string[], fileName: string): Promise<void>{
         const zip = new JSZip();
         for (const filePath of filePaths) {
-            const response = await fetch(filePath);
+            const response = await fetch(filePath, {
+                headers: {
+                    'Access-Control-Allow-Origin': '*'
+                }
+            });
             console.log(response);
 
             const blob = await response.blob();
