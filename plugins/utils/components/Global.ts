@@ -28,12 +28,13 @@ export default {
         navigator.clipboard.writeText(`${path}`);
     },
     async handleDownload(path: string): Promise<void>{
-        const response = await fetch(path, { mode: 'no-cors'});
+        const response = await fetch(path);
         const blob = await response.blob();
         const fileName = path.split('/').pop();
 
-        const objectURL = URL.createObjectURL(blob);
+        console.log(response);
 
+        const objectURL = URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = objectURL;
         link.download = `${fileName}`;
@@ -41,11 +42,14 @@ export default {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+        URL.revokeObjectURL(objectURL);
     },
     async handleDownloadZip(filePaths: string[], fileName: string): Promise<void>{
         const zip = new JSZip();
         for (const filePath of filePaths) {
-            const response = await fetch(filePath, { mode: 'no-cors'});
+            const response = await fetch(filePath);
+            console.log(response);
+
             const blob = await response.blob();
             const fileName = filePath.split('/').pop();
 
@@ -54,13 +58,16 @@ export default {
             }
         }
         const content = await zip.generateAsync({ type: 'blob' });
+        const objectURL = URL.createObjectURL(content);
         const link = document.createElement('a');
-        link.href = URL.createObjectURL(content);
+
+        link.href = objectURL;
         link.download = `${fileName}.zip`;
 
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+        URL.revokeObjectURL(objectURL);
     },
     getFileNameFromUrl(url: string): string {
         return url.substring(url.lastIndexOf('/') + 1);
