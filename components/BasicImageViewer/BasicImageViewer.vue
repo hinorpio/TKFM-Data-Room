@@ -8,7 +8,10 @@
                     <v-btn icon @click="handleCopyLink">
                         <v-icon>mdi-link</v-icon>
                     </v-btn>
-                    <v-btn icon @click="handleDownload">
+                    <v-btn v-if="isDownloading" icon >
+                        <v-progress-circular indeterminate color="blue" size="15" ></v-progress-circular>
+                    </v-btn>
+                    <v-btn v-else icon @click="handleDownload">
                         <v-icon>mdi-download</v-icon>
                     </v-btn>
                     <v-btn icon @click="handleCloseDialog">
@@ -50,6 +53,7 @@ export default class BasicImageViewer extends Vue {
 
     alertVisible: boolean = false
     alertMessage: string = ''
+    isDownloading: boolean = false
 
     handleCloseDialog(): void{
         this.$emit('update:title', "")
@@ -57,8 +61,10 @@ export default class BasicImageViewer extends Vue {
         this.$emit('update:visible', false)
     }
 
-    handleDownload(): void{
-        this.$util.handleDownload(this.src)
+    async handleDownload(): Promise<void>{
+        this.isDownloading = true
+        await this.$util.handleDownload(this.src)
+        this.isDownloading = false
     }
 
     handleCopyLink(): void{
