@@ -46,7 +46,6 @@ const DOKGUN_STICKER_KR_043 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/할짝콘
 const DOKGUN_STICKER_KR_044 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/이겨콘.gif`
 const DOKGUN_STICKER_KR_045 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/엿콘.gif`
 const DOKGUN_STICKER_KR_046 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/한잔해콘.gif`
-const DOKGUN_STICKER_KR_047 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/한잔해콘.gif`
 
 const DOKGUN_STICKER_EN_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/콘.gif`
 const DOKGUN_STICKER_EN_002 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/고맙다냥콘.gif`
@@ -359,7 +358,6 @@ export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_044,
     DOKGUN_STICKER_KR_045,
     DOKGUN_STICKER_KR_046,
-    DOKGUN_STICKER_KR_047,
 ]
 
 export const DOKGUN_STICKER_EN = [
