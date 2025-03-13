@@ -13,7 +13,10 @@
                         <v-icon color="white" :small="isButtonSmall">mdi-magnify-plus-outline</v-icon>
                     </v-btn>
                     <v-spacer></v-spacer>
-                    <v-btn color="black" icon @click="handleDownload(path)" :small="isButtonSmall">
+                    <v-btn v-if="isDownloading" color="black" icon :small="isButtonSmall">
+                        <v-progress-circular indeterminate color="blue" size="15" ></v-progress-circular>
+                    </v-btn>
+                    <v-btn v-else color="black" icon @click="handleDownload(path)" :small="isButtonSmall">
                         <v-icon color="white" :small="isButtonSmall">mdi-download</v-icon>
                     </v-btn>
                     <v-spacer></v-spacer>
@@ -49,6 +52,7 @@ export default class ArtGridBox extends Vue {
     currentPhoto: string = "";
     alertVisible: boolean = false
     alertMessage: string = ''
+    isDownloading: boolean = false
 
     get isButtonSmall(): boolean {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, false, false, false, false)
@@ -67,8 +71,10 @@ export default class ArtGridBox extends Vue {
         this.alertVisible = true
     }
 
-    handleDownload(path: string): void{
-        this.$util.handleDownload(path)
+    async handleDownload(path: string): Promise<void>{
+        this.isDownloading = true
+        await this.$util.handleDownload(path)
+        this.isDownloading = false
     }
 
 }
