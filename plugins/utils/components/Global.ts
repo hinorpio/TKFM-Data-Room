@@ -19,7 +19,6 @@ import {
     CustomError,
 } from '~/static/const';
 import JSZip from 'jszip';
-
 export default {
     showPreLineText(text: string): string{
         return text.replace(/\n/g, '<br>');
@@ -28,36 +27,38 @@ export default {
         navigator.clipboard.writeText(`${path}`);
     },
     async handleDownload(path: string): Promise<void>{
-        const response = await fetch(path, {
-            headers: {
-                'Access-Control-Allow-Origin': '*'
-            }
-        });
-        const blob = await response.blob();
-        const fileName = path.split('/').pop();
+        try {
+            const response = await fetch(path, {
+                headers:{
+                    'Cache-Control': 'no-cache',
+                }
+            });
+            const blob = await response.blob();
+            const fileName = path.split('/').pop();
 
-        console.log(response);
+            const objectURL = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = objectURL;
+            link.download = `${fileName}`;
 
-        const objectURL = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = objectURL;
-        link.download = `${fileName}`;
-
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(objectURL);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(objectURL);
+        } catch (error) {
+            console.log(error);
+            
+        }
+        
     },
     async handleDownloadZip(filePaths: string[], fileName: string): Promise<void>{
         const zip = new JSZip();
         for (const filePath of filePaths) {
             const response = await fetch(filePath, {
                 headers: {
-                    'Access-Control-Allow-Origin': '*'
+                    'Cache-Control': 'no-cache',
                 }
             });
-            console.log(response);
-
             const blob = await response.blob();
             const fileName = filePath.split('/').pop();
 
