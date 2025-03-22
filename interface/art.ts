@@ -1,10 +1,11 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 
 export interface Art {
     code: string;
     source: ArtSource;
     type: ArtType;
     author: string;
+    authorType: ArtAuthorType;
     locale: Locale[];
     authorLink?: null | string;
     name: {

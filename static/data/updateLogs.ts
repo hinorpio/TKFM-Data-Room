@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.6',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
+                    [Locale.sc]: `画作/二创: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
+                    [Locale.en]: `Artwork / Fanart: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
+                    [Locale.jp]: `アートワーク / 同人: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
+                    [Locale.kr]: `아트워크 / 팬 창작: 黑白好哇塞, 咪咪貓貓, 月兔管理官`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.5',
         logs: [
             {

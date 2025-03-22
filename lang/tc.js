@@ -83,6 +83,7 @@ export default {
     "Artwork / Fanart": "畫作/二創",
     "All": "所有",
     "Author": "作者",
+    "Owner": "所有者",
     "Author Link": "作者連結",
     "Link Copied": "連結已複製",
     "Download ZIP": "下載 ZIP",

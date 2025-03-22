@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const FB_COMIC: Art = {
     type: ArtType.COMIC,
     locale: [ Locale.tc, Locale.sc ],
     author: 'TKFM',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: null,
     name: {
         [Locale.tc]: 'FB 粉絲專頁 - 漫畫',

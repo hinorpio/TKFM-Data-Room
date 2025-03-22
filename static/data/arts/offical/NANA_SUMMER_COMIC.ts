@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const NANA_SUMMER_COMIC: Art = {
     type: ArtType.COMIC,
     locale: [ Locale.tc, Locale.sc ],
     author: 'TKFM - Bian 小編',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: null,
     name: {
         [Locale.tc]: '與她的夏日回憶',

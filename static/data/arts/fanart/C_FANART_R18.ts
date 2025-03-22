@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const C_FANART_R18: Art = {
     type: ArtType.PAINTING,
     locale: [ Locale.tc, Locale.sc ],
     author: '嗯C郎',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: 'https://www.pixiv.net/users/10499555',
     name: {
         [Locale.tc]: '嗯C郎 - 同人圖 (R18)',
