@@ -242,6 +242,11 @@ export enum TagID {
     OTHER_COUNTERSTRIKE = 33,
 }
 
+export enum ArtAuthorType {
+    AUTHOR = 'AUTHOR',
+    OWNER = 'OWNER'
+}
+
 export enum ArtSource {
     OFFICAL = 'OFFICAL',
     FANART = 'FANART'
