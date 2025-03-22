@@ -166,6 +166,8 @@ const VOTE_010 = `${cdnURL}/arts/offical/vote/4th/SR_2.png`
 const VOTE_011 = `${cdnURL}/arts/offical/vote/4th/SSR_1.png`
 const VOTE_012 = `${cdnURL}/arts/offical/vote/4th/SSR_2.png`
 const VOTE_013 = `${cdnURL}/arts/offical/vote/5th/1.png`
+const VOTE_014 = `${cdnURL}/arts/offical/vote/6th/1.png`
+const VOTE_015 = `${cdnURL}/arts/offical/vote/6th/2.png`
 
 const DATA_AS_OF_2024_001 = `${cdnURL}/arts/offical/data_2024/1_.png`
 const DATA_AS_OF_2024_002 = `${cdnURL}/arts/offical/data_2024/2_.png`
@@ -385,6 +387,8 @@ export const VOTE = [
     VOTE_011,
     VOTE_012,
     VOTE_013,
+    VOTE_014,
+    VOTE_015,
 ]
 
 export const DATA_AS_OF_2024 = [

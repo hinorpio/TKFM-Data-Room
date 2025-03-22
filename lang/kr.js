@@ -83,6 +83,7 @@ export default {
     "Artwork / Fanart": "아트워크 / 팬 창작",
     "All": "모두",
     "Author": "작가",
+    "Owner": "소유자",
     "Author Link": "작가 링크",
     "Link Copied": "링크가 복사되었습니다",
     "Download ZIP": "ZIP 다운로드",

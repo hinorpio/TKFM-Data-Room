@@ -52,11 +52,11 @@ export const SkillSet_10133: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `「清純」偶像`,
-                    description: `必殺時，追加「以自身攻擊力25給予我方全體護盾(1回合)、以自身最大HP30%給予我方全體護盾(1回合)」`
+                    description: `必殺時，追加「以自身攻擊力25%給予我方全體護盾(1回合)、以自身最大HP30%給予我方全體護盾(1回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `OnlySex♡`,
-                    description: `每經過1回合時，觸發「以自身攻擊力25使我方全體攻擊力增加(1回合)」`
+                    description: `每經過1回合時，觸發「以自身攻擊力25%使我方全體攻擊力增加(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻擊+`,
@@ -106,11 +106,11 @@ export const SkillSet_10133: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `「清纯」偶像`,
-                    description: `必杀时，追加「以自身攻击力25给予我方全体护盾(1回合)丶以自身最大HP30%给予我方全体护盾(1回合)」`
+                    description: `必杀时，追加「以自身攻击力25%给予我方全体护盾(1回合)丶以自身最大HP30%给予我方全体护盾(1回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `OnlySex♡`,
-                    description: `每经过1回合时，触发「以自身攻击力25使我方全体攻击力增加(1回合)」`
+                    description: `每经过1回合时，触发「以自身攻击力25%使我方全体攻击力增加(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻击+`,

@@ -46,7 +46,9 @@ const DOKGUN_STICKER_KR_043 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/할짝콘
 const DOKGUN_STICKER_KR_044 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/이겨콘.gif`
 const DOKGUN_STICKER_KR_045 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/엿콘.gif`
 const DOKGUN_STICKER_KR_046 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/한잔해콘.gif`
-const DOKGUN_STICKER_KR_047 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/한잔해콘.gif`
+const DOKGUN_STICKER_KR_047 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/냐앙콘.gif`
+const DOKGUN_STICKER_KR_048 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/ended.gif`
+const DOKGUN_STICKER_KR_049 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/지지콘콘2.gif`
 
 const DOKGUN_STICKER_EN_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/콘.gif`
 const DOKGUN_STICKER_EN_002 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/고맙다냥콘.gif`
@@ -81,6 +83,7 @@ const DOKGUN_STICKER_EN_040 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/얼탱콘
 const DOKGUN_STICKER_EN_041 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/yah.gif`
 const DOKGUN_STICKER_EN_043 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/할짝콘.gif`
 const DOKGUN_STICKER_EN_045 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/fuck콘.gif`
+const DOKGUN_STICKER_EN_048 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/ended.gif`
 
 const DOKGUN_NANA_STICKER_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/nana_sticker/8만점_아카콘.png`
 const DOKGUN_NANA_STICKER_002 = `${cdnURL}/arts/fanart/Dokgun/sticker/nana_sticker/9시간_아카콘.png`
@@ -232,6 +235,124 @@ const DOKGUN_OLD_STICKER_102 = `${cdnURL}/arts/fanart/Dokgun/sticker/old_sticker
 const DOKGUN_OLD_STICKER_103 = `${cdnURL}/arts/fanart/Dokgun/sticker/old_sticker/103.png`
 const DOKGUN_OLD_STICKER_104 = `${cdnURL}/arts/fanart/Dokgun/sticker/old_sticker/104.gif`
 
+const NOEL_CUTE_STICKER_001 = `${cdnURL}/arts/fanart/NoelCute/sticker/1.png`
+const NOEL_CUTE_STICKER_002 = `${cdnURL}/arts/fanart/NoelCute/sticker/2.png`
+const NOEL_CUTE_STICKER_003 = `${cdnURL}/arts/fanart/NoelCute/sticker/3.png`
+const NOEL_CUTE_STICKER_004 = `${cdnURL}/arts/fanart/NoelCute/sticker/4.png`
+const NOEL_CUTE_STICKER_005 = `${cdnURL}/arts/fanart/NoelCute/sticker/5.png`
+const NOEL_CUTE_STICKER_006 = `${cdnURL}/arts/fanart/NoelCute/sticker/6.png`
+const NOEL_CUTE_STICKER_007 = `${cdnURL}/arts/fanart/NoelCute/sticker/7.png`
+const NOEL_CUTE_STICKER_008 = `${cdnURL}/arts/fanart/NoelCute/sticker/8.png`
+const NOEL_CUTE_STICKER_009 = `${cdnURL}/arts/fanart/NoelCute/sticker/9.png`
+const NOEL_CUTE_STICKER_010 = `${cdnURL}/arts/fanart/NoelCute/sticker/10.png`
+const NOEL_CUTE_STICKER_011 = `${cdnURL}/arts/fanart/NoelCute/sticker/11.png`
+const NOEL_CUTE_STICKER_012 = `${cdnURL}/arts/fanart/NoelCute/sticker/12.png`
+const NOEL_CUTE_STICKER_013 = `${cdnURL}/arts/fanart/NoelCute/sticker/13.png`
+const NOEL_CUTE_STICKER_014 = `${cdnURL}/arts/fanart/NoelCute/sticker/14.png`
+const NOEL_CUTE_STICKER_015 = `${cdnURL}/arts/fanart/NoelCute/sticker/15.png`
+const NOEL_CUTE_STICKER_016 = `${cdnURL}/arts/fanart/NoelCute/sticker/16.png`
+const NOEL_CUTE_STICKER_017 = `${cdnURL}/arts/fanart/NoelCute/sticker/17.png`
+const NOEL_CUTE_STICKER_018 = `${cdnURL}/arts/fanart/NoelCute/sticker/18.gif`
+const NOEL_CUTE_STICKER_019 = `${cdnURL}/arts/fanart/NoelCute/sticker/19.png`
+const NOEL_CUTE_STICKER_020 = `${cdnURL}/arts/fanart/NoelCute/sticker/20.png`
+const NOEL_CUTE_STICKER_021 = `${cdnURL}/arts/fanart/NoelCute/sticker/21.png`
+const NOEL_CUTE_STICKER_022 = `${cdnURL}/arts/fanart/NoelCute/sticker/22.png`
+const NOEL_CUTE_STICKER_023 = `${cdnURL}/arts/fanart/NoelCute/sticker/23.png`
+const NOEL_CUTE_STICKER_024 = `${cdnURL}/arts/fanart/NoelCute/sticker/24.png`
+const NOEL_CUTE_STICKER_025 = `${cdnURL}/arts/fanart/NoelCute/sticker/25.png`
+const NOEL_CUTE_STICKER_026 = `${cdnURL}/arts/fanart/NoelCute/sticker/26.png`
+const NOEL_CUTE_STICKER_027 = `${cdnURL}/arts/fanart/NoelCute/sticker/27.png`
+const NOEL_CUTE_STICKER_028 = `${cdnURL}/arts/fanart/NoelCute/sticker/28.png`
+const NOEL_CUTE_STICKER_029 = `${cdnURL}/arts/fanart/NoelCute/sticker/29.png`
+
+const NOEL_CUTE_PAINTING_001 = `${cdnURL}/arts/fanart/NoelCute/image/1.png`
+const NOEL_CUTE_PAINTING_002 = `${cdnURL}/arts/fanart/NoelCute/image/2.png`
+const NOEL_CUTE_PAINTING_003 = `${cdnURL}/arts/fanart/NoelCute/image/3.png`
+const NOEL_CUTE_PAINTING_004 = `${cdnURL}/arts/fanart/NoelCute/image/4.png`
+const NOEL_CUTE_PAINTING_005 = `${cdnURL}/arts/fanart/NoelCute/image/5.png`
+const NOEL_CUTE_PAINTING_006 = `${cdnURL}/arts/fanart/NoelCute/image/6.png`
+const NOEL_CUTE_PAINTING_007 = `${cdnURL}/arts/fanart/NoelCute/image/7.png`
+const NOEL_CUTE_PAINTING_008 = `${cdnURL}/arts/fanart/NoelCute/image/8.png`
+const NOEL_CUTE_PAINTING_009 = `${cdnURL}/arts/fanart/NoelCute/image/9.png`
+const NOEL_CUTE_PAINTING_010 = `${cdnURL}/arts/fanart/NoelCute/image/10.png`
+const NOEL_CUTE_PAINTING_011 = `${cdnURL}/arts/fanart/NoelCute/image/11.png`
+const NOEL_CUTE_PAINTING_012 = `${cdnURL}/arts/fanart/NoelCute/image/12.png`
+const NOEL_CUTE_PAINTING_013 = `${cdnURL}/arts/fanart/NoelCute/image/13.png`
+const NOEL_CUTE_PAINTING_014 = `${cdnURL}/arts/fanart/NoelCute/image/14.png`
+const NOEL_CUTE_PAINTING_015 = `${cdnURL}/arts/fanart/NoelCute/image/15.png`
+const NOEL_CUTE_PAINTING_016 = `${cdnURL}/arts/fanart/NoelCute/image/16.png`
+const NOEL_CUTE_PAINTING_017 = `${cdnURL}/arts/fanart/NoelCute/image/17.png`
+const NOEL_CUTE_PAINTING_018 = `${cdnURL}/arts/fanart/NoelCute/image/18.png`
+const NOEL_CUTE_PAINTING_019 = `${cdnURL}/arts/fanart/NoelCute/image/19.png`
+const NOEL_CUTE_PAINTING_020 = `${cdnURL}/arts/fanart/NoelCute/image/20.png`
+const NOEL_CUTE_PAINTING_021 = `${cdnURL}/arts/fanart/NoelCute/image/21.png`
+const NOEL_CUTE_PAINTING_022 = `${cdnURL}/arts/fanart/NoelCute/image/22.png`
+const NOEL_CUTE_PAINTING_023 = `${cdnURL}/arts/fanart/NoelCute/image/23.png`
+const NOEL_CUTE_PAINTING_024 = `${cdnURL}/arts/fanart/NoelCute/image/24.png`
+const NOEL_CUTE_PAINTING_025 = `${cdnURL}/arts/fanart/NoelCute/image/25.png`
+const NOEL_CUTE_PAINTING_026 = `${cdnURL}/arts/fanart/NoelCute/image/26.png`
+const NOEL_CUTE_PAINTING_027 = `${cdnURL}/arts/fanart/NoelCute/image/27.png`
+const NOEL_CUTE_PAINTING_028 = `${cdnURL}/arts/fanart/NoelCute/image/28.png`
+const NOEL_CUTE_PAINTING_029 = `${cdnURL}/arts/fanart/NoelCute/image/29.png`
+const NOEL_CUTE_PAINTING_030 = `${cdnURL}/arts/fanart/NoelCute/image/30.png`
+const NOEL_CUTE_PAINTING_031 = `${cdnURL}/arts/fanart/NoelCute/image/31.png`
+const NOEL_CUTE_PAINTING_032 = `${cdnURL}/arts/fanart/NoelCute/image/32.png`
+const NOEL_CUTE_PAINTING_033 = `${cdnURL}/arts/fanart/NoelCute/image/33.png`
+const NOEL_CUTE_PAINTING_034 = `${cdnURL}/arts/fanart/NoelCute/image/34.png`
+const NOEL_CUTE_PAINTING_035 = `${cdnURL}/arts/fanart/NoelCute/image/35.png`
+const NOEL_CUTE_PAINTING_036 = `${cdnURL}/arts/fanart/NoelCute/image/36.png`
+const NOEL_CUTE_PAINTING_037 = `${cdnURL}/arts/fanart/NoelCute/image/37.png`
+const NOEL_CUTE_PAINTING_038 = `${cdnURL}/arts/fanart/NoelCute/image/38.png`
+const NOEL_CUTE_PAINTING_039 = `${cdnURL}/arts/fanart/NoelCute/image/39.png`
+const NOEL_CUTE_PAINTING_040 = `${cdnURL}/arts/fanart/NoelCute/image/40.png`
+const NOEL_CUTE_PAINTING_041 = `${cdnURL}/arts/fanart/NoelCute/image/41.png`
+const NOEL_CUTE_PAINTING_042 = `${cdnURL}/arts/fanart/NoelCute/image/42.png`
+const NOEL_CUTE_PAINTING_043 = `${cdnURL}/arts/fanart/NoelCute/image/43.png`
+const NOEL_CUTE_PAINTING_044 = `${cdnURL}/arts/fanart/NoelCute/image/44.png`
+const NOEL_CUTE_PAINTING_045 = `${cdnURL}/arts/fanart/NoelCute/image/45.png`
+const NOEL_CUTE_PAINTING_046 = `${cdnURL}/arts/fanart/NoelCute/image/46.png`
+const NOEL_CUTE_PAINTING_047 = `${cdnURL}/arts/fanart/NoelCute/image/47.png`
+
+const MIMIMAOMAO_STICKER_001 = `${cdnURL}/arts/fanart/CatHead/sticker/1.png`
+const MIMIMAOMAO_STICKER_002 = `${cdnURL}/arts/fanart/CatHead/sticker/2.png`
+const MIMIMAOMAO_STICKER_003 = `${cdnURL}/arts/fanart/CatHead/sticker/3.png`
+const MIMIMAOMAO_STICKER_004 = `${cdnURL}/arts/fanart/CatHead/sticker/4.png`
+const MIMIMAOMAO_STICKER_005 = `${cdnURL}/arts/fanart/CatHead/sticker/5.png`
+const MIMIMAOMAO_STICKER_006 = `${cdnURL}/arts/fanart/CatHead/sticker/6.png`
+const MIMIMAOMAO_STICKER_007 = `${cdnURL}/arts/fanart/CatHead/sticker/7.png`
+const MIMIMAOMAO_STICKER_008 = `${cdnURL}/arts/fanart/CatHead/sticker/8.png`
+const MIMIMAOMAO_STICKER_009 = `${cdnURL}/arts/fanart/CatHead/sticker/9.png`
+const MIMIMAOMAO_STICKER_010 = `${cdnURL}/arts/fanart/CatHead/sticker/10.png`
+const MIMIMAOMAO_STICKER_011 = `${cdnURL}/arts/fanart/CatHead/sticker/11.png`
+
+const MOON_RABBIT_STICKER_001 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/道歉.png`
+const MOON_RABBIT_STICKER_002 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/問就是課.png`
+const MOON_RABBIT_STICKER_003 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/抱抱.png`
+const MOON_RABBIT_STICKER_004 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/好耶.png`
+const MOON_RABBIT_STICKER_005 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不許好耶.png`
+const MOON_RABBIT_STICKER_006 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/可以說了嗎.png`
+const MOON_RABBIT_STICKER_007 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/可以了.png`
+const MOON_RABBIT_STICKER_008 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不要玩了.png`
+const MOON_RABBIT_STICKER_009 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不可以.png`
+const MOON_RABBIT_STICKER_010 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不做死就不會死.png`
+const MOON_RABBIT_STICKER_011 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不要Tag我.png`
+const MOON_RABBIT_STICKER_012 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/算你倒楣.png`
+const MOON_RABBIT_STICKER_013 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/看公告.png`
+const MOON_RABBIT_STICKER_014 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/奇怪的知識.png`
+const MOON_RABBIT_STICKER_015 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/沒力.gif`
+const MOON_RABBIT_STICKER_016 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/愛睏.png`
+const MOON_RABBIT_STICKER_017 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/能睡了嗎.png`
+const MOON_RABBIT_STICKER_018 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/工作.png`
+const MOON_RABBIT_STICKER_019 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/溜了.png`
+const MOON_RABBIT_STICKER_020 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/你這笨蛋.png`
+const MOON_RABBIT_STICKER_021 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/維護.png`
+const MOON_RABBIT_STICKER_022 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/monday.png`
+const MOON_RABBIT_STICKER_023 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實_DC.png`
+const MOON_RABBIT_STICKER_024 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實.png`
+const MOON_RABBIT_STICKER_025 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實_original.png`
+const MOON_RABBIT_STICKER_026 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/+1.gif`
+const MOON_RABBIT_STICKER_027 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/-1.gif`
+const MOON_RABBIT_STICKER_028 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/$$$.gif`
 
 const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/Phoenix/扑倒.gif`
 const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/Phoenix/震惊.gif`
@@ -360,6 +481,8 @@ export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_045,
     DOKGUN_STICKER_KR_046,
     DOKGUN_STICKER_KR_047,
+    DOKGUN_STICKER_KR_048,
+    DOKGUN_STICKER_KR_049,
 ]
 
 export const DOKGUN_STICKER_EN = [
@@ -396,6 +519,7 @@ export const DOKGUN_STICKER_EN = [
     DOKGUN_STICKER_EN_041,
     DOKGUN_STICKER_EN_043,
     DOKGUN_STICKER_EN_045,
+    DOKGUN_STICKER_EN_048,
 ]
 
 export const DOKGUN_NANA_STICKER = [
@@ -550,6 +674,133 @@ export const DOKGUN_OLD_STICKER = [
     DOKGUN_OLD_STICKER_101,
     DOKGUN_OLD_STICKER_102,
     DOKGUN_OLD_STICKER_103,
+]
+
+export const NOEL_CUTE_STICKER = [
+    NOEL_CUTE_STICKER_001,
+    NOEL_CUTE_STICKER_002,
+    NOEL_CUTE_STICKER_003,
+    NOEL_CUTE_STICKER_004,
+    NOEL_CUTE_STICKER_005,
+    NOEL_CUTE_STICKER_006,
+    NOEL_CUTE_STICKER_007,
+    NOEL_CUTE_STICKER_008,
+    NOEL_CUTE_STICKER_009,
+    NOEL_CUTE_STICKER_010,
+    NOEL_CUTE_STICKER_011,
+    NOEL_CUTE_STICKER_012,
+    NOEL_CUTE_STICKER_013,
+    NOEL_CUTE_STICKER_014,
+    NOEL_CUTE_STICKER_015,
+    NOEL_CUTE_STICKER_016,
+    NOEL_CUTE_STICKER_017,
+    NOEL_CUTE_STICKER_018,
+    NOEL_CUTE_STICKER_019,
+    NOEL_CUTE_STICKER_020,
+    NOEL_CUTE_STICKER_021,
+    NOEL_CUTE_STICKER_022,
+    NOEL_CUTE_STICKER_023,
+    NOEL_CUTE_STICKER_024,
+    NOEL_CUTE_STICKER_025,
+    NOEL_CUTE_STICKER_026,
+    NOEL_CUTE_STICKER_027,
+    NOEL_CUTE_STICKER_028,
+    NOEL_CUTE_STICKER_029,
+]
+
+export const NOEL_CUTE_PAINTING = [
+    NOEL_CUTE_PAINTING_001,
+    NOEL_CUTE_PAINTING_002,
+    NOEL_CUTE_PAINTING_003,
+    NOEL_CUTE_PAINTING_004,
+    NOEL_CUTE_PAINTING_005,
+    NOEL_CUTE_PAINTING_006,
+    NOEL_CUTE_PAINTING_007,
+    NOEL_CUTE_PAINTING_008,
+    NOEL_CUTE_PAINTING_009,
+    NOEL_CUTE_PAINTING_010,
+    NOEL_CUTE_PAINTING_011,
+    NOEL_CUTE_PAINTING_012,
+    NOEL_CUTE_PAINTING_013,
+    NOEL_CUTE_PAINTING_014,
+    NOEL_CUTE_PAINTING_015,
+    NOEL_CUTE_PAINTING_016,
+    NOEL_CUTE_PAINTING_017,
+    NOEL_CUTE_PAINTING_018,
+    NOEL_CUTE_PAINTING_019,
+    NOEL_CUTE_PAINTING_020,
+    NOEL_CUTE_PAINTING_021,
+    NOEL_CUTE_PAINTING_022,
+    NOEL_CUTE_PAINTING_023,
+    NOEL_CUTE_PAINTING_024,
+    NOEL_CUTE_PAINTING_025,
+    NOEL_CUTE_PAINTING_026,
+    NOEL_CUTE_PAINTING_027,
+    NOEL_CUTE_PAINTING_028,
+    NOEL_CUTE_PAINTING_029,
+    NOEL_CUTE_PAINTING_030,
+    NOEL_CUTE_PAINTING_031,
+    NOEL_CUTE_PAINTING_032,
+    NOEL_CUTE_PAINTING_033,
+    NOEL_CUTE_PAINTING_034,
+    NOEL_CUTE_PAINTING_035,
+    NOEL_CUTE_PAINTING_036,
+    NOEL_CUTE_PAINTING_037,
+    NOEL_CUTE_PAINTING_038,
+    NOEL_CUTE_PAINTING_039,
+    NOEL_CUTE_PAINTING_040,
+    NOEL_CUTE_PAINTING_041,
+    NOEL_CUTE_PAINTING_042,
+    NOEL_CUTE_PAINTING_043,
+    NOEL_CUTE_PAINTING_044,
+    NOEL_CUTE_PAINTING_045,
+    NOEL_CUTE_PAINTING_046,
+    NOEL_CUTE_PAINTING_047,
+]
+
+export const MIMIMAOMAO_STICKER = [
+    MIMIMAOMAO_STICKER_001,
+    MIMIMAOMAO_STICKER_002,
+    MIMIMAOMAO_STICKER_003,
+    MIMIMAOMAO_STICKER_004,
+    MIMIMAOMAO_STICKER_005,
+    MIMIMAOMAO_STICKER_006,
+    MIMIMAOMAO_STICKER_007,
+    MIMIMAOMAO_STICKER_008,
+    MIMIMAOMAO_STICKER_009,
+    MIMIMAOMAO_STICKER_010,
+    MIMIMAOMAO_STICKER_011,
+]
+
+export const MOON_RABBIT_STICKER = [
+    MOON_RABBIT_STICKER_001,
+    MOON_RABBIT_STICKER_002,
+    MOON_RABBIT_STICKER_003,
+    MOON_RABBIT_STICKER_004,
+    MOON_RABBIT_STICKER_005,
+    MOON_RABBIT_STICKER_006,
+    MOON_RABBIT_STICKER_007,
+    MOON_RABBIT_STICKER_008,
+    MOON_RABBIT_STICKER_009,
+    MOON_RABBIT_STICKER_010,
+    MOON_RABBIT_STICKER_011,
+    MOON_RABBIT_STICKER_012,
+    MOON_RABBIT_STICKER_013,
+    MOON_RABBIT_STICKER_014,
+    MOON_RABBIT_STICKER_015,
+    MOON_RABBIT_STICKER_016,
+    MOON_RABBIT_STICKER_017,
+    MOON_RABBIT_STICKER_018,
+    MOON_RABBIT_STICKER_019,
+    MOON_RABBIT_STICKER_020,
+    MOON_RABBIT_STICKER_021,
+    MOON_RABBIT_STICKER_022,
+    MOON_RABBIT_STICKER_023,
+    MOON_RABBIT_STICKER_024,
+    MOON_RABBIT_STICKER_025,
+    MOON_RABBIT_STICKER_026,
+    MOON_RABBIT_STICKER_027,
+    MOON_RABBIT_STICKER_028,
 ]
 
 export const LITTLE_PEA_STICKER = [

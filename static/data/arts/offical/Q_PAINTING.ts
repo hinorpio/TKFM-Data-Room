@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const Q_PAINTING: Art = {
     type: ArtType.PAINTING,
     locale: [ Locale.tc, Locale.sc ],
     author: 'TKFM',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: null,
     name: {
         [Locale.tc]: '天下布魔 - Q版畫作',

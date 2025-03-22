@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const DOKGUN_STICKER_EN: Art = {
     type: ArtType.STICKER,
     locale: [ Locale.en ],
     author: '독군 Dokgun',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: 'https://www.pixiv.net/users/19278065',
     name: {
         [Locale.tc]: '독군 Dokgun - GIF 貼圖 (英文)',
