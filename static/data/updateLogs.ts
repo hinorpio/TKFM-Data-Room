@@ -2,6 +2,41 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.7',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 甜蜜寶貝 萊爾貝妲, 躍動之星 黑白諾艾莉, 啦啦隊長 尤妮思`,
+                    [Locale.sc]: `角色: 甜蜜宝贝 莱尔贝妲, 跃动之星 黑白诺艾莉, 啦啦队长 尤妮思`,
+                    [Locale.en]: `Unit: Sweet Baby Lér Bédard, Star of Momentum Noel, Cheerleader Captain Eunice`,
+                    [Locale.jp]: `キャラ: スイートベイビー ラベンダー, 躍動のスター ノエル, チアのキャプテン ユニス`,
+                    [Locale.kr]: `캐릭터: 스위트 베이비 라벤더, 도약의 별 노엘리, 치어리더장 유니스`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【甜蜜寶貝矯正宣言】, 【舞動奇姬】, 【心之枷鎖】, 【魔獄塔】第二十四季, 【悠閒無事的本大爺凱薩邊境城鎮成為冒險者展開緊張刺激大冒險-復刻-】`,
+                    [Locale.sc]: `活动: 【甜蜜宝贝矫正宣言】, 【舞动奇姬】, 【心之枷锁】, 【魔狱塔】第二十四季, 【悠闲无事的本大爷凯萨边境城镇成为冒险者展开紧张刺激大冒险-复刻-】`,
+                    [Locale.en]: `Event: [Sweet Baby Correction], [Dancing Queen], [Shackles of the Heart], [The Demon Spire] Season 24, [Caesar's bored... so he joins the Adventurer's Guild! -Comeback-]`,
+                    [Locale.jp]: `イベント: 「スイートベイビー矯正宣言」, 「舞い踊る姫」, 「心の枷」, 「魔獄塔」第24シーズン, 「暇で死にそうな俺様シーザー 辺境の村で冒険者になって 刺激満載の大冒險に出かけるとしよう-復刻-」`,
+                    [Locale.kr]: `이벤트: 【스위트 베이비 교정 선언】, 【춤추는 공주】, 【마음의 족쇄】, 【마옥탑】 제24시즌, 【무료함을 느끼던 이 몸께서 변경 지대의 모험가가 되어 펼쳐나가는 스펙터클 어드벤처-복각-】`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: 독군 Dokgun`,
+                    [Locale.sc]: `画作/二创: 독군 Dokgun`,
+                    [Locale.en]: `Artwork / Fanart: 독군 Dokgun`,
+                    [Locale.jp]: `アートワーク / 同人: 독군 Dokgun`,
+                    [Locale.kr]: `아트워크 / 팬 창작: 독군 Dokgun`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.6',
         logs: [
             {
@@ -40,7 +75,7 @@ const events: UpdateLogs[] = [
                     [Locale.tc]: `角色: 銀鴞武裝 米婭, 白熊武裝 冬。艾妮`,
                     [Locale.sc]: `角色: 银鸮武装 米娅, 白熊武装 冬。艾妮`,
                     [Locale.en]: `Unit: The Silver Owl Mia, The White Cub Annee Winter`,
-                    [Locale.jp]: `キャラ: フクロウ装甲 ミア, シロクマ装甲 アイニー・ウィンター"`,
+                    [Locale.jp]: `キャラ: フクロウ装甲 ミア, シロクマ装甲 アイニー・ウィンター`,
                     [Locale.kr]: `캐릭터: 실버아울 미아, 폴라 베어 애니．윈터`
                 }
             },
