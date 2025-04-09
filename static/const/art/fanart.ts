@@ -49,6 +49,9 @@ const DOKGUN_STICKER_KR_046 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/한잔해
 const DOKGUN_STICKER_KR_047 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/냐앙콘.gif`
 const DOKGUN_STICKER_KR_048 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/ended.gif`
 const DOKGUN_STICKER_KR_049 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/지지콘콘2.gif`
+const DOKGUN_STICKER_KR_050 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/플렉스콘.gif`
+const DOKGUN_STICKER_KR_051 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/ez.gif`
+const DOKGUN_STICKER_KR_052 = `${cdnURL}/arts/fanart/Dokgun/sticker/kr/신고콘.gif`
 
 const DOKGUN_STICKER_EN_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/콘.gif`
 const DOKGUN_STICKER_EN_002 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/고맙다냥콘.gif`
@@ -84,6 +87,8 @@ const DOKGUN_STICKER_EN_041 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/yah.gif`
 const DOKGUN_STICKER_EN_043 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/할짝콘.gif`
 const DOKGUN_STICKER_EN_045 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/fuck콘.gif`
 const DOKGUN_STICKER_EN_048 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/ended.gif`
+const DOKGUN_STICKER_EN_050 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/플렉스콘.gif`
+const DOKGUN_STICKER_EN_051 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/ez.gif`
 
 const DOKGUN_NANA_STICKER_001 = `${cdnURL}/arts/fanart/Dokgun/sticker/nana_sticker/8만점_아카콘.png`
 const DOKGUN_NANA_STICKER_002 = `${cdnURL}/arts/fanart/Dokgun/sticker/nana_sticker/9시간_아카콘.png`
@@ -353,6 +358,7 @@ const MOON_RABBIT_STICKER_025 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實
 const MOON_RABBIT_STICKER_026 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/+1.gif`
 const MOON_RABBIT_STICKER_027 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/-1.gif`
 const MOON_RABBIT_STICKER_028 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/$$$.gif`
+const MOON_RABBIT_STICKER_029 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/救我.png`
 
 const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/Phoenix/扑倒.gif`
 const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/Phoenix/震惊.gif`
@@ -483,6 +489,9 @@ export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_047,
     DOKGUN_STICKER_KR_048,
     DOKGUN_STICKER_KR_049,
+    DOKGUN_STICKER_KR_050,
+    DOKGUN_STICKER_KR_051,
+    DOKGUN_STICKER_KR_052,
 ]
 
 export const DOKGUN_STICKER_EN = [
@@ -520,6 +529,8 @@ export const DOKGUN_STICKER_EN = [
     DOKGUN_STICKER_EN_043,
     DOKGUN_STICKER_EN_045,
     DOKGUN_STICKER_EN_048,
+    DOKGUN_STICKER_EN_050,
+    DOKGUN_STICKER_EN_051,
 ]
 
 export const DOKGUN_NANA_STICKER = [
@@ -801,6 +812,7 @@ export const MOON_RABBIT_STICKER = [
     MOON_RABBIT_STICKER_026,
     MOON_RABBIT_STICKER_027,
     MOON_RABBIT_STICKER_028,
+    MOON_RABBIT_STICKER_029,
 ]
 
 export const LITTLE_PEA_STICKER = [
