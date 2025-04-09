@@ -1361,6 +1361,24 @@ const FULLIMAGE_10166_1_LV3 = `${cdnURL}/character/fullbody/10166_1-Lv3.png`
 const FULLIMAGE_10166_2_LV1 = `${cdnURL}/character/fullbody/10166_2-Lv1.png`
 const FULLIMAGE_10166_2_LV2 = `${cdnURL}/character/fullbody/10166_2-Lv2.png`
 const FULLIMAGE_10166_2_LV3 = `${cdnURL}/character/fullbody/10166_2-Lv3.png`
+const FULLIMAGE_10167_0_LV1 = `${cdnURL}/character/fullbody/10167_0-Lv1.png`
+const FULLIMAGE_10167_0_LV2 = `${cdnURL}/character/fullbody/10167_0-Lv2.png`
+const FULLIMAGE_10167_0_LV3 = `${cdnURL}/character/fullbody/10167_0-Lv3.png`
+const FULLIMAGE_10167_1_LV1 = `${cdnURL}/character/fullbody/10167_1-Lv1.png`
+const FULLIMAGE_10167_1_LV2 = `${cdnURL}/character/fullbody/10167_1-Lv2.png`
+const FULLIMAGE_10167_1_LV3 = `${cdnURL}/character/fullbody/10167_1-Lv3.png`
+const FULLIMAGE_10167_2_LV1 = `${cdnURL}/character/fullbody/10167_2-Lv1.png`
+const FULLIMAGE_10167_2_LV2 = `${cdnURL}/character/fullbody/10167_2-Lv2.png`
+const FULLIMAGE_10167_2_LV3 = `${cdnURL}/character/fullbody/10167_2-Lv3.png`
+const FULLIMAGE_10168_0_LV1 = `${cdnURL}/character/fullbody/10168_0-Lv1.png`
+const FULLIMAGE_10168_0_LV2 = `${cdnURL}/character/fullbody/10168_0-Lv2.png`
+const FULLIMAGE_10168_0_LV3 = `${cdnURL}/character/fullbody/10168_0-Lv3.png`
+const FULLIMAGE_10168_1_LV1 = `${cdnURL}/character/fullbody/10168_1-Lv1.png`
+const FULLIMAGE_10168_1_LV2 = `${cdnURL}/character/fullbody/10168_1-Lv2.png`
+const FULLIMAGE_10168_1_LV3 = `${cdnURL}/character/fullbody/10168_1-Lv3.png`
+const FULLIMAGE_10168_2_LV1 = `${cdnURL}/character/fullbody/10168_2-Lv1.png`
+const FULLIMAGE_10168_2_LV2 = `${cdnURL}/character/fullbody/10168_2-Lv2.png`
+const FULLIMAGE_10168_2_LV3 = `${cdnURL}/character/fullbody/10168_2-Lv3.png`
 const FULLIMAGE_10175_0_LV1 = `${cdnURL}/character/fullbody/10175_0-Lv1.png`
 const FULLIMAGE_10175_0_LV2 = `${cdnURL}/character/fullbody/10175_0-Lv2.png`
 const FULLIMAGE_10175_0_LV3 = `${cdnURL}/character/fullbody/10175_0-Lv3.png`
@@ -1370,6 +1388,15 @@ const FULLIMAGE_10175_1_LV3 = `${cdnURL}/character/fullbody/10175_1-Lv3.png`
 const FULLIMAGE_10175_2_LV1 = `${cdnURL}/character/fullbody/10175_2-Lv1.png`
 const FULLIMAGE_10175_2_LV2 = `${cdnURL}/character/fullbody/10175_2-Lv2.png`
 const FULLIMAGE_10175_2_LV3 = `${cdnURL}/character/fullbody/10175_2-Lv3.png`
+const FULLIMAGE_10176_0_LV1 = `${cdnURL}/character/fullbody/10176_0-Lv1.png`
+const FULLIMAGE_10176_0_LV2 = `${cdnURL}/character/fullbody/10176_0-Lv2.png`
+const FULLIMAGE_10176_0_LV3 = `${cdnURL}/character/fullbody/10176_0-Lv3.png`
+const FULLIMAGE_10176_1_LV1 = `${cdnURL}/character/fullbody/10176_1-Lv1.png`
+const FULLIMAGE_10176_1_LV2 = `${cdnURL}/character/fullbody/10176_1-Lv2.png`
+const FULLIMAGE_10176_1_LV3 = `${cdnURL}/character/fullbody/10176_1-Lv3.png`
+const FULLIMAGE_10176_2_LV1 = `${cdnURL}/character/fullbody/10176_2-Lv1.png`
+const FULLIMAGE_10176_2_LV2 = `${cdnURL}/character/fullbody/10176_2-Lv2.png`
+const FULLIMAGE_10176_2_LV3 = `${cdnURL}/character/fullbody/10176_2-Lv3.png`
 
 const FULLIMAGE_10801_0_LV1 = `${cdnURL}/character/fullbody/10801_0-Lv1.png`
 const FULLIMAGE_10801_0_LV2 = `${cdnURL}/character/fullbody/10801_0-Lv2.png`
@@ -2674,6 +2701,21 @@ const SSR = {
         [ FULLIMAGE_10166_0_LV1, FULLIMAGE_10166_1_LV1, FULLIMAGE_10166_2_LV1 ],
         [ FULLIMAGE_10166_0_LV2, FULLIMAGE_10166_1_LV2, FULLIMAGE_10166_2_LV2 ],
         [ FULLIMAGE_10166_0_LV3, FULLIMAGE_10166_1_LV3, FULLIMAGE_10166_2_LV3 ],
+    ],
+    [UnitCode.bedard]: [
+        [ FULLIMAGE_10176_0_LV1, FULLIMAGE_10176_1_LV1, FULLIMAGE_10176_2_LV1 ],
+        [ FULLIMAGE_10176_0_LV2, FULLIMAGE_10176_1_LV2, FULLIMAGE_10176_2_LV2 ],
+        [ FULLIMAGE_10176_0_LV3, FULLIMAGE_10176_1_LV3, FULLIMAGE_10176_2_LV3 ],
+    ],
+    [UnitCode.c_noel]: [
+        [ FULLIMAGE_10167_0_LV1, FULLIMAGE_10167_1_LV1, FULLIMAGE_10167_2_LV1 ],
+        [ FULLIMAGE_10167_0_LV2, FULLIMAGE_10167_1_LV2, FULLIMAGE_10167_2_LV2 ],
+        [ FULLIMAGE_10167_0_LV3, FULLIMAGE_10167_1_LV3, FULLIMAGE_10167_2_LV3 ],
+    ],
+    [UnitCode.eunice]: [
+        [ FULLIMAGE_10168_0_LV1, FULLIMAGE_10168_1_LV1, FULLIMAGE_10168_2_LV1 ],
+        [ FULLIMAGE_10168_0_LV2, FULLIMAGE_10168_1_LV2, FULLIMAGE_10168_2_LV2 ],
+        [ FULLIMAGE_10168_0_LV3, FULLIMAGE_10168_1_LV3, FULLIMAGE_10168_2_LV3 ],
     ],
 }
 

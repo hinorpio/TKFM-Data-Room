@@ -153,7 +153,10 @@ const ESSENCE_10163 = `${cdnURL}/character/essence/IP10163.png`
 const ESSENCE_10164 = `${cdnURL}/character/essence/IP10164.png`
 const ESSENCE_10165 = `${cdnURL}/character/essence/IP10165.png`
 const ESSENCE_10166 = `${cdnURL}/character/essence/IP10166.png`
+const ESSENCE_10167 = `${cdnURL}/character/essence/IP10167.png`
+const ESSENCE_10168 = `${cdnURL}/character/essence/IP10168.png`
 const ESSENCE_10175 = `${cdnURL}/character/essence/IP10175.png`
+const ESSENCE_10176 = `${cdnURL}/character/essence/IP10176.png`
 
 const ESSENCE_10801 = `${cdnURL}/character/essence/IP10801.png`
 const ESSENCE_10802 = `${cdnURL}/character/essence/IP10802.png`
@@ -395,6 +398,9 @@ const SSR = {
     [UnitCode.f_kana]: ESSENCE_10164,
     [UnitCode.star_mia]: ESSENCE_10165,
     [UnitCode.star_annee]: ESSENCE_10166,
+    [UnitCode.bedard]: ESSENCE_10176,
+    [UnitCode.c_noel]: ESSENCE_10167,
+    [UnitCode.eunice]: ESSENCE_10168,
 }
 
 export const Essence = {

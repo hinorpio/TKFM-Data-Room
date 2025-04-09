@@ -168,7 +168,7 @@ export const SkillSet_10166: SkillSet[] =  [
                 },
                 [SkillType.GENERAL_1]: {
                     name: `Attack+`,
-                    description: `Increase your Attack Power by 10%..`
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
                     name: `Paralysis Immunity`,

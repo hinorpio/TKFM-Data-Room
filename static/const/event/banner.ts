@@ -843,6 +843,36 @@ const EVENT_0171_SC = `${cdnURL}/event/banner/ln30171_sc.png`
 const EVENT_0171_EN = `${cdnURL}/event/banner/ln30171_en.png`
 const EVENT_0171_JP = `${cdnURL}/event/banner/ln30171_jp.png`
 const EVENT_0171_KR = `${cdnURL}/event/banner/ln30171_kr.png`
+const EVENT_0172_TC = `${cdnURL}/event/banner/ln30172_tc.png`
+const EVENT_0172_SC = `${cdnURL}/event/banner/ln30172_sc.png`
+const EVENT_0172_EN = `${cdnURL}/event/banner/ln30172_en.png`
+const EVENT_0172_JP = `${cdnURL}/event/banner/ln30172_jp.png`
+const EVENT_0172_KR = `${cdnURL}/event/banner/ln30172_kr.png`
+const EVENT_0173_TC = `${cdnURL}/event/banner/ln30173_tc.png`
+const EVENT_0173_SC = `${cdnURL}/event/banner/ln30173_sc.png`
+const EVENT_0173_EN = `${cdnURL}/event/banner/ln30173_en.png`
+const EVENT_0173_JP = `${cdnURL}/event/banner/ln30173_jp.png`
+const EVENT_0173_KR = `${cdnURL}/event/banner/ln30173_kr.png`
+const EVENT_0174_TC = `${cdnURL}/event/banner/ln30174_tc.png`
+const EVENT_0174_SC = `${cdnURL}/event/banner/ln30174_sc.png`
+const EVENT_0174_EN = `${cdnURL}/event/banner/ln30174_en.png`
+const EVENT_0174_JP = `${cdnURL}/event/banner/ln30174_jp.png`
+const EVENT_0174_KR = `${cdnURL}/event/banner/ln30174_kr.png`
+const EVENT_0175_TC = `${cdnURL}/event/banner/ln30175_tc.png`
+const EVENT_0175_SC = `${cdnURL}/event/banner/ln30175_sc.png`
+const EVENT_0175_EN = `${cdnURL}/event/banner/ln30175_en.png`
+const EVENT_0175_JP = `${cdnURL}/event/banner/ln30175_jp.png`
+const EVENT_0175_KR = `${cdnURL}/event/banner/ln30175_kr.png`
+const EVENT_0176_TC = `${cdnURL}/event/banner/ln30176_tc.png`
+const EVENT_0176_SC = `${cdnURL}/event/banner/ln30176_sc.png`
+const EVENT_0176_EN = `${cdnURL}/event/banner/ln30176_en.png`
+const EVENT_0176_JP = `${cdnURL}/event/banner/ln30176_jp.png`
+const EVENT_0176_KR = `${cdnURL}/event/banner/ln30176_kr.png`
+const EVENT_0177_TC = `${cdnURL}/event/banner/ln30177_tc.png`
+const EVENT_0177_SC = `${cdnURL}/event/banner/ln30177_sc.png`
+const EVENT_0177_EN = `${cdnURL}/event/banner/ln30177_en.png`
+const EVENT_0177_JP = `${cdnURL}/event/banner/ln30177_jp.png`
+const EVENT_0177_KR = `${cdnURL}/event/banner/ln30177_kr.png`
 
 export const EVENT_TIMERIFT = {
     [Locale.tc]: EVENT_TIMERIFT_TC,
@@ -2047,4 +2077,46 @@ export const EVENT_0171 = {
     [Locale.en]: EVENT_0171_EN,
     [Locale.jp]: EVENT_0171_JP,
     [Locale.kr]: EVENT_0171_KR,
+}
+export const EVENT_0172 = {
+    [Locale.tc]: EVENT_0172_TC,
+    [Locale.sc]: EVENT_0172_SC,
+    [Locale.en]: EVENT_0172_EN,
+    [Locale.jp]: EVENT_0172_JP,
+    [Locale.kr]: EVENT_0172_KR,
+}
+export const EVENT_0173 = {
+    [Locale.tc]: EVENT_0173_TC,
+    [Locale.sc]: EVENT_0173_SC,
+    [Locale.en]: EVENT_0173_EN,
+    [Locale.jp]: EVENT_0173_JP,
+    [Locale.kr]: EVENT_0173_KR,
+}
+export const EVENT_0174 = {
+    [Locale.tc]: EVENT_0174_TC,
+    [Locale.sc]: EVENT_0174_SC,
+    [Locale.en]: EVENT_0174_EN,
+    [Locale.jp]: EVENT_0174_JP,
+    [Locale.kr]: EVENT_0174_KR,
+}
+export const EVENT_0175 = {
+    [Locale.tc]: EVENT_0175_TC,
+    [Locale.sc]: EVENT_0175_SC,
+    [Locale.en]: EVENT_0175_EN,
+    [Locale.jp]: EVENT_0175_JP,
+    [Locale.kr]: EVENT_0175_KR,
+}
+export const EVENT_0176 = {
+    [Locale.tc]: EVENT_0176_TC,
+    [Locale.sc]: EVENT_0176_SC,
+    [Locale.en]: EVENT_0176_EN,
+    [Locale.jp]: EVENT_0176_JP,
+    [Locale.kr]: EVENT_0176_KR,
+}
+export const EVENT_0177 = {
+    [Locale.tc]: EVENT_0177_TC,
+    [Locale.sc]: EVENT_0177_SC,
+    [Locale.en]: EVENT_0177_EN,
+    [Locale.jp]: EVENT_0177_JP,
+    [Locale.kr]: EVENT_0177_KR,
 }
