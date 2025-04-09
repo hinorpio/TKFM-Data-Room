@@ -3,13 +3,21 @@
         <v-col v-for="(room, index) in unit.discipline" :key="index" justify="center">
             <v-row v-if="$vuetify.breakpoint.name == 'xs'">
                 <v-col :cols="12">
-                    <v-img :src="room.preview" :lazy-src="room.preview" max-width="100%" />
+                    <v-img max-width="100%">
+                        <template v-slot:default>
+                            <img :src="room.preview" :lazy-src="room.preview" alt="Image" style="max-width: 100%">
+                        </template>
+                    </v-img>
                     <span style="word-break: normal" :class="titleClass">{{ getRoomName(room) }}</span>
                 </v-col>
             </v-row>
             <v-row v-else>
                 <v-col :cols="4">
-                    <v-img :src="room.preview" :lazy-src="room.preview" max-width="100%" />
+                    <v-img max-width="100%">
+                        <template v-slot:default>
+                            <img :src="room.preview" :lazy-src="room.preview" alt="Image" style="max-width: 100%">
+                        </template>
+                    </v-img>
                 </v-col>
                 <v-col :cols="8">
                     <span style="word-break: normal" :class="titleClass">{{ getRoomName(room) }}</span>
