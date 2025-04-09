@@ -524,5 +524,8 @@ export enum UnitCode {
     ni_caesar = 'SSR-134',
     f_kana = 'SSR-135',
     star_mia = 'SSR-136',
-    star_annee = 'SSR-137'
+    star_annee = 'SSR-137',
+    bedard = 'SSR-138',
+    c_noel = 'SSR-139',
+    eunice = 'SSR-140',
 }
