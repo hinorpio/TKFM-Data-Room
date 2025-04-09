@@ -3,7 +3,11 @@
         <span :class="titleClass">{{ `${event.startDate} ~ ${event.endDate}` }}</span>
         <v-tooltip top>
             <template v-slot:activator="{ on, attrs }">
-                <v-img @click="handleClick" v-bind="attrs" v-on="on" :src="getEventBanner(event)" :lazy-src="getEventBanner(event)" contain />
+                <v-img @click="handleClick" v-bind="attrs" v-on="on" contain>
+                    <template v-slot:default>
+                        <img :src="getEventBanner(event)" :lazy-src="getEventBanner(event)" alt="Image" style="object-fit: contain; width: 100%;">
+                    </template>
+                </v-img>
             </template>
             {{ getEventName(event) }}
         </v-tooltip>

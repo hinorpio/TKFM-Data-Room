@@ -3,14 +3,22 @@
         <v-carousel v-if="!isOutfits" v-model="fullBody" width="100%" :height="imgHeight" hide-delimiter-background>
             <v-carousel-item  v-for="(clothes, index) in unit.clothes[nudeLevel]" :key="index">
                 <div class="image-container">
-                    <v-img :src="clothes" :lazy-src="clothes" height="100%" width="100%" contain />
+                    <v-img height="100%" width="100%" contain>
+                        <template v-slot:default>
+                            <img :src="clothes" :lazy-src="clothes" alt="Image" style="object-fit: contain; height: 100%; width: 100%">
+                        </template>
+                    </v-img>
                 </div>
             </v-carousel-item>
         </v-carousel>
         <v-carousel v-else-if="unit.outfits" v-model="fullBody" width="100%" :height="imgHeight" hide-delimiter-background>
             <v-carousel-item v-for="(outfit, index) in unit.outfits[nudeLevel]" :key="index">
                 <div class="image-container">
-                    <v-img :src="outfit" :lazy-src="outfit" height="100%" width="100%" contain />
+                    <v-img height="100%" width="100%" contain>
+                        <template v-slot:default>
+                            <img :src="outfit" :lazy-src="outfit" alt="Image" style="object-fit: contain; height: 100%; width: 100%">
+                        </template>
+                    </v-img>
                 </div>
             </v-carousel-item>
         </v-carousel>
