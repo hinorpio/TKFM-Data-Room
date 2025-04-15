@@ -38,7 +38,7 @@
                     </v-btn>
                 </v-col>
                 <v-spacer></v-spacer>
-                <v-col v-if="!isMobile" class="py-1" :cols="12" :xl="3" :lg="3" :md="4" :sm="5" :xs="12">
+                <v-col v-if="!isMobile && !isDisplayGrid" class="py-1" :cols="12" :xl="3" :lg="3" :md="4" :sm="5" :xs="12">
                     <v-btn @click="handleZoomUpdate" block>
                         <v-icon class="mr-4" color="green">mdi-loupe</v-icon>
                         {{ `Zoom x${zoom}` }}
