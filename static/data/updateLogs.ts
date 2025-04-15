@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.8',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: XXBM 小小布魔`,
+                    [Locale.sc]: `画作/二创: XXBM 小小布魔`,
+                    [Locale.en]: `Artwork / Fanart: XXBM 小小布魔`,
+                    [Locale.jp]: `アートワーク / 同人: XXBM 小小布魔`,
+                    [Locale.kr]: `아트워크 / 팬 창작: XXBM 小小布魔`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.7',
         logs: [
             {
