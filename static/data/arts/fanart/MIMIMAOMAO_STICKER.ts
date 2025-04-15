@@ -9,7 +9,7 @@ const MIMIMAOMAO_STICKER: Art = {
     locale: [ Locale.tc, Locale.sc ],
     author: '咪咪貓貓',
     authorType: ArtAuthorType.AUTHOR,
-    authorLink: '',
+    authorLink: null,
     name: {
         [Locale.tc]: '咪咪貓貓 - 同人圖',
         [Locale.sc]: '咪咪貓貓 - 同人图',
