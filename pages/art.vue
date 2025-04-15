@@ -11,9 +11,9 @@
             <v-row v-else>
                 <v-spacer></v-spacer>
                 <v-card :style="{background: '#424242', width: dialogWidth}" :elevation="0">
-                    <art-header :art="art" :isDisplayGrid.sync="isDisplayGrid" @displayUpdate="handleDisplayUpdate"/>
+                    <art-header :art="art" :isDisplayGrid.sync="isDisplayGrid" :zoom.sync="zoom" @displayUpdate="handleDisplayUpdate" @zoomUpdate="handleZoomUpdate"/>
                     <v-divider class="mb-8"></v-divider>
-                    <art-content :art="art" :isDisplayGrid.sync="isDisplayGrid"/> 
+                    <art-content :art="art" :isDisplayGrid.sync="isDisplayGrid" :zoom.sync="zoom"/> 
                 </v-card>
                 <v-spacer></v-spacer>
             </v-row>
@@ -44,6 +44,7 @@ export default class DispatchPage extends Vue {
     dialogWidth: String = '90em';
     art: Art | undefined
     key: number = 0;
+    zoom: number = 1;
 
     @Watch("watchedQueryParams")
     onWatchedQueryParamsChangenew(newQueryParams: string): void {
@@ -98,6 +99,22 @@ export default class DispatchPage extends Vue {
 
     handleDisplayUpdate(): void{
         this.isDisplayGrid = !this.isDisplayGrid
+    }
+
+    handleZoomUpdate(): void{
+        switch (this.zoom) {
+            case 1:
+                this.zoom = 2
+                break;
+            case 2:
+                this.zoom = 3
+                break;
+            case 3:
+                this.zoom = 1
+                break;
+            default:
+                break;
+        }
     }
 
 }

@@ -37,6 +37,13 @@
                         {{ $t('Download ZIP') }}
                     </v-btn>
                 </v-col>
+                <v-spacer></v-spacer>
+                <v-col v-if="!isMobile && !isDisplayGrid" class="py-1" :cols="12" :xl="3" :lg="3" :md="4" :sm="5" :xs="12">
+                    <v-btn @click="handleZoomUpdate" block>
+                        <v-icon class="mr-4" color="green">mdi-loupe</v-icon>
+                        {{ `Zoom x${zoom}` }}
+                    </v-btn>
+                </v-col>
             </v-row>
         </v-card-text>
     </div>
@@ -56,8 +63,12 @@ export default class ArtHeader extends Vue {
     @Prop({ type: Boolean, required: true, default: true })
     isDisplayGrid!: boolean;
 
+    @Prop({ type: Number, required: true, default: 1 })
+    zoom!: number;
+
     isMounted: boolean = false 
     localIsDisplayGrid: boolean = true
+    localZoom: number = 1
     isDownloading: boolean = false
 
     @Watch('isDisplayGrid')
@@ -65,9 +76,18 @@ export default class ArtHeader extends Vue {
         this.localIsDisplayGrid = newVal;
     }
 
+    @Watch('zoom')
+    onZoomChange(newVal: number): void {
+        this.localZoom = newVal;
+    }
+
     mounted(): void {
         this.localIsDisplayGrid = this.isDisplayGrid
         this.isMounted = true
+    }
+
+    get isMobile(): boolean {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, false, false, false)
     }
 
     get isButtonSmall(): boolean {
@@ -96,6 +116,10 @@ export default class ArtHeader extends Vue {
 
     handleDisplayUpdate(): void{
         this.$emit("displayUpdate")
+    }
+    
+    handleZoomUpdate(): void{
+        this.$emit("zoomUpdate")
     }
 
     getAuthorType(): string{
