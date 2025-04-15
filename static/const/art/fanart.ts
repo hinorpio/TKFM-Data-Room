@@ -382,6 +382,54 @@ const ANNA_PHOENIX_FANART_004 = `${cdnURL}/arts/fanart/AnnaPhoenix/4.jpeg`
 const ANNA_PHOENIX_FANART_005 = `${cdnURL}/arts/fanart/AnnaPhoenix/5.jpeg`
 const ANNA_PHOENIX_FANART_006 = `${cdnURL}/arts/fanart/AnnaPhoenix/6.jpeg`
 const ANNA_PHOENIX_FANART_007 = `${cdnURL}/arts/fanart/AnnaPhoenix/7.jpeg`
+const ANNA_PHOENIX_FANART_008 = `${cdnURL}/arts/fanart/AnnaPhoenix/8.jpeg`
+
+const XXBM_COMIC_00_001 = `${cdnURL}/arts/fanart/xxbm/comic/_0.png`
+const XXBM_COMIC_00_002 = `${cdnURL}/arts/fanart/xxbm/comic/_1.png`
+const XXBM_COMIC_00_003 = `${cdnURL}/arts/fanart/xxbm/comic/_2.png`
+const XXBM_COMIC_00_004 = `${cdnURL}/arts/fanart/xxbm/comic/_3.png`
+const XXBM_COMIC_00_005 = `${cdnURL}/arts/fanart/xxbm/comic/_4.png`
+const XXBM_COMIC_01_001 = `${cdnURL}/arts/fanart/xxbm/comic/1.png`
+const XXBM_COMIC_01_002 = `${cdnURL}/arts/fanart/xxbm/comic/2.png`
+const XXBM_COMIC_01_003 = `${cdnURL}/arts/fanart/xxbm/comic/3.png`
+const XXBM_COMIC_01_004 = `${cdnURL}/arts/fanart/xxbm/comic/4.png`
+const XXBM_COMIC_01_005 = `${cdnURL}/arts/fanart/xxbm/comic/5.png`
+const XXBM_COMIC_01_006 = `${cdnURL}/arts/fanart/xxbm/comic/6.png`
+const XXBM_COMIC_01_007 = `${cdnURL}/arts/fanart/xxbm/comic/7.png`
+const XXBM_COMIC_01_008 = `${cdnURL}/arts/fanart/xxbm/comic/8.png`
+
+const XXBM_NANA_STICKER_001 = `${cdnURL}/arts/fanart/xxbm/nana/a_1.png`
+const XXBM_NANA_STICKER_002 = `${cdnURL}/arts/fanart/xxbm/nana/a_2.png`
+const XXBM_NANA_STICKER_003 = `${cdnURL}/arts/fanart/xxbm/nana/a_3.png`
+const XXBM_NANA_STICKER_004 = `${cdnURL}/arts/fanart/xxbm/nana/a_4.png`
+const XXBM_NANA_STICKER_005 = `${cdnURL}/arts/fanart/xxbm/nana/a_5.png`
+const XXBM_NANA_STICKER_006 = `${cdnURL}/arts/fanart/xxbm/nana/a_6.png`
+const XXBM_NANA_STICKER_007 = `${cdnURL}/arts/fanart/xxbm/nana/a_7.png`
+const XXBM_NANA_STICKER_008 = `${cdnURL}/arts/fanart/xxbm/nana/a_8.png`
+const XXBM_NANA_STICKER_009 = `${cdnURL}/arts/fanart/xxbm/nana/a_9.png`
+const XXBM_NANA_STICKER_010 = `${cdnURL}/arts/fanart/xxbm/nana/a_10.png`
+const XXBM_NANA_STICKER_011 = `${cdnURL}/arts/fanart/xxbm/nana/a_11.png`
+const XXBM_NANA_STICKER_012 = `${cdnURL}/arts/fanart/xxbm/nana/a_12.png`
+const XXBM_NANA_STICKER_013 = `${cdnURL}/arts/fanart/xxbm/nana/a_13.png`
+const XXBM_NANA_STICKER_014 = `${cdnURL}/arts/fanart/xxbm/nana/a_14.png`
+const XXBM_NANA_STICKER_015 = `${cdnURL}/arts/fanart/xxbm/nana/a_15.png`
+const XXBM_NANA_STICKER_016 = `${cdnURL}/arts/fanart/xxbm/nana/a_16.png`
+const XXBM_NANA_STICKER_017 = `${cdnURL}/arts/fanart/xxbm/nana/a_17.png`
+const XXBM_NANA_STICKER_018 = `${cdnURL}/arts/fanart/xxbm/nana/a_18.png`
+const XXBM_NANA_STICKER_019 = `${cdnURL}/arts/fanart/xxbm/nana/a_19.png`
+const XXBM_NANA_STICKER_020 = `${cdnURL}/arts/fanart/xxbm/nana/a_20.png`
+
+const XXBM_PAINTING_001 = `${cdnURL}/arts/fanart/xxbm/painting/1.png`
+const XXBM_PAINTING_002 = `${cdnURL}/arts/fanart/xxbm/painting/2.png`
+const XXBM_PAINTING_003 = `${cdnURL}/arts/fanart/xxbm/painting/3.png`
+const XXBM_PAINTING_004 = `${cdnURL}/arts/fanart/xxbm/painting/4.png`
+const XXBM_PAINTING_005 = `${cdnURL}/arts/fanart/xxbm/painting/5.png`
+const XXBM_PAINTING_006 = `${cdnURL}/arts/fanart/xxbm/painting/6.png`
+const XXBM_PAINTING_007 = `${cdnURL}/arts/fanart/xxbm/painting/7.png`
+const XXBM_PAINTING_008 = `${cdnURL}/arts/fanart/xxbm/painting/8.png`
+const XXBM_PAINTING_009 = `${cdnURL}/arts/fanart/xxbm/painting/9.png`
+const XXBM_PAINTING_010 = `${cdnURL}/arts/fanart/xxbm/painting/10.png`
+const XXBM_PAINTING_011 = `${cdnURL}/arts/fanart/xxbm/painting/11.png`
 
 const C_FANART_001 =`${cdnURL}/arts/fanart/C/non-r18/1.jpg`
 const C_FANART_002 =`${cdnURL}/arts/fanart/C/non-r18/2.jpg`
@@ -840,6 +888,60 @@ export const ANNA_PHOENIX_FANART = [
     ANNA_PHOENIX_FANART_005,
     ANNA_PHOENIX_FANART_006,
     ANNA_PHOENIX_FANART_007,
+    ANNA_PHOENIX_FANART_008,
+]
+
+export const XXBM_COMIC = [
+    XXBM_COMIC_01_001,
+    XXBM_COMIC_01_002,
+    XXBM_COMIC_01_003,
+    XXBM_COMIC_01_004,
+    XXBM_COMIC_01_005,
+    XXBM_COMIC_01_006,
+    XXBM_COMIC_01_007,
+    XXBM_COMIC_01_008,
+    XXBM_COMIC_00_001,
+    XXBM_COMIC_00_002,
+    XXBM_COMIC_00_003,
+    XXBM_COMIC_00_004,
+    XXBM_COMIC_00_005,
+]
+
+export const XXBM_NANA_STICKER = [
+    XXBM_NANA_STICKER_001,
+    XXBM_NANA_STICKER_002,
+    XXBM_NANA_STICKER_003,
+    XXBM_NANA_STICKER_004,
+    XXBM_NANA_STICKER_005,
+    XXBM_NANA_STICKER_006,
+    XXBM_NANA_STICKER_007,
+    XXBM_NANA_STICKER_008,
+    XXBM_NANA_STICKER_009,
+    XXBM_NANA_STICKER_010,
+    XXBM_NANA_STICKER_011,
+    XXBM_NANA_STICKER_012,
+    XXBM_NANA_STICKER_013,
+    XXBM_NANA_STICKER_014,
+    XXBM_NANA_STICKER_015,
+    XXBM_NANA_STICKER_016,
+    XXBM_NANA_STICKER_017,
+    XXBM_NANA_STICKER_018,
+    XXBM_NANA_STICKER_019,
+    XXBM_NANA_STICKER_020,
+]
+
+export const XXBM_PAINTING = [
+    XXBM_PAINTING_001,
+    XXBM_PAINTING_002,
+    XXBM_PAINTING_003,
+    XXBM_PAINTING_004,
+    XXBM_PAINTING_005,
+    XXBM_PAINTING_006,
+    XXBM_PAINTING_007,
+    XXBM_PAINTING_008,
+    XXBM_PAINTING_009,
+    XXBM_PAINTING_010,
+    XXBM_PAINTING_011,
 ]
 
 export const C_FANART = [

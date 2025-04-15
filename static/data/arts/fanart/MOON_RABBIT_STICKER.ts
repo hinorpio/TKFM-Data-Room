@@ -9,7 +9,7 @@ const MOON_RABBIT_STICKER: Art = {
     locale: [ Locale.tc, Locale.sc ],
     author: '月兔管理官',
     authorType: ArtAuthorType.OWNER,
-    authorLink: '',
+    authorLink: null,
     name: {
         [Locale.tc]: '月兔管理官 - 二次加工貼圖',
         [Locale.sc]: '月兔管理官 - 二次加工贴图',

@@ -20,6 +20,9 @@ import MIMIMAOMAO_STICKER from "./fanart/MIMIMAOMAO_STICKER"
 import MOON_RABBIT_STICKER from "./fanart/MOON_RABBIT_STICKER"
 import LITTLE_PEA_STICKER from "./fanart/LITTLE_PEA_STICKER"
 import ANNA_PHOENIX_FANART from "./fanart/ANNA_PHOENIX_FANART"
+import XXBM_COMIC from "./fanart/XXBM_COMIC"
+import XXBM_NANA_STICKER from "./fanart/XXBM_NANA_STICKER"
+import XXBM_PAINTING from "./fanart/XXBM_PAINTING"
 import C_FANART from "./fanart/C_FANART"
 import C_FANART_R18 from "./fanart/C_FANART_R18"
 
@@ -48,6 +51,9 @@ const fanartData = [
     MOON_RABBIT_STICKER,
     LITTLE_PEA_STICKER,
     ANNA_PHOENIX_FANART,
+    XXBM_COMIC,
+    XXBM_NANA_STICKER,
+    XXBM_PAINTING,
     C_FANART,
     C_FANART_R18,
 ]
