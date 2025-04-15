@@ -31,6 +31,9 @@ export default class ArtCarousel extends Vue {
     @Prop({ type: Object, required: true, default: () => ({}) })
     art!: Art;
 
+    @Prop({ type: Number, required: true, default: 1 })
+    zoom!: number;
+
     isMounted: boolean = false 
     page: Number = 0;
 
@@ -43,7 +46,7 @@ export default class ArtCarousel extends Vue {
     }
 
     get imgHeight(): string{
-        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '50vh', '30vh', '80vh', '80vh', '80vh')
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, `50vh`, `30vh`, `${80*this.zoom}vh`, `${80*this.zoom}vh`, `${80*this.zoom}vh`)
     }
 
     getArtName(): string{
