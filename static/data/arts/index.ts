@@ -12,7 +12,19 @@ import FB_COMIC from "./offical/FB_COMIC"
 
 import DOKGUN_STICKER_KR from "./fanart/DOKGUN_STICKER_KR"
 import DOKGUN_STICKER_EN from "./fanart/DOKGUN_STICKER_EN"
+import DOKGUN_NANA_STICKER from "./fanart/DOKGUN_NANA_STICKER"
+import DOKGUN_OLD_STICKER from "./fanart/DOKGUN_OLD_STICKER"
+import NOEL_CUTE_STICKER from "./fanart/NOEL_CUTE_STICKER"
+import NOEL_CUTE_PAINTING from "./fanart/NOEL_CUTE_PAINTING"
+import MIMIMAOMAO_STICKER from "./fanart/MIMIMAOMAO_STICKER"
+import MOON_RABBIT_STICKER from "./fanart/MOON_RABBIT_STICKER"
 import LITTLE_PEA_STICKER from "./fanart/LITTLE_PEA_STICKER"
+import ANNA_PHOENIX_FANART from "./fanart/ANNA_PHOENIX_FANART"
+import XXBM_COMIC from "./fanart/XXBM_COMIC"
+import XXBM_NANA_STICKER from "./fanart/XXBM_NANA_STICKER"
+import XXBM_PAINTING from "./fanart/XXBM_PAINTING"
+import C_FANART from "./fanart/C_FANART"
+import C_FANART_R18 from "./fanart/C_FANART_R18"
 
 const officalData = [
     Q_STICKER,
@@ -31,7 +43,19 @@ const officalData = [
 const fanartData = [
     DOKGUN_STICKER_KR,
     DOKGUN_STICKER_EN,
+    DOKGUN_NANA_STICKER,
+    DOKGUN_OLD_STICKER,
+    NOEL_CUTE_STICKER,
+    NOEL_CUTE_PAINTING,
+    MIMIMAOMAO_STICKER,
+    MOON_RABBIT_STICKER,
     LITTLE_PEA_STICKER,
+    ANNA_PHOENIX_FANART,
+    XXBM_COMIC,
+    XXBM_NANA_STICKER,
+    XXBM_PAINTING,
+    C_FANART,
+    C_FANART_R18,
 ]
 
 export default [

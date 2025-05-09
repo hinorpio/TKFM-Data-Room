@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const DATA_AS_OF_2024: Art = {
     type: ArtType.PAINTING,
     locale: [ Locale.tc, Locale.sc ],
     author: 'TKFM',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: null,
     name: {
         [Locale.tc]: '截至2024年玩家相關數據',

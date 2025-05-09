@@ -8,7 +8,7 @@
             </v-btn>
             <span>{{ getArtName(art) }}</span>
             <v-spacer></v-spacer>
-            <b>{{ `${$t('Author')}: ${art.author}` }}</b>
+            <b>{{ `${getAuthorType()}: ${art.author}` }}</b>
         </v-card-title>
         <v-card-text>
             <v-col v-if="art.authorLink != null || getArtRemark(art) != ''">
@@ -51,7 +51,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
-import { Locale } from "~/plugins/utils/enums";
+import { ArtAuthorType, Locale } from "~/plugins/utils/enums";
 import { Art } from "~/interface/art";
 
 @Component
@@ -120,6 +120,17 @@ export default class ArtHeader extends Vue {
 
     handleZoomUpdate(): void{
         this.$emit("zoomUpdate")
+    }
+    
+    getAuthorType(): string{
+        switch (this.art.authorType) {
+            case ArtAuthorType.AUTHOR:
+                return this.$t('Author')
+                break;
+            case ArtAuthorType.OWNER:
+                return this.$t('Owner')
+                break;
+        }
     }
 
     async handleDownloadZip(): Promise<void>{

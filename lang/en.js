@@ -83,6 +83,7 @@ export default {
     "Artwork / Fanart": "Artwork / Fanart",
     "All": "All",
     "Author": "Author",
+    "Owner": "Owner",
     "Author Link": "Author Link",
     "Link Copied": "Link Copied",
     "Download ZIP": "Download ZIP",

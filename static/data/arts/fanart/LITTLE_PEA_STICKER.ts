@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,6 +8,7 @@ const LITTLE_PEA_STICKER: Art = {
     type: ArtType.STICKER,
     locale: [ Locale.tc, Locale.sc, Locale.en, Locale.jp, Locale.kr ],
     author: '三重小豌豌',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: null,
     name: {
         [Locale.tc]: '三重小豌豌 - 娜娜GIF表情包',

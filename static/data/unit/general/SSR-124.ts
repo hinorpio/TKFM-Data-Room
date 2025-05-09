@@ -20,8 +20,8 @@ export const General_10153: Unit = {
         [Locale.kr]: "사탄"
     },
     abbreviation: {
-        [Locale.tc]: [ "幼撒", "幼旦", "幼撒旦", "萬撒", "萬旦" ],
-        [Locale.sc]: [ "幼撒", "幼旦", "幼撒旦", "万撒", "万旦" ],
+        [Locale.tc]: [ "幼撒", "幼旦", "小旦", "幼撒旦", "萬撒", "萬旦" ],
+        [Locale.sc]: [ "幼撒", "幼旦", "小旦", "幼撒旦", "万撒", "万旦" ],
         [Locale.en]: [ "H.Satan" ],
         [Locale.jp]: [],
         [Locale.kr]: [ "농탄" ]

@@ -447,9 +447,30 @@ const DISCIPLINE_10163_3 = `${cdnURL}/character/discipline/cgs10163_3.png`
 const DISCIPLINE_10164_1 = `${cdnURL}/character/discipline/cgs10164_1.png`
 const DISCIPLINE_10164_2 = `${cdnURL}/character/discipline/cgs10164_2.png`
 const DISCIPLINE_10164_3 = `${cdnURL}/character/discipline/cgs10164_3.png`
+const DISCIPLINE_10165_1 = `${cdnURL}/character/discipline/cgs10165_1.png`
+const DISCIPLINE_10165_2 = `${cdnURL}/character/discipline/cgs10165_2.png`
+const DISCIPLINE_10165_3 = `${cdnURL}/character/discipline/cgs10165_3.png`
+const DISCIPLINE_10166_1 = `${cdnURL}/character/discipline/cgs10166_1.png`
+const DISCIPLINE_10166_2 = `${cdnURL}/character/discipline/cgs10166_2.png`
+const DISCIPLINE_10166_3 = `${cdnURL}/character/discipline/cgs10166_3.png`
+const DISCIPLINE_10167_1 = `${cdnURL}/character/discipline/cgs10167_1.png`
+const DISCIPLINE_10167_2 = `${cdnURL}/character/discipline/cgs10167_2.png`
+const DISCIPLINE_10167_3 = `${cdnURL}/character/discipline/cgs10167_3.png`
+const DISCIPLINE_10168_1 = `${cdnURL}/character/discipline/cgs10168_1.png`
+const DISCIPLINE_10168_2 = `${cdnURL}/character/discipline/cgs10168_2.png`
+const DISCIPLINE_10168_3 = `${cdnURL}/character/discipline/cgs10168_3.png`
+const DISCIPLINE_10169_1 = `${cdnURL}/character/discipline/cgs10169_1.png`
+const DISCIPLINE_10169_2 = `${cdnURL}/character/discipline/cgs10169_2.png`
+const DISCIPLINE_10169_3 = `${cdnURL}/character/discipline/cgs10169_3.png`
+const DISCIPLINE_10170_1 = `${cdnURL}/character/discipline/cgs10170_1.png`
+const DISCIPLINE_10170_2 = `${cdnURL}/character/discipline/cgs10170_2.png`
+const DISCIPLINE_10170_3 = `${cdnURL}/character/discipline/cgs10170_3.png`
 const DISCIPLINE_10175_1 = `${cdnURL}/character/discipline/cgs10175_1.png`
 const DISCIPLINE_10175_2 = `${cdnURL}/character/discipline/cgs10175_2.png`
 const DISCIPLINE_10175_3 = `${cdnURL}/character/discipline/cgs10175_3.png`
+const DISCIPLINE_10176_1 = `${cdnURL}/character/discipline/cgs10176_1.png`
+const DISCIPLINE_10176_2 = `${cdnURL}/character/discipline/cgs10176_2.png`
+const DISCIPLINE_10176_3 = `${cdnURL}/character/discipline/cgs10176_3.png`
 
 const DISCIPLINE_10801_1 = `${cdnURL}/character/discipline/cgs10801_1.png`
 const DISCIPLINE_10801_3 = `${cdnURL}/character/discipline/cgs10801_3.png`
@@ -649,6 +670,13 @@ const SSR = {
     [UnitCode.p_aiko]: [ DISCIPLINE_10162_1, DISCIPLINE_10162_2, DISCIPLINE_10162_3 ],
     [UnitCode.ni_caesar]: [ DISCIPLINE_10163_1, DISCIPLINE_10163_2, DISCIPLINE_10163_3 ],
     [UnitCode.f_kana]: [ DISCIPLINE_10164_1, DISCIPLINE_10164_2, DISCIPLINE_10164_3 ],
+    [UnitCode.star_mia]: [ DISCIPLINE_10165_1, DISCIPLINE_10165_2, DISCIPLINE_10165_3 ],
+    [UnitCode.star_annee]: [ DISCIPLINE_10166_1, DISCIPLINE_10166_2, DISCIPLINE_10166_3 ],
+    [UnitCode.bedard]: [ DISCIPLINE_10176_1, DISCIPLINE_10176_2, DISCIPLINE_10176_3 ],
+    [UnitCode.c_noel]: [ DISCIPLINE_10167_1, DISCIPLINE_10167_2, DISCIPLINE_10167_3 ],
+    [UnitCode.eunice]: [ DISCIPLINE_10168_1, DISCIPLINE_10168_2, DISCIPLINE_10168_3 ],
+    [UnitCode.momDaphne]: [ DISCIPLINE_10169_1, DISCIPLINE_10169_2, DISCIPLINE_10169_3 ],
+    [UnitCode.w_tsubaki]: [ DISCIPLINE_10170_1, DISCIPLINE_10170_2, DISCIPLINE_10170_3 ],
 }
 
 export const DisciplinePreview = {

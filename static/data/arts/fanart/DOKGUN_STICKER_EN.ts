@@ -1,4 +1,4 @@
-import { Locale, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, ArtSource, ArtType, ArtAuthorType } from '@/plugins/utils/enums';
 import { Art } from '~/interface/art';
 import { ArtFile } from '~/static/const';
 
@@ -8,13 +8,14 @@ const DOKGUN_STICKER_EN: Art = {
     type: ArtType.STICKER,
     locale: [ Locale.en ],
     author: '독군 Dokgun',
+    authorType: ArtAuthorType.AUTHOR,
     authorLink: 'https://www.pixiv.net/users/19278065',
     name: {
-        [Locale.tc]: '독군 Dokgun - 貼圖 (英文)',
-        [Locale.sc]: '독군 Dokgun - 贴图 (英文)',
-        [Locale.en]: '독군 Dokgun - Sticker (English)',
-        [Locale.jp]: '독군 Dokgun - スタンプ (英語)',
-        [Locale.kr]: '독군 Dokgun - 스티커 (영어)',
+        [Locale.tc]: '독군 Dokgun - GIF 貼圖 (英文)',
+        [Locale.sc]: '독군 Dokgun - GIF 贴图 (英文)',
+        [Locale.en]: '독군 Dokgun - GIF Sticker (English)',
+        [Locale.jp]: '독군 Dokgun - GIF スタンプ (英語)',
+        [Locale.kr]: '독군 Dokgun - GIF 스티커 (영어)',
     },
     remark: {
         [Locale.tc]: '*已取得作者 독군 Dokgun 授權轉載',
