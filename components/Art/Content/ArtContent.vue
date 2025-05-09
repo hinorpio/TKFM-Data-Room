@@ -5,7 +5,7 @@
                 <art-grid-box :path="path" :artName="getArtName()" />
             </v-col>
         </v-row>
-        <art-carousel v-else :art="art" />
+        <art-carousel v-else :art="art" :zoom="zoom" />
     </div>
 </template>
 <script lang="ts">
@@ -28,6 +28,9 @@ export default class ArtContent extends Vue {
 
     @Prop({ type: Boolean, required: true, default: true })
     isDisplayGrid!: boolean;
+
+    @Prop({ type: Number, required: true, default: 1 })
+    zoom!: number;
 
     isMounted: boolean = false
     localIsDisplayGrid: boolean = true

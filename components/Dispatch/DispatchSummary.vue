@@ -4,7 +4,11 @@
             <v-card-text>
                 <v-row class="align-center">
                     <v-col :cols="12" :xl="6" :lg="7" :md="12" :sm="7" :xs="12">
-                        <v-img :src="getBannerImage(dispatch)" contain></v-img>
+                        <v-img contain>
+                            <template v-slot:default>
+                                <img :src="getBannerImage(dispatch)" :lazy-src="getBannerImage(dispatch)" alt="Image" style="object-fit: contain; width: 100%;">
+                            </template>
+                        </v-img>
                     </v-col>
                     <v-col :cols="12" :xl="6" :lg="5" :md="12" :sm="5" :xs="12">
                         <v-row>
