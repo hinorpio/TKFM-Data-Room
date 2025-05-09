@@ -46,5 +46,6 @@ export const General_10074: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.x_ichika ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

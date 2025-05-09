@@ -56,5 +56,6 @@ export const General_10910: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_MARTINA ],
+    outfits: [],
     skillSet: []
 }

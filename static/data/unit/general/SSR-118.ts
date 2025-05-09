@@ -46,5 +46,6 @@ export const General_10148: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.shizuka, UnitCode.s_shizuka, UnitCode.x_shizuka ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

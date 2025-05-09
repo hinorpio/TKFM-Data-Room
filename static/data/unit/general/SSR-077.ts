@@ -46,5 +46,6 @@ export const General_10114: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.juneau ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

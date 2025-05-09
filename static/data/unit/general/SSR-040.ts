@@ -52,5 +52,6 @@ export const General_10084: Unit = {
     ],
     otherVersion: [ UnitCode.d_miru ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

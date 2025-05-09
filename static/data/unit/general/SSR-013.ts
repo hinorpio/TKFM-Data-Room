@@ -54,5 +54,6 @@ export const General_10028: Unit = {
     ],
     otherVersion: [ UnitCode.w_chizuru, UnitCode.s_chizuru ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

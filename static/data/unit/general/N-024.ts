@@ -54,5 +54,6 @@ export const General_10921: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_MOLLY ],
+    outfits: [],
     skillSet: []
 }

@@ -56,5 +56,6 @@ export const General_10005: Unit = {
     ],
     otherVersion: [ UnitCode.x_lana, UnitCode.ny_lana, UnitCode.o_lana ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

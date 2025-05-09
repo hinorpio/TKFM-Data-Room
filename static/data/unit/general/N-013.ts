@@ -56,5 +56,6 @@ export const General_10913: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.DEMON_MINNOW ],
+    outfits: [],
     skillSet: []
 }

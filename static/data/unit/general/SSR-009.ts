@@ -46,5 +46,6 @@ export const General_10026: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.s_noel, UnitCode.w_noel, UnitCode.c_noel ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

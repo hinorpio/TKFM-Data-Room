@@ -55,5 +55,6 @@ export const General_10902: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_PETRA ],
+    outfits: [],
     skillSet: []
 }

@@ -46,5 +46,6 @@ export const General_10157: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.muila ],
     puzzle: [ PuzzleCode.EVENT_2024_XMAS_1 ],
+    outfits: [],
     skillSet: []
 }

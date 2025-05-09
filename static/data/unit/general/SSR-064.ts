@@ -46,5 +46,6 @@ export const General_10096: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.lotiya ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

@@ -55,5 +55,6 @@ export const General_10914: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.DEMON_LAMIA ],
+    outfits: [],
     skillSet: []
 }

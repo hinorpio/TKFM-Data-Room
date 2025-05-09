@@ -46,5 +46,6 @@ export const General_10113: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.f_caesar, UnitCode.s_caesar, UnitCode.ni_caesar ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

@@ -55,5 +55,6 @@ export const General_10924: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.DEMON_MUMU ],
+    outfits: [],
     skillSet: []
 }

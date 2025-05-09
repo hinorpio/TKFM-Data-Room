@@ -52,5 +52,6 @@ export const General_10919: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.SKY_PUNISHMENT, PuzzleCode.SKY_BLISS ],
+    outfits: [],
     skillSet: []
 }

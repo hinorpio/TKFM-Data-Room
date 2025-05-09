@@ -46,5 +46,6 @@ export const General_10089: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.asina ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

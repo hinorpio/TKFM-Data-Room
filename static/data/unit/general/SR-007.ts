@@ -55,5 +55,6 @@ export const General_10015: Unit = {
     ], 
     otherVersion: [ UnitCode.m_juneau ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

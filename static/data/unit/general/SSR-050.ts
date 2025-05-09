@@ -46,5 +46,6 @@ export const General_10090: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.milae ],
     puzzle: [ PuzzleCode.EVENT_2022_SUMMER_2 ],
+    outfits: [],
     skillSet: []
 }

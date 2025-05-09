@@ -55,5 +55,6 @@ export const General_10063: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_2 ],
+    outfits: [],
     skillSet: []
 }
