@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.9',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 盛慾嬌妻 達芙妮, 美艷少婦 椿`,
+                    [Locale.sc]: `角色: 盛欲娇妻 达芙妮, 美艳少妇 椿`,
+                    [Locale.en]: `Unit: Thirsty Wife Daphne, Glamorous Wife Tsubaki`,
+                    [Locale.jp]: `キャラ: 溢れる欲 ダフィー, 妖艶な人妻 椿`,
+                    [Locale.kr]: `캐릭터: 왕성한 성욕 더피, 매혹적인 새댁 츠바키`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【媽媽咪呀！】, 【人妻共淫時光】, 【集合啦！魔王渡假村-復刻-】, 【挑戰！渡假村評鑑-復刻-】, 【時之裂縫】第二十一季`,
+                    [Locale.sc]: `活动: 【妈妈咪呀！】, 【人妻共淫时光】, 【集合啦！魔王渡假村-复刻-】, 【挑战！渡假村评鉴-复刻-】, 【时之裂缝】第二十一季`,
+                    [Locale.en]: `Event: [Mommy Mia!], [Wife Kinky Time], [Summer by the Cae-side -Comeback-], [Resort Evaluation! -Comeback-], [Time Rift] Season 21`,
+                    [Locale.jp]: `イベント: 「マンマミーア！」, 「人妻との淫らな一時」, 「集まれ！魔王休暇村-復刻-」, 「挑戦！休暇村ジャッジ-復刻-」, 「時空の裂け目」第21シーズン`,
+                    [Locale.kr]: `이벤트: 【맘마미아!】, 【유부녀와의 음탕한 시간】, 【집합! 마왕 리조트!-복각-】, 【도전! 리조트 평가-복각-】, 【시공간의 균열】 제21시즌`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.8',
         logs: [
             {
