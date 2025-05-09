@@ -1379,6 +1379,24 @@ const FULLIMAGE_10168_1_LV3 = `${cdnURL}/character/fullbody/10168_1-Lv3.png`
 const FULLIMAGE_10168_2_LV1 = `${cdnURL}/character/fullbody/10168_2-Lv1.png`
 const FULLIMAGE_10168_2_LV2 = `${cdnURL}/character/fullbody/10168_2-Lv2.png`
 const FULLIMAGE_10168_2_LV3 = `${cdnURL}/character/fullbody/10168_2-Lv3.png`
+const FULLIMAGE_10169_0_LV1 = `${cdnURL}/character/fullbody/10169_0-Lv1.png`
+const FULLIMAGE_10169_0_LV2 = `${cdnURL}/character/fullbody/10169_0-Lv2.png`
+const FULLIMAGE_10169_0_LV3 = `${cdnURL}/character/fullbody/10169_0-Lv3.png`
+const FULLIMAGE_10169_1_LV1 = `${cdnURL}/character/fullbody/10169_1-Lv1.png`
+const FULLIMAGE_10169_1_LV2 = `${cdnURL}/character/fullbody/10169_1-Lv2.png`
+const FULLIMAGE_10169_1_LV3 = `${cdnURL}/character/fullbody/10169_1-Lv3.png`
+const FULLIMAGE_10169_2_LV1 = `${cdnURL}/character/fullbody/10169_2-Lv1.png`
+const FULLIMAGE_10169_2_LV2 = `${cdnURL}/character/fullbody/10169_2-Lv2.png`
+const FULLIMAGE_10169_2_LV3 = `${cdnURL}/character/fullbody/10169_2-Lv3.png`
+const FULLIMAGE_10170_0_LV1 = `${cdnURL}/character/fullbody/10170_0-Lv1.png`
+const FULLIMAGE_10170_0_LV2 = `${cdnURL}/character/fullbody/10170_0-Lv2.png`
+const FULLIMAGE_10170_0_LV3 = `${cdnURL}/character/fullbody/10170_0-Lv3.png`
+const FULLIMAGE_10170_1_LV1 = `${cdnURL}/character/fullbody/10170_1-Lv1.png`
+const FULLIMAGE_10170_1_LV2 = `${cdnURL}/character/fullbody/10170_1-Lv2.png`
+const FULLIMAGE_10170_1_LV3 = `${cdnURL}/character/fullbody/10170_1-Lv3.png`
+const FULLIMAGE_10170_2_LV1 = `${cdnURL}/character/fullbody/10170_2-Lv1.png`
+const FULLIMAGE_10170_2_LV2 = `${cdnURL}/character/fullbody/10170_2-Lv2.png`
+const FULLIMAGE_10170_2_LV3 = `${cdnURL}/character/fullbody/10170_2-Lv3.png`
 const FULLIMAGE_10175_0_LV1 = `${cdnURL}/character/fullbody/10175_0-Lv1.png`
 const FULLIMAGE_10175_0_LV2 = `${cdnURL}/character/fullbody/10175_0-Lv2.png`
 const FULLIMAGE_10175_0_LV3 = `${cdnURL}/character/fullbody/10175_0-Lv3.png`
@@ -2716,6 +2734,16 @@ const SSR = {
         [ FULLIMAGE_10168_0_LV1, FULLIMAGE_10168_1_LV1, FULLIMAGE_10168_2_LV1 ],
         [ FULLIMAGE_10168_0_LV2, FULLIMAGE_10168_1_LV2, FULLIMAGE_10168_2_LV2 ],
         [ FULLIMAGE_10168_0_LV3, FULLIMAGE_10168_1_LV3, FULLIMAGE_10168_2_LV3 ],
+    ],
+    [UnitCode.momDaphne]: [
+        [ FULLIMAGE_10169_0_LV1, FULLIMAGE_10169_1_LV1, FULLIMAGE_10169_2_LV1 ],
+        [ FULLIMAGE_10169_0_LV2, FULLIMAGE_10169_1_LV2, FULLIMAGE_10169_2_LV2 ],
+        [ FULLIMAGE_10169_0_LV3, FULLIMAGE_10169_1_LV3, FULLIMAGE_10169_2_LV3 ],
+    ],
+    [UnitCode.w_tsubaki]: [
+        [ FULLIMAGE_10170_0_LV1, FULLIMAGE_10170_1_LV1, FULLIMAGE_10170_2_LV1 ],
+        [ FULLIMAGE_10170_0_LV2, FULLIMAGE_10170_1_LV2, FULLIMAGE_10170_2_LV2 ],
+        [ FULLIMAGE_10170_0_LV3, FULLIMAGE_10170_1_LV3, FULLIMAGE_10170_2_LV3 ],
     ],
 }
 

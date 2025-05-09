@@ -459,6 +459,12 @@ const DISCIPLINE_10167_3 = `${cdnURL}/character/discipline/cgs10167_3.png`
 const DISCIPLINE_10168_1 = `${cdnURL}/character/discipline/cgs10168_1.png`
 const DISCIPLINE_10168_2 = `${cdnURL}/character/discipline/cgs10168_2.png`
 const DISCIPLINE_10168_3 = `${cdnURL}/character/discipline/cgs10168_3.png`
+const DISCIPLINE_10169_1 = `${cdnURL}/character/discipline/cgs10169_1.png`
+const DISCIPLINE_10169_2 = `${cdnURL}/character/discipline/cgs10169_2.png`
+const DISCIPLINE_10169_3 = `${cdnURL}/character/discipline/cgs10169_3.png`
+const DISCIPLINE_10170_1 = `${cdnURL}/character/discipline/cgs10170_1.png`
+const DISCIPLINE_10170_2 = `${cdnURL}/character/discipline/cgs10170_2.png`
+const DISCIPLINE_10170_3 = `${cdnURL}/character/discipline/cgs10170_3.png`
 const DISCIPLINE_10175_1 = `${cdnURL}/character/discipline/cgs10175_1.png`
 const DISCIPLINE_10175_2 = `${cdnURL}/character/discipline/cgs10175_2.png`
 const DISCIPLINE_10175_3 = `${cdnURL}/character/discipline/cgs10175_3.png`
@@ -669,6 +675,8 @@ const SSR = {
     [UnitCode.bedard]: [ DISCIPLINE_10176_1, DISCIPLINE_10176_2, DISCIPLINE_10176_3 ],
     [UnitCode.c_noel]: [ DISCIPLINE_10167_1, DISCIPLINE_10167_2, DISCIPLINE_10167_3 ],
     [UnitCode.eunice]: [ DISCIPLINE_10168_1, DISCIPLINE_10168_2, DISCIPLINE_10168_3 ],
+    [UnitCode.momDaphne]: [ DISCIPLINE_10169_1, DISCIPLINE_10169_2, DISCIPLINE_10169_3 ],
+    [UnitCode.w_tsubaki]: [ DISCIPLINE_10170_1, DISCIPLINE_10170_2, DISCIPLINE_10170_3 ],
 }
 
 export const DisciplinePreview = {
