@@ -56,5 +56,6 @@ export const General_10038: Unit = {
     ], 
     otherVersion: [ UnitCode.p_tyrella ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

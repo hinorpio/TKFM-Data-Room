@@ -53,5 +53,6 @@ export const General_10037: Unit = {
     ],
     otherVersion: [ UnitCode.w_mesmiia ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

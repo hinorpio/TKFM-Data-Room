@@ -46,5 +46,6 @@ export const General_10088: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.asida ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

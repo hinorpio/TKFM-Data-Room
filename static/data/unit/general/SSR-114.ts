@@ -46,5 +46,6 @@ export const General_10144: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.f_caesar, UnitCode.n_caesar, UnitCode.ni_caesar ],
     puzzle: [ PuzzleCode.EVENT_2024_SUMMER_3 ],
+    outfits: [],
     skillSet: []
 }

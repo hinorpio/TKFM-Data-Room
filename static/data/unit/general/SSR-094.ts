@@ -46,5 +46,6 @@ export const General_10126: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.shiro ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

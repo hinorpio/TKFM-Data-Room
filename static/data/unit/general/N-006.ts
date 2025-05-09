@@ -54,5 +54,6 @@ export const General_10906: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_KAEDE ],
+    outfits: [],
     skillSet: []
 }

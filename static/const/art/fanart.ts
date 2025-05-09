@@ -333,32 +333,35 @@ const MIMIMAOMAO_STICKER_011 = `${cdnURL}/arts/fanart/CatHead/sticker/11.png`
 const MOON_RABBIT_STICKER_001 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/道歉.png`
 const MOON_RABBIT_STICKER_002 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/問就是課.png`
 const MOON_RABBIT_STICKER_003 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/抱抱.png`
-const MOON_RABBIT_STICKER_004 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/好耶.png`
-const MOON_RABBIT_STICKER_005 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不許好耶.png`
-const MOON_RABBIT_STICKER_006 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/可以說了嗎.png`
-const MOON_RABBIT_STICKER_007 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/可以了.png`
-const MOON_RABBIT_STICKER_008 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不要玩了.png`
-const MOON_RABBIT_STICKER_009 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不可以.png`
-const MOON_RABBIT_STICKER_010 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不做死就不會死.png`
-const MOON_RABBIT_STICKER_011 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不要Tag我.png`
-const MOON_RABBIT_STICKER_012 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/算你倒楣.png`
-const MOON_RABBIT_STICKER_013 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/看公告.png`
-const MOON_RABBIT_STICKER_014 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/奇怪的知識.png`
-const MOON_RABBIT_STICKER_015 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/沒力.gif`
-const MOON_RABBIT_STICKER_016 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/愛睏.png`
-const MOON_RABBIT_STICKER_017 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/能睡了嗎.png`
-const MOON_RABBIT_STICKER_018 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/工作.png`
-const MOON_RABBIT_STICKER_019 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/溜了.png`
-const MOON_RABBIT_STICKER_020 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/你這笨蛋.png`
-const MOON_RABBIT_STICKER_021 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/維護.png`
-const MOON_RABBIT_STICKER_022 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/monday.png`
-const MOON_RABBIT_STICKER_023 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實_DC.png`
-const MOON_RABBIT_STICKER_024 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實.png`
-const MOON_RABBIT_STICKER_025 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實_original.png`
-const MOON_RABBIT_STICKER_026 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/+1.gif`
-const MOON_RABBIT_STICKER_027 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/-1.gif`
-const MOON_RABBIT_STICKER_028 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/$$$.gif`
-const MOON_RABBIT_STICKER_029 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/救我.png`
+const MOON_RABBIT_STICKER_004 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/救我.png`
+const MOON_RABBIT_STICKER_005 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/小雞雞.png`
+const MOON_RABBIT_STICKER_006 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/好耶.png`
+const MOON_RABBIT_STICKER_007 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不許好耶.png`
+const MOON_RABBIT_STICKER_008 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/可以說了嗎.png`
+const MOON_RABBIT_STICKER_009 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/可以了.png`
+const MOON_RABBIT_STICKER_010 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不要玩了.png`
+const MOON_RABBIT_STICKER_011 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不可以.png`
+const MOON_RABBIT_STICKER_012 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不做死就不會死.png`
+const MOON_RABBIT_STICKER_013 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/不要Tag我.png`
+const MOON_RABBIT_STICKER_014 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/算你倒楣.png`
+const MOON_RABBIT_STICKER_015 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/看公告.png`
+const MOON_RABBIT_STICKER_016 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/奇怪的知識.png`
+const MOON_RABBIT_STICKER_017 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/沒力.gif`
+const MOON_RABBIT_STICKER_018 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/愛睏.png`
+const MOON_RABBIT_STICKER_019 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/能睡了嗎.png`
+const MOON_RABBIT_STICKER_020 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/工作.png`
+const MOON_RABBIT_STICKER_021 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/溜了.png`
+const MOON_RABBIT_STICKER_022 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/你這笨蛋.png`
+const MOON_RABBIT_STICKER_023 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/維護.png`
+const MOON_RABBIT_STICKER_024 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/monday.png`
+const MOON_RABBIT_STICKER_025 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實_DC.png`
+const MOON_RABBIT_STICKER_026 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實.png`
+const MOON_RABBIT_STICKER_027 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/確實_original.png`
+const MOON_RABBIT_STICKER_028 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/+1.gif`
+const MOON_RABBIT_STICKER_029 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/-1.gif`
+const MOON_RABBIT_STICKER_030 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/$$$.gif`
+const MOON_RABBIT_STICKER_031 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/嘻嘻我不要.gif`
+const MOON_RABBIT_STICKER_032 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/vs.png`
 
 const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/Phoenix/扑倒.gif`
 const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/Phoenix/震惊.gif`
@@ -861,6 +864,9 @@ export const MOON_RABBIT_STICKER = [
     MOON_RABBIT_STICKER_027,
     MOON_RABBIT_STICKER_028,
     MOON_RABBIT_STICKER_029,
+    MOON_RABBIT_STICKER_030,
+    MOON_RABBIT_STICKER_031,
+    MOON_RABBIT_STICKER_032,
 ]
 
 export const LITTLE_PEA_STICKER = [

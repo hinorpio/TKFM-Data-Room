@@ -46,5 +46,6 @@ export const General_10097: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.aiko, UnitCode.x_aiko, UnitCode.s_aiko, UnitCode.p_aiko ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

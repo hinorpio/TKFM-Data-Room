@@ -54,5 +54,6 @@ export const General_10009: Unit = {
     ], 
     otherVersion: [ UnitCode.x_aiko, UnitCode.xx_aiko, UnitCode.s_aiko, UnitCode.p_aiko ],
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_2 ],
+    outfits: [],
     skillSet: []
 }

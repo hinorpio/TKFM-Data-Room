@@ -46,5 +46,6 @@ export const General_10100: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.a_usagihime ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

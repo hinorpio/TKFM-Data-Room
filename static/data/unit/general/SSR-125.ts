@@ -46,5 +46,6 @@ export const General_10154: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.nanami ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

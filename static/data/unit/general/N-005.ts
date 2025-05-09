@@ -54,5 +54,6 @@ export const General_10905: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_KIKYOU ],
+    outfits: [],
     skillSet: []
 }

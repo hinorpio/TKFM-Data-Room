@@ -46,5 +46,6 @@ export const General_10079: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.ritsuki ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

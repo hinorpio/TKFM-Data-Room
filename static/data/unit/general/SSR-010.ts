@@ -54,5 +54,6 @@ export const General_10008: Unit = {
     ],
     otherVersion: [ UnitCode.s_ks8, UnitCode.m_ks8 ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

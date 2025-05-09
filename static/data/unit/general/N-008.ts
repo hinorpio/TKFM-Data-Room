@@ -55,5 +55,6 @@ export const General_10908: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_KANI ],
+    outfits: [],
     skillSet: []
 }

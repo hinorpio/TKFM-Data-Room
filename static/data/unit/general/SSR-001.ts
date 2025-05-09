@@ -53,5 +53,6 @@ export const General_10001: Unit = {
     ], 
     otherVersion: [ UnitCode.f_baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal, UnitCode.x_baal ],
     puzzle: [ PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2024_XMAS_2 ],
+    outfits: [],
     skillSet: []
 }

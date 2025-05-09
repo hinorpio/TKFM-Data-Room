@@ -53,5 +53,6 @@ export const General_10021: Unit = {
     ],
     otherVersion: [ UnitCode.h_shiro ],
     puzzle: [ PuzzleCode.EVENT_2024_XMAS_2 ],
+    outfits: [],
     skillSet: []
 }

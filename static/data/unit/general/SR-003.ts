@@ -54,5 +54,6 @@ export const General_10011: Unit = {
     ], 
     otherVersion: [ UnitCode.hm_fiora, UnitCode.s_fiora, UnitCode.ny_fiora ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

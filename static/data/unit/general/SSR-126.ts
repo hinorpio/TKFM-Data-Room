@@ -46,5 +46,6 @@ export const General_10155: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.ks8, UnitCode.s_ks8 ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

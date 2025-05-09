@@ -52,5 +52,6 @@ export const General_10007: Unit = {
     ],
     otherVersion: [ UnitCode.s_milae ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

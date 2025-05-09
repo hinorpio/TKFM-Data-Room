@@ -46,5 +46,6 @@ export const General_10075: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.chizuru, UnitCode.s_chizuru ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

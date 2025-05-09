@@ -52,5 +52,6 @@ export const General_10006: Unit = {
     ],
     otherVersion: [ UnitCode.s_lulu, UnitCode.w_lulu, UnitCode.c_lulu, UnitCode.p_lulu ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2024_XMAS_2 ],
+    outfits: UnitOutfits[UnitCode.lulu],
     skillSet: []
 }

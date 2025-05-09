@@ -46,5 +46,6 @@ export const General_10085: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.f_kana ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

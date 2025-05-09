@@ -54,5 +54,6 @@ export const General_10057: Unit = {
     ],
     otherVersion: [ UnitCode.susan ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }
