@@ -2,6 +2,17 @@ import { UnitCode } from '@/plugins/utils/enums';
 
 const cdnURL = `https://cdn.tkfmdata.com`
 
+function getUnitOutfitPath(id: string[]): string[][]{
+    var result: string[][] = []
+    for (let i = 1; i <= 3; i++) {
+        result.push([])
+        for (let j = 0; j < id.length ; j++) {
+            result[i-1].push(`${cdnURL}/character/outfit/${id[j]}-Lv${i}.png`);
+        }
+    }
+    return result;
+}
+
 const OUTFIT_10955_LV1 = `${cdnURL}/character/outfit/10955-Lv1.png`
 const OUTFIT_10955_LV2 = `${cdnURL}/character/outfit/10955-Lv2.png`
 const OUTFIT_10955_LV3 = `${cdnURL}/character/outfit/10955-Lv3.png`
