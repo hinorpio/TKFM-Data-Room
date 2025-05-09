@@ -46,5 +46,6 @@ export const General_10115: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.britney, UnitCode.h_britney, UnitCode.x_britney ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

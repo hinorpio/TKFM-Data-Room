@@ -55,5 +55,6 @@ export const General_10004: Unit = {
     ],
     otherVersion: [ UnitCode.h_salucia, UnitCode.ny_salucia, UnitCode.s_salucia ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

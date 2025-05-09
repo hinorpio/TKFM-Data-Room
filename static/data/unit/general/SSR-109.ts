@@ -46,5 +46,6 @@ export const General_10139: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.tyrella ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

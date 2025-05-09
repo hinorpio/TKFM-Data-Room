@@ -53,5 +53,6 @@ export const General_10033: Unit = {
     ],
     otherVersion: [ UnitCode.s_aridya, UnitCode.x_aridya ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

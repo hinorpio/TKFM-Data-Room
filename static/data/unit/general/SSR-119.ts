@@ -46,5 +46,6 @@ export const General_10149: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.w_tsubaki ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

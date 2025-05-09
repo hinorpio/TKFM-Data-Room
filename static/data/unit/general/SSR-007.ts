@@ -46,5 +46,6 @@ export const General_10017: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal, UnitCode.x_baal ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

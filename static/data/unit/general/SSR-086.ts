@@ -46,5 +46,6 @@ export const General_10120: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.lana, UnitCode.x_lana, UnitCode.ny_lana ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

@@ -55,5 +55,6 @@ export const General_10014: Unit = {
     ], 
     otherVersion: [ UnitCode.s_shizuka, UnitCode.x_shizuka, UnitCode.beer_shizuka ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

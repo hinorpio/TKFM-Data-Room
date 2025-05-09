@@ -54,5 +54,6 @@ export const General_10019: Unit = {
     ],
     otherVersion: [ UnitCode.s_ayane, UnitCode.h_ayane, UnitCode.bg_ayane ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

@@ -55,5 +55,6 @@ export const General_10901: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_SARIA, PuzzleCode.DEMON_FLAY ],
+    outfits: [],
     skillSet: []
 }

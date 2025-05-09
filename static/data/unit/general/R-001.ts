@@ -53,5 +53,6 @@ export const General_10801: Unit = {
     ],
     otherVersion: [ UnitCode.d_irene ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

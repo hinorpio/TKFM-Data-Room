@@ -56,5 +56,6 @@ export const General_10010: Unit = {
     ], 
     otherVersion: [ UnitCode.h_leona ],
     puzzle: [ PuzzleCode.HUMAN_MARTINA ],
+    outfits: [],
     skillSet: []
 }

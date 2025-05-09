@@ -46,5 +46,6 @@ export const General_10135: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.mesmiia ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

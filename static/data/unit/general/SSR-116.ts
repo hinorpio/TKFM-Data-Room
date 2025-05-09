@@ -46,5 +46,6 @@ export const General_10146: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.minayomi, UnitCode.tm_minayomi ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

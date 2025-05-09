@@ -56,5 +56,6 @@ export const General_10912: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.DEMON_LORI ],
+    outfits: UnitOutfits[UnitCode.lori],
     skillSet: []
 }

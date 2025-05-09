@@ -46,5 +46,6 @@ export const General_10050: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.n_caesar, UnitCode.s_caesar, UnitCode.ni_caesar ],
     puzzle: [ PuzzleCode.EVENT_2023_CNY_1 ],
+    outfits: [],
     skillSet: []
 }

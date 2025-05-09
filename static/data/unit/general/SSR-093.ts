@@ -46,5 +46,6 @@ export const General_10125: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.ayane, UnitCode.s_ayane, UnitCode.bg_ayane ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

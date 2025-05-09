@@ -46,5 +46,6 @@ export const General_10127: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.aridya, UnitCode.s_aridya ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

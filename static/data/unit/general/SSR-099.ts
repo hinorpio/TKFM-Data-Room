@@ -46,5 +46,6 @@ export const General_10129: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.evie ],
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_1 ],
+    outfits: [],
     skillSet: []
 }

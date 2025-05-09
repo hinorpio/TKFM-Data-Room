@@ -56,5 +56,6 @@ export const General_10909: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.HUMAN_CHARLENE ],
+    outfits: [],
     skillSet: []
 }

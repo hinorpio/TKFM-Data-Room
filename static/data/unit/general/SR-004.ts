@@ -56,5 +56,6 @@ export const General_10012: Unit = {
     ], 
     otherVersion: [ UnitCode.tm_ritsuki ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

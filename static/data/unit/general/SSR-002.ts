@@ -56,5 +56,6 @@ export const General_10002: Unit = {
     ],
     otherVersion: [ UnitCode.e_satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.s_satan, UnitCode.h_satan ],
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1 ],
+    outfits: [],
     skillSet: []
 }

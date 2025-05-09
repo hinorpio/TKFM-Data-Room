@@ -55,5 +55,6 @@ export const General_10923: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.DEMON_MAREYL ],
+    outfits: [],
     skillSet: []
 }

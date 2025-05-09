@@ -46,5 +46,6 @@ export const General_10082: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.satan, UnitCode.e_satan, UnitCode.v_satan, UnitCode.s_satan, UnitCode.h_satan ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

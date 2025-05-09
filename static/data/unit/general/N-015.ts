@@ -55,5 +55,6 @@ export const General_10915: Unit = {
     ],
     otherVersion: [],
     puzzle: [ PuzzleCode.DEMON_HARPY ],
+    outfits: [],
     skillSet: []
 }

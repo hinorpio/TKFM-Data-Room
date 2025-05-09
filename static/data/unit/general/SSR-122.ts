@@ -46,5 +46,6 @@ export const General_10151: Unit = {
     tagList: [],
     otherVersion: [ UnitCode.iblis, UnitCode.i_iblis, UnitCode.b_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

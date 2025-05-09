@@ -54,5 +54,6 @@ export const General_10020: Unit = {
     ],
     otherVersion: [ UnitCode.x_muila ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

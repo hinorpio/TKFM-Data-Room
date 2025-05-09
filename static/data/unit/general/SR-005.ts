@@ -55,5 +55,6 @@ export const General_10013: Unit = {
     ], 
     otherVersion: [ UnitCode.tm_minayomi, UnitCode.d_minayomi ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }

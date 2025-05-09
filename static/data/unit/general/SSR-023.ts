@@ -55,5 +55,6 @@ export const General_10039: Unit = {
     ],
     otherVersion: [ UnitCode.h_lotiya ],
     puzzle: [],
+    outfits: [],
     skillSet: []
 }
