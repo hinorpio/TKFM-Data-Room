@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.10',
+        logs: [
+            {
+                type: LogType.FIX,
+                content: {
+                    [Locale.tc]: `狂犬 諾蕾蒂, 副手 貝蕾朵 立繪問題`,
+                    [Locale.sc]: `狂犬 诺蕾蒂, 副手 贝蕾朵 立绘问题`,
+                    [Locale.en]: `Crazed Dog Noma, Deputy Lieutenant Belladonna Image Issue`,
+                    [Locale.jp]: `狂犬 ノルディ, 助手 ベレット キャラクター描画の問題`,
+                    [Locale.kr]: `광견 놀라이티, 오른팔 벨레트 그림 문제`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.9',
         logs: [
             {
