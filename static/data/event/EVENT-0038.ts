@@ -22,7 +22,7 @@ const EVENT_0038: Event = {
         [Locale.jp]: ``,
         [Locale.kr]: ``
     },
-    banner: EventBanner.EVENT_0168,
+    banner: EventBanner.EVENT_0038,
     newUnit: [],
     isParentEvent: true,
     parentEvent: null,
