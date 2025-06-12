@@ -530,4 +530,8 @@ export enum UnitCode {
     eunice = 'SSR-140',
     momDaphne = 'SSR-141',
     w_tsubaki = 'SSR-142',
+    ss_iblis = 'SSR-143',
+    s_evie = 'SSR-144',
+    s_noma = 'SSR-145',
+    forneusa = 'SSR-146',
 }

@@ -211,6 +211,10 @@ const SSR = {
     [UnitCode.eunice]: getUnitSelectionPath('10168'),
     [UnitCode.momDaphne]: getUnitSelectionPath('10169'),
     [UnitCode.w_tsubaki]: getUnitSelectionPath('10170'),
+    [UnitCode.ss_iblis]: getUnitSelectionPath('10171'),
+    [UnitCode.s_evie]: getUnitSelectionPath('10172'),
+    [UnitCode.s_noma]: getUnitSelectionPath('10173'),
+    [UnitCode.forneusa]: getUnitSelectionPath('10174'),
 }
 
 export const Selection = {
