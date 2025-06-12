@@ -44,7 +44,7 @@ export const General_10022: Unit = {
     selection: UnitSelection[UnitCode.noma],
     clothes: UnitFullImage[UnitCode.noma],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.s_noma ],
     puzzle: [],
     outfits: [],
     skillSet: []

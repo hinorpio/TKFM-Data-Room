@@ -218,6 +218,10 @@ const SSR = {
     [UnitCode.eunice]: getUnitFullImagePath('10168'),
     [UnitCode.momDaphne]: getUnitFullImagePath('10169'),
     [UnitCode.w_tsubaki]: getUnitFullImagePath('10170'),
+    [UnitCode.ss_iblis]: getUnitFullImagePath('10171'),
+    [UnitCode.s_evie]: getUnitFullImagePath('10172'),
+    [UnitCode.s_noma]: getUnitFullImagePath('10173'),
+    [UnitCode.forneusa]: getUnitFullImagePath('10174'),
 }
 
 export const FullImage = {

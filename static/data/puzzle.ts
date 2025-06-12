@@ -328,6 +328,58 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.EVENT_2024_XMAS_2,
     },
     {
+        code: PuzzleCode.EVENT_2025_SUMMER_1,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2025_SUMMER_1,
+        name: {
+            [Locale.tc]: `純情仲夏夜`,
+            [Locale.sc]: `纯情仲夏夜`,
+            [Locale.en]: `Pure Love's Midsummer Night`,
+            [Locale.jp]: `ピュアな夏の夜の夢`,
+            [Locale.kr]: `순정의 여름밤`
+        },
+        fullImage: PuzzleImage.EVENT_2025_SUMMER_1,
+    },
+    {
+        code: PuzzleCode.EVENT_2025_SUMMER_2,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2025_SUMMER_2,
+        name: {
+            [Locale.tc]: `飽含「愛」意的秘密材料`,
+            [Locale.sc]: `饱含「爱」意的秘密材料`,
+            [Locale.en]: `Secret "Love-Laced" Material`,
+            [Locale.jp]: `愛」たっぷりの秘密の材料`,
+            [Locale.kr]: `「사랑」이 담긴 비밀 재료`
+        },
+        fullImage: PuzzleImage.EVENT_2025_SUMMER_2,
+    },
+    {
+        code: PuzzleCode.EVENT_2025_SUMMER_3,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2025_SUMMER_3,
+        name: {
+            [Locale.tc]: `獵犬的格鬥術訓練`,
+            [Locale.sc]: `猎犬的格斗术训练`,
+            [Locale.en]: `Hound Hunter Martial Arts Training`,
+            [Locale.jp]: `猟犬の格闘術訓練`,
+            [Locale.kr]: `하운드의 격투술 훈련`
+        },
+        fullImage: PuzzleImage.EVENT_2025_SUMMER_3,
+    },
+    {
+        code: PuzzleCode.EVENT_2025_SUMMER_4,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2025_SUMMER_4,
+        name: {
+            [Locale.tc]: `媽媽鯊的料理廚房`,
+            [Locale.sc]: `妈妈鲨的料理厨房`,
+            [Locale.en]: `Mama Shark's Kitchen`,
+            [Locale.jp]: `ママシャークのキッチン`,
+            [Locale.kr]: `엄마 상어의 주방`
+        },
+        fullImage: PuzzleImage.EVENT_2025_SUMMER_4,
+    },
+    {
         code: PuzzleCode.HUMAN_SARIA,
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_SARIA,

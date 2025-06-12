@@ -211,6 +211,10 @@ const SSR = {
     [UnitCode.eunice]: getUnitEssencePath('10168'),
     [UnitCode.momDaphne]: getUnitEssencePath('10169'),
     [UnitCode.w_tsubaki]: getUnitEssencePath('10170'),
+    [UnitCode.ss_iblis]: getUnitEssencePath('10171'),
+    [UnitCode.s_evie]: getUnitEssencePath('10172'),
+    [UnitCode.s_noma]: getUnitEssencePath('10173'),
+    [UnitCode.forneusa]: getUnitEssencePath('10174'),
 }
 
 export const Essence = {

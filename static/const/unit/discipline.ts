@@ -193,6 +193,10 @@ const SSR = {
     [UnitCode.eunice]: getUnitDisplinePath('10168'),
     [UnitCode.momDaphne]: getUnitDisplinePath('10169'),
     [UnitCode.w_tsubaki]: getUnitDisplinePath('10170'),
+    [UnitCode.ss_iblis]: getUnitDisplinePath('10171'),
+    [UnitCode.s_evie]: getUnitDisplinePath('10172'),
+    [UnitCode.s_noma]: getUnitDisplinePath('10173'),
+    [UnitCode.forneusa]: getUnitDisplinePath('10174'),
 }
 
 export const DisciplinePreview = {
