@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.11',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 盛暑沁夏 伊布力斯, 夏日 希依, 夏日 諾蕾蒂, 怒濤魔鯊 芙紐絲`,
+                    [Locale.sc]: `角色: 盛暑沁夏 伊布力斯, 夏日 希依, 夏日 诺蕾蒂, 怒涛魔鲨 芙纽丝`,
+                    [Locale.en]: `Unit: Scalding Summer Iblis, Summer Evie, Summer Noma, Raging Shark Forneusa`,
+                    [Locale.jp]: `キャラ: 真夏の清涼 イブリース, 夏の日 リリー, 夏の日 ノルディ, 怒涛の魔鮫 フォルネウス`,
+                    [Locale.kr]: `캐릭터: 청량한 여름 이블리스, 여름날 릴리, 여름날 놀라이티, 노도의 마상어 포르네우스`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【深海的逆襲者】`,
+                    [Locale.sc]: `活动: 【深海的逆袭者】`,
+                    [Locale.en]: `Event: [Sea Counterattacker]`,
+                    [Locale.jp]: `イベント: 「深海の逆襲者」`,
+                    [Locale.kr]: `이벤트: 【심해의 역습자】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.10',
         logs: [
             {
