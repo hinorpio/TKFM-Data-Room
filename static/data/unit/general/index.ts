@@ -197,6 +197,10 @@ import { General_10167 } from "./SSR-139";
 import { General_10168 } from "./SSR-140";
 import { General_10169 } from "./SSR-141";
 import { General_10170 } from "./SSR-142";
+import { General_10171 } from "./SSR-143";
+import { General_10172 } from "./SSR-144";
+import { General_10173 } from "./SSR-145";
+import { General_10174 } from "./SSR-146";
 
 
 const N: { [key in UnitCode]?: Unit } = {
@@ -404,6 +408,10 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.eunice]: General_10168,
     [UnitCode.momDaphne]: General_10169,
     [UnitCode.w_tsubaki]: General_10170,
+    [UnitCode.ss_iblis]: General_10171,
+    [UnitCode.s_evie]: General_10172,
+    [UnitCode.s_noma]: General_10173,
+    [UnitCode.forneusa]: General_10174,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {
