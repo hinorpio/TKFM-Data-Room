@@ -117,11 +117,11 @@ export default class ArtHeader extends Vue {
     handleDisplayUpdate(): void{
         this.$emit("displayUpdate")
     }
-
+    
     handleZoomUpdate(): void{
         this.$emit("zoomUpdate")
     }
-    
+
     getAuthorType(): string{
         switch (this.art.authorType) {
             case ArtAuthorType.AUTHOR:

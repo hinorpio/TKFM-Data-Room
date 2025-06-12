@@ -5,8 +5,8 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const EVENT_0063: Event = {
     code: '0063',
     type: EventType.CHALLENGE,
-    startDate: '2021/10/05',
-    endDate: '2021/10/12',
+    startDate: '2022/10/05',
+    endDate: '2022/10/12',
     color: EventTypeColor.CHALLENGE,
     name: {
         [Locale.tc]: `【天下第一偶像大會-復刻-】`,
