@@ -22,7 +22,25 @@
                 </div>
             </v-carousel-item>
         </v-carousel>
-        <v-row class="align-center justify-center">
+        <v-col v-if="isMobile">
+            <v-row class="align-center justify-center">
+                <v-chip-group v-model="nudeLevel" @change="handleNudeLevel" mandatory>
+                    <v-chip v-for="(level, index) in 3" :key="index" :value="index" active-class="blue" >
+                        <v-icon>
+                            mdi-lingerie
+                        </v-icon>
+                        <b>{{ index + 1 }}</b>
+                    </v-chip>
+                </v-chip-group>
+            </v-row>
+            <v-row class="align-center justify-center mt-4">
+                <v-btn v-if="hasOutfits" @click="isOutfits = !isOutfits">
+                    <v-icon>mdi-sync</v-icon>
+                    {{ getSwitchOutfitString() }}
+                </v-btn>
+            </v-row>
+        </v-col>
+        <v-row v-else class="align-center justify-center">
             <v-spacer></v-spacer>
             <v-chip-group class="ml-2" v-model="nudeLevel" @change="handleNudeLevel" mandatory>
                 <v-chip v-for="(level, index) in 3" :key="index" :value="index" active-class="blue" >
@@ -57,6 +75,10 @@ export default class UnitFullBody extends Vue {
     get hasOutfits(): boolean{
         const outfit = this.unit.outfits ?? [];
         return outfit.length > 0
+    }
+
+    get isMobile(): boolean {
+        return this.$vuetify.breakpoint.name == 'xs';
     }
 
     get imgHeight(): string{
