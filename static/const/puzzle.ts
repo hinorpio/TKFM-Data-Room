@@ -2,204 +2,114 @@ import { PuzzleCode } from '@/plugins/utils/enums';
 
 const cdnURL = `https://cdn.tkfmdata.com`
 
-const PUZZLE_EVENT_2021_SUMMER_1 = `${cdnURL}/puzzle/scg00001.png`
-const PUZZLE_EVENT_2021_SUMMER_1_DMM = `${cdnURL}/puzzle/scg00001_dmm.png`
-const PUZZLE_EVENT_2021_SUMMER_2 = `${cdnURL}/puzzle/scg00002.png`
-const PUZZLE_EVENT_2021_SUMMER_3 = `${cdnURL}/puzzle/scg00003.png`
-const PUZZLE_EVENT_2021_SUMMER_4 = `${cdnURL}/puzzle/scg00004.png`
-const PUZZLE_EVENT_2021_XMAS_1 = `${cdnURL}/puzzle/scg00005.png`
-const PUZZLE_EVENT_2021_XMAS_2 = `${cdnURL}/puzzle/scg00006.png`
-const PUZZLE_EVENT_2022_SUMMER_1 = `${cdnURL}/puzzle/scg00007.png`
-const PUZZLE_EVENT_2022_SUMMER_2 = `${cdnURL}/puzzle/scg00008.png`
-const PUZZLE_EVENT_2022_SUMMER_3 = `${cdnURL}/puzzle/scg00009.png`
-const PUZZLE_EVENT_2022_SUMMER_4 = `${cdnURL}/puzzle/scg00010.png`
-const PUZZLE_EVENT_2022_XMAS_1 = `${cdnURL}/puzzle/scg00011.png`
-const PUZZLE_EVENT_2023_CNY_1 = `${cdnURL}/puzzle/scg00012.png`
-const PUZZLE_EVENT_2023_SUMMER_1 = `${cdnURL}/puzzle/scg00013.png`
-const PUZZLE_EVENT_2023_SUMMER_2 = `${cdnURL}/puzzle/scg00014.png`
-const PUZZLE_EVENT_2023_SUMMER_3 = `${cdnURL}/puzzle/scg00015.png`
-const PUZZLE_EVENT_2023_SUMMER_4 = `${cdnURL}/puzzle/scg00016.png`
-const PUZZLE_EVENT_2023_XMAS_1 = `${cdnURL}/puzzle/scg00017.png`
-const PUZZLE_EVENT_2023_XMAS_2 = `${cdnURL}/puzzle/scg00018.png`
-const PUZZLE_EVENT_2024_SUMMER_1 = `${cdnURL}/puzzle/scg00019.png`
-const PUZZLE_EVENT_2024_SUMMER_2 = `${cdnURL}/puzzle/scg00020.png`
-const PUZZLE_EVENT_2024_SUMMER_3 = `${cdnURL}/puzzle/scg00021.png`
-const PUZZLE_EVENT_2024_SUMMER_4 = `${cdnURL}/puzzle/scg00022.png`
-const PUZZLE_EVENT_2024_XMAS_1 = `${cdnURL}/puzzle/scg00023.png`
-const PUZZLE_EVENT_2024_XMAS_2 = `${cdnURL}/puzzle/scg00024.png`
-const PUZZLE_HUMAN_SARIA = `${cdnURL}/puzzle/scg10901.png`
-const PUZZLE_HUMAN_PETRA = `${cdnURL}/puzzle/scg10902.png`
-const PUZZLE_HUMAN_KIKYOU = `${cdnURL}/puzzle/scg10905.png`
-const PUZZLE_HUMAN_KAEDE = `${cdnURL}/puzzle/scg10906.png`
-const PUZZLE_HUMAN_OLA = `${cdnURL}/puzzle/scg10907.png`
-const PUZZLE_HUMAN_KANI = `${cdnURL}/puzzle/scg10908.png`
-const PUZZLE_HUMAN_CHARLENE = `${cdnURL}/puzzle/scg10909.png`
-const PUZZLE_HUMAN_MARTINA = `${cdnURL}/puzzle/scg10910.png`
-const PUZZLE_HUMAN_CLARIE = `${cdnURL}/puzzle/scg10911.png`
-const PUZZLE_HUMAN_ANNA = `${cdnURL}/puzzle/scg10916.png`
-const PUZZLE_HUMAN_BLAIRE = `${cdnURL}/puzzle/scg10917.png`
-const PUZZLE_HUMAN_NATASHA = `${cdnURL}/puzzle/scg10918.png`
-const PUZZLE_HUMAN_MOLLY = `${cdnURL}/puzzle/scg10921.png`
-const PUZZLE_HUMAN_ANYA = `${cdnURL}/puzzle/scg10933.png`
-const PUZZLE_DEMON_FLAY = `${cdnURL}/puzzle/scg10903.png`
-const PUZZLE_DEMON_MANUELLA = `${cdnURL}/puzzle/scg10904.png`
-const PUZZLE_DEMON_LORI = `${cdnURL}/puzzle/scg10912.png`
-const PUZZLE_DEMON_MINNOW = `${cdnURL}/puzzle/scg10913.png`
-const PUZZLE_DEMON_LAMIA = `${cdnURL}/puzzle/scg10914.png`
-const PUZZLE_DEMON_HARPY = `${cdnURL}/puzzle/scg10915.png`
-const PUZZLE_DEMON_MAREYL = `${cdnURL}/puzzle/scg10923.png`
-const PUZZLE_DEMON_MUMU = `${cdnURL}/puzzle/scg10924.png`
-const PUZZLE_SKY_PUNISHMENT = `${cdnURL}/puzzle/scg10919.png`
-const PUZZLE_SKY_BLISS = `${cdnURL}/puzzle/scg10920.png`
-const PUZZLE_PREVIEW_EVENT_2021_SUMMER_1 = `${cdnURL}/puzzle/scg00001s.png`
-const PUZZLE_PREVIEW_EVENT_2021_SUMMER_2 = `${cdnURL}/puzzle/scg00002s.png`
-const PUZZLE_PREVIEW_EVENT_2021_SUMMER_3 = `${cdnURL}/puzzle/scg00003s.png`
-const PUZZLE_PREVIEW_EVENT_2021_SUMMER_4 = `${cdnURL}/puzzle/scg00004s.png`
-const PUZZLE_PREVIEW_EVENT_2021_XMAS_1 = `${cdnURL}/puzzle/scg00005s.png`
-const PUZZLE_PREVIEW_EVENT_2021_XMAS_2 = `${cdnURL}/puzzle/scg00006s.png`
-const PUZZLE_PREVIEW_EVENT_2022_SUMMER_1 = `${cdnURL}/puzzle/scg00007s.png`
-const PUZZLE_PREVIEW_EVENT_2022_SUMMER_2 = `${cdnURL}/puzzle/scg00008s.png`
-const PUZZLE_PREVIEW_EVENT_2022_SUMMER_3 = `${cdnURL}/puzzle/scg00009s.png`
-const PUZZLE_PREVIEW_EVENT_2022_SUMMER_4 = `${cdnURL}/puzzle/scg00010s.png`
-const PUZZLE_PREVIEW_EVENT_2022_XMAS_1 = `${cdnURL}/puzzle/scg00011s.png`
-const PUZZLE_PREVIEW_EVENT_2023_CNY_1 = `${cdnURL}/puzzle/scg00012s.png`
-const PUZZLE_PREVIEW_EVENT_2023_SUMMER_1 = `${cdnURL}/puzzle/scg00013s.png`
-const PUZZLE_PREVIEW_EVENT_2023_SUMMER_2 = `${cdnURL}/puzzle/scg00014s.png`
-const PUZZLE_PREVIEW_EVENT_2023_SUMMER_3 = `${cdnURL}/puzzle/scg00015s.png`
-const PUZZLE_PREVIEW_EVENT_2023_SUMMER_4 = `${cdnURL}/puzzle/scg00016s.png`
-const PUZZLE_PREVIEW_EVENT_2023_XMAS_1 = `${cdnURL}/puzzle/scg00017s.png`
-const PUZZLE_PREVIEW_EVENT_2023_XMAS_2 = `${cdnURL}/puzzle/scg00018s.png`
-const PUZZLE_PREVIEW_EVENT_2024_SUMMER_1 = `${cdnURL}/puzzle/scg00019s.png`
-const PUZZLE_PREVIEW_EVENT_2024_SUMMER_2 = `${cdnURL}/puzzle/scg00020s.png`
-const PUZZLE_PREVIEW_EVENT_2024_SUMMER_3 = `${cdnURL}/puzzle/scg00021s.png`
-const PUZZLE_PREVIEW_EVENT_2024_SUMMER_4 = `${cdnURL}/puzzle/scg00022s.png`
-const PUZZLE_PREVIEW_EVENT_2024_XMAS_1 = `${cdnURL}/puzzle/scg00023s.png`
-const PUZZLE_PREVIEW_EVENT_2024_XMAS_2 = `${cdnURL}/puzzle/scg00024s.png`
-const PUZZLE_PREVIEW_HUMAN_SARIA = `${cdnURL}/puzzle/scg10901s.png`
-const PUZZLE_PREVIEW_HUMAN_PETRA = `${cdnURL}/puzzle/scg10902s.png`
-const PUZZLE_PREVIEW_HUMAN_KIKYOU = `${cdnURL}/puzzle/scg10905s.png`
-const PUZZLE_PREVIEW_HUMAN_KAEDE = `${cdnURL}/puzzle/scg10906s.png`
-const PUZZLE_PREVIEW_HUMAN_OLA = `${cdnURL}/puzzle/scg10907s.png`
-const PUZZLE_PREVIEW_HUMAN_KANI = `${cdnURL}/puzzle/scg10908s.png`
-const PUZZLE_PREVIEW_HUMAN_CHARLENE = `${cdnURL}/puzzle/scg10909s.png`
-const PUZZLE_PREVIEW_HUMAN_MARTINA = `${cdnURL}/puzzle/scg10910s.png`
-const PUZZLE_PREVIEW_HUMAN_CLARIE = `${cdnURL}/puzzle/scg10911s.png`
-const PUZZLE_PREVIEW_HUMAN_ANNA = `${cdnURL}/puzzle/scg10916s.png`
-const PUZZLE_PREVIEW_HUMAN_BLAIRE = `${cdnURL}/puzzle/scg10917s.png`
-const PUZZLE_PREVIEW_HUMAN_NATASHA = `${cdnURL}/puzzle/scg10918s.png`
-const PUZZLE_PREVIEW_HUMAN_MOLLY = `${cdnURL}/puzzle/scg10921s.png`
-const PUZZLE_PREVIEW_HUMAN_ANYA = `${cdnURL}/puzzle/scg10933s.png`
-const PUZZLE_PREVIEW_DEMON_FLAY = `${cdnURL}/puzzle/scg10903s.png`
-const PUZZLE_PREVIEW_DEMON_MANUELLA = `${cdnURL}/puzzle/scg10904s.png`
-const PUZZLE_PREVIEW_DEMON_LORI = `${cdnURL}/puzzle/scg10912s.png`
-const PUZZLE_PREVIEW_DEMON_MINNOW = `${cdnURL}/puzzle/scg10913s.png`
-const PUZZLE_PREVIEW_DEMON_LAMIA = `${cdnURL}/puzzle/scg10914s.png`
-const PUZZLE_PREVIEW_DEMON_HARPY = `${cdnURL}/puzzle/scg10915s.png`
-const PUZZLE_PREVIEW_DEMON_MAREYL = `${cdnURL}/puzzle/scg10923s.png`
-const PUZZLE_PREVIEW_DEMON_MUMU = `${cdnURL}/puzzle/scg10924s.png`
-const PUZZLE_PREVIEW_SKY_PUNISHMENT = `${cdnURL}/puzzle/scg10919s.png`
-const PUZZLE_PREVIEW_SKY_BLISS = `${cdnURL}/puzzle/scg10920s.png`
+function getPuzzlePath(id: string): string{
+    return `${cdnURL}/puzzle/scg${id}.png`
+}
+
+function getPuzzlePreviewPath(id: string): string{
+    return `${cdnURL}/puzzle/scg${id}s.png`
+}
 
 export const Preview = {
-    [PuzzleCode.EVENT_2021_SUMMER_1]: PUZZLE_PREVIEW_EVENT_2021_SUMMER_1,
-    [PuzzleCode.EVENT_2021_SUMMER_1_DMM]: PUZZLE_PREVIEW_EVENT_2021_SUMMER_1,
-    [PuzzleCode.EVENT_2021_SUMMER_2]: PUZZLE_PREVIEW_EVENT_2021_SUMMER_2,
-    [PuzzleCode.EVENT_2021_SUMMER_3]: PUZZLE_PREVIEW_EVENT_2021_SUMMER_3,
-    [PuzzleCode.EVENT_2021_SUMMER_4]: PUZZLE_PREVIEW_EVENT_2021_SUMMER_4,
-    [PuzzleCode.EVENT_2021_XMAS_1]: PUZZLE_PREVIEW_EVENT_2021_XMAS_1,
-    [PuzzleCode.EVENT_2021_XMAS_2]: PUZZLE_PREVIEW_EVENT_2021_XMAS_2,
-    [PuzzleCode.EVENT_2022_SUMMER_1]: PUZZLE_PREVIEW_EVENT_2022_SUMMER_1,
-    [PuzzleCode.EVENT_2022_SUMMER_2]: PUZZLE_PREVIEW_EVENT_2022_SUMMER_2,
-    [PuzzleCode.EVENT_2022_SUMMER_3]: PUZZLE_PREVIEW_EVENT_2022_SUMMER_3,
-    [PuzzleCode.EVENT_2022_SUMMER_4]: PUZZLE_PREVIEW_EVENT_2022_SUMMER_4,
-    [PuzzleCode.EVENT_2022_XMAS_1]: PUZZLE_PREVIEW_EVENT_2022_XMAS_1,
-    [PuzzleCode.EVENT_2023_CNY_1]: PUZZLE_PREVIEW_EVENT_2023_CNY_1,
-    [PuzzleCode.EVENT_2023_SUMMER_1]: PUZZLE_PREVIEW_EVENT_2023_SUMMER_1,
-    [PuzzleCode.EVENT_2023_SUMMER_2]: PUZZLE_PREVIEW_EVENT_2023_SUMMER_2,
-    [PuzzleCode.EVENT_2023_SUMMER_3]: PUZZLE_PREVIEW_EVENT_2023_SUMMER_3,
-    [PuzzleCode.EVENT_2023_SUMMER_4]: PUZZLE_PREVIEW_EVENT_2023_SUMMER_4,
-    [PuzzleCode.EVENT_2023_XMAS_1]: PUZZLE_PREVIEW_EVENT_2023_XMAS_1,
-    [PuzzleCode.EVENT_2023_XMAS_2]: PUZZLE_PREVIEW_EVENT_2023_XMAS_2,
-    [PuzzleCode.EVENT_2024_SUMMER_1]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_1,
-    [PuzzleCode.EVENT_2024_SUMMER_2]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_2,
-    [PuzzleCode.EVENT_2024_SUMMER_3]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_3,
-    [PuzzleCode.EVENT_2024_SUMMER_4]: PUZZLE_PREVIEW_EVENT_2024_SUMMER_4,
-    [PuzzleCode.EVENT_2024_XMAS_1]: PUZZLE_PREVIEW_EVENT_2024_XMAS_1,
-    [PuzzleCode.EVENT_2024_XMAS_2]: PUZZLE_PREVIEW_EVENT_2024_XMAS_2,
-    [PuzzleCode.HUMAN_SARIA]: PUZZLE_PREVIEW_HUMAN_SARIA,
-    [PuzzleCode.HUMAN_PETRA]: PUZZLE_PREVIEW_HUMAN_PETRA,
-    [PuzzleCode.HUMAN_KIKYOU]: PUZZLE_PREVIEW_HUMAN_KIKYOU,
-    [PuzzleCode.HUMAN_KAEDE]: PUZZLE_PREVIEW_HUMAN_KAEDE,
-    [PuzzleCode.HUMAN_OLA]: PUZZLE_PREVIEW_HUMAN_OLA,
-    [PuzzleCode.HUMAN_KANI]: PUZZLE_PREVIEW_HUMAN_KANI,
-    [PuzzleCode.HUMAN_CHARLENE]: PUZZLE_PREVIEW_HUMAN_CHARLENE,
-    [PuzzleCode.HUMAN_MARTINA]: PUZZLE_PREVIEW_HUMAN_MARTINA,
-    [PuzzleCode.HUMAN_CLARIE]: PUZZLE_PREVIEW_HUMAN_CLARIE,
-    [PuzzleCode.HUMAN_ANNA]: PUZZLE_PREVIEW_HUMAN_ANNA,
-    [PuzzleCode.HUMAN_BLAIRE]: PUZZLE_PREVIEW_HUMAN_BLAIRE,
-    [PuzzleCode.HUMAN_NATASHA]: PUZZLE_PREVIEW_HUMAN_NATASHA,
-    [PuzzleCode.HUMAN_MOLLY]: PUZZLE_PREVIEW_HUMAN_MOLLY,
-    [PuzzleCode.HUMAN_ANYA]: PUZZLE_PREVIEW_HUMAN_ANYA,
-    [PuzzleCode.DEMON_FLAY]: PUZZLE_PREVIEW_DEMON_FLAY,
-    [PuzzleCode.DEMON_MANUELLA]: PUZZLE_PREVIEW_DEMON_MANUELLA,
-    [PuzzleCode.DEMON_LORI]: PUZZLE_PREVIEW_DEMON_LORI,
-    [PuzzleCode.DEMON_MINNOW]: PUZZLE_PREVIEW_DEMON_MINNOW,
-    [PuzzleCode.DEMON_LAMIA]: PUZZLE_PREVIEW_DEMON_LAMIA,
-    [PuzzleCode.DEMON_HARPY]: PUZZLE_PREVIEW_DEMON_HARPY,
-    [PuzzleCode.DEMON_MAREYL]: PUZZLE_PREVIEW_DEMON_MAREYL,
-    [PuzzleCode.DEMON_MUMU]: PUZZLE_PREVIEW_DEMON_MUMU,
-    [PuzzleCode.SKY_PUNISHMENT]: PUZZLE_PREVIEW_SKY_PUNISHMENT,
-    [PuzzleCode.SKY_BLISS]: PUZZLE_PREVIEW_SKY_BLISS,
+    [PuzzleCode.EVENT_2021_SUMMER_1]: getPuzzlePreviewPath('00001'),
+    [PuzzleCode.EVENT_2021_SUMMER_1_DMM]: getPuzzlePreviewPath('00001'),
+    [PuzzleCode.EVENT_2021_SUMMER_2]: getPuzzlePreviewPath('00002'),
+    [PuzzleCode.EVENT_2021_SUMMER_3]: getPuzzlePreviewPath('00003'),
+    [PuzzleCode.EVENT_2021_SUMMER_4]: getPuzzlePreviewPath('00004'),
+    [PuzzleCode.EVENT_2021_XMAS_1]: getPuzzlePreviewPath('00005'),
+    [PuzzleCode.EVENT_2021_XMAS_2]: getPuzzlePreviewPath('00006'),
+    [PuzzleCode.EVENT_2022_SUMMER_1]: getPuzzlePreviewPath('00007'),
+    [PuzzleCode.EVENT_2022_SUMMER_2]: getPuzzlePreviewPath('00008'),
+    [PuzzleCode.EVENT_2022_SUMMER_3]: getPuzzlePreviewPath('00009'),
+    [PuzzleCode.EVENT_2022_SUMMER_4]: getPuzzlePreviewPath('000010'),
+    [PuzzleCode.EVENT_2022_XMAS_1]: getPuzzlePreviewPath('00011'),
+    [PuzzleCode.EVENT_2023_CNY_1]: getPuzzlePreviewPath('00012'),
+    [PuzzleCode.EVENT_2023_SUMMER_1]: getPuzzlePreviewPath('00013'),
+    [PuzzleCode.EVENT_2023_SUMMER_2]: getPuzzlePreviewPath('00014'),
+    [PuzzleCode.EVENT_2023_SUMMER_3]: getPuzzlePreviewPath('00015'),
+    [PuzzleCode.EVENT_2023_SUMMER_4]: getPuzzlePreviewPath('00016'),
+    [PuzzleCode.EVENT_2023_XMAS_1]: getPuzzlePreviewPath('00017'),
+    [PuzzleCode.EVENT_2023_XMAS_2]: getPuzzlePreviewPath('00018'),
+    [PuzzleCode.EVENT_2024_SUMMER_1]: getPuzzlePreviewPath('00019'),
+    [PuzzleCode.EVENT_2024_SUMMER_2]: getPuzzlePreviewPath('00020'),
+    [PuzzleCode.EVENT_2024_SUMMER_3]: getPuzzlePreviewPath('00021'),
+    [PuzzleCode.EVENT_2024_SUMMER_4]: getPuzzlePreviewPath('00022'),
+    [PuzzleCode.EVENT_2024_XMAS_1]: getPuzzlePreviewPath('00023'),
+    [PuzzleCode.EVENT_2024_XMAS_2]: getPuzzlePreviewPath('00024'),
+    [PuzzleCode.HUMAN_SARIA]: getPuzzlePreviewPath('10901'),
+    [PuzzleCode.HUMAN_PETRA]: getPuzzlePreviewPath('10902'),
+    [PuzzleCode.HUMAN_KIKYOU]: getPuzzlePreviewPath('10905'),
+    [PuzzleCode.HUMAN_KAEDE]: getPuzzlePreviewPath('10906'),
+    [PuzzleCode.HUMAN_OLA]: getPuzzlePreviewPath('10907'),
+    [PuzzleCode.HUMAN_KANI]: getPuzzlePreviewPath('10908'),
+    [PuzzleCode.HUMAN_CHARLENE]: getPuzzlePreviewPath('10909'),
+    [PuzzleCode.HUMAN_MARTINA]: getPuzzlePreviewPath('10910'),
+    [PuzzleCode.HUMAN_CLARIE]: getPuzzlePreviewPath('10911'),
+    [PuzzleCode.HUMAN_ANNA]: getPuzzlePreviewPath('10916'),
+    [PuzzleCode.HUMAN_BLAIRE]: getPuzzlePreviewPath('10917'),
+    [PuzzleCode.HUMAN_NATASHA]: getPuzzlePreviewPath('10918'),
+    [PuzzleCode.HUMAN_MOLLY]: getPuzzlePreviewPath('10921'),
+    [PuzzleCode.HUMAN_ANYA]: getPuzzlePreviewPath('10933'),
+    [PuzzleCode.DEMON_FLAY]: getPuzzlePreviewPath('10903'),
+    [PuzzleCode.DEMON_MANUELLA]: getPuzzlePreviewPath('10904'),
+    [PuzzleCode.DEMON_LORI]: getPuzzlePreviewPath('10912'),
+    [PuzzleCode.DEMON_MINNOW]: getPuzzlePreviewPath('10913'),
+    [PuzzleCode.DEMON_LAMIA]: getPuzzlePreviewPath('10914'),
+    [PuzzleCode.DEMON_HARPY]: getPuzzlePreviewPath('10915'),
+    [PuzzleCode.DEMON_MAREYL]: getPuzzlePreviewPath('10923'),
+    [PuzzleCode.DEMON_MUMU]: getPuzzlePreviewPath('10924'),
+    [PuzzleCode.SKY_PUNISHMENT]: getPuzzlePreviewPath('10919'),
+    [PuzzleCode.SKY_BLISS]: getPuzzlePreviewPath('10920'),
 }
 
 export const Image = {
-    [PuzzleCode.EVENT_2021_SUMMER_1]: PUZZLE_EVENT_2021_SUMMER_1,
-    [PuzzleCode.EVENT_2021_SUMMER_1_DMM]: PUZZLE_EVENT_2021_SUMMER_1_DMM,
-    [PuzzleCode.EVENT_2021_SUMMER_2]: PUZZLE_EVENT_2021_SUMMER_2,
-    [PuzzleCode.EVENT_2021_SUMMER_3]: PUZZLE_EVENT_2021_SUMMER_3,
-    [PuzzleCode.EVENT_2021_SUMMER_4]: PUZZLE_EVENT_2021_SUMMER_4,
-    [PuzzleCode.EVENT_2021_XMAS_1]: PUZZLE_EVENT_2021_XMAS_1,
-    [PuzzleCode.EVENT_2021_XMAS_2]: PUZZLE_EVENT_2021_XMAS_2,
-    [PuzzleCode.EVENT_2022_SUMMER_1]: PUZZLE_EVENT_2022_SUMMER_1,
-    [PuzzleCode.EVENT_2022_SUMMER_2]: PUZZLE_EVENT_2022_SUMMER_2,
-    [PuzzleCode.EVENT_2022_SUMMER_3]: PUZZLE_EVENT_2022_SUMMER_3,
-    [PuzzleCode.EVENT_2022_SUMMER_4]: PUZZLE_EVENT_2022_SUMMER_4,
-    [PuzzleCode.EVENT_2022_XMAS_1]: PUZZLE_EVENT_2022_XMAS_1,
-    [PuzzleCode.EVENT_2023_CNY_1]: PUZZLE_EVENT_2023_CNY_1,
-    [PuzzleCode.EVENT_2023_SUMMER_1]: PUZZLE_EVENT_2023_SUMMER_1,
-    [PuzzleCode.EVENT_2023_SUMMER_2]: PUZZLE_EVENT_2023_SUMMER_2,
-    [PuzzleCode.EVENT_2023_SUMMER_3]: PUZZLE_EVENT_2023_SUMMER_3,
-    [PuzzleCode.EVENT_2023_SUMMER_4]: PUZZLE_EVENT_2023_SUMMER_4,
-    [PuzzleCode.EVENT_2023_XMAS_1]: PUZZLE_EVENT_2023_XMAS_1,
-    [PuzzleCode.EVENT_2023_XMAS_2]: PUZZLE_EVENT_2023_XMAS_2,
-    [PuzzleCode.EVENT_2024_SUMMER_1]: PUZZLE_EVENT_2024_SUMMER_1,
-    [PuzzleCode.EVENT_2024_SUMMER_2]: PUZZLE_EVENT_2024_SUMMER_2,
-    [PuzzleCode.EVENT_2024_SUMMER_3]: PUZZLE_EVENT_2024_SUMMER_3,
-    [PuzzleCode.EVENT_2024_SUMMER_4]: PUZZLE_EVENT_2024_SUMMER_4,
-    [PuzzleCode.EVENT_2024_XMAS_1]: PUZZLE_EVENT_2024_XMAS_1,
-    [PuzzleCode.EVENT_2024_XMAS_2]: PUZZLE_EVENT_2024_XMAS_2,
-    [PuzzleCode.HUMAN_SARIA]: PUZZLE_HUMAN_SARIA,
-    [PuzzleCode.HUMAN_PETRA]: PUZZLE_HUMAN_PETRA,
-    [PuzzleCode.HUMAN_KIKYOU]: PUZZLE_HUMAN_KIKYOU,
-    [PuzzleCode.HUMAN_KAEDE]: PUZZLE_HUMAN_KAEDE,
-    [PuzzleCode.HUMAN_OLA]: PUZZLE_HUMAN_OLA,
-    [PuzzleCode.HUMAN_KANI]: PUZZLE_HUMAN_KANI,
-    [PuzzleCode.HUMAN_CHARLENE]: PUZZLE_HUMAN_CHARLENE,
-    [PuzzleCode.HUMAN_MARTINA]: PUZZLE_HUMAN_MARTINA,
-    [PuzzleCode.HUMAN_CLARIE]: PUZZLE_HUMAN_CLARIE,
-    [PuzzleCode.HUMAN_ANNA]: PUZZLE_HUMAN_ANNA,
-    [PuzzleCode.HUMAN_BLAIRE]: PUZZLE_HUMAN_BLAIRE,
-    [PuzzleCode.HUMAN_NATASHA]: PUZZLE_HUMAN_NATASHA,
-    [PuzzleCode.HUMAN_MOLLY]: PUZZLE_HUMAN_MOLLY,
-    [PuzzleCode.HUMAN_ANYA]: PUZZLE_HUMAN_ANYA,
-    [PuzzleCode.DEMON_FLAY]: PUZZLE_DEMON_FLAY,
-    [PuzzleCode.DEMON_MANUELLA]: PUZZLE_DEMON_MANUELLA,
-    [PuzzleCode.DEMON_LORI]: PUZZLE_DEMON_LORI,
-    [PuzzleCode.DEMON_MINNOW]: PUZZLE_DEMON_MINNOW,
-    [PuzzleCode.DEMON_LAMIA]: PUZZLE_DEMON_LAMIA,
-    [PuzzleCode.DEMON_HARPY]: PUZZLE_DEMON_HARPY,
-    [PuzzleCode.DEMON_MAREYL]: PUZZLE_DEMON_MAREYL,
-    [PuzzleCode.DEMON_MUMU]: PUZZLE_DEMON_MUMU,
-    [PuzzleCode.SKY_PUNISHMENT]: PUZZLE_SKY_PUNISHMENT,
-    [PuzzleCode.SKY_BLISS]: PUZZLE_SKY_BLISS,
+    [PuzzleCode.EVENT_2021_SUMMER_1]: getPuzzlePath('00001'),
+    [PuzzleCode.EVENT_2021_SUMMER_1_DMM]: getPuzzlePath('00001_dmm'),
+    [PuzzleCode.EVENT_2021_SUMMER_2]: getPuzzlePath('00002'),
+    [PuzzleCode.EVENT_2021_SUMMER_3]: getPuzzlePath('00003'),
+    [PuzzleCode.EVENT_2021_SUMMER_4]: getPuzzlePath('00004'),
+    [PuzzleCode.EVENT_2021_XMAS_1]: getPuzzlePath('00005'),
+    [PuzzleCode.EVENT_2021_XMAS_2]: getPuzzlePath('00006'),
+    [PuzzleCode.EVENT_2022_SUMMER_1]: getPuzzlePath('00007'),
+    [PuzzleCode.EVENT_2022_SUMMER_2]: getPuzzlePath('00008'),
+    [PuzzleCode.EVENT_2022_SUMMER_3]: getPuzzlePath('00009'),
+    [PuzzleCode.EVENT_2022_SUMMER_4]: getPuzzlePath('00010'),
+    [PuzzleCode.EVENT_2022_XMAS_1]: getPuzzlePath('00011'),
+    [PuzzleCode.EVENT_2023_CNY_1]: getPuzzlePath('00012'),
+    [PuzzleCode.EVENT_2023_SUMMER_1]: getPuzzlePath('00013'),
+    [PuzzleCode.EVENT_2023_SUMMER_2]: getPuzzlePath('00014'),
+    [PuzzleCode.EVENT_2023_SUMMER_3]: getPuzzlePath('00015'),
+    [PuzzleCode.EVENT_2023_SUMMER_4]: getPuzzlePath('00016'),
+    [PuzzleCode.EVENT_2023_XMAS_1]: getPuzzlePath('00017'),
+    [PuzzleCode.EVENT_2023_XMAS_2]: getPuzzlePath('00018'),
+    [PuzzleCode.EVENT_2024_SUMMER_1]: getPuzzlePath('00019'),
+    [PuzzleCode.EVENT_2024_SUMMER_2]: getPuzzlePath('00020'),
+    [PuzzleCode.EVENT_2024_SUMMER_3]: getPuzzlePath('00021'),
+    [PuzzleCode.EVENT_2024_SUMMER_4]: getPuzzlePath('00022'),
+    [PuzzleCode.EVENT_2024_XMAS_1]: getPuzzlePath('00023'),
+    [PuzzleCode.EVENT_2024_XMAS_2]: getPuzzlePath('00024'),
+    [PuzzleCode.HUMAN_SARIA]: getPuzzlePath('10901'),
+    [PuzzleCode.HUMAN_PETRA]: getPuzzlePath('10902'),
+    [PuzzleCode.HUMAN_KIKYOU]: getPuzzlePath('10905'),
+    [PuzzleCode.HUMAN_KAEDE]: getPuzzlePath('10906'),
+    [PuzzleCode.HUMAN_OLA]: getPuzzlePath('10907'),
+    [PuzzleCode.HUMAN_KANI]: getPuzzlePath('10908'),
+    [PuzzleCode.HUMAN_CHARLENE]: getPuzzlePath('10909'),
+    [PuzzleCode.HUMAN_MARTINA]: getPuzzlePath('10910'),
+    [PuzzleCode.HUMAN_CLARIE]: getPuzzlePath('10911'),
+    [PuzzleCode.HUMAN_ANNA]: getPuzzlePath('10916'),
+    [PuzzleCode.HUMAN_BLAIRE]: getPuzzlePath('10917'),
+    [PuzzleCode.HUMAN_NATASHA]: getPuzzlePath('10918'),
+    [PuzzleCode.HUMAN_MOLLY]: getPuzzlePath('10921'),
+    [PuzzleCode.HUMAN_ANYA]: getPuzzlePath('10933'),
+    [PuzzleCode.DEMON_FLAY]: getPuzzlePath('10903'),
+    [PuzzleCode.DEMON_MANUELLA]: getPuzzlePath('10904'),
+    [PuzzleCode.DEMON_LORI]: getPuzzlePath('10912'),
+    [PuzzleCode.DEMON_MINNOW]: getPuzzlePath('10913'),
+    [PuzzleCode.DEMON_LAMIA]: getPuzzlePath('10914'),
+    [PuzzleCode.DEMON_HARPY]: getPuzzlePath('10915'),
+    [PuzzleCode.DEMON_MAREYL]: getPuzzlePath('10923'),
+    [PuzzleCode.DEMON_MUMU]: getPuzzlePath('10924'),
+    [PuzzleCode.SKY_PUNISHMENT]: getPuzzlePath('10919'),
+    [PuzzleCode.SKY_BLISS]: getPuzzlePath('10920'),
 }
