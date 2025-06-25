@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.12',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 聖劍覺醒 神田綾音`,
+                    [Locale.sc]: `角色: 圣剑觉醒 神田绫音`,
+                    [Locale.en]: `Unit: Blademaster Unleashed Ayane`,
+                    [Locale.jp]: `キャラ: 聖剣覚醒 神田綾音`,
+                    [Locale.kr]: `캐릭터: 성검 해방 칸다 아야네`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【請問要來點獸耳嗎？-復刻-】`,
+                    [Locale.sc]: `活动: 【请问要来点兽耳吗？-复刻-】`,
+                    [Locale.en]: `Event: [Want Animal Ears? -Comeback-]`,
+                    [Locale.jp]: `イベント: 「ご注文はケモ耳ですか？-復刻-」`,
+                    [Locale.kr]: `이벤트: 【동물귀 주문하시겠어요?-복각-】`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.11',
         logs: [
             {
