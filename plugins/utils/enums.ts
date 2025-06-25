@@ -538,4 +538,5 @@ export enum UnitCode {
     s_evie = 'SSR-144',
     s_noma = 'SSR-145',
     forneusa = 'SSR-146',
+    bu_ayane = 'SSR-147',
 }

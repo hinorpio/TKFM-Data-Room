@@ -20,8 +20,8 @@ export const General_10116: Unit = {
         [Locale.kr]: "칸다 아야네"
     },
     abbreviation: {
-        [Locale.tc]: [ "夏勇" ],
-        [Locale.sc]: [ "夏勇" ],
+        [Locale.tc]: [ "夏勇", "夏田" ],
+        [Locale.sc]: [ "夏勇", "夏田" ],
         [Locale.en]: [ "S.Ayane" ],
         [Locale.jp]: [],
         [Locale.kr]: [ "수야네" ]
@@ -44,7 +44,7 @@ export const General_10116: Unit = {
     selection: UnitSelection[UnitCode.s_ayane],
     clothes: UnitFullImage[UnitCode.s_ayane],
     tagList: [],
-    otherVersion: [ UnitCode.ayane, UnitCode.h_ayane, UnitCode.bg_ayane ],
+    otherVersion: [ UnitCode.ayane, UnitCode.h_ayane, UnitCode.bg_ayane, UnitCode.bu_ayane ],
     puzzle: [ PuzzleCode.EVENT_2023_SUMMER_4 ],
     outfits: [],
     skillSet: []

@@ -20,8 +20,8 @@ export const General_10019: Unit = {
         [Locale.kr]: "칸다 아야네"
     },
     abbreviation: {
-        [Locale.tc]: [ "現勇", "公車" ],
-        [Locale.sc]: [ "现勇", "公车" ],
+        [Locale.tc]: [ "現勇", "普勇", "公車" ],
+        [Locale.sc]: [ "现勇", "普勇", "公车" ],
         [Locale.en]: [ "OG.Ayane" ],
         [Locale.jp]: [],
         [Locale.kr]: []
@@ -52,7 +52,7 @@ export const General_10019: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
-    otherVersion: [ UnitCode.s_ayane, UnitCode.h_ayane, UnitCode.bg_ayane ],
+    otherVersion: [ UnitCode.s_ayane, UnitCode.h_ayane, UnitCode.bg_ayane, UnitCode.bu_ayane ],
     puzzle: [],
     outfits: [],
     skillSet: []

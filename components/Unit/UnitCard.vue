@@ -1,18 +1,25 @@
 <template>
-    <v-btn class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" @click="handleSelect(unit)">
-        <v-row class="align-center px-0 mx-0">
-            <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/>
-            <v-spacer></v-spacer>
-            <v-col class="pr-6" :cols="8">
-                <v-row :class="prefixClass">
-                    <span>{{ getPrefix(unit) }}</span>
-                </v-row>
-                <v-row :class="nameClass">
-                    <span>{{ getName(unit) }}</span>
-                </v-row>
-            </v-col>
-        </v-row>
-    </v-btn>
+    <a :href="handleGetUnitPath(unit)" style="text-decoration: none;">
+        <v-btn class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" @click="handleSelect(unit)">
+            <v-row class="align-center px-0 mx-0">
+                <!-- <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/> -->
+                <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain>
+                    <template v-slot:default>
+                        <img :src="unit.thumbnail" :lazy-src="unit.thumbnail" alt="Image" :style="`object-fit: contain; width: ${itemSize}; height: ${itemSize}`">
+                    </template>
+                </v-img>
+                <v-spacer></v-spacer>
+                <v-col class="pr-6" :cols="8">
+                    <v-row :class="prefixClass">
+                        <span>{{ getPrefix(unit) }}</span>
+                    </v-row>
+                    <v-row :class="nameClass">
+                        <span>{{ getName(unit) }}</span>
+                    </v-row>
+                </v-col>
+            </v-row>
+        </v-btn>
+    </a>    
 </template>
 <script lang="ts">
 import Vue from "vue";
@@ -56,6 +63,12 @@ export default class UnitCard extends Vue {
 
     handleSelect(unit: Unit): void {
         this.$emit('select', unit)
+    }
+
+    handleGetUnitPath(unit: Unit): string {
+        const locale = this.$i18n.locale
+        const langPrefix = (locale === 'tc')?`` :`/${locale}`
+        return `${langPrefix}/unit?code=${unit.metaCode}`
     }
 }
 
