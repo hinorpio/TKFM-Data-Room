@@ -4,11 +4,15 @@
             v-for="(form, index) in handleGetOtherVersion()" 
             :key="index" 
             @click="handleSelect(form)" 
-            :src="form.selection" 
-            :lazy-src="form.selection" 
             class="ma-2" 
             :max-width="imgWidth"
-        />
+        >
+            <template v-slot:default>
+                <a :href="handleGetUnitPath(form)" >
+                    <img :src="form.selection" :lazy-src="form.selection" alt="Image" style="object-fit: contain; width: 100%;">
+                </a>
+            </template>
+        </v-img>
     </v-row>
 </template>
 <script lang="ts">
@@ -52,11 +56,15 @@ export default class OtherVersionTab extends Vue {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '20%', '10%', '15%', '12.5%', '9.5%')
     }
 
-    handleSelect(unit: Unit): void {
+    handleGetUnitPath(unit: Unit): string {
         const locale = this.$i18n.locale
         const langPrefix = (locale === 'tc')?`` :`/${locale}`
+        return `${langPrefix}/unit?code=${unit.metaCode}`
+    }
+
+    handleSelect(unit: Unit): void {
         this.$router.push({
-            path: `${langPrefix}/unit?code=${unit.metaCode}`,
+            path: this.handleGetUnitPath(unit),
         });
     }
 

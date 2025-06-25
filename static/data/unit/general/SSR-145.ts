@@ -20,8 +20,8 @@ export const General_10173: Unit = {
         [Locale.kr]: "놀라이티"
     },
     abbreviation: {
-        [Locale.tc]: [ "夏狂", "夏犬", "水狂", "水犬", "小小鯊" ],
-        [Locale.sc]: [ "夏狂", "夏犬", "水狂", "水犬", "小小鲨" ],
+        [Locale.tc]: [ "夏狂", "夏犬", "夏狗", "水狂", "水犬", "水狗", "小小鯊" ],
+        [Locale.sc]: [ "夏狂", "夏犬", "夏狗", "水狂", "水犬", "水狗", "小小鲨" ],
         [Locale.en]: [ "S.Noma", "Tiny Shark" ],
         [Locale.jp]: [],
         [Locale.kr]: [ "수놀라" ]

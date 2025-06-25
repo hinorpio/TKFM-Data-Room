@@ -215,6 +215,7 @@ const SSR = {
     [UnitCode.s_evie]: getUnitSelectionPath('10172'),
     [UnitCode.s_noma]: getUnitSelectionPath('10173'),
     [UnitCode.forneusa]: getUnitSelectionPath('10174'),
+    [UnitCode.bu_ayane]: getUnitSelectionPath('10160'),
 }
 
 export const Selection = {

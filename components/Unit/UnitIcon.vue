@@ -2,7 +2,14 @@
     <v-tooltip top>
         <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on"  class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" @click="handleSelectUnit(unit)">
-                <v-img :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/>
+                <!-- <v-img :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/> -->
+                <v-img :height="itemSize" :width="itemSize" contain>
+                    <template v-slot:default>
+                        <a :href="handleGetUnitPath(unit)">
+                            <img :src="unit.thumbnail" :lazy-src="unit.thumbnail" alt="Image" :style="`object-fit: contain; width: ${itemSize}; height: ${itemSize}`">
+                        </a>
+                    </template>
+                </v-img>
             </v-btn>
         </template>
         <span>{{ `${getPrefix(unit)} ${getName(unit)}` }}</span>
@@ -42,6 +49,12 @@ export default class UnitIcon extends Vue {
         const locale = this.$i18n.locale as keyof typeof Locale;
         const result = unit.name[locale];
         return result ?? ''
+    }
+
+    handleGetUnitPath(unit: Unit): string {
+        const locale = this.$i18n.locale
+        const langPrefix = (locale === 'tc')?`` :`/${locale}`
+        return `${langPrefix}/unit?code=${unit.metaCode}`
     }
 }
 </script>

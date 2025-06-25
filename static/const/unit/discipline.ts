@@ -197,6 +197,7 @@ const SSR = {
     [UnitCode.s_evie]: getUnitDisplinePath('10172'),
     [UnitCode.s_noma]: getUnitDisplinePath('10173'),
     [UnitCode.forneusa]: getUnitDisplinePath('10174'),
+    [UnitCode.bu_ayane]: getUnitDisplinePath('10160'),
 }
 
 export const DisciplinePreview = {

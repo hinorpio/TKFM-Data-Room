@@ -222,6 +222,7 @@ const SSR = {
     [UnitCode.s_evie]: getUnitFullImagePath('10172'),
     [UnitCode.s_noma]: getUnitFullImagePath('10173'),
     [UnitCode.forneusa]: getUnitFullImagePath('10174'),
+    [UnitCode.bu_ayane]: getUnitFullImagePath('10160'),
 }
 
 export const FullImage = {
