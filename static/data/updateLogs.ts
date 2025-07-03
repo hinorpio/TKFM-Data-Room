@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.5.13',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: 真吾鳳`,
+                    [Locale.sc]: `画作/二创: 真吾鳳`,
+                    [Locale.en]: `Artwork / Fanart: 真吾鳳`,
+                    [Locale.jp]: `アートワーク / 同人: 真吾鳳`,
+                    [Locale.kr]: `아트워크 / 팬 창작: 真吾鳳`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.12',
         logs: [
             {
