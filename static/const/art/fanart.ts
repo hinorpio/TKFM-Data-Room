@@ -386,6 +386,12 @@ const ANNA_PHOENIX_FANART_005 = `${cdnURL}/arts/fanart/AnnaPhoenix/5.jpeg`
 const ANNA_PHOENIX_FANART_006 = `${cdnURL}/arts/fanart/AnnaPhoenix/6.jpeg`
 const ANNA_PHOENIX_FANART_007 = `${cdnURL}/arts/fanart/AnnaPhoenix/7.jpeg`
 const ANNA_PHOENIX_FANART_008 = `${cdnURL}/arts/fanart/AnnaPhoenix/8.jpeg`
+const ANNA_PHOENIX_FANART_009 = `${cdnURL}/arts/fanart/AnnaPhoenix/9.jpeg`
+const ANNA_PHOENIX_FANART_010 = `${cdnURL}/arts/fanart/AnnaPhoenix/10.jpeg`
+const ANNA_PHOENIX_FANART_011 = `${cdnURL}/arts/fanart/AnnaPhoenix/11.jpeg`
+const ANNA_PHOENIX_FANART_012 = `${cdnURL}/arts/fanart/AnnaPhoenix/12.jpeg`
+const ANNA_PHOENIX_FANART_013 = `${cdnURL}/arts/fanart/AnnaPhoenix/13.jpeg`
+const ANNA_PHOENIX_FANART_014 = `${cdnURL}/arts/fanart/AnnaPhoenix/14.jpeg`
 
 const XXBM_COMIC_00_001 = `${cdnURL}/arts/fanart/xxbm/comic/_0.png`
 const XXBM_COMIC_00_002 = `${cdnURL}/arts/fanart/xxbm/comic/_1.png`
@@ -895,6 +901,12 @@ export const ANNA_PHOENIX_FANART = [
     ANNA_PHOENIX_FANART_006,
     ANNA_PHOENIX_FANART_007,
     ANNA_PHOENIX_FANART_008,
+    ANNA_PHOENIX_FANART_009,
+    ANNA_PHOENIX_FANART_010,
+    ANNA_PHOENIX_FANART_011,
+    ANNA_PHOENIX_FANART_012,
+    ANNA_PHOENIX_FANART_013,
+    ANNA_PHOENIX_FANART_014,
 ]
 
 export const XXBM_COMIC = [

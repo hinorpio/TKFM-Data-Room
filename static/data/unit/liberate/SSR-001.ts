@@ -84,7 +84,7 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.en]: {
                         [SkillType.SKILL_S]: {
                             name: `Psychological Flames`,
-                            description: `Increase your Attack Power by 25/25/25/35/35% for 3 turns. Increase your Damage Output by 5/5/10/10/10% for 3 turns. Damage the target (393/448/503/503/503% Attack Power). CD: 4 [Bond 5: CD: 4]`
+                            description: `Increase your Attack Power by 25/25/25/35/35% for 3 turns. Increase your Damage Output by 5/5/10/10/10% for 3 turns. Damage the target (393/448/503/503/503% Attack Power). CD: 4 [Bond 5: CD: 3]`
                         },
                         [SkillType.SKILL_1]: {
                             name: `Psychological Flames`,

@@ -16,7 +16,7 @@ export const SkillSet_10170: SkillSet[] =  [
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
                     name: `媽媽的愛心料理♡`,
-                    description: `使自身獲得4層《來撒嬌吧~》(最多8層)、使我方水屬性攻擊者造成傷害增加24/28/32/36/40%(4回合)(不可疊加)、並以自身攻擊力120/140/160/180/200%對目標造成傷害。CD:4`
+                    description: `使自身獲得4/5/6/7/8層《來撒嬌吧~》(最多8層)、使我方水屬性攻擊者造成傷害增加24/28/32/36/40%(4回合)(不可疊加)、並以自身攻擊力120/140/160/180/200%對目標造成傷害。CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `媽媽的愛心料理♡`,
@@ -70,7 +70,7 @@ export const SkillSet_10170: SkillSet[] =  [
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
                     name: `妈妈的爱心料理♡`,
-                    description: `使自身获得4层《来撒娇吧~》(最多8层)丶使我方水属性攻击者造成伤害增加24/28/32/36/40%(4回合)(不可叠加)丶并以自身攻击力120/140/160/180/200%对目标造成伤害。CD:4`
+                    description: `使自身获得4/5/6/7/8层《来撒娇吧~》(最多8层)丶使我方水属性攻击者造成伤害增加24/28/32/36/40%(4回合)(不可叠加)丶并以自身攻击力120/140/160/180/200%对目标造成伤害。CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `妈妈的爱心料理♡`,
@@ -124,7 +124,7 @@ export const SkillSet_10170: SkillSet[] =  [
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
                     name: `Mommy's Cooking♡`,
-                    description: `Gain yourself 4 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 24/28/32/36/40% for 4 turns (Non-stackable), and damage the target (120/140/160/180/200% Attack Power). CD:4`
+                    description: `Gain yourself 4/5/6/7/8 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 24/28/32/36/40% for 4 turns (Non-stackable), and damage the target (120/140/160/180/200% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
                     name: `Mommy's Cooking♡`,
@@ -132,19 +132,19 @@ export const SkillSet_10170: SkillSet[] =  [
                 },
                 [SkillType.SKILL_2]: {
                     name: `Mommy's Cooking♡`,
-                    description: `Gain yourself 4 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 28% for 4 turns (Non-stackable), and damage the target (140% Attack Power). CD:4`
+                    description: `Gain yourself 5 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 28% for 4 turns (Non-stackable), and damage the target (140% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
                     name: `Mommy's Cooking♡`,
-                    description: `Gain yourself 4 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 32% for 4 turns (Non-stackable), and damage the target (160% Attack Power). CD:4`
+                    description: `Gain yourself 6 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 32% for 4 turns (Non-stackable), and damage the target (160% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
                     name: `Mommy's Cooking♡`,
-                    description: `Gain yourself 4 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 36% for 4 turns (Non-stackable), and damage the target (180% Attack Power). CD:4`
+                    description: `Gain yourself 7 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 36% for 4 turns (Non-stackable), and damage the target (180% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
                     name: `Mommy's Cooking♡`,
-                    description: `Gain yourself 4 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 40% for 4 turns (Non-stackable), and damage the target (200% Attack Power). CD:4`
+                    description: `Gain yourself 8 stacks of "Puffy Plea~" (max 8 stacks), increase allied Water Attackers' Damage Output by 40% for 4 turns (Non-stackable), and damage the target (200% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
                     name: `Snuggle Tackle`,
@@ -178,7 +178,7 @@ export const SkillSet_10170: SkillSet[] =  [
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
                     name: `ママの愛情料理♡`,
-                    description: `自分が《甘えちゃいなさい～》を4スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを24/28/32/36/40%増加させ(4ターン)(スタック不可)、自分の120/140/160/180/200%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分が《甘えちゃいなさい～》を4/5/6/7/8スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを24/28/32/36/40%増加させ(4ターン)(スタック不可)、自分の120/140/160/180/200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `ママの愛情料理♡`,
@@ -186,19 +186,19 @@ export const SkillSet_10170: SkillSet[] =  [
                 },
                 [SkillType.SKILL_2]: {
                     name: `ママの愛情料理♡`,
-                    description: `自分が《甘えちゃいなさい～》を4スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを28%増加させ(4ターン)(スタック不可)、自分の140%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分が《甘えちゃいなさい～》を5スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを28%増加させ(4ターン)(スタック不可)、自分の140%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
                     name: `ママの愛情料理♡`,
-                    description: `自分が《甘えちゃいなさい～》を4スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを32%増加させ(4ターン)(スタック不可)、自分の160%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分が《甘えちゃいなさい～》を6スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを32%増加させ(4ターン)(スタック不可)、自分の160%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
                     name: `ママの愛情料理♡`,
-                    description: `自分が《甘えちゃいなさい～》を4スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを36%増加させ(4ターン)(スタック不可)、自分の180%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分が《甘えちゃいなさい～》を7スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを36%増加させ(4ターン)(スタック不可)、自分の180%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
                     name: `ママの愛情料理♡`,
-                    description: `自分が《甘えちゃいなさい～》を4スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを40%増加させ(4ターン)(スタック不可)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    description: `自分が《甘えちゃいなさい～》を8スタック獲得し(最高8スタック)、味方の水属性アタッカーの与えるダメージを40%増加させ(4ターン)(スタック不可)、自分の200%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
                     name: `ギュ～して対応`,
@@ -232,7 +232,7 @@ export const SkillSet_10170: SkillSet[] =  [
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
                     name: `엄마의 사랑 요리♡`,
-                    description: `자신은 4중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 24/28/32/36/40% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 120/140/160/180/200%만큼 타깃에게 데미지 [CD: 4]`
+                    description: `자신은 4/5/6/7/8중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 24/28/32/36/40% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 120/140/160/180/200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
                     name: `엄마의 사랑 요리♡`,
@@ -240,19 +240,19 @@ export const SkillSet_10170: SkillSet[] =  [
                 },
                 [SkillType.SKILL_2]: {
                     name: `엄마의 사랑 요리♡`,
-                    description: `자신은 4중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 28% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 140%만큼 타깃에게 데미지 [CD: 4]`
+                    description: `자신은 5중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 28% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 140%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
                     name: `엄마의 사랑 요리♡`,
-                    description: `자신은 4중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 32% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 160%만큼 타깃에게 데미지 [CD: 4]`
+                    description: `자신은 6중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 32% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 160%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
                     name: `엄마의 사랑 요리♡`,
-                    description: `자신은 4중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 36% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 180%만큼 타깃에게 데미지 [CD: 4]`
+                    description: `자신은 7중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 36% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 180%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
                     name: `엄마의 사랑 요리♡`,
-                    description: `자신은 4중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 40% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
+                    description: `자신은 8중첩의《응석 받아줄게~》획득(최대 8중첩), 아군 수속성 딜러의 가하는 데미지 40% 증가(4턴)(중첩 불가), 자신의 공격 데미지의 200%만큼 타깃에게 데미지 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
                     name: `확실한 처리`,

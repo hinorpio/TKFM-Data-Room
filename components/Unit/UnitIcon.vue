@@ -27,6 +27,10 @@ export default class UnitIcon extends Vue {
     @Prop({ type: Object, required: true })
     unit!: Unit;
 
+    get isMobile(): boolean {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, false, false, false)
+    }
+
     get itemSize (): string {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '4.5em', '4.5em', '4.5em', '5.5em', '5.5em')
     }
@@ -36,7 +40,8 @@ export default class UnitIcon extends Vue {
     }
 
     handleSelectUnit(unit: Unit): void {
-        this.$emit('select', unit)
+        if(!this.isMobile)
+            this.$emit('select', unit)
     }
 
     getPrefix(unit: Unit): string{
