@@ -33,6 +33,10 @@ export default class UnitCard extends Vue {
     @Prop({ type: Object, required: true, default: {} })
     unit!: Unit
 
+    get isMobile(): boolean {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, false, false, false)
+    }
+
     get itemSize (): string {
         return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, '4.5em', '4.5em', '4.5em', '5em', '5.5em')
     }
@@ -62,7 +66,8 @@ export default class UnitCard extends Vue {
     }
 
     handleSelect(unit: Unit): void {
-        this.$emit('select', unit)
+        if(!this.isMobile)
+            this.$emit('select', unit)
     }
 
     handleGetUnitPath(unit: Unit): string {

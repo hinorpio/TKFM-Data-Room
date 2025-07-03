@@ -30,6 +30,10 @@ export default class OtherVersionTab extends Vue {
         // this.generateList()
     }
 
+    get isMobile(): boolean {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, true, false, false, false)
+    }
+
     generateList(): void {
         var data = this.$util.getAllUnitData()
         var exportdata = data.map(f => {
@@ -63,9 +67,11 @@ export default class OtherVersionTab extends Vue {
     }
 
     handleSelect(unit: Unit): void {
-        this.$router.push({
-            path: this.handleGetUnitPath(unit),
-        });
+        if(!this.isMobile){
+            this.$router.push({
+                path: this.handleGetUnitPath(unit),
+            });
+        }
     }
 
     handleGetOtherVersion(): Unit[]{
