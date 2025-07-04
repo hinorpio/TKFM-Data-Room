@@ -1,11 +1,13 @@
 <template>
     <div v-if="isMounted">
+        {{ currentPotential }}
         <v-col>
             <potential-selection class="pt-2" :potentialData="potentialData" :currentPotential.sync="currentPotential" :targetPotential.sync="targetPotential" />
             <v-divider class="my-4"></v-divider>
             <material-result v-if="calculatedResult.materialSummary.length > 0" :summary="calculatedResult.materialSummary" :showCombined.sync="showCombined"/>
             <buff-result v-if="calculatedResult.materialSummary.length > 0" :summary="calculatedResult.statSummary" />
         </v-col>
+        {{ targetPotential }}
     </div>
 </template>
 <script lang="ts">
@@ -17,6 +19,7 @@ import MaterialResult from "./Potential/MaterialResult.vue";
 import BuffResult from "./Potential/BuffResult.vue";
 import { Unit } from '@/interface/unit';
 import { PotentialSelectGroup } from '@/interface/potential'
+import { PotentialBuffIcon } from "~/static/const";
 
 @Component({
     components: {

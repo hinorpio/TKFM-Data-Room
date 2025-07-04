@@ -5,6 +5,7 @@
             <v-tab>{{$t('Skill Set')}}</v-tab>
             <v-tab v-if="isLiberate">{{$t('Liberation')}}</v-tab>
             <v-tab>{{$t('Potential Calculator')}}</v-tab>
+            <v-tab>{{$t('Stat Cal')}}</v-tab>
             <v-tab v-if="isDiscipline">{{$t('Discipline')}}</v-tab>
             <v-tab v-if="isPuzzle">{{$t('Puzzle')}}</v-tab>
             <v-tab v-if="isOtherVersion">{{$t('Other Form')}}</v-tab>
@@ -22,6 +23,9 @@
             </v-tab-item>
             <v-tab-item>
                 <potential-tab :unit="unit" />
+            </v-tab-item>
+            <v-tab-item>
+                <stat-cal-tab :unit="unit" />
             </v-tab-item>
             <v-tab-item v-if="isDiscipline">
                 <discipline-tab :unit="unit" />
@@ -46,6 +50,7 @@ import SkillSetTab from './SkillSetTab.vue';
 import LiberationTab from './LiberationTab.vue';
 import DisciplineTab from './DisciplineTab.vue';
 import PotentialTab from './PotentialTab.vue';
+import StatCalTab from './StatCalTab.vue';
 import PuzzleTab from './PuzzleTab.vue';
 import OtherVersionTab from './OtherVersionTab.vue';
 import AnalysisTab from './AnalysisTab.vue';
@@ -58,6 +63,7 @@ import { Unit } from '@/interface/unit'
         LiberationTab,
         DisciplineTab,
         PotentialTab,
+        StatCalTab,
         PuzzleTab,
         OtherVersionTab,
         AnalysisTab,

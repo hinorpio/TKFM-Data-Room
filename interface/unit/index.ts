@@ -2,6 +2,7 @@ import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode,
 import { SkillSet } from './skillset';
 import { LiberateSkillSet } from './liberateSkillSet';
 import { Discipline } from './discipline';
+import { PotentialSelectGroup } from '../potential'
 
 export interface Unit {
     ID: string;
@@ -35,4 +36,16 @@ export interface Unit {
     liberateSkillSet?: LiberateSkillSet[];
     puzzle?: PuzzleCode[];
     outfits?: string[][];
+}
+
+export interface StatGroup {
+    initHP: number;
+    initATK: number;
+    initStar: number;
+    rarity: Rarity;
+    level: number;
+    star: number;
+    room: null | number;
+    pot: PotentialSelectGroup;
+    lib: null | number;
 }

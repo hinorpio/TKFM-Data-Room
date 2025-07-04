@@ -53,3 +53,7 @@ export default class BuffResult extends Vue {
     }
 }
 </script>
+<style lang="sass" scoped>
+::v-deep .v-card__text
+    background: #424242
+</style>

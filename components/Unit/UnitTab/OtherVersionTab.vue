@@ -3,7 +3,6 @@
         <v-img 
             v-for="(form, index) in handleGetOtherVersion()" 
             :key="index" 
-            @click="handleSelect(form)" 
             class="ma-2" 
             :max-width="imgWidth"
         >
@@ -64,14 +63,6 @@ export default class OtherVersionTab extends Vue {
         const locale = this.$i18n.locale
         const langPrefix = (locale === 'tc')?`` :`/${locale}`
         return `${langPrefix}/unit?code=${unit.metaCode}`
-    }
-
-    handleSelect(unit: Unit): void {
-        if(!this.isMobile){
-            this.$router.push({
-                path: this.handleGetUnitPath(unit),
-            });
-        }
     }
 
     handleGetOtherVersion(): Unit[]{

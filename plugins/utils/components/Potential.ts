@@ -1,5 +1,5 @@
 import { PotentialType, ItemType, ItemCode, PotentialBuffType } from '../enums';
-import { Potential, Slot, CalculatedSummary, MaterialSummary, StatSummary } from '@/interface/potential';
+import { Potential, Slot, CalculatedSummary, MaterialSummary, StatSummary, PotentialSelectGroup } from '@/interface/potential';
 import { Item, CombinedItem } from '@/interface/item';
 import potentialData from '@/static/data/potential';
 import ItemService from './Items';
@@ -13,6 +13,34 @@ export default {
         return potentialData;
     },
     
+    getCalculatedPotResult(potentialData: any, currentPotential: PotentialSelectGroup, targetPotential: PotentialSelectGroup, showCombined: boolean) {
+        const requiredSlotList = [];
+        const startIndex = currentPotential.level - 1;
+        const endIndex = targetPotential.level - 1;
+        const detail = potentialData.detail;
+
+        for (let level = startIndex; level <= endIndex; level++) {
+            let condition: 'SAME_LEVEL' | 'FIRST_LEVEL' | 'LAST_LEVEL' | 'BETWEEN_LEVEL';
+            if (startIndex === endIndex) {
+                condition = 'SAME_LEVEL';
+            } else if (level === startIndex) {
+                condition = 'FIRST_LEVEL';
+            } else if (level === endIndex) {
+                condition = 'LAST_LEVEL';
+            } else {
+                condition = 'BETWEEN_LEVEL';
+            }
+
+            for (let index = 0; index < detail[level].length; index++) {
+                if (this.getCalculateCondition(condition, index, currentPotential.slot, targetPotential.slot)) {
+                    requiredSlotList.push(detail[level][index]);
+                }
+            }
+        }
+
+        return this.getCalculatedSummary(requiredSlotList, showCombined);
+    },
+
     getCalculateCondition(type: string, index: number, currentSlot: boolean[], targetSlot: boolean[]){
         switch (type) {
             case 'SAME_LEVEL':

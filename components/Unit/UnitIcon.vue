@@ -1,7 +1,7 @@
 <template>
     <v-tooltip top>
         <template v-slot:activator="{ on, attrs }">
-            <v-btn v-bind="attrs" v-on="on"  class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" @click="handleSelectUnit(unit)">
+            <v-btn v-bind="attrs" v-on="on"  class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" >
                 <!-- <v-img :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/> -->
                 <v-img :height="itemSize" :width="itemSize" contain>
                     <template v-slot:default>
@@ -37,11 +37,6 @@ export default class UnitIcon extends Vue {
 
     getRarityColor (unit: Unit): string {
         return RarityColor[unit.rarity]
-    }
-
-    handleSelectUnit(unit: Unit): void {
-        if(!this.isMobile)
-            this.$emit('select', unit)
     }
 
     getPrefix(unit: Unit): string{

@@ -1,6 +1,6 @@
 <template>
     <a :href="handleGetUnitPath(unit)" style="text-decoration: none;">
-        <v-btn class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize" @click="handleSelect(unit)">
+        <v-btn class="pa-0 character-button" outlined :color="getRarityColor(unit)" block :height="itemSize">
             <v-row class="align-center px-0 mx-0">
                 <!-- <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain/> -->
                 <v-img class="" :src="unit.thumbnail" :height="itemSize" :width="itemSize" contain>
@@ -63,11 +63,6 @@ export default class UnitCard extends Vue {
 
     getRarityColor (unit: Unit): string {
         return RarityColor[unit.rarity]
-    }
-
-    handleSelect(unit: Unit): void {
-        if(!this.isMobile)
-            this.$emit('select', unit)
     }
 
     handleGetUnitPath(unit: Unit): string {
