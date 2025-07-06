@@ -2,7 +2,7 @@ import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode,
 import { SkillSet } from './skillset';
 import { LiberateSkillSet } from './liberateSkillSet';
 import { Discipline } from './discipline';
-import { PotentialSelectGroup } from '../potential'
+import { PotentialSelectGroup } from '../stat/potential'
 
 export interface Unit {
     ID: string;

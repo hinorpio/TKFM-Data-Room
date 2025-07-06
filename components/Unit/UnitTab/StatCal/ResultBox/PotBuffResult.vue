@@ -1,15 +1,9 @@
 <template>
     <div>
-        <v-row class="my-4 mx-1 align-center">
-            <v-icon class="mr-2"> 
-                mdi-chevron-triple-up 
-            </v-icon>
-            <span class="title font-weight-bold">{{ $t('Buff') }}</span>
-        </v-row>
-        <v-card class="outline-box mt-4" outlined color="white">
+        <v-card class="outline-box mt-2" outlined color="white">
             <v-card-text class="pa-4">
                 <v-row class="pa-0">
-                    <v-col v-for="(buff, index) in summary" :key="index" :cols="6" :xl="3" :lg="4" :md="4" :sm="4" :xs="4">
+                    <v-col v-for="(buff, index) in summary" :key="index" :cols="4" :xl="4" :lg="6" :md="6" :sm="4" :xs="4">
                         <v-row class="align-center px-1"> 
                             <v-avatar size="2em" tile class="mr-2">
                                 <v-img :src="showBuffIcon(buff)"  />
@@ -29,9 +23,8 @@ import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
 import { StatSummary } from '~/interface/stat/potential'
 
-
 @Component
-export default class BuffResult extends Vue {
+export default class PotBuffResult extends Vue {
     @Prop({ type: Array, required: true, default: [] })
     summary!: StatSummary[];
 

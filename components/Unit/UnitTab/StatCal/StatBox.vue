@@ -20,14 +20,14 @@
                 <div v-show="showDetail">
                     <v-card-text class="py-8">
                         <v-row>
-                            <v-col class="py-1" :cols="6" :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
+                            <v-col class="py-1" :cols="12" :xl="6" :lg="6" :md="6" :sm="6" :xs="12">
                                 <v-text-field v-model="calculatedHP" disabled :label="$t('HP')" dense outlined>
                                     <template v-slot:prepend>
                                         <v-icon color="light-blue">mdi-water</v-icon>
                                     </template>
                                 </v-text-field>
                             </v-col>
-                            <v-col class="py-1" :cols="6" :xl="6" :lg="6" :md="6" :sm="6" :xs="6">
+                            <v-col class="py-1" :cols="12" :xl="6" :lg="6" :md="6" :sm="6" :xs="12">
                                 <v-text-field v-model="calculatedATK" disabled :label="$t('ATK')" dense outlined prepend-icon="mdi-sword">
                                     <template v-slot:prepend>
                                         <v-icon color="brown">mdi-sword</v-icon>
@@ -72,6 +72,20 @@
                                     <v-checkbox v-for="(slot, index) in 6" :key="index" v-model="stat.pot.slot[index]" :color="checkBoxColor(index)" :disabled="handleCheckBoxDisabled(index)" dense hide-details ></v-checkbox>
                                 </v-row>
                             </v-col>
+                            <v-col class="py-4" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
+                                <v-row class="mt-2 pr-6">
+                                    <v-spacer></v-spacer>
+                                    <v-btn class="mr-2" @click="getMinStat">
+                                        <v-icon class="mr-1" color="red">mdi-chevron-triple-down</v-icon>
+                                        <span class="mr-1">{{ $t('Min') }}</span>
+                                    </v-btn>
+                                    <v-btn class="mr-2" @click="getMaxStat">
+                                        <span class="ml-1">{{ $t('Max') }}</span>
+                                        <v-icon class="ml-1" color="green">mdi-chevron-triple-up</v-icon>
+                                    </v-btn>
+                                </v-row>
+                                
+                            </v-col>
                         </v-row>
                     </v-card-text>
                 </div>
@@ -82,7 +96,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
-import { Potential, PotentialSelectGroup } from '@/interface/potential'
+import { Potential, PotentialSelectGroup } from '~/interface/stat/potential'
 import { StatGroup, Unit } from "~/interface/unit";
 import { Rarity } from "~/plugins/utils/enums";
 
@@ -102,19 +116,19 @@ export default class StatBox extends Vue {
     potentialData!: Potential;
 
     @Prop({ type: Array, required: true, default: [] })
-    levelOptions!: Object;
+    levelOptions!: number[];
 
     @Prop({ type: Array, required: true, default: [] })
-    libOptions!: Object;
+    libOptions!: number[];
     
     @Prop({ type: Array, required: true, default: [] })
-    starOptions!: Object;
+    starOptions!: number[];
     
     @Prop({ type: Array, required: true, default: [] })
-    roomOptions!: Object;
+    roomOptions!: number[];
     
     @Prop({ type: Array, required: true, default: [] })
-    potLevelOptions!: Object;
+    potLevelOptions!: number[];
 
     @Prop({ type: Object, required: true, default: {} })
     compareStat!: StatGroup;
@@ -167,6 +181,36 @@ export default class StatBox extends Vue {
 
     get calculatedATK(): number {
         return this.$util.getCalculateStat(this.unit, this.stat, "ATK")
+    }
+
+    getMinStat(): void{
+        if(this.type == 'CURRENT'){
+            this.stat.level = 1
+            this.stat.lib = (!this.noLib)?0 :null;
+            this.stat.star = this.stat.initStar
+            this.stat.room = (!this.noRoom)?0 :null;
+            this.stat.pot = {
+                level: 1,
+                slot: [false, false, false, false, false, false]
+            }
+        }else{
+            this.stat.level = this.compareStat.level
+            this.stat.lib = (!this.noLib)?this.compareStat.lib :null;
+            this.stat.star = this.compareStat.star
+            this.stat.room = (!this.noRoom)?this.compareStat.room :null;
+            this.stat.pot = this.$util.deepClone(this.compareStat.pot)
+        }
+    }
+
+    getMaxStat(): void{
+        this.stat.level = this.levelOptions[this.levelOptions.length - 1]
+        this.stat.lib = (!this.noLib)?this.libOptions[this.libOptions.length - 1] :null;
+        this.stat.star = this.starOptions[this.starOptions.length - 1]
+        this.stat.room = (!this.noRoom)?this.roomOptions[this.roomOptions.length - 1] :null;
+        this.stat.pot = {
+            level: this.potLevelOptions[this.potLevelOptions.length - 1],
+            slot: [true, true, true, true, true, true]
+        }
     }
 
 

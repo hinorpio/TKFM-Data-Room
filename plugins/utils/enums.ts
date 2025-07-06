@@ -106,6 +106,7 @@ export enum ItemType {
     POTENTIAL = 'POTENTIAL',
     POTENTIAL_ADVANCED = 'POTENTIAL_ADVANCED',
     DISCIPLINE = 'DISCIPLINE',
+    EXP = 'EXP'
 }
 
 export enum ItemCode {
@@ -186,6 +187,10 @@ export enum ItemCode {
     DISCIPLINE_DARK_LV2 = 'DISCIPLINE_DARK_LV2',
     DISCIPLINE_DARK_LV3 = 'DISCIPLINE_DARK_LV3',
     DISCIPLINE_FRUIT = 'DISCIPLINE_FRUIT',
+    EXP_LV1 = 'EXP_LV1',
+    EXP_LV2 = 'EXP_LV2',
+    EXP_LV3 = 'EXP_LV3',
+    EXP_LV4 = 'EXP_LV4',
 }
 
 export enum DispatchType {

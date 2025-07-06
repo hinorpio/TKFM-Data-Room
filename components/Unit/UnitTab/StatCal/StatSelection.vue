@@ -35,7 +35,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
-import { Potential, PotentialSelectGroup } from '@/interface/potential'
+import { Potential, PotentialSelectGroup } from '~/interface/stat/potential'
 import { StatGroup, Unit } from "~/interface/unit";
 import StatBox from "./StatBox.vue";
 import { Rarity } from "~/plugins/utils/enums";

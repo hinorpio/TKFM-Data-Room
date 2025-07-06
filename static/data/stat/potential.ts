@@ -1,4 +1,4 @@
-import { Potential } from '@/interface/potential';
+import { Potential } from '~/interface/stat/potential';
 import { PotentialType, PotentialBuffType, ItemCode } from '@/plugins/utils/enums';
 
 const potentials: Potential[] = [

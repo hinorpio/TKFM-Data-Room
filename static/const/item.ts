@@ -2,160 +2,90 @@ import { ItemCode } from '@/plugins/utils/enums';
 
 const cdnURL = `https://cdn.tkfmdata.com`
 
-const ITEM_SLIVER_COIN = `${cdnURL}/item/IP00001.png`
-const ITEM_NAMELESS = `${cdnURL}/item/IP28002.png`
-const ITEM_FLAWLESS = `${cdnURL}/item/IP31501.png`
-const ITEM_SKILL_FRAGMENT = `${cdnURL}/item/IP31901.png`
-const ITEM_SKILL_STONE = `${cdnURL}/item/IP31902.png`
-const ITEM_LIBERATE_STONE = `${cdnURL}/item/IP31903.png`
-const ITEM_EVOLVE_FIRE_LV1 = `${cdnURL}/item/IP31001.png`
-const ITEM_EVOLVE_FIRE_LV2 = `${cdnURL}/item/IP31002.png`
-const ITEM_EVOLVE_FIRE_LV3 = `${cdnURL}/item/IP31003.png`
-const ITEM_EVOLVE_FIRE_LV4 = `${cdnURL}/item/IP31004.png`
-const ITEM_EVOLVE_WATER_LV1 = `${cdnURL}/item/IP31011.png`
-const ITEM_EVOLVE_WATER_LV2 = `${cdnURL}/item/IP31012.png`
-const ITEM_EVOLVE_WATER_LV3 = `${cdnURL}/item/IP31013.png`
-const ITEM_EVOLVE_WATER_LV4 = `${cdnURL}/item/IP31014.png`
-const ITEM_EVOLVE_WIND_LV1 = `${cdnURL}/item/IP31021.png`
-const ITEM_EVOLVE_WIND_LV2 = `${cdnURL}/item/IP31022.png`
-const ITEM_EVOLVE_WIND_LV3 = `${cdnURL}/item/IP31023.png`
-const ITEM_EVOLVE_WIND_LV4 = `${cdnURL}/item/IP31024.png`
-const ITEM_EVOLVE_LIGHT_LV1 = `${cdnURL}/item/IP31031.png`
-const ITEM_EVOLVE_LIGHT_LV2 = `${cdnURL}/item/IP31032.png`
-const ITEM_EVOLVE_LIGHT_LV3 = `${cdnURL}/item/IP31033.png`
-const ITEM_EVOLVE_LIGHT_LV4 = `${cdnURL}/item/IP31034.png`
-const ITEM_EVOLVE_DARK_LV1 = `${cdnURL}/item/IP31041.png`
-const ITEM_EVOLVE_DARK_LV2 = `${cdnURL}/item/IP31042.png`
-const ITEM_EVOLVE_DARK_LV3 = `${cdnURL}/item/IP31043.png`
-const ITEM_EVOLVE_DARK_LV4 = `${cdnURL}/item/IP31044.png`
-const ITEM_CLAW_LV1 = `${cdnURL}/item/IP30001.png`
-const ITEM_CLAW_LV2 = `${cdnURL}/item/IP30002.png`
-const ITEM_CLAW_LV3 = `${cdnURL}/item/IP30003.png`
-const ITEM_IRON_LV1 = `${cdnURL}/item/IP30004.png`
-const ITEM_IRON_LV2 = `${cdnURL}/item/IP30005.png`
-const ITEM_IRON_LV3 = `${cdnURL}/item/IP30006.png`
-const ITEM_WATER_LV1 = `${cdnURL}/item/IP30007.png`
-const ITEM_WATER_LV2 = `${cdnURL}/item/IP30008.png`
-const ITEM_WATER_LV3 = `${cdnURL}/item/IP30009.png`
-const ITEM_MIXTURE_LV1 = `${cdnURL}/item/IP30010.png`
-const ITEM_MIXTURE_LV2 = `${cdnURL}/item/IP30011.png`
-const ITEM_MIXTURE_LV3 = `${cdnURL}/item/IP30012.png`
-const ITEM_DUST_LV1 = `${cdnURL}/item/IP30013.png`
-const ITEM_DUST_LV2 = `${cdnURL}/item/IP30014.png`
-const ITEM_DUST_LV3 = `${cdnURL}/item/IP30015.png`
-const ITEM_HORN_LV1 = `${cdnURL}/item/IP30016.png`
-const ITEM_HORN_LV2 = `${cdnURL}/item/IP30017.png`
-const ITEM_SLIVER_LV1 = `${cdnURL}/item/IP30018.png`
-const ITEM_SLIVER_LV2 = `${cdnURL}/item/IP30019.png`
-const ITEM_OIL_LV1 = `${cdnURL}/item/IP30020.png`
-const ITEM_OIL_LV2 = `${cdnURL}/item/IP30021.png`
-const ITEM_CRYSTAL_LV1 = `${cdnURL}/item/IP30022.png`
-const ITEM_CRYSTAL_LV2 = `${cdnURL}/item/IP30023.png`
-const ITEM_FANG_LV1 = `${cdnURL}/item/IP30024.png`
-const ITEM_FANG_LV2 = `${cdnURL}/item/IP30025.png`
-const ITEM_BEAK_LV1 = `${cdnURL}/item/IP30026.png`
-const ITEM_BEAK_LV2 = `${cdnURL}/item/IP30027.png`
-const ITEM_SKIN_LV1 = `${cdnURL}/item/IP30028.png`
-const ITEM_SKIN_LV2 = `${cdnURL}/item/IP30029.png`
-const ITEM_BOOK_LV1 = `${cdnURL}/item/IP30030.png`
-const ITEM_BOOK_LV2 = `${cdnURL}/item/IP30031.png`
-const ITEM_FEATHER_LV1 = `${cdnURL}/item/IP30032.png`
-const ITEM_FEATHER_LV2 = `${cdnURL}/item/IP30033.png`
-const ITEM_WEB_LV1 = `${cdnURL}/item/IP30034.png`
-const ITEM_WEB_LV2 = `${cdnURL}/item/IP30035.png`
-const ITEM_DISCIPLINE_FIRE_LV1 = `${cdnURL}/item/IP35101.png`
-const ITEM_DISCIPLINE_FIRE_LV2 = `${cdnURL}/item/IP35204.png`
-const ITEM_DISCIPLINE_FIRE_LV3 = `${cdnURL}/item/IP35302.png`
-const ITEM_DISCIPLINE_WATER_LV1 = `${cdnURL}/item/IP35105.png`
-const ITEM_DISCIPLINE_WATER_LV2 = `${cdnURL}/item/IP35201.png`
-const ITEM_DISCIPLINE_WATER_LV3 = `${cdnURL}/item/IP35305.png`
-const ITEM_DISCIPLINE_WIND_LV1 = `${cdnURL}/item/IP35103.png`
-const ITEM_DISCIPLINE_WIND_LV2 = `${cdnURL}/item/IP35203.png`
-const ITEM_DISCIPLINE_WIND_LV3 = `${cdnURL}/item/IP35301.png`
-const ITEM_DISCIPLINE_LIGHT_LV1 = `${cdnURL}/item/IP35104.png`
-const ITEM_DISCIPLINE_LIGHT_LV2 = `${cdnURL}/item/IP35202.png`
-const ITEM_DISCIPLINE_LIGHT_LV3 = `${cdnURL}/item/IP35303.png`
-const ITEM_DISCIPLINE_DARK_LV1 = `${cdnURL}/item/IP35102.png`
-const ITEM_DISCIPLINE_DARK_LV2 = `${cdnURL}/item/IP35205.png`
-const ITEM_DISCIPLINE_DARK_LV3 = `${cdnURL}/item/IP35304.png`
-const ITEM_DISCIPLINE_FRUIT = `${cdnURL}/item/IP35403.png`
+function getItemIconPath(id: string): string{
+    return `${cdnURL}/item/${id}.png`
+}
 
 export const Icon = {
-    [ItemCode.SLIVER_COIN]: ITEM_SLIVER_COIN,
-    [ItemCode.NAMELESS]: ITEM_NAMELESS,
-    [ItemCode.FLAWLESS]: ITEM_FLAWLESS,
-    [ItemCode.SKILL_FRAGMENT]: ITEM_SKILL_FRAGMENT,
-    [ItemCode.SKILL_STONE]: ITEM_SKILL_STONE,
-    [ItemCode.LIBERATE_STONE]: ITEM_LIBERATE_STONE,
-    [ItemCode.EVOLVE_FIRE_LV1]: ITEM_EVOLVE_FIRE_LV1,
-    [ItemCode.EVOLVE_FIRE_LV2]: ITEM_EVOLVE_FIRE_LV2,
-    [ItemCode.EVOLVE_FIRE_LV3]: ITEM_EVOLVE_FIRE_LV3,
-    [ItemCode.EVOLVE_FIRE_LV4]: ITEM_EVOLVE_FIRE_LV4,
-    [ItemCode.EVOLVE_WATER_LV1]: ITEM_EVOLVE_WATER_LV1,
-    [ItemCode.EVOLVE_WATER_LV2]: ITEM_EVOLVE_WATER_LV2,
-    [ItemCode.EVOLVE_WATER_LV3]: ITEM_EVOLVE_WATER_LV3,
-    [ItemCode.EVOLVE_WATER_LV4]: ITEM_EVOLVE_WATER_LV4,
-    [ItemCode.EVOLVE_WIND_LV1]: ITEM_EVOLVE_WIND_LV1,
-    [ItemCode.EVOLVE_WIND_LV2]: ITEM_EVOLVE_WIND_LV2,
-    [ItemCode.EVOLVE_WIND_LV3]: ITEM_EVOLVE_WIND_LV3,
-    [ItemCode.EVOLVE_WIND_LV4]: ITEM_EVOLVE_WIND_LV4,
-    [ItemCode.EVOLVE_LIGHT_LV1]: ITEM_EVOLVE_LIGHT_LV1,
-    [ItemCode.EVOLVE_LIGHT_LV2]: ITEM_EVOLVE_LIGHT_LV2,
-    [ItemCode.EVOLVE_LIGHT_LV3]: ITEM_EVOLVE_LIGHT_LV3,
-    [ItemCode.EVOLVE_LIGHT_LV4]: ITEM_EVOLVE_LIGHT_LV4,
-    [ItemCode.EVOLVE_DARK_LV1]: ITEM_EVOLVE_DARK_LV1,
-    [ItemCode.EVOLVE_DARK_LV2]: ITEM_EVOLVE_DARK_LV2,
-    [ItemCode.EVOLVE_DARK_LV3]: ITEM_EVOLVE_DARK_LV3,
-    [ItemCode.EVOLVE_DARK_LV4]: ITEM_EVOLVE_DARK_LV4,
-    [ItemCode.CLAW_LV1]: ITEM_CLAW_LV1,
-    [ItemCode.CLAW_LV2]: ITEM_CLAW_LV2,
-    [ItemCode.CLAW_LV3]: ITEM_CLAW_LV3,
-    [ItemCode.IRON_LV1]: ITEM_IRON_LV1,
-    [ItemCode.IRON_LV2]: ITEM_IRON_LV2,
-    [ItemCode.IRON_LV3]: ITEM_IRON_LV3,
-    [ItemCode.WATER_LV1]: ITEM_WATER_LV1,
-    [ItemCode.WATER_LV2]: ITEM_WATER_LV2,
-    [ItemCode.WATER_LV3]: ITEM_WATER_LV3,
-    [ItemCode.MIXTURE_LV1]: ITEM_MIXTURE_LV1,
-    [ItemCode.MIXTURE_LV2]: ITEM_MIXTURE_LV2,
-    [ItemCode.MIXTURE_LV3]: ITEM_MIXTURE_LV3,
-    [ItemCode.DUST_LV1]: ITEM_DUST_LV1,
-    [ItemCode.DUST_LV2]: ITEM_DUST_LV2,
-    [ItemCode.DUST_LV3]: ITEM_DUST_LV3,
-    [ItemCode.HORN_LV1]: ITEM_HORN_LV1,
-    [ItemCode.HORN_LV2]: ITEM_HORN_LV2,
-    [ItemCode.SLIVER_LV1]: ITEM_SLIVER_LV1,
-    [ItemCode.SLIVER_LV2]: ITEM_SLIVER_LV2,
-    [ItemCode.OIL_LV1]: ITEM_OIL_LV1,
-    [ItemCode.OIL_LV2]: ITEM_OIL_LV2,
-    [ItemCode.CRYSTAL_LV1]: ITEM_CRYSTAL_LV1,
-    [ItemCode.CRYSTAL_LV2]: ITEM_CRYSTAL_LV2,
-    [ItemCode.FANG_LV1]: ITEM_FANG_LV1,
-    [ItemCode.FANG_LV2]: ITEM_FANG_LV2,
-    [ItemCode.BEAK_LV1]: ITEM_BEAK_LV1,
-    [ItemCode.BEAK_LV2]: ITEM_BEAK_LV2,
-    [ItemCode.SKIN_LV1]: ITEM_SKIN_LV1,
-    [ItemCode.SKIN_LV2]: ITEM_SKIN_LV2,
-    [ItemCode.BOOK_LV1]: ITEM_BOOK_LV1,
-    [ItemCode.BOOK_LV2]: ITEM_BOOK_LV2,
-    [ItemCode.FEATHER_LV1]: ITEM_FEATHER_LV1,
-    [ItemCode.FEATHER_LV2]: ITEM_FEATHER_LV2,
-    [ItemCode.WEB_LV1]: ITEM_WEB_LV1,
-    [ItemCode.WEB_LV2]: ITEM_WEB_LV2,
-    [ItemCode.DISCIPLINE_FIRE_LV1]: ITEM_DISCIPLINE_FIRE_LV1,
-    [ItemCode.DISCIPLINE_FIRE_LV2]: ITEM_DISCIPLINE_FIRE_LV2,
-    [ItemCode.DISCIPLINE_FIRE_LV3]: ITEM_DISCIPLINE_FIRE_LV3,
-    [ItemCode.DISCIPLINE_WATER_LV1]: ITEM_DISCIPLINE_WATER_LV1,
-    [ItemCode.DISCIPLINE_WATER_LV2]: ITEM_DISCIPLINE_WATER_LV2,
-    [ItemCode.DISCIPLINE_WATER_LV3]: ITEM_DISCIPLINE_WATER_LV3,
-    [ItemCode.DISCIPLINE_WIND_LV1]: ITEM_DISCIPLINE_WIND_LV1,
-    [ItemCode.DISCIPLINE_WIND_LV2]: ITEM_DISCIPLINE_WIND_LV2,
-    [ItemCode.DISCIPLINE_WIND_LV3]: ITEM_DISCIPLINE_WIND_LV3,
-    [ItemCode.DISCIPLINE_LIGHT_LV1]: ITEM_DISCIPLINE_LIGHT_LV1,
-    [ItemCode.DISCIPLINE_LIGHT_LV2]: ITEM_DISCIPLINE_LIGHT_LV2,
-    [ItemCode.DISCIPLINE_LIGHT_LV3]: ITEM_DISCIPLINE_LIGHT_LV3,
-    [ItemCode.DISCIPLINE_DARK_LV1]: ITEM_DISCIPLINE_DARK_LV1,
-    [ItemCode.DISCIPLINE_DARK_LV2]: ITEM_DISCIPLINE_DARK_LV2,
-    [ItemCode.DISCIPLINE_DARK_LV3]: ITEM_DISCIPLINE_DARK_LV3,
-    [ItemCode.DISCIPLINE_FRUIT]: ITEM_DISCIPLINE_FRUIT,
+    [ItemCode.SLIVER_COIN]: getItemIconPath('IP00001'),
+    [ItemCode.NAMELESS]: getItemIconPath('IP28002'),
+    [ItemCode.FLAWLESS]: getItemIconPath('IP31501'),
+    [ItemCode.SKILL_FRAGMENT]: getItemIconPath('IP31901'),
+    [ItemCode.SKILL_STONE]: getItemIconPath('IP31902'),
+    [ItemCode.LIBERATE_STONE]: getItemIconPath('IP31903'),
+    [ItemCode.EVOLVE_FIRE_LV1]: getItemIconPath('IP31001'),
+    [ItemCode.EVOLVE_FIRE_LV2]: getItemIconPath('IP31002'),
+    [ItemCode.EVOLVE_FIRE_LV3]: getItemIconPath('IP31003'),
+    [ItemCode.EVOLVE_FIRE_LV4]: getItemIconPath('IP31004'),
+    [ItemCode.EVOLVE_WATER_LV1]: getItemIconPath('IP31011'),
+    [ItemCode.EVOLVE_WATER_LV2]: getItemIconPath('IP31012'),
+    [ItemCode.EVOLVE_WATER_LV3]: getItemIconPath('IP31013'),
+    [ItemCode.EVOLVE_WATER_LV4]: getItemIconPath('IP31014'),
+    [ItemCode.EVOLVE_WIND_LV1]: getItemIconPath('IP31021'),
+    [ItemCode.EVOLVE_WIND_LV2]: getItemIconPath('IP31022'),
+    [ItemCode.EVOLVE_WIND_LV3]: getItemIconPath('IP31023'),
+    [ItemCode.EVOLVE_WIND_LV4]: getItemIconPath('IP31024'),
+    [ItemCode.EVOLVE_LIGHT_LV1]: getItemIconPath('IP31031'),
+    [ItemCode.EVOLVE_LIGHT_LV2]: getItemIconPath('IP31032'),
+    [ItemCode.EVOLVE_LIGHT_LV3]: getItemIconPath('IP31033'),
+    [ItemCode.EVOLVE_LIGHT_LV4]: getItemIconPath('IP31034'),
+    [ItemCode.EVOLVE_DARK_LV1]: getItemIconPath('IP31041'),
+    [ItemCode.EVOLVE_DARK_LV2]: getItemIconPath('IP31042'),
+    [ItemCode.EVOLVE_DARK_LV3]: getItemIconPath('IP31043'),
+    [ItemCode.EVOLVE_DARK_LV4]: getItemIconPath('IP31044'),
+    [ItemCode.CLAW_LV1]: getItemIconPath('IP30001'),
+    [ItemCode.CLAW_LV2]: getItemIconPath('IP30002'),
+    [ItemCode.CLAW_LV3]: getItemIconPath('IP30003'),
+    [ItemCode.IRON_LV1]: getItemIconPath('IP30004'),
+    [ItemCode.IRON_LV2]: getItemIconPath('IP30005'),
+    [ItemCode.IRON_LV3]: getItemIconPath('IP30006'),
+    [ItemCode.WATER_LV1]: getItemIconPath('IP30007'),
+    [ItemCode.WATER_LV2]: getItemIconPath('IP30008'),
+    [ItemCode.WATER_LV3]: getItemIconPath('IP30009'),
+    [ItemCode.MIXTURE_LV1]: getItemIconPath('IP30010'),
+    [ItemCode.MIXTURE_LV2]: getItemIconPath('IP30011'),
+    [ItemCode.MIXTURE_LV3]: getItemIconPath('IP30012'),
+    [ItemCode.DUST_LV1]: getItemIconPath('IP30013'),
+    [ItemCode.DUST_LV2]: getItemIconPath('IP30014'),
+    [ItemCode.DUST_LV3]: getItemIconPath('IP30015'),
+    [ItemCode.HORN_LV1]: getItemIconPath('IP30016'),
+    [ItemCode.HORN_LV2]: getItemIconPath('IP30017'),
+    [ItemCode.SLIVER_LV1]: getItemIconPath('IP30018'),
+    [ItemCode.SLIVER_LV2]: getItemIconPath('IP30019'),
+    [ItemCode.OIL_LV1]: getItemIconPath('IP30020'),
+    [ItemCode.OIL_LV2]: getItemIconPath('IP30021'),
+    [ItemCode.CRYSTAL_LV1]: getItemIconPath('IP30022'),
+    [ItemCode.CRYSTAL_LV2]: getItemIconPath('IP30023'),
+    [ItemCode.FANG_LV1]: getItemIconPath('IP30024'),
+    [ItemCode.FANG_LV2]: getItemIconPath('IP30025'),
+    [ItemCode.BEAK_LV1]: getItemIconPath('IP30026'),
+    [ItemCode.BEAK_LV2]: getItemIconPath('IP30027'),
+    [ItemCode.SKIN_LV1]: getItemIconPath('IP30028'),
+    [ItemCode.SKIN_LV2]: getItemIconPath('IP30029'),
+    [ItemCode.BOOK_LV1]: getItemIconPath('IP30030'),
+    [ItemCode.BOOK_LV2]: getItemIconPath('IP30031'),
+    [ItemCode.FEATHER_LV1]: getItemIconPath('IP30032'),
+    [ItemCode.FEATHER_LV2]: getItemIconPath('IP30033'),
+    [ItemCode.WEB_LV1]: getItemIconPath('IP30034'),
+    [ItemCode.WEB_LV2]: getItemIconPath('IP30035'),
+    [ItemCode.DISCIPLINE_FIRE_LV1]: getItemIconPath('IP35101'),
+    [ItemCode.DISCIPLINE_FIRE_LV2]: getItemIconPath('IP35204'),
+    [ItemCode.DISCIPLINE_FIRE_LV3]: getItemIconPath('IP35302'),
+    [ItemCode.DISCIPLINE_WATER_LV1]: getItemIconPath('IP35105'),
+    [ItemCode.DISCIPLINE_WATER_LV2]: getItemIconPath('IP35201'),
+    [ItemCode.DISCIPLINE_WATER_LV3]: getItemIconPath('IP35305'),
+    [ItemCode.DISCIPLINE_WIND_LV1]: getItemIconPath('IP35103'),
+    [ItemCode.DISCIPLINE_WIND_LV2]: getItemIconPath('IP35203'),
+    [ItemCode.DISCIPLINE_WIND_LV3]: getItemIconPath('IP35301'),
+    [ItemCode.DISCIPLINE_LIGHT_LV1]: getItemIconPath('IP35104'),
+    [ItemCode.DISCIPLINE_LIGHT_LV2]: getItemIconPath('IP35202'),
+    [ItemCode.DISCIPLINE_LIGHT_LV3]: getItemIconPath('IP35303'),
+    [ItemCode.DISCIPLINE_DARK_LV1]: getItemIconPath('IP35102'),
+    [ItemCode.DISCIPLINE_DARK_LV2]: getItemIconPath('IP35205'),
+    [ItemCode.DISCIPLINE_DARK_LV3]: getItemIconPath('IP35304'),
+    [ItemCode.DISCIPLINE_FRUIT]: getItemIconPath('IP35403'),
+    [ItemCode.EXP_LV1]: getItemIconPath('IP21001'),
+    [ItemCode.EXP_LV2]: getItemIconPath('IP21002'),
+    [ItemCode.EXP_LV3]: getItemIconPath('IP21003'),
+    [ItemCode.EXP_LV4]: getItemIconPath('IP21004'),
 }

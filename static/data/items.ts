@@ -483,8 +483,8 @@ const items: Item[] = [
             kr: "견고한 뿔"
         },
         combined: [
-            { code: 'CLAW_LV2', quantity: 4 },
-            { code: 'DUST_LV1', quantity: 4 }
+            { code: ItemCode.CLAW_LV2, quantity: 4 },
+            { code: ItemCode.DUST_LV1, quantity: 4 }
         ]
     },
     {
@@ -499,8 +499,8 @@ const items: Item[] = [
             kr: "날뛰는 소의 뿔"
         },
         combined: [
-            { code: 'HORN_LV1', quantity: 2 },
-            { code: 'DUST_LV2', quantity: 3 }
+            { code: ItemCode.HORN_LV1, quantity: 2 },
+            { code: ItemCode.DUST_LV2, quantity: 3 }
         ]
     },
     {
@@ -515,8 +515,8 @@ const items: Item[] = [
             kr: "은괴"
         },
         combined: [
-            { code: 'IRON_LV2', quantity: 4 },
-            { code: 'WATER_LV1', quantity: 4 }
+            { code: ItemCode.IRON_LV2, quantity: 4 },
+            { code: ItemCode.WATER_LV1, quantity: 4 }
         ]
     },
     {
@@ -531,8 +531,8 @@ const items: Item[] = [
             kr: "신성한 은괴"
         },
         combined: [
-            { code: 'SLIVER_LV1', quantity: 2 },
-            { code: 'MIXTURE_LV2', quantity: 3 }
+            { code: ItemCode.SLIVER_LV1, quantity: 2 },
+            { code: ItemCode.MIXTURE_LV2, quantity: 3 }
         ]
     },
     {
@@ -547,8 +547,8 @@ const items: Item[] = [
             kr: "의식용 기름"
         },
         combined: [
-            { code: 'WATER_LV2', quantity: 4 },
-            { code: 'MIXTURE_LV1', quantity: 4 }
+            { code: ItemCode.WATER_LV2, quantity: 4 },
+            { code: ItemCode.MIXTURE_LV1, quantity: 4 }
         ]
     },
     {
@@ -563,8 +563,8 @@ const items: Item[] = [
             kr: "신성한 기름"
         },
         combined: [
-            { code: 'OIL_LV1', quantity: 2 },
-            { code: 'DUST_LV2', quantity: 3 }
+            { code: ItemCode.OIL_LV1, quantity: 2 },
+            { code: ItemCode.DUST_LV2, quantity: 3 }
         ]
     },
     {
@@ -579,8 +579,8 @@ const items: Item[] = [
             kr: "부식토"
         },
         combined: [
-            { code: 'DUST_LV2', quantity: 4 },
-            { code: 'CLAW_LV1', quantity: 4 }
+            { code: ItemCode.DUST_LV2, quantity: 4 },
+            { code: ItemCode.CLAW_LV1, quantity: 4 }
         ]
     },
     {
@@ -595,8 +595,8 @@ const items: Item[] = [
             kr: "암흑룡의 결정"
         },
         combined: [
-            { code: 'CRYSTAL_LV1', quantity: 2 },
-            { code: 'WATER_LV2', quantity: 3 }
+            { code: ItemCode.CRYSTAL_LV1, quantity: 2 },
+            { code: ItemCode.WATER_LV2, quantity: 3 }
         ]
     },
     {
@@ -611,8 +611,8 @@ const items: Item[] = [
             kr: "맹독뱀의 독니"
         },
         combined: [
-            { code: 'CLAW_LV2', quantity: 4 },
-            { code: 'WATER_LV1', quantity: 4 }
+            { code: ItemCode.CLAW_LV2, quantity: 4 },
+            { code: ItemCode.WATER_LV1, quantity: 4 }
         ]
     },
     {
@@ -627,8 +627,8 @@ const items: Item[] = [
             kr: "사룡의 독니"
         },
         combined: [
-            { code: 'FANG_LV1', quantity: 2 },
-            { code: 'MIXTURE_LV2', quantity: 3 }
+            { code: ItemCode.FANG_LV1, quantity: 2 },
+            { code: ItemCode.MIXTURE_LV2, quantity: 3 }
         ]
     },
     {
@@ -643,8 +643,8 @@ const items: Item[] = [
             kr: "그리핀의 부리"
         },
         combined: [
-            { code: 'IRON_LV2', quantity: 4 },
-            { code: 'DUST_LV1', quantity: 4 }
+            { code: ItemCode.IRON_LV2, quantity: 4 },
+            { code: ItemCode.DUST_LV1, quantity: 4 }
         ]
     },
     {
@@ -659,8 +659,8 @@ const items: Item[] = [
             kr: "신성한 그리핀의 부리"
         },
         combined: [
-            { code: 'BEAK_LV1', quantity: 2 },
-            { code: 'CLAW_LV2', quantity: 3 }
+            { code: ItemCode.BEAK_LV1, quantity: 2 },
+            { code: ItemCode.CLAW_LV2, quantity: 3 }
         ]
     },
     {
@@ -675,8 +675,8 @@ const items: Item[] = [
             kr: "곰의 가죽"
         },
         combined: [
-            { code: 'MIXTURE_LV2', quantity: 4 },
-            { code: 'IRON_LV1', quantity: 4 }
+            { code: ItemCode.MIXTURE_LV2, quantity: 4 },
+            { code: ItemCode.IRON_LV1, quantity: 4 }
         ]
     },
     {
@@ -691,8 +691,8 @@ const items: Item[] = [
             kr: "거대 사슴의 모피"
         },
         combined: [
-            { code: 'SKIN_LV1', quantity: 2 },
-            { code: 'CLAW_LV2', quantity: 3 }
+            { code: ItemCode.SKIN_LV1, quantity: 2 },
+            { code: ItemCode.CLAW_LV2, quantity: 3 }
         ]
     },
     {
@@ -707,8 +707,8 @@ const items: Item[] = [
             kr: "저주의 책"
         },
         combined: [
-            { code: 'DUST_LV2', quantity: 4 },
-            { code: 'CLAW_LV1', quantity: 4 }
+            { code: ItemCode.DUST_LV2, quantity: 4 },
+            { code: ItemCode.CLAW_LV1, quantity: 4 }
         ]
     },
     {
@@ -723,8 +723,8 @@ const items: Item[] = [
             kr: "타락의 책"
         },
         combined: [
-            { code: 'BOOK_LV1', quantity: 2 },
-            { code: 'IRON_LV2', quantity: 3 }
+            { code: ItemCode.BOOK_LV1, quantity: 2 },
+            { code: ItemCode.IRON_LV2, quantity: 3 }
         ]
     },
     {
@@ -739,8 +739,8 @@ const items: Item[] = [
             kr: "아름다운 꼬리 깃털"
         },
         combined: [
-            { code: 'MIXTURE_LV2', quantity: 4 },
-            { code: 'MIXTURE_LV1', quantity: 4 }
+            { code: ItemCode.MIXTURE_LV2, quantity: 4 },
+            { code: ItemCode.MIXTURE_LV1, quantity: 4 }
         ]
     },
     {
@@ -755,8 +755,8 @@ const items: Item[] = [
             kr: "요괴의 꼬리 깃털"
         },
         combined: [
-            { code: 'FEATHER_LV1', quantity: 2 },
-            { code: 'WATER_LV2', quantity: 3 }
+            { code: ItemCode.FEATHER_LV1, quantity: 2 },
+            { code: ItemCode.WATER_LV2, quantity: 3 }
         ]
     },
     {
@@ -771,8 +771,8 @@ const items: Item[] = [
             kr: "벌레굴의 거미줄"
         },
         combined: [
-            { code: 'WATER_LV2', quantity: 4 },
-            { code: 'IRON_LV1', quantity: 4 }
+            { code: ItemCode.WATER_LV2, quantity: 4 },
+            { code: ItemCode.IRON_LV1, quantity: 4 }
         ]
     },
     {
@@ -787,8 +787,8 @@ const items: Item[] = [
             kr: "거미왕의 거미줄"
         },
         combined: [
-            { code: 'WEB_LV1', quantity: 2 },
-            { code: 'IRON_LV2', quantity: 3 }
+            { code: ItemCode.WEB_LV1, quantity: 2 },
+            { code: ItemCode.IRON_LV2, quantity: 3 }
         ]
     },
     {
@@ -826,6 +826,7 @@ const items: Item[] = [
             jp: "マッサージ器",
             kr: "바이브레이터"
         },
+        usageValue: 100
     },
     {
         type: ItemType.DISCIPLINE,
@@ -838,6 +839,7 @@ const items: Item[] = [
             jp: "触手",
             kr: "촉수"
         },
+        usageValue: 200
     },
     {
         type: ItemType.DISCIPLINE,
@@ -850,6 +852,7 @@ const items: Item[] = [
             jp: "ろうそく",
             kr: "양초"
         },
+        usageValue: 500
     },
     {
         type: ItemType.DISCIPLINE,
@@ -862,6 +865,7 @@ const items: Item[] = [
             jp: "アイスキャンディー",
             kr: "아이스 바"
         },
+        usageValue: 100
     },
     {
         type: ItemType.DISCIPLINE,
@@ -874,6 +878,7 @@ const items: Item[] = [
             jp: "スライム",
             kr: "슬라임"
         },
+        usageValue: 200
     },
     {
         type: ItemType.DISCIPLINE,
@@ -886,6 +891,7 @@ const items: Item[] = [
             jp: "搾乳器",
             kr: "유축기"
         },
+        usageValue: 500
     },
     {
         type: ItemType.DISCIPLINE,
@@ -898,6 +904,7 @@ const items: Item[] = [
             jp: "乳首クリトリス洗濯ばさみ",
             kr: "유두 클립"
         },
+        usageValue: 100
     },
     {
         type: ItemType.DISCIPLINE,
@@ -910,6 +917,7 @@ const items: Item[] = [
             jp: "藤のツル",
             kr: "덩굴"
         },
+        usageValue: 200
     },
     {
         type: ItemType.DISCIPLINE,
@@ -922,6 +930,7 @@ const items: Item[] = [
             jp: "革のムチ",
             kr: "채찍"
         },
+        usageValue: 500
     },
     {
         type: ItemType.DISCIPLINE,
@@ -934,6 +943,7 @@ const items: Item[] = [
             jp: "猫の尻尾型アナルビーズ",
             kr: "캣 테일"
         },
+        usageValue: 100
     },
     {
         type: ItemType.DISCIPLINE,
@@ -946,6 +956,7 @@ const items: Item[] = [
             jp: "ヤツメウナギ",
             kr: "칠성장어"
         },
+        usageValue: 200
     },
     {
         type: ItemType.DISCIPLINE,
@@ -958,6 +969,7 @@ const items: Item[] = [
             jp: "ビリビリ棒",
             kr: "전기충격기"
         },
+        usageValue: 500
     },
     {
         type: ItemType.DISCIPLINE,
@@ -970,6 +982,7 @@ const items: Item[] = [
             jp: "ローター",
             kr: "러브 에그"
         },
+        usageValue: 100
     },
     {
         type: ItemType.DISCIPLINE,
@@ -982,6 +995,7 @@ const items: Item[] = [
             jp: "淫魔蟲",
             kr: "음마충"
         },
+        usageValue: 200
     },
     {
         type: ItemType.DISCIPLINE,
@@ -994,6 +1008,7 @@ const items: Item[] = [
             jp: "短刀",
             kr: "단검"
         },
+        usageValue: 500
     },
     {
         type: ItemType.DISCIPLINE,
@@ -1006,6 +1021,59 @@ const items: Item[] = [
             jp: "禁忌の果実",
             kr: "금기의 열매"
         },
+        usageValue: 2000
+    },
+    {
+        type: ItemType.EXP,
+        code: ItemCode.EXP_LV1,
+        icon: ItemIcon.EXP_LV1,
+        name: {
+            tc: "小型經驗藥水",
+            sc: "小型经验药水",
+            en: "Small EXP Potion",
+            jp: "経験値ポーション(小)",
+            kr: "소형 경험치 포션"
+        },
+        usageValue: 200,
+    },
+    {
+        type: ItemType.EXP,
+        code: ItemCode.EXP_LV2,
+        icon: ItemIcon.EXP_LV2,
+        name: {
+            tc: "中型經驗藥水",
+            sc: "中型经验药水",
+            en: "Medium EXP Potion",
+            jp: "経験値ポーション(中)",
+            kr: "중형 경험치 포션"
+        },
+        usageValue: 400
+    },
+    {
+        type: ItemType.EXP,
+        code: ItemCode.EXP_LV3,
+        icon: ItemIcon.EXP_LV3,
+        name: {
+            tc: "大型經驗藥水",
+            sc: "大型经验药水",
+            en: "Large EXP Potion",
+            jp: "経験値ポーション(大)",
+            kr: "대형 경험치 포션"
+        },
+        usageValue: 1000
+    },
+    {
+        type: ItemType.EXP,
+        code: ItemCode.EXP_LV4,
+        icon: ItemIcon.EXP_LV4,
+        name: {
+            tc: "特大型經驗藥水",
+            sc: "特大型经验药水",
+            en: "Humongo EXP Potion",
+            jp: "経験値ポーション(特大)",
+            kr: "특대형 경험치 포션"
+        },
+        usageValue: 2000
     },
 ];
 

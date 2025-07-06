@@ -35,12 +35,12 @@
 import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
 import { Locale } from '@/plugins/utils/enums'
-import { MaterialSummary } from '@/interface/potential'
+import { ItemQty } from "~/interface/item";
 
 @Component
 export default class MaterialResult extends Vue {
     @Prop({ type: Array, required: true, default: [] })
-    summary!: MaterialSummary[];
+    summary!: ItemQty[];
 
     @Prop({ type: Boolean, required: true, default: false })
     showCombined!: boolean;
@@ -57,11 +57,11 @@ export default class MaterialResult extends Vue {
             : this.$t('Show Actual Material')
     }
 
-    showMaterialIcon(item: MaterialSummary): string {
+    showMaterialIcon(item: ItemQty): string {
         return this.$util.getItemIcon(item.code) ?? ''
     }
 
-    showMaterialText(item: MaterialSummary): string {
+    showMaterialText(item: ItemQty): string {
         const locale = this.$i18n.locale as keyof typeof Locale
         const material = this.$util.getItem(item.code)
         return material?.name[locale] ?? ''

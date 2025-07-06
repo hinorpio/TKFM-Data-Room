@@ -12,6 +12,12 @@ export interface Item {
     name: {
         [lang in Locale]?: null | string;
     },
-    combined?: CombinedItem[]
+    combined?: CombinedItem[];
+    usageValue?: number;
+}
+
+export interface ItemQty {
+    code: ItemCode | string;
+    quantity: number | string,
 }
   

@@ -18,7 +18,7 @@ import PotentialSelection from "./Potential/PotentialSelection.vue";
 import MaterialResult from "./Potential/MaterialResult.vue";
 import BuffResult from "./Potential/BuffResult.vue";
 import { Unit } from '@/interface/unit';
-import { PotentialSelectGroup } from '@/interface/potential'
+import { PotentialSelectGroup } from '~/interface/stat/potential'
 import { PotentialBuffIcon } from "~/static/const";
 
 @Component({
@@ -68,7 +68,7 @@ export default class PotentialTab extends Vue {
             }
         }
 
-        return this.$util.getCalculatedSummary(requiredSlotList, this.showCombined);
+        return this.$util.getCalculatedPotSummary(requiredSlotList, this.showCombined);
     }
 }
 </script>

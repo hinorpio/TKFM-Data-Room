@@ -26,6 +26,9 @@ export default {
     handleCopyLink(path: string): void{
         navigator.clipboard.writeText(`${path}`);
     },
+    deepClone(obj: any): any{
+        return JSON.parse(JSON.stringify(obj))
+    },
     async handleDownload(path: string): Promise<void>{
         try {
             const response = await fetch(path, {

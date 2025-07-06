@@ -1,8 +1,10 @@
-import { PotentialType, ItemType, ItemCode, PotentialBuffType } from '../enums';
-import { Potential, Slot, CalculatedSummary, MaterialSummary, StatSummary, PotentialSelectGroup } from '@/interface/potential';
+import { PotentialType, ItemType, ItemCode, PotentialBuffType } from '../../enums';
+import { Potential } from '~/interface/stat/potential';
+import potentialData from '~/static/data/stat/potential';
+import { Slot, CalculatedPotSummary, StatSummary, PotentialSelectGroup } from '~/interface/stat/potential';
 import { Item, CombinedItem } from '@/interface/item';
-import potentialData from '@/static/data/potential';
-import ItemService from './Items';
+import ItemService from '../Items';
+import { ItemQty } from '@/interface/item';
 
 export default {
     getPotential(type: PotentialType): Potential | undefined{
@@ -12,8 +14,8 @@ export default {
     getAllPotential(): Potential[]{
         return potentialData;
     },
-    
-    getCalculatedPotResult(potentialData: any, currentPotential: PotentialSelectGroup, targetPotential: PotentialSelectGroup, showCombined: boolean) {
+
+    getCalculatedPotResult(potentialData: any, currentPotential: PotentialSelectGroup, targetPotential: PotentialSelectGroup, showCombined: boolean): CalculatedPotSummary {
         const requiredSlotList = [];
         const startIndex = currentPotential.level - 1;
         const endIndex = targetPotential.level - 1;
@@ -38,7 +40,7 @@ export default {
             }
         }
 
-        return this.getCalculatedSummary(requiredSlotList, showCombined);
+        return this.getCalculatedPotSummary(requiredSlotList, showCombined);
     },
 
     getCalculateCondition(type: string, index: number, currentSlot: boolean[], targetSlot: boolean[]){
@@ -56,7 +58,7 @@ export default {
         }
     },
 
-    getCalculatedSummary(data: Slot[], showCombined: boolean): CalculatedSummary{
+    getCalculatedPotSummary(data: Slot[], showCombined: boolean): CalculatedPotSummary{
         const materialList: { [key: string]: number } = {};
         const statList: { [key: string]: number } = {};
 
@@ -85,7 +87,7 @@ export default {
             });
         });
         
-        const materialSummary: MaterialSummary[] = this.sortNonPotentialItemToLast(
+        const summary: ItemQty[] = this.sortNonPotentialItemToLast(
             Object.entries(materialList).map(([code, quantity]) => ({ 
                 code: code as ItemCode, 
                 quantity 
@@ -99,12 +101,12 @@ export default {
         )
         
         return { 
-            materialSummary, 
+            summary, 
             statSummary,
         };   
     },
 
-    sortNonPotentialItemToLast(summary: MaterialSummary[]): MaterialSummary[]{
+    sortNonPotentialItemToLast(summary: ItemQty[]): ItemQty[]{
         const generalItemList = summary.filter(item => item.code !== ItemCode.SLIVER_COIN && item.code !== ItemCode.SKILL_STONE && item.code !== ItemCode.SKILL_FRAGMENT )
         const notGeneralItemList = summary.filter(item => item.code === ItemCode.SLIVER_COIN || item.code === ItemCode.SKILL_STONE || item.code === ItemCode.SKILL_FRAGMENT )
 
@@ -112,7 +114,7 @@ export default {
             [ItemCode.SKILL_FRAGMENT]: 1,
             [ItemCode.SKILL_STONE]: 2,
             [ItemCode.SLIVER_COIN]: 3,
-          };
+            };
         
         notGeneralItemList.sort((a, b) => {
             const orderA = order[a.code];
@@ -136,4 +138,5 @@ export default {
             return orderA - orderB;
         });
     }
+    
 };

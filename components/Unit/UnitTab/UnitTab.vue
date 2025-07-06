@@ -4,8 +4,8 @@
             <v-tab>{{$t('General Information')}}</v-tab>
             <v-tab>{{$t('Skill Set')}}</v-tab>
             <v-tab v-if="isLiberate">{{$t('Liberation')}}</v-tab>
-            <v-tab>{{$t('Potential Calculator')}}</v-tab>
-            <v-tab>{{$t('Stat Cal')}}</v-tab>
+            <!-- <v-tab>{{$t('Potential Calculator')}}</v-tab> -->
+            <v-tab>{{$t('Stat Calculator')}}</v-tab>
             <v-tab v-if="isDiscipline">{{$t('Discipline')}}</v-tab>
             <v-tab v-if="isPuzzle">{{$t('Puzzle')}}</v-tab>
             <v-tab v-if="isOtherVersion">{{$t('Other Form')}}</v-tab>
@@ -21,9 +21,9 @@
             <v-tab-item v-if="isLiberate">
                 <liberation-tab :unit="unit" />
             </v-tab-item>
-            <v-tab-item>
+            <!-- <v-tab-item>
                 <potential-tab :unit="unit" />
-            </v-tab-item>
+            </v-tab-item> -->
             <v-tab-item>
                 <stat-cal-tab :unit="unit" />
             </v-tab-item>

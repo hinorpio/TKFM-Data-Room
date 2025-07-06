@@ -1,14 +1,10 @@
 
 import { Locale, SkillType, LiberationStage, ItemCode } from '@/plugins/utils/enums';
 import { Skill }  from './skillset';
-
-interface RequiredItem {
-    code: ItemCode | string;
-    quantity: number
-}
+import { ItemQty } from '../item';
 
 interface LiberateStage {
-    material: RequiredItem[],
+    material: ItemQty[],
     skill: {
         [lang in Locale]?: {
             [key in SkillType]?: Skill

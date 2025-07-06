@@ -1,12 +1,17 @@
 <template>
     <div v-if="isMounted">
-        {{ currentStat }}
         <v-col>
             <stat-selection class="pt-2 px-0" :unit="unit" :potentialData="potentialData" :currentStat.sync="currentStat" :targetStat.sync="targetStat" />
-            <material-result v-if="calculatedResult.materialSummary.length > 0" :summary="calculatedResult.materialSummary" :showCombined.sync="showCombined"/>
-            <buff-result v-if="calculatedResult.materialSummary.length > 0" :summary="calculatedResult.statSummary" />
+            <calculated-result v-if="isCalculated" 
+                :levelSummary="calculatedLevelResult"
+                :libSummary="calculatedLibResult"
+                :starSummary="calculatedStarResult"
+                :roomSummary="calculatedRoomResult"
+                :potSummary="calculatedPotResult"
+                :showTotal.sync="showTotal"
+                :showCombined.sync="showCombined"
+            />
         </v-col>
-        {{ targetStat }}
 
     </div>
 </template>
@@ -17,11 +22,13 @@ import { Prop, Watch } from "vue-property-decorator";
 import StatSelection from "./StatCal/StatSelection.vue";
 import MaterialResult from "./Potential/MaterialResult.vue";
 import BuffResult from "./Potential/BuffResult.vue";
+import CalculatedResult from "./StatCal/CalculatedResult.vue";
 import { Unit, StatGroup } from '@/interface/unit';
-import { PotentialSelectGroup } from '@/interface/potential'
+import { PotentialSelectGroup } from '~/interface/stat/potential'
 
 @Component({
     components: {
+        CalculatedResult,
         StatSelection,
         MaterialResult,
         BuffResult,
@@ -32,7 +39,9 @@ export default class StatCalTab extends Vue {
     unit!: Unit;
 
     isMounted: boolean = false;
+    showTotal: boolean = false;
     showCombined: boolean = false;
+
     potentialData: any = {};
     currentPotential: PotentialSelectGroup = { level: 1, slot: [false, false, false, false, false, false] };
     targetPotential: PotentialSelectGroup = { level: 1, slot: [false, false, false, false, false, false] };
@@ -40,21 +49,43 @@ export default class StatCalTab extends Vue {
     currentStat: StatGroup = this.getInitStatGroup(this.unit);
     targetStat: StatGroup = this.getInitStatGroup(this.unit);
 
-    currentLevel: number = 1;
-
     mounted(): void {
         this.potentialData = this.$util.getPotential(this.unit.potential);
         this.isMounted = true;
     }
 
+    get isCalculated() {
+        return this.calculatedLevelResult.summary.length > 0 ||
+            this.calculatedLibResult.summary.length > 0 ||
+            this.calculatedStarResult.summary.length > 0 ||
+            this.calculatedRoomResult.summary.length > 0 ||
+            this.calculatedPotResult.summary.length > 0
+    }
 
-    get calculatedResult() {
-        return this.$util.getCalculatedPotResult(this.potentialData, this.currentStat.pot, this.targetStat.pot, this.showCombined)
+    get calculatedLevelResult() {
+        return this.$util.getCalculatedLvResult(this.currentStat.level, this.targetStat.level);
+    }
+
+    get calculatedLibResult() {
+        return this.$util.getCalculatedLibResult(this.unit, this.currentStat.lib??null, this.targetStat.lib??null);
+    }
+
+    get calculatedStarResult() {
+        return this.$util.getCalculatedStarResult(this.unit, this.currentStat.star, this.targetStat.star);
+    }
+
+    get calculatedRoomResult() {
+        return this.$util.getCalculatedRoomResult(this.unit.rarity, this.unit.element, this.currentStat.room, this.targetStat.room)
+    }
+
+    get calculatedPotResult() {
+        // console.log(num / Math.pow(1.1, 59))
+        return this.$util.getCalculatedPotResult(this.potentialData, this.currentStat.pot, this.targetStat.pot, this.showCombined);
     }
 
     getInitStatGroup(unit: Unit): StatGroup {
-        const hp: number = 3345.5997594279465;
-        const atk: number = 1052.7977991802477;
+        const hp: number = 2316;
+        const atk: number = 700.8;
         return {
             initHP: hp,
             initATK: atk,

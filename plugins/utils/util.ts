@@ -1,6 +1,5 @@
 import Vue from 'vue'
 
-import Potential from "./components/Potential";
 import Global from "./components/Global";
 import UpdateLogs from './components/UpdateLogs';
 import Items from "./components/Items";
@@ -10,18 +9,19 @@ import Puzzles from "./components/Puzzles";
 import Events from "./components/Events";
 import Units from "./components/Units";
 import Arts from "./components/Arts";
+import StatCal from "./components/StatCal";
 
 const util = {
     ...Global,
     ...UpdateLogs,
     ...Items,
     ...Dispatch,
-    ...Potential,
     ...Tags,
     ...Puzzles,
     ...Events,
     ...Units,
     ...Arts,
+    ...StatCal
 }
 
 

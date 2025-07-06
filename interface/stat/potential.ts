@@ -1,5 +1,6 @@
 
 import { PotentialType, PotentialBuffType, ItemCode } from '@/plugins/utils/enums';
+import { ItemQty } from '../item';
 
 interface RequiredItem {
     code: ItemCode;
@@ -17,17 +18,13 @@ export interface Potential {
     detail: Slot[][]
 }
   
-export interface MaterialSummary {
-    code: ItemCode,
-    quantity: number,
-}
 export interface StatSummary {
     code: PotentialBuffType,
     value: number,
 }
 
-export interface CalculatedSummary {
-    materialSummary: MaterialSummary[],
+export interface CalculatedPotSummary {
+    summary: ItemQty[],
     statSummary: StatSummary[]
 }
 
