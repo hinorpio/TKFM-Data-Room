@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-row class="mt-4 mx-1 align-center">
-            <v-icon class="mr-2"> 
+            <v-icon color="grey" class="mr-2"> 
                 mdi-invoice-list 
             </v-icon>
             <span class="title font-weight-bold">{{ $t('Display') }}</span>
@@ -9,21 +9,25 @@
                 {{ showTotalText }}
             </v-btn>
         </v-row>
-        <v-row class="px-2">
-            <v-col v-if="roomSummary.summary.length > 0" class="align-center" :cols="12" :xl="6" :lg="12" :md="12" :sm="12" :xs="12">
-                <span class="subtitle font-weight-bold">{{ $t('Discipline Item') }}</span>
-                <v-btn v-for="(f, index) in 4" :key="index" class="ml-4" x-small :color="(roomItemLevel == (4-index))?'primary':'#272727'" @click="roomItemLevel = (4-index)">
-                    {{ `LV${(4-index)}` }}
-                </v-btn> 
-            </v-col>
-            <v-col v-if="potSummary.summary.length > 0" class="align-center" :cols="12" :xl="6" :lg="12" :md="12" :sm="12" :xs="12">
-                <span class="subtitle font-weight-bold">{{ $t('Potential') }}</span>
-                <v-btn class="ml-4" x-small @click="toggleShowCombined">
-                    {{ showCombinedText }}
-                </v-btn>
-            </v-col>
-        </v-row>
-        
+        <v-card class="outline-box my-6" outlined color="white">
+            <v-card-text class="pa-4">
+                <v-row class="px-0">
+                    <v-col v-if="roomSummary.summary.length > 0" class="align-center" :cols="12" :xl="6" :lg="12" :md="12" :sm="12" :xs="12">
+                        <span class="subtitle font-weight-bold">{{ $t('Discipline Item') }}</span>
+                        <br v-if="isMobile">
+                        <v-btn v-for="(f, index) in 4" :key="index" class="ml-4" x-small :color="(roomItemLevel == (4-index))?'primary':'#272727'" @click="roomItemLevel = (4-index)">
+                            {{ `LV${(4-index)}` }}
+                        </v-btn> 
+                    </v-col>
+                    <v-col v-if="potSummary.summary.length > 0" class="align-center" :cols="12" :xl="6" :lg="12" :md="12" :sm="12" :xs="12">
+                        <span class="subtitle font-weight-bold">{{ $t('Potential') }}</span>
+                        <v-btn class="ml-4" x-small @click="toggleShowCombined">
+                            {{ showCombinedText }}
+                        </v-btn>
+                    </v-col>
+                </v-row>
+            </v-card-text>
+        </v-card>
 
         <v-divider class="my-4"></v-divider>
 
@@ -98,6 +102,9 @@ export default class CalculateResult extends Vue {
     localShowTotal: boolean = this.showTotal;
     roomItemLevel: number = 4
 
+    get isMobile(): boolean {
+        return this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, true, false, false, false, false)
+    }
 
     get itemFontSize(): string {
         return `${this.$util.getValueByBreakPoint(this.$vuetify.breakpoint.name, 'body-2', 'body-2', 'body-1', 'body-1', 'body-1')} font-weight-bold`
