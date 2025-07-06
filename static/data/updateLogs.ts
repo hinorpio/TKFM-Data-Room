@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.6.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色數值計算`,
+                    [Locale.sc]: `角色数值计算`,
+                    [Locale.en]: `Stat Calculator`,
+                    [Locale.jp]: `ステータス計算機`,
+                    [Locale.kr]: `스탯 계산자`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `畫作/二創: 森屿海盐vv`,
+                    [Locale.sc]: `画作/二创: 森屿海盐vv`,
+                    [Locale.en]: `Artwork / Fanart: 森屿海盐vv`,
+                    [Locale.jp]: `アートワーク / 同人: 森屿海盐vv`,
+                    [Locale.kr]: `아트워크 / 팬 창작: 森屿海盐vv`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.5.13',
         logs: [
             {
