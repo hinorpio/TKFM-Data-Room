@@ -440,6 +440,27 @@ const XXBM_PAINTING_009 = `${cdnURL}/arts/fanart/xxbm/painting/9.png`
 const XXBM_PAINTING_010 = `${cdnURL}/arts/fanart/xxbm/painting/10.png`
 const XXBM_PAINTING_011 = `${cdnURL}/arts/fanart/xxbm/painting/11.png`
 
+const VV_PAINTING_001 = `${cdnURL}/arts/fanart/VV/painting/1.png`
+const VV_PAINTING_002 = `${cdnURL}/arts/fanart/VV/painting/2.png`
+const VV_PAINTING_003 = `${cdnURL}/arts/fanart/VV/painting/3.png`
+const VV_PAINTING_004 = `${cdnURL}/arts/fanart/VV/painting/4.png`
+const VV_PAINTING_005 = `${cdnURL}/arts/fanart/VV/painting/5.png`
+const VV_PAINTING_006 = `${cdnURL}/arts/fanart/VV/painting/6.png`
+const VV_PAINTING_007 = `${cdnURL}/arts/fanart/VV/painting/7.png`
+const VV_PAINTING_008 = `${cdnURL}/arts/fanart/VV/painting/8.png`
+const VV_PAINTING_009 = `${cdnURL}/arts/fanart/VV/painting/9.png`
+const VV_PAINTING_010 = `${cdnURL}/arts/fanart/VV/painting/10.png`
+const VV_PAINTING_011 = `${cdnURL}/arts/fanart/VV/painting/11.png`
+const VV_PAINTING_012 = `${cdnURL}/arts/fanart/VV/painting/12.png`
+const VV_PAINTING_013 = `${cdnURL}/arts/fanart/VV/painting/13.png`
+const VV_PAINTING_014 = `${cdnURL}/arts/fanart/VV/painting/14.png`
+const VV_PAINTING_015 = `${cdnURL}/arts/fanart/VV/painting/15.png`
+const VV_PAINTING_016 = `${cdnURL}/arts/fanart/VV/painting/16.png`
+const VV_PAINTING_017 = `${cdnURL}/arts/fanart/VV/painting/17.png`
+const VV_PAINTING_018 = `${cdnURL}/arts/fanart/VV/painting/18.png`
+const VV_PAINTING_019 = `${cdnURL}/arts/fanart/VV/painting/19.png`
+const VV_PAINTING_020 = `${cdnURL}/arts/fanart/VV/painting/20.png`
+
 const C_FANART_001 =`${cdnURL}/arts/fanart/C/non-r18/1.jpg`
 const C_FANART_002 =`${cdnURL}/arts/fanart/C/non-r18/2.jpg`
 const C_FANART_003 =`${cdnURL}/arts/fanart/C/non-r18/3.jpg`
@@ -960,6 +981,29 @@ export const XXBM_PAINTING = [
     XXBM_PAINTING_009,
     XXBM_PAINTING_010,
     XXBM_PAINTING_011,
+]
+
+export const VV_PAINTING = [
+    VV_PAINTING_001,
+    VV_PAINTING_002,
+    VV_PAINTING_003,
+    VV_PAINTING_004,
+    VV_PAINTING_005,
+    VV_PAINTING_006,
+    VV_PAINTING_007,
+    VV_PAINTING_008,
+    VV_PAINTING_009,
+    VV_PAINTING_010,
+    VV_PAINTING_011,
+    VV_PAINTING_012,
+    VV_PAINTING_013,
+    VV_PAINTING_014,
+    VV_PAINTING_015,
+    VV_PAINTING_016,
+    VV_PAINTING_017,
+    VV_PAINTING_018,
+    VV_PAINTING_019,
+    VV_PAINTING_020,
 ]
 
 export const C_FANART = [

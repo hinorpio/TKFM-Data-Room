@@ -23,6 +23,7 @@ import ANNA_PHOENIX_FANART from "./fanart/ANNA_PHOENIX_FANART"
 import XXBM_COMIC from "./fanart/XXBM_COMIC"
 import XXBM_NANA_STICKER from "./fanart/XXBM_NANA_STICKER"
 import XXBM_PAINTING from "./fanart/XXBM_PAINTING"
+import VV_PAINTING from "./fanart/VV_PAINTING"
 import C_FANART from "./fanart/C_FANART"
 import C_FANART_R18 from "./fanart/C_FANART_R18"
 
@@ -54,6 +55,7 @@ const fanartData = [
     XXBM_COMIC,
     XXBM_NANA_STICKER,
     XXBM_PAINTING,
+    VV_PAINTING,
     C_FANART,
     C_FANART_R18,
 ]
