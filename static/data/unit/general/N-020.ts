@@ -51,6 +51,8 @@ export const General_10919: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ],
     otherVersion: [],
+    initHP: 2800.996478094647,
+    initATK: 360.99877866378733,
     puzzle: [ PuzzleCode.SKY_PUNISHMENT, PuzzleCode.SKY_BLISS ],
     outfits: [],
     skillSet: []

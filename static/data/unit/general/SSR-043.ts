@@ -53,6 +53,8 @@ export const General_10020: Unit = {
         TagID.OTHER_WEAKEN,
     ],
     otherVersion: [ UnitCode.x_muila ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

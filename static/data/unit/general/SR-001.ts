@@ -53,6 +53,8 @@ export const General_10009: Unit = {
         TagID.OTHER_SUPPORT,
     ], 
     otherVersion: [ UnitCode.x_aiko, UnitCode.xx_aiko, UnitCode.s_aiko, UnitCode.p_aiko ],
+    initHP: 3032.3969661704327,
+    initATK: 767.1996260655412,
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_2 ],
     outfits: [],
     skillSet: []

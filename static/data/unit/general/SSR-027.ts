@@ -53,6 +53,8 @@ export const General_10045: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
      ],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

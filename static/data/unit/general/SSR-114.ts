@@ -45,6 +45,8 @@ export const General_10144: Unit = {
     clothes: UnitFullImage[UnitCode.s_caesar],
     tagList: [],
     otherVersion: [ UnitCode.f_caesar, UnitCode.n_caesar, UnitCode.ni_caesar ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [ PuzzleCode.EVENT_2024_SUMMER_3 ],
     outfits: [],
     skillSet: []

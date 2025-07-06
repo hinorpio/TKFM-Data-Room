@@ -52,6 +52,8 @@ export const General_10801: Unit = {
         TagID.OTHER_RECOVERY,
     ],
     otherVersion: [ UnitCode.d_irene ],
+    initHP: 2374.799351084146,
+    initATK: 683.9992070249906,
     puzzle: [],
     outfits: [],
     skillSet: []

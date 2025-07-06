@@ -45,6 +45,8 @@ export const General_10126: Unit = {
     clothes: UnitFullImage[UnitCode.h_shiro],
     tagList: [],
     otherVersion: [ UnitCode.shiro ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

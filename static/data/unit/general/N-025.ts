@@ -50,6 +50,8 @@ export const General_10933: Unit = {
         TagID.CLASS_SOLDIER
     ],
     otherVersion: [],
+    initHP: 1905.9976847012952,
+    initATK: 530.9978632652702,
     puzzle: [ PuzzleCode.HUMAN_ANYA ],
     outfits: [],
     skillSet: []

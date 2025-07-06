@@ -45,6 +45,8 @@ export const General_10054: Unit = {
     clothes: UnitFullImage[UnitCode.evie],
     tagList: [],
     otherVersion: [ UnitCode.w_evie, UnitCode.s_evie ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_1 ],
     outfits: [],
     skillSet: []

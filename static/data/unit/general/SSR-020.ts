@@ -45,6 +45,8 @@ export const General_10034: Unit = {
     clothes: UnitFullImage[UnitCode.asida],
     tagList: [],
     otherVersion: [ UnitCode.q_asida ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

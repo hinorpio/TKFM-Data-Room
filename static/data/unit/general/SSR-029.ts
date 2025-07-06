@@ -45,6 +45,8 @@ export const General_10043: Unit = {
     clothes: UnitFullImage[UnitCode.h_salucia],
     tagList: [],
     otherVersion: [ UnitCode.salucia, UnitCode.ny_salucia, UnitCode.s_salucia ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

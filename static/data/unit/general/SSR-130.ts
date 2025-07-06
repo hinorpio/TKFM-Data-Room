@@ -45,6 +45,8 @@ export const General_10175: Unit = {
     clothes: UnitFullImage[UnitCode.x_ichika],
     tagList: [],
     otherVersion: [ UnitCode.ichika ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [ PuzzleCode.EVENT_2024_XMAS_1 ],
     outfits: [],
     skillSet: []

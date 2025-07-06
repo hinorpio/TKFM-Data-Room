@@ -45,6 +45,8 @@ export const General_10120: Unit = {
     clothes: UnitFullImage[UnitCode.o_lana],
     tagList: [],
     otherVersion: [ UnitCode.lana, UnitCode.x_lana, UnitCode.ny_lana ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -45,6 +45,8 @@ export const General_10160: Unit = {
     clothes: UnitFullImage[UnitCode.bu_ayane],
     tagList: [],
     otherVersion: [ UnitCode.ayane, UnitCode.s_ayane, UnitCode.h_ayane, UnitCode.bg_ayane ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

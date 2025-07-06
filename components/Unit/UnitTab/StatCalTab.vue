@@ -84,11 +84,9 @@ export default class StatCalTab extends Vue {
     }
 
     getInitStatGroup(unit: Unit): StatGroup {
-        const hp: number = 2316;
-        const atk: number = 700.8;
         return {
-            initHP: hp,
-            initATK: atk,
+            initHP: unit.initHP,
+            initATK: unit.initATK,
             initStar: (unit.rarity == 'SSR')? 3 :(unit.rarity == 'SR')? 2 :(unit.rarity == 'R')? 1 :0,
             rarity: unit.rarity,
             level: 1,

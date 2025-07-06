@@ -52,6 +52,8 @@ export const General_10037: Unit = {
         TagID.OTHER_WEAKEN,
     ],
     otherVersion: [ UnitCode.w_mesmiia ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

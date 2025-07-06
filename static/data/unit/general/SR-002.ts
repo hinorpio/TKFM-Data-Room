@@ -55,6 +55,8 @@ export const General_10010: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ], 
     otherVersion: [ UnitCode.h_leona ],
+    initHP: 4264.399002697075,
+    initATK: 545.9977824948128,
     puzzle: [ PuzzleCode.HUMAN_MARTINA ],
     outfits: [],
     skillSet: []

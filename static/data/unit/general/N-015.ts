@@ -54,6 +54,8 @@ export const General_10915: Unit = {
         TagID.OTHER_WEAKEN,
     ],
     otherVersion: [],
+    initHP: 2053.9990553845014,
+    initATK: 491.99879580792134,
     puzzle: [ PuzzleCode.DEMON_HARPY ],
     outfits: [],
     skillSet: []

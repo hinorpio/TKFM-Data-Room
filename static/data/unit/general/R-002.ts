@@ -52,6 +52,8 @@ export const General_10802: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
     otherVersion: [ UnitCode.s_nana, UnitCode.c1_nana, UnitCode.o_nana, UnitCode.a_nana ],
+    initHP: 2315.9990896727695,
+    initATK: 700.798249514724,
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_XMAS_2 ],
     outfits: [],
     skillSet: []

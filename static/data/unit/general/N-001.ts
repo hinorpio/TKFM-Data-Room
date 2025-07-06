@@ -54,6 +54,8 @@ export const General_10901: Unit = {
         TagID.OTHER_DEFENSE,
     ],
     otherVersion: [],
+    initHP: 2811.9971414024403,
+    initATK: 359.9980615090226,
     puzzle: [ PuzzleCode.HUMAN_SARIA, PuzzleCode.DEMON_FLAY ],
     outfits: [],
     skillSet: []

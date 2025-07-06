@@ -54,6 +54,8 @@ export const General_10004: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [ UnitCode.h_salucia, UnitCode.ny_salucia, UnitCode.s_salucia ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

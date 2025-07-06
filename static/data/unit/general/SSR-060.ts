@@ -45,6 +45,8 @@ export const General_10094: Unit = {
     clothes: UnitFullImage[UnitCode.geneva],
     tagList: [],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

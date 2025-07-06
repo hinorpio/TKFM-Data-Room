@@ -49,6 +49,8 @@ export const General_10920: Unit = {
         TagID.CLASS_SOLDIER,
     ],
     otherVersion: [],
+    initHP: 1938.9996746246745,
+    initATK: 521.9986342670065,
     puzzle: [ PuzzleCode.SKY_BLISS, PuzzleCode.SKY_PUNISHMENT ],
     outfits: [],
     skillSet: []

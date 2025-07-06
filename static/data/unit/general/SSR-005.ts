@@ -55,6 +55,8 @@ export const General_10005: Unit = {
         TagID.OTHER_MORE_POWER,
     ],
     otherVersion: [ UnitCode.x_lana, UnitCode.ny_lana, UnitCode.o_lana ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

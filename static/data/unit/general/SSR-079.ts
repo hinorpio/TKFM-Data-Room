@@ -53,6 +53,8 @@ export const General_10048: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

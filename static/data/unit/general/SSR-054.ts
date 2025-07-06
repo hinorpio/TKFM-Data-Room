@@ -45,6 +45,8 @@ export const General_10085: Unit = {
     clothes: UnitFullImage[UnitCode.kana],
     tagList: [],
     otherVersion: [ UnitCode.f_kana ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

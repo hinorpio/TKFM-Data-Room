@@ -45,6 +45,8 @@ export const General_10159: Unit = {
     clothes: UnitFullImage[UnitCode.ny_fiora],
     tagList: [],
     otherVersion: [ UnitCode.fiora, UnitCode.hm_fiora, UnitCode.s_fiora ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

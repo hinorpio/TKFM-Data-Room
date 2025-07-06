@@ -31,6 +31,8 @@ export interface Unit {
     clothes: string[][];
     tagList: TagID[];
     otherVersion: UnitCode[];
+    initHP: number;
+    initATK: number;
     skillSet: SkillSet[];
     discipline?: Discipline[];
     liberateSkillSet?: LiberateSkillSet[];

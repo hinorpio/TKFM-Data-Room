@@ -51,6 +51,8 @@ export const General_10006: Unit = {
         TagID.OTHER_RECOVERY,
     ],
     otherVersion: [ UnitCode.s_lulu, UnitCode.w_lulu, UnitCode.c_lulu, UnitCode.p_lulu ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2024_XMAS_2 ],
     outfits: UnitOutfits[UnitCode.lulu],
     skillSet: []

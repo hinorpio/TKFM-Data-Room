@@ -45,6 +45,8 @@ export const General_10147: Unit = {
     clothes: UnitFullImage[UnitCode.oniyoiki],
     tagList: [],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

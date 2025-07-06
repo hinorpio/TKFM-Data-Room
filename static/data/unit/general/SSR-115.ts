@@ -45,6 +45,8 @@ export const General_10145: Unit = {
     clothes: UnitFullImage[UnitCode.s_satan],
     tagList: [],
     otherVersion: [ UnitCode.satan, UnitCode.e_satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.h_satan ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [ PuzzleCode.EVENT_2024_SUMMER_4 ],
     outfits: [],
     skillSet: []

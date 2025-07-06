@@ -45,6 +45,8 @@ export const General_10140: Unit = {
     clothes: UnitFullImage[UnitCode.lelya],
     tagList: [],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

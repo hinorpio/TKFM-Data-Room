@@ -45,6 +45,8 @@ export const General_10061: Unit = {
     clothes: UnitFullImage[UnitCode.teresa],
     tagList: [], 
     otherVersion: [],
+    initHP: 4549.997175811782,
+    initATK: 537.5982612499461,
     puzzle: [],
     outfits: [],
     skillSet: []

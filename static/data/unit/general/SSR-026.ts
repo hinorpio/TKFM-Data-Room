@@ -55,6 +55,8 @@ export const General_10056: Unit = {
         TagID.OTHER_COUNTERSTRIKE,
     ],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

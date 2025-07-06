@@ -53,6 +53,8 @@ export const General_10028: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [ UnitCode.w_chizuru, UnitCode.s_chizuru ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -52,6 +52,8 @@ export const General_10806: Unit = {
         TagID.OTHER_RECOVERY,
     ],
     otherVersion: [],
+    initHP: 2590.798910529021,
+    initATK: 626.3983611204079,
     puzzle: [],
     outfits: [],
     skillSet: []

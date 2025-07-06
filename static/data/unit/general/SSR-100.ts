@@ -45,6 +45,8 @@ export const General_10130: Unit = {
     clothes: UnitFullImage[UnitCode.salina],
     tagList: [],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_1 ],
     outfits: [],
     skillSet: []

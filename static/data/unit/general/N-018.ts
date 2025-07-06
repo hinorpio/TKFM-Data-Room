@@ -54,6 +54,8 @@ export const General_10918: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [],
+    initHP: 1850.9979808596388,
+    initATK: 545.9977824948128,
     puzzle: [ PuzzleCode.HUMAN_NATASHA, PuzzleCode.HUMAN_BLAIRE ],
     outfits: [],
     skillSet: []

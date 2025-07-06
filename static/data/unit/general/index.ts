@@ -442,6 +442,8 @@ export const DefaultUnit: Unit = {
     clothes: [],
     tagList: [],
     otherVersion: [],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     skillSet: []
 }

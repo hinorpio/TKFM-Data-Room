@@ -53,6 +53,8 @@ export const General_10905: Unit = {
         TagID.OTHER_WEAKEN,
     ],
     otherVersion: [],
+    initHP: 1843.9965734735952,
+    initATK: 548.9999339591071,
     puzzle: [ PuzzleCode.HUMAN_KIKYOU ],
     outfits: [],
     skillSet: []

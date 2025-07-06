@@ -54,6 +54,8 @@ export const General_10015: Unit = {
         TagID.OTHER_SUPPORT,
     ], 
     otherVersion: [ UnitCode.m_juneau ],
+    initHP: 2993.199200361055,
+    initATK: 776.9972611692309,
     puzzle: [],
     outfits: [],
     skillSet: []

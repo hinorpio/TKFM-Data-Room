@@ -45,6 +45,8 @@ export const General_10170: Unit = {
     clothes: UnitFullImage[UnitCode.w_tsubaki],
     tagList: [],
     otherVersion: [ UnitCode.tsubaki ],
+    initHP: 0,
+    initATK: 0,
     puzzle: [],
     outfits: UnitOutfits[UnitCode.w_tsubaki],
     skillSet: []
