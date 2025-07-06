@@ -45,8 +45,8 @@ export const General_10142: Unit = {
     clothes: UnitFullImage[UnitCode.s_chizuru],
     tagList: [],
     otherVersion: [ UnitCode.chizuru, UnitCode.w_chizuru ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3782.396540344873,
+    initATK: 931.1980204357451,
     puzzle: [ PuzzleCode.EVENT_2024_SUMMER_1 ],
     outfits: [],
     skillSet: []

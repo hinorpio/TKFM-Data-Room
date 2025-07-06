@@ -45,8 +45,8 @@ export const General_10161: Unit = {
     clothes: UnitFullImage[UnitCode.zaskia],
     tagList: [],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3660.7967616003702,
+    initATK: 963.1992932043598,
     puzzle: [],
     outfits: UnitOutfits[UnitCode.zaskia],
     skillSet: []

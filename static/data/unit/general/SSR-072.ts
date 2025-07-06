@@ -45,8 +45,8 @@ export const General_10108: Unit = {
     clothes: UnitFullImage[UnitCode.v_baal],
     tagList: [],
     otherVersion: [ UnitCode.baal, UnitCode.f_baal, UnitCode.b_baal, UnitCode.s_baal, UnitCode.x_baal ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 4409.596920268016,
+    initATK: 799.999304939582,
     puzzle: [],
     outfits: [],
     skillSet: []

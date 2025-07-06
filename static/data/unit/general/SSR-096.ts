@@ -45,8 +45,8 @@ export const General_10132: Unit = {
     clothes: UnitFullImage[UnitCode.cartilla],
     tagList: [],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 5185.597076979792,
+    initATK: 679.9999511032412,
     puzzle: [],
     outfits: [],
     skillSet: []

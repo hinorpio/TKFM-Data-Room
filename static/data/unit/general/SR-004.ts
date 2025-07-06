@@ -20,8 +20,8 @@ export const General_10012: Unit = {
         [Locale.kr]: "리츠키"
     },
     abbreviation: {
-        [Locale.tc]: [ "忍者", "普忍", "忍" ],
-        [Locale.sc]: [ "忍者", "普忍", "忍" ],
+        [Locale.tc]: [ "忍者", "普忍", "忍", "紅紅的上衣" ],
+        [Locale.sc]: [ "忍者", "普忍", "忍", "紅紅的上衣" ],
         [Locale.en]: [ "OG.Ritsuki" ],
         [Locale.jp]: [],
         [Locale.kr]: []

@@ -54,8 +54,8 @@ export const General_10039: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [ UnitCode.h_lotiya ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3367.998482747591,
+    initATK: 948.7990817282142,
     puzzle: [],
     outfits: [],
     skillSet: []

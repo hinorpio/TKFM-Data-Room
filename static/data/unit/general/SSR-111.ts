@@ -45,8 +45,8 @@ export const General_10141: Unit = {
     clothes: UnitFullImage[UnitCode.a_nana],
     tagList: [],
     otherVersion: [ UnitCode.nana, UnitCode.s_nana, UnitCode.c1_nana, UnitCode.o_nana ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3414.3999669923514,
+    initATK: 1031.9995007687648,
     puzzle: [],
     outfits: [],
     skillSet: []

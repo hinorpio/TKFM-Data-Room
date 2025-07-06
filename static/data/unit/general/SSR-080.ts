@@ -45,8 +45,8 @@ export const General_10113: Unit = {
     clothes: UnitFullImage[UnitCode.n_caesar],
     tagList: [],
     otherVersion: [ UnitCode.f_caesar, UnitCode.s_caesar, UnitCode.ni_caesar ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3385.59954404006,
+    initATK: 1041.5984375204255,
     puzzle: [],
     outfits: [],
     skillSet: []

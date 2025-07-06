@@ -53,8 +53,8 @@ export const General_10057: Unit = {
         TagID.OTHER_SUPPORT,
     ],
     otherVersion: [ UnitCode.susan ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3571.1982556244825,
+    initATK: 895.9995105481166,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -52,8 +52,8 @@ export const General_10021: Unit = {
         TagID.OTHER_SUPPORT,
     ],
     otherVersion: [ UnitCode.h_shiro ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3668.7988861411786,
+    initATK: 871.9967496230007,
     puzzle: [ PuzzleCode.EVENT_2024_XMAS_2 ],
     outfits: [],
     skillSet: []

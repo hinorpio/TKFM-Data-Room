@@ -20,8 +20,8 @@ export const General_10174: Unit = {
         [Locale.kr]: "포르네우스"
     },
     abbreviation: {
-        [Locale.tc]: [ "鯊魚" ],
-        [Locale.sc]: [ "鲨鱼" ],
+        [Locale.tc]: [ "鯊魚", "魔鯊" ],
+        [Locale.sc]: [ "鲨鱼", "魔鲨" ],
         [Locale.en]: [ "Shark" ],
         [Locale.jp]: [],
         [Locale.kr]: [ "포르네" ]
@@ -45,8 +45,8 @@ export const General_10174: Unit = {
     clothes: UnitFullImage[UnitCode.forneusa],
     tagList: [],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 5463.998757053735,
+    initATK: 644.797828518303,
     puzzle: [ PuzzleCode.EVENT_2025_SUMMER_4 ],
     outfits: [],
     skillSet: []

@@ -51,8 +51,8 @@ export const General_10084: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ],
     otherVersion: [ UnitCode.d_miru ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3326.3982732273157,
+    initATK: 961.5988682961981,
     puzzle: [],
     outfits: [],
     skillSet: []

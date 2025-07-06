@@ -45,8 +45,8 @@ export const General_10095: Unit = {
     clothes: UnitFullImage[UnitCode.h_leona],
     tagList: [],
     otherVersion: [ UnitCode.leona ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 4724.79753513775,
+    initATK: 745.5993088513227,
     puzzle: [],
     outfits: [],
     skillSet: []

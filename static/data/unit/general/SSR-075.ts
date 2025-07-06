@@ -45,8 +45,8 @@ export const General_10069: Unit = {
     clothes: UnitFullImage[UnitCode.lillane],
     tagList: [],
     otherVersion: [ UnitCode.w_lillane ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3699.199734001632,
+    initATK: 951.9999315445376,
     puzzle: [],
     outfits: [],
     skillSet: []

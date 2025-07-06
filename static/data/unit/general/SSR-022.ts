@@ -52,8 +52,8 @@ export const General_10033: Unit = {
         TagID.OTHER_WEAKEN,
     ],
     otherVersion: [ UnitCode.s_aridya, UnitCode.x_aridya ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 4729.598809862235,
+    initATK: 675.1986763787561,
     puzzle: [],
     outfits: [],
     skillSet: []

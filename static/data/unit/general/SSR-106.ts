@@ -45,8 +45,8 @@ export const General_10136: Unit = {
     clothes: UnitFullImage[UnitCode.angelina],
     tagList: [],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3924.798230198168,
+    initATK: 897.5999354562783,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -45,8 +45,8 @@ export const General_10067: Unit = {
     clothes: UnitFullImage[UnitCode.tm_minayomi],
     tagList: [],
     otherVersion: [ UnitCode.minayomi, UnitCode.d_minayomi ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3484.7969867676084,
+    initATK: 1011.1975896599723,
     puzzle: [],
     outfits: [],
     skillSet: []

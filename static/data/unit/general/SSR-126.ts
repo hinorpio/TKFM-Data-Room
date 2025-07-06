@@ -45,8 +45,8 @@ export const General_10155: Unit = {
     clothes: UnitFullImage[UnitCode.m_ks8],
     tagList: [],
     otherVersion: [ UnitCode.ks8, UnitCode.s_ks8 ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3999.99652469791,
+    initATK: 881.5992990719709,
     puzzle: [],
     outfits: [],
     skillSet: []

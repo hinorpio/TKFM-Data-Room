@@ -45,8 +45,8 @@ export const General_10176: Unit = {
     clothes: UnitFullImage[UnitCode.bedard],
     tagList: [],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 5046.39984964013,
+    initATK: 697.5973996984006,
     puzzle: [],
     outfits: [],
     skillSet: []

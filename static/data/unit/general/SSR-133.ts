@@ -45,8 +45,8 @@ export const General_10162: Unit = {
     clothes: UnitFullImage[UnitCode.p_aiko],
     tagList: [],
     otherVersion: [ UnitCode.aiko, UnitCode.x_aiko, UnitCode.xx_aiko, UnitCode.s_aiko ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3598.398253668612,
+    initATK: 979.1999295886673,
     puzzle: [],
     outfits: [],
     skillSet: []

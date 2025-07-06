@@ -45,8 +45,8 @@ export const General_10079: Unit = {
     clothes: UnitFullImage[UnitCode.tm_ritsuki],
     tagList: [],
     otherVersion: [ UnitCode.ritsuki ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3476.7984749241095,
+    initATK: 1012.798014568134,
     puzzle: [],
     outfits: [],
     skillSet: []

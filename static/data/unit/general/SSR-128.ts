@@ -45,8 +45,8 @@ export const General_10157: Unit = {
     clothes: UnitFullImage[UnitCode.x_muila],
     tagList: [],
     otherVersion: [ UnitCode.muila ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3455.996563815317,
+    initATK: 1019.1997142007808,
     puzzle: [ PuzzleCode.EVENT_2024_XMAS_1 ],
     outfits: [],
     skillSet: []

@@ -45,8 +45,8 @@ export const General_10090: Unit = {
     clothes: UnitFullImage[UnitCode.s_milae],
     tagList: [],
     otherVersion: [ UnitCode.milae ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3596.7978287604506,
+    initATK: 979.1999295886673,
     puzzle: [ PuzzleCode.EVENT_2022_SUMMER_2 ],
     outfits: [],
     skillSet: []

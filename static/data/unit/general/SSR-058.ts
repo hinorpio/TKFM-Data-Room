@@ -52,8 +52,8 @@ export const General_10066: Unit = {
         TagID.OTHER_MORE_POWER,
     ],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3431.9974155875107,
+    initATK: 931.1980204357451,
     puzzle: [],
     outfits: [],
     skillSet: []

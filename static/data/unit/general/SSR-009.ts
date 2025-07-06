@@ -45,8 +45,8 @@ export const General_10026: Unit = {
     clothes: UnitFullImage[UnitCode.noel],
     tagList: [],
     otherVersion: [ UnitCode.s_noel, UnitCode.w_noel, UnitCode.c_noel ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3539.1969828558676,
+    initATK: 903.9980223916155,
     puzzle: [],
     outfits: [],
     skillSet: []

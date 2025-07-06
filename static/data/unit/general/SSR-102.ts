@@ -45,8 +45,8 @@ export const General_10023: Unit = {
     clothes: UnitFullImage[UnitCode.belladonna],
     tagList: [],
     otherVersion: [],
-    initHP: 0,
-    initATK: 0,
+    initHP: 4409.596920268016,
+    initATK: 799.999304939582,
     puzzle: [],
     outfits: [],
     skillSet: []

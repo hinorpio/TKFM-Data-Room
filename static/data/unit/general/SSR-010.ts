@@ -53,8 +53,8 @@ export const General_10008: Unit = {
         TagID.OTHER_MORE_POWER,
     ],
     otherVersion: [ UnitCode.s_ks8, UnitCode.m_ks8 ],
-    initHP: 0,
-    initATK: 0,
+    initHP: 3388.796781159074,
+    initATK: 943.9978070037291,
     puzzle: [],
     outfits: [],
     skillSet: []
