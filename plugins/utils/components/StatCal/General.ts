@@ -1,5 +1,6 @@
 import { Unit, StatGroup } from '@/interface/unit';
 import PotentialService from './Potential';
+import { log } from 'console';
 
 export default {
 
@@ -31,5 +32,10 @@ export default {
         const buffBase = (type == 'HP')?stat.initHP :stat.initATK
         return Math.floor(buffBase * levelBuff * libBuff * starBuff * roomBuff * potBuff)
     },
+    getInitStatus(value: number): number {
+        let result = value / Math.pow(1.1, 59)
+        console.log(result);
+        return result
+    }
     
 };

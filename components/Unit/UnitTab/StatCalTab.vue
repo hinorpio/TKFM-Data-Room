@@ -79,7 +79,6 @@ export default class StatCalTab extends Vue {
     }
 
     get calculatedPotResult() {
-        // console.log(num / Math.pow(1.1, 59))
         return this.$util.getCalculatedPotResult(this.potentialData, this.currentStat.pot, this.targetStat.pot, this.showCombined);
     }
 
