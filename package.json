@@ -1,6 +1,6 @@
 {
   "name": "tkfm-data-room",
-  "version": "beta 0.5.13",
+  "version": "beta 0.6.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
