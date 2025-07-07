@@ -2,6 +2,21 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.6.1',
+        logs: [
+            {
+                type: LogType.FIX,
+                content: {
+                    [Locale.tc]: `角色數值計算`,
+                    [Locale.sc]: `角色数值计算`,
+                    [Locale.en]: `Stat Calculator`,
+                    [Locale.jp]: `ステータス計算機`,
+                    [Locale.kr]: `스탯 계산자`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.6.0',
         logs: [
             {
