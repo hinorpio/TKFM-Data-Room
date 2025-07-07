@@ -45,8 +45,8 @@ export const General_10074: Unit = {
     clothes: UnitFullImage[UnitCode.ichika],
     tagList: [],
     otherVersion: [ UnitCode.x_ichika ],
-    initHP: 3791.999089793843,
-    initATK: 929.5975955275834,
+    initHP: 3792,
+    initATK: 929.6,
     puzzle: [],
     outfits: [],
     skillSet: []

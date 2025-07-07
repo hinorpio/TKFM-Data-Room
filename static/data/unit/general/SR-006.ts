@@ -54,8 +54,8 @@ export const General_10014: Unit = {
         TagID.OTHER_WEAKEN,
     ], 
     otherVersion: [ UnitCode.s_shizuka, UnitCode.x_shizuka, UnitCode.beer_shizuka ],
-    initHP: 3032.3969661704327,
-    initATK: 767.1996260655412,
+    initHP: 3032.4,
+    initATK: 767.2,
     puzzle: [],
     outfits: [],
     skillSet: []

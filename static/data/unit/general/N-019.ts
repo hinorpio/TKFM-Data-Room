@@ -53,8 +53,8 @@ export const General_10922: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ],
     otherVersion: [],
-    initHP: 1938.9996746246745,
-    initATK: 521.9986342670065,
+    initHP: 1939,
+    initATK: 522,
     puzzle: [],
     outfits: [],
     skillSet: []

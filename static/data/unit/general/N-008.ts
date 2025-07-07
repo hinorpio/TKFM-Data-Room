@@ -54,8 +54,8 @@ export const General_10908: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [],
-    initHP: 2044.9998263862376,
-    initATK: 494.99733457490606,
+    initHP: 2045,
+    initATK: 495,
     puzzle: [ PuzzleCode.HUMAN_KANI ],
     outfits: [],
     skillSet: []

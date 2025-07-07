@@ -45,8 +45,8 @@ export const General_10811: Unit = {
     clothes: UnitFullImage[UnitCode.jolina],
     tagList: [],
     otherVersion: [],
-    initHP: 2578.7975300664634,
-    initATK: 628.7971921339956,
+    initHP: 2578.8,
+    initATK: 628.8,
     puzzle: [],
     outfits: [],
     skillSet: []

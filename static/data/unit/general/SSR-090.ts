@@ -45,8 +45,8 @@ export const General_10122: Unit = {
     clothes: UnitFullImage[UnitCode.a_usagihime],
     tagList: [],
     otherVersion: [ UnitCode.usagihime ],
-    initHP: 3279.9967889825552,
-    initATK: 1075.1965224998921,
+    initHP: 3280,
+    initATK: 1075.2,
     puzzle: [],
     outfits: [],
     skillSet: []

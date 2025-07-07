@@ -45,8 +45,8 @@ export const General_10035: Unit = {
     clothes: UnitFullImage[UnitCode.asina],
     tagList: [],
     otherVersion: [ UnitCode.q_asina ],
-    initHP: 3441.599965036481,
-    initATK: 1023.9973762279564,
+    initHP: 3441.6,
+    initATK: 1024,
     puzzle: [],
     outfits: [],
     skillSet: []

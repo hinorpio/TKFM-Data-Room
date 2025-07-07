@@ -45,8 +45,8 @@ export const General_10169: Unit = {
     clothes: UnitFullImage[UnitCode.momDaphne],
     tagList: [],
     otherVersion: [],
-    initHP: 3991.998012854411,
-    initATK: 883.1997239801326,
+    initHP: 3992,
+    initATK: 883.2,
     puzzle: [],
     outfits: [],
     skillSet: []

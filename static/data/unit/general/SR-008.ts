@@ -55,8 +55,8 @@ export const General_10016: Unit = {
         TagID.OTHER_AOE,
     ], 
     otherVersion: [ UnitCode.h_britney, UnitCode.m_britney, UnitCode.x_britney ],
-    initHP: 3158.3970102380526,
-    initATK: 736.3977688037204,
+    initHP: 3158.4,
+    initATK: 736.4,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -53,8 +53,8 @@ export const General_10904: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
     otherVersion: [],
-    initHP: 1820.9981424005537,
-    initATK: 554.9970114930765,
+    initHP: 1821,
+    initATK: 555,
     puzzle: [ PuzzleCode.DEMON_MANUELLA ],
     outfits: [],
     skillSet: []

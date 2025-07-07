@@ -45,8 +45,8 @@ export const General_10116: Unit = {
     clothes: UnitFullImage[UnitCode.s_ayane],
     tagList: [],
     otherVersion: [ UnitCode.ayane, UnitCode.h_ayane, UnitCode.bg_ayane, UnitCode.bu_ayane ],
-    initHP: 3399.999755516206,
-    initATK: 1036.7971627959403,
+    initHP: 3400,
+    initATK: 1036.8,
     puzzle: [ PuzzleCode.EVENT_2023_SUMMER_4 ],
     outfits: [],
     skillSet: []

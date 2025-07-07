@@ -51,8 +51,8 @@ export const General_10007: Unit = {
         TagID.OTHER_SUPPORT,
     ],
     otherVersion: [ UnitCode.s_milae ],
-    initHP: 3395.1984807917206,
-    initATK: 940.7969571874057,
+    initHP: 3395.2,
+    initATK: 940.8,
     puzzle: [],
     outfits: [],
     skillSet: []

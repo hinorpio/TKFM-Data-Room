@@ -45,8 +45,8 @@ export const General_10174: Unit = {
     clothes: UnitFullImage[UnitCode.forneusa],
     tagList: [],
     otherVersion: [],
-    initHP: 5463.998757053735,
-    initATK: 644.797828518303,
+    initHP: 5464,
+    initATK: 644.8,
     puzzle: [ PuzzleCode.EVENT_2025_SUMMER_4 ],
     outfits: [],
     skillSet: []

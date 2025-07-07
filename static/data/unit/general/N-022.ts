@@ -54,8 +54,8 @@ export const General_10923: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ],
     otherVersion: [],
-    initHP: 1756.9992095606337,
-    initATK: 575.997620953898,
+    initHP: 1757,
+    initATK: 576,
     puzzle: [ PuzzleCode.DEMON_MAREYL ],
     outfits: [],
     skillSet: []

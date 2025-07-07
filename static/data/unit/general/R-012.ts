@@ -45,8 +45,8 @@ export const General_10809: Unit = {
     clothes: UnitFullImage[UnitCode.mia],
     tagList: [],
     otherVersion: [],
-    initHP: 2693.999221875629,
-    initATK: 602.3992128926017,
+    initHP: 2694,
+    initATK: 602.4,
     puzzle: [],
     outfits: [],
     skillSet: []

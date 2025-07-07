@@ -55,8 +55,8 @@ export const General_10913: Unit = {
         TagID.OTHER_INTERFERENCE,
     ],
     otherVersion: [],
-    initHP: 2361.999564516162,
-    initATK: 427.9998629680015,
+    initHP: 2362,
+    initATK: 428,
     puzzle: [ PuzzleCode.DEMON_MINNOW ],
     outfits: [],
     skillSet: []

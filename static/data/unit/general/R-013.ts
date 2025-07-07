@@ -52,8 +52,8 @@ export const General_10813: Unit = {
         TagID.OTHER_RECOVERY,
     ],
     otherVersion: [],
-    initHP: 2488.798014689208,
-    initATK: 651.596924855008,
+    initHP: 2488.8,
+    initATK: 651.6,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -45,8 +45,8 @@ export const General_10135: Unit = {
     clothes: UnitFullImage[UnitCode.w_mesmiia],
     tagList: [],
     otherVersion: [ UnitCode.mesmiia ],
-    initHP: 3305.599974815833,
-    initATK: 1065.5975857482317,
+    initHP: 3305.6,
+    initATK: 1065.6,
     puzzle: [],
     outfits: [],
     skillSet: []

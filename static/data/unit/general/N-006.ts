@@ -53,8 +53,8 @@ export const General_10906: Unit = {
         TagID.OTHER_RECOVERY,
     ],
     otherVersion: [],
-    initHP: 2744.9996697955357,
-    initATK: 367.99657335252147,
+    initHP: 2745,
+    initATK: 368,
     puzzle: [ PuzzleCode.HUMAN_KAEDE ],
     outfits: [],
     skillSet: []

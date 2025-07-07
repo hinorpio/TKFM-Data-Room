@@ -55,8 +55,8 @@ export const General_10912: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ],
     otherVersion: [],
-    initHP: 2800.996478094647,
-    initATK: 360.99877866378733,
+    initHP: 2801,
+    initATK: 361,
     puzzle: [ PuzzleCode.DEMON_LORI ],
     outfits: UnitOutfits[UnitCode.lori],
     skillSet: []

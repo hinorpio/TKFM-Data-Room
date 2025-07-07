@@ -52,8 +52,8 @@ export const General_10808: Unit = {
         TagID.OTHER_WEAKEN,
     ],
     otherVersion: [],
-    initHP: 2445.597380260771,
-    initATK: 663.598305317566,
+    initHP: 2445.6,
+    initATK: 663.6,
     puzzle: [],
     outfits: [],
     skillSet: []

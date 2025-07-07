@@ -45,8 +45,8 @@ export const General_10127: Unit = {
     clothes: UnitFullImage[UnitCode.x_aridya],
     tagList: [],
     otherVersion: [ UnitCode.aridya, UnitCode.s_aridya ],
-    initHP: 3332.7999728599625,
-    initATK: 1057.5990739047327,
+    initHP: 3332.8,
+    initATK: 1057.6,
     puzzle: [],
     outfits: [],
     skillSet: []

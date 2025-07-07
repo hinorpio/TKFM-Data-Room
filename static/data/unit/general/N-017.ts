@@ -54,8 +54,8 @@ export const General_10917: Unit = {
         TagID.OTHER_DEFENSE,
     ],
     otherVersion: [],
-    initHP: 1999.9964560003002,
-    initATK: 505.9979978826992,
+    initHP: 2000,
+    initATK: 506,
     puzzle: [ PuzzleCode.HUMAN_BLAIRE, PuzzleCode.HUMAN_ANNA ],
     outfits: [],
     skillSet: []

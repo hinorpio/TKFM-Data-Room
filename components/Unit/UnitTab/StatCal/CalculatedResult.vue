@@ -9,7 +9,7 @@
                 {{ showTotalText }}
             </v-btn>
         </v-row>
-        <v-card class="outline-box my-6" outlined color="white">
+        <v-card v-if="roomSummary.summary.length > 0 || potSummary.summary.length > 0" class="outline-box my-6" outlined color="white">
             <v-card-text class="pa-4">
                 <v-row class="px-0">
                     <v-col v-if="roomSummary.summary.length > 0" class="align-center" :cols="12" :xl="6" :lg="12" :md="12" :sm="12" :xs="12">

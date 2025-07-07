@@ -45,8 +45,8 @@ export const General_10114: Unit = {
     clothes: UnitFullImage[UnitCode.m_juneau],
     tagList: [],
     otherVersion: [ UnitCode.juneau ],
-    initHP: 3651.19782484871,
-    initATK: 964.7997181125215,
+    initHP: 3651.2,
+    initATK: 964.8,
     puzzle: [],
     outfits: [],
     skillSet: []

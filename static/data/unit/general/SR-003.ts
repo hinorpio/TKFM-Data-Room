@@ -53,8 +53,8 @@ export const General_10011: Unit = {
         TagID.OTHER_RECOVERY,
     ], 
     otherVersion: [ UnitCode.hm_fiora, UnitCode.s_fiora, UnitCode.ny_fiora ],
-    initHP: 3100.998475382809,
-    initATK: 750.3969708784982,
+    initHP: 3101,
+    initATK: 750.4,
     puzzle: [],
     outfits: [],
     skillSet: []

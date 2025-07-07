@@ -45,8 +45,8 @@ export const General_10083: Unit = {
     clothes: UnitFullImage[UnitCode.sakuya],
     tagList: [],
     otherVersion: [],
-    initHP: 3580.797192376143,
-    initATK: 983.9975916158427,
+    initHP: 3580.8,
+    initATK: 984,
     puzzle: [],
     outfits: [],
     skillSet: []

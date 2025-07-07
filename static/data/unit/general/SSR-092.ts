@@ -45,8 +45,8 @@ export const General_10124: Unit = {
     clothes: UnitFullImage[UnitCode.nyoro],
     tagList: [],
     otherVersion: [],
-    initHP: 3499.197198243754,
-    initATK: 1007.9967398436489,
+    initHP: 3499.2,
+    initATK: 1008,
     puzzle: [],
     outfits: [],
     skillSet: []

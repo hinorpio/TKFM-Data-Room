@@ -54,8 +54,8 @@ export const General_10063: Unit = {
         TagID.OTHER_SUPPORT,
     ],
     otherVersion: [],
-    initHP: 3388.796781159074,
-    initATK: 943.9978070037291,
+    initHP: 3388.8,
+    initATK: 944,
     puzzle: [ PuzzleCode.EVENT_2023_XMAS_2 ],
     outfits: [],
     skillSet: []

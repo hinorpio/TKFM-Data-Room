@@ -45,8 +45,8 @@ export const General_10077: Unit = {
     clothes: UnitFullImage[UnitCode.bayliss],
     tagList: [],
     otherVersion: [],
-    initHP: 4934.399007647288,
-    initATK: 713.598036082708,
+    initHP: 4934.4,
+    initATK: 713.6,
     puzzle: [],
     outfits: [],
     skillSet: []

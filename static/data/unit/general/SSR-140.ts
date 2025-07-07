@@ -45,8 +45,8 @@ export const General_10168: Unit = {
     clothes: UnitFullImage[UnitCode.eunice],
     tagList: [],
     otherVersion: [],
-    initHP: 3835.19972422228,
-    initATK: 918.3982338677612,
+    initHP: 3835.2,
+    initATK: 918.4,
     puzzle: [],
     outfits: [],
     skillSet: []

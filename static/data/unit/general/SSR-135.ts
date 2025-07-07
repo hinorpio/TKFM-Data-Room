@@ -45,8 +45,8 @@ export const General_10164: Unit = {
     clothes: UnitFullImage[UnitCode.f_kana],
     tagList: [],
     otherVersion: [ UnitCode.kana ],
-    initHP: 4900.797309970511,
-    initATK: 718.399310807193,
+    initHP: 4900.8,
+    initATK: 718.4,
     puzzle: [],
     outfits: [],
     skillSet: []

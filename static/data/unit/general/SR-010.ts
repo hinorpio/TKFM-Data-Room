@@ -55,8 +55,8 @@ export const General_10038: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
     ], 
     otherVersion: [ UnitCode.p_tyrella ],
-    initHP: 2909.1967625177685,
-    initATK: 799.399597186185,
+    initHP: 2909.2,
+    initATK: 799.4,
     puzzle: [],
     outfits: [],
     skillSet: []

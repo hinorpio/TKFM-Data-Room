@@ -45,8 +45,8 @@ export const General_10096: Unit = {
     clothes: UnitFullImage[UnitCode.h_lotiya],
     tagList: [],
     otherVersion: [ UnitCode.lotiya ],
-    initHP: 3230.398067618781,
-    initATK: 1091.1971588841996,
+    initHP: 3230.4,
+    initATK: 1091.2,
     puzzle: [],
     outfits: [],
     skillSet: []

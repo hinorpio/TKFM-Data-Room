@@ -55,8 +55,8 @@ export const General_10909: Unit = {
         TagID.OTHER_AOE,
     ],
     otherVersion: [],
-    initHP: 2766.9973837138123,
-    initATK: 364.9980345855368,
+    initHP: 2767,
+    initATK: 365,
     puzzle: [ PuzzleCode.HUMAN_CHARLENE ],
     outfits: [],
     skillSet: []

@@ -45,8 +45,8 @@ export const General_10123: Unit = {
     clothes: UnitFullImage[UnitCode.d_miru],
     tagList: [],
     otherVersion: [ UnitCode.miru ],
-    initHP: 3359.999970904092,
-    initATK: 1049.5969493639243,
+    initHP: 3360,
+    initATK: 1049.6,
     puzzle: [],
     outfits: [],
     skillSet: []

@@ -45,8 +45,8 @@ export const General_10139: Unit = {
     clothes: UnitFullImage[UnitCode.p_tyrella],
     tagList: [],
     otherVersion: [ UnitCode.tyrella ],
-    initHP: 3319.996573594669,
-    initATK: 1062.3967359319083,
+    initHP: 3320,
+    initATK: 1062.4,
     puzzle: [],
     outfits: [],
     skillSet: []

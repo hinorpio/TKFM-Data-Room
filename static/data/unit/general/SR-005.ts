@@ -54,8 +54,8 @@ export const General_10013: Unit = {
         TagID.OTHER_MORE_POWER,
     ], 
     otherVersion: [ UnitCode.tm_minayomi, UnitCode.d_minayomi ],
-    initHP: 2773.399083346459,
-    initATK: 838.597362995563,
+    initHP: 2773.4,
+    initATK: 838.6,
     puzzle: [],
     outfits: [],
     skillSet: []

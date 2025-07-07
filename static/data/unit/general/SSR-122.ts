@@ -45,8 +45,8 @@ export const General_10151: Unit = {
     clothes: UnitFullImage[UnitCode.bg_iblis],
     tagList: [],
     otherVersion: [ UnitCode.iblis, UnitCode.i_iblis, UnitCode.b_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis, UnitCode.ss_iblis ],
-    initHP: 3563.1997437809837,
-    initATK: 988.7988663403278,
+    initHP: 3563.2,
+    initATK: 988.8,
     puzzle: [],
     outfits: [],
     skillSet: []

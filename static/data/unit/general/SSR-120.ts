@@ -45,8 +45,8 @@ export const General_10044: Unit = {
     clothes: UnitFullImage[UnitCode.amethystina],
     tagList: [],
     otherVersion: [],
-    initHP: 3302.3991249995092,
-    initATK: 1067.1980106563933,
+    initHP: 3302.4,
+    initATK: 1067.2,
     puzzle: [],
     outfits: [],
     skillSet: []

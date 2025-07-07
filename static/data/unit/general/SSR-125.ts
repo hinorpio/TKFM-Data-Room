@@ -45,8 +45,8 @@ export const General_10154: Unit = {
     clothes: UnitFullImage[UnitCode.m_nanami],
     tagList: [],
     otherVersion: [ UnitCode.nanami ],
-    initHP: 5270.397920928504,
-    initATK: 668.7969767461093,
+    initHP: 5270.4,
+    initATK: 668.8,
     puzzle: [],
     outfits: [],
     skillSet: []

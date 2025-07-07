@@ -54,8 +54,8 @@ export const General_10902: Unit = {
         TagID.OTHER_AOE,
     ],
     otherVersion: [],
-    initHP: 2092.99812284185,
-    initATK: 482.9995668096577,
+    initHP: 2093,
+    initATK: 483,
     puzzle: [ PuzzleCode.HUMAN_PETRA ],
     outfits: [],
     skillSet: []

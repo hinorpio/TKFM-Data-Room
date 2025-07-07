@@ -55,8 +55,8 @@ export const General_10012: Unit = {
         TagID.OTHER_AOE,
     ], 
     otherVersion: [ UnitCode.tm_ritsuki ],
-    initHP: 2795.7978066661035,
-    initATK: 831.5995683068289,
+    initHP: 2795.8,
+    initATK: 831.6,
     puzzle: [],
     outfits: [],
     skillSet: []

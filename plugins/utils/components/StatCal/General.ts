@@ -35,7 +35,7 @@ export default {
     getInitStatus(value: number): number {
         let result = value / Math.pow(1.1, 59)
         console.log(result);
-        return result
+        return Math.round(result * 10) / 10
     }
     
 };

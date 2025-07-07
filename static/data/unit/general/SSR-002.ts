@@ -55,8 +55,8 @@ export const General_10002: Unit = {
         TagID.OTHER_COUNTERSTRIKE,
     ],
     otherVersion: [ UnitCode.e_satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.s_satan, UnitCode.h_satan ],
-    initHP: 4999.99836539537,
-    initATK: 639.996553793818,
+    initHP: 5000,
+    initATK: 640,
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1 ],
     outfits: [],
     skillSet: []

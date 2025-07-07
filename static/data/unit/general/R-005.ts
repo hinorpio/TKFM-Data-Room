@@ -52,8 +52,8 @@ export const General_10805: Unit = {
         TagID.OTHER_INTERFERENCE,
     ],
     otherVersion: [],
-    initHP: 2477.9996624307532,
-    initATK: 655.1987840726993,
+    initHP: 2478,
+    initATK: 655.2,
     puzzle: [],
     outfits: [],
     skillSet: []

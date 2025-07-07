@@ -45,8 +45,8 @@ export const General_10148: Unit = {
     clothes: UnitFullImage[UnitCode.beer_shizuka],
     tagList: [],
     otherVersion: [ UnitCode.shizuka, UnitCode.s_shizuka, UnitCode.x_shizuka ],
-    initHP: 3543.998257580353,
-    initATK: 995.196953275665,
+    initHP: 3544,
+    initATK: 995.2,
     puzzle: [],
     outfits: [],
     skillSet: []

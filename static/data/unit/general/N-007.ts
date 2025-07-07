@@ -53,8 +53,8 @@ export const General_10907: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
     otherVersion: [],
-    initHP: 1913.9998092421035,
-    initATK: 527.9993244982855,
+    initHP: 1914,
+    initATK: 528,
     puzzle: [ PuzzleCode.HUMAN_OLA ],
     outfits: [],
     skillSet: []

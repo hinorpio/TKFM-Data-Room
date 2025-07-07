@@ -54,8 +54,8 @@ export const General_10924: Unit = {
         TagID.OTHER_SURVIVABILLITY,
     ],
     otherVersion: [],
-    initHP: 2141.9971364522276,
-    initATK: 471.99890350186456,
+    initHP: 2142,
+    initATK: 472,
     puzzle: [ PuzzleCode.DEMON_MUMU ],
     outfits: [],
     skillSet: []

@@ -53,8 +53,8 @@ export const General_10019: Unit = {
         TagID.OTHER_DAMAGE_OUTPUT,
     ],
     otherVersion: [ UnitCode.s_ayane, UnitCode.h_ayane, UnitCode.bg_ayane, UnitCode.bu_ayane ],
-    initHP: 3417.597204111365,
-    initATK: 935.9992951602302,
+    initHP: 3417.6,
+    initATK: 936,
     puzzle: [],
     outfits: [],
     skillSet: []
