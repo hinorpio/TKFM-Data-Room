@@ -216,6 +216,8 @@ const SSR = {
     [UnitCode.s_noma]: getUnitEssencePath('10173'),
     [UnitCode.forneusa]: getUnitEssencePath('10174'),
     [UnitCode.bu_ayane]: getUnitEssencePath('10160'),
+    [UnitCode.sky_nanami]: getUnitEssencePath('10177'),
+    [UnitCode.sky_baal]: getUnitEssencePath('10178'),
 }
 
 export const Essence = {

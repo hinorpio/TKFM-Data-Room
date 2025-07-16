@@ -27,8 +27,8 @@ export const Discipline_10083: Discipline[] = [
     {
         preview: UnitDisciplinePreview[UnitCode.sakuya][2],
         name: {
-            [Locale.tc]: `相親相愛～員工慰勞大亂交`,
-            [Locale.sc]: `相亲相爱～员工慰劳大乱交`,
+            [Locale.tc]: `相親相愛~員工慰勞大亂交`,
+            [Locale.sc]: `相亲相爱~员工慰劳大乱交`,
             [Locale.en]: `Bonus = Orgy`,
             [Locale.jp]: `打ち上げ大乱交`,
             [Locale.kr]: `서로 아끼고 사랑하세요~ 위로의 대난교`

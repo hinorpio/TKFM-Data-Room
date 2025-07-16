@@ -6,25 +6,25 @@
                     <v-img :src="getIcon()"  />
                 </v-avatar>
                 <span class="ml-4 body-1 font-weight-bold">
-                    {{getSkillName()}}
+                    {{getSkillName(skilltype)}}
                 </span>
             </v-row>
         </v-toolbar>
         <v-card-text>
             <div v-if="isDetail && !isLiberation" class="ml-4">
-                <h3>{{$t('Level 1')}}</h3>
+                <u><h3>{{$t('Level 1')}}{{ (showEachSkillName)? ` - ${getSkillName(skilltype_1)}` :'' }}</h3></u>
                 <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_1)"></span>
                 <v-divider class="my-2"></v-divider>
-                <h3>{{$t('Level 2')}}</h3>
+                <u><h3>{{$t('Level 2')}}{{ (showEachSkillName)? ` - ${getSkillName(skilltype_2)}` :'' }}</h3></u>
                 <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_2)"></span>
                 <v-divider class="my-2"></v-divider>
-                <h3>{{$t('Level 3')}}</h3>
+                <u><h3>{{$t('Level 3')}}{{ (showEachSkillName)? ` - ${getSkillName(skilltype_3)}` :'' }}</h3></u>
                 <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_3)"></span>
                 <v-divider class="my-2"></v-divider>
-                <h3>{{$t('Level 4')}}</h3>
+                <u><h3>{{$t('Level 4')}}{{ (showEachSkillName)? ` - ${getSkillName(skilltype_4)}` :'' }}</h3></u>
                 <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_4)"></span>
                 <v-divider class="my-2"></v-divider>
-                <h3>{{$t('Level 5')}}</h3>
+                <u><h3>{{$t('Level 5')}}{{ (showEachSkillName)? ` - ${getSkillName(skilltype_5)}` :'' }}</h3></u>
                 <span class="body-1 font-weight-bold" v-html="getSkillDescription(skilltype_5)"></span>
             </div>
             <div v-else class="ml-4">
@@ -64,14 +64,32 @@ export default class SkillCard extends Vue {
         return this.$util.getSkillIcon(this.skilltype) ?? ''
     }
 
-    getSkillName(): string{
-        const skillName = this.showVersion[this.skilltype]?.name
+    getSkillName(type: SkillType): string{
+        const skillName = this.showVersion[type]?.name
         return (skillName !== undefined)? skillName :'';
     }
 
     getSkillDescription(type: SkillType): string{
         const skillDescription = this.showVersion[type]?.description
         return (skillDescription !== undefined)? this.$util.showPreLineText(skillDescription) : '';
+    }
+
+    get showEachSkillName(): boolean{
+        const skillname = this.getSkillName(this.skilltype)
+        let result = false;
+
+        if(this.getSkillName(this.skilltype_1) != skillname)
+            return true
+        if(this.getSkillName(this.skilltype_2) != skillname)
+            return true
+        if(this.getSkillName(this.skilltype_3) != skillname)
+            return true
+        if(this.getSkillName(this.skilltype_4) != skillname)
+            return true
+        if(this.getSkillName(this.skilltype_5) != skillname)
+            return true
+
+        return result
     }
 
 }

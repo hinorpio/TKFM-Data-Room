@@ -43,7 +43,7 @@ export const SkillSet_10076: SkillSet[] =  [
                     description: `以攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: `魔境夢遊～下午茶同盟～`,
+                    name: `魔境夢遊~下午茶同盟~`,
                     description: `第1回合時，觸發「使自身當前必殺技CD減少4回合」\n自身必殺時，觸發「《Shuffling》」\n使我方全體獲得「隊伍中至少有4名攻擊者時，發動《Four of a Kind》」\n\n《Shuffling》\n使我方全體攻擊者獲得「普攻時追加技能『以自身攻擊力37.5%對目標造成傷害』(4回合)」\n\n《Four of a Kind》\n自身攻擊力增加70%\n自身普攻傷害增加100%\n自身受到傷害減少10%`
                 },
                 [SkillType.PASSIVE_1]: {
@@ -97,7 +97,7 @@ export const SkillSet_10076: SkillSet[] =  [
                     description: `以攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: `魔境梦游～下午茶同盟～`,
+                    name: `魔境梦游~下午茶同盟~`,
                     description: `第1回合时，触发「使自身当前必杀技CD减少4回合」\n自身必杀时，触发「《Shuffling》」\n使我方全体获得「队伍中至少有4名攻击者时，发动《Four of a Kind》」\n\n《Shuffling》\n使我方全体攻击者获得「普攻时追加技能『以自身攻击力37.5%对目标造成伤害』(4回合)」\n\n《Four of a Kind》\n自身攻击力增加70%\n自身普攻伤害增加100%\n自身受到伤害减少10%`
                 },
                 [SkillType.PASSIVE_1]: {

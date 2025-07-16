@@ -58,6 +58,6 @@ export const General_10916: Unit = {
     initHP: 2700,
     initATK: 375,
     puzzle: [ PuzzleCode.HUMAN_ANNA, PuzzleCode.HUMAN_NATASHA ],
-    outfits: [],
+    outfits: UnitOutfits[UnitCode.anna],
     skillSet: []
 }

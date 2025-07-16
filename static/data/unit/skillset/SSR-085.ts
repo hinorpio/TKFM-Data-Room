@@ -51,11 +51,11 @@ export const SkillSet_10119: SkillSet[] =  [
                     description: `必殺時，觸發「以自身攻擊力150%對我方全體進行治療」\n必殺時，觸發「以自身攻擊力250%對目標造成傷害」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `美好的味道～♡`,
+                    name: `美好的味道~♡`,
                     description: `我方全體受到持續治療量增加20%\n攻擊力增加50%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `萌欸♡萌欸♡啾～`,
+                    name: `萌欸♡萌欸♡啾~`,
                     description: `造成觸發技效果增加75%\n必殺時，觸發「以自身最大HP15%給予我方全體護盾(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
@@ -105,11 +105,11 @@ export const SkillSet_10119: SkillSet[] =  [
                     description: `必杀时，触发「以自身攻击力150%对我方全体进行治疗」\n必杀时，触发「以自身攻击力250%对目标造成伤害」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `美好的味道～♡`,
+                    name: `美好的味道~♡`,
                     description: `我方全体受到持续治疗量增加20%\n攻击力增加50%`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `萌欸♡萌欸♡啾～`,
+                    name: `萌欸♡萌欸♡啾~`,
                     description: `造成触发技效果增加75%\n必杀时，触发「以自身最大HP15%给予我方全体护盾(1回合)」`
                 },
                 [SkillType.GENERAL_1]: {
@@ -213,7 +213,7 @@ export const SkillSet_10119: SkillSet[] =  [
                     description: `必殺技攻撃時「自分の攻撃力の150%分味方全体に治療を行う」を誘発する\n必殺技攻撃時「自分の250%の攻撃力でターゲットにダメージを与える」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `おいしい～♡`,
+                    name: `おいしい~♡`,
                     description: `味方全体の受ける持続型治療効果が20%増加する\n攻撃力が50%増加する`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -267,11 +267,11 @@ export const SkillSet_10119: SkillSet[] =  [
                     description: `궁극기 발동 시 「자신의 공격 데미지의 150%만큼 아군 전체를 치유」발동\n궁극기 발동 시 「자신의 공격 데미지의 250%만큼 타깃에게 데미지」발동`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `아름다운 맛～♡`,
+                    name: `아름다운 맛~♡`,
                     description: `아군 전체가 받는 지속형 치유량 20% 증가\n공격 데미지 50% 증가`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `꾸잉♡꾸잉♡뀨～`,
+                    name: `꾸잉♡꾸잉♡뀨~`,
                     description: `발동형 스킬이 가하는 데미지 75% 증가\n궁극기 발동 시 「자신의 최대 HP 15%만큼 아군 전체에게 실드 부여(1턴)」발동`
                 },
                 [SkillType.GENERAL_1]: {

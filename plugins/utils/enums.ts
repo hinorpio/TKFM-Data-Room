@@ -544,4 +544,6 @@ export enum UnitCode {
     s_noma = 'SSR-145',
     forneusa = 'SSR-146',
     bu_ayane = 'SSR-147',
+    sky_nanami = 'SSR-148',
+    sky_baal = 'SSR-149',
 }

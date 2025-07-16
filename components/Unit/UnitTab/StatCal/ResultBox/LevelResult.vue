@@ -4,7 +4,7 @@
             <v-icon class="mr-2" color="green">mdi-stairs</v-icon>
             <span class="title font-weight-bold">{{ $t('Level') }}</span>
             <v-spacer></v-spacer>
-            <span class="subtitle font-weight-bold">{{ $t('Exp') }} : {{ levelSummary.exp }}</span>
+            <span class="subtitle font-weight-bold">{{ $t('Exp') }} : {{ formattedExp }}</span>
         </v-row>
         <item-set-box :summary="levelSummary.summary" />
     </div>
@@ -23,6 +23,10 @@ import ItemSetBox from "./ItemSetBox.vue";
 export default class LevelResult extends Vue {
     @Prop({ type: Object, required: true, default: {} })
     levelSummary!: CalculatedLevelSummary;
+
+    get formattedExp(): string{
+        return this.$util.formatNumberWithCommas(this.levelSummary.exp)
+    }
 
 }
 </script>

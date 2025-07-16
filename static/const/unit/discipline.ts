@@ -198,6 +198,8 @@ const SSR = {
     [UnitCode.s_noma]: getUnitDisplinePath('10173'),
     [UnitCode.forneusa]: getUnitDisplinePath('10174'),
     [UnitCode.bu_ayane]: getUnitDisplinePath('10160'),
+    [UnitCode.sky_nanami]: getUnitDisplinePath('10177'),
+    [UnitCode.sky_baal]: getUnitDisplinePath('10178'),
 }
 
 export const DisciplinePreview = {

@@ -51,7 +51,7 @@ export const SkillSet_10149: SkillSet[] =  [
                     description: `每經過4回合，觸發「以自身攻擊力60%使自身攻擊力增加(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `年齡是秘密唷～`,
+                    name: `年齡是秘密唷~`,
                     description: `必殺時，觸發「以自身攻擊力75%對自身進行治療」`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -105,7 +105,7 @@ export const SkillSet_10149: SkillSet[] =  [
                     description: `每经过4回合，触发「以自身攻击力60%使自身攻击力增加(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `年龄是秘密唷～`,
+                    name: `年龄是秘密唷~`,
                     description: `必杀时，触发「以自身攻击力75%对自身进行治疗」`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -213,7 +213,7 @@ export const SkillSet_10149: SkillSet[] =  [
                     description: `4ターン毎に「自分の攻撃力を自分の攻撃力の60%分増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `歳は秘密よ～♡`,
+                    name: `歳は秘密よ~♡`,
                     description: `必殺技攻撃時「自分の攻撃力の75%分自分に治療を行う」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -267,7 +267,7 @@ export const SkillSet_10149: SkillSet[] =  [
                     description: `4턴마다 「자신의 공격 데미지의 60%만큼 자신의 공격 데미지 증가(1턴)」트리거`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `나이는 비밀～♡`,
+                    name: `나이는 비밀~♡`,
                     description: `궁극기 발동 시 「자신의 공격 데미지 75%만큼 자신을 치유」트리거`
                 },
                 [SkillType.PASSIVE_3]: {
