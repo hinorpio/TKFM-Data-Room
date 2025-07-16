@@ -29,6 +29,9 @@ export default {
     deepClone(obj: any): any{
         return JSON.parse(JSON.stringify(obj))
     },
+    formatNumberWithCommas(num: number | string): string {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    },
     async handleDownload(path: string): Promise<void>{
         try {
             const response = await fetch(path, {

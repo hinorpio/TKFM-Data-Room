@@ -11,7 +11,7 @@ export const Discipline_10160: Discipline[] = [
             [Locale.sc]: `强制破处`,
             [Locale.en]: `Forced Deflowering`,
             [Locale.jp]: `強制処女喪失`,
-            [Locale.kr]: `상어 케이지 다이빙 행사`
+            [Locale.kr]: `강제 아다 뚫기`
         },
     },
     {
@@ -21,7 +21,7 @@ export const Discipline_10160: Discipline[] = [
             [Locale.sc]: `恢复体力的秘诀`,
             [Locale.en]: `Secret to Restoring Stamina`,
             [Locale.jp]: `体力回復の秘訣`,
-            [Locale.kr]: `이빨은 포식자의 자본`
+            [Locale.kr]: `체력 회복의 비결`
         },
     },
     {
@@ -30,8 +30,8 @@ export const Discipline_10160: Discipline[] = [
             [Locale.tc]: `勇者征服秀`,
             [Locale.sc]: `勇者征服秀`,
             [Locale.en]: `Hero Conquest Show`,
-            [Locale.jp]: `「メガシャーク」警報！`,
-            [Locale.kr]: `勇者征服`
+            [Locale.jp]: `勇者征服`,
+            [Locale.kr]: `용자 정복 쇼`
         },
     },
 ]

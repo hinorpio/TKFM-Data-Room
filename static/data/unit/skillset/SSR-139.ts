@@ -51,7 +51,7 @@ export const SkillSet_10167: SkillSet[] =  [
                     description: `普攻時，追加「以自身攻擊力50%對目標造成傷害」\n必殺時，觸發「以自身攻擊力30%使我方全體攻擊力增加(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `勇氣☆躍動～！`,
+                    name: `勇氣☆躍動~！`,
                     description: `第2、6、10回合時，觸發「使我方全體攻擊者普攻傷害增加30%(最多3層)」`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -105,7 +105,7 @@ export const SkillSet_10167: SkillSet[] =  [
                     description: `普攻时，追加「以自身攻击力50%对目标造成伤害」\n必杀时，触发「以自身攻击力30%使我方全体攻击力增加(1回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `勇气☆跃动～！`,
+                    name: `勇气☆跃动~！`,
                     description: `第2、6、10回合时，触发「使我方全体攻击者普攻伤害增加30%(最多3层)」`
                 },
                 [SkillType.PASSIVE_3]: {

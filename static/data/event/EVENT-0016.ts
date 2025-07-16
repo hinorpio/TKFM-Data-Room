@@ -11,9 +11,9 @@ const EVENT_0016: Event = {
     name: {
         [Locale.tc]: `【第二階段：悠閒的拼圖時間】`,
         [Locale.sc]: `【第二阶段：悠闲的拼图时间】`,
-        [Locale.en]: `[Second Wave～Relaxing Puzzle Time]`,
-        [Locale.jp]: `「ステージ2～ゆったりパズルタイム」`,
-        [Locale.kr]: `【제2탄～느긋한 퍼즐 시간】`
+        [Locale.en]: `[Second Wave~Relaxing Puzzle Time]`,
+        [Locale.jp]: `「ステージ2~ゆったりパズルタイム」`,
+        [Locale.kr]: `【제2탄~느긋한 퍼즐 시간】`
     },
     description: {
         [Locale.tc]: ``,

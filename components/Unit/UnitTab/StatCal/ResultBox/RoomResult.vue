@@ -4,7 +4,7 @@
             <v-icon class="mr-2" color="pink accent-1">mdi-heart</v-icon>
             <span class="title font-weight-bold">{{ $t('Room') }}</span>
             <v-spacer></v-spacer>
-            <span class="subtitle font-weight-bold">{{ $t('Exp') }} : {{ roomSummary.exp }}</span>
+            <span class="subtitle font-weight-bold">{{ $t('Exp') }} : {{ formattedExp }}</span>
         </v-row>
         <item-set-box :summary="roomSummary.summary" />
     </div>
@@ -27,6 +27,10 @@ export default class RoomResult extends Vue {
 
     @Prop({ type: Number, required: true, default: 4 })
     roomItemLevel!: number;
+
+    get formattedExp(): string{
+        return this.$util.formatNumberWithCommas(this.roomSummary.exp)
+    }
 
 }
 </script>

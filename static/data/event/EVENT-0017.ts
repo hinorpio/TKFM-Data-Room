@@ -11,8 +11,8 @@ const EVENT_0017: Event = {
     name: {
         [Locale.tc]: `【第三階段：挑戰！渡假村評鑑】`,
         [Locale.sc]: `【第三阶段：挑战！渡假村评鉴】`,
-        [Locale.en]: `[Third Wave～Resort Evaluation!]`,
-        [Locale.jp]: `「ステージ3～挑戦！休暇村ジャッジ」`,
+        [Locale.en]: `[Third Wave~Resort Evaluation!]`,
+        [Locale.jp]: `「ステージ3~挑戦！休暇村ジャッジ」`,
         [Locale.kr]: `【제3탄~도전! 리조트 평가】`
     },
     description: {

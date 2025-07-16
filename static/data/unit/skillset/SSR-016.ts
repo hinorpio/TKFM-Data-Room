@@ -213,7 +213,7 @@ export const SkillSet_10030: SkillSet[] =  [
                     description: `必殺時、効果「自分の攻撃力の100%分味方全体に盾を張る(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `ルルをいじめないでください～`,
+                    name: `ルルをいじめないでください~`,
                     description: `4ターン毎に、効果「敵が受けるダメージを35%増加させる(1ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
