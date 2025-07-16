@@ -39,7 +39,7 @@ export const SkillSet_10115: SkillSet[] =  [
                     description: `以自身攻擊力100%每回合對我方全體進行治療(4回合)、再以自身最大HP36%對我方全體施放護盾(1回合)，並使目標受到傷害增加20%(4回合)，CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `變聰明光線～`,
+                    name: `變聰明光線~`,
                     description: `以攻擊力75%對我方全體進行治療`
                 },
                 [SkillType.LEADER]: {
@@ -93,7 +93,7 @@ export const SkillSet_10115: SkillSet[] =  [
                     description: `以自身攻击力100%每回合对我方全体进行治疗(4回合)丶再以自身最大HP36%对我方全体施放护盾(1回合)，并使目标受到伤害增加20%(4回合)，CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `变聪明光线～`,
+                    name: `变聪明光线~`,
                     description: `以攻击力75%对我方全体进行治疗`
                 },
                 [SkillType.LEADER]: {
@@ -201,7 +201,7 @@ export const SkillSet_10115: SkillSet[] =  [
                     description: `毎ターン自分の攻撃力の100%分味方全体に治療を行い(4ターン)、自分の最大HPの36%分味方全体に盾を張り(1ターン)、ターゲットが受けるダメージを20%増加させる(4ターン)[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: `かしこくなーれビーム～！`,
+                    name: `かしこくなーれビーム~！`,
                     description: `攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {

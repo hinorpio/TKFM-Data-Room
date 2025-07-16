@@ -175,12 +175,12 @@ export default class StatBox extends Vue {
         }
     }
     
-    get calculatedHP(): number {
-        return this.$util.getCalculateStat(this.unit, this.stat, "HP")
+    get calculatedHP(): string {
+        return this.$util.formatNumberWithCommas(this.$util.getCalculateStat(this.unit, this.stat, "HP"))
     }
 
-    get calculatedATK(): number {
-        return this.$util.getCalculateStat(this.unit, this.stat, "ATK")
+    get calculatedATK(): string {
+        return this.$util.formatNumberWithCommas(this.$util.getCalculateStat(this.unit, this.stat, "ATK"))
     }
 
     getMinStat(): void{

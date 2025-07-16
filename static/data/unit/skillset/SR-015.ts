@@ -39,7 +39,7 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `使自身攻擊力增加20%(4回合)，再以攻擊力100%對我方全體進行治療，並給予我方全體「每回合以攻擊力60%進行治療(4回合)」，CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: `今天也辛苦了～`,
+                    name: `今天也辛苦了~`,
                     description: `以攻擊力75%對我方全體進行治療`
                 },
                 [SkillType.LEADER]: {
@@ -47,7 +47,7 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `使我方全體攻擊力增加30%\n使我方全體HP增加30%\n使我方全體被治療時回復量增加30%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `這是今天可以接取的任務～`,
+                    name: `這是今天可以接取的任務~`,
                     description: `第一回合時，觸發「使自身以外所有隊員普攻傷害增加20%(最多1層)、必殺技傷害增加10%(最多1層)」`
                 },
                 [SkillType.PASSIVE_2]: {
@@ -93,7 +93,7 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `使自身攻击力增加20%(4回合)，再以攻击力100%对我方全体进行治疗，并给予我方全体「每回合以攻击力60%进行治疗(4回合)」，CD: 5`
                 },
                 [SkillType.ATTACK]: {
-                    name: `今天也辛苦了～`,
+                    name: `今天也辛苦了~`,
                     description: `以攻击力75%对我方全体进行治疗`
                 },
                 [SkillType.LEADER]: {
@@ -101,7 +101,7 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `使我方全体攻击力增加30%\n使我方全体HP增加30%\n使我方全体被治疗时回复量增加30%`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `这是今天可以接取的任务～`,
+                    name: `这是今天可以接取的任务~`,
                     description: `第一回合时，触发「使自身以外所有队员普攻伤害增加20%(最多1层)丶必杀技伤害增加10%(最多1层)」`
                 },
                 [SkillType.PASSIVE_2]: {
@@ -201,7 +201,7 @@ export const SkillSet_10041: SkillSet[] =  [
                     description: `自分の攻撃力を20%増加させ(4ターン)、攻撃力の100%分味方全体に治療を行い、味方全体に効果「毎ターン60%の攻撃力で治療する(4ターン)」を与える[CD:5]`
                 },
                 [SkillType.ATTACK]: {
-                    name: `今日もお疲れ様でした～`,
+                    name: `今日もお疲れ様でした~`,
                     description: `攻撃力の75%分味方全体に治療を行う`
                 },
                 [SkillType.LEADER]: {

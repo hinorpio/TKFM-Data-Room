@@ -56,7 +56,7 @@ export const SkillSet_10812: SkillSet[] =  [
                     description: `必殺時，20%機率觸發"使自身攻擊力增加50%(3回合)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `魔力回收～！`,
+                    name: `魔力回收~！`,
                     description: `普攻時，20%機率觸發"使自身當前必殺技CD減少1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
@@ -110,7 +110,7 @@ export const SkillSet_10812: SkillSet[] =  [
                     description: `必杀时，20%机率触发"使自身攻击力增加50%(3回合)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `魔力回收～！`,
+                    name: `魔力回收~！`,
                     description: `普攻时，20%机率触发"使自身当前必杀技CD减少1回合"效果`
                 },
                 [SkillType.DISPATCH]: {
@@ -218,7 +218,7 @@ export const SkillSet_10812: SkillSet[] =  [
                     description: `必殺技攻撃時、20%の確率で効果「自分の攻撃力を50%増加させる(3ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `魔力回復～！`,
+                    name: `魔力回復~！`,
                     description: `通常攻撃時、20%の確率で効果「自分の必殺技CDを1ターン減少させる」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {

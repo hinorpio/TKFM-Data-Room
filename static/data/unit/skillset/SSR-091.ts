@@ -51,7 +51,7 @@ export const SkillSet_10123: SkillSet[] =  [
                     description: `必殺時，觸發「使自身攻擊力增加40%(最多2層)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `偷心小惡魔上線囉～`,
+                    name: `偷心小惡魔上線囉~`,
                     description: `必殺時 ，觸發「使目標受到必殺技傷害增加20%(4回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -105,7 +105,7 @@ export const SkillSet_10123: SkillSet[] =  [
                     description: `必杀时，触发「使自身攻击力增加40%(最多2层)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `偷心小恶魔上线罗～`,
+                    name: `偷心小恶魔上线罗~`,
                     description: `必杀时 ，触发「使目标受到必杀技伤害增加20%(4回合)」`
                 },
                 [SkillType.PASSIVE_3]: {
@@ -213,7 +213,7 @@ export const SkillSet_10123: SkillSet[] =  [
                     description: `必殺技攻撃時、「自分の攻撃力を40%増加させる(最高2スタック)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `魅惑の小悪魔がログインしたよ～`,
+                    name: `魅惑の小悪魔がログインしたよ~`,
                     description: `必殺技攻撃時、「ターゲットの受ける必殺ダメージを20%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_3]: {

@@ -9,8 +9,8 @@ const EVENT_0120: Event = {
     endDate: '2024/02/28',
     color: EventTypeColor.CHALLENGE,
     name: {
-        [Locale.tc]: `【星光璀璨☆超級偶像大對決～♪】`,
-        [Locale.sc]: `【星光璀璨☆超级偶像大对决～♪】`,
+        [Locale.tc]: `【星光璀璨☆超級偶像大對決~♪】`,
+        [Locale.sc]: `【星光璀璨☆超级偶像大对决~♪】`,
         [Locale.en]: `[Streaming with the Stars☆Idol Showdown~♪]`,
         [Locale.jp]: `「キラキラ☆スーパーアイドル対決」`,
         [Locale.kr]: `【반짝이는 별☆슈퍼아이돌 대결】`

@@ -43,7 +43,7 @@ export const SkillSet_10057: SkillSet[] =  [
                     description: `以自身攻擊力50%對我方全體施放護盾(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: `幽冥深淵的三頭犬喲～`,
+                    name: `幽冥深淵的三頭犬喲~`,
                     description: `使我方站位1、3、5的隊員攻擊力增加33%、必殺技傷害增加15%`
                 },
                 [SkillType.PASSIVE_1]: {
@@ -97,7 +97,7 @@ export const SkillSet_10057: SkillSet[] =  [
                     description: `以自身攻击力50%对我方全体施放护盾(1回合)`
                 },
                 [SkillType.LEADER]: {
-                    name: `幽冥深渊的三头犬哟～`,
+                    name: `幽冥深渊的三头犬哟~`,
                     description: `使我方站位1丶3丶5的队员攻击力增加33%丶必杀技伤害增加15%`
                 },
                 [SkillType.PASSIVE_1]: {

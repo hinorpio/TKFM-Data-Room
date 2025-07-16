@@ -4,10 +4,10 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 
 const EVENT_0183: Event = {
     code: '0183',
-    type: EventType.POINT,
+    type: EventType.EVOLVE,
     startDate: '2025/07/02',
     endDate: '2025/07/16',
-    color: EventTypeColor.POINT,
+    color: EventTypeColor.EVOLVE,
     name: {
         [Locale.tc]: `【請問要來點獸耳嗎？-復刻-】`,
         [Locale.sc]: `【请问要来点兽耳吗？-复刻-】`,

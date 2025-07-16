@@ -12,7 +12,7 @@
                         </span>
                         <v-spacer></v-spacer>
                         <span :class="itemFontSize">
-                            {{ item.quantity }}
+                            {{ formattedQty(item.quantity) }}
                         </span>
                     </v-row>
                 </v-col>
@@ -50,6 +50,10 @@ export default class ItemSetBox extends Vue {
         }else{
             return this.$t('Character Essence') as string;
         }
+    }
+
+    formattedQty(num: number | string): string{
+        return this.$util.formatNumberWithCommas(num)
     }
 
 }

@@ -39,7 +39,7 @@ export const SkillSet_10120: SkillSet[] =  [
                     description: `使自身造成觸發技效果增加100%(3回合)，使自身必殺技傷害增加45%(1回合)，並以自身攻擊力514%對目標造成傷害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `伸縮自如的～`,
+                    name: `伸縮自如的~`,
                     description: `以自身攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
@@ -93,7 +93,7 @@ export const SkillSet_10120: SkillSet[] =  [
                     description: `使自身造成触发技效果增加100%(3回合)，使自身必杀技伤害增加45%(1回合)，并以自身攻击力514%对目标造成伤害，CD: 4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `伸缩自如的～`,
+                    name: `伸缩自如的~`,
                     description: `以自身攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
@@ -201,7 +201,7 @@ export const SkillSet_10120: SkillSet[] =  [
                     description: `自分の与える誘発スキル効果を100%増加させ(3ターン)、自分の必殺技ダメージを45%増加させ(1ターン)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: `ゴムゴムの～`,
+                    name: `ゴムゴムの~`,
                     description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {

@@ -2,6 +2,18 @@ import { UnitCode } from '@/plugins/utils/enums';
 
 const cdnURL = `https://cdn.tkfmdata.com`
 
+const OUTFIT_10943_LV1 = `${cdnURL}/character/outfit/10943-Lv1.png`
+const OUTFIT_10943_LV2 = `${cdnURL}/character/outfit/10943-Lv2.png`
+const OUTFIT_10943_LV3 = `${cdnURL}/character/outfit/10943-Lv3.png`
+const OUTFIT_10944_LV1 = `${cdnURL}/character/outfit/10944-Lv1.png`
+const OUTFIT_10944_LV2 = `${cdnURL}/character/outfit/10944-Lv2.png`
+const OUTFIT_10944_LV3 = `${cdnURL}/character/outfit/10944-Lv3.png`
+const OUTFIT_10945_LV1 = `${cdnURL}/character/outfit/10945-Lv1.png`
+const OUTFIT_10945_LV2 = `${cdnURL}/character/outfit/10945-Lv2.png`
+const OUTFIT_10945_LV3 = `${cdnURL}/character/outfit/10945-Lv3.png`
+const OUTFIT_10946_LV1 = `${cdnURL}/character/outfit/10946-Lv1.png`
+const OUTFIT_10946_LV2 = `${cdnURL}/character/outfit/10946-Lv2.png`
+const OUTFIT_10946_LV3 = `${cdnURL}/character/outfit/10946-Lv3.png`
 const OUTFIT_10955_LV1 = `${cdnURL}/character/outfit/10955-Lv1.png`
 const OUTFIT_10955_LV2 = `${cdnURL}/character/outfit/10955-Lv2.png`
 const OUTFIT_10955_LV3 = `${cdnURL}/character/outfit/10955-Lv3.png`
@@ -17,8 +29,21 @@ const OUTFIT_21701_LV3 = `${cdnURL}/character/outfit/21701-Lv3.png`
 const OUTFIT_21711_LV1 = `${cdnURL}/character/outfit/21711-Lv1.png`
 const OUTFIT_21711_LV2 = `${cdnURL}/character/outfit/21711-Lv2.png`
 const OUTFIT_21711_LV3 = `${cdnURL}/character/outfit/21711-Lv3.png`
+const OUTFIT_21781_LV1 = `${cdnURL}/character/outfit/21781-Lv1.png`
+const OUTFIT_21781_LV2 = `${cdnURL}/character/outfit/21781-Lv2.png`
+const OUTFIT_21781_LV3 = `${cdnURL}/character/outfit/21781-Lv3.png`
 
 const N = {
+    [UnitCode.anna]: [
+        [ OUTFIT_10943_LV1, OUTFIT_10945_LV1 ],
+        [ OUTFIT_10943_LV2, OUTFIT_10945_LV2 ],
+        [ OUTFIT_10943_LV3, OUTFIT_10945_LV3 ],
+    ],
+    [UnitCode.blaire]: [
+        [ OUTFIT_10944_LV1, OUTFIT_10946_LV1 ],
+        [ OUTFIT_10944_LV2, OUTFIT_10946_LV2 ],
+        [ OUTFIT_10944_LV3, OUTFIT_10946_LV3 ],
+    ],
     [UnitCode.lori]: [
         [ OUTFIT_10955_LV1 ],
         [ OUTFIT_10955_LV2 ],
@@ -54,6 +79,11 @@ const SSR = {
         [ OUTFIT_21711_LV1 ],
         [ OUTFIT_21711_LV2 ],
         [ OUTFIT_21711_LV3 ],
+    ],
+    [UnitCode.sky_baal]: [
+        [ OUTFIT_21781_LV1 ],
+        [ OUTFIT_21781_LV2 ],
+        [ OUTFIT_21781_LV3 ],
     ]
 }
 

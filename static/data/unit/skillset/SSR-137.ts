@@ -39,7 +39,7 @@ export const SkillSet_10166: SkillSet[] =  [
                     description: `使自身攻擊力增加24%(最多3層)、使我方全體必殺技傷害增加60%(1回合)。CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `請大家吃糖果～`,
+                    name: `請大家吃糖果~`,
                     description: `以自身攻擊力30%使我方全體攻擊力增加(1回合)`
                 },
                 [SkillType.LEADER]: {
@@ -93,7 +93,7 @@ export const SkillSet_10166: SkillSet[] =  [
                     description: `使自身攻击力增加24%(最多3层)丶使我方全体必杀技伤害增加60%(1回合)。CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `请大家吃糖果～`,
+                    name: `请大家吃糖果~`,
                     description: `以自身攻击力30%使我方全体攻击力增加(1回合)`
                 },
                 [SkillType.LEADER]: {
