@@ -6,6 +6,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 天際領航員 星空奈奈美, 機長 巴爾`,
                     [Locale.sc]: `角色: 天际领航员 星空奈奈美, 机长 巴尔`,
@@ -16,6 +17,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.OUTFIT,
                 content: {
                     [Locale.tc]: `簡易造型: 機長 巴爾, 法斯精銳近衛 安娜, 法斯精銳騎士 布蘭`,
                     [Locale.sc]: `简易造型: 机长 巴尔, 法斯精锐近卫 安娜, 法斯精锐骑士 布兰`,
@@ -26,6 +28,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【飛越魔界】, 【雲上性愛日誌】, 【魔獄塔】第二十五季`,
                     [Locale.sc]: `活动: 【飞越魔界】, 【云上性爱日志】, 【魔狱塔】第二十五季`,
@@ -41,6 +44,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.FIX,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `角色數值計算`,
                     [Locale.sc]: `角色数值计算`,
@@ -449,7 +453,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
-                group: LogGroup.GENERAL,
+                group: LogGroup.OUTFIT,
                 content: {
                     [Locale.tc]: `簡易造型`,
                     [Locale.sc]: `简易造型`,

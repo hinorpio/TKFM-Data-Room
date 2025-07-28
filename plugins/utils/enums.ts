@@ -35,6 +35,7 @@ export enum LogGroup {
     ART = 'ART',
     SKILL = 'SKILL',
     LIBERATE = 'LIBERATE',
+    OUTFIT = 'OUTFIT',
     PUZZLE = 'PUZZLE',
     GENERAL = 'GENERAL',
 }
