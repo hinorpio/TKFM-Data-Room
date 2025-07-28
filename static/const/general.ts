@@ -1,4 +1,4 @@
-import { Locale, LogType, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType, ArtSource, ArtType } from '@/plugins/utils/enums';
+import { Locale, LogType, Element, Rarity, Position, SkillType, LiberationStage, PotentialBuffType, DispatchType, DispatchSkillType, EventType, ArtSource, ArtType, LogGroup } from '@/plugins/utils/enums';
 
 const cdnURL = `https://cdn.tkfmdata.com`
 
@@ -447,5 +447,64 @@ export const ArtTypeStr = {
         [Locale.en]: 'Other',
         [Locale.jp]: '他の',
         [Locale.kr]: '다른',
+    },
+}
+
+export const LogGroupStr = {
+    [LogGroup.UNIT]: {
+        [Locale.tc]: `角色: `,
+        [Locale.sc]: `角色: `,
+        [Locale.en]: `Unit: `,
+        [Locale.jp]: `キャラ: `,
+        [Locale.kr]: `캐릭터: `
+    },
+    [LogGroup.EVENT]: {
+        [Locale.tc]: `活動: `,
+        [Locale.sc]: `活动: `,
+        [Locale.en]: `Event: `,
+        [Locale.jp]: `イベント: `,
+        [Locale.kr]: `이벤트: `,
+    },
+    [LogGroup.ART]: {
+        [Locale.tc]: `畫作/二創: `,
+        [Locale.sc]: `画作/二创: `,
+        [Locale.en]: `Artwork / Fanart: `,
+        [Locale.jp]: `アートワーク / 同人: `,
+        [Locale.kr]: `아트워크 / 팬 창작: `,
+    },
+    [LogGroup.SKILL]: {
+        [Locale.tc]: `角色技能: `,
+        [Locale.sc]: `角色技能: `,
+        [Locale.en]: `Unit Skillset: `,
+        [Locale.jp]: `キャラスキル: `,
+        [Locale.kr]: `캐릭터 스킬: `,
+    },
+    [LogGroup.LIBERATE]: {
+        [Locale.tc]: `解放技能: `,
+        [Locale.sc]: `解放技能: `,
+        [Locale.en]: `Liberation: `,
+        [Locale.jp]: `解放スキル: `,
+        [Locale.kr]: `해방스킬: `,
+    },
+    [LogGroup.OUTFIT]: {
+        [Locale.tc]: `簡易造型: `,
+        [Locale.sc]: `简易造型: `,
+        [Locale.en]: `Simple Outfits: `,
+        [Locale.jp]: `簡易スキン: `,
+        [Locale.kr]: `간이 스킨: `,
+    },
+    [LogGroup.PUZZLE]: {
+        [Locale.tc]: `相關拼圖: `,
+        [Locale.sc]: `相关拼图: `,
+        [Locale.en]: `Puzzle: `,
+        [Locale.jp]: `パズル: `,
+        [Locale.kr]: `관련 퍼즐: `,
+    },
+    [LogGroup.GENERAL]: {
+        [Locale.tc]: ``,
+        [Locale.sc]: ``,
+        [Locale.en]: ``,
+        [Locale.jp]: ``,
+        [Locale.kr]: ``,
     },
 }

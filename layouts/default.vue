@@ -101,8 +101,13 @@ export default class DefaultLayout extends Vue {
       to: `${this.langPrefix}/art/`
     },
     {
-      icon: 'mdi-post-outline',
-      title: this.$t('Log'),
+      icon: 'mdi-link',
+      title: this.$t('External Website'),
+      to: `${this.langPrefix}/external/`
+    },
+    {
+      icon: 'mdi-creation',
+      title: this.$t('Update Logs'),
       to: `${this.langPrefix}/log/`
     },
   ]

@@ -26,11 +26,13 @@ import Vue from "vue";
 import { Component } from "vue-property-decorator";
 import BaseExpandCard from "../BaseExpandCard.vue";
 import { Logs, UpdateLogs } from "~/interface/updateLogs";
-import { Locale, LogType } from "~/plugins/utils/enums";
+import { FanartOwner, Locale, LogGroup, LogType, PuzzleCode, UnitCode } from "~/plugins/utils/enums";
+import { LogGroupStr } from "~/static/const";
 
 @Component({
     components: {
-        BaseExpandCard
+        BaseExpandCard,
+        LogGroupStr
     }
 })
 export default class LogCard extends Vue {
@@ -58,15 +60,82 @@ export default class LogCard extends Vue {
     }
 
     getLogContent(log: Logs): string{
-        if(!log.content)
-            return ''
-        else{
-            const content = log.content
-            const locale = this.$i18n.locale as keyof typeof Locale
-            return content[locale] ?? ''
+        const unitList = log.unitList ?? []
+        const eventList = log.eventList ?? []
+        const ownerList = log.ownerList ?? []
+        const puzzleList = log.puzzleList ?? []
+        switch (log.group) {
+            case LogGroup.UNIT:
+                return this.generateLogTextByUnit(log.group, unitList)
+            case LogGroup.EVENT:
+                return this.generateLogTextByEvent(log.group, eventList)
+            case LogGroup.ART:
+                return this.generateLogTextByOwner(log.group, ownerList)
+            case LogGroup.SKILL:
+                return this.generateLogTextByUnit(log.group, unitList)
+            case LogGroup.LIBERATE:
+                return this.generateLogTextByUnit(log.group, unitList)
+            case LogGroup.OUTFIT:
+                return this.generateLogTextByUnit(log.group, unitList)
+            case LogGroup.PUZZLE:
+                return this.generateLogTextByPuzzle(log.group, puzzleList)
+            case LogGroup.GENERAL:
+                if(!log.content)
+                    return ''
+                else {
+                    const content = log.content
+                    const locale = this.$i18n.locale as keyof typeof Locale
+                    return content[locale] ?? ''
+                }
+            default:
+                return '';
         }
+        
     }
 
+    generateLogTextByUnit(group: LogGroup, list: UnitCode[]): string{
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const data = this.$util.getUnitsByIDs(list)
+        const prefixText = LogGroupStr[group][locale] ?? ''
+        let result = prefixText
+        data.forEach(unit => {
+            result += `${unit.prefix[locale]} ${unit.name[locale]}, `
+        });
+        return result.slice(0, -2); // remove last , 
+    }
+
+    generateLogTextByEvent(group: LogGroup, list: string[]): string{
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const prefixText = LogGroupStr[group][locale] ?? ''
+        let result = prefixText
+        list.forEach(eventCode => {
+            const data = this.$util.getEvent(eventCode)
+            result += `${data?.name[locale]}, `
+        })
+        return result.slice(0, -2); // remove last , 
+    }
+
+    generateLogTextByOwner(group: LogGroup, list: FanartOwner[]): string{
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const prefixText = LogGroupStr[group][locale] ?? ''
+        let result = prefixText
+        list.forEach(owner => {
+            result += `${owner}, `
+        })
+        return result.slice(0, -2); // remove last , 
+    }
+
+    generateLogTextByPuzzle(group: LogGroup, list: PuzzleCode[]): string{
+        const locale = this.$i18n.locale as keyof typeof Locale
+        const prefixText = LogGroupStr[group][locale] ?? ''
+        let result = prefixText
+        list.forEach(puzzlieCode => {
+            const data = this.$util.getPuzzle(puzzlieCode)
+            result += `${data?.name[locale]}, `
+        })
+        return result.slice(0, -2); // remove last , 
+    }
+    
 }
 
 </script>

@@ -109,4 +109,5 @@ export default {
     "Total": "合共",
     "Min": "最小",
     "Max": "最大",
+    "Wiki": "Wiki",
 }

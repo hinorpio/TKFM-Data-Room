@@ -51,6 +51,7 @@ export const DispatchImage = General.DispatchImage
 export const DispatchSkillTypeString = General.DispatchSkillTypeString
 export const LogTypeColor = General.LogTypeColor
 export const LogTypeStr = General.LogTypeStr
+export const LogGroupStr = General.LogGroupStr
 export const ArtSourceColor = General.ArtSourceColor
 export const ArtSourceStr = General.ArtSourceStr
 export const ArtTypeColor = General.ArtTypeColor
@@ -70,5 +71,6 @@ export const UnitSelection = UnitImage.Selection
 export const UnitFullImage = UnitImage.FullImage 
 export const UnitDisciplinePreview = UnitImage.DisciplinePreview
 export const UnitOutfits = UnitImage.Outfits
+
 
 export const ArtFile = ArtSrc
