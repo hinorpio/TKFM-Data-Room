@@ -2,6 +2,56 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.6.2',
+        logs: [
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `角色: 天際領航員 星空奈奈美, 機長 巴爾`,
+                    [Locale.sc]: `角色: 天际领航员 星空奈奈美, 机长 巴尔`,
+                    [Locale.en]: `Unit: Sky-High Navigator Nanami, Plane Captain Ba'al`,
+                    [Locale.jp]: `キャラ: パイロット 星空ななみ, 機長 バル`,
+                    [Locale.kr]: `캐릭터: 천공의 승무원 나나미, 기장 바알`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `簡易造型: 機長 巴爾, 法斯精銳近衛 安娜, 法斯精銳騎士 布蘭`,
+                    [Locale.sc]: `简易造型: 机长 巴尔, 法斯精锐近卫 安娜, 法斯精锐骑士 布兰`,
+                    [Locale.en]: `Simple Outfits: Plane Captain Ba'al, Phasi Guard Anna, Phasi Soldier Blaire`,
+                    [Locale.jp]: `簡易スキン: 機長 バル, フォス精鋭近衛兵 アンナ, フォス精鋭騎士 ブラン`,
+                    [Locale.kr]: `간이 스킨: 기장 바알, 파스제국 정예근위대 안나, 파스제국 정예 기사 브란`
+                }
+            },
+            {
+                type: LogType.NEW,
+                content: {
+                    [Locale.tc]: `活動: 【飛越魔界】, 【雲上性愛日誌】, 【魔獄塔】第二十五季`,
+                    [Locale.sc]: `活动: 【飞越魔界】, 【云上性爱日志】, 【魔狱塔】第二十五季`,
+                    [Locale.en]: `Event: [On a Realm Flyover], [Cloud-Top Sex Log], [The Demon Spire] Season 25`,
+                    [Locale.jp]: `イベント: 「魔界を飛び超えろ」, 「雲の上の性愛日記」, 「魔獄塔」第25シーズン`,
+                    [Locale.kr]: `이벤트: 【마계를 넘어】, 【구름 위 섹스 일지】, 【마옥탑】 제25시즌`
+                }
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.6.1',
+        logs: [
+            {
+                type: LogType.FIX,
+                content: {
+                    [Locale.tc]: `角色數值計算`,
+                    [Locale.sc]: `角色数值计算`,
+                    [Locale.en]: `Stat Calculator`,
+                    [Locale.jp]: `ステータス計算機`,
+                    [Locale.kr]: `스탯 계산자`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.6.0',
         logs: [
             {
