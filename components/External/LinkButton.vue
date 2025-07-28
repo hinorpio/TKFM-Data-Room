@@ -1,6 +1,6 @@
 <template>
     <a class="hyperlink-class" target="_blank" :href="link">
-        <v-btn class="pa-0 character-button" :color="color" block height="4em">
+        <v-btn class="pa-0 character-button" color="white" block height="4em">
             <v-row class="align-center px-0 mx-0">
                 <v-img :src="imgSrc" height="4em" width="4em" contain/>
                 <v-spacer></v-spacer>
@@ -49,4 +49,6 @@ export default class LinkButton extends Vue {
 <style lang="sass" scoped>
 .hyperlink-class
     text-decoration: none
+::v-deep .v-btn__content
+    color: black
 </style>

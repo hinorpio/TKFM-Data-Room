@@ -6,25 +6,25 @@
                 <h2 class="mb-8">{{ $t('Offical Link') }}</h2>
                 <v-row>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="#4107a9" :imgSrc="require('@/assets/logo.png')" :content="getLocalStr(offical_str)" :link="getLocalStr(offical)" />
+                        <link-button color="white" :imgSrc="require('@/assets/logo.png')" :content="getLocalStr(offical_str)" :link="getLocalStr(offical)" />
                     </v-col>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="#c91e5d" :imgSrc="require('@/assets/post.png')" :content="getLocalStr(post_str)" :link="getLocalStr(post)" />
+                        <link-button color="white" :imgSrc="require('@/assets/post.png')" :content="getLocalStr(post_str)" :link="getLocalStr(post)" />
                     </v-col>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="#5c6bc0" :imgSrc="require('@/assets/external/discord.png')" :content="getLocalStr(discord_str)" :link="getLocalStr(discord)" />
+                        <link-button color="white" :imgSrc="require('@/assets/external/discord.png')" :content="getLocalStr(discord_str)" :link="getLocalStr(discord)" />
                     </v-col>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="#ce1a19" :imgSrc="require('@/assets/external/youtube.png')" :content="getLocalStr(youtube_str)" :link="getLocalStr(youtube)" />
+                        <link-button color="white" :imgSrc="require('@/assets/external/youtube.png')" :content="getLocalStr(youtube_str)" :link="getLocalStr(youtube)" />
                     </v-col>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="#3566a5" :imgSrc="require('@/assets/external/facebook.png')" :content="getLocalStr(facebook_fanpage_str)" :link="getLocalStr(facebook_fanpage)" />
+                        <link-button color="white" :imgSrc="require('@/assets/external/facebook.png')" :content="getLocalStr(facebook_fanpage_str)" :link="getLocalStr(facebook_fanpage)" />
                     </v-col>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="#3566a5" :imgSrc="require('@/assets/external/facebook.png')" :content="getLocalStr(facebook_group_str)" :link="getLocalStr(facebook_group)" />
+                        <link-button color="white" :imgSrc="require('@/assets/external/facebook.png')" :content="getLocalStr(facebook_group_str)" :link="getLocalStr(facebook_group)" />
                     </v-col>
                     <v-col :cols="12" :xl="3" :lg="4" :md="6" :sm="6" :xs="12">
-                        <link-button color="black" :imgSrc="require('@/assets/external/x.png')" :content="getLocalStr(x_str)" :link="getLocalStr(x)" />
+                        <link-button color="white" :imgSrc="require('@/assets/external/x.png')" :content="getLocalStr(x_str)" :link="getLocalStr(x)" />
                     </v-col>
                 </v-row>
 
