@@ -128,11 +128,11 @@ export default class LinkCard extends Vue {
     }
 
     discord_str: {[lang in Locale]: string} = {
-        [Locale.tc]: 'DISCORD',
-        [Locale.sc]: 'DISCORD',
-        [Locale.en]: 'DISCORD',
-        [Locale.jp]: 'DISCORD',
-        [Locale.kr]: 'DISCORD',
+        [Locale.tc]: 'Discord',
+        [Locale.sc]: 'Discord',
+        [Locale.en]: 'Discord',
+        [Locale.jp]: 'Discord',
+        [Locale.kr]: 'Discord',
     }
 
     youtube: {[lang in Locale]: string} = {
@@ -144,11 +144,11 @@ export default class LinkCard extends Vue {
     }
 
     youtube_str: {[lang in Locale]: string} = {
-        [Locale.tc]: 'YOUTUBE',
-        [Locale.sc]: 'YOUTUBE',
-        [Locale.en]: 'YOUTUBE',
-        [Locale.jp]: 'YOUTUBE',
-        [Locale.kr]: 'YOUTUBE',
+        [Locale.tc]: 'Youtube',
+        [Locale.sc]: 'Youtube',
+        [Locale.en]: 'Youtube',
+        [Locale.jp]: 'Youtube',
+        [Locale.kr]: 'Youtube',
     }
 
     facebook_fanpage: {[lang in Locale]: string} = {

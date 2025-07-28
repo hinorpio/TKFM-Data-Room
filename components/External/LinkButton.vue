@@ -51,4 +51,6 @@ export default class LinkButton extends Vue {
     text-decoration: none
 ::v-deep .v-btn__content
     color: black
+::v-deep .v-btn
+    text-transform: none
 </style>

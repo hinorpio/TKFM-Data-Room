@@ -8,6 +8,7 @@
             <v-tab>{{$t('Stat Calculator')}}</v-tab>
             <v-tab v-if="isDiscipline">{{$t('Discipline')}}</v-tab>
             <v-tab v-if="isPuzzle">{{$t('Puzzle')}}</v-tab>
+            <v-tab>{{$t('Voice')}}</v-tab>
             <v-tab v-if="isOtherVersion">{{$t('Other Form')}}</v-tab>
             <!-- <v-tab>{{$t('Analysis')}}</v-tab> -->
         </v-tabs>
@@ -33,6 +34,9 @@
             <v-tab-item v-if="isPuzzle">
                 <puzzle-tab :unit="unit" />
             </v-tab-item>
+            <v-tab-item>
+                <voice-tab :unit="unit" />
+            </v-tab-item>
             <v-tab-item v-if="isOtherVersion">
                 <other-version-tab :unit="unit" />
             </v-tab-item>
@@ -52,6 +56,7 @@ import DisciplineTab from './DisciplineTab.vue';
 import PotentialTab from './PotentialTab.vue';
 import StatCalTab from './StatCalTab.vue';
 import PuzzleTab from './PuzzleTab.vue';
+import VoiceTab from './VoiceTab.vue';
 import OtherVersionTab from './OtherVersionTab.vue';
 import AnalysisTab from './AnalysisTab.vue';
 import { Unit } from '@/interface/unit'
@@ -65,6 +70,7 @@ import { Unit } from '@/interface/unit'
         PotentialTab,
         StatCalTab,
         PuzzleTab,
+        VoiceTab,
         OtherVersionTab,
         AnalysisTab,
     },
@@ -94,6 +100,7 @@ export default class UnitTab extends Vue {
         const otherVersion = this.unit.otherVersion
         return (otherVersion) ?otherVersion.length > 0 :false;
     }
+
 }
 </script>
 <style lang="sass" scoped>

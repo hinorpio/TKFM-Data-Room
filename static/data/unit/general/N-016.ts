@@ -1,5 +1,5 @@
 import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
-import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits } from '~/static/const';
+import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits, UnitVoice } from '~/static/const';
 import { Unit } from '@/interface/unit';
 import puzzles from '../../puzzle';
 
@@ -59,5 +59,6 @@ export const General_10916: Unit = {
     initATK: 375,
     puzzle: [ PuzzleCode.HUMAN_ANNA, PuzzleCode.HUMAN_NATASHA ],
     outfits: UnitOutfits[UnitCode.anna],
+    voiceSet: UnitVoice[UnitCode.anna],
     skillSet: []
 }
