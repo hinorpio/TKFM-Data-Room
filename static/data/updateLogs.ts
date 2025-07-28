@@ -1,11 +1,12 @@
 import { UpdateLogs } from '@/interface/updateLogs';
-import { Locale, LogType } from '@/plugins/utils/enums';
+import { Locale, LogGroup, LogType } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
         version: 'ver.beta-0.6.0',
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `角色數值計算`,
                     [Locale.sc]: `角色数值计算`,
@@ -16,6 +17,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: 森屿海盐vv`,
                     [Locale.sc]: `画作/二创: 森屿海盐vv`,
@@ -31,6 +33,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: 真吾鳳`,
                     [Locale.sc]: `画作/二创: 真吾鳳`,
@@ -46,6 +49,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 聖劍覺醒 神田綾音`,
                     [Locale.sc]: `角色: 圣剑觉醒 神田绫音`,
@@ -56,6 +60,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【請問要來點獸耳嗎？-復刻-】`,
                     [Locale.sc]: `活动: 【请问要来点兽耳吗？-复刻-】`,
@@ -71,6 +76,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 盛暑沁夏 伊布力斯, 夏日 希依, 夏日 諾蕾蒂, 怒濤魔鯊 芙紐絲`,
                     [Locale.sc]: `角色: 盛暑沁夏 伊布力斯, 夏日 希依, 夏日 诺蕾蒂, 怒涛魔鲨 芙纽丝`,
@@ -81,6 +87,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【深海的逆襲者】`,
                     [Locale.sc]: `活动: 【深海的逆袭者】`,
@@ -96,6 +103,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.FIX,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `狂犬 諾蕾蒂, 副手 貝蕾朵 立繪問題`,
                     [Locale.sc]: `狂犬 诺蕾蒂, 副手 贝蕾朵 立绘问题`,
@@ -111,6 +119,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 盛慾嬌妻 達芙妮, 美艷少婦 椿`,
                     [Locale.sc]: `角色: 盛欲娇妻 达芙妮, 美艳少妇 椿`,
@@ -121,6 +130,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【媽媽咪呀！】, 【人妻共淫時光】, 【集合啦！魔王渡假村-復刻-】, 【挑戰！渡假村評鑑-復刻-】, 【時之裂縫】第二十一季`,
                     [Locale.sc]: `活动: 【妈妈咪呀！】, 【人妻共淫时光】, 【集合啦！魔王渡假村-复刻-】, 【挑战！渡假村评鉴-复刻-】, 【时之裂缝】第二十一季`,
@@ -136,6 +146,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: XXBM 小小布魔`,
                     [Locale.sc]: `画作/二创: XXBM 小小布魔`,
@@ -151,6 +162,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 甜蜜寶貝 萊爾貝妲, 躍動之星 黑白諾艾莉, 啦啦隊長 尤妮思`,
                     [Locale.sc]: `角色: 甜蜜宝贝 莱尔贝妲, 跃动之星 黑白诺艾莉, 啦啦队长 尤妮思`,
@@ -161,6 +173,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【甜蜜寶貝矯正宣言】, 【舞動奇姬】, 【心之枷鎖】, 【魔獄塔】第二十四季, 【悠閒無事的本大爺凱薩邊境城鎮成為冒險者展開緊張刺激大冒險-復刻-】`,
                     [Locale.sc]: `活动: 【甜蜜宝贝矫正宣言】, 【舞动奇姬】, 【心之枷锁】, 【魔狱塔】第二十四季, 【悠闲无事的本大爷凯萨边境城镇成为冒险者展开紧张刺激大冒险-复刻-】`,
@@ -171,6 +184,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: 독군 Dokgun`,
                     [Locale.sc]: `画作/二创: 독군 Dokgun`,
@@ -186,6 +200,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
                     [Locale.sc]: `画作/二创: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
@@ -201,6 +216,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創`,
                     [Locale.sc]: `画作/二创`,
@@ -216,6 +232,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 銀鴞武裝 米婭, 白熊武裝 冬。艾妮`,
                     [Locale.sc]: `角色: 银鸮武装 米娅, 白熊武装 冬。艾妮`,
@@ -226,6 +243,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【星欲機工隊】, 【異星：猛攻】`,
                     [Locale.sc]: `活动: 【星欲机工队】, 【异星：猛攻】`,
@@ -236,6 +254,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: 독군 Dokgun`,
                     [Locale.sc]: `画作/二创: 독군 Dokgun`,
@@ -251,6 +270,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.ART,
                 content: {
                     [Locale.tc]: `畫作/二創: 독군 Dokgun`,
                     [Locale.sc]: `画作/二创: 독군 Dokgun`,
@@ -266,6 +286,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 虔信神祀 艾可, 夜之影 凱薩, 祭典花韻 香奈`,
                     [Locale.sc]: `角色: 虔信神祀 艾可, 夜之影 凯萨, 祭典花韵 香奈`,
@@ -276,6 +297,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【烈日逢妖譚】, 【極悅！春日祭】, 【魔法少女☆托特拉-復刻-】`,
                     [Locale.sc]: `活动: 【烈日逢妖譚】, 【极悦！春日祭】, 【魔法少女☆托特拉-复刻-】`,
@@ -291,6 +313,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.FIX,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `畫作/二創 下載問題`,
                     [Locale.sc]: `画作/二创 下载问题`,
@@ -306,6 +329,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `CDN`,
                     [Locale.sc]: `CDN`,
@@ -316,6 +340,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `角色圖像`,
                     [Locale.sc]: `角色图像`,
@@ -331,6 +356,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.FIX,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `畫作/二創 複製問題`,
                     [Locale.sc]: `画作/二创 复制问题`,
@@ -346,6 +372,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `畫作/二創`,
                     [Locale.sc]: `画作/二创`,
@@ -356,6 +383,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `「關於本站」更新`,
                     [Locale.sc]: `画作/二创`,
@@ -371,6 +399,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `簡易造型`,
                     [Locale.sc]: `简易造型`,
@@ -381,6 +410,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 喜迎性春 菲歐菈, 舞焰赤龍 薩夏`,
                     [Locale.sc]: `角色: 喜迎性春 菲欧菈, 舞焰赤龙 萨夏`,
@@ -391,6 +421,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【精遊記】, 【凱薩大鬧火焰山】, 【魔獄塔】第二十三季`,
                     [Locale.sc]: `活动: 【精游记】, 【凯萨大闹火焰山】, 【魔狱塔】第二十三季`,
@@ -406,6 +437,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.LIBERATE,
                 content: {
                     [Locale.tc]: `解放技能: 「花嫁 伊布力斯」,「雪姬 初華」`,
                     [Locale.sc]: `解放技能: 「花嫁 伊布力斯」,「雪姬 初华」`,
@@ -416,6 +448,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【風雲！新春大運動會-復刻-】, 【勝負！風林火山-復刻-】`,
                     [Locale.sc]: `活动: 【风云！新春大运动会-复刻-】, 【胜负！风林火山-复刻-】`,
@@ -431,6 +464,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 性誕魔王 巴爾, 純真祈願 牧愛菈, 聖夜奇謀 布蘭妮, 翩舞雪花 初華`,
                     [Locale.sc]: `角色: 性诞魔王 巴尔, 纯真祈愿 牧爱菈, 圣夜奇谋 布兰妮, 翩舞雪花 初华`,
@@ -441,6 +475,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【聖誕的少女想要愛】, 【聖誕無戰事】, 【時之裂縫】第十九季`,
                     [Locale.sc]: `活动: 【圣诞的少女想要爱】, 【圣诞无战事】, 【时之裂缝】第十九季`,
@@ -451,6 +486,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `R18 頁面導向問題`,
                     [Locale.sc]: `R18 页面导向问题`,
@@ -466,6 +502,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 甜蜜女僕 星空奈奈美, 冷淡女僕 KS-Ⅷ`,
                     [Locale.sc]: `角色: 甜蜜女仆 星空奈奈美, 冷淡女仆 KS-Ⅷ`,
@@ -476,6 +513,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【夢幻偶像☆一日女僕】, 【☆星光少女☆】, 【魔獄塔】第二十二季, 【空氣怪獸大戰-復刻-】`,
                     [Locale.sc]: `活动: 【梦幻偶像☆一日女仆】, 【☆星光少女☆】, 【魔狱塔】第二十二季, 【空气怪兽大战-复刻-】`,
@@ -491,6 +529,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.PUZZLE,
                 content: {
                     [Locale.tc]: `相關拼圖 & 全境徵才: 獵犬小隊 茉莉, 獵犬小隊 安雅`,
                     [Locale.sc]: `相关拼图 & 全境征才: 猎犬小队 茉莉, 猎犬小队 安雅`,
@@ -501,6 +540,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 治癒之星 蘇珊, 純真殺意 撒旦`,
                     [Locale.sc]: `角色: 治愈之星 苏珊, 纯真杀意 撒旦`,
@@ -511,6 +551,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【驚懼撒旦夜】, 【殺意的行進】, 【時之裂縫】第十八季, 【異世界情趣店-復刻-】`,
                     [Locale.sc]: `活动: 【惊惧撒旦夜】, 【杀意的行进】, 【时之裂缝】第十八季, 【异世界情趣店-复刻-】`,
@@ -526,6 +567,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `解放技能: 「祭典狂歡 巴爾」,「偶像 黑白諾艾莉」`,
                     [Locale.sc]: `解放技能: 「祭典狂欢 巴尔」,「偶像 黑白诺艾莉」`,
@@ -536,6 +578,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【萬聖大驚奇-復刻-】, 【無盡搗蛋夜-復刻-】`,
                     [Locale.sc]: `活动: 【万圣大惊奇-复刻-】, 【无尽捣蛋夜-复刻-】`,
@@ -551,6 +594,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.CHANGE,
+                group: LogGroup.PUZZLE,
                 content: {
                     [Locale.tc]: `2023 夏日拼圖`,
                     [Locale.sc]: `2023 夏日拼图`,
@@ -566,6 +610,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `角色 韓文暱稱`,
                     [Locale.sc]: `角色 韩文昵称`,
@@ -581,6 +626,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `UI調整`,
                     [Locale.sc]: `UI调整`,
@@ -596,6 +642,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `한국어 Ver`,
                     [Locale.sc]: `한국어 Ver`,
@@ -611,6 +658,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.FIX,
+                group: LogGroup.SKILL,
                 content: {
                     [Locale.tc]: `角色技能: 調皮搗蛋 白`,
                     [Locale.sc]: `角色技能: 调皮捣蛋 白`,
@@ -626,6 +674,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 占星師 亞美西思特, 勇者兔女郎 神田綾音, 性感兔女郎 伊布力斯`,
                     [Locale.sc]: `角色: 占星师 亚美西思特, 勇者兔女郎 神田綾音, 性感兔女郎 伊布力斯`,
@@ -636,6 +685,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【本大爺娛樂城】, 【星宿的指引】, 【魔獄塔】第二十一季`,
                     [Locale.sc]: `活动: 【本大爷娱乐城】, 【星宿的指引】, 【魔狱塔】第二十一季`,
@@ -651,6 +701,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【來自星空的妳-復刻-】, 【朋友與加班-復刻-】`,
                     [Locale.sc]: `活动: 【来自星空的妳-复刻-】, 【朋友与加班-复刻-】`,
@@ -666,6 +717,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `日本語 Ver`,
                     [Locale.sc]: `日本語 Ver`,
@@ -676,6 +728,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `全境徵才: 依標籤組合 - SR優先排序&外框顏色`,
                     [Locale.sc]: `全境征才: 依标签组合 - SR优先排序&外框颜色`,
@@ -691,6 +744,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `更新日誌`,
                     [Locale.sc]: `更新日誌`,
@@ -701,6 +755,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.UNIT,
                 content: {
                     [Locale.tc]: `角色: 酩酊狂歡 靜, 千年靈狐 椿`,
                     [Locale.sc]: `角色: 酩酊狂欢 静, 千年灵狐 椿`,
@@ -711,6 +766,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.NEW,
+                group: LogGroup.EVENT,
                 content: {
                     [Locale.tc]: `活動: 【妖狐與她的產地】, 【人妻系列】, 【時之裂縫】第十七季`,
                     [Locale.sc]: `活动: 【妖狐与她的产地】, 【人妻系列】, 【时之裂缝】第十七季`,
@@ -726,6 +782,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `全境徵才: 依標籤組合`,
                     [Locale.sc]: `全境征才: 依标签组合`,
@@ -741,6 +798,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `解放技能: 絆數資料`,
                     [Locale.sc]: `解放技能: 绊数资料`,
@@ -756,6 +814,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.FIX,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `R18 頁面導向問題`,
                     [Locale.sc]: `R18 页面导向问题`,
@@ -766,6 +825,7 @@ const events: UpdateLogs[] = [
             },
             {
                 type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `解放技能: 简中版, English Ver`,
                     [Locale.sc]: `解放技能: 简中版, English Ver`,
@@ -781,6 +841,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `简中版, English Ver`,
                     [Locale.sc]: `简中版, English Ver`,
@@ -796,6 +857,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.NEW,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `R18 頁面`,
                     [Locale.sc]: `R18 页面`,
@@ -811,6 +873,7 @@ const events: UpdateLogs[] = [
         logs: [
             {
                 type: LogType.OTHER,
+                group: LogGroup.GENERAL,
                 content: {
                     [Locale.tc]: `網站設置`,
                     [Locale.sc]: `网站设置`,

@@ -1,7 +1,7 @@
 <template>
     <v-row>
         <v-spacer></v-spacer>
-        <base-expand-card :title="$t('External Website')" icon="mdi-link" >
+        <base-expand-card :title="$t('External Website')" icon="mdi-link" isExpand >
             <div slot="content" class="pa-4">
                 <h2 class="mb-4">{{ $t('Offical Link') }}</h2>
                 <h3><u>{{ $t('Offical') }}</u></h3>

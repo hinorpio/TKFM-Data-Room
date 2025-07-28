@@ -100,6 +100,11 @@ export default class DefaultLayout extends Vue {
       title: this.$t('Artwork / Fanart'),
       to: `${this.langPrefix}/art/`
     },
+    {
+      icon: 'mdi-post-outline',
+      title: this.$t('Log'),
+      to: `${this.langPrefix}/log/`
+    },
   ]
 
   get r18WarningAcknowledged():boolean {

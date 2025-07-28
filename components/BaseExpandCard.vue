@@ -7,7 +7,7 @@
                     {{ title }}
                 </span>
                 <v-spacer></v-spacer>
-                <v-btn icon>
+                <v-btn icon v-if="isExpand">
                     <v-icon>{{ showDetail ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
                 </v-btn>
             </v-row>
@@ -33,11 +33,15 @@ export default class LinkCard extends Vue {
     @Prop({ type: String, required: true, default: '' })
     title!: String;
 
+    @Prop({ type: Boolean, required: false, default: true })
+    isExpand!: boolean;
+
     showDetail: Boolean = true
     cardWidth: String = '75em'
 
     toogleShowDetail(): void{
-        this.showDetail = !this.showDetail
+        if(this.isExpand)
+            this.showDetail = !this.showDetail
     }
 }
 </script>

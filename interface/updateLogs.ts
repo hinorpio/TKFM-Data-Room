@@ -1,10 +1,13 @@
-import { Locale, LogType } from '@/plugins/utils/enums';
+import { Locale, LogType, LogGroup, UnitCode } from '@/plugins/utils/enums';
 
-interface Logs {
+export interface Logs {
     type: LogType;
-    content: {
+    group: LogGroup;
+    content?: {
         [lang in Locale]: string;
     };
+    unitList?: UnitCode[];
+    eventList?: string[]
 }
 
 export interface UpdateLogs {

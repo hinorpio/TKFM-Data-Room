@@ -1,7 +1,7 @@
 <template>
     <v-row v-if="isMounted">
         <v-spacer></v-spacer>
-        <base-expand-card :title="$t('Update Logs')" icon="mdi-creation" isExpand >
+        <base-expand-card :title="$t('Update Logs')" icon="mdi-creation" :isExpand="false">
             <div slot="content" class="pa-4">
                 <div v-for="(ver, index) in logData" :key="index">
                     <span :class="titleClass">{{ ver.version }}</span>
@@ -10,7 +10,7 @@
                             <v-btn x-small block class="mr-2 mt-1" :color="$util.getLogTypeColor(log.type)">{{ getLogType(log.type) }}</v-btn>
                         </v-col>
                         <v-col class="py-0" :cols="8" :xl="11" :lg="10" :md="10" :sm="10" :xs="8">
-                            <span :class="strClass">{{ getLogContent(log.content) }}</span>
+                            <span :class="strClass">{{ getLogContent(log) }}</span>
                         </v-col>
                     </v-row>
                     <br />
@@ -25,7 +25,7 @@
 import Vue from "vue";
 import { Component } from "vue-property-decorator";
 import BaseExpandCard from "../BaseExpandCard.vue";
-import { UpdateLogs } from "~/interface/updateLogs";
+import { Logs, UpdateLogs } from "~/interface/updateLogs";
 import { Locale, LogType } from "~/plugins/utils/enums";
 
 @Component({
@@ -33,7 +33,7 @@ import { Locale, LogType } from "~/plugins/utils/enums";
         BaseExpandCard
     }
 })
-export default class Logs extends Vue {
+export default class LogCard extends Vue {
 
     isMounted: boolean = false 
     logData: UpdateLogs[] = []
@@ -57,9 +57,14 @@ export default class Logs extends Vue {
         return logTypeStr[locale]
     }
 
-    getLogContent(content: {[lang in Locale]: string}): string{
-        const locale = this.$i18n.locale as keyof typeof Locale
-        return content[locale] ?? ''
+    getLogContent(log: Logs): string{
+        if(!log.content)
+            return ''
+        else{
+            const content = log.content
+            const locale = this.$i18n.locale as keyof typeof Locale
+            return content[locale] ?? ''
+        }
     }
 
 }

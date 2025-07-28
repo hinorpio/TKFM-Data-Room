@@ -29,6 +29,16 @@ export enum LogType {
     OTHER = 'OTHER',
 }
 
+export enum LogGroup {
+    UNIT = 'UNIT',
+    EVENT = 'EVENT',
+    ART = 'ART',
+    SKILL = 'SKILL',
+    LIBERATE = 'LIBERATE',
+    PUZZLE = 'PUZZLE',
+    GENERAL = 'GENERAL',
+}
+
 export enum Element {
     FIRE = 'FIRE',
     WATER = 'WATER',
