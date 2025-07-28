@@ -1,4 +1,4 @@
-import { Locale, LogType, LogGroup, UnitCode } from '@/plugins/utils/enums';
+import { Locale, LogType, LogGroup, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 
 export interface Logs {
     type: LogType;
@@ -7,7 +7,9 @@ export interface Logs {
         [lang in Locale]: string;
     };
     unitList?: UnitCode[];
-    eventList?: string[]
+    eventList?: string[];
+    ownerList?: FanartOwner[];
+    puzzleList?: PuzzleCode[];
 }
 
 export interface UpdateLogs {

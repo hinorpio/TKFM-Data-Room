@@ -1,5 +1,5 @@
 import { UpdateLogs } from '@/interface/updateLogs';
-import { Locale, LogGroup, LogType } from '@/plugins/utils/enums';
+import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
         version: 'ver.beta-0.6.2',
@@ -13,7 +13,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Sky-High Navigator Nanami, Plane Captain Ba'al`,
                     [Locale.jp]: `キャラ: パイロット 星空ななみ, 機長 バル`,
                     [Locale.kr]: `캐릭터: 천공의 승무원 나나미, 기장 바알`
-                }
+                },
+                unitList: [ UnitCode.sky_nanami, UnitCode.sky_baal ]
             },
             {
                 type: LogType.NEW,
@@ -24,7 +25,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Simple Outfits: Plane Captain Ba'al, Phasi Guard Anna, Phasi Soldier Blaire`,
                     [Locale.jp]: `簡易スキン: 機長 バル, フォス精鋭近衛兵 アンナ, フォス精鋭騎士 ブラン`,
                     [Locale.kr]: `간이 스킨: 기장 바알, 파스제국 정예근위대 안나, 파스제국 정예 기사 브란`
-                }
+                },
+                unitList: [ UnitCode.sky_baal, UnitCode.anna, UnitCode.blaire ]
             },
             {
                 type: LogType.NEW,
@@ -35,7 +37,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [On a Realm Flyover], [Cloud-Top Sex Log], [The Demon Spire] Season 25`,
                     [Locale.jp]: `イベント: 「魔界を飛び超えろ」, 「雲の上の性愛日記」, 「魔獄塔」第25シーズン`,
                     [Locale.kr]: `이벤트: 【마계를 넘어】, 【구름 위 섹스 일지】, 【마옥탑】 제25시즌`
-                }
+                },
+                eventList: [ '0184', '0185', '0186' ]
             },
         ]
     },
@@ -78,7 +81,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: 森屿海盐vv`,
                     [Locale.jp]: `アートワーク / 同人: 森屿海盐vv`,
                     [Locale.kr]: `아트워크 / 팬 창작: 森屿海盐vv`
-                }
+                },
+                ownerList: [ FanartOwner.VV ]
             },
         ]
     },
@@ -94,7 +98,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: 真吾鳳`,
                     [Locale.jp]: `アートワーク / 同人: 真吾鳳`,
                     [Locale.kr]: `아트워크 / 팬 창작: 真吾鳳`
-                }
+                },
+                ownerList: [ FanartOwner.ANNA_PHOENIX ]
             },
         ]
     },
@@ -110,7 +115,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Blademaster Unleashed Ayane`,
                     [Locale.jp]: `キャラ: 聖剣覚醒 神田綾音`,
                     [Locale.kr]: `캐릭터: 성검 해방 칸다 아야네`
-                }
+                },
+                unitList: [ UnitCode.bu_ayane ]
             },
             {
                 type: LogType.NEW,
@@ -121,7 +127,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Want Animal Ears? -Comeback-]`,
                     [Locale.jp]: `イベント: 「ご注文はケモ耳ですか？-復刻-」`,
                     [Locale.kr]: `이벤트: 【동물귀 주문하시겠어요?-복각-】`
-                }
+                },
+                eventList: [ '0183' ]
             },
         ]
     },
@@ -137,7 +144,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Scalding Summer Iblis, Summer Evie, Summer Noma, Raging Shark Forneusa`,
                     [Locale.jp]: `キャラ: 真夏の清涼 イブリース, 夏の日 リリー, 夏の日 ノルディ, 怒涛の魔鮫 フォルネウス`,
                     [Locale.kr]: `캐릭터: 청량한 여름 이블리스, 여름날 릴리, 여름날 놀라이티, 노도의 마상어 포르네우스`
-                }
+                },
+                unitList: [ UnitCode.ss_iblis, UnitCode.s_evie, UnitCode.s_noma, UnitCode.forneusa ]
             },
             {
                 type: LogType.NEW,
@@ -148,7 +156,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Sea Counterattacker]`,
                     [Locale.jp]: `イベント: 「深海の逆襲者」`,
                     [Locale.kr]: `이벤트: 【심해의 역습자】`
-                }
+                },
+                eventList: [ '0182' ]
             },
         ]
     },
@@ -180,7 +189,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Thirsty Wife Daphne, Glamorous Wife Tsubaki`,
                     [Locale.jp]: `キャラ: 溢れる欲 ダフィー, 妖艶な人妻 椿`,
                     [Locale.kr]: `캐릭터: 왕성한 성욕 더피, 매혹적인 새댁 츠바키`
-                }
+                },
+                unitList: [ UnitCode.momDaphne, UnitCode.w_tsubaki ]
             },
             {
                 type: LogType.NEW,
@@ -191,7 +201,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Mommy Mia!], [Wife Kinky Time], [Summer by the Cae-side -Comeback-], [Resort Evaluation! -Comeback-], [Time Rift] Season 21`,
                     [Locale.jp]: `イベント: 「マンマミーア！」, 「人妻との淫らな一時」, 「集まれ！魔王休暇村-復刻-」, 「挑戦！休暇村ジャッジ-復刻-」, 「時空の裂け目」第21シーズン`,
                     [Locale.kr]: `이벤트: 【맘마미아!】, 【유부녀와의 음탕한 시간】, 【집합! 마왕 리조트!-복각-】, 【도전! 리조트 평가-복각-】, 【시공간의 균열】 제21시즌`
-                }
+                },
+                eventList: [ '0178', '0179', '0180', '0181', 'TIMERIFT_021' ]
             },
         ]
     },
@@ -207,7 +218,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: XXBM 小小布魔`,
                     [Locale.jp]: `アートワーク / 同人: XXBM 小小布魔`,
                     [Locale.kr]: `아트워크 / 팬 창작: XXBM 小小布魔`
-                }
+                },
+                ownerList: [ FanartOwner.XXBM ]
             },
         ]
     },
@@ -223,7 +235,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Sweet Baby Lér Bédard, Star of Momentum Noel, Cheerleader Captain Eunice`,
                     [Locale.jp]: `キャラ: スイートベイビー ラベンダー, 躍動のスター ノエル, チアのキャプテン ユニス`,
                     [Locale.kr]: `캐릭터: 스위트 베이비 라벤더, 도약의 별 노엘리, 치어리더장 유니스`
-                }
+                },
+                unitList: [ UnitCode.bedard, UnitCode.c_noel, UnitCode.eunice ]
             },
             {
                 type: LogType.NEW,
@@ -234,7 +247,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Sweet Baby Correction], [Dancing Queen], [Shackles of the Heart], [The Demon Spire] Season 24, [Caesar's bored... so he joins the Adventurer's Guild! -Comeback-]`,
                     [Locale.jp]: `イベント: 「スイートベイビー矯正宣言」, 「舞い踊る姫」, 「心の枷」, 「魔獄塔」第24シーズン, 「暇で死にそうな俺様シーザー 辺境の村で冒険者になって 刺激満載の大冒險に出かけるとしよう-復刻-」`,
                     [Locale.kr]: `이벤트: 【스위트 베이비 교정 선언】, 【춤추는 공주】, 【마음의 족쇄】, 【마옥탑】 제24시즌, 【무료함을 느끼던 이 몸께서 변경 지대의 모험가가 되어 펼쳐나가는 스펙터클 어드벤처-복각-】`
-                }
+                },
+                eventList: [ '0173', '0174', '0175', '0176', '0177' ]
             },
             {
                 type: LogType.NEW,
@@ -245,7 +259,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: 독군 Dokgun`,
                     [Locale.jp]: `アートワーク / 同人: 독군 Dokgun`,
                     [Locale.kr]: `아트워크 / 팬 창작: 독군 Dokgun`
-                }
+                },
+                ownerList: [ FanartOwner.DOKGUN ]
             },
         ]
     },
@@ -261,7 +276,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
                     [Locale.jp]: `アートワーク / 同人: 黑白好哇塞, 咪咪貓貓, 月兔管理官`,
                     [Locale.kr]: `아트워크 / 팬 창작: 黑白好哇塞, 咪咪貓貓, 月兔管理官`
-                }
+                },
+                ownerList: [ FanartOwner.NOEL, FanartOwner.MIMI_MAOMAO, FanartOwner.MOON_RABBIT ]
             },
         ]
     },
@@ -277,7 +293,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart`,
                     [Locale.jp]: `アートワーク / 同人`,
                     [Locale.kr]: `아트워크 / 팬 창작`
-                }
+                },
+                ownerList: [ FanartOwner.C ]
             },
         ]
     },
@@ -293,7 +310,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: The Silver Owl Mia, The White Cub Annee Winter`,
                     [Locale.jp]: `キャラ: フクロウ装甲 ミア, シロクマ装甲 アイニー・ウィンター`,
                     [Locale.kr]: `캐릭터: 실버아울 미아, 폴라 베어 애니．윈터`
-                }
+                },
+                unitList: [ UnitCode.star_mia, UnitCode.star_annee ]
             },
             {
                 type: LogType.NEW,
@@ -304,7 +322,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Star Lusts Squad], [Alien Planet: Assault]`,
                     [Locale.jp]: `イベント: 「星欲機工隊」, 「異星：猛攻」`,
                     [Locale.kr]: `이벤트: 【스타러스트 기공대】, 【이계 행성: 맹공】`
-                }
+                },
+                eventList: [ '0170', '0171' ]
             },
             {
                 type: LogType.NEW,
@@ -315,7 +334,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: 독군 Dokgun`,
                     [Locale.jp]: `アートワーク / 同人: 독군 Dokgun`,
                     [Locale.kr]: `아트워크 / 팬 창작: 독군 Dokgun`
-                }
+                },
+                ownerList: [ FanartOwner.DOKGUN ]
             },
         ]
     },
@@ -331,7 +351,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Artwork / Fanart: 독군 Dokgun`,
                     [Locale.jp]: `アートワーク / 同人: 독군 Dokgun`,
                     [Locale.kr]: `아트워크 / 팬 창작: 독군 Dokgun`
-                }
+                },
+                ownerList: [ FanartOwner.DOKGUN ]
             },
         ]
     },
@@ -347,7 +368,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Devout Miko Aiko, Night Shadow Caesar, Festival Blossom Kana`,
                     [Locale.jp]: `キャラ: 敬虔な神祭 アイカ, 夜ノ影 シーザー, 祭りの花 香奈`,
                     [Locale.kr]: `캐릭터: 경신신사 아이카, 밤의 그림자 시저, 제전의 꽃 카나`
-                }
+                },
+                unitList: [ UnitCode.p_aiko, UnitCode.ni_caesar, UnitCode.f_kana ]
             },
             {
                 type: LogType.NEW,
@@ -358,7 +380,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Demon Encounters], [Ultimate Joy! Spring Festival], [Knight ☆ Tyrella -Comeback-]`,
                     [Locale.jp]: `イベント: 「妖魔邂逅録」, 「喜極！春祭り」, 「魔法少女☆トトラ-復刻-」`,
                     [Locale.kr]: `이벤트: 【태양과 요물의 만남】, 【극락! 봄맞이 축제】, 【마법소녀☆토타라-복각-】`
-                }
+                },
+                eventList: [ '0167', '0168', '0169' ]
             },
         ]
     },
@@ -460,7 +483,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Simple Outfits`,
                     [Locale.jp]: `簡易スキン`,
                     [Locale.kr]: `간이 스킨`
-                }
+                },
+                unitList: [ UnitCode.zaskia ]
             },
             {
                 type: LogType.NEW,
@@ -471,7 +495,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Spring Lust Fiora, Dancing Dragon Zaskia`,
                     [Locale.jp]: `キャラ: 性なる迎春 フィオラ, 炎舞の赤竜 サーシャ`,
                     [Locale.kr]: `캐릭터: 성의 봄맞이 피오라, 춤추는 불꽃의 적룡 사샤`
-                }
+                },
+                unitList: [ UnitCode.ny_fiora, UnitCode.zaskia ]
             },
             {
                 type: LogType.NEW,
@@ -482,7 +507,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Journey to the Jizz], [Caesar's Moutain Hellfire], [The Demon Spire] Season 23`,
                     [Locale.jp]: `イベント: 「精遊記」, 「シーザーが火焔山で大暴れ」, 「魔獄塔」第23シーズン`,
                     [Locale.kr]: `이벤트: 【정유기】, 【시저의 화염산 대소동】, 【마옥탑】 제23시즌`
-                }
+                },
+                eventList: [ '0164', '0165', '0166' ]
             },
         ]
     },
@@ -498,7 +524,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Liberation: [Bride Iblis], [Yuki-Hime Ichika]`,
                     [Locale.jp]: `解放スキル: 「花嫁 イブリース」,「雪姫 初華」`,
                     [Locale.kr]: `해방스킬: 「새신부 이블리스」, 「유키히메 이치카」`
-                }
+                },
+                unitList: [ UnitCode.b_iblis, UnitCode.ichika ]
             },
             {
                 type: LogType.NEW,
@@ -509,7 +536,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Field Day -Comeback-], [The Final Battle! -Comeback-]`,
                     [Locale.jp]: `イベント: 「風雲！新春大運動会-復刻-」, 「勝負！風林火山-復刻-」`,
                     [Locale.kr]: `이벤트: 【풍운! 신춘 대운동회-복각-】, 【승부! 풍림화산-복각-】`
-                }
+                },
+                eventList: [ '0162', '0163' ]
             },
         ]
     },
@@ -525,7 +553,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Sexmas Demon Ba'al, Pure Prayer Muila, Conspirator Britney, Snowflake Ichika`,
                     [Locale.jp]: `キャラ: セックスマス魔王 バル, 純粋な祈り マイラ, 聖夜の奇策 ブリトニー, 舞い散る雪の花 初華`,
                     [Locale.kr]: `캐릭터: 섹스마스 마왕 바알, 순진한 소원 무엘라, 크리스마스의 기책 브리트니, 춤추는 눈꽃 이치카`
-                }
+                },
+                unitList: [ UnitCode.x_baal, UnitCode.x_muila, UnitCode.x_britney, UnitCode.x_ichika ]
             },
             {
                 type: LogType.NEW,
@@ -536,7 +565,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Christmas Love], [No Battle on Christmas], [Time Rift] Season 19`,
                     [Locale.jp]: `イベント: 「クリスマス少女は愛がほしい」, 「クリスマス休戦」, 「時空の裂け目」第19シーズン`,
                     [Locale.kr]: `이벤트: 【크리스마스 소녀는 사랑을 원해】, 【크리스마스의 평화】, 【시공간의 균열】 제19시즌`
-                }
+                },
+                eventList: [ '0160', '0161', 'TIMERIFT_019' ]
             },
             {
                 type: LogType.CHANGE,
@@ -563,7 +593,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Sweet Maid Nanami, Cold Maid KS-Ⅷ`,
                     [Locale.jp]: `キャラ: 甘いメイド 星空ななみ, 冷酷メイド KS-Ⅷ`,
                     [Locale.kr]: `캐릭터: 달콤한 메이드 나나미, 냉담한 메이드 KS-Ⅷ`
-                }
+                },
+                unitList: [ UnitCode.m_nanami, UnitCode.m_ks8 ]
             },
             {
                 type: LogType.NEW,
@@ -574,7 +605,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Dreamy Idol ☆ Maid], [☆ Starlight Girl ☆], [The Demon Spire] Season 22, [The Battle of Thin Air -Comeback-]`,
                     [Locale.jp]: `イベント: 「夢のアイドル☆1日メイド」, 「☆スターライトガール☆」, 「魔獄塔」第22シーズン, 「空気怪獣ごっこ-復刻-」`,
                     [Locale.kr]: `이벤트: 【꿈의 아이돌☆일일 메이드】, 【☆스타라이트 걸☆】, 【마옥탑】 제22시즌, 【공기 괴수 대전-복각-】`
-                }
+                },
+                eventList: [ '0156', '0157', '0158', '0159' ]
             },
         ]
     },
@@ -590,7 +622,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Puzzle & Recruitment: Hound Hunter Molly, Hound Hunter Anya`,
                     [Locale.jp]: `パズル & 召集令: ハウンド小隊 ジュリー, ハウンド小隊 アンヤ`,
                     [Locale.kr]: `관련 퍼즐 & 전 지역 모집 필터: 하운드 소대 몰리, 하운드 소대 안야`
-                }
+                },
+                puzzleList: [ PuzzleCode.HUMAN_MOLLY, PuzzleCode.HUMAN_ANYA ]
             },
             {
                 type: LogType.NEW,
@@ -601,7 +634,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Healing Star Susan, Genuine Murderess Satan`,
                     [Locale.jp]: `キャラ: 治癒のスター スーザン, ピュアな殺意 サタン`,
                     [Locale.kr]: `캐릭터: 치유의 별 수잔, 순수한 살의 사탄`
-                }
+                },
+                unitList: [ UnitCode.susan, UnitCode.h_satan ]
             },
             {
                 type: LogType.NEW,
@@ -612,7 +646,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Fear Satan's Night], [Murderous Path], [Time Rift] Season 18, [Parallel Paradise Toys -Comeback-]`,
                     [Locale.jp]: `イベント: 「恐怖のサタンナイト」, 「殺意の行進」, 「時空の裂け目」第18シーズン, 「異世界アダルトショップ-復刻-」`,
                     [Locale.kr]: `이벤트: 【공포스러운 사탄의 밤】, 【살의의 행진】, 【시공간의 균열】 제18시즌, 【이세계 성인용품점-복각-】`
-                }
+                },
+                eventList: [ '0153', '0154', 'TIMERIFT_018', '0155' ]
             },
         ]
     },
@@ -628,7 +663,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Liberation: [Festive Ba'al], [Idol Noel]`,
                     [Locale.jp]: `解放スキル: 「祭りの バル」,「モノクロのノエル」`,
                     [Locale.kr]: `해방스킬: 「광란의 페스티벌 바알」, 「아이돌 블랙앤화이트 노엘리」`
-                }
+                },
+                unitList: [ UnitCode.f_baal, UnitCode.noel ]
             },
             {
                 type: LogType.NEW,
@@ -639,7 +675,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Halloween Surprise -Comeback-], [Never-ending Trick -Comeback-]`,
                     [Locale.jp]: `イベント: 「ハロウィンのサプライズ-復刻-」, 「ハロウィンフィーバー-復刻-」`,
                     [Locale.kr]: `이벤트: 【할로윈 서프라이즈-복각-】, 【무한의 트릭 나잇-복각-】`
-                }
+                },
+                eventList: [ '0151', '0152' ]
             },
         ]
     },
@@ -655,7 +692,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `2023 Summer Puzzle`,
                     [Locale.jp]: `2023 夏の日 パズル`,
                     [Locale.kr]: `2023 여름 관련 퍼즐`
-                }
+                },
+                puzzleList: [ PuzzleCode.EVENT_2023_SUMMER_1, PuzzleCode.EVENT_2023_SUMMER_2, PuzzleCode.EVENT_2023_SUMMER_3, PuzzleCode.EVENT_2023_SUMMER_4 ]
             },
         ]
     },
@@ -719,7 +757,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit Skillset: Naughty Tirxie Shiro`,
                     [Locale.jp]: `キャラスキル: イタズラっ子 ハク`,
                     [Locale.kr]: `캐릭터 스킬: 말썽쟁이 하쿠`
-                }
+                },
+                unitList: [ UnitCode.h_shiro ]
             },
         ]
     },
@@ -735,7 +774,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Clairvoyant Amethystina, Bunny Croupier Ayane, Bunny Croupier Amethystina`,
                     [Locale.jp]: `キャラ: 星占い師 アメシスト, 勇者バニー 神田綾音, エッチバニー イブリース`,
                     [Locale.kr]: `캐릭터: 점술사 아메시스트, 용자 바니걸 칸다 아야네, 섹시 바니걸 이블리스`
-                }
+                },
+                unitList: [ UnitCode.amethystina, UnitCode.bg_ayane, UnitCode.bg_iblis ]
             },
             {
                 type: LogType.NEW,
@@ -746,7 +786,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Master's Wonderland], [Cosmic Guidance], [The Demon Spire] Season 21`,
                     [Locale.jp]: `イベント: 「俺様のカジノ」, 「星宿の導き」, 「魔獄塔」第21シーズン`,
                     [Locale.kr]: `이벤트: 【이 몸의 카지노】, 【별자리의 안내】, 【마옥탑】 제21시즌`
-                }
+                },
+                eventList: [ '0148', '0149', '0150' ]
             },
         ]
     },
@@ -762,7 +803,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [From the Stars -Comeback-], [Friends and Overtime -Comeback-]`,
                     [Locale.jp]: `イベント: 「星から来たあなた-復刻-」, 「友達と残業-復刻-」`,
                     [Locale.kr]: `이벤트: 【별에서 온 그녀-복각-】, 【친구와 야근-복각-】`
-                }
+                },
+                eventList: [ '0146', '0147' ]
             },
         ]
     },
@@ -816,7 +858,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Unit: Drunken Feaster Shizuka, Millennium Fox Tsubaki`,
                     [Locale.jp]: `キャラ: 酔狂の宴 静, 千年の妖狐 椿`,
                     [Locale.kr]: `캐릭터: 곤드레만드레 시즈카, 천년의 영호 츠바키`
-                }
+                },
+                unitList: [ UnitCode.beer_shizuka, UnitCode.tsubaki ]
             },
             {
                 type: LogType.NEW,
@@ -827,7 +870,8 @@ const events: UpdateLogs[] = [
                     [Locale.en]: `Event: [Fox & Her Homeland], [Wife Series], [Time Rift] Season 17`,
                     [Locale.jp]: `イベント: 「妖狐とその生息地」, 「人妻シリーズ」, 「時空の裂け目」第17シーズン`,
                     [Locale.kr]: `이벤트: 【요호와 그녀의 생식지】, 【유부녀 시리즈】, 【시공간의 균열】 제17시즌`
-                }
+                },
+                eventList: [ '0144', '0145', 'TIMERIFT_017' ]
             },
         ]
     },

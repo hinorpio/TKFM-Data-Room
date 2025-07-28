@@ -277,6 +277,18 @@ export enum ArtType {
     OTHER = 'OTHER'
 }
 
+export enum FanartOwner {
+    DOKGUN = '독군 Dokgun',
+    NOEL = '黑白好哇塞',
+    MIMI_MAOMAO = '咪咪貓貓',
+    MOON_RABBIT = '月兔管理官',
+    LITTLE_PEA = '三重小豌豌',
+    ANNA_PHOENIX = '真吾鳳',
+    XXBM = 'XXBM 小小布魔',
+    VV = '森屿海盐vv',
+    C = '嗯C郎',
+}
+
 export enum PuzzleType {
     EVENT = 'EVENT',
     HUMAN = 'HUMAN',
