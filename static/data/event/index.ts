@@ -211,6 +211,7 @@ import EVENT_TIMERIFT_020 from "./EVENT-TIMERIFT-020";
 import EVENT_TIMERIFT_021 from "./EVENT-TIMERIFT-021";
 
 const events: Event[][] = [
+    [ EVENT_0187 ],
     [ EVENT_0184, EVENT_0185, EVENT_0186 ],
     [ EVENT_0183 ],
     [ EVENT_0182 ],
