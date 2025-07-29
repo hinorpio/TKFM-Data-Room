@@ -5,7 +5,7 @@ import {
 import * as Item from './item';
 import * as General from './general';
 import * as Puzzle from './puzzle';
-import * as UnitImage from './unit';
+import * as UnitInfo from './unit';
 import * as Event from './event'
 import * as ArtSrc from './art';
 import { NuxtError } from '@nuxt/types';
@@ -51,10 +51,12 @@ export const DispatchImage = General.DispatchImage
 export const DispatchSkillTypeString = General.DispatchSkillTypeString
 export const LogTypeColor = General.LogTypeColor
 export const LogTypeStr = General.LogTypeStr
+export const LogGroupStr = General.LogGroupStr
 export const ArtSourceColor = General.ArtSourceColor
 export const ArtSourceStr = General.ArtSourceStr
 export const ArtTypeColor = General.ArtTypeColor
 export const ArtTypeStr = General.ArtTypeStr
+export const VoiceTypeStr = General.VoiceTypeStr
 
 export const ItemIcon = Item.Icon
 
@@ -65,10 +67,12 @@ export const EventTypeColor = General.EventTypeColor
 export const EventTypeString = General.EventTypeString
 export const EventBanner = Event.Banner
 
-export const UnitEssence = UnitImage.Essence
-export const UnitSelection = UnitImage.Selection
-export const UnitFullImage = UnitImage.FullImage 
-export const UnitDisciplinePreview = UnitImage.DisciplinePreview
-export const UnitOutfits = UnitImage.Outfits
+export const UnitEssence = UnitInfo.Essence
+export const UnitSelection = UnitInfo.Selection
+export const UnitFullImage = UnitInfo.FullImage 
+export const UnitDisciplinePreview = UnitInfo.DisciplinePreview
+export const UnitVoice = UnitInfo.Voice
+export const UnitOutfits = UnitInfo.Outfits
+
 
 export const ArtFile = ArtSrc

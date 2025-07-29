@@ -109,4 +109,11 @@ export default {
     "Total": "合共",
     "Min": "最小",
     "Max": "最大",
+    "Wiki": "Wiki",
+    "Voice": "语音",
+    "Original": "基本",
+    "General": "基本",
+    "Battle": "战斗",
+    "R18": "R18",
+    "Feature": "特式",
 }

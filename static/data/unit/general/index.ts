@@ -449,5 +449,12 @@ export const DefaultUnit: Unit = {
     initHP: 0,
     initATK: 0,
     puzzle: [],
+    voiceSet: [],
+    voiceException: [
+        {
+            version: 1,
+            exception: [],
+        }
+    ],
     skillSet: []
 }

@@ -1,5 +1,5 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
-import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits } from '~/static/const';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID, VoiceType } from '@/plugins/utils/enums';
+import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits, UnitVoice } from '~/static/const';
 import { Unit } from '@/interface/unit';
 import puzzles from '../../puzzle';
 
@@ -55,5 +55,20 @@ export const General_10919: Unit = {
     initATK: 361,
     puzzle: [ PuzzleCode.SKY_PUNISHMENT, PuzzleCode.SKY_BLISS ],
     outfits: [],
+    voiceSet: UnitVoice[UnitCode.punishment],
+    voiceException: [ 
+        {
+            version: 1,
+            exception: [
+                VoiceType.DISCIPLINE_1,
+                VoiceType.DISCIPLINE_2,
+                VoiceType.DISCIPLINE_3,
+                VoiceType.ORGASM,
+                VoiceType.SEX_MOANS,
+                VoiceType.BLOWJOB,
+                VoiceType.KISS
+            ]
+        }
+    ],
     skillSet: []
 }

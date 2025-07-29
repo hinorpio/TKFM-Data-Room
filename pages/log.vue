@@ -9,7 +9,6 @@
 import Vue from "vue";
 import { Component } from 'vue-property-decorator';
 import About from "~/components/HomePage/About.vue";
-import External from "~/components/HomePage/External.vue";
 import LogCard from "~/components/Logs/logCard.vue";
 
 @Component({

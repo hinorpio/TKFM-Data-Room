@@ -1,5 +1,5 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
-import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits } from '~/static/const';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID, VoiceType } from '@/plugins/utils/enums';
+import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits, UnitVoice } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
 export const General_10012: Unit = {
@@ -59,5 +59,12 @@ export const General_10012: Unit = {
     initATK: 831.6,
     puzzle: [],
     outfits: [],
+    voiceSet: UnitVoice[UnitCode.ritsuki],
+    voiceException: [
+        {
+            version: 1,
+            exception: [],
+        }
+    ],
     skillSet: []
 }

@@ -109,4 +109,11 @@ export default {
     "Total": "Total",
     "Min": "Min",
     "Max": "Max",
+    "Wiki": "Wiki",
+    "Voice": "Voice",
+    "Original": "Original",
+    "General": "General",
+    "Battle": "Battle",
+    "R18": "R18",
+    "Feature": "Feature",
 }

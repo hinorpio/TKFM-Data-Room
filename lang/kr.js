@@ -109,4 +109,11 @@ export default {
     "Total": "합계",
     "Min": "Min",
     "Max": "Max",
+    "Wiki": "Wiki",
+    "Voice": "보이스",
+    "Original": "기초",
+    "General": "기본",
+    "Battle": "전투",
+    "R18": "R18",
+    "Feature": "특징",
 }

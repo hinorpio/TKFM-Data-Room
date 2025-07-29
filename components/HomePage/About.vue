@@ -1,7 +1,7 @@
 <template>
     <v-row>
         <v-spacer></v-spacer>
-        <base-expand-card :title="$t('About')" icon="mdi-information-outline" isExpand >
+        <base-expand-card :title="$t('About')" icon="mdi-information-outline" :isExpand="false" >
             <div slot="content" class="pa-4">
                 <h1 v-if="!isMobile" class="mb-8">
                     {{ `${$t('TKFM Data Room')} ver.${$store.state.version}` }}

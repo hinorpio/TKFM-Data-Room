@@ -6,6 +6,10 @@ export enum Locale {
     kr = 'kr',
 }
 
+export enum VoiceLocale {
+    jp = 'jp',
+}
+
 export enum ErrorCode {
     PAGE_NOT_FOUND = 404,
     UNKNOWN_ERROR = 500,
@@ -109,6 +113,36 @@ export enum PotentialBuffType {
     ATK = 'ATK',
     HP = 'HP',
     PASSIVE = 'PASSIVE',
+}
+
+export enum VoiceType {
+    GREET = 'GREET',
+    CONFUSED = 'CONFUSED',
+    HAPPY = 'HAPPY',
+    ANGRY = 'ANGRY',
+    SAD = 'SAD',
+    FURIOUS = 'FURIOUS',
+    AGREE = 'AGREE',
+    DISAGREE = 'DISAGREE',
+    PROMISE = 'PROMISE',
+    ATTACK = 'ATTACK',
+    SKILL = 'SKILL',
+    TAKE_DAMAGE = 'TAKE_DAMAGE',
+    DEATH = 'DEATH',
+    DISCIPLINE_1 = 'DISCIPLINE_1',
+    DISCIPLINE_2 = 'DISCIPLINE_2',
+    DISCIPLINE_3 = 'DISCIPLINE_3',
+    ORGASM = 'ORGASM',
+    CHARACTER_FEATURE_1 = 'CHARACTER_FEATURE_1',
+    CHARACTER_FEATURE_2 = 'CHARACTER_FEATURE_2',
+    CHARACTER_FEATURE_3 = 'CHARACTER_FEATURE_3',
+    CHARACTER_FEATURE_4 = 'CHARACTER_FEATURE_4',
+    CHARACTER_FEATURE_5 = 'CHARACTER_FEATURE_5',
+    VICTORY = 'VICTORY',
+    DEFEAT = 'DEFEAT',
+    SEX_MOANS = 'SEX_MOANS',
+    BLOWJOB = 'BLOWJOB',
+    KISS = 'KISS',
 }
 
 export enum ItemType {
@@ -275,6 +309,18 @@ export enum ArtType {
     FICTION = 'FICTION',
     VIDEO = 'VIDEO',
     OTHER = 'OTHER'
+}
+
+export enum FanartOwner {
+    DOKGUN = '독군 Dokgun',
+    NOEL = '黑白好哇塞',
+    MIMI_MAOMAO = '咪咪貓貓',
+    MOON_RABBIT = '月兔管理官',
+    LITTLE_PEA = '三重小豌豌',
+    ANNA_PHOENIX = '真吾鳳',
+    XXBM = 'XXBM 小小布魔',
+    VV = '森屿海盐vv',
+    C = '嗯C郎',
 }
 
 export enum PuzzleType {

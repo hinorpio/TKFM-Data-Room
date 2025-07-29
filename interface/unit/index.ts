@@ -1,4 +1,4 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID, VoiceType, VoiceLocale } from '@/plugins/utils/enums';
 import { SkillSet } from './skillset';
 import { LiberateSkillSet } from './liberateSkillSet';
 import { Discipline } from './discipline';
@@ -38,6 +38,8 @@ export interface Unit {
     liberateSkillSet?: LiberateSkillSet[];
     puzzle?: PuzzleCode[];
     outfits?: string[][];
+    voiceSet: VoiceSet[];
+    voiceException: VoiceExceptionSet[];
 }
 
 export interface StatGroup {
@@ -50,4 +52,19 @@ export interface StatGroup {
     room: null | number;
     pot: PotentialSelectGroup;
     lib: null | number;
+}
+
+export interface VoiceSet {
+    version: number;
+    name?: string;
+    voice: {
+      [voice in VoiceType]: {
+        [lang in VoiceLocale]?: string;
+      };
+    }
+}
+
+export interface VoiceExceptionSet {
+    version: number;
+    exception: VoiceType[];
 }
