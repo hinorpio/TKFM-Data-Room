@@ -140,6 +140,9 @@ export enum VoiceType {
     CHARACTER_FEATURE_5 = 'CHARACTER_FEATURE_5',
     VICTORY = 'VICTORY',
     DEFEAT = 'DEFEAT',
+    SEX_MOANS = 'SEX_MOANS',
+    BLOWJOB = 'BLOWJOB',
+    KISS = 'KISS',
 }
 
 export enum ItemType {

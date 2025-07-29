@@ -38,11 +38,8 @@ export interface Unit {
     liberateSkillSet?: LiberateSkillSet[];
     puzzle?: PuzzleCode[];
     outfits?: string[][];
-    voiceSet?: {
-      [voice in VoiceType]: {
-          [lang in VoiceLocale]: string;
-      }
-    };
+    voiceSet: VoiceSet[];
+    voiceException: VoiceExceptionSet[];
 }
 
 export interface StatGroup {
@@ -55,4 +52,19 @@ export interface StatGroup {
     room: null | number;
     pot: PotentialSelectGroup;
     lib: null | number;
+}
+
+export interface VoiceSet {
+    version: number;
+    name?: string;
+    voice: {
+      [voice in VoiceType]: {
+        [lang in VoiceLocale]?: string;
+      };
+    }
+}
+
+export interface VoiceExceptionSet {
+    version: number;
+    exception: VoiceType[];
 }

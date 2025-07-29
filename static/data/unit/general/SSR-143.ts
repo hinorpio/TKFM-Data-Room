@@ -1,4 +1,4 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID, VoiceType } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits, UnitVoice } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
@@ -50,5 +50,11 @@ export const General_10171: Unit = {
     puzzle: [ PuzzleCode.EVENT_2025_SUMMER_1 ],
     outfits: UnitOutfits[UnitCode.ss_iblis],
     voiceSet: UnitVoice[UnitCode.ss_iblis],
+    voiceException: [
+        {
+            version: 1,
+            exception: [],
+        }
+    ],
     skillSet: []
 }

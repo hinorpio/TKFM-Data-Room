@@ -1,4 +1,4 @@
-import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID } from '@/plugins/utils/enums';
+import { Locale, Rarity, Element, Position, PotentialType, PuzzleCode, UnitCode, TagID, VoiceType } from '@/plugins/utils/enums';
 import { UnitEssence, UnitSelection, UnitFullImage, UnitOutfits, UnitVoice } from '~/static/const';
 import { Unit } from '@/interface/unit';
 
@@ -60,5 +60,19 @@ export const General_10913: Unit = {
     puzzle: [ PuzzleCode.DEMON_MINNOW ],
     outfits: [],
     voiceSet: UnitVoice[UnitCode.minnow],
+    voiceException: [ 
+        {
+            version: 1,
+            exception: [
+                VoiceType.DISCIPLINE_1,
+                VoiceType.DISCIPLINE_2,
+                VoiceType.DISCIPLINE_3,
+                VoiceType.ORGASM,
+                VoiceType.SEX_MOANS,
+                VoiceType.BLOWJOB,
+                VoiceType.KISS
+            ]
+        }
+    ],
     skillSet: []
 }

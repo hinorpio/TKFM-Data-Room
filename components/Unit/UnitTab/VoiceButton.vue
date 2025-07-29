@@ -1,10 +1,14 @@
 <template>
     <div>
-        <v-btn color="white"  x-large @click="playVoice" block>
+        <v-btn :color="color" x-large block @click="handleAudio()" >
             <v-row class="align-center">
                 <v-col :cols="2">
-                    <v-icon color="black" left large>
-                        mdi-volume-high
+                    <v-progress-circular v-if="isLoading" indeterminate color="black" left large></v-progress-circular>
+                    <v-icon v-else-if="!isPlay" color="black" left large>
+                        mdi-play
+                    </v-icon>
+                    <v-icon v-else color="black" left large>
+                        mdi-stop
                     </v-icon>
                 </v-col>
                 <v-spacer></v-spacer>
@@ -29,7 +33,13 @@ export default class VoiceButton extends Vue {
     @Prop({ type: String, required: true, default: '' })
     type!: VoiceType;
 
+    @Prop({ type: String, required: true, default: '' })
+    color!: string;
+
+    isPlay: boolean = false;
+    isLoading: boolean = false;
     audio?: HTMLAudioElement;
+    count: number = 0;
 
     getVoiceTypeStr(): string{
         const locale = this.$i18n.locale as keyof typeof Locale;
@@ -45,12 +55,47 @@ export default class VoiceButton extends Vue {
         return text.replace(`\n`, ` `)
     }
 
+    handleAudio(): void{
+        if(this.isLoading)
+            return
+        else if(this.isPlay)
+            this.stopVoice()
+        else
+            this.playVoice()
+    }
+
     playVoice() {
-      if (!this.audio) {
-        this.audio = new Audio(this.src)
-      }
-      this.audio.currentTime = 0
-      this.audio.play()
+        if (!this.audio) {
+            this.isLoading = true;
+            this.audio = new Audio(this.src);
+
+            this.audio.addEventListener('canplaythrough', () => {
+                this.isLoading = false;
+                this.audio?.play();
+                this.isPlay = true;
+            }, { once: true });
+
+            this.audio.addEventListener('ended', () => {
+                this.isPlay = false;
+            });
+
+            this.audio.addEventListener('error', () => {
+                this.isLoading = false;
+                this.isPlay = false;
+            });
+        } else {
+            this.audio.currentTime = 0;
+            this.audio.play();
+            this.isPlay = true;
+        }
+    }
+
+    stopVoice() {
+        if (this.audio) {
+            this.audio.pause();
+            this.audio.currentTime = 0;
+            this.isPlay = false
+        }
     }
 
   

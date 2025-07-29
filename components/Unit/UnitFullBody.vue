@@ -72,6 +72,11 @@ export default class UnitFullBody extends Vue {
     fullBody: number = 0;
     nudeLevel: number = 0
     
+    mounted(){
+        if(this.unit.ID == '10176') // bedard
+            this.fullBody = 2
+    }
+
     get hasOutfits(): boolean{
         const outfit = this.unit.outfits ?? [];
         return outfit.length > 0

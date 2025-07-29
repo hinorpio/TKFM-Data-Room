@@ -1,82 +1,98 @@
 import { VoiceLocale, UnitCode, VoiceType } from '@/plugins/utils/enums';
+import { VoiceSet } from '~/interface/unit';
+import bedard_2nd_voice from '~/static/custom/bedard_2nd_voice';
 
 const cdnURL = `https://cdn.tkfmdata.com`
 
-function getUnitVoicePath(id: string): { [voice in VoiceType]: {[lang in VoiceLocale]: string} }{
-    return {
-        [VoiceType.GREET]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}01_jp.wav` 
-        },
-        [VoiceType.CONFUSED]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}02_jp.wav` 
-        },
-        [VoiceType.HAPPY]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}03_jp.wav` 
-        },
-        [VoiceType.ANGRY]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}04_jp.wav` 
-        },
-        [VoiceType.SAD]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}05_jp.wav` 
-        },
-        [VoiceType.FURIOUS]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}06_jp.wav` 
-        },
-        [VoiceType.AGREE]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}07_jp.wav` 
-        },
-        [VoiceType.DISAGREE]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}08_jp.wav` 
-        },
-        [VoiceType.PROMISE]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}09_jp.wav` 
-        },
-        [VoiceType.ATTACK]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}10_jp.wav` 
-        },
-        [VoiceType.SKILL]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}11_jp.wav` 
-        },
-        [VoiceType.TAKE_DAMAGE]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}12_jp.wav` 
-        },
-        [VoiceType.DEATH]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}13_jp.wav` 
-        },
-        [VoiceType.DISCIPLINE_1]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}14_jp.wav` 
-        },
-        [VoiceType.DISCIPLINE_2]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}15_jp.wav` 
-        },
-        [VoiceType.DISCIPLINE_3]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}16_jp.wav` 
-        },
-        [VoiceType.ORGASM]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}17_jp.wav` 
-        },
-        [VoiceType.CHARACTER_FEATURE_1]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}18_jp.wav` 
-        },
-        [VoiceType.CHARACTER_FEATURE_2]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}19_jp.wav` 
-        },
-        [VoiceType.CHARACTER_FEATURE_3]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}20_jp.wav` 
-        },
-        [VoiceType.CHARACTER_FEATURE_4]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}21_jp.wav` 
-        },
-        [VoiceType.CHARACTER_FEATURE_5]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}22_jp.wav` 
-        },
-        [VoiceType.VICTORY]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}23_jp.wav` 
-        },
-        [VoiceType.DEFEAT]: { 
-            [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/se${id}24_jp.wav` 
-        },
-    }
+function getUnitVoicePath(id: string): VoiceSet[]{
+    return [
+        {
+            version: 1,
+            voice: {
+                [VoiceType.GREET]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}01_jp.wav` 
+                },
+                [VoiceType.CONFUSED]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}02_jp.wav` 
+                },
+                [VoiceType.HAPPY]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}03_jp.wav` 
+                },
+                [VoiceType.ANGRY]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}04_jp.wav` 
+                },
+                [VoiceType.SAD]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}05_jp.wav` 
+                },
+                [VoiceType.FURIOUS]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}06_jp.wav` 
+                },
+                [VoiceType.AGREE]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}07_jp.wav` 
+                },
+                [VoiceType.DISAGREE]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}08_jp.wav` 
+                },
+                [VoiceType.PROMISE]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}09_jp.wav` 
+                },
+                [VoiceType.ATTACK]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}10_jp.wav` 
+                },
+                [VoiceType.SKILL]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}11_jp.wav` 
+                },
+                [VoiceType.TAKE_DAMAGE]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}12_jp.wav` 
+                },
+                [VoiceType.DEATH]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}13_jp.wav` 
+                },
+                [VoiceType.DISCIPLINE_1]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}14_jp.wav` 
+                },
+                [VoiceType.DISCIPLINE_2]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}15_jp.wav` 
+                },
+                [VoiceType.DISCIPLINE_3]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}16_jp.wav` 
+                },
+                [VoiceType.ORGASM]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}17_jp.wav` 
+                },
+                [VoiceType.CHARACTER_FEATURE_1]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}18_jp.wav` 
+                },
+                [VoiceType.CHARACTER_FEATURE_2]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}19_jp.wav` 
+                },
+                [VoiceType.CHARACTER_FEATURE_3]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}20_jp.wav` 
+                },
+                [VoiceType.CHARACTER_FEATURE_4]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}21_jp.wav` 
+                },
+                [VoiceType.CHARACTER_FEATURE_5]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}22_jp.wav` 
+                },
+                [VoiceType.VICTORY]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}23_jp.wav` 
+                },
+                [VoiceType.DEFEAT]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}24_jp.wav` 
+                },
+                [VoiceType.SEX_MOANS]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}25_jp.wav` 
+                },
+                [VoiceType.BLOWJOB]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}26_jp.wav` 
+                },
+                [VoiceType.KISS]: { 
+                    [VoiceLocale.jp]: `${cdnURL}/character/voice/jp/sound${id}_jp/se${id}27_jp.wav` 
+                },
+            }
+        }
+    ]
 }
 
 const N = {
@@ -279,7 +295,7 @@ const SSR = {
     [UnitCode.f_kana]: getUnitVoicePath('10164'),
     [UnitCode.star_mia]: getUnitVoicePath('10165'),
     [UnitCode.star_annee]: getUnitVoicePath('10166'),
-    [UnitCode.bedard]: getUnitVoicePath('10176'),
+    [UnitCode.bedard]: bedard_2nd_voice.concat(getUnitVoicePath('10176')),
     [UnitCode.c_noel]: getUnitVoicePath('10167'),
     [UnitCode.eunice]: getUnitVoicePath('10168'),
     [UnitCode.momDaphne]: getUnitVoicePath('10169'),

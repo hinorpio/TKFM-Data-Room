@@ -678,4 +678,25 @@ export const VoiceTypeStr = {
         [Locale.jp]: `敗北`,
         [Locale.kr]: `패배`,
     },
+    [VoiceType.SEX_MOANS]: {
+        [Locale.tc]: `叫床`,
+        [Locale.sc]: `叫床`,
+        [Locale.en]: `Sex Moans`,
+        [Locale.jp]: `あえぎ声`,
+        [Locale.kr]: `신음소리`,
+    },
+    [VoiceType.BLOWJOB]: {
+        [Locale.tc]: `口交`,
+        [Locale.sc]: `口交`,
+        [Locale.en]: `Blowjob`,
+        [Locale.jp]: `フェラチオ`,
+        [Locale.kr]: `블로우잡`,
+    },
+    [VoiceType.KISS]: {
+        [Locale.tc]: `接吻`,
+        [Locale.sc]: `接吻`,
+        [Locale.en]: `Kiss`,
+        [Locale.jp]: `キス`,
+        [Locale.kr]: `키스`,
+    },
 }

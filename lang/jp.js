@@ -110,4 +110,10 @@ export default {
     "Min": "Min",
     "Max": "Max",
     "Wiki": "Wiki",
+    "Voice": "ボイス",
+    "Original": "オリジナル",
+    "General": "基本",
+    "Battle": "戦闘",
+    "R18": "R18",
+    "Feature": "特色",
 }
