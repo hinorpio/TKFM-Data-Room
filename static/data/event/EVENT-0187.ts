@@ -5,8 +5,8 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 const EVENT_0187: Event = {
     code: '0187',
     type: EventType.POINT,
-    startDate: '2025/07/16',
-    endDate: '2025/08/06',
+    startDate: '2025/07/30',
+    endDate: '2025/08/13',
     color: EventTypeColor.POINT,
     name: {
         [Locale.tc]: `【背德心療系-復刻-】`,
