@@ -2,6 +2,59 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.7.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.LIBERATE,
+                unitList: [ UnitCode.c1_nana, UnitCode.o_nana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0187' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `角色語音`,
+                    [Locale.sc]: `角色语音`,
+                    [Locale.en]: `Unit Voice`,
+                    [Locale.jp]: `キャラクターボイス`,
+                    [Locale.kr]: `캐릭터 보이스`
+                }
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.ART,
+                ownerList: [ FanartOwner.DOKGUN ]
+            },
+            {
+                type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `外部連結`,
+                    [Locale.sc]: `外部连结`,
+                    [Locale.en]: `External Website`,
+                    [Locale.jp]: `外部リンク`,
+                    [Locale.kr]: `외부 링크`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `更新日誌`,
+                    [Locale.sc]: `更新日志`,
+                    [Locale.en]: `Update Logs`,
+                    [Locale.jp]: `更新履歴`,
+                    [Locale.kr]: `업데이트 일지`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.6.2',
         logs: [
             {
