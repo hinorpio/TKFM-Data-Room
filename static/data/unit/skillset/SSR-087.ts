@@ -15,7 +15,7 @@ export const SkillSet_10121: SkillSet[] =  [
         skill: {
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
-                    name: `繪技。百畫投影！`,
+                    name: `繪技。百畫投影`,
                     description: `使自身普攻傷害增加60/75/90/105/120%(4回合)，再使目標受到普攻傷害增加30/45/60/75/90%(8回合)，CD：4`
                 },
                 [SkillType.SKILL_1]: {
@@ -217,7 +217,7 @@ export const SkillSet_10121: SkillSet[] =  [
                     description: `通常攻撃時「自分の50%の攻撃力でターゲットにダメージを与える」を追加する`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `永遠の思い出 `,
+                    name: `永遠の思い出`,
                     description: `味方全体の与えるダメージを10%増加させる\n通常攻撃時「味方全体の攻撃力を10%増加させる(最高4スタック)」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {

@@ -14,6 +14,8 @@ import { LiberateSkillSet_10017 } from "./SSR-007";
 import { LiberateSkillSet_10026 } from "./SSR-009";
 import { LiberateSkillSet_10081 } from "./SSR-038";
 import { LiberateSkillSet_10074 } from "./SSR-053";
+import { LiberateSkillSet_10093 } from "./SSR-059";
+import { LiberateSkillSet_10121 } from "./SSR-087";
 
 export const UnitLiberateSkillSet: { [key in UnitCode]?: LiberateSkillSet[] } = {
     [UnitCode.baal]: LiberateSkillSet_10001,
@@ -29,4 +31,6 @@ export const UnitLiberateSkillSet: { [key in UnitCode]?: LiberateSkillSet[] } = 
     [UnitCode.noel]: LiberateSkillSet_10026,
     [UnitCode.b_iblis]: LiberateSkillSet_10081,
     [UnitCode.ichika]: LiberateSkillSet_10074,
+    [UnitCode.c1_nana]: LiberateSkillSet_10093,
+    [UnitCode.o_nana]: LiberateSkillSet_10121,
 };
