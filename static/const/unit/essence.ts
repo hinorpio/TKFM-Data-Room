@@ -218,6 +218,8 @@ const SSR = {
     [UnitCode.bu_ayane]: getUnitEssencePath('10160'),
     [UnitCode.sky_nanami]: getUnitEssencePath('10177'),
     [UnitCode.sky_baal]: getUnitEssencePath('10178'),
+    [UnitCode.n_lulu]: getUnitEssencePath('10179'),
+    [UnitCode.yuri]: getUnitEssencePath('10180'),
 }
 
 export const Essence = {

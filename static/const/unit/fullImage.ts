@@ -225,6 +225,8 @@ const SSR = {
     [UnitCode.bu_ayane]: getUnitFullImagePath('10160'),
     [UnitCode.sky_nanami]: getUnitFullImagePath('10177'),
     [UnitCode.sky_baal]: getUnitFullImagePath('10178'),
+    [UnitCode.n_lulu]: getUnitFullImagePath('10179'),
+    [UnitCode.yuri]: getUnitFullImagePath('10180'),
 }
 
 export const FullImage = {

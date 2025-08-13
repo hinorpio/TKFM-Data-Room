@@ -321,6 +321,7 @@ export enum FanartOwner {
     XXBM = 'XXBM 小小布魔',
     VV = '森屿海盐vv',
     C = '嗯C郎',
+    SEVEN_LEMON = '七色柠檬糖',
 }
 
 export enum PuzzleType {
@@ -603,4 +604,6 @@ export enum UnitCode {
     bu_ayane = 'SSR-147',
     sky_nanami = 'SSR-148',
     sky_baal = 'SSR-149',
+    n_lulu = 'SSR-150',
+    yuri = 'SSR-151',
 }

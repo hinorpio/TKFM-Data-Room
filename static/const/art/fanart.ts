@@ -73,6 +73,7 @@ const DOKGUN_STICKER_EN_020 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/알겠다
 const DOKGUN_STICKER_EN_021 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/야스콘.gif`
 const DOKGUN_STICKER_EN_023 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/없다냥콘.gif`
 const DOKGUN_STICKER_EN_024 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/오콘.gif`
+const DOKGUN_STICKER_EN_025 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/good.gif`
 const DOKGUN_STICKER_EN_026 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/죽겠다냥콘.gif`
 const DOKGUN_STICKER_EN_030 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/지게콘.gif`
 const DOKGUN_STICKER_EN_031 = `${cdnURL}/arts/fanart/Dokgun/sticker/en/텐붕쿤콘.gif`
@@ -463,61 +464,99 @@ const VV_PAINTING_018 = `${cdnURL}/arts/fanart/VV/painting/18.png`
 const VV_PAINTING_019 = `${cdnURL}/arts/fanart/VV/painting/19.png`
 const VV_PAINTING_020 = `${cdnURL}/arts/fanart/VV/painting/20.png`
 
-const C_FANART_001 =`${cdnURL}/arts/fanart/C/non-r18/1.jpg`
-const C_FANART_002 =`${cdnURL}/arts/fanart/C/non-r18/2.jpg`
-const C_FANART_003 =`${cdnURL}/arts/fanart/C/non-r18/3.jpg`
-const C_FANART_004 =`${cdnURL}/arts/fanart/C/non-r18/4.jpg`
-const C_FANART_005 =`${cdnURL}/arts/fanart/C/non-r18/5.jpg`
-const C_FANART_006 =`${cdnURL}/arts/fanart/C/non-r18/6.jpg`
-const C_FANART_007 =`${cdnURL}/arts/fanart/C/non-r18/7.jpg`
-const C_FANART_008 =`${cdnURL}/arts/fanart/C/non-r18/8.jpg`
-const C_FANART_009 =`${cdnURL}/arts/fanart/C/non-r18/9.jpg`
-const C_FANART_010 =`${cdnURL}/arts/fanart/C/non-r18/10.jpg`
-const C_FANART_011 =`${cdnURL}/arts/fanart/C/non-r18/11.jpg`
-const C_FANART_012 =`${cdnURL}/arts/fanart/C/non-r18/12.jpg`
-const C_FANART_013 =`${cdnURL}/arts/fanart/C/non-r18/13.jpg`
-const C_FANART_014 =`${cdnURL}/arts/fanart/C/non-r18/14.jpg`
-const C_FANART_015 =`${cdnURL}/arts/fanart/C/non-r18/15.jpg`
-const C_FANART_016 =`${cdnURL}/arts/fanart/C/non-r18/16.jpg`
-const C_FANART_017 =`${cdnURL}/arts/fanart/C/non-r18/17.jpg`
-const C_FANART_018 =`${cdnURL}/arts/fanart/C/non-r18/18.jpg`
-const C_FANART_019 =`${cdnURL}/arts/fanart/C/non-r18/19.jpg`
-const C_FANART_020 =`${cdnURL}/arts/fanart/C/non-r18/20.jpg`
+const C_FANART_001 = `${cdnURL}/arts/fanart/C/non-r18/1.jpg`
+const C_FANART_002 = `${cdnURL}/arts/fanart/C/non-r18/2.jpg`
+const C_FANART_003 = `${cdnURL}/arts/fanart/C/non-r18/3.jpg`
+const C_FANART_004 = `${cdnURL}/arts/fanart/C/non-r18/4.jpg`
+const C_FANART_005 = `${cdnURL}/arts/fanart/C/non-r18/5.jpg`
+const C_FANART_006 = `${cdnURL}/arts/fanart/C/non-r18/6.jpg`
+const C_FANART_007 = `${cdnURL}/arts/fanart/C/non-r18/7.jpg`
+const C_FANART_008 = `${cdnURL}/arts/fanart/C/non-r18/8.jpg`
+const C_FANART_009 = `${cdnURL}/arts/fanart/C/non-r18/9.jpg`
+const C_FANART_010 = `${cdnURL}/arts/fanart/C/non-r18/10.jpg`
+const C_FANART_011 = `${cdnURL}/arts/fanart/C/non-r18/11.jpg`
+const C_FANART_012 = `${cdnURL}/arts/fanart/C/non-r18/12.jpg`
+const C_FANART_013 = `${cdnURL}/arts/fanart/C/non-r18/13.jpg`
+const C_FANART_014 = `${cdnURL}/arts/fanart/C/non-r18/14.jpg`
+const C_FANART_015 = `${cdnURL}/arts/fanart/C/non-r18/15.jpg`
+const C_FANART_016 = `${cdnURL}/arts/fanart/C/non-r18/16.jpg`
+const C_FANART_017 = `${cdnURL}/arts/fanart/C/non-r18/17.jpg`
+const C_FANART_018 = `${cdnURL}/arts/fanart/C/non-r18/18.jpg`
+const C_FANART_019 = `${cdnURL}/arts/fanart/C/non-r18/19.jpg`
+const C_FANART_020 = `${cdnURL}/arts/fanart/C/non-r18/20.jpg`
 
-const C_FANART_R18_001 =`${cdnURL}/arts/fanart/C/r18/1.jpg`
-const C_FANART_R18_002 =`${cdnURL}/arts/fanart/C/r18/2.jpg`
-const C_FANART_R18_003 =`${cdnURL}/arts/fanart/C/r18/3.jpg`
-const C_FANART_R18_004 =`${cdnURL}/arts/fanart/C/r18/4.jpg`
-const C_FANART_R18_005 =`${cdnURL}/arts/fanart/C/r18/5.jpg`
-const C_FANART_R18_006 =`${cdnURL}/arts/fanart/C/r18/6.jpg`
-const C_FANART_R18_007 =`${cdnURL}/arts/fanart/C/r18/7.jpg`
-const C_FANART_R18_008 =`${cdnURL}/arts/fanart/C/r18/8.jpg`
-const C_FANART_R18_009 =`${cdnURL}/arts/fanart/C/r18/9.jpg`
-const C_FANART_R18_010 =`${cdnURL}/arts/fanart/C/r18/10.jpg`
-const C_FANART_R18_011 =`${cdnURL}/arts/fanart/C/r18/11.jpg`
-const C_FANART_R18_012 =`${cdnURL}/arts/fanart/C/r18/12.jpg`
-const C_FANART_R18_013 =`${cdnURL}/arts/fanart/C/r18/13.jpg`
-const C_FANART_R18_014 =`${cdnURL}/arts/fanart/C/r18/14.jpg`
-const C_FANART_R18_015 =`${cdnURL}/arts/fanart/C/r18/15.jpg`
-const C_FANART_R18_016 =`${cdnURL}/arts/fanart/C/r18/16.jpg`
-const C_FANART_R18_017 =`${cdnURL}/arts/fanart/C/r18/17.jpg`
-const C_FANART_R18_018 =`${cdnURL}/arts/fanart/C/r18/18.jpg`
-const C_FANART_R18_019 =`${cdnURL}/arts/fanart/C/r18/19.jpg`
-const C_FANART_R18_020 =`${cdnURL}/arts/fanart/C/r18/20.jpg`
-const C_FANART_R18_021 =`${cdnURL}/arts/fanart/C/r18/21.jpg`
-const C_FANART_R18_022 =`${cdnURL}/arts/fanart/C/r18/22.jpg`
-const C_FANART_R18_023 =`${cdnURL}/arts/fanart/C/r18/23.jpg`
-const C_FANART_R18_024 =`${cdnURL}/arts/fanart/C/r18/24.jpg`
-const C_FANART_R18_025 =`${cdnURL}/arts/fanart/C/r18/25.jpg`
-const C_FANART_R18_026 =`${cdnURL}/arts/fanart/C/r18/26.jpg`
-const C_FANART_R18_027 =`${cdnURL}/arts/fanart/C/r18/27.jpg`
-const C_FANART_R18_028 =`${cdnURL}/arts/fanart/C/r18/28.jpg`
-const C_FANART_R18_029 =`${cdnURL}/arts/fanart/C/r18/29.jpg`
-const C_FANART_R18_030 =`${cdnURL}/arts/fanart/C/r18/30.jpg`
-const C_FANART_R18_031 =`${cdnURL}/arts/fanart/C/r18/31.jpg`
-const C_FANART_R18_032 =`${cdnURL}/arts/fanart/C/r18/32.jpg`
-const C_FANART_R18_033 =`${cdnURL}/arts/fanart/C/r18/33.jpg`
-const C_FANART_R18_034 =`${cdnURL}/arts/fanart/C/r18/34.jpg`
+const C_FANART_R18_001 = `${cdnURL}/arts/fanart/C/r18/1.jpg`
+const C_FANART_R18_002 = `${cdnURL}/arts/fanart/C/r18/2.jpg`
+const C_FANART_R18_003 = `${cdnURL}/arts/fanart/C/r18/3.jpg`
+const C_FANART_R18_004 = `${cdnURL}/arts/fanart/C/r18/4.jpg`
+const C_FANART_R18_005 = `${cdnURL}/arts/fanart/C/r18/5.jpg`
+const C_FANART_R18_006 = `${cdnURL}/arts/fanart/C/r18/6.jpg`
+const C_FANART_R18_007 = `${cdnURL}/arts/fanart/C/r18/7.jpg`
+const C_FANART_R18_008 = `${cdnURL}/arts/fanart/C/r18/8.jpg`
+const C_FANART_R18_009 = `${cdnURL}/arts/fanart/C/r18/9.jpg`
+const C_FANART_R18_010 = `${cdnURL}/arts/fanart/C/r18/10.jpg`
+const C_FANART_R18_011 = `${cdnURL}/arts/fanart/C/r18/11.jpg`
+const C_FANART_R18_012 = `${cdnURL}/arts/fanart/C/r18/12.jpg`
+const C_FANART_R18_013 = `${cdnURL}/arts/fanart/C/r18/13.jpg`
+const C_FANART_R18_014 = `${cdnURL}/arts/fanart/C/r18/14.jpg`
+const C_FANART_R18_015 = `${cdnURL}/arts/fanart/C/r18/15.jpg`
+const C_FANART_R18_016 = `${cdnURL}/arts/fanart/C/r18/16.jpg`
+const C_FANART_R18_017 = `${cdnURL}/arts/fanart/C/r18/17.jpg`
+const C_FANART_R18_018 = `${cdnURL}/arts/fanart/C/r18/18.jpg`
+const C_FANART_R18_019 = `${cdnURL}/arts/fanart/C/r18/19.jpg`
+const C_FANART_R18_020 = `${cdnURL}/arts/fanart/C/r18/20.jpg`
+const C_FANART_R18_021 = `${cdnURL}/arts/fanart/C/r18/21.jpg`
+const C_FANART_R18_022 = `${cdnURL}/arts/fanart/C/r18/22.jpg`
+const C_FANART_R18_023 = `${cdnURL}/arts/fanart/C/r18/23.jpg`
+const C_FANART_R18_024 = `${cdnURL}/arts/fanart/C/r18/24.jpg`
+const C_FANART_R18_025 = `${cdnURL}/arts/fanart/C/r18/25.jpg`
+const C_FANART_R18_026 = `${cdnURL}/arts/fanart/C/r18/26.jpg`
+const C_FANART_R18_027 = `${cdnURL}/arts/fanart/C/r18/27.jpg`
+const C_FANART_R18_028 = `${cdnURL}/arts/fanart/C/r18/28.jpg`
+const C_FANART_R18_029 = `${cdnURL}/arts/fanart/C/r18/29.jpg`
+const C_FANART_R18_030 = `${cdnURL}/arts/fanart/C/r18/30.jpg`
+const C_FANART_R18_031 = `${cdnURL}/arts/fanart/C/r18/31.jpg`
+const C_FANART_R18_032 = `${cdnURL}/arts/fanart/C/r18/32.jpg`
+const C_FANART_R18_033 = `${cdnURL}/arts/fanart/C/r18/33.jpg`
+const C_FANART_R18_034 = `${cdnURL}/arts/fanart/C/r18/34.jpg`
+
+const SEVEN_LEMON_ANTI_CAESAR_001 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/1.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_002 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/2.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_003 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/3.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_004 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/4.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_005 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/5.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_006 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/6.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_007 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/7.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_008 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/8.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_009 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/9.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_010 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/10.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_011 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/11.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_012 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/12.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_013 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/13.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_014 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/14.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_015 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/15.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_016 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/16.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_017 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/17.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_018 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/18.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_019 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/19.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_020 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/20.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_021 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/21.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_022 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/22.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_023 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/23.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_024 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/24.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_025 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/25.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_026 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/26.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_027 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/27.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_028 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/28.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_029 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/29.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_030 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/30.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_031 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/31.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_032 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/32.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_033 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/33.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_034 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/34.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_035 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/35.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_036 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/36.jpg`
+const SEVEN_LEMON_ANTI_CAESAR_037 = `${cdnURL}/arts/fanart/SevenLemon/anti-caesar/37.jpg`
 
 export const DOKGUN_STICKER_KR = [
     DOKGUN_STICKER_KR_001,
@@ -595,6 +634,7 @@ export const DOKGUN_STICKER_EN = [
     DOKGUN_STICKER_EN_021,
     DOKGUN_STICKER_EN_023,
     DOKGUN_STICKER_EN_024,
+    DOKGUN_STICKER_EN_025,
     DOKGUN_STICKER_EN_026,
     DOKGUN_STICKER_EN_030,
     DOKGUN_STICKER_EN_031,
@@ -1068,4 +1108,44 @@ export const C_FANART_R18 = [
     C_FANART_R18_032,
     C_FANART_R18_033,
     C_FANART_R18_034,
+]
+
+export const SEVEN_LEMON_ANTI_CAESAR = [
+    SEVEN_LEMON_ANTI_CAESAR_001,
+    SEVEN_LEMON_ANTI_CAESAR_002,
+    SEVEN_LEMON_ANTI_CAESAR_003,
+    SEVEN_LEMON_ANTI_CAESAR_004,
+    SEVEN_LEMON_ANTI_CAESAR_005,
+    SEVEN_LEMON_ANTI_CAESAR_006,
+    SEVEN_LEMON_ANTI_CAESAR_007,
+    SEVEN_LEMON_ANTI_CAESAR_008,
+    SEVEN_LEMON_ANTI_CAESAR_009,
+    SEVEN_LEMON_ANTI_CAESAR_010,
+    SEVEN_LEMON_ANTI_CAESAR_011,
+    SEVEN_LEMON_ANTI_CAESAR_012,
+    SEVEN_LEMON_ANTI_CAESAR_013,
+    SEVEN_LEMON_ANTI_CAESAR_014,
+    SEVEN_LEMON_ANTI_CAESAR_015,
+    SEVEN_LEMON_ANTI_CAESAR_016,
+    SEVEN_LEMON_ANTI_CAESAR_017,
+    SEVEN_LEMON_ANTI_CAESAR_018,
+    SEVEN_LEMON_ANTI_CAESAR_019,
+    SEVEN_LEMON_ANTI_CAESAR_020,
+    SEVEN_LEMON_ANTI_CAESAR_021,
+    SEVEN_LEMON_ANTI_CAESAR_022,
+    SEVEN_LEMON_ANTI_CAESAR_023,
+    SEVEN_LEMON_ANTI_CAESAR_024,
+    SEVEN_LEMON_ANTI_CAESAR_025,
+    SEVEN_LEMON_ANTI_CAESAR_026,
+    SEVEN_LEMON_ANTI_CAESAR_027,
+    SEVEN_LEMON_ANTI_CAESAR_028,
+    SEVEN_LEMON_ANTI_CAESAR_029,
+    SEVEN_LEMON_ANTI_CAESAR_030,
+    SEVEN_LEMON_ANTI_CAESAR_031,
+    SEVEN_LEMON_ANTI_CAESAR_032,
+    SEVEN_LEMON_ANTI_CAESAR_033,
+    SEVEN_LEMON_ANTI_CAESAR_034,
+    SEVEN_LEMON_ANTI_CAESAR_035,
+    SEVEN_LEMON_ANTI_CAESAR_036,
+    SEVEN_LEMON_ANTI_CAESAR_037,
 ]

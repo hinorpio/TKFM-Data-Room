@@ -4,10 +4,10 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 
 const EVENT_0187: Event = {
     code: '0187',
-    type: EventType.POINT,
+    type: EventType.DISCIPLINE,
     startDate: '2025/07/30',
     endDate: '2025/08/13',
-    color: EventTypeColor.POINT,
+    color: EventTypeColor.DISCIPLINE,
     name: {
         [Locale.tc]: `【背德心療系-復刻-】`,
         [Locale.sc]: `【背德心疗系-复刻-】`,
