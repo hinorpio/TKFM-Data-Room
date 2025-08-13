@@ -200,6 +200,8 @@ const SSR = {
     [UnitCode.bu_ayane]: getUnitDisplinePath('10160'),
     [UnitCode.sky_nanami]: getUnitDisplinePath('10177'),
     [UnitCode.sky_baal]: getUnitDisplinePath('10178'),
+    [UnitCode.n_lulu]: getUnitDisplinePath('10179'),
+    [UnitCode.yuri]: getUnitDisplinePath('10180'),
 }
 
 export const DisciplinePreview = {

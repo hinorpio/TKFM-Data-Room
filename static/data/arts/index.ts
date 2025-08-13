@@ -26,6 +26,7 @@ import XXBM_PAINTING from "./fanart/XXBM_PAINTING"
 import VV_PAINTING from "./fanart/VV_PAINTING"
 import C_FANART from "./fanart/C_FANART"
 import C_FANART_R18 from "./fanart/C_FANART_R18"
+import SEVEN_LEMON_ANTI_CAESAR from "./fanart/SEVEN_LEMON_ANTI_CAESAR"
 
 const officalData = [
     Q_STICKER,
@@ -58,6 +59,7 @@ const fanartData = [
     VV_PAINTING,
     C_FANART,
     C_FANART_R18,
+    SEVEN_LEMON_ANTI_CAESAR,
 ]
 
 export default [

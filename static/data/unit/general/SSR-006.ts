@@ -50,7 +50,7 @@ export const General_10006: Unit = {
         TagID.CLASS_LEADER,
         TagID.OTHER_RECOVERY,
     ],
-    otherVersion: [ UnitCode.s_lulu, UnitCode.w_lulu, UnitCode.c_lulu, UnitCode.p_lulu ],
+    otherVersion: [ UnitCode.s_lulu, UnitCode.w_lulu, UnitCode.c_lulu, UnitCode.p_lulu, UnitCode.n_lulu ],
     initHP: 3555.2,
     initATK: 899.2,
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2024_XMAS_2 ],
