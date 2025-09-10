@@ -23,7 +23,7 @@ const EVENT_0191: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0191,
-    newUnit: [],
+    newUnit: [ UnitCode.l_ayane, UnitCode.ria, UnitCode.g_britney ],
     isParentEvent: true,
     parentEvent: null,
     childEvent: [],
