@@ -309,6 +309,9 @@ const SSR = {
     [UnitCode.sky_baal]: getUnitVoicePath('10178'),
     [UnitCode.n_lulu]: getUnitVoicePath('10179'),
     [UnitCode.yuri]: getUnitVoicePath('10180'),
+    [UnitCode.l_ayane]: getUnitVoicePath('10181'),
+    [UnitCode.ria]: getUnitVoicePath('10182'),
+    [UnitCode.g_britney]: getUnitVoicePath('10183'),
 }
 
 export const Voice = {

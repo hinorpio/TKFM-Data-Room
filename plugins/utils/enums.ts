@@ -373,6 +373,7 @@ export enum PuzzleCode {
     HUMAN_ANNA = 'HUMAN_ANNA',
     HUMAN_BLAIRE = 'HUMAN_BLAIRE',
     HUMAN_NATASHA = 'HUMAN_NATASHA',
+    HUMAN_PROTOTYPE = 'HUMAN_PROTOTYPE',
     HUMAN_MOLLY = 'HUMAN_MOLLY',
     HUMAN_ANYA = 'HUMAN_ANYA',
     DEMON_FLAY = 'DEMON_FLAY',
@@ -606,4 +607,7 @@ export enum UnitCode {
     sky_baal = 'SSR-149',
     n_lulu = 'SSR-150',
     yuri = 'SSR-151',
+    l_ayane = 'SSR-152',
+    ria = 'SSR-153',
+    g_britney = 'SSR-154',
 }

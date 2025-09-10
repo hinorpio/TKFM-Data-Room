@@ -220,6 +220,9 @@ const SSR = {
     [UnitCode.sky_baal]: getUnitSelectionPath('10178'),
     [UnitCode.n_lulu]: getUnitSelectionPath('10179'),
     [UnitCode.yuri]: getUnitSelectionPath('10180'),
+    [UnitCode.l_ayane]: getUnitSelectionPath('10181'),
+    [UnitCode.ria]: getUnitSelectionPath('10182'),
+    [UnitCode.g_britney]: getUnitSelectionPath('10183'),
 }
 
 export const Selection = {
