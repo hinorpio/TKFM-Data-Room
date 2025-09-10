@@ -190,6 +190,10 @@ import EVENT_0187 from "./EVENT-0187";
 import EVENT_0188 from "./EVENT-0188";
 import EVENT_0189 from "./EVENT-0189";
 import EVENT_0190 from "./EVENT-0190";
+import EVENT_0191 from "./EVENT-0191";
+import EVENT_0192 from "./EVENT-0192";
+import EVENT_0193 from "./EVENT-0193";
+import EVENT_0194 from "./EVENT-0194";
 
 import EVENT_TIMERIFT_001 from "./EVENT-TIMERIFT-001";
 import EVENT_TIMERIFT_002 from "./EVENT-TIMERIFT-002";
@@ -215,6 +219,8 @@ import EVENT_TIMERIFT_021 from "./EVENT-TIMERIFT-021";
 import EVENT_TIMERIFT_022 from "./EVENT-TIMERIFT-022";
 
 const events: Event[][] = [
+    [ EVENT_0194 ],
+    [ EVENT_0191, EVENT_0192, EVENT_0193 ],
     [ EVENT_0190 ],
     [ EVENT_0188, EVENT_0189, EVENT_TIMERIFT_022 ],
     [ EVENT_0187 ],

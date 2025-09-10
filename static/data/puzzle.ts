@@ -536,6 +536,19 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.HUMAN_NATASHA,
     },
     {
+        code: PuzzleCode.HUMAN_PROTOTYPE,
+        type: PuzzleType.HUMAN,
+        preview: PuzzlePreview.HUMAN_PROTOTYPE,
+        name: {
+            [Locale.tc]: `滴嘟…系統錯誤……`,
+            [Locale.sc]: `滴嘟…系统错误……`,
+            [Locale.en]: `[BEEP... System Error]`,
+            [Locale.jp]: `ピピッ…システムエラー……`,
+            [Locale.kr]: `삐빅... 시스템 오류...`
+        },
+        fullImage: PuzzleImage.HUMAN_PROTOTYPE,
+    },
+    {
         code: PuzzleCode.HUMAN_MOLLY,
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_MOLLY,

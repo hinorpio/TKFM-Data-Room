@@ -57,7 +57,7 @@ export const General_10915: Unit = {
     initHP: 2054,
     initATK: 492,
     puzzle: [ PuzzleCode.DEMON_HARPY ],
-    outfits: [],
+    outfits: UnitOutfits[UnitCode.harpy],
     voiceSet: UnitVoice[UnitCode.harpy],
     voiceException: [ 
         {

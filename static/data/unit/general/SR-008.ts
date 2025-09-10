@@ -54,7 +54,7 @@ export const General_10016: Unit = {
         TagID.OTHER_EXPLOSIVENESS,
         TagID.OTHER_AOE,
     ], 
-    otherVersion: [ UnitCode.h_britney, UnitCode.m_britney, UnitCode.x_britney ],
+    otherVersion: [ UnitCode.h_britney, UnitCode.m_britney, UnitCode.x_britney, UnitCode.g_britney ],
     initHP: 3158.4,
     initATK: 736.4,
     puzzle: [],

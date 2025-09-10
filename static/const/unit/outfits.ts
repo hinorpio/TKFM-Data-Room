@@ -14,6 +14,9 @@ const OUTFIT_10945_LV3 = `${cdnURL}/character/outfit/10945-Lv3.png`
 const OUTFIT_10946_LV1 = `${cdnURL}/character/outfit/10946-Lv1.png`
 const OUTFIT_10946_LV2 = `${cdnURL}/character/outfit/10946-Lv2.png`
 const OUTFIT_10946_LV3 = `${cdnURL}/character/outfit/10946-Lv3.png`
+const OUTFIT_10951_LV1 = `${cdnURL}/character/outfit/10951-Lv1.png`
+const OUTFIT_10951_LV2 = `${cdnURL}/character/outfit/10951-Lv2.png`
+const OUTFIT_10951_LV3 = `${cdnURL}/character/outfit/10951-Lv3.png`
 const OUTFIT_10955_LV1 = `${cdnURL}/character/outfit/10955-Lv1.png`
 const OUTFIT_10955_LV2 = `${cdnURL}/character/outfit/10955-Lv2.png`
 const OUTFIT_10955_LV3 = `${cdnURL}/character/outfit/10955-Lv3.png`
@@ -48,7 +51,12 @@ const N = {
         [ OUTFIT_10955_LV1 ],
         [ OUTFIT_10955_LV2 ],
         [ OUTFIT_10955_LV3 ],
-    ]
+    ],
+    [UnitCode.harpy]: [
+        [ OUTFIT_10951_LV1 ],
+        [ OUTFIT_10951_LV2 ],
+        [ OUTFIT_10951_LV3 ],
+    ],
 }
 
 const R = {
