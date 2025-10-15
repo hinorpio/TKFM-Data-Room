@@ -223,6 +223,8 @@ const SSR = {
     [UnitCode.l_ayane]: getUnitEssencePath('10181'),
     [UnitCode.ria]: getUnitEssencePath('10182'),
     [UnitCode.g_britney]: getUnitEssencePath('10183'),
+    [UnitCode.h_momDaphne]: getUnitEssencePath('10184'),
+    [UnitCode.lilinor]: getUnitEssencePath('10185'),
 }
 
 export const Essence = {

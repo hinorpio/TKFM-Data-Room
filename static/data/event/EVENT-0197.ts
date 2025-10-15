@@ -2,18 +2,18 @@ import { Event } from '@/interface/event';
 import { Locale, EventType, UnitCode } from '@/plugins/utils/enums';
 import { EventBanner, EventTypeColor } from '~/static/const';
 
-const EVENT_0194: Event = {
-    code: '0194',
+const EVENT_0197: Event = {
+    code: '0197',
     type: EventType.POINT,
-    startDate: '2025/10/01',
-    endDate: '2025/10/15',
+    startDate: '2025/10/15',
+    endDate: '2025/11/05',
     color: EventTypeColor.POINT,
     name: {
-        [Locale.tc]: `【Pasadena~被七夕分離的兩人-復刻-】`,
-        [Locale.sc]: `【Pasadena~被七夕分离的两人-复刻-】`,
-        [Locale.en]: `[Pasadena~ Separated by Love -Comeback-]`,
-        [Locale.jp]: `「Pasadena~七夕に隔てられた二人-復刻-」`,
-        [Locale.kr]: `【Pasadena~칠석에 떨어진 두 사람-복각-】`
+        [Locale.tc]: `【仙子魔力公司】`,
+        [Locale.sc]: `【仙子魔力公司】`,
+        [Locale.en]: `[Fairies Inc.]`,
+        [Locale.jp]: `「フェアリーズ・インク」`,
+        [Locale.kr]: `【페어리 마력 회사】`
     },
     description: {
         [Locale.tc]: ``,
@@ -22,7 +22,7 @@ const EVENT_0194: Event = {
         [Locale.jp]: ``,
         [Locale.kr]: ``
     },
-    banner: EventBanner.EVENT_0194,
+    banner: EventBanner.EVENT_0197,
     newUnit: [],
     isParentEvent: true,
     parentEvent: null,
@@ -31,4 +31,4 @@ const EVENT_0194: Event = {
     returnFrom: null
 }
 
-export default EVENT_0194
+export default EVENT_0197

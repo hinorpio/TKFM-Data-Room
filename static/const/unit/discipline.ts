@@ -205,6 +205,8 @@ const SSR = {
     [UnitCode.l_ayane]: getUnitDisplinePath('10181'),
     [UnitCode.ria]: getUnitDisplinePath('10182'),
     [UnitCode.g_britney]: getUnitDisplinePath('10183'),
+    [UnitCode.h_momDaphne]: getUnitDisplinePath('10184'),
+    [UnitCode.lilinor]: getUnitDisplinePath('10185'),
 }
 
 export const DisciplinePreview = {
