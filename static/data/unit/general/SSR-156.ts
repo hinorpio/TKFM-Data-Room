@@ -20,8 +20,8 @@ export const General_10185: Unit = {
         [Locale.kr]: "리리나"
     },
     abbreviation: {
-        [Locale.tc]: [ "雌仙", "仙子" ],
-        [Locale.sc]: [ "雌仙", "仙子" ],
+        [Locale.tc]: [ "仙子", "雌仙" ],
+        [Locale.sc]: [ "仙子", "雌仙" ],
         [Locale.en]: [],
         [Locale.jp]: [],
         [Locale.kr]: []
