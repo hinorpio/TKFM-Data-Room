@@ -230,6 +230,8 @@ const SSR = {
     [UnitCode.l_ayane]: getUnitFullImagePath('10181'),
     [UnitCode.ria]: getUnitFullImagePath('10182'),
     [UnitCode.g_britney]: getUnitFullImagePath('10183'),
+    [UnitCode.h_momDaphne]: getUnitFullImagePath('10184'),
+    [UnitCode.lilinor]: getUnitFullImagePath('10185'),
 }
 
 export const FullImage = {
