@@ -35,6 +35,12 @@ const OUTFIT_21711_LV3 = `${cdnURL}/character/outfit/21711-Lv3.png`
 const OUTFIT_21781_LV1 = `${cdnURL}/character/outfit/21781-Lv1.png`
 const OUTFIT_21781_LV2 = `${cdnURL}/character/outfit/21781-Lv2.png`
 const OUTFIT_21781_LV3 = `${cdnURL}/character/outfit/21781-Lv3.png`
+const OUTFIT_10936_LV1 = `${cdnURL}/character/outfit/10936-Lv1.png`
+const OUTFIT_10936_LV2 = `${cdnURL}/character/outfit/10936-Lv2.png`
+const OUTFIT_10936_LV3 = `${cdnURL}/character/outfit/10936-Lv3.png`
+const OUTFIT_10937_LV1 = `${cdnURL}/character/outfit/10937-Lv1.png`
+const OUTFIT_10937_LV2 = `${cdnURL}/character/outfit/10937-Lv2.png`
+const OUTFIT_10937_LV3 = `${cdnURL}/character/outfit/10937-Lv3.png`
 
 const N = {
     [UnitCode.anna]: [
@@ -57,10 +63,19 @@ const N = {
         [ OUTFIT_10951_LV2 ],
         [ OUTFIT_10951_LV3 ],
     ],
+    [UnitCode.lamia]: [
+        [ OUTFIT_10936_LV1 ],
+        [ OUTFIT_10936_LV2 ],
+        [ OUTFIT_10936_LV3 ],
+    ],
 }
 
 const R = {
-    
+    [UnitCode.shiraka]: [
+        [ OUTFIT_10937_LV1 ],
+        [ OUTFIT_10937_LV2 ],
+        [ OUTFIT_10937_LV3 ],
+    ],
 }
 
 const SR = {

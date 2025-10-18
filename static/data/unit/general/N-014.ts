@@ -57,7 +57,7 @@ export const General_10914: Unit = {
     initHP: 2045,
     initATK: 495,
     puzzle: [ PuzzleCode.DEMON_LAMIA ],
-    outfits: [],
+    outfits: UnitOutfits[UnitCode.lamia],
     voiceSet: UnitVoice[UnitCode.lamia],
     voiceException: [ 
         {
