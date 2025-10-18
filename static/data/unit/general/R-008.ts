@@ -55,7 +55,7 @@ export const General_10808: Unit = {
     initHP: 2445.6,
     initATK: 663.6,
     puzzle: [],
-    outfits: [],
+    outfits: UnitOutfits[UnitCode.shiraka],
     voiceSet: UnitVoice[UnitCode.shiraka],
     voiceException: [
         {
