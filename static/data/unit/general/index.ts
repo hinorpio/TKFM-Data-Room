@@ -211,6 +211,8 @@ import { General_10182 } from "./SSR-153";
 import { General_10183 } from "./SSR-154";
 import { General_10184 } from "./SSR-155";
 import { General_10185 } from "./SSR-156";
+import { General_10186 } from "./SSR-157";
+import { General_10187 } from "./SSR-158";
 
 
 const N: { [key in UnitCode]?: Unit } = {
@@ -432,6 +434,8 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.g_britney]: General_10183,
     [UnitCode.h_momDaphne]: General_10184,
     [UnitCode.lilinor]: General_10185,
+    [UnitCode.m_salucia]: General_10186,
+    [UnitCode.lutty]: General_10187,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {

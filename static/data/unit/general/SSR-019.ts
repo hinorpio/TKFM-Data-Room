@@ -45,7 +45,7 @@ export const General_10007: Unit = {
     clothes: UnitFullImage[UnitCode.milae],
     tagList: [
         TagID.ELEMENT_LIGHT,
-        TagID.ELEMENT_LIGHT,
+        TagID.POSITION_ATTACKER,
         TagID.BODY_MEDIUM_SIZED,
         TagID.CLASS_LEADER,
         TagID.OTHER_SUPPORT,
