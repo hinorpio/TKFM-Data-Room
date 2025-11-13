@@ -612,4 +612,6 @@ export enum UnitCode {
     g_britney = 'SSR-154',
     h_momDaphne = 'SSR-155',
     lilinor = 'SSR-156',
+    m_salucia = 'SSR-157',
+    lutty = 'SSR-158',
 }

@@ -225,6 +225,8 @@ const SSR = {
     [UnitCode.g_britney]: getUnitSelectionPath('10183'),
     [UnitCode.h_momDaphne]: getUnitSelectionPath('10184'),
     [UnitCode.lilinor]: getUnitSelectionPath('10185'),
+    [UnitCode.m_salucia]: getUnitSelectionPath('10186'),
+    [UnitCode.lutty]: getUnitSelectionPath('10187'),
 }
 
 export const Selection = {

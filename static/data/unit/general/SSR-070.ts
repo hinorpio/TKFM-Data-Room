@@ -44,7 +44,7 @@ export const General_10106: Unit = {
     selection: UnitSelection[UnitCode.ny_salucia],
     clothes: UnitFullImage[UnitCode.ny_salucia],
     tagList: [],
-    otherVersion: [ UnitCode.salucia, UnitCode.h_salucia, UnitCode.s_salucia ],
+    otherVersion: [ UnitCode.salucia, UnitCode.h_salucia, UnitCode.s_salucia, UnitCode.m_salucia ],
     initHP: 3558.4,
     initATK: 990.4,
     puzzle: [],

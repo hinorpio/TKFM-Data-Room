@@ -53,7 +53,7 @@ export const General_10004: Unit = {
         TagID.OTHER_SUPPORT,
         TagID.OTHER_EXPLOSIVENESS,
     ],
-    otherVersion: [ UnitCode.h_salucia, UnitCode.ny_salucia, UnitCode.s_salucia ],
+    otherVersion: [ UnitCode.h_salucia, UnitCode.ny_salucia, UnitCode.s_salucia, UnitCode.m_salucia ],
     initHP: 3635.2,
     initATK: 880,
     puzzle: [],
