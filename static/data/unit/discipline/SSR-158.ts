@@ -5,7 +5,7 @@ import { Discipline } from '@/interface/unit/discipline';
 
 export const Discipline_10187: Discipline[] = [
     {
-        preview: UnitDisciplinePreview[UnitCode.m_salucia][0],
+        preview: UnitDisciplinePreview[UnitCode.lutty][0],
         name: {
             [Locale.tc]: `精靈女僕的初體驗`,
             [Locale.sc]: `精灵女仆的初体验`,
@@ -15,7 +15,7 @@ export const Discipline_10187: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.m_salucia][1],
+        preview: UnitDisciplinePreview[UnitCode.lutty][1],
         name: {
             [Locale.tc]: `自慰練習`,
             [Locale.sc]: `自慰练习`,
@@ -25,7 +25,7 @@ export const Discipline_10187: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.m_salucia][2],
+        preview: UnitDisciplinePreview[UnitCode.lutty][2],
         name: {
             [Locale.tc]: `不健康的交易`,
             [Locale.sc]: `不健康的交易`,
