@@ -2,6 +2,31 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.7.6',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.fifth_iblis, UnitCode.fifth_satan, UnitCode.fifth_baal, UnitCode.fifth_nana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0203', '0204' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.fifth_nana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.PUZZLE,
+                puzzleList: [ PuzzleCode.EVENT_2025_XMAS_1, PuzzleCode.EVENT_2025_XMAS_2 ]
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.7.5',
         logs: [
             {
