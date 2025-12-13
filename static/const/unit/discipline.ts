@@ -209,6 +209,10 @@ const SSR = {
     [UnitCode.lilinor]: getUnitDisplinePath('10185'),
     [UnitCode.m_salucia]: getUnitDisplinePath('10186'),
     [UnitCode.lutty]: getUnitDisplinePath('10187'),
+    [UnitCode.fifth_iblis]: getUnitDisplinePath('10188'),
+    [UnitCode.fifth_satan]: getUnitDisplinePath('10189'),
+    [UnitCode.fifth_baal]: getUnitDisplinePath('10190'),
+    [UnitCode.fifth_nana]: getUnitDisplinePath('10191'),
 }
 
 export const DisciplinePreview = {

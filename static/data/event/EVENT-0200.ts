@@ -23,7 +23,7 @@ const EVENT_0200: Event = {
         [Locale.kr]: ``
     },
     banner: EventBanner.EVENT_0200,
-    newUnit: [],
+    newUnit: [ UnitCode.m_salucia, UnitCode.lutty ],
     isParentEvent: true,
     parentEvent: null,
     childEvent: [],

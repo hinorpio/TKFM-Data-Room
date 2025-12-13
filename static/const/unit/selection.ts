@@ -227,6 +227,10 @@ const SSR = {
     [UnitCode.lilinor]: getUnitSelectionPath('10185'),
     [UnitCode.m_salucia]: getUnitSelectionPath('10186'),
     [UnitCode.lutty]: getUnitSelectionPath('10187'),
+    [UnitCode.fifth_iblis]: getUnitSelectionPath('10188'),
+    [UnitCode.fifth_satan]: getUnitSelectionPath('10189'),
+    [UnitCode.fifth_baal]: getUnitSelectionPath('10190'),
+    [UnitCode.fifth_nana]: getUnitSelectionPath('10191'),
 }
 
 export const Selection = {

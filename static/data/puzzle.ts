@@ -380,6 +380,32 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.EVENT_2025_SUMMER_4,
     },
     {
+        code: PuzzleCode.EVENT_2025_XMAS_1,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2025_XMAS_1,
+        name: {
+            [Locale.tc]: `雪人嘉年華`,
+            [Locale.sc]: `雪人嘉年华`,
+            [Locale.en]: `Snowman Carnival`,
+            [Locale.jp]: `雪だるまのカーニバル`,
+            [Locale.kr]: `설인 카니발`
+        },
+        fullImage: PuzzleImage.EVENT_2025_XMAS_1,
+    },
+    {
+        code: PuzzleCode.EVENT_2025_XMAS_2,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2025_XMAS_2,
+        name: {
+            [Locale.tc]: `執子之手，與子偕老`,
+            [Locale.sc]: `执子之手，与子偕老`,
+            [Locale.en]: `Hand in Hand, Growing Old Together`,
+            [Locale.jp]: `子の手を執りて、子と偕に老いん`,
+            [Locale.kr]: `백년해로`
+        },
+        fullImage: PuzzleImage.EVENT_2025_XMAS_2,
+    },
+    {
         code: PuzzleCode.HUMAN_SARIA,
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_SARIA,

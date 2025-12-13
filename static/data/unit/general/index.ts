@@ -213,6 +213,10 @@ import { General_10184 } from "./SSR-155";
 import { General_10185 } from "./SSR-156";
 import { General_10186 } from "./SSR-157";
 import { General_10187 } from "./SSR-158";
+import { General_10188 } from "./SSR-159";
+import { General_10189 } from "./SSR-160";
+import { General_10190 } from "./SSR-161";
+import { General_10191 } from "./SSR-162";
 
 
 const N: { [key in UnitCode]?: Unit } = {
@@ -436,6 +440,10 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.lilinor]: General_10185,
     [UnitCode.m_salucia]: General_10186,
     [UnitCode.lutty]: General_10187,
+    [UnitCode.fifth_iblis]: General_10188,
+    [UnitCode.fifth_satan]: General_10189,
+    [UnitCode.fifth_baal]: General_10190,
+    [UnitCode.fifth_nana]: General_10191,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {

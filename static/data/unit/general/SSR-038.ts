@@ -44,7 +44,7 @@ export const General_10081: Unit = {
     selection: UnitSelection[UnitCode.b_iblis],
     clothes: UnitFullImage[UnitCode.b_iblis],
     tagList: [],
-    otherVersion: [ UnitCode.iblis, UnitCode.i_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis, UnitCode.bg_iblis, UnitCode.ss_iblis ],
+    otherVersion: [ UnitCode.iblis, UnitCode.i_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis, UnitCode.bg_iblis, UnitCode.ss_iblis, UnitCode.fifth_iblis ],
     initHP: 3528,
     initATK: 998.4,
     puzzle: [],

@@ -54,10 +54,10 @@ export const General_10002: Unit = {
         TagID.OTHER_SURVIVABILLITY, 
         TagID.OTHER_COUNTERSTRIKE,
     ],
-    otherVersion: [ UnitCode.e_satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.s_satan, UnitCode.h_satan ],
+    otherVersion: [ UnitCode.e_satan, UnitCode.b_satan, UnitCode.v_satan, UnitCode.s_satan, UnitCode.h_satan, UnitCode.fifth_satan ],
     initHP: 5000,
     initATK: 640,
-    puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1 ],
+    puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2025_XMAS_1 ],
     outfits: [],
     voiceSet: UnitVoice[UnitCode.satan],
     voiceException: [
