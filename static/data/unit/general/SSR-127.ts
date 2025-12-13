@@ -44,10 +44,10 @@ export const General_10156: Unit = {
     selection: UnitSelection[UnitCode.x_baal],
     clothes: UnitFullImage[UnitCode.x_baal],
     tagList: [],
-    otherVersion: [ UnitCode.baal, UnitCode.f_baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal, UnitCode.sky_baal ],
+    otherVersion: [ UnitCode.baal, UnitCode.f_baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal, UnitCode.sky_baal, UnitCode.fifth_baal ],
     initHP: 3740.8,
     initATK: 942.4,
-    puzzle: [ PuzzleCode.EVENT_2024_XMAS_1 ],
+    puzzle: [ PuzzleCode.EVENT_2024_XMAS_1, PuzzleCode.EVENT_2025_XMAS_1 ],
     outfits: [],
     voiceSet: UnitVoice[UnitCode.x_baal],
     voiceException: [

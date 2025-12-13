@@ -44,7 +44,7 @@ export const General_10032: Unit = {
     selection: UnitSelection[UnitCode.s_nana],
     clothes: UnitFullImage[UnitCode.s_nana],
     tagList: [],
-    otherVersion: [ UnitCode.nana, UnitCode.c1_nana, UnitCode.o_nana, UnitCode.a_nana ],
+    otherVersion: [ UnitCode.nana, UnitCode.c1_nana, UnitCode.o_nana, UnitCode.a_nana, UnitCode.fifth_nana ],
     initHP: 3499.2,
     initATK: 1008,
     puzzle: [ PuzzleCode.EVENT_2021_SUMMER_4 ],

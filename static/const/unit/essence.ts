@@ -227,6 +227,10 @@ const SSR = {
     [UnitCode.lilinor]: getUnitEssencePath('10185'),
     [UnitCode.m_salucia]: getUnitEssencePath('10186'),
     [UnitCode.lutty]: getUnitEssencePath('10187'),
+    [UnitCode.fifth_iblis]: getUnitEssencePath('10188'),
+    [UnitCode.fifth_satan]: getUnitEssencePath('10189'),
+    [UnitCode.fifth_baal]: getUnitEssencePath('10190'),
+    [UnitCode.fifth_nana]: getUnitEssencePath('10191'),
 }
 
 export const Essence = {

@@ -316,6 +316,10 @@ const SSR = {
     [UnitCode.lilinor]: getUnitVoicePath('10185'),
     [UnitCode.m_salucia]: getUnitVoicePath('10186'),
     [UnitCode.lutty]: getUnitVoicePath('10187'),
+    [UnitCode.fifth_iblis]: getUnitVoicePath('10188'),
+    [UnitCode.fifth_satan]: getUnitVoicePath('10189'),
+    [UnitCode.fifth_baal]: getUnitVoicePath('10190'),
+    [UnitCode.fifth_nana]: getUnitVoicePath('10191'),
 }
 
 export const Voice = {

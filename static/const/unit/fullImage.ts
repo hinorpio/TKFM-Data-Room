@@ -234,6 +234,10 @@ const SSR = {
     [UnitCode.lilinor]: getUnitFullImagePath('10185'),
     [UnitCode.m_salucia]: getUnitFullImagePath('10186'),
     [UnitCode.lutty]: getUnitFullImagePath('10187'),
+    [UnitCode.fifth_iblis]: getUnitFullImagePath('10188'),
+    [UnitCode.fifth_satan]: getUnitFullImagePath('10189'),
+    [UnitCode.fifth_baal]: getUnitFullImagePath('10190'),
+    [UnitCode.fifth_nana]: getUnitFullImagePath('10191'),
 }
 
 export const FullImage = {

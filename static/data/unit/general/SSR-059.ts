@@ -44,7 +44,7 @@ export const General_10093: Unit = {
     selection: UnitSelection[UnitCode.c1_nana],
     clothes: UnitFullImage[UnitCode.c1_nana],
     tagList: [],
-    otherVersion: [ UnitCode.nana, UnitCode.s_nana, UnitCode.o_nana, UnitCode.a_nana ],
+    otherVersion: [ UnitCode.nana, UnitCode.s_nana, UnitCode.o_nana, UnitCode.a_nana, UnitCode.fifth_nana ],
     initHP: 3659.2,
     initATK: 963.2,
     puzzle: [],

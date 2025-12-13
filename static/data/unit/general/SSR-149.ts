@@ -44,7 +44,7 @@ export const General_10178: Unit = {
     selection: UnitSelection[UnitCode.sky_baal],
     clothes: UnitFullImage[UnitCode.sky_baal],
     tagList: [],
-    otherVersion: [ UnitCode.baal, UnitCode.f_baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal, UnitCode.x_baal ],
+    otherVersion: [ UnitCode.baal, UnitCode.f_baal, UnitCode.b_baal, UnitCode.v_baal, UnitCode.s_baal, UnitCode.x_baal, UnitCode.fifth_baal ],
     initHP: 3499.2,
     initATK: 1008,
     puzzle: [],
