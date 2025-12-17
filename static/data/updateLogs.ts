@@ -2,6 +2,22 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.7.7',
+        logs: [
+            {
+                type: LogType.FIX,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `魔王 娜娜, 貓妖 娜娜 簡易造型問題`,
+                    [Locale.sc]: `魔王 娜娜, 貓妖 娜娜 簡易造型問題`,
+                    [Locale.en]: `Archdemon Nana, Bakeneko Nana Simple Outfit Issue`,
+                    [Locale.jp]: `魔王 ナナ, 猫娘 ナナ 簡易スキンの問題`,
+                    [Locale.kr]: `마왕 나나, 바케네코 나나 간이 스킨 문제`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.7.6',
         logs: [
             {
