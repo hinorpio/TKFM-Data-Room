@@ -79,6 +79,11 @@ const R = {
         [ OUTFIT_10937_LV2 ],
         [ OUTFIT_10937_LV3 ],
     ],
+    [UnitCode.nana]: [
+        [ OUTFIT_28021_LV1 ],
+        [ OUTFIT_28021_LV2 ],
+        [ OUTFIT_28021_LV3 ],
+    ]
 }
 
 const SR = {
@@ -110,11 +115,6 @@ const SSR = {
         [ OUTFIT_21781_LV1 ],
         [ OUTFIT_21781_LV2 ],
         [ OUTFIT_21781_LV3 ],
-    ],
-    [UnitCode.fifth_nana]: [
-        [ OUTFIT_28021_LV1 ],
-        [ OUTFIT_28021_LV2 ],
-        [ OUTFIT_28021_LV3 ],
     ]
 }
 

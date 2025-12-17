@@ -47,8 +47,8 @@ export const General_10191: Unit = {
     otherVersion: [ UnitCode.nana, UnitCode.s_nana, UnitCode.c1_nana, UnitCode.o_nana, UnitCode.a_nana ],
     initHP: 3494.4,
     initATK: 1057.6,
-    puzzle: [ PuzzleCode.EVENT_2025_XMAS_2 ],
-    outfits: UnitOutfits[UnitCode.fifth_nana],
+    puzzle: [],
+    outfits: [],
     voiceSet: UnitVoice[UnitCode.fifth_nana],
     voiceException: [
         {
