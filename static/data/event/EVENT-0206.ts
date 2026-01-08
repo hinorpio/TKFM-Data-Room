@@ -2,18 +2,18 @@ import { Event } from '@/interface/event';
 import { Locale, EventType, UnitCode } from '@/plugins/utils/enums';
 import { EventBanner, EventTypeColor } from '~/static/const';
 
-const EVENT_0204: Event = {
-    code: '0204',
+const EVENT_0206: Event = {
+    code: '0206',
     type: EventType.CHALLENGE,
-    startDate: '2025/12/24',
-    endDate: '2026/01/07',
+    startDate: '2026/01/21',
+    endDate: '2026/01/28',
     color: EventTypeColor.CHALLENGE,
     name: {
-        [Locale.tc]: `【愛、鮮血、送葬曲】`,
-        [Locale.sc]: `【爱、鲜血、送葬曲】`,
-        [Locale.en]: `[Love, Blood, Requiem]`,
-        [Locale.jp]: `「愛、鮮血、レクイエム」`,
-        [Locale.kr]: `【사랑, 신선한 피, 장송곡】`
+        [Locale.tc]: `【兔姬大明神】`,
+        [Locale.sc]: `【兔姬大明神】`,
+        [Locale.en]: `[Usagihime Daimyojin]`,
+        [Locale.jp]: `「兎姫大明神」`,
+        [Locale.kr]: `【우사기 히메 대명신이여!】`
     },
     description: {
         [Locale.tc]: ``,
@@ -22,7 +22,7 @@ const EVENT_0204: Event = {
         [Locale.jp]: ``,
         [Locale.kr]: ``
     },
-    banner: EventBanner.EVENT_0204,
+    banner: EventBanner.EVENT_0206,
     newUnit: [],
     isParentEvent: true,
     parentEvent: null,
@@ -31,4 +31,4 @@ const EVENT_0204: Event = {
     returnFrom: null
 }
 
-export default EVENT_0204
+export default EVENT_0206

@@ -231,6 +231,8 @@ const SSR = {
     [UnitCode.fifth_satan]: getUnitSelectionPath('10189'),
     [UnitCode.fifth_baal]: getUnitSelectionPath('10190'),
     [UnitCode.fifth_nana]: getUnitSelectionPath('10191'),
+    [UnitCode.b_shizuka]: getUnitSelectionPath('10192'),
+    [UnitCode.m_usagihime]: getUnitSelectionPath('10193'),
 }
 
 export const Selection = {

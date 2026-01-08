@@ -238,6 +238,8 @@ const SSR = {
     [UnitCode.fifth_satan]: getUnitFullImagePath('10189'),
     [UnitCode.fifth_baal]: getUnitFullImagePath('10190'),
     [UnitCode.fifth_nana]: getUnitFullImagePath('10191'),
+    [UnitCode.b_shizuka]: getUnitFullImagePath('10192'),
+    [UnitCode.m_usagihime]: getUnitFullImagePath('10193'),
 }
 
 export const FullImage = {

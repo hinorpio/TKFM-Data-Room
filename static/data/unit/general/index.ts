@@ -217,6 +217,8 @@ import { General_10188 } from "./SSR-159";
 import { General_10189 } from "./SSR-160";
 import { General_10190 } from "./SSR-161";
 import { General_10191 } from "./SSR-162";
+import { General_10192 } from "./SSR-163";
+import { General_10193 } from "./SSR-164";
 
 
 const N: { [key in UnitCode]?: Unit } = {
@@ -444,6 +446,8 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.fifth_satan]: General_10189,
     [UnitCode.fifth_baal]: General_10190,
     [UnitCode.fifth_nana]: General_10191,
+    [UnitCode.b_shizuka]: General_10192,
+    [UnitCode.m_usagihime]: General_10193,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {

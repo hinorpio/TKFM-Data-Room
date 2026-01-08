@@ -620,4 +620,6 @@ export enum UnitCode {
     fifth_satan = 'SSR-160',
     fifth_baal = 'SSR-161',
     fifth_nana = 'SSR-162',
+    b_shizuka = 'SSR-163',
+    m_usagihime = 'SSR-164',
 }
