@@ -320,6 +320,8 @@ const SSR = {
     [UnitCode.fifth_satan]: getUnitVoicePath('10189'),
     [UnitCode.fifth_baal]: getUnitVoicePath('10190'),
     [UnitCode.fifth_nana]: getUnitVoicePath('10191'),
+    [UnitCode.b_shizuka]: getUnitVoicePath('10192'),
+    [UnitCode.m_usagihime]: getUnitVoicePath('10193'),
 }
 
 export const Voice = {

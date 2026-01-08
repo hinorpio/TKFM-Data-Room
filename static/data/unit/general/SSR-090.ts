@@ -44,7 +44,7 @@ export const General_10122: Unit = {
     selection: UnitSelection[UnitCode.a_usagihime],
     clothes: UnitFullImage[UnitCode.a_usagihime],
     tagList: [],
-    otherVersion: [ UnitCode.usagihime ],
+    otherVersion: [ UnitCode.usagihime, UnitCode.m_usagihime ],
     initHP: 3280,
     initATK: 1075.2,
     puzzle: [],
