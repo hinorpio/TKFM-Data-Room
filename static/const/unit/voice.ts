@@ -322,6 +322,9 @@ const SSR = {
     [UnitCode.fifth_nana]: getUnitVoicePath('10191'),
     [UnitCode.b_shizuka]: getUnitVoicePath('10192'),
     [UnitCode.m_usagihime]: getUnitVoicePath('10193'),
+    [UnitCode.b_aiko]: getUnitVoicePath('10194'),
+    [UnitCode.b_ayane]: getUnitVoicePath('10195'),
+    [UnitCode.b_lana]: getUnitVoicePath('10196'),
 }
 
 export const Voice = {

@@ -41,6 +41,9 @@ const OUTFIT_10936_LV3 = `${cdnURL}/character/outfit/10936-Lv3.png`
 const OUTFIT_10937_LV1 = `${cdnURL}/character/outfit/10937-Lv1.png`
 const OUTFIT_10937_LV2 = `${cdnURL}/character/outfit/10937-Lv2.png`
 const OUTFIT_10937_LV3 = `${cdnURL}/character/outfit/10937-Lv3.png`
+const OUTFIT_10941_LV1 = `${cdnURL}/character/outfit/10941-Lv1.png`
+const OUTFIT_10941_LV2 = `${cdnURL}/character/outfit/10941-Lv2.png`
+const OUTFIT_10941_LV3 = `${cdnURL}/character/outfit/10941-Lv3.png`
 const OUTFIT_28021_LV1 = `${cdnURL}/character/outfit/28021-Lv1.png`
 const OUTFIT_28021_LV2 = `${cdnURL}/character/outfit/28021-Lv2.png`
 const OUTFIT_28021_LV3 = `${cdnURL}/character/outfit/28021-Lv3.png`
@@ -70,6 +73,11 @@ const N = {
         [ OUTFIT_10936_LV1 ],
         [ OUTFIT_10936_LV2 ],
         [ OUTFIT_10936_LV3 ],
+    ],
+    [UnitCode.prototype]: [
+        [ OUTFIT_10941_LV1 ],
+        [ OUTFIT_10941_LV2 ],
+        [ OUTFIT_10941_LV3 ],
     ],
 }
 

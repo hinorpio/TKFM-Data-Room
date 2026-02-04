@@ -215,6 +215,9 @@ const SSR = {
     [UnitCode.fifth_nana]: getUnitDisplinePath('10191'),
     [UnitCode.b_shizuka]: getUnitDisplinePath('10192'),
     [UnitCode.m_usagihime]: getUnitDisplinePath('10193'),
+    [UnitCode.b_aiko]: getUnitDisplinePath('10194'),
+    [UnitCode.b_ayane]: getUnitDisplinePath('10195'),
+    [UnitCode.b_lana]: getUnitDisplinePath('10196'),
 }
 
 export const DisciplinePreview = {
