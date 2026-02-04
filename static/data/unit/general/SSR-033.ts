@@ -44,7 +44,7 @@ export const General_10053: Unit = {
     selection: UnitSelection[UnitCode.x_lana],
     clothes: UnitFullImage[UnitCode.x_lana],
     tagList: [],
-    otherVersion: [ UnitCode.lana, UnitCode.ny_lana, UnitCode.o_lana ],
+    otherVersion: [ UnitCode.lana, UnitCode.ny_lana, UnitCode.o_lana, UnitCode.b_lana ],
     initHP: 3732.8,
     initATK: 944,
     puzzle: [ PuzzleCode.EVENT_2021_XMAS_1 ],

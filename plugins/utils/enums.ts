@@ -622,4 +622,7 @@ export enum UnitCode {
     fifth_nana = 'SSR-162',
     b_shizuka = 'SSR-163',
     m_usagihime = 'SSR-164',
+    b_aiko = 'SSR-165',
+    b_ayane = 'SSR-166',
+    b_lana = 'SSR-167',
 }

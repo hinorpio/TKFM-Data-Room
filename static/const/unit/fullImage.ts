@@ -240,6 +240,9 @@ const SSR = {
     [UnitCode.fifth_nana]: getUnitFullImagePath('10191'),
     [UnitCode.b_shizuka]: getUnitFullImagePath('10192'),
     [UnitCode.m_usagihime]: getUnitFullImagePath('10193'),
+    [UnitCode.b_aiko]: getUnitFullImagePath('10194'),
+    [UnitCode.b_ayane]: getUnitFullImagePath('10195'),
+    [UnitCode.b_lana]: getUnitFullImagePath('10196'),
 }
 
 export const FullImage = {

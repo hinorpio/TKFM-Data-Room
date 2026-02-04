@@ -44,7 +44,7 @@ export const General_10097: Unit = {
     selection: UnitSelection[UnitCode.xx_aiko],
     clothes: UnitFullImage[UnitCode.xx_aiko],
     tagList: [],
-    otherVersion: [ UnitCode.aiko, UnitCode.x_aiko, UnitCode.s_aiko, UnitCode.p_aiko ],
+    otherVersion: [ UnitCode.aiko, UnitCode.x_aiko, UnitCode.s_aiko, UnitCode.p_aiko, UnitCode.b_aiko ],
     initHP: 3544,
     initATK: 995.2,
     puzzle: [],

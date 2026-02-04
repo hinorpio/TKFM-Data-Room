@@ -233,6 +233,9 @@ const SSR = {
     [UnitCode.fifth_nana]: getUnitSelectionPath('10191'),
     [UnitCode.b_shizuka]: getUnitSelectionPath('10192'),
     [UnitCode.m_usagihime]: getUnitSelectionPath('10193'),
+    [UnitCode.b_aiko]: getUnitSelectionPath('10194'),
+    [UnitCode.b_ayane]: getUnitSelectionPath('10195'),
+    [UnitCode.b_lana]: getUnitSelectionPath('10196'),
 }
 
 export const Selection = {

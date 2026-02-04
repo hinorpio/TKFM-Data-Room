@@ -233,6 +233,9 @@ const SSR = {
     [UnitCode.fifth_nana]: getUnitEssencePath('10191'),
     [UnitCode.b_shizuka]: getUnitEssencePath('10192'),
     [UnitCode.m_usagihime]: getUnitEssencePath('10193'),
+    [UnitCode.b_aiko]: getUnitEssencePath('10194'),
+    [UnitCode.b_ayane]: getUnitEssencePath('10195'),
+    [UnitCode.b_lana]: getUnitEssencePath('10196'),
 }
 
 export const Essence = {

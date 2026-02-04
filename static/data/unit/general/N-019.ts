@@ -56,7 +56,7 @@ export const General_10922: Unit = {
     initHP: 1939,
     initATK: 522,
     puzzle: [ PuzzleCode.HUMAN_PROTOTYPE ],
-    outfits: [],
+    outfits: UnitOutfits[UnitCode.prototype],
     voiceSet: UnitVoice[UnitCode.prototype],
     voiceException: [ 
         {
