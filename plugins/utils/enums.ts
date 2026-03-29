@@ -322,6 +322,7 @@ export enum FanartOwner {
     VV = '森屿海盐vv',
     C = '嗯C郎',
     SEVEN_LEMON = '七色柠檬糖',
+    PHOENIX_WRONG = '过劳的娜娜喵',
 }
 
 export enum PuzzleType {
