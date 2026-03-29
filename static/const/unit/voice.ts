@@ -325,6 +325,8 @@ const SSR = {
     [UnitCode.b_aiko]: getUnitVoicePath('10194'),
     [UnitCode.b_ayane]: getUnitVoicePath('10195'),
     [UnitCode.b_lana]: getUnitVoicePath('10196'),
+    [UnitCode.cos_yanko]: getUnitVoicePath('10197'),
+    [UnitCode.cos_momo]: getUnitVoicePath('10198'),
 }
 
 export const Voice = {

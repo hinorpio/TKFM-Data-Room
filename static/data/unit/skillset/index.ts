@@ -221,6 +221,8 @@ import { SkillSet_10193 } from "./SSR-164";
 import { SkillSet_10194 } from "./SSR-165";
 import { SkillSet_10195 } from "./SSR-166";
 import { SkillSet_10196 } from "./SSR-167";
+import { SkillSet_10197 } from "./SSR-168";
+import { SkillSet_10198 } from "./SSR-169";
 
 const N: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.saria]: SkillSet_10901,
@@ -452,6 +454,8 @@ const SSR: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.b_aiko]: SkillSet_10194,
     [UnitCode.b_ayane]: SkillSet_10195,
     [UnitCode.b_lana]: SkillSet_10196,
+    [UnitCode.cos_yanko]: SkillSet_10197,
+    [UnitCode.cos_momo]: SkillSet_10198,
 }
 
 export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {

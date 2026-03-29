@@ -236,6 +236,8 @@ const SSR = {
     [UnitCode.b_aiko]: getUnitEssencePath('10194'),
     [UnitCode.b_ayane]: getUnitEssencePath('10195'),
     [UnitCode.b_lana]: getUnitEssencePath('10196'),
+    [UnitCode.cos_yanko]: getUnitEssencePath('10197'),
+    [UnitCode.cos_momo]: getUnitEssencePath('10198'),
 }
 
 export const Essence = {

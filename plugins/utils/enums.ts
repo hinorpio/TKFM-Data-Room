@@ -625,4 +625,6 @@ export enum UnitCode {
     b_aiko = 'SSR-165',
     b_ayane = 'SSR-166',
     b_lana = 'SSR-167',
+    cos_yanko = 'SSR-168',
+    cos_momo = 'SSR-169',
 }

@@ -243,6 +243,8 @@ const SSR = {
     [UnitCode.b_aiko]: getUnitFullImagePath('10194'),
     [UnitCode.b_ayane]: getUnitFullImagePath('10195'),
     [UnitCode.b_lana]: getUnitFullImagePath('10196'),
+    [UnitCode.cos_yanko]: getUnitFullImagePath('10197'),
+    [UnitCode.cos_momo]: getUnitFullImagePath('10198'),
 }
 
 export const FullImage = {
