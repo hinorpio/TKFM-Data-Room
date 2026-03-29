@@ -39,12 +39,12 @@ export const SkillSet_10055: SkillSet[] =  [
                     description: `使我方全體攻擊力增加2.5%(最多10層)，以自身攻擊力25%使我方全體攻擊力增加(1回合)，並以自身攻擊力100%對我方全體進行治療，CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: `突刺`,
-                    description: `以自身100%攻擊力對目標造成傷害`
-                },
-                [SkillType.LEADER]: {
                     name: `誘人舞姿`,
                     description: `以自身攻擊力25%使我方全體攻擊力增加(1回合)`
+                },
+                [SkillType.LEADER]: {
+                    name: `純粹的舞者`,
+                    description: `自身攻擊力增加50%，我方全體最大HP增加10%`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `窈窕淑女`,
@@ -93,12 +93,12 @@ export const SkillSet_10055: SkillSet[] =  [
                     description: `使我方全体攻击力增加2.5%(最多10层)，以自身攻击力25%使我方全体攻击力增加(1回合)，并以自身攻击力100%对我方全体进行治疗，CD:3`
                 },
                 [SkillType.ATTACK]: {
-                    name: `突刺`,
-                    description: `以自身100%攻击力对目标造成伤害`
-                },
-                [SkillType.LEADER]: {
                     name: `诱人舞姿`,
                     description: `以自身攻击力25%使我方全体攻击力增加(1回合)`
+                },
+                [SkillType.LEADER]: {
+                    name: `纯粹的舞者`,
+                    description: `自身攻击力增加50%，我方全体最大HP增加10%`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `窈窕淑女`,

@@ -245,6 +245,245 @@ const DOKGUN_OLD_STICKER_102 = `${cdnURL}/arts/fanart/Dokgun/sticker/old_sticker
 const DOKGUN_OLD_STICKER_103 = `${cdnURL}/arts/fanart/Dokgun/sticker/old_sticker/103.png`
 const DOKGUN_OLD_STICKER_104 = `${cdnURL}/arts/fanart/Dokgun/sticker/old_sticker/104.gif`
 
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_001 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/蛤.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_002 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/666.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_003 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/cl.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_004 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/ok.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_005 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/V我50.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_006 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/上号.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_007 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/上号2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_008 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/干杯.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_009 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/干得漂亮.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_010 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/不开心.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_011 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/不许.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_012 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/不听.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_013 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/不要.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_014 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/午睡.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_015 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/幻想时间.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_016 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/心碎.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_017 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/心碎2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_018 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/无语.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_019 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/无聊.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_020 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/比心.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_021 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/比心2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_022 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/计划通.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_023 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/加油.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_024 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/厉害.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_025 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/可爱.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_026 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/打call.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_027 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/打call2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_028 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/正常.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_029 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/生日快乐.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_030 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/生日快乐2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_031 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/生日快乐3.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_032 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/生气.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_033 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/吃瓜.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_034 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/多喝热水.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_035 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/好好好.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_036 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/好幸福.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_037 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/好的.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_038 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/好耶.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_039 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/妈妈.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_040 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/收到.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_041 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/早.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_042 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/早安.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_043 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/有点意思.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_044 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/有趣.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_045 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/老板大气.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_046 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/老板大气2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_047 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/观察.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_048 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/启动.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_049 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/呜呜呜.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_050 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/我上早八.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_051 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/我不知道.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_052 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/我草.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_053 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/我草2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_054 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/投降.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_055 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/盯.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_056 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/乖巧.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_057 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/享受.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_058 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/呵呵.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_059 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/呵呵2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_060 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/明天见.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_061 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/咦咦咦.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_062 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/哈气.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_063 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/哈气2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_064 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/哈哈哈.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_065 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/拜托.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_066 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/拜拜.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_067 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/拜拜2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_068 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/指指点点.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_069 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/挠头.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_070 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/挥手.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_071 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/挥手2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_072 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/歪头.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_073 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/点赞.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_074 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/点赞2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_075 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/突然出现.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_076 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/给我爬.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_077 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/给我爬2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_078 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/耶耶.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_079 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/原来如此.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_080 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/哭.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_081 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/哼.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_082 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/害怕.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_083 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/害羞.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_084 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/害羞2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_085 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/恭喜.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_086 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/真相只有一个.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_087 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/迷茫.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_088 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/难受.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_089 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/晚安.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_090 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/晚安2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_091 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/笨蛋.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_092 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/累了.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_093 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/喜欢.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_094 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/期待.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_095 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/菜.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_096 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/菜2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_097 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/装死.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_098 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/装傻.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_099 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/谢谢.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_100 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/微笑.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_101 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/微笑2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_102 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/感谢.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_103 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/摆烂.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_104 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/摊手.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_105 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/暗中观察.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_106 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/滚.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_107 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/滚2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_108 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/疑惑.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_109 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/疑惑2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_110 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/睡了.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_111 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/鄙视.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_112 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/酸了.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_113 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/酸了2.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_114 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/嘻嘻.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_115 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/憋笑.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_116 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/震惊.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_117 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/赞.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_118 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/赞美太阳.png`
+const PHOENFIX_WRONG_STICKER_NANA_PACK1_119 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_Pack1/翻脸.png`
+
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_001 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_002 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_003 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_004 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_005 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_006 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_007 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_008 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/1_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_009 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_010 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_011 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_012 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_013 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_014 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_015 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_016 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/2_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_017 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_018 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_019 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_020 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_021 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_022 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_023 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_024 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/3_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_025 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_026 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_027 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_028 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_029 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_030 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_031 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_032 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/4_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_033 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_034 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_035 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_036 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_037 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_038 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_039 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_040 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/5_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_041 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_042 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_043 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_044 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_045 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_046 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_047 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_048 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/6_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_049 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_050 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_051 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_052 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_053 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_054 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_055 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/7_8.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_056 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_1.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_057 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_2.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_058 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_3.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_059 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_4.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_060 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_5.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_061 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_6.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_062 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_7.png`
+const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_063 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_New3Kindom_Pack1/8_8.png`
+
+const PHOENFIX_WRONG_STICKER_NANA_14_001 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/1.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_002 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/2.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_003 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/3.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_004 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/4.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_005 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/5.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_006 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/6.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_007 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/7.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_008 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/8.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_009 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/9.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_010 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/10.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_011 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/11.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_012 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/12.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_013 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/13.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_014 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/14.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_015 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/15.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_016 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/16.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_017 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/17.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_018 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/18.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_019 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/19.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_020 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/20.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_021 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/21.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_022 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/22.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_023 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/23.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_024 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/24.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_025 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/25.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_026 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/26.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_027 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/27.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_028 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/28.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_029 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/29.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_030 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/30.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_031 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/31.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_032 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/32.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_033 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/33.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_034 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/34.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_035 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/35.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_036 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/36.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_037 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/37.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_038 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/38.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_039 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/39.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_040 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/40.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_041 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/41.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_042 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/42.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_043 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/43.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_044 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/44.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_045 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/45.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_046 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/46.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_047 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/47.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_048 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/48.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_049 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/49.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_050 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/50.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_051 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/51.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_052 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/52.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_053 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/53.png`
+const PHOENFIX_WRONG_STICKER_NANA_14_054 = `${cdnURL}/arts/fanart/PhoenixWrong/sticker/Nana_14/54.png`
+
 const NOEL_CUTE_STICKER_001 = `${cdnURL}/arts/fanart/NoelCute/sticker/1.png`
 const NOEL_CUTE_STICKER_002 = `${cdnURL}/arts/fanart/NoelCute/sticker/2.png`
 const NOEL_CUTE_STICKER_003 = `${cdnURL}/arts/fanart/NoelCute/sticker/3.png`
@@ -255,7 +494,7 @@ const NOEL_CUTE_STICKER_007 = `${cdnURL}/arts/fanart/NoelCute/sticker/7.png`
 const NOEL_CUTE_STICKER_008 = `${cdnURL}/arts/fanart/NoelCute/sticker/8.png`
 const NOEL_CUTE_STICKER_009 = `${cdnURL}/arts/fanart/NoelCute/sticker/9.png`
 const NOEL_CUTE_STICKER_010 = `${cdnURL}/arts/fanart/NoelCute/sticker/10.png`
-const NOEL_CUTE_STICKER_011 = `${cdnURL}/arts/fanart/NoelCute/sticker/11.png`
+const NOEL_CUTE_STICKER_011 = `${cdnURL}/arts/fanart/NoelCute/sticker/11.jpg`
 const NOEL_CUTE_STICKER_012 = `${cdnURL}/arts/fanart/NoelCute/sticker/12.png`
 const NOEL_CUTE_STICKER_013 = `${cdnURL}/arts/fanart/NoelCute/sticker/13.png`
 const NOEL_CUTE_STICKER_014 = `${cdnURL}/arts/fanart/NoelCute/sticker/14.png`
@@ -266,7 +505,7 @@ const NOEL_CUTE_STICKER_018 = `${cdnURL}/arts/fanart/NoelCute/sticker/18.gif`
 const NOEL_CUTE_STICKER_019 = `${cdnURL}/arts/fanart/NoelCute/sticker/19.png`
 const NOEL_CUTE_STICKER_020 = `${cdnURL}/arts/fanart/NoelCute/sticker/20.png`
 const NOEL_CUTE_STICKER_021 = `${cdnURL}/arts/fanart/NoelCute/sticker/21.png`
-const NOEL_CUTE_STICKER_022 = `${cdnURL}/arts/fanart/NoelCute/sticker/22.png`
+const NOEL_CUTE_STICKER_022 = `${cdnURL}/arts/fanart/NoelCute/sticker/22.jpg`
 const NOEL_CUTE_STICKER_023 = `${cdnURL}/arts/fanart/NoelCute/sticker/23.png`
 const NOEL_CUTE_STICKER_024 = `${cdnURL}/arts/fanart/NoelCute/sticker/24.png`
 const NOEL_CUTE_STICKER_025 = `${cdnURL}/arts/fanart/NoelCute/sticker/25.png`
@@ -368,20 +607,20 @@ const MOON_RABBIT_STICKER_030 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/$$$.gi
 const MOON_RABBIT_STICKER_031 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/嘻嘻我不要.gif`
 const MOON_RABBIT_STICKER_032 = `${cdnURL}/arts/fanart/MoonRabbit/sticker/vs.png`
 
-const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/Phoenix/扑倒.gif`
-const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/Phoenix/震惊.gif`
-const LITTLE_PEA_STICKER_003 = `${cdnURL}/arts/fanart/Phoenix/鄙视.gif`
-const LITTLE_PEA_STICKER_004 = `${cdnURL}/arts/fanart/Phoenix/疑惑.gif`
-const LITTLE_PEA_STICKER_005 = `${cdnURL}/arts/fanart/Phoenix/持刀.gif`
-const LITTLE_PEA_STICKER_006 = `${cdnURL}/arts/fanart/Phoenix/奇怪.gif`
-const LITTLE_PEA_STICKER_007 = `${cdnURL}/arts/fanart/Phoenix/挥爪.gif`
-const LITTLE_PEA_STICKER_008 = `${cdnURL}/arts/fanart/Phoenix/难受.gif`
-const LITTLE_PEA_STICKER_009 = `${cdnURL}/arts/fanart/Phoenix/惊讶.gif`
-const LITTLE_PEA_STICKER_010 = `${cdnURL}/arts/fanart/Phoenix/待机.gif`
-const LITTLE_PEA_STICKER_011 = `${cdnURL}/arts/fanart/Phoenix/舞动爪.gif`
-const LITTLE_PEA_STICKER_012 = `${cdnURL}/arts/fanart/Phoenix/鄙夷.gif`
-const LITTLE_PEA_STICKER_013 = `${cdnURL}/arts/fanart/Phoenix/持刀颠.gif`
-const LITTLE_PEA_STICKER_014 = `${cdnURL}/arts/fanart/Phoenix/坏笑.gif`
+const LITTLE_PEA_STICKER_001 = `${cdnURL}/arts/fanart/LITTLE_PEA/扑倒.gif`
+const LITTLE_PEA_STICKER_002 = `${cdnURL}/arts/fanart/LITTLE_PEA/震惊.gif`
+const LITTLE_PEA_STICKER_003 = `${cdnURL}/arts/fanart/LITTLE_PEA/鄙视.gif`
+const LITTLE_PEA_STICKER_004 = `${cdnURL}/arts/fanart/LITTLE_PEA/疑惑.gif`
+const LITTLE_PEA_STICKER_005 = `${cdnURL}/arts/fanart/LITTLE_PEA/持刀.gif`
+const LITTLE_PEA_STICKER_006 = `${cdnURL}/arts/fanart/LITTLE_PEA/奇怪.gif`
+const LITTLE_PEA_STICKER_007 = `${cdnURL}/arts/fanart/LITTLE_PEA/挥爪.gif`
+const LITTLE_PEA_STICKER_008 = `${cdnURL}/arts/fanart/LITTLE_PEA/难受.gif`
+const LITTLE_PEA_STICKER_009 = `${cdnURL}/arts/fanart/LITTLE_PEA/惊讶.gif`
+const LITTLE_PEA_STICKER_010 = `${cdnURL}/arts/fanart/LITTLE_PEA/待机.gif`
+const LITTLE_PEA_STICKER_011 = `${cdnURL}/arts/fanart/LITTLE_PEA/舞动爪.gif`
+const LITTLE_PEA_STICKER_012 = `${cdnURL}/arts/fanart/LITTLE_PEA/鄙夷.gif`
+const LITTLE_PEA_STICKER_013 = `${cdnURL}/arts/fanart/LITTLE_PEA/持刀颠.gif`
+const LITTLE_PEA_STICKER_014 = `${cdnURL}/arts/fanart/LITTLE_PEA/坏笑.gif`
 
 const ANNA_PHOENIX_FANART_001 = `${cdnURL}/arts/fanart/AnnaPhoenix/1.jpeg`
 const ANNA_PHOENIX_FANART_002 = `${cdnURL}/arts/fanart/AnnaPhoenix/2.jpeg`
@@ -811,6 +1050,251 @@ export const DOKGUN_OLD_STICKER = [
     DOKGUN_OLD_STICKER_101,
     DOKGUN_OLD_STICKER_102,
     DOKGUN_OLD_STICKER_103,
+]
+
+export const PHOENFIX_WRONG_STICKER_NANA_PACK1 = [
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_001,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_002,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_003,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_004,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_005,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_006,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_007,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_008,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_009,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_010,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_011,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_012,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_013,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_014,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_015,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_016,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_017,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_018,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_019,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_020,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_021,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_022,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_023,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_024,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_025,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_026,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_027,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_028,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_029,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_030,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_031,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_032,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_033,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_034,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_035,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_036,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_037,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_038,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_039,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_040,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_041,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_042,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_043,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_044,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_045,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_046,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_047,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_048,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_049,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_050,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_051,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_052,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_053,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_054,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_055,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_056,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_057,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_058,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_059,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_060,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_061,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_062,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_063,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_064,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_065,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_066,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_067,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_068,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_069,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_070,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_071,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_072,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_073,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_074,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_075,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_076,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_077,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_078,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_079,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_080,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_081,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_082,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_083,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_084,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_085,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_086,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_087,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_088,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_089,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_090,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_091,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_092,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_093,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_094,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_095,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_096,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_097,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_098,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_099,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_100,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_101,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_102,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_103,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_104,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_105,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_106,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_107,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_108,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_109,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_110,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_111,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_112,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_113,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_114,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_115,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_116,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_117,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_118,
+    PHOENFIX_WRONG_STICKER_NANA_PACK1_119,
+]
+
+export const PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1 = [
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_001,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_002,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_003,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_004,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_005,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_006,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_007,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_008,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_009,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_010,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_011,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_012,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_013,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_014,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_015,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_016,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_017,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_018,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_019,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_020,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_021,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_022,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_023,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_024,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_025,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_026,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_027,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_028,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_029,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_030,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_031,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_032,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_033,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_034,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_035,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_036,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_037,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_038,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_039,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_040,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_041,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_042,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_043,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_044,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_045,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_046,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_047,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_048,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_049,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_050,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_051,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_052,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_053,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_054,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_055,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_056,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_057,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_058,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_059,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_060,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_061,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_062,
+    PHOENFIX_WRONG_STICKER_NANA_NEW3KINGDOM_PACK1_063,
+]
+
+export const PHOENFIX_WRONG_STICKER_NANA_14 = [
+    PHOENFIX_WRONG_STICKER_NANA_14_001,
+    PHOENFIX_WRONG_STICKER_NANA_14_002,
+    PHOENFIX_WRONG_STICKER_NANA_14_003,
+    PHOENFIX_WRONG_STICKER_NANA_14_004,
+    PHOENFIX_WRONG_STICKER_NANA_14_005,
+    PHOENFIX_WRONG_STICKER_NANA_14_006,
+    PHOENFIX_WRONG_STICKER_NANA_14_007,
+    PHOENFIX_WRONG_STICKER_NANA_14_008,
+    PHOENFIX_WRONG_STICKER_NANA_14_009,
+    PHOENFIX_WRONG_STICKER_NANA_14_010,
+    PHOENFIX_WRONG_STICKER_NANA_14_011,
+    PHOENFIX_WRONG_STICKER_NANA_14_012,
+    PHOENFIX_WRONG_STICKER_NANA_14_013,
+    PHOENFIX_WRONG_STICKER_NANA_14_014,
+    PHOENFIX_WRONG_STICKER_NANA_14_015,
+    PHOENFIX_WRONG_STICKER_NANA_14_016,
+    PHOENFIX_WRONG_STICKER_NANA_14_017,
+    PHOENFIX_WRONG_STICKER_NANA_14_018,
+    PHOENFIX_WRONG_STICKER_NANA_14_019,
+    PHOENFIX_WRONG_STICKER_NANA_14_020,
+    PHOENFIX_WRONG_STICKER_NANA_14_021,
+    PHOENFIX_WRONG_STICKER_NANA_14_022,
+    PHOENFIX_WRONG_STICKER_NANA_14_023,
+    PHOENFIX_WRONG_STICKER_NANA_14_024,
+    PHOENFIX_WRONG_STICKER_NANA_14_025,
+    PHOENFIX_WRONG_STICKER_NANA_14_026,
+    PHOENFIX_WRONG_STICKER_NANA_14_027,
+    PHOENFIX_WRONG_STICKER_NANA_14_028,
+    PHOENFIX_WRONG_STICKER_NANA_14_029,
+    PHOENFIX_WRONG_STICKER_NANA_14_030,
+    PHOENFIX_WRONG_STICKER_NANA_14_031,
+    PHOENFIX_WRONG_STICKER_NANA_14_032,
+    PHOENFIX_WRONG_STICKER_NANA_14_033,
+    PHOENFIX_WRONG_STICKER_NANA_14_034,
+    PHOENFIX_WRONG_STICKER_NANA_14_035,
+    PHOENFIX_WRONG_STICKER_NANA_14_036,
+    PHOENFIX_WRONG_STICKER_NANA_14_037,
+    PHOENFIX_WRONG_STICKER_NANA_14_038,
+    PHOENFIX_WRONG_STICKER_NANA_14_039,
+    PHOENFIX_WRONG_STICKER_NANA_14_040,
+    PHOENFIX_WRONG_STICKER_NANA_14_041,
+    PHOENFIX_WRONG_STICKER_NANA_14_042,
+    PHOENFIX_WRONG_STICKER_NANA_14_043,
+    PHOENFIX_WRONG_STICKER_NANA_14_044,
+    PHOENFIX_WRONG_STICKER_NANA_14_045,
+    PHOENFIX_WRONG_STICKER_NANA_14_046,
+    PHOENFIX_WRONG_STICKER_NANA_14_047,
+    PHOENFIX_WRONG_STICKER_NANA_14_048,
+    PHOENFIX_WRONG_STICKER_NANA_14_049,
+    PHOENFIX_WRONG_STICKER_NANA_14_050,
+    PHOENFIX_WRONG_STICKER_NANA_14_051,
+    PHOENFIX_WRONG_STICKER_NANA_14_052,
+    PHOENFIX_WRONG_STICKER_NANA_14_053,
+    PHOENFIX_WRONG_STICKER_NANA_14_054,
 ]
 
 export const NOEL_CUTE_STICKER = [

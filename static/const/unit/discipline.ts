@@ -218,6 +218,8 @@ const SSR = {
     [UnitCode.b_aiko]: getUnitDisplinePath('10194'),
     [UnitCode.b_ayane]: getUnitDisplinePath('10195'),
     [UnitCode.b_lana]: getUnitDisplinePath('10196'),
+    [UnitCode.cos_yanko]: getUnitDisplinePath('10197'),
+    [UnitCode.cos_momo]: getUnitDisplinePath('10198'),
 }
 
 export const DisciplinePreview = {
