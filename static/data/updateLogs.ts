@@ -2,6 +2,26 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.7.10',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.cos_yanko, UnitCode.cos_momo ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0211', '0214' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.ART,
+                ownerList: [ FanartOwner.PHOENIX_WRONG ]
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.7.9',
         logs: [
             {
