@@ -56,7 +56,7 @@ export const General_10003: Unit = {
     otherVersion: [ UnitCode.i_iblis, UnitCode.b_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis, UnitCode.bg_iblis, UnitCode.ss_iblis, UnitCode.fifth_iblis ],
     initHP: 3200,
     initATK: 1000,
-    puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1 ],
+    puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_CNY_1, PuzzleCode.EVENT_2026_APRIL_FOOL_1 ],
     outfits: [],
     voiceSet: UnitVoice[UnitCode.iblis],
     voiceException: [

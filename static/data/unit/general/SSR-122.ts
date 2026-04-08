@@ -47,7 +47,7 @@ export const General_10151: Unit = {
     otherVersion: [ UnitCode.iblis, UnitCode.i_iblis, UnitCode.b_iblis, UnitCode.s_iblis, UnitCode.v_iblis, UnitCode.x_iblis, UnitCode.ss_iblis, UnitCode.fifth_iblis ],
     initHP: 3563.2,
     initATK: 988.8,
-    puzzle: [],
+    puzzle: [ PuzzleCode.EVENT_2026_APRIL_FOOL_1 ],
     outfits: [],
     voiceSet: UnitVoice[UnitCode.bg_iblis],
     voiceException: [

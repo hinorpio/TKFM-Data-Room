@@ -406,6 +406,19 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.EVENT_2025_XMAS_2,
     },
     {
+        code: PuzzleCode.EVENT_2026_APRIL_FOOL_1,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2026_APRIL_FOOL_1,
+        name: {
+            [Locale.tc]: `妳也是伊布力斯？`,
+            [Locale.sc]: `你也是伊布力斯？`,
+            [Locale.en]: `Are you Iblis, too?`,
+            [Locale.jp]: `あなたもイブリース？`,
+            [Locale.kr]: `너도 이블리스?`
+        },
+        fullImage: PuzzleImage.EVENT_2026_APRIL_FOOL_1,
+    },
+    {
         code: PuzzleCode.HUMAN_SARIA,
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_SARIA,

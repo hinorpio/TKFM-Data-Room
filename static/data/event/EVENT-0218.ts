@@ -2,18 +2,18 @@ import { Event } from '@/interface/event';
 import { Locale, EventType, UnitCode } from '@/plugins/utils/enums';
 import { EventBanner, EventTypeColor } from '~/static/const';
 
-const EVENT_0211: Event = {
-    code: '0211',
+const EVENT_0218: Event = {
+    code: '0218',
     type: EventType.POINT,
-    startDate: '2026/03/11',
-    endDate: '2026/04/01',
+    startDate: '2026/04/22',
+    endDate: '2026/05/06',
     color: EventTypeColor.POINT,
     name: {
-        [Locale.tc]: `【本大爺養生館】`,
-        [Locale.sc]: `【本大爷养生馆】`,
-        [Locale.en]: `[Caesar's Massage Parlor]`,
-        [Locale.jp]: `「俺様リラクゼーション」`,
-        [Locale.kr]: `【이 몸의 마사지 샵】 `
+        [Locale.tc]: `【獵犬小隊派遣中！-復刻-】`,
+        [Locale.sc]: `【猎犬小队派遣中！-复刻-】`,
+        [Locale.en]: `[Hunters Dispatched! -Comeback-]`,
+        [Locale.jp]: `「ハウンド小隊派遣中！-復刻-」`,
+        [Locale.kr]: `【하운드 소대 파견 중!-복각-】`
     },
     description: {
         [Locale.tc]: ``,
@@ -22,8 +22,8 @@ const EVENT_0211: Event = {
         [Locale.jp]: ``,
         [Locale.kr]: ``
     },
-    banner: EventBanner.EVENT_0211,
-    newUnit: [ UnitCode.cos_yanko, UnitCode.cos_momo ],
+    banner: EventBanner.EVENT_0218,
+    newUnit: [],
     isParentEvent: true,
     parentEvent: null,
     childEvent: [],
@@ -31,4 +31,4 @@ const EVENT_0211: Event = {
     returnFrom: null
 }
 
-export default EVENT_0211
+export default EVENT_0218

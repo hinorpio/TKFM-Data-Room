@@ -54,7 +54,7 @@ export const General_10802: Unit = {
     otherVersion: [ UnitCode.s_nana, UnitCode.c1_nana, UnitCode.o_nana, UnitCode.a_nana, UnitCode.fifth_nana ],
     initHP: 2316,
     initATK: 700.8,
-    puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_XMAS_2, PuzzleCode.EVENT_2025_XMAS_1, PuzzleCode.EVENT_2025_XMAS_2 ],
+    puzzle: [ PuzzleCode.EVENT_2021_XMAS_2, PuzzleCode.EVENT_2022_XMAS_1, PuzzleCode.EVENT_2023_XMAS_2, PuzzleCode.EVENT_2025_XMAS_1, PuzzleCode.EVENT_2025_XMAS_2, PuzzleCode.EVENT_2026_APRIL_FOOL_1 ],
     outfits: UnitOutfits[UnitCode.nana],
     voiceSet: UnitVoice[UnitCode.nana],
     voiceException: [

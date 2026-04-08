@@ -50,7 +50,7 @@ export const General_10007: Unit = {
         TagID.CLASS_LEADER,
         TagID.OTHER_SUPPORT,
     ],
-    otherVersion: [ UnitCode.s_milae ],
+    otherVersion: [ UnitCode.s_milae, UnitCode.egypt_milae ],
     initHP: 3395.2,
     initATK: 940.8,
     puzzle: [],
