@@ -238,6 +238,8 @@ const SSR = {
     [UnitCode.b_lana]: getUnitEssencePath('10196'),
     [UnitCode.cos_yanko]: getUnitEssencePath('10197'),
     [UnitCode.cos_momo]: getUnitEssencePath('10198'),
+    [UnitCode.egypt_fiora]: getUnitEssencePath('10199'),
+    [UnitCode.egypt_milae]: getUnitEssencePath('10200'),
 }
 
 export const Essence = {

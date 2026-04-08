@@ -238,6 +238,8 @@ const SSR = {
     [UnitCode.b_lana]: getUnitSelectionPath('10196'),
     [UnitCode.cos_yanko]: getUnitSelectionPath('10197'),
     [UnitCode.cos_momo]: getUnitSelectionPath('10198'),
+    [UnitCode.egypt_fiora]: getUnitSelectionPath('10199'),
+    [UnitCode.egypt_milae]: getUnitSelectionPath('10200'),
 }
 
 export const Selection = {

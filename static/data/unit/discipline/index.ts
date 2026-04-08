@@ -198,6 +198,8 @@ import { Discipline_10195 } from "./SSR-166";
 import { Discipline_10196 } from "./SSR-167";
 import { Discipline_10197 } from "./SSR-168";
 import { Discipline_10198 } from "./SSR-169";
+import { Discipline_10199 } from "./SSR-170";
+import { Discipline_10200 } from "./SSR-171";
 
 const R: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.irene]: Discipline_10801,
@@ -403,6 +405,8 @@ const SSR: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.b_lana]: Discipline_10196,
     [UnitCode.cos_yanko]: Discipline_10197,
     [UnitCode.cos_momo]: Discipline_10198,
+    [UnitCode.egypt_fiora]: Discipline_10199,
+    [UnitCode.egypt_milae]: Discipline_10200,
 }
 
 export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
