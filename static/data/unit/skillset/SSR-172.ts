@@ -44,19 +44,7 @@ export const SkillSet_10201: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `兔兔魔法少女登場☆`,
-                    description: `我方全體HP增加50%
-我方全體輔助者、治療者獲得「我方隊伍恰好為4種角色定位時，開啟『《療癒溫暖》』」
-我方全體攻擊者、守護者、妨礙者獲得「我方隊伍恰好為4種角色定位時，開啟『必殺時，觸發「使自身獲得《愛的大爆射～♡》』」
-
-《療癒溫暖》
-攻擊力增加50%
-普攻時，觸發「使目標受到普攻傷害增加9%(4回合)、受到火屬性傷害增加3.5%(4回合)」
-必殺時，觸發「以自身攻擊力15%使我方全體攻擊者、守護者、妨礙者攻擊力增加(2回合)」
-
-《愛的大爆射～♡》
-攻擊力增加125%(2回合)
-造成傷害增加21%(2回合)
-普攻時，追加「以自身攻擊力106%對目標造成傷害」(2回合)`
+                    description: `我方全體HP增加50%\n我方全體輔助者、治療者獲得「我方隊伍恰好為4種角色定位時，開啟『《療癒溫暖》』」\n我方全體攻擊者、守護者、妨礙者獲得「我方隊伍恰好為4種角色定位時，開啟『必殺時，觸發「使自身獲得《愛的大爆射～♡》』」\n\n《療癒溫暖》\n攻擊力增加50%\n普攻時，觸發「使目標受到普攻傷害增加9%(4回合)、受到火屬性傷害增加3.5%(4回合)」\n必殺時，觸發「以自身攻擊力15%使我方全體攻擊者、守護者、妨礙者攻擊力增加(2回合)」\n\n《愛的大爆射～♡》\n攻擊力增加125%(2回合)\n造成傷害增加21%(2回合)\n普攻時，追加「以自身攻擊力106%對目標造成傷害」(2回合)`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `一點點觀眾福利♡`,
@@ -64,23 +52,11 @@ export const SkillSet_10201: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `愛與正義的魔法少女(?)`,
-                    description: `普攻時，觸發「使自身獲得1層《慈愛波動》(最多3層)」
-必殺時，根據自身《慈愛波動》層數，觸發「使我方全體火屬性攻擊者、守護者、妨礙者獲得《母愛滿溢》」
-
-《母愛滿溢》
-普攻傷害增加10%(2回合)
-對防禦目標傷害增加15%(2回合)
-普攻時，追加「以自身攻擊力19.6%對目標造成傷害」(2回合)
-清除自身《慈愛波動》所有層數`
+                    description: `普攻時，觸發「使自身獲得1層《慈愛波動》(最多3層)」\n必殺時，根據自身《慈愛波動》層數，觸發「使我方全體火屬性攻擊者、守護者、妨礙者獲得《母愛滿溢》」\n\n《母愛滿溢》\n普攻傷害增加10%(2回合)\n對防禦目標傷害增加15%(2回合)\n普攻時，追加「以自身攻擊力19.6%對目標造成傷害」(2回合)\n清除自身《慈愛波動》所有層數`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `壞孩子在哪裡呀～`,
-                    description: `必殺時，觸發「使自身獲得1層《發現壞孩子了♡》(最多1層)」
-自身《發現壞孩子了♡》=1層時，開啟「《正義的懲罰♡》」
-
-《正義的懲罰♡》
-每經過1回合時，觸發『使敵方全體受到傷害增加21.3%(1回合)、受到火屬性傷害增加31.8%(1回合)』
-行動後，觸發「清除自身《發現壞孩子了♡》所有層數」`
+                    description: `必殺時，觸發「使自身獲得1層《發現壞孩子了♡》(最多1層)」\n自身《發現壞孩子了♡》=1層時，開啟「《正義的懲罰♡》」\n\n《正義的懲罰♡》\n每經過1回合時，觸發『使敵方全體受到傷害增加21.3%(1回合)、受到火屬性傷害增加31.8%(1回合)』\n行動後，觸發「清除自身《發現壞孩子了♡》所有層數」`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻擊+`,
@@ -122,19 +98,7 @@ export const SkillSet_10201: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `兔兔魔法少女登场☆`,
-                    description: `我方全体HP增加50%
-我方全体辅助者、治疗者获得「我方队伍恰好为4种角色定位时，开启『《疗癒温暖》』」
-我方全体攻击者、守护者、妨碍者获得「我方队伍恰好为4种角色定位时，开启『必杀时，触发「使自身获得《爱的大爆射～♡》』」
-
-《疗癒温暖》
-攻击力增加50%
-普攻时，触发「使目标受到普攻伤害增加9%(4回合)、受到火属性伤害增加3.5%(4回合)」
-必杀时，触发「以自身攻击力15%使我方全体攻击者、守护者、妨碍者攻击力增加(2回合)」
-
-《爱的大爆射～♡》
-攻击力增加125%(2回合)
-造成伤害增加21%(2回合)
-普攻时，追加「以自身攻击力106%对目标造成伤害」(2回合)`
+                    description: `我方全体HP增加50%\n我方全体辅助者、治疗者获得「我方队伍恰好为4种角色定位时，开启『《疗癒温暖》』」\n我方全体攻击者、守护者、妨碍者获得「我方队伍恰好为4种角色定位时，开启『必杀时，触发「使自身获得《爱的大爆射～♡》』」\n\n《疗癒温暖》\n攻击力增加50%\n普攻时，触发「使目标受到普攻伤害增加9%(4回合)、受到火属性伤害增加3.5%(4回合)」\n必杀时，触发「以自身攻击力15%使我方全体攻击者、守护者、妨碍者攻击力增加(2回合)」\n\n《爱的大爆射～♡》\n攻击力增加125%(2回合)\n造成伤害增加21%(2回合)\n普攻时，追加「以自身攻击力106%对目标造成伤害」(2回合)`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `一点点观众福利♡`,
@@ -142,23 +106,11 @@ export const SkillSet_10201: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `爱与正义的魔法少女(?)`,
-                    description: `普攻时，触发「使自身获得1层《慈爱波动》(最多3层)」
-必杀时，根据自身《慈爱波动》层数，触发「使我方全体火属性攻击者、守护者、妨碍者获得《母爱满溢》」
-
-《母爱满溢》
-普攻伤害增加10%(2回合)
-对防禦目标伤害增加15%(2回合)
-普攻时，追加「以自身攻击力19.6%对目标造成伤害」(2回合)
-清除自身《慈爱波动》所有层数`
+                    description: `普攻时，触发「使自身获得1层《慈爱波动》(最多3层)」\n必杀时，根据自身《慈爱波动》层数，触发「使我方全体火属性攻击者、守护者、妨碍者获得《母爱满溢》」\n\n《母爱满溢》\n普攻伤害增加10%(2回合)\n对防禦目标伤害增加15%(2回合)\n普攻时，追加「以自身攻击力19.6%对目标造成伤害」(2回合)\n清除自身《慈爱波动》所有层数`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `坏孩子在哪里呀～`,
-                    description: `必杀时，触发「使自身获得1层《发现坏孩子了♡》(最多1层)」
-自身《发现坏孩子了♡》=1层时，开启「《正义的惩罚♡》」
-
-《正义的惩罚♡》
-每经过1回合时，触发『使敌方全体受到伤害增加21.3%(1回合)、受到火属性伤害增加31.8%(1回合)』
-行动后，触发「清除自身《发现坏孩子了♡》所有层数」`
+                    description: `必杀时，触发「使自身获得1层《发现坏孩子了♡》(最多1层)」\n自身《发现坏孩子了♡》=1层时，开启「《正义的惩罚♡》」\n\n《正义的惩罚♡》\n每经过1回合时，触发『使敌方全体受到伤害增加21.3%(1回合)、受到火属性伤害增加31.8%(1回合)』\n行动后，触发「清除自身《发现坏孩子了♡》所有层数」`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻击+`,
@@ -200,19 +152,7 @@ export const SkillSet_10201: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `Bunny Magic Knight's Here ☆`,
-                    description: `Increase the party's HP by 50%.
-Allied Supporters and Healers gain the following effect: When there are exactly characters of 4 different positions in the party, activate "Healing Warmth".
-Allied Attackers, Defenders, and Obstructors gain the following effect: When there are exactly characters of 4 different positions in the party, activate "On Ultimate Skill, trigger the following effect: Gain yourself 'Love Explosion~♡'".
-
-"Healing Warmth"
-Increase Attack Power by 50%.
-On Basic Attack, trigger the following effect: Increase the target's Damage Taken from Basic Attacks by 9% for 4 turns and Damage Taken from Fire attacks by 3.5% for 4 turns.
-On Ultimate Skill, trigger the following effect: Increase allied Attackers, Defenders, and Obstructors' Attack Power for 15% of your Attack Power for 2 turns.
-
-"Love Explosion~♡"
-Increase Attack Power by 125% for 2 turns.
-Increase Damage Output by 21% for 2 turns.
-On Basic Attack, deal additional damage to the target for 2 turns (106% Attack Power).`
+                    description: `Increase the party's HP by 50%.\nAllied Supporters and Healers gain the following effect: When there are exactly characters of 4 different positions in the party, activate "Healing Warmth".\nAllied Attackers, Defenders, and Obstructors gain the following effect: When there are exactly characters of 4 different positions in the party, activate "On Ultimate Skill, trigger the following effect: Gain yourself 'Love Explosion~♡'".\n\n"Healing Warmth"\nIncrease Attack Power by 50%.\nOn Basic Attack, trigger the following effect: Increase the target's Damage Taken from Basic Attacks by 9% for 4 turns and Damage Taken from Fire attacks by 3.5% for 4 turns.\nOn Ultimate Skill, trigger the following effect: Increase allied Attackers, Defenders, and Obstructors' Attack Power for 15% of your Attack Power for 2 turns.\n\n"Love Explosion~♡"\nIncrease Attack Power by 125% for 2 turns.\nIncrease Damage Output by 21% for 2 turns.\nOn Basic Attack, deal additional damage to the target for 2 turns (106% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `A Little Fanservice ♡`,
@@ -220,23 +160,11 @@ On Basic Attack, deal additional damage to the target for 2 turns (106% Attack P
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `Magic Knight of Love & Justice (?)`,
-                    description: `On Basic Attack, trigger the following effect: Gain yourself 1 stack of "Merciful Wave" (max 3 stacks).
-On Ultimate Skill, based on your "Merciful Wave" stacks, trigger the following effect: Allied Fire Attackers, Defenders, and Obstructors gain "Maternal Overflow".
-
-"Maternal Overflow"
-Increase Basic Attack Power by 10% for 2 turns.
-Increase damage against targets in Guard Stance by 15% for 2 turns.
-On Basic Attack, deal additional damage to the target for 2 turns (19.6% Attack Power).
-Remove all your "Merciful Wave" stacks.`
+                    description: `On Basic Attack, trigger the following effect: Gain yourself 1 stack of "Merciful Wave" (max 3 stacks).\nOn Ultimate Skill, based on your "Merciful Wave" stacks, trigger the following effect: Allied Fire Attackers, Defenders, and Obstructors gain "Maternal Overflow".\n\n"Maternal Overflow"\nIncrease Basic Attack Power by 10% for 2 turns.\nIncrease damage against targets in Guard Stance by 15% for 2 turns.\nOn Basic Attack, deal additional damage to the target for 2 turns (19.6% Attack Power).\nRemove all your "Merciful Wave" stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `Come Out Naughty Kids~`,
-                    description: `On Ultimate Skill, trigger the following effect: Gain yourself 1 stack of "Found a Naughty Kid ♡" (max 1 stack).
-When your "Found a Naughty Kid ♡" stack is =1, activate "Punishment of Justice ♡".
-
-"Punishment of Justice ♡"
-After every 1 turn, trigger the following effect: Increase all enemies' Damage Taken by 21.3% for 1 turn and Damage Taken from Fire attacks by 31.8% for 1 turn.
-After performing an action, trigger the following effect: Remove all your "Found a Naughty Kid ♡" stacks.`
+                    description: `On Ultimate Skill, trigger the following effect: Gain yourself 1 stack of "Found a Naughty Kid ♡" (max 1 stack).\nWhen your "Found a Naughty Kid ♡" stack is =1, activate "Punishment of Justice ♡".\n\n"Punishment of Justice ♡"\nAfter every 1 turn, trigger the following effect: Increase all enemies' Damage Taken by 21.3% for 1 turn and Damage Taken from Fire attacks by 31.8% for 1 turn.\nAfter performing an action, trigger the following effect: Remove all your "Found a Naughty Kid ♡" stacks.`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `Attack+`,
@@ -278,19 +206,7 @@ After performing an action, trigger the following effect: Remove all your "Found
                 },
                 [SkillType.LEADER]: {
                     name: `うさうさ魔法少女・見参☆`,
-                    description: `味方全体のHPが50%増加する
-味方全体のサポーター、ヒーラーが「味方にちょうど4種類のポジションのキャラがいる時、《ぬくっとキュアキュア》を発動する」を獲得する
-味方全体のアタッカー、ガーディアン、デバッファーが「味方にちょうど4種類のポジションのキャラがいる時、『必殺技攻撃時「自分が《愛のメガトンスプラ～ッシュ♡》を獲得する」を誘発する』を発動する」を獲得する
-
-《ぬくっとキュアキュア》
-攻撃力が50%増加する
-通常攻撃時「ターゲットが受ける通常攻撃ダメージを9%増加させ(4ターン)、受ける火属性ダメージを3.5%増加させる(4ターン)」を誘発する
-必殺技攻撃時「自分の15%の攻撃力分味方全体のアタッカー、ガーディアン、デバッファーの攻撃力を増加させる(2ターン)」を誘発する
-
-《愛のメガトンスプラ～ッシュ♡》
-攻撃力が125%増加する(2ターン)
-与えるダメージが21%増加する(2ターン)
-通常攻撃時「自分の106%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)`
+                    description: `味方全体のHPが50%増加する\n味方全体のサポーター、ヒーラーが「味方にちょうど4種類のポジションのキャラがいる時、《ぬくっとキュアキュア》を発動する」を獲得する\n味方全体のアタッカー、ガーディアン、デバッファーが「味方にちょうど4種類のポジションのキャラがいる時、『必殺技攻撃時「自分が《愛のメガトンスプラ～ッシュ♡》を獲得する」を誘発する』を発動する」を獲得する\n\n《ぬくっとキュアキュア》\n攻撃力が50%増加する\n通常攻撃時「ターゲットが受ける通常攻撃ダメージを9%増加させ(4ターン)、受ける火属性ダメージを3.5%増加させる(4ターン)」を誘発する\n必殺技攻撃時「自分の15%の攻撃力分味方全体のアタッカー、ガーディアン、デバッファーの攻撃力を増加させる(2ターン)」を誘発する\n\n《愛のメガトンスプラ～ッシュ♡》\n攻撃力が125%増加する(2ターン)\n与えるダメージが21%増加する(2ターン)\n通常攻撃時「自分の106%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `チョットだけ視聴者サービス♡`,
@@ -298,23 +214,11 @@ After performing an action, trigger the following effect: Remove all your "Found
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `愛と正義の魔法少女(?)`,
-                    description: `通常攻撃時「自分が《慈愛バースト》を1スタック獲得する(最高3スタック)」を誘発する
-必殺技攻撃時、自分の《慈愛バースト》のスタック数に応じて「味方全体の火属性のアタッカー、ガーディアン、デバッファーが《溢れる母の愛》を獲得する」を誘発する
-
-《溢れる母の愛》
-通常攻撃ダメージが10%増加する(2ターン)
-防御中のターゲットに与えるダメージが15%増加する(2ターン)
-通常攻撃時「自分の19.6%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)
-自分の《慈愛バースト》の全てのスタック数を消す`
+                    description: `通常攻撃時「自分が《慈愛バースト》を1スタック獲得する(最高3スタック)」を誘発する\n必殺技攻撃時、自分の《慈愛バースト》のスタック数に応じて「味方全体の火属性のアタッカー、ガーディアン、デバッファーが《溢れる母の愛》を獲得する」を誘発する\n\n《溢れる母の愛》\n通常攻撃ダメージが10%増加する(2ターン)\n防御中のターゲットに与えるダメージが15%増加する(2ターン)\n通常攻撃時「自分の19.6%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)\n自分の《慈愛バースト》の全てのスタック数を消す`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `悪いコはどこかしら～`,
-                    description: `必殺技攻撃時「自分が《悪いコ見ぃつけた♡》を1スタック獲得する(最高1スタック)」を誘発する
-自分の《悪いコ見ぃつけた♡》のスタック数が=1の時、《正義のオシオキ♡》を発動する
-
-《正義のオシオキ♡》
-1ターン毎に「敵全体の受けるダメージを21.3%増加させ(1ターン)、受ける火属性ダメージを31.8%増加させる(1ターン)」を誘発する
-行動後「自分の《悪いコ見ぃつけた♡》の全てのスタック数を消す」を誘発する`
+                    description: `必殺技攻撃時「自分が《悪いコ見ぃつけた♡》を1スタック獲得する(最高1スタック)」を誘発する\n自分の《悪いコ見ぃつけた♡》のスタック数が=1の時、《正義のオシオキ♡》を発動する\n\n《正義のオシオキ♡》\n1ターン毎に「敵全体の受けるダメージを21.3%増加させ(1ターン)、受ける火属性ダメージを31.8%増加させる(1ターン)」を誘発する\n行動後「自分の《悪いコ見ぃつけた♡》の全てのスタック数を消す」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `攻撃+`,
@@ -356,19 +260,7 @@ After performing an action, trigger the following effect: Remove all your "Found
                 },
                 [SkillType.LEADER]: {
                     name: `토끼 마법소녀 등장☆`,
-                    description: `아군 전체의 HP 50% 증가
-아군 서포터, 힐러는 「팀이 4종류 위치로 편성될 시 『《포근한 힐링》』 활성화」 획득
-아군 딜러, 탱커, 디스럽터는 「팀이 4종류 위치로 편성될 시 『궁극기 발동 시 「자신은 《사랑의 대폭발~♡》 획득」 트리거』활성화」 획득
-
-《포근한 힐링》
-공격 데미지 50% 증가
-일반 공격 시 「타깃이 받는 일반 공격 데미지 9% 증가(4턴), 받는 화속성 데미지 3.5% 증가(4턴)」 트리거
-궁극기 발동 시 「자신의 공격 데미지의 15%만큼 아군 딜러, 탱커, 디스럽터의 공격 데미지 증가(2턴)」 트리거
-
-《사랑의 대폭발~♡》
-공격 데미지 125% 증가(2턴)
-가하는 데미지 21% 증가(2턴)
-일반 공격 시 「자신의 공격 데미지의 106%만큼 타깃에게 데미지」 추가(2턴)`
+                    description: `아군 전체의 HP 50% 증가\n아군 서포터, 힐러는 「팀이 4종류 위치로 편성될 시 『《포근한 힐링》』 활성화」 획득\n아군 딜러, 탱커, 디스럽터는 「팀이 4종류 위치로 편성될 시 『궁극기 발동 시 「자신은 《사랑의 대폭발~♡》 획득」 트리거』활성화」 획득\n\n《포근한 힐링》\n공격 데미지 50% 증가\n일반 공격 시 「타깃이 받는 일반 공격 데미지 9% 증가(4턴), 받는 화속성 데미지 3.5% 증가(4턴)」 트리거\n궁극기 발동 시 「자신의 공격 데미지의 15%만큼 아군 딜러, 탱커, 디스럽터의 공격 데미지 증가(2턴)」 트리거\n\n《사랑의 대폭발~♡》\n공격 데미지 125% 증가(2턴)\n가하는 데미지 21% 증가(2턴)\n일반 공격 시 「자신의 공격 데미지의 106%만큼 타깃에게 데미지」 추가(2턴)`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `관중을 위한 서비스♡`,
@@ -376,23 +268,11 @@ After performing an action, trigger the following effect: Remove all your "Found
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `사랑과 정의의 마법소녀(?)`,
-                    description: `일반 공격 시 「자신은 1중첩의 《자애르기 파》 획득(최대 3중첩)」 트리거
-궁극기 발동 시 자신의 《자애르기 파》 중첩수에 따라 「아군 화속성 딜러, 탱커, 디스럽터는 《가득한 모성애》 획득」 트리거
-
-《가득한 모성애》
-일반 공격 데미지 10% 증가(2턴)
-방어한 타깃에게 가하는 데미지 15% 증가(2턴)
-일반 공격 시 「자신의 공격 데미지의 19.6%만큼 타깃에게 데미지」 추가(2턴)
-자신의 모든 《자애르기 파》 중첩수 제거`
+                    description: `일반 공격 시 「자신은 1중첩의 《자애르기 파》 획득(최대 3중첩)」 트리거\n궁극기 발동 시 자신의 《자애르기 파》 중첩수에 따라 「아군 화속성 딜러, 탱커, 디스럽터는 《가득한 모성애》 획득」 트리거\n\n《가득한 모성애》\n일반 공격 데미지 10% 증가(2턴)\n방어한 타깃에게 가하는 데미지 15% 증가(2턴)\n일반 공격 시 「자신의 공격 데미지의 19.6%만큼 타깃에게 데미지」 추가(2턴)\n자신의 모든 《자애르기 파》 중첩수 제거`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `말 안듣는 나쁜 아이들아~ 어디에 있니~`,
-                    description: `궁극기 발동 시 「자신은 1중첩의 《나쁜 아이 발견♡》 획득(최대 1중첩)」 트리거
-자신의 《나쁜 아이 발견♡》 중첩수=1일 경우 「《정의의 징벌♡》」 활성화
-
-《정의의 징벌♡》
-매 1턴 종료 시 「적 전체의 받는 데미지 21.3% 증가(1턴), 받는 화속성 데미지 31.8% 증가(1턴)」 트리거
-행동 후 「자신의 모든 《나쁜 아이 발견♡》 중첩수 제거」 트리거`
+                    description: `궁극기 발동 시 「자신은 1중첩의 《나쁜 아이 발견♡》 획득(최대 1중첩)」 트리거\n자신의 《나쁜 아이 발견♡》 중첩수=1일 경우 「《정의의 징벌♡》」 활성화\n\n《정의의 징벌♡》\n매 1턴 종료 시 「적 전체의 받는 데미지 21.3% 증가(1턴), 받는 화속성 데미지 31.8% 증가(1턴)」 트리거\n행동 후 「자신의 모든 《나쁜 아이 발견♡》 중첩수 제거」 트리거`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `공격+`,
