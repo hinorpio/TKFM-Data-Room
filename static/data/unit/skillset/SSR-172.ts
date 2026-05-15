@@ -1,7 +1,7 @@
 import { DispatchSkillType, Locale, SkillType } from '@/plugins/utils/enums';
 import { SkillSet } from '@/interface/unit/skillset';
 
-export const SkillSet_10200: SkillSet[] =  [
+export const SkillSet_10201: SkillSet[] =  [
     {
         version: 1,
         lastDate: "",
@@ -10,277 +10,397 @@ export const SkillSet_10200: SkillSet[] =  [
             [Locale.sc]: ``,
             [Locale.en]: ``,
             [Locale.jp]: ``,
-            [Locale.kr]: ``
+            [Locale.kr]: ``,
         },
         skill: {
             [Locale.tc]: {
                 [SkillType.SKILL_S]: {
-                    name: `性愛天使的絕對儀式`,
-                    description: `使目標受到傷害增加19.8/23.1/26.4/29.7/33%(最多2層)、受到普攻傷害增加16.5/19.25/22/24.75/27.5%(最多2層)、受到風屬性傷害增加0/9.9/12.1/14.3/16.5%(最多2層)，再以自身攻擊力330/376/422/468/514%對目標造成傷害，CD:4`
+                    name: `慈愛兔兔靈波～`,
+                    description: `使我方全體火屬性角色攻擊力增加31.7/37.1/42.4/47.7/53%(2回合)、造成傷害增加19.1/22.3/25.4/28.6/31.8%(2回合)，並使自身以外我方全體火屬性攻擊者、守護者、妨礙者獲得「必殺時，觸發『使自身獲得「普攻時，追加『以自身攻擊力58.7/68.5/78.4/88.2/98%對目標造成傷害』(2回合)」』(1回合)」，再使自身獲得「普攻時，追加『以自身攻擊力154.2/179.9/205.6/231.3/257%對目標造成傷害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `性愛天使的絕對儀式`,
-                    description: `使目標受到傷害增加19.8%(最多2層)、受到普攻傷害增加16.5%(最多2層)，再以自身攻擊力330%對目標造成傷害，CD:4`
+                    name: `慈愛兔兔靈波～`,
+                    description: `使我方全體火屬性角色攻擊力增加31.7%(2回合)、造成傷害增加19.1%(2回合)，並使自身以外我方全體火屬性攻擊者、守護者、妨礙者獲得「必殺時，觸發『使自身獲得「普攻時，追加『以自身攻擊力58.7%對目標造成傷害』(2回合)」』(1回合)」，再使自身獲得「普攻時，追加『以自身攻擊力154.2%對目標造成傷害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `性愛天使的絕對儀式`,
-                    description: `使目標受到傷害增加23.1%(最多2層)、受到普攻傷害增加19.25%(最多2層)、受到風屬性傷害增加9.9%(最多2層)，再以自身攻擊力376%對目標造成傷害，CD:4`
+                    name: `慈愛兔兔靈波～`,
+                    description: `使我方全體火屬性角色攻擊力增加37.1%(2回合)、造成傷害增加22.3%(2回合)，並使自身以外我方全體火屬性攻擊者、守護者、妨礙者獲得「必殺時，觸發『使自身獲得「普攻時，追加『以自身攻擊力68.5%對目標造成傷害』(2回合)」』(1回合)」，再使自身獲得「普攻時，追加『以自身攻擊力179.9%對目標造成傷害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `性愛天使的絕對儀式`,
-                    description: `使目標受到傷害增加26.4%(最多2層)、受到普攻傷害增加22%(最多2層)、受到風屬性傷害增加12.1%(最多2層)，再以自身攻擊力422%對目標造成傷害，CD:4`
+                    name: `慈愛兔兔靈波～`,
+                    description: `使我方全體火屬性角色攻擊力增加42.4%(2回合)、造成傷害增加25.4%(2回合)，並使自身以外我方全體火屬性攻擊者、守護者、妨礙者獲得「必殺時，觸發『使自身獲得「普攻時，追加『以自身攻擊力78.4%對目標造成傷害』(2回合)」』(1回合)」，再使自身獲得「普攻時，追加『以自身攻擊力205.6%對目標造成傷害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `性愛天使的絕對儀式`,
-                    description: `使目標受到傷害增加29.7%(最多2層)、受到普攻傷害增加24.75%(最多2層)、受到風屬性傷害增加14.3%(最多2層)，再以自身攻擊力468%對目標造成傷害，CD:4`
+                    name: `慈愛兔兔靈波～`,
+                    description: `使我方全體火屬性角色攻擊力增加47.7%(2回合)、造成傷害增加28.6%(2回合)，並使自身以外我方全體火屬性攻擊者、守護者、妨礙者獲得「必殺時，觸發『使自身獲得「普攻時，追加『以自身攻擊力88.2%對目標造成傷害』(2回合)」』(1回合)」，再使自身獲得「普攻時，追加『以自身攻擊力231.3%對目標造成傷害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `性愛天使的絕對儀式`,
-                    description: `使目標受到傷害增加33%(最多2層)、受到普攻傷害增加27.5%(最多2層)、受到風屬性傷害增加16.5%(最多2層)，再以自身攻擊力514%對目標造成傷害，CD:4`
+                    name: `慈愛兔兔靈波～`,
+                    description: `使我方全體火屬性角色攻擊力增加53%(2回合)、造成傷害增加31.8%(2回合)，並使自身以外我方全體火屬性攻擊者、守護者、妨礙者獲得「必殺時，觸發『使自身獲得「普攻時，追加『以自身攻擊力98%對目標造成傷害』(2回合)」』(1回合)」，再使自身獲得「普攻時，追加『以自身攻擊力257%對目標造成傷害』(2回合)」。CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `性之衝擊波`,
-                    description: `使目標受到普攻傷害增加27.5%(1回合)`
+                    name: `無形的魔法斬擊`,
+                    description: `以自身攻擊力100%對目標造成傷害`
                 },
                 [SkillType.LEADER]: {
-                    name: `強欲之宣告者`,
-                    description: `我方全體最大HP增加50%\n我方全體攻擊力增加50%\n我方全體獲得「我方隊伍恰好為1種角色屬性時，開啟『《宣告》』」\n自身獲得「我方隊伍恰好為1種角色屬性時，開啟『必殺時，觸發「使目標受到傷害增加7.5%(最多2層)、受到普攻傷害增加28%(最多2層)、受到風屬性傷害增加11.25%(最多2層)」』」\n\n《宣告》\n造成傷害增加22.5%\n普攻時，追加「以自身攻擊力37.5%對目標造成傷害」\n攻擊時，觸發「以自身攻擊力3%使我方全體攻擊力增加(1回合)」`
+                    name: `兔兔魔法少女登場☆`,
+                    description: `我方全體HP增加50%
+我方全體輔助者、治療者獲得「我方隊伍恰好為4種角色定位時，開啟『《療癒溫暖》』」
+我方全體攻擊者、守護者、妨礙者獲得「我方隊伍恰好為4種角色定位時，開啟『必殺時，觸發「使自身獲得《愛的大爆射～♡》』」
+
+《療癒溫暖》
+攻擊力增加50%
+普攻時，觸發「使目標受到普攻傷害增加9%(4回合)、受到火屬性傷害增加3.5%(4回合)」
+必殺時，觸發「以自身攻擊力15%使我方全體攻擊者、守護者、妨礙者攻擊力增加(2回合)」
+
+《愛的大爆射～♡》
+攻擊力增加125%(2回合)
+造成傷害增加21%(2回合)
+普攻時，追加「以自身攻擊力106%對目標造成傷害」(2回合)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `天空的性域`,
-                    description: `攻擊力增加220%\n必殺時，觸發「使目標被治療時回復量減少80%(2回合)」`
+                    name: `一點點觀眾福利♡`,
+                    description: `攻擊時，觸發「使目標受到普攻傷害增加16.5%(4回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `召喚！性愛天使`,
-                    description: `普攻時，追加「以自身攻擊力155%對目標造成傷害」`
+                    name: `愛與正義的魔法少女(?)`,
+                    description: `普攻時，觸發「使自身獲得1層《慈愛波動》(最多3層)」
+必殺時，根據自身《慈愛波動》層數，觸發「使我方全體火屬性攻擊者、守護者、妨礙者獲得《母愛滿溢》」
+
+《母愛滿溢》
+普攻傷害增加10%(2回合)
+對防禦目標傷害增加15%(2回合)
+普攻時，追加「以自身攻擊力19.6%對目標造成傷害」(2回合)
+清除自身《慈愛波動》所有層數`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `性之加護`,
-                    description: `造成傷害增加33%\n防禦時，觸發「使我方全體普攻傷害增加27.5%(1回合)」\n第1回合時，觸發「使自身當前必殺技CD減少4回合」(觸發1次後清除)`
+                    name: `壞孩子在哪裡呀～`,
+                    description: `必殺時，觸發「使自身獲得1層《發現壞孩子了♡》(最多1層)」
+自身《發現壞孩子了♡》=1層時，開啟「《正義的懲罰♡》」
+
+《正義的懲罰♡》
+每經過1回合時，觸發『使敵方全體受到傷害增加21.3%(1回合)、受到火屬性傷害增加31.8%(1回合)』
+行動後，觸發「清除自身《發現壞孩子了♡》所有層數」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+`,
-                    description: `使自身普攻傷害增加10%`
+                    name: `攻擊+`,
+                    description: `使自身攻擊力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠`,
-                    description: `使自身免疫睡眠`
+                    name: `免疫麻痺`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.sc]: {
                 [SkillType.SKILL_S]: {
-                    name: `性爱天使的绝对仪式`,
-                    description: `使目标受到伤害增加19.8/23.1/26.4/29.7/33%(最多2层)、受到普攻伤害增加16.5/19.25/22/24.75/27.5%(最多2层)、受到风属性伤害增加0/9.9/12.1/14.3/16.5%(最多2层)，再以自身攻击力330/376/422/468/514%对目标造成伤害，CD:4`
+                    name: `慈爱兔兔灵波～`,
+                    description: `使我方全体火属性角色攻击力增加31.7/37.1/42.4/47.7/53%(2回合)、造成伤害增加19.1/22.3/25.4/28.6/31.8%(2回合)，并使自身以外我方全体火属性攻击者、守护者、妨碍者获得「必杀时，触发『使自身获得「普攻时，追加『以自身攻击力58.7/68.5/78.4/88.2/98%对目标造成伤害』(2回合)」』(1回合)」，再使自身获得「普攻时，追加『以自身攻击力154.2/179.9/205.6/231.3/257%对目标造成伤害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `性爱天使的绝对仪式`,
-                    description: `使目标受到伤害增加19.8%(最多2层)、受到普攻伤害增加16.5%(最多2层)，再以自身攻击力330%对目标造成伤害，CD:4`
+                    name: `慈爱兔兔灵波～`,
+                    description: `使我方全体火属性角色攻击力增加31.7%(2回合)、造成伤害增加19.1%(2回合)，并使自身以外我方全体火属性攻击者、守护者、妨碍者获得「必杀时，触发『使自身获得「普攻时，追加『以自身攻击力58.7%对目标造成伤害』(2回合)」』(1回合)」，再使自身获得「普攻时，追加『以自身攻击力154.2%对目标造成伤害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `性爱天使的绝对仪式`,
-                    description: `使目标受到伤害增加23.1%(最多2层)、受到普攻伤害增加19.25%(最多2层)、受到风属性伤害增加9.9%(最多2层)，再以自身攻击力376%对目标造成伤害，CD:4`
+                    name: `慈爱兔兔灵波～`,
+                    description: `使我方全体火属性角色攻击力增加37.1%(2回合)、造成伤害增加22.3%(2回合)，并使自身以外我方全体火属性攻击者、守护者、妨碍者获得「必杀时，触发『使自身获得「普攻时，追加『以自身攻击力68.5%对目标造成伤害』(2回合)」』(1回合)」，再使自身获得「普攻时，追加『以自身攻击力179.9%对目标造成伤害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `性爱天使的绝对仪式`,
-                    description: `使目标受到伤害增加26.4%(最多2层)、受到普攻伤害增加22%(最多2层)、受到风属性伤害增加12.1%(最多2层)，再以自身攻击力422%对目标造成伤害，CD:4`
+                    name: `慈爱兔兔灵波～`,
+                    description: `使我方全体火属性角色攻击力增加42.4%(2回合)、造成伤害增加25.4%(2回合)，并使自身以外我方全体火属性攻击者、守护者、妨碍者获得「必杀时，触发『使自身获得「普攻时，追加『以自身攻击力78.4%对目标造成伤害』(2回合)」』(1回合)」，再使自身获得「普攻时，追加『以自身攻击力205.6%对目标造成伤害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `性爱天使的绝对仪式`,
-                    description: `使目标受到伤害增加29.7%(最多2层)、受到普攻伤害增加24.75%(最多2层)、受到风属性伤害增加14.3%(最多2层)，再以自身攻击力468%对目标造成伤害，CD:4`
+                    name: `慈爱兔兔灵波～`,
+                    description: `使我方全体火属性角色攻击力增加47.7%(2回合)、造成伤害增加28.6%(2回合)，并使自身以外我方全体火属性攻击者、守护者、妨碍者获得「必杀时，触发『使自身获得「普攻时，追加『以自身攻击力88.2%对目标造成伤害』(2回合)」』(1回合)」，再使自身获得「普攻时，追加『以自身攻击力231.3%对目标造成伤害』(2回合)」。CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `性爱天使的绝对仪式`,
-                    description: `使目标受到伤害增加33%(最多2层)、受到普攻伤害增加27.5%(最多2层)、受到风属性伤害增加16.5%(最多2层)，再以自身攻击力514%对目标造成伤害，CD:4`
+                    name: `慈爱兔兔灵波～`,
+                    description: `使我方全体火属性角色攻击力增加53%(2回合)、造成伤害增加31.8%(2回合)，并使自身以外我方全体火属性攻击者、守护者、妨碍者获得「必杀时，触发『使自身获得「普攻时，追加『以自身攻击力98%对目标造成伤害』(2回合)」』(1回合)」，再使自身获得「普攻时，追加『以自身攻击力257%对目标造成伤害』(2回合)」。CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `性之冲击波`,
-                    description: `使目标受到普攻伤害增加27.5%(1回合)`
+                    name: `无形的魔法斩击`,
+                    description: `以自身攻击力100%对目标造成伤害`
                 },
                 [SkillType.LEADER]: {
-                    name: `强欲之宣告者`,
-                    description: `我方全体最大HP增加50%\n我方全体攻击力增加50%\n我方全体获得「我方队伍恰好为1种角色属性时，开启『《宣告》』」\n自身获得「我方队伍恰好为1种角色属性时，开启『必杀时，触发「使目标受到伤害增加7.5%(最多2层)、受到普攻伤害增加28%(最多2层)、受到风属性伤害增加11.25%(最多2层)」』」\n\n《宣告》\n造成伤害增加22.5%\n普攻时，追加「以自身攻击力37.5%对目标造成伤害」\n攻击时，触发「以自身攻击力3%使我方全体攻击力增加(1回合)」`
+                    name: `兔兔魔法少女登场☆`,
+                    description: `我方全体HP增加50%
+我方全体辅助者、治疗者获得「我方队伍恰好为4种角色定位时，开启『《疗癒温暖》』」
+我方全体攻击者、守护者、妨碍者获得「我方队伍恰好为4种角色定位时，开启『必杀时，触发「使自身获得《爱的大爆射～♡》』」
+
+《疗癒温暖》
+攻击力增加50%
+普攻时，触发「使目标受到普攻伤害增加9%(4回合)、受到火属性伤害增加3.5%(4回合)」
+必杀时，触发「以自身攻击力15%使我方全体攻击者、守护者、妨碍者攻击力增加(2回合)」
+
+《爱的大爆射～♡》
+攻击力增加125%(2回合)
+造成伤害增加21%(2回合)
+普攻时，追加「以自身攻击力106%对目标造成伤害」(2回合)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `天空的性域`,
-                    description: `攻击力增加220%\n必杀时，触发「使目标被治疗时回復量减少80%(2回合)」`
+                    name: `一点点观众福利♡`,
+                    description: `攻击时，触发「使目标受到普攻伤害增加16.5%(4回合)」`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `召唤！性爱天使`,
-                    description: `普攻时，追加「以自身攻击力155%对目标造成伤害」`
+                    name: `爱与正义的魔法少女(?)`,
+                    description: `普攻时，触发「使自身获得1层《慈爱波动》(最多3层)」
+必杀时，根据自身《慈爱波动》层数，触发「使我方全体火属性攻击者、守护者、妨碍者获得《母爱满溢》」
+
+《母爱满溢》
+普攻伤害增加10%(2回合)
+对防禦目标伤害增加15%(2回合)
+普攻时，追加「以自身攻击力19.6%对目标造成伤害」(2回合)
+清除自身《慈爱波动》所有层数`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `性之加护`,
-                    description: `造成伤害增加33%\n防御时，触发「使我方全体普攻伤害增加27.5%(1回合)」\n第1回合时，触发「使自身当前必杀技CD减少4回合」(触发1次后清除)`
+                    name: `坏孩子在哪里呀～`,
+                    description: `必杀时，触发「使自身获得1层《发现坏孩子了♡》(最多1层)」
+自身《发现坏孩子了♡》=1层时，开启「《正义的惩罚♡》」
+
+《正义的惩罚♡》
+每经过1回合时，触发『使敌方全体受到伤害增加21.3%(1回合)、受到火属性伤害增加31.8%(1回合)』
+行动后，触发「清除自身《发现坏孩子了♡》所有层数」`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `普攻+`,
-                    description: `使自身普攻伤害增加10%`
+                    name: `攻击+`,
+                    description: `使自身攻击力增加10%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫睡眠`,
-                    description: `使自身免疫睡眠`
+                    name: `免疫麻痹`,
+                    description: `使自身免疫麻痺`
                 }
             },
             [Locale.en]: {
                 [SkillType.SKILL_S]: {
-                    name: `Sex Angel's Absolute Ritual`,
-                    description: `Increase the target's Damage Taken by 19.8/23.1/26.4/29.7/33% (max 2 stacks), Damage Taken from Basic Attacks by 16.5/19.25/22/24.75/27.5% (max 2 stacks), Damage Taken from Wind attacks by 0/9.9/12.1/14.3/16.5% (max 2 stacks), then damage the target (330/376/422/468/514% Attack Power). CD:4`
+                    name: `Mercy Bunny Beam~`,
+                    description: `Increase Fire allies' Attack Power by 31.7/37.1/42.4/47.7/53% for 2 turns, Damage Output by 19.1/22.3/25.4/28.6/31.8% for 2 turns, then other allied Fire Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, trigger the following effect: Gain yourself the following effect for 1 turn: On Basic Attack, deal additional damage to the target for 2 turns (58.7/68.5/78.4/88.2/98% Attack Power). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 2 turns (154.2/179.9/205.6/231.3/257% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `Sex Angel's Absolute Ritual`,
-                    description: `Increase the target's Damage Taken by 19.8% (max 2 stacks), Damage Taken from Basic Attacks by 16.5% (max 2 stacks), then damage the target (330% Attack Power). CD:4`
+                    name: `Mercy Bunny Beam~`,
+                    description: `Increase Fire allies' Attack Power by 31.7% for 2 turns, Damage Output by 19.1% for 2 turns, then other allied Fire Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, trigger the following effect: Gain yourself the following effect for 1 turn: On Basic Attack, deal additional damage to the target for 2 turns (58.7% Attack Power). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 2 turns (154.2% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `Sex Angel's Absolute Ritual`,
-                    description: `Increase the target's Damage Taken by 23.1% (max 2 stacks), Damage Taken from Basic Attacks by 19.25% (max 2 stacks), Damage Taken from Wind attacks by 9.9% (max 2 stacks), then damage the target (376% Attack Power). CD:4`
+                    name: `Mercy Bunny Beam~`,
+                    description: `Increase Fire allies' Attack Power by 37.1% for 2 turns, Damage Output by 22.3% for 2 turns, then other allied Fire Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, trigger the following effect: Gain yourself the following effect for 1 turn: On Basic Attack, deal additional damage to the target for 2 turns (68.5% Attack Power). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 2 turns (179.9% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `Sex Angel's Absolute Ritual`,
-                    description: `Increase the target's Damage Taken by 26.4% (max 2 stacks), Damage Taken from Basic Attacks by 22% (max 2 stacks), Damage Taken from Wind attacks by 12.1% (max 2 stacks), then damage the target (422% Attack Power). CD:4`
+                    name: `Mercy Bunny Beam~`,
+                    description: `Increase Fire allies' Attack Power by 42.4% for 2 turns, Damage Output by 25.4% for 2 turns, then other allied Fire Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, trigger the following effect: Gain yourself the following effect for 1 turn: On Basic Attack, deal additional damage to the target for 2 turns (78.4% Attack Power). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 2 turns (205.6% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `Sex Angel's Absolute Ritual`,
-                    description: `Increase the target's Damage Taken by 29.7% (max 2 stacks), Damage Taken from Basic Attacks by 24.75% (max 2 stacks), Damage Taken from Wind attacks by 14.3% (max 2 stacks), then damage the target (468% Attack Power). CD:4`
+                    name: `Mercy Bunny Beam~`,
+                    description: `Increase Fire allies' Attack Power by 47.7% for 2 turns, Damage Output by 28.6% for 2 turns, then other allied Fire Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, trigger the following effect: Gain yourself the following effect for 1 turn: On Basic Attack, deal additional damage to the target for 2 turns (88.2% Attack Power). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 2 turns (231.3% Attack Power). CD:4`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `Sex Angel's Absolute Ritual`,
-                    description: `Increase the target's Damage Taken by 33% (max 2 stacks), Damage Taken from Basic Attacks by 27.5% (max 2 stacks), Damage Taken from Wind attacks by 16.5% (max 2 stacks), then damage the target (514% Attack Power). CD:4`
+                    name: `Mercy Bunny Beam~`,
+                    description: `Increase Fire allies' Attack Power by 53% for 2 turns, Damage Output by 31.8% for 2 turns, then other allied Fire Attackers, Defenders, and Obstructors gain the following effect: On Ultimate Skill, trigger the following effect: Gain yourself the following effect for 1 turn: On Basic Attack, deal additional damage to the target for 2 turns (98% Attack Power). Then gain yourself the following effect: On Basic Attack, deal additional damage to the target for 2 turns (257% Attack Power). CD:4`
                 },
                 [SkillType.ATTACK]: {
-                    name: `Sexual Impact Wave`,
-                    description: `Increase the target's Damage Taken from Basic Attacks by 27.5% for 1 turn.`
+                    name: `Phantasm Magic Slash`,
+                    description: `Damage the target (100% Attack Power).`
                 },
                 [SkillType.LEADER]: {
-                    name: `Herald of Intense Lust`,
-                    description: `Increase the party's max HP by 50%.\nIncrease the party's Attack Power by 50%.\nThe party gains the following effect: When there are only characters of 1 attribute in the party, activate "Declaration".\nGain yourself the following effect: When there are only characters of 1 attribute in the party, activate "On Ultimate Skill, trigger the following effect: Increase the target's Damage Taken by 7.5% (max 2 stacks), Damage Taken from Basic Attacks by 28% (max 2 stacks), and Damage Taken from Wind attacks by 11.25% (max 2 stacks)".\n\n"Declaration"\nIncrease Damage Output by 22.5%.\nOn Basic Attack, deal additional damage to the target (37.5% Attack Power).\nOn Attack, trigger the following effect: Increase the party's Attack Power for 3% of your Attack Power for 1 turn.`
+                    name: `Bunny Magic Knight's Here ☆`,
+                    description: `Increase the party's HP by 50%.
+Allied Supporters and Healers gain the following effect: When there are exactly characters of 4 different positions in the party, activate "Healing Warmth".
+Allied Attackers, Defenders, and Obstructors gain the following effect: When there are exactly characters of 4 different positions in the party, activate "On Ultimate Skill, trigger the following effect: Gain yourself 'Love Explosion~♡'".
+
+"Healing Warmth"
+Increase Attack Power by 50%.
+On Basic Attack, trigger the following effect: Increase the target's Damage Taken from Basic Attacks by 9% for 4 turns and Damage Taken from Fire attacks by 3.5% for 4 turns.
+On Ultimate Skill, trigger the following effect: Increase allied Attackers, Defenders, and Obstructors' Attack Power for 15% of your Attack Power for 2 turns.
+
+"Love Explosion~♡"
+Increase Attack Power by 125% for 2 turns.
+Increase Damage Output by 21% for 2 turns.
+On Basic Attack, deal additional damage to the target for 2 turns (106% Attack Power).`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `Celestial Sex Realm`,
-                    description: `Increase Attack Power by 220%.\nOn Ultimate Skill, trigger the following effect: Decrease the target's Recovery Rate by 80% for 2 turns.`
+                    name: `A Little Fanservice ♡`,
+                    description: `On Attack, trigger the following effect: Increase the target's Damage Taken from Basic Attacks by 16.5% for 4 turns.`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `Summoning Sex Angel!`,
-                    description: `On Basic Attack, deal additional damage to the target (155% Attack Power).`
+                    name: `Magic Knight of Love & Justice (?)`,
+                    description: `On Basic Attack, trigger the following effect: Gain yourself 1 stack of "Merciful Wave" (max 3 stacks).
+On Ultimate Skill, based on your "Merciful Wave" stacks, trigger the following effect: Allied Fire Attackers, Defenders, and Obstructors gain "Maternal Overflow".
+
+"Maternal Overflow"
+Increase Basic Attack Power by 10% for 2 turns.
+Increase damage against targets in Guard Stance by 15% for 2 turns.
+On Basic Attack, deal additional damage to the target for 2 turns (19.6% Attack Power).
+Remove all your "Merciful Wave" stacks.`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `Sexual Protection`,
-                    description: `Increase Damage Output by 33%.\nWhen in Guard Stance, trigger the following effect: Increase the party's Basic Attack Power by 27.5% for 1 turn.\nOn the 1st turn, trigger the following effect: Decrease your current Ultimate Skill CD by 4 turns (removes after triggering once).`
+                    name: `Come Out Naughty Kids~`,
+                    description: `On Ultimate Skill, trigger the following effect: Gain yourself 1 stack of "Found a Naughty Kid ♡" (max 1 stack).
+When your "Found a Naughty Kid ♡" stack is =1, activate "Punishment of Justice ♡".
+
+"Punishment of Justice ♡"
+After every 1 turn, trigger the following effect: Increase all enemies' Damage Taken by 21.3% for 1 turn and Damage Taken from Fire attacks by 31.8% for 1 turn.
+After performing an action, trigger the following effect: Remove all your "Found a Naughty Kid ♡" stacks.`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `Basic Attack+`,
-                    description: `Increase your Basic Attack Power by 10%.`
+                    name: `Attack+`,
+                    description: `Increase your Attack Power by 10%.`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `Sleep Immunity`,
-                    description: `Gain yourself immunity to Sleep.`
+                    name: `Paralysis Immunity`,
+                    description: `Gain yourself immunity to Paralysis.`
                 }
             },
             [Locale.jp]: {
                 [SkillType.SKILL_S]: {
-                    name: `セックス天使の絶対儀式`,
-                    description: `ターゲットの受けるダメージを19.8/23.1/26.4/29.7/33%増加させ(最高2スタック)、受ける通常攻撃ダメージを16.5/19.25/22/24.75/27.5%増加させ(最高2スタック)、受ける風属性ダメージを0/9.9/12.1/14.3/16.5%増加させ(最高2スタック)、自分の330/376/422/468/514%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    name: `慈愛のうさうさフラーッシュ`,
+                    description: `味方全体の火属性のキャラの攻撃力を31.7/37.1/42.4/47.7/53%増加させ(2ターン)、与えるダメージを19.1/22.3/25.4/28.6/31.8%増加させ(2ターン)、自分以外の味方全体の火属性のアタッカー、ガーディアン、デバッファーが「必殺技攻撃時『自分が「通常攻撃時『自分の58.7/68.5/78.4/88.2/98%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する』を誘発する(1ターン)」を獲得し、自分が「通常攻撃時『自分の154.2/179.9/205.6/231.3/257%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `セックス天使の絶対儀式`,
-                    description: `ターゲットの受けるダメージを19.8%増加させ(最高2スタック)、受ける通常攻撃ダメージを16.5%増加させ(最高2スタック)、自分の330%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    name: `慈愛のうさうさフラーッシュ`,
+                    description: `味方全体の火属性のキャラの攻撃力を31.7%増加させ(2ターン)、与えるダメージを19.1%増加させ(2ターン)、自分以外の味方全体の火属性のアタッカー、ガーディアン、デバッファーが「必殺技攻撃時『自分が「通常攻撃時『自分の58.7%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する』を誘発する(1ターン)」を獲得し、自分が「通常攻撃時『自分の154.2%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `セックス天使の絶対儀式`,
-                    description: `ターゲットの受けるダメージを23.1%増加させ(最高2スタック)、受ける通常攻撃ダメージを19.25%増加させ(最高2スタック)、受ける風属性ダメージを9.9%増加させ(最高2スタック)、自分の376%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    name: `慈愛のうさうさフラーッシュ`,
+                    description: `味方全体の火属性のキャラの攻撃力を37.1%増加させ(2ターン)、与えるダメージを22.3%増加させ(2ターン)、自分以外の味方全体の火属性のアタッカー、ガーディアン、デバッファーが「必殺技攻撃時『自分が「通常攻撃時『自分の68.5%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する』を誘発する(1ターン)」を獲得し、自分が「通常攻撃時『自分の179.9%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `セックス天使の絶対儀式`,
-                    description: `ターゲットの受けるダメージを26.4%増加させ(最高2スタック)、受ける通常攻撃ダメージを22%増加させ(最高2スタック)、受ける風属性ダメージを12.1%増加させ(最高2スタック)、自分の422%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    name: `慈愛のうさうさフラーッシュ`,
+                    description: `味方全体の火属性のキャラの攻撃力を42.4%増加させ(2ターン)、与えるダメージを25.4%増加させ(2ターン)、自分以外の味方全体の火属性のアタッカー、ガーディアン、デバッファーが「必殺技攻撃時『自分が「通常攻撃時『自分の78.4%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する』を誘発する(1ターン)」を獲得し、自分が「通常攻撃時『自分の205.6%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `セックス天使の絶対儀式`,
-                    description: `ターゲットの受けるダメージを29.7%増加させ(最高2スタック)、受ける通常攻撃ダメージを24.75%増加させ(最高2スタック)、受ける風属性ダメージを14.3%増加させ(最高2スタック)、自分の468%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    name: `慈愛のうさうさフラーッシュ`,
+                    description: `味方全体の火属性のキャラの攻撃力を47.7%増加させ(2ターン)、与えるダメージを28.6%増加させ(2ターン)、自分以外の味方全体の火属性のアタッカー、ガーディアン、デバッファーが「必殺技攻撃時『自分が「通常攻撃時『自分の88.2%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する』を誘発する(1ターン)」を獲得し、自分が「通常攻撃時『自分の231.3%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `セックス天使の絶対儀式`,
-                    description: `ターゲットの受けるダメージを33%増加させ(最高2スタック)、受ける通常攻撃ダメージを27.5%増加させ(最高2スタック)、受ける風属性ダメージを16.5%増加させ(最高2スタック)、自分の514%の攻撃力でターゲットにダメージを与える[CD:4]`
+                    name: `慈愛のうさうさフラーッシュ`,
+                    description: `味方全体の火属性のキャラの攻撃力を53%増加させ(2ターン)、与えるダメージを31.8%増加させ(2ターン)、自分以外の味方全体の火属性のアタッカー、ガーディアン、デバッファーが「必殺技攻撃時『自分が「通常攻撃時『自分の98%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する』を誘発する(1ターン)」を獲得し、自分が「通常攻撃時『自分の257%の攻撃力でターゲットにダメージを与える』を追加する(2ターン)」を獲得する[CD:4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: `性の衝撃波`,
-                    description: `ターゲットが受ける通常攻撃ダメージを27.5%増加させる(1ターン)`
+                    name: `無形の魔法斬撃`,
+                    description: `自分の100%の攻撃力でターゲットにダメージを与える`
                 },
                 [SkillType.LEADER]: {
-                    name: `強欲の宣告者`,
-                    description: `味方全体の最大HPが50%増加する\n味方全体の攻撃力が50%増加する\n味方全体が「味方にちょうど1種類の属性のメンバーがいる時『《宣告》』を発動する」を獲得する\n自分が「味方にちょうど1種類の属性のメンバーがいる時『必殺技攻撃時「ターゲットの受けるダメージを7.5%増加させ(最高2スタック)、受ける通常攻撃ダメージを28%増加させ(最高2スタック)、受ける風属性ダメージを11.25%増加させる(最高2スタック)」を誘発する』を発動する」を獲得する\n\n《宣告》\n与えるダメージが22.5%増加する\n通常攻撃時「自分の37.5%の攻撃力でターゲットにダメージを与える」を追加する\n攻撃時「自分の攻撃力の3%分味方全体の攻撃力を増加させる(1ターン)」を誘発する`
+                    name: `うさうさ魔法少女・見参☆`,
+                    description: `味方全体のHPが50%増加する
+味方全体のサポーター、ヒーラーが「味方にちょうど4種類のポジションのキャラがいる時、《ぬくっとキュアキュア》を発動する」を獲得する
+味方全体のアタッカー、ガーディアン、デバッファーが「味方にちょうど4種類のポジションのキャラがいる時、『必殺技攻撃時「自分が《愛のメガトンスプラ～ッシュ♡》を獲得する」を誘発する』を発動する」を獲得する
+
+《ぬくっとキュアキュア》
+攻撃力が50%増加する
+通常攻撃時「ターゲットが受ける通常攻撃ダメージを9%増加させ(4ターン)、受ける火属性ダメージを3.5%増加させる(4ターン)」を誘発する
+必殺技攻撃時「自分の15%の攻撃力分味方全体のアタッカー、ガーディアン、デバッファーの攻撃力を増加させる(2ターン)」を誘発する
+
+《愛のメガトンスプラ～ッシュ♡》
+攻撃力が125%増加する(2ターン)
+与えるダメージが21%増加する(2ターン)
+通常攻撃時「自分の106%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `天空の性域`,
-                    description: `攻撃力が220%増加する\n必殺技攻撃時「ターゲットが治療を受ける時、回復HP量を80%減少させる(2ターン)」を誘発する`
+                    name: `チョットだけ視聴者サービス♡`,
+                    description: `攻撃時「ターゲットが受ける通常攻撃ダメージを16.5%増加させる(4ターン)」を誘発する`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `出でよ！セックス天使！`,
-                    description: `通常攻撃時「自分の155%の攻撃力でターゲットにダメージを与える」を追加する`
+                    name: `愛と正義の魔法少女(?)`,
+                    description: `通常攻撃時「自分が《慈愛バースト》を1スタック獲得する(最高3スタック)」を誘発する
+必殺技攻撃時、自分の《慈愛バースト》のスタック数に応じて「味方全体の火属性のアタッカー、ガーディアン、デバッファーが《溢れる母の愛》を獲得する」を誘発する
+
+《溢れる母の愛》
+通常攻撃ダメージが10%増加する(2ターン)
+防御中のターゲットに与えるダメージが15%増加する(2ターン)
+通常攻撃時「自分の19.6%の攻撃力でターゲットにダメージを与える」を追加する(2ターン)
+自分の《慈愛バースト》の全てのスタック数を消す`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `性の加護`,
-                    description: `与えるダメージが33%増加する\n防御時「味方全体の通常攻撃ダメージを27.5%増加させる(1ターン)」を誘発する\n1ターン目に「自分の現在の必殺技CDを4ターン減少させる」を誘発する(誘発1回後に解除)`
+                    name: `悪いコはどこかしら～`,
+                    description: `必殺技攻撃時「自分が《悪いコ見ぃつけた♡》を1スタック獲得する(最高1スタック)」を誘発する
+自分の《悪いコ見ぃつけた♡》のスタック数が=1の時、《正義のオシオキ♡》を発動する
+
+《正義のオシオキ♡》
+1ターン毎に「敵全体の受けるダメージを21.3%増加させ(1ターン)、受ける火属性ダメージを31.8%増加させる(1ターン)」を誘発する
+行動後「自分の《悪いコ見ぃつけた♡》の全てのスタック数を消す」を誘発する`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `通常攻撃+`,
-                    description: `自分の通常攻撃ダメージを10%増加させる`
+                    name: `攻撃+`,
+                    description: `自分の攻撃力を10%増加させる`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `睡眠無効`,
-                    description: `自分を睡眠無効にする`
+                    name: `麻痺無効`,
+                    description: `自分を麻痺無効にする`
                 }
             },
             [Locale.kr]: {
                 [SkillType.SKILL_S]: {
-                    name: `섹스 천사의 절대 의식`,
-                    description: `타깃이 받는 데미지 19.8/23.1/26.4/29.7/33% 증가(최대 2중첩), 받는 일반 공격 데미지 16.5/19.25/22/24.75/27.5% 증가(최대 2중첩), 받는 풍속성 데미지 0/9.9/12.1/14.3/16.5% 증가(최대 2중첩), 다시 자신의 공격 데미지의 330/376/422/468/514%만큼 타깃에게 데미지 [CD: 4]`
+                    name: `자애로운 토끼 빔~`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 31.7/37.1/42.4/47.7/53% 증가(2턴), 가하는 데미지 19.1/22.3/25.4/28.6/31.8% 증가(2턴), 자신 이외의 아군 화속성 딜러, 탱커, 디스럽터는 「궁극기 발동 시 『자신은 「일반 공격 시 『자신의 공격 데미지의 58.7/68.5/78.4/88.2/98%만큼 타깃에게 데미지』 추가(2턴)」 획득』 트리거(1턴)」 획득, 다시 자신은 「일반 공격 시 『자신의 공격 데미지의 154.2/179.9/205.6/231.3/257%만큼 타깃에게 데미지』 추가(2턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_1]: {
-                    name: `섹스 천사의 절대 의식`,
-                    description: `타깃이 받는 데미지 19.8% 증가(최대 2중첩), 받는 일반 공격 데미지 16.5% 증가(최대 2중첩), 다시 자신의 공격 데미지의 330%만큼 타깃에게 데미지 [CD: 4]`
+                    name: `자애로운 토끼 빔~`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 31.7% 증가(2턴), 가하는 데미지 19.1% 증가(2턴), 자신 이외의 아군 화속성 딜러, 탱커, 디스럽터는 「궁극기 발동 시 『자신은 「일반 공격 시 『자신의 공격 데미지의 58.7%만큼 타깃에게 데미지』 추가(2턴)」 획득』 트리거(1턴)」 획득, 다시 자신은 「일반 공격 시 『자신의 공격 데미지의 154.2%만큼 타깃에게 데미지』 추가(2턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_2]: {
-                    name: `섹스 천사의 절대 의식`,
-                    description: `타깃이 받는 데미지 23.1% 증가(최대 2중첩), 받는 일반 공격 데미지 19.25% 증가(최대 2중첩), 받는 풍속성 데미지 9.9% 증가(최대 2중첩), 다시 자신의 공격 데미지의 376%만큼 타깃에게 데미지 [CD: 4]`
+                    name: `자애로운 토끼 빔~`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 37.1% 증가(2턴), 가하는 데미지 22.3% 증가(2턴), 자신 이외의 아군 화속성 딜러, 탱커, 디스럽터는 「궁극기 발동 시 『자신은 「일반 공격 시 『자신의 공격 데미지의 68.5%만큼 타깃에게 데미지』 추가(2턴)」 획득』 트리거(1턴)」 획득, 다시 자신은 「일반 공격 시 『자신의 공격 데미지의 179.9%만큼 타깃에게 데미지』 추가(2턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_3]: {
-                    name: `섹스 천사의 절대 의식`,
-                    description: `타깃이 받는 데미지 26.4% 증가(최대 2중첩), 받는 일반 공격 데미지 22% 증가(최대 2중첩), 받는 풍속성 데미지 12.1% 증가(최대 2중첩), 다시 자신의 공격 데미지의 422%만큼 타깃에게 데미지 [CD: 4]`
+                    name: `자애로운 토끼 빔~`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 42.4% 증가(2턴), 가하는 데미지 25.4% 증가(2턴), 자신 이외의 아군 화속성 딜러, 탱커, 디스럽터는 「궁극기 발동 시 『자신은 「일반 공격 시 『자신의 공격 데미지의 78.4%만큼 타깃에게 데미지』 추가(2턴)」 획득』 트리거(1턴)」 획득, 다시 자신은 「일반 공격 시 『자신의 공격 데미지의 205.6%만큼 타깃에게 데미지』 추가(2턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_4]: {
-                    name: `섹스 천사의 절대 의식`,
-                    description: `타깃이 받는 데미지 29.7% 증가(최대 2중첩), 받는 일반 공격 데미지 24.75% 증가(최대 2중첩), 받는 풍속성 데미지 14.3% 증가(최대 2중첩), 다시 자신의 공격 데미지의 468%만큼 타깃에게 데미지 [CD: 4]`
+                    name: `자애로운 토끼 빔~`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 47.7% 증가(2턴), 가하는 데미지 28.6% 증가(2턴), 자신 이외의 아군 화속성 딜러, 탱커, 디스럽터는 「궁극기 발동 시 『자신은 「일반 공격 시 『자신의 공격 데미지의 88.2%만큼 타깃에게 데미지』 추가(2턴)」 획득』 트리거(1턴)」 획득, 다시 자신은 「일반 공격 시 『자신의 공격 데미지의 231.3%만큼 타깃에게 데미지』 추가(2턴)」 획득 [CD: 4]`
                 },
                 [SkillType.SKILL_5]: {
-                    name: `섹스 천사의 절대 의식`,
-                    description: `타깃이 받는 데미지 33% 증가(최대 2중첩), 받는 일반 공격 데미지 27.5% 증가(최대 2중첩), 받는 풍속성 데미지 16.5% 증가(최대 2중첩), 다시 자신의 공격 데미지의 514%만큼 타깃에게 데미지 [CD: 4]`
+                    name: `자애로운 토끼 빔~`,
+                    description: `아군 화속성 캐릭터의 공격 데미지 53% 증가(2턴), 가하는 데미지 31.8% 증가(2턴), 자신 이외의 아군 화속성 딜러, 탱커, 디스럽터는 「궁극기 발동 시 『자신은 「일반 공격 시 『자신의 공격 데미지의 98%만큼 타깃에게 데미지』 추가(2턴)」 획득』 트리거(1턴)」 획득, 다시 자신은 「일반 공격 시 『자신의 공격 데미지의 257%만큼 타깃에게 데미지』 추가(2턴)」 획득 [CD: 4]`
                 },
                 [SkillType.ATTACK]: {
-                    name: `섹스 쇼크 웨이브`,
-                    description: `타깃이 받는 일반 공격 데미지 27.5% 증가(1턴)`
+                    name: `무형의 마법 참격`,
+                    description: `자신의 공격 데미지의 100%만큼 타깃에게 데미지`
                 },
                 [SkillType.LEADER]: {
-                    name: `강욕의 선고자`,
-                    description: `아군 전체의 최대 HP 50% 증가\n아군 전체의 공격 데미지 50% 증가\n아군 전체는 「아군 팀이 1종류 캐릭터 속성으로 편성될 시 『《선고》』 활성화」 획득\n자신은 「아군 팀이 1종류 캐릭터 속성으로 편성될 시 『궁극기 발동 시 「타깃이 받는 데미지 7.5% 증가(최대 2중첩), 받는 일반 공격 데미지 28% 증가(최대 2중첩), 받는 풍속성 데미지 11.25% 증가(최대 2중첩)」 트리거』 활성화」 획득\n\n《선고》\n가하는 데미지 22.5% 증가\n일반 공격 시 「자신의 공격 데미지의 37.5%만큼 타깃에게 데미지」 추가\n공격 시 「자신의 공격 데미지의 3%만큼 아군 전체의 공격 데미지 증가(1턴)」 트리거`
+                    name: `토끼 마법소녀 등장☆`,
+                    description: `아군 전체의 HP 50% 증가
+아군 서포터, 힐러는 「팀이 4종류 위치로 편성될 시 『《포근한 힐링》』 활성화」 획득
+아군 딜러, 탱커, 디스럽터는 「팀이 4종류 위치로 편성될 시 『궁극기 발동 시 「자신은 《사랑의 대폭발~♡》 획득」 트리거』활성화」 획득
+
+《포근한 힐링》
+공격 데미지 50% 증가
+일반 공격 시 「타깃이 받는 일반 공격 데미지 9% 증가(4턴), 받는 화속성 데미지 3.5% 증가(4턴)」 트리거
+궁극기 발동 시 「자신의 공격 데미지의 15%만큼 아군 딜러, 탱커, 디스럽터의 공격 데미지 증가(2턴)」 트리거
+
+《사랑의 대폭발~♡》
+공격 데미지 125% 증가(2턴)
+가하는 데미지 21% 증가(2턴)
+일반 공격 시 「자신의 공격 데미지의 106%만큼 타깃에게 데미지」 추가(2턴)`
                 },
                 [SkillType.PASSIVE_1]: {
-                    name: `천공의 성역`,
-                    description: `공격 데미지 220% 증가\n궁극기 발동 시 「타깃이 치유를 받을 시 회복량 80% 감소(2턴)」 트리거`
+                    name: `관중을 위한 서비스♡`,
+                    description: `공격 시 「타깃이 받는 일반 공격 데미지 16.5% 증가(4턴)」 트리거`
                 },
                 [SkillType.PASSIVE_2]: {
-                    name: `소환! 섹스 천사`,
-                    description: `일반 공격 시 「자신의 공격 데미지의 155%만큼 타깃에게 데미지」 추가`
+                    name: `사랑과 정의의 마법소녀(?)`,
+                    description: `일반 공격 시 「자신은 1중첩의 《자애르기 파》 획득(최대 3중첩)」 트리거
+궁극기 발동 시 자신의 《자애르기 파》 중첩수에 따라 「아군 화속성 딜러, 탱커, 디스럽터는 《가득한 모성애》 획득」 트리거
+
+《가득한 모성애》
+일반 공격 데미지 10% 증가(2턴)
+방어한 타깃에게 가하는 데미지 15% 증가(2턴)
+일반 공격 시 「자신의 공격 데미지의 19.6%만큼 타깃에게 데미지」 추가(2턴)
+자신의 모든 《자애르기 파》 중첩수 제거`
                 },
                 [SkillType.PASSIVE_3]: {
-                    name: `섹스의 가호`,
-                    description: `가하는 데미지 33% 증가 \n방어 시 「아군 전체의 일반 공격 데미지 27.5% 증가(1턴)」 트리거\n첫 번째 턴 시작 시 「자신의 현재 궁극기 CD 4턴 감소」 트리거(1회 트리거 후 제거)`
+                    name: `말 안듣는 나쁜 아이들아~ 어디에 있니~`,
+                    description: `궁극기 발동 시 「자신은 1중첩의 《나쁜 아이 발견♡》 획득(최대 1중첩)」 트리거
+자신의 《나쁜 아이 발견♡》 중첩수=1일 경우 「《정의의 징벌♡》」 활성화
+
+《정의의 징벌♡》
+매 1턴 종료 시 「적 전체의 받는 데미지 21.3% 증가(1턴), 받는 화속성 데미지 31.8% 증가(1턴)」 트리거
+행동 후 「자신의 모든 《나쁜 아이 발견♡》 중첩수 제거」 트리거`
                 },
                 [SkillType.GENERAL_1]: {
-                    name: `일반 공격+`,
-                    description: `자신의 일반 공격 데미지 10% 증가`
+                    name: `공격+`,
+                    description: `자신의 공격 데미지 10% 증가`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `수면 면역`,
-                    description: `자신에게 수면 면역 부여`
+                    name: `마비 면역`,
+                    description: `자신에게 마비 면역 부여`
                 }
             }
         }
