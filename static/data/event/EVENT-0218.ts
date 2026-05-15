@@ -4,10 +4,10 @@ import { EventBanner, EventTypeColor } from '~/static/const';
 
 const EVENT_0218: Event = {
     code: '0218',
-    type: EventType.POINT,
+    type: EventType.EVOLVE,
     startDate: '2026/04/22',
     endDate: '2026/05/06',
-    color: EventTypeColor.POINT,
+    color: EventTypeColor.EVOLVE,
     name: {
         [Locale.tc]: `【獵犬小隊派遣中！-復刻-】`,
         [Locale.sc]: `【猎犬小队派遣中！-复刻-】`,
