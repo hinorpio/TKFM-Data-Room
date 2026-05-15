@@ -630,5 +630,7 @@ export enum UnitCode {
     cos_yanko = 'SSR-168',
     cos_momo = 'SSR-169',
     egypt_fiora = 'SSR-170',
-    egypt_milae = 'SSR-171'
+    egypt_milae = 'SSR-171',
+    m_momDaphne = 'SSR-172',
+    nali = 'SSR-173',
 }

@@ -222,6 +222,8 @@ const SSR = {
     [UnitCode.cos_momo]: getUnitDisplinePath('10198'),
     [UnitCode.egypt_fiora]: getUnitDisplinePath('10199'),
     [UnitCode.egypt_milae]: getUnitDisplinePath('10200'),
+    [UnitCode.m_momDaphne]: getUnitDisplinePath('10201'),
+    [UnitCode.nali]: getUnitDisplinePath('10202'),
 }
 
 export const DisciplinePreview = {

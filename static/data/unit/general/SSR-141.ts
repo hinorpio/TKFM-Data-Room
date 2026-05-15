@@ -44,7 +44,7 @@ export const General_10169: Unit = {
     selection: UnitSelection[UnitCode.momDaphne],
     clothes: UnitFullImage[UnitCode.momDaphne],
     tagList: [],
-    otherVersion: [ UnitCode.h_momDaphne ],
+    otherVersion: [ UnitCode.h_momDaphne, UnitCode.m_momDaphne ],
     initHP: 3992,
     initATK: 883.2,
     puzzle: [],
