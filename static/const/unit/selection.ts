@@ -240,6 +240,8 @@ const SSR = {
     [UnitCode.cos_momo]: getUnitSelectionPath('10198'),
     [UnitCode.egypt_fiora]: getUnitSelectionPath('10199'),
     [UnitCode.egypt_milae]: getUnitSelectionPath('10200'),
+    [UnitCode.m_momDaphne]: getUnitSelectionPath('10201'),
+    [UnitCode.nali]: getUnitSelectionPath('10202'),
 }
 
 export const Selection = {
