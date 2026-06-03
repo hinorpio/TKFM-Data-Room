@@ -20,11 +20,11 @@ export const General_10205: Unit = {
         [Locale.kr]: "나나미"
     },
     abbreviation: {
-        [Locale.tc]: [],
-        [Locale.sc]: [],
-        [Locale.en]: [],
+        [Locale.tc]: [ "夏奈" ],
+        [Locale.sc]: [ "夏奈" ],
+        [Locale.en]: [ "S.Nanami" ],
         [Locale.jp]: [],
-        [Locale.kr]: []
+        [Locale.kr]: [ "수나미" ]
     },
     background: {
         [Locale.tc]: `夏天到了，奈奈美原本打算趁這個機會和凱薩好好約會，再順便拍攝一些賣給粉絲的寫真照。但她做夢也沒想到的是，最後她們卻來到了一處白雪靄靄、全年被冰雪覆蓋的地方。難道好好的度假行程就要因此泡湯了嗎？當然沒有這回事，畢竟誰說在雪上不能穿泳裝呢？如果這樣就被打敗，那就太小看奈奈美了。因為不管到什麼地方，奈奈美都會是眾人的焦點，有她在地方，就是最熱情、最閃亮的盛夏。\n\n『凱薩，要把人家拍得漂亮一點唷～Yeah～』`,

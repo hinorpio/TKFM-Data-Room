@@ -20,8 +20,8 @@ export const General_10203: Unit = {
         [Locale.kr]: "오토히메"
     },
     abbreviation: {
-        [Locale.tc]: [],
-        [Locale.sc]: [],
+        [Locale.tc]: [ "火輔?", "火攻?" ],
+        [Locale.sc]: [ "火辅?", "火攻?" ],
         [Locale.en]: [],
         [Locale.jp]: [],
         [Locale.kr]: []
