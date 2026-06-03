@@ -44,7 +44,7 @@ export const General_10204: Unit = {
     selection: UnitSelection[UnitCode.s_britney],
     clothes: UnitFullImage[UnitCode.s_britney],
     tagList: [],
-    otherVersion: [],
+    otherVersion: [ UnitCode.britney, UnitCode.h_britney, UnitCode.m_britney, UnitCode.x_britney, UnitCode.g_britney ],
     initHP: 3643.2,
     initATK: 1014.4,
     puzzle: [ PuzzleCode.EVENT_2026_SUMMER_4 ],
