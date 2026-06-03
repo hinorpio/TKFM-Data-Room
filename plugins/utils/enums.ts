@@ -633,4 +633,8 @@ export enum UnitCode {
     egypt_milae = 'SSR-171',
     m_momDaphne = 'SSR-172',
     nali = 'SSR-173',
+    otohime = 'SSR-174',
+    s_britney = 'SSR-175',
+    s_nanami = 'SSR-176',
+    legora = 'SSR-177'
 }
