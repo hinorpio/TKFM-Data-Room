@@ -249,6 +249,10 @@ const SSR = {
     [UnitCode.egypt_milae]: getUnitFullImagePath('10200'),
     [UnitCode.m_momDaphne]: getUnitFullImagePath('10201'),
     [UnitCode.nali]: getUnitFullImagePath('10202'),
+    [UnitCode.otohime]: getUnitFullImagePath('10203'),
+    [UnitCode.s_britney]: getUnitFullImagePath('10204'),
+    [UnitCode.s_nanami]: getUnitFullImagePath('10205'),
+    [UnitCode.legora]: getUnitFullImagePath('10206'),
 }
 
 export const FullImage = {

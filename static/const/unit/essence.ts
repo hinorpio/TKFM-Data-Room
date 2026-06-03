@@ -242,6 +242,10 @@ const SSR = {
     [UnitCode.egypt_milae]: getUnitEssencePath('10200'),
     [UnitCode.m_momDaphne]: getUnitEssencePath('10201'),
     [UnitCode.nali]: getUnitEssencePath('10202'),
+    [UnitCode.otohime]: getUnitEssencePath('10203'),
+    [UnitCode.s_britney]: getUnitEssencePath('10204'),
+    [UnitCode.s_nanami]: getUnitEssencePath('10205'),
+    [UnitCode.legora]: getUnitEssencePath('10206'),
 }
 
 export const Essence = {
