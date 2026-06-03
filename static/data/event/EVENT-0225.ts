@@ -9,11 +9,11 @@ const EVENT_0225: Event = {
     endDate: '2026/07/08',
     color: EventTypeColor.POINT,
     name: {
-        [Locale.tc]: `【傳說中的魔法少女】`,
-        [Locale.sc]: `【传说中的魔法少女】`,
-        [Locale.en]: `[Legendary Magical Maiden]`,
-        [Locale.jp]: `「伝説の魔法少女」`,
-        [Locale.kr]: `【전설의 마법소녀】`
+        [Locale.tc]: `【傳說中的魔法少女-復刻-】`,
+        [Locale.sc]: `【传说中的魔法少女-复刻-】`,
+        [Locale.en]: `[Legendary Magical Maiden -Comeback-]`,
+        [Locale.jp]: `「伝説の魔法少女-復刻-」`,
+        [Locale.kr]: `【전설의 마법소녀-복각-】`
     },
     description: {
         [Locale.tc]: ``,
