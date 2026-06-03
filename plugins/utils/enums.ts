@@ -365,6 +365,10 @@ export enum PuzzleCode {
     EVENT_2025_XMAS_1 = 'EVENT_2025_XMAS_1',
     EVENT_2025_XMAS_2 = 'EVENT_2025_XMAS_2',
     EVENT_2026_APRIL_FOOL_1 = 'EVENT_2026_APRIL_FOOL_1',
+    EVENT_2026_SUMMER_1 = 'EVENT_2026_SUMMER_1',
+    EVENT_2026_SUMMER_2 = 'EVENT_2026_SUMMER_2',
+    EVENT_2026_SUMMER_3 = 'EVENT_2026_SUMMER_3',
+    EVENT_2026_SUMMER_4 = 'EVENT_2026_SUMMER_4',
     HUMAN_SARIA = 'HUMAN_SARIA',
     HUMAN_PETRA = 'HUMAN_PETRA',
     HUMAN_KIKYOU = 'HUMAN_KIKYOU',
@@ -633,4 +637,8 @@ export enum UnitCode {
     egypt_milae = 'SSR-171',
     m_momDaphne = 'SSR-172',
     nali = 'SSR-173',
+    otohime = 'SSR-174',
+    s_britney = 'SSR-175',
+    s_nanami = 'SSR-176',
+    legora = 'SSR-177'
 }

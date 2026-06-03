@@ -242,6 +242,10 @@ const SSR = {
     [UnitCode.egypt_milae]: getUnitSelectionPath('10200'),
     [UnitCode.m_momDaphne]: getUnitSelectionPath('10201'),
     [UnitCode.nali]: getUnitSelectionPath('10202'),
+    [UnitCode.otohime]: getUnitSelectionPath('10203'),
+    [UnitCode.s_britney]: getUnitSelectionPath('10204'),
+    [UnitCode.s_nanami]: getUnitSelectionPath('10205'),
+    [UnitCode.legora]: getUnitSelectionPath('10206'),
 }
 
 export const Selection = {
