@@ -419,6 +419,58 @@ const puzzles: Puzzle[] = [
         fullImage: PuzzleImage.EVENT_2026_APRIL_FOOL_1,
     },
     {
+        code: PuzzleCode.EVENT_2026_SUMMER_1,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2026_SUMMER_1,
+        name: {
+            [Locale.tc]: `凱薩大戰怪獸`,
+            [Locale.sc]: `凯萨大战怪兽`,
+            [Locale.en]: `Caesar vs. Monsters`,
+            [Locale.jp]: `シーザーVS大怪獣`,
+            [Locale.kr]: `시저 VS 괴수`
+        },
+        fullImage: PuzzleImage.EVENT_2026_SUMMER_1,
+    },
+    {
+        code: PuzzleCode.EVENT_2026_SUMMER_2,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2026_SUMMER_2,
+        name: {
+            [Locale.tc]: `潛水測試`,
+            [Locale.sc]: `潜水测试`,
+            [Locale.en]: `Diving Test`,
+            [Locale.jp]: `潜水テスト`,
+            [Locale.kr]: `잠수 테스트`
+        },
+        fullImage: PuzzleImage.EVENT_2026_SUMMER_2,
+    },
+    {
+        code: PuzzleCode.EVENT_2026_SUMMER_3,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2026_SUMMER_3,
+        name: {
+            [Locale.tc]: `凱薩 on ice`,
+            [Locale.sc]: `凯萨 on ice`,
+            [Locale.en]: `Caesar on Ice`,
+            [Locale.jp]: `シーザー on ice`,
+            [Locale.kr]: `시저 on ice`
+        },
+        fullImage: PuzzleImage.EVENT_2026_SUMMER_3,
+    },
+    {
+        code: PuzzleCode.EVENT_2026_SUMMER_4,
+        type: PuzzleType.EVENT,
+        preview: PuzzlePreview.EVENT_2026_SUMMER_4,
+        name: {
+            [Locale.tc]: `不存在的美好假期`,
+            [Locale.sc]: `不存在的美好假期`,
+            [Locale.en]: `The Nonexistent Perfect Vacation`,
+            [Locale.jp]: `存在しないバカンスの記憶`,
+            [Locale.kr]: `환상의 휴가`
+        },
+        fullImage: PuzzleImage.EVENT_2026_SUMMER_4,
+    },
+    {
         code: PuzzleCode.HUMAN_SARIA,
         type: PuzzleType.HUMAN,
         preview: PuzzlePreview.HUMAN_SARIA,

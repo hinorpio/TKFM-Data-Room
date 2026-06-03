@@ -47,7 +47,7 @@ export const General_10204: Unit = {
     otherVersion: [],
     initHP: 3643.2,
     initATK: 1014.4,
-    puzzle: [],
+    puzzle: [ PuzzleCode.EVENT_2026_SUMMER_4 ],
     outfits: [],
     voiceSet: UnitVoice[UnitCode.s_britney],
     voiceException: [

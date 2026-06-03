@@ -47,7 +47,7 @@ export const General_10206: Unit = {
     otherVersion: [],
     initHP: 5160,
     initATK: 715.2,
-    puzzle: [],
+    puzzle: [ PuzzleCode.EVENT_2026_SUMMER_1 ],
     outfits: UnitOutfits[UnitCode.legora],
     voiceSet: UnitVoice[UnitCode.legora],
     voiceException: [
