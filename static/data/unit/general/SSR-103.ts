@@ -44,7 +44,7 @@ export const General_10133: Unit = {
     selection: UnitSelection[UnitCode.nanami],
     clothes: UnitFullImage[UnitCode.nanami],
     tagList: [],
-    otherVersion: [ UnitCode.m_nanami, UnitCode.sky_nanami ],
+    otherVersion: [ UnitCode.m_nanami, UnitCode.sky_nanami, UnitCode.s_nanami ],
     initHP: 3345.6,
     initATK: 1052.8,
     puzzle: [],
