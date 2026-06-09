@@ -6,6 +6,7 @@ import { UnitCode } from './plugins/utils/enums'
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
+  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -25,7 +26,6 @@ export default {
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon/favicon-16x16.png' },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon/favicon-32x32.png' },
       { rel: 'apple-touch-icon', href: '/favicon/apple-touch-icon.png' },
-      { rel: 'manifest', href: '/favicon/site.webmanifest' },
     ],
   },
 
@@ -107,18 +107,27 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'TKFM Data Room',
+      short_name: 'TKFM Data Room',
+      description: 'TKFM Data Room',
       lang: 'en',
+      start_url: '/',
+      scope: '/',
+      display: 'standalone',
+      background_color: '#424242',
       theme_color: "#5f9df7",
       icons: [
         {
           src: '/favicon/android-chrome-192x192.png',
           sizes: '192x192',
-          type: 'image/png'
+          type: 'image/png',
+          purpose: 'any maskable'
         },
         {
           src: '/favicon/android-chrome-512x512.png',
           sizes: '512x512',
-          type: 'image/png'
+          type: 'image/png',
+          purpose: 'any maskable'
         },
         {
           src: '/favicon/apple-touch-icon.png',
