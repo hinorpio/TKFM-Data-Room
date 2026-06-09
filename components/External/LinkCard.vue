@@ -122,7 +122,7 @@ export default class LinkCard extends Vue {
     discord: {[lang in Locale]: string} = {
         [Locale.tc]: 'https://discord.gg/RRRABMtHYj',
         [Locale.sc]: 'https://discord.gg/RRRABMtHYj',
-        [Locale.en]: 'https://discord.gg/RRRABMtHYj',
+        [Locale.en]: 'https://discord.gg/tenkafumaen',
         [Locale.jp]: 'https://discord.gg/RRRABMtHYj',
         [Locale.kr]: 'https://discord.gg/RRRABMtHYj',
     }
