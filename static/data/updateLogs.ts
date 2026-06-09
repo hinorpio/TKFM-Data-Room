@@ -2,6 +2,22 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.8.0',
+        logs: [
+            {
+                type: LogType.FIX,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `PWA Bug`,
+                    [Locale.sc]: `PWA Bug`,
+                    [Locale.en]: `PWA Bug`,
+                    [Locale.jp]: `PWA Bug`,
+                    [Locale.kr]: `PWA Bug`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.7.13',
         logs: [
             {

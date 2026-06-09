@@ -1,12 +1,13 @@
 {
   "name": "tkfm-data-room",
-  "version": "beta 0.7.12",
+  "version": "beta 0.8.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "test:pwa": "node scripts/check-pwa-installability.mjs",
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint": "npm run lint:js",
     "lintfix": "npm run lint:js -- --fix"
