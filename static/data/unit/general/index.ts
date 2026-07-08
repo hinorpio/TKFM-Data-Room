@@ -477,7 +477,7 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.s_nanami]: General_10205,
     [UnitCode.legora]: General_10206,
     [UnitCode.se_noel]: General_10207,
-    [UnitCode.elsa]: General_10208,
+    [UnitCode.lilyelsa]: General_10208,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {

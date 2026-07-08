@@ -143,7 +143,7 @@ const SSR = {
         [ OUTFIT_22061_LV2 ],
         [ OUTFIT_22061_LV3 ],
     ],
-    [UnitCode.elsa]: [
+    [UnitCode.lilyelsa]: [
         [ OUTFIT_22081_LV1 ],
         [ OUTFIT_22081_LV2 ],
         [ OUTFIT_22081_LV3 ],

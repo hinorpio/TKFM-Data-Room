@@ -336,7 +336,7 @@ const SSR = {
     [UnitCode.s_nanami]: getUnitVoicePath('10205'),
     [UnitCode.legora]: getUnitVoicePath('10206'),
     [UnitCode.se_noel]: getUnitVoicePath('10207'),
-    [UnitCode.elsa]: getUnitVoicePath('10208'),
+    [UnitCode.lilyelsa]: getUnitVoicePath('10208'),
 }
 
 export const Voice = {
