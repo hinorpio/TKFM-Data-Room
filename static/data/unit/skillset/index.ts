@@ -475,7 +475,7 @@ const SSR: { [key in UnitCode]?: SkillSet[] } = {
     [UnitCode.s_nanami]: SkillSet_10205,
     [UnitCode.legora]: SkillSet_10206,
     [UnitCode.se_noel]: SkillSet_10207,
-    [UnitCode.elsa]: SkillSet_10208,
+    [UnitCode.lilyelsa]: SkillSet_10208,
 }
 
 export const UnitSkillSet: { [key in UnitCode]?: SkillSet[] } = {

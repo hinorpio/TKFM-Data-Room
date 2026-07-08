@@ -4,7 +4,7 @@ import { Unit } from '@/interface/unit';
 
 export const General_10208: Unit = {
     ID: "10208",
-    metaCode: "elsa",
+    metaCode: "lilyelsa",
     prefix: {
         [Locale.tc]: "精靈偶像",
         [Locale.sc]: "精灵偶像",
@@ -39,17 +39,17 @@ export const General_10208: Unit = {
     potential: PotentialType.ATTACK,
     isLimited: true,
     releaseDate: "2026/07/08",
-    essence: UnitEssence[UnitCode.elsa],
-    thumbnail: UnitEssence[UnitCode.elsa],
-    selection: UnitSelection[UnitCode.elsa],
-    clothes: UnitFullImage[UnitCode.elsa],
+    essence: UnitEssence[UnitCode.lilyelsa],
+    thumbnail: UnitEssence[UnitCode.lilyelsa],
+    selection: UnitSelection[UnitCode.lilyelsa],
+    clothes: UnitFullImage[UnitCode.lilyelsa],
     tagList: [],
     otherVersion: [],
     initHP: 3705.6,
     initATK: 996.8,
     puzzle: [],
-    outfits: UnitOutfits[UnitCode.elsa],
-    voiceSet: UnitVoice[UnitCode.elsa],
+    outfits: UnitOutfits[UnitCode.lilyelsa],
+    voiceSet: UnitVoice[UnitCode.lilyelsa],
     voiceException: [
         {
             version: 1,

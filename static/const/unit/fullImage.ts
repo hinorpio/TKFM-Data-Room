@@ -254,7 +254,7 @@ const SSR = {
     [UnitCode.s_nanami]: getUnitFullImagePath('10205'),
     [UnitCode.legora]: getUnitFullImagePath('10206'),
     [UnitCode.se_noel]: getUnitFullImagePath('10207'),
-    [UnitCode.elsa]: getUnitFullImagePath('10208'),
+    [UnitCode.lilyelsa]: getUnitFullImagePath('10208'),
 }
 
 export const FullImage = {
