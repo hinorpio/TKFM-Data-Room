@@ -229,7 +229,7 @@ const SSR = {
     [UnitCode.s_nanami]: getUnitDisplinePath('10205'),
     [UnitCode.legora]: getUnitDisplinePath('10206'),
     [UnitCode.se_noel]: getUnitDisplinePath('10207'),
-    [UnitCode.elsa]: getUnitDisplinePath('10208'),
+    [UnitCode.lilyelsa]: getUnitDisplinePath('10208'),
 }
 
 export const DisciplinePreview = {

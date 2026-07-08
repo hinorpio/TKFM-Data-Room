@@ -5,7 +5,7 @@ import { Discipline } from '@/interface/unit/discipline';
 
 export const Discipline_10208: Discipline[] = [
     {
-        preview: UnitDisciplinePreview[UnitCode.elsa][0],
+        preview: UnitDisciplinePreview[UnitCode.lilyelsa][0],
         name: {
             [Locale.tc]: `床上運動的直播唷！`,
             [Locale.sc]: `床上运动的直播唷！`,
@@ -15,7 +15,7 @@ export const Discipline_10208: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.elsa][1],
+        preview: UnitDisciplinePreview[UnitCode.lilyelsa][1],
         name: {
             [Locale.tc]: `和前輩討論直播方向喔！`,
             [Locale.sc]: `和前辈讨论直播方向喔！`,
@@ -25,7 +25,7 @@ export const Discipline_10208: Discipline[] = [
         },
     },
     {
-        preview: UnitDisciplinePreview[UnitCode.elsa][2],
+        preview: UnitDisciplinePreview[UnitCode.lilyelsa][2],
         name: {
             [Locale.tc]: `經紀人到家突襲了！`,
             [Locale.sc]: `经纪人到家突袭了！`,

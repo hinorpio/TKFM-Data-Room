@@ -422,7 +422,7 @@ const SSR: { [key in UnitCode]?: Discipline[] } = {
     [UnitCode.s_nanami]: Discipline_10205,
     [UnitCode.legora]: Discipline_10206,
     [UnitCode.se_noel]: Discipline_10207,
-    [UnitCode.elsa]: Discipline_10208,
+    [UnitCode.lilyelsa]: Discipline_10208,
 }
 
 export const UnitDiscipline: { [key in UnitCode]?: Discipline[] } = {
