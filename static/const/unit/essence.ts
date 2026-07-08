@@ -246,6 +246,8 @@ const SSR = {
     [UnitCode.s_britney]: getUnitEssencePath('10204'),
     [UnitCode.s_nanami]: getUnitEssencePath('10205'),
     [UnitCode.legora]: getUnitEssencePath('10206'),
+    [UnitCode.se_noel]: getUnitEssencePath('10207'),
+    [UnitCode.elsa]: getUnitEssencePath('10208'),
 }
 
 export const Essence = {
