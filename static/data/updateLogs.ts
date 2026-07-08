@@ -7,12 +7,12 @@ const events: UpdateLogs[] = [
             {
                 type: LogType.NEW,
                 group: LogGroup.UNIT,
-                unitList: [ UnitCode.se_noel, UnitCode.elsa ]
+                unitList: [ UnitCode.se_noel, UnitCode.lilyelsa ]
             },
             {
                 type: LogType.NEW,
                 group: LogGroup.OUTFIT,
-                unitList: [ UnitCode.elsa ]
+                unitList: [ UnitCode.lilyelsa ]
             },
             {
                 type: LogType.NEW,
