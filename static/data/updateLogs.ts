@@ -2,6 +2,22 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.8.2',
+        logs: [
+            {
+                type: LogType.FIX,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `機靈古怪 賽露西亞 解放技能內容問題`,
+                    [Locale.sc]: `机灵古怪 赛露西亚 解放技能内容问题`,
+                    [Locale.en]: `Halloween Queen Salucia Liberation Skill Issue`,
+                    [Locale.jp]: `おてんば セルシア 解放スキル内容の問題`,
+                    [Locale.kr]: `할로 퀸 살루시아 해방 스킬 내용 문제`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.8.1',
         logs: [
             {
