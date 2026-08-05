@@ -337,6 +337,8 @@ const SSR = {
     [UnitCode.legora]: getUnitVoicePath('10206'),
     [UnitCode.se_noel]: getUnitVoicePath('10207'),
     [UnitCode.lilyelsa]: getUnitVoicePath('10208'),
+    [UnitCode.w_noma]: getUnitVoicePath('10209'),
+    [UnitCode.ciel]: getUnitVoicePath('10210'),
 }
 
 export const Voice = {

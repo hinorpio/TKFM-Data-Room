@@ -255,6 +255,8 @@ const SSR = {
     [UnitCode.legora]: getUnitFullImagePath('10206'),
     [UnitCode.se_noel]: getUnitFullImagePath('10207'),
     [UnitCode.lilyelsa]: getUnitFullImagePath('10208'),
+    [UnitCode.w_noma]: getUnitFullImagePath('10209'),
+    [UnitCode.ciel]: getUnitFullImagePath('10210'),
 }
 
 export const FullImage = {
