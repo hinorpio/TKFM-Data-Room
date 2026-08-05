@@ -643,4 +643,6 @@ export enum UnitCode {
     legora = 'SSR-177',
     se_noel = 'SSR-178',
     lilyelsa = 'SSR-179',
+    w_noma = 'SSR-180',
+    ciel = 'SSR-181',
 }
