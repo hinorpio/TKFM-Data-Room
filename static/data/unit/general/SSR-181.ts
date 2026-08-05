@@ -20,9 +20,9 @@ export const General_10210: Unit = {
         [Locale.kr]: "시엘"
     },
     abbreviation: {
-        [Locale.tc]: [],
-        [Locale.sc]: [],
-        [Locale.en]: [],
+        [Locale.tc]: [ "福瑞" ],
+        [Locale.sc]: [ "福瑞" ],
+        [Locale.en]: [ "Furry" ],
         [Locale.jp]: [],
         [Locale.kr]: []
     },
