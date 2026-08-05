@@ -248,6 +248,8 @@ const SSR = {
     [UnitCode.legora]: getUnitSelectionPath('10206'),
     [UnitCode.se_noel]: getUnitSelectionPath('10207'),
     [UnitCode.lilyelsa]: getUnitSelectionPath('10208'),
+    [UnitCode.w_noma]: getUnitSelectionPath('10209'),
+    [UnitCode.ciel]: getUnitSelectionPath('10210'),
 }
 
 export const Selection = {

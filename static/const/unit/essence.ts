@@ -248,6 +248,8 @@ const SSR = {
     [UnitCode.legora]: getUnitEssencePath('10206'),
     [UnitCode.se_noel]: getUnitEssencePath('10207'),
     [UnitCode.lilyelsa]: getUnitEssencePath('10208'),
+    [UnitCode.w_noma]: getUnitEssencePath('10209'),
+    [UnitCode.ciel]: getUnitEssencePath('10210'),
 }
 
 export const Essence = {
