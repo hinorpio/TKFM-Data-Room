@@ -230,6 +230,8 @@ const SSR = {
     [UnitCode.legora]: getUnitDisplinePath('10206'),
     [UnitCode.se_noel]: getUnitDisplinePath('10207'),
     [UnitCode.lilyelsa]: getUnitDisplinePath('10208'),
+    [UnitCode.w_noma]: getUnitDisplinePath('10209'),
+    [UnitCode.ciel]: getUnitDisplinePath('10210'),
 }
 
 export const DisciplinePreview = {
