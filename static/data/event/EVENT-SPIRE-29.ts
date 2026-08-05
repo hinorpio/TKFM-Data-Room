@@ -2,18 +2,18 @@ import { Event } from '@/interface/event';
 import { Locale, EventType, UnitCode } from '@/plugins/utils/enums';
 import { EventBanner, EventTypeColor } from '~/static/const';
 
-const EVENT_0219: Event = {
-    code: '0219',
+const EVENT_SPIRE_29: Event = {
+    code: 'SPIRE_29',
     type: EventType.SPIRE,
-    startDate: '2026/04/15',
-    endDate: '2026/07/15',
+    startDate: '2026/07/15',
+    endDate: '2026/10/14',
     color: EventTypeColor.SPIRE,
     name: {
-        [Locale.tc]: `【魔獄塔】第二十八季`,
-        [Locale.sc]: `【魔狱塔】第二十八季`,
-        [Locale.en]: `[The Demon Spire] Season 28`,
-        [Locale.jp]: `「魔獄塔」第28シーズン`,
-        [Locale.kr]: `【마옥탑】 제28시즌`
+        [Locale.tc]: `【魔獄塔】第二十九季`,
+        [Locale.sc]: `【魔狱塔】第二十九季`,
+        [Locale.en]: `[The Demon Spire] Season 29`,
+        [Locale.jp]: `「魔獄塔」第29シーズン`,
+        [Locale.kr]: `【마옥탑】 제29시즌`
     },
     description: {
         [Locale.tc]: ``,
@@ -31,4 +31,4 @@ const EVENT_0219: Event = {
     returnFrom: null
 }
 
-export default EVENT_0219
+export default EVENT_SPIRE_29
