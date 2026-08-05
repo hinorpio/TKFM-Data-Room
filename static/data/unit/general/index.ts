@@ -234,6 +234,8 @@ import { General_10205 } from "./SSR-176";
 import { General_10206 } from "./SSR-177";
 import { General_10207 } from "./SSR-178";
 import { General_10208 } from "./SSR-179";
+import { General_10209 } from "./SSR-180";
+import { General_10210 } from "./SSR-181";
 
 
 const N: { [key in UnitCode]?: Unit } = {
@@ -478,6 +480,8 @@ const SSR: { [key in UnitCode]?: Unit } = {
     [UnitCode.legora]: General_10206,
     [UnitCode.se_noel]: General_10207,
     [UnitCode.lilyelsa]: General_10208,
+    [UnitCode.w_noma]: General_10209,
+    [UnitCode.ciel]: General_10210,
 }
 
 export const UnitGeneral: { [key in UnitCode]?: Unit } = {
