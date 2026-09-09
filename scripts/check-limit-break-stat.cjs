@@ -206,6 +206,11 @@ function nodes(node) { return node?.type === 1 ? [node, ...node.children.flatMap
 function textContent(node) { return node.type === 1 ? node.children.map(textContent).join('') : node.text ?? ''; }
 const renderedNodes = html => nodes(compiler.compile(html, { whitespace: 'preserve' }).ast);
 const byID = (list, id) => list.find(node => node.attrsMap.id === id);
+function column(node) {
+    while (node && !/(^|\s)col(?:-|\s|$)/.test(node.attrsMap.class ?? '')) node = node.parent;
+    assert.ok(node, 'Control belongs to a grid column');
+    return node;
+}
 
 async function checkCalculatorUI() {
     const current = observable(General.getInitStatGroup(unit));
@@ -218,6 +223,28 @@ async function checkCalculatorUI() {
     assert.ok(!byID(renderedNodes(await renderer.renderToString(currentBox)), 'limit-break-current-elv'));
     assert.deepEqual(targetBox.limitBreakLevelOptions, Array.from({length:21},(_,i)=>i));
 
+    for (const [component, eligible] of [[currentBox, false], [targetBox, true]]) {
+        const list = renderedNodes(await renderer.renderToString(component));
+        const potential = column(list.find(node => node.tag === 'label' && textContent(node).trim() === i18n.t('Potential')));
+        const buttons = list.filter(node => node.tag === 'button' && [i18n.t('Min'), i18n.t('Max')].includes(textContent(node).trim()));
+        assert.equal(buttons.length, 2, 'One Min/Max pair');
+        const actions = column(buttons[0]);
+        assert.equal(column(buttons[1]), actions);
+        assert.equal(actions.parent, potential.parent);
+        assert.ok(actions.attrsMap.class.includes('col-md-12'), 'Preserve original Min/Max md stacking');
+        for (const size of ['sm', 'md', 'lg'])
+            assert.ok(potential.attrsMap.class.includes(`col-${size}-${size === 'md' && !eligible ? 12 : 6}`), 'Potential retains hidden-state widths and shares eligible row equally');
+        for (const size of ['sm', 'lg', 'xl'])
+            assert.ok(actions.attrsMap.class.includes(`col-${size}-${eligible ? 12 : 6}`), 'Min/Max moves to a full-width row only when ELv is shown');
+        if (eligible) {
+            const elv = column(byID(list, 'limit-break-target-elv'));
+            assert.equal(elv.parent, potential.parent, 'Potential and ELv share a row');
+            assert.ok(list.indexOf(potential) < list.indexOf(elv) && list.indexOf(elv) < list.indexOf(actions));
+            for (const size of ['sm', 'md', 'lg']) assert.ok(elv.attrsMap.class.includes(`col-${size}-6`));
+            assert.equal(column(byID(list, 'limit-break-target-groups')), elv, 'ELv purchases sit beneath their selector');
+        } else assert.ok(list.indexOf(potential) < list.indexOf(actions));
+    }
+
     for (const locale of locales) {
         i18n.locale = locale;
         for (const key of ['elv','groups','groupCost']) assert.equal(typeof messages[locale].limitBreak[key], 'string');
@@ -227,18 +254,18 @@ async function checkCalculatorUI() {
             && textContent(node).trim() === messages[locale].limitBreak.elv));
         const fieldset = byID(list, 'limit-break-target-groups');
         assert.equal(fieldset.tag, 'fieldset');
-        assert.equal(textContent(nodes(fieldset).find(node => node.tag === 'legend')).trim(), messages[locale].limitBreak.groups);
-        assert.equal(nodes(fieldset).filter(node => node.tag === 'input' && node.attrsMap.type === 'checkbox').length, 4);
+        assert.equal(fieldset.attrsMap['aria-label'], messages[locale].limitBreak.groups);
+        assert.equal(textContent(fieldset).trim(), '', 'Group heading and long purchase labels are not visible');
+        const checkboxes = nodes(fieldset).filter(node => node.tag === 'input' && node.attrsMap.type === 'checkbox');
+        assert.deepEqual(checkboxes.map(node => node.attrsMap.id), limitBreakGroups.map(group => `limit-break-target-${group.key}`));
+        assert.ok(nodes(fieldset).some(node => /\bml-8\b/.test(node.attrsMap.class ?? '') && /\brow\b/.test(node.attrsMap.class ?? '')), 'Compact checkbox row uses potential spacing');
         limitBreakGroups.forEach(group => {
             const id = `limit-break-target-${group.key}`;
-            const label = list.find(node => node.tag === 'label' && node.attrsMap.for === id);
-            assert.equal(textContent(label).trim(), String(i18n.t('limitBreak.groupCost', {
+            assert.equal(byID(list, id).attrsMap['aria-label'], String(i18n.t('limitBreak.groupCost', {
                 group: i18n.t(`limitBreak.${group.key}`), elv: group.gate, flowers: group.flowers })));
             assert.ok('disabled' in byID(list, id).attrsMap);
         });
         assert.ok(!nodes(fieldset).some(node => node.attrsMap.role === 'switch'), 'No common-stat switch');
-        const potentialLabel = list.find(node => node.tag === 'label' && textContent(node).trim() === i18n.t('Potential'));
-        assert.ok(list.indexOf(fieldset) < list.indexOf(potentialLabel), 'ELv row before potential');
     }
 
     for (const [below, gate] of [[4,5],[9,10],[14,15],[19,20]]) {

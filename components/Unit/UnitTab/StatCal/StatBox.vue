@@ -62,28 +62,7 @@
                                     </template>
                                 </v-select>
                             </v-col>
-                            <v-col v-if="isLimitBreakEligible" cols="12" class="pa-0">
-                                <v-row class="mx-0">
-                                    <v-col class="py-1" cols="12" lg="6" md="12" sm="6">
-                                        <v-select :id="limitBreakId + '-elv'" v-model="stat.limitBreak.elv" :items="limitBreakLevelOptions" :label="$t('limitBreak.elv')" color="deep-purple lighten-2" dense outlined :append-icon="''">
-                                            <template v-slot:prepend>
-                                                <v-icon color="deep-purple lighten-2" aria-hidden="true">mdi-creation</v-icon>
-                                            </template>
-                                        </v-select>
-                                    </v-col>
-                                    <v-col class="py-1" cols="12" lg="6" md="12" sm="6">
-                                        <fieldset :id="limitBreakId + '-groups'" class="limit-break-groups">
-                                            <legend class="body-1 white--text">{{ $t('limitBreak.groups') }}</legend>
-                                            <v-checkbox v-for="(group, index) in limitBreakGroups" :key="group.key"
-                                                :id="limitBreakId + '-' + group.key" v-model="stat.limitBreak.groups[index]"
-                                                :label="$t('limitBreak.groupCost', { group: $t('limitBreak.' + group.key), elv: group.gate, flowers: group.flowers })"
-                                                :disabled="stat.limitBreak.elv < group.gate || (type === 'TARGET' && ownedLimitBreak.groups[index])"
-                                                color="deep-purple lighten-2" dense hide-details class="mt-1" />
-                                        </fieldset>
-                                    </v-col>
-                                </v-row>
-                            </v-col>
-                            <v-col class="py-1" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
+                            <v-col class="py-1" :cols="12" :xl="6" :lg="6" :md="isLimitBreakEligible ? 6 : 12" :sm="6" :xs="12">
                                 <v-select :items="potLevelOptions" v-model="stat.pot.level" :label="$t('Potential')" dense outlined :append-icon="''">
                                     <template v-slot:prepend>
                                         <v-icon color="deep-purple">mdi-pot-steam</v-icon>
@@ -93,7 +72,23 @@
                                     <v-checkbox v-for="(slot, index) in 6" :key="index" v-model="stat.pot.slot[index]" :color="checkBoxColor(index)" :disabled="handleCheckBoxDisabled(index)" dense hide-details ></v-checkbox>
                                 </v-row>
                             </v-col>
-                            <v-col class="py-4" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
+                            <v-col v-if="isLimitBreakEligible" class="py-1" :cols="12" :xl="6" :lg="6" :md="6" :sm="6" :xs="12">
+                                <v-select :id="limitBreakId + '-elv'" v-model="stat.limitBreak.elv" :items="limitBreakLevelOptions" :label="$t('limitBreak.elv')" color="deep-purple lighten-2" dense outlined :append-icon="''">
+                                    <template v-slot:prepend>
+                                        <v-icon color="deep-purple lighten-2" aria-hidden="true">mdi-creation</v-icon>
+                                    </template>
+                                </v-select>
+                                <fieldset :id="limitBreakId + '-groups'" :aria-label="$t('limitBreak.groups')" class="limit-break-groups">
+                                    <v-row class="ml-8 flex-nowrap">
+                                        <v-checkbox v-for="(group, index) in limitBreakGroups" :key="group.key"
+                                            :id="limitBreakId + '-' + group.key" v-model="stat.limitBreak.groups[index]"
+                                            :aria-label="$t('limitBreak.groupCost', { group: $t('limitBreak.' + group.key), elv: group.gate, flowers: group.flowers })"
+                                            :disabled="stat.limitBreak.elv < group.gate || (type === 'TARGET' && ownedLimitBreak.groups[index])"
+                                            color="deep-purple lighten-2" dense hide-details />
+                                    </v-row>
+                                </fieldset>
+                            </v-col>
+                            <v-col class="py-4" :cols="12" :xl="isLimitBreakEligible ? 12 : 6" :lg="isLimitBreakEligible ? 12 : 6" :md="12" :sm="isLimitBreakEligible ? 12 : 6" :xs="12">
                                 <v-row class="mt-2 pr-6">
                                     <v-spacer></v-spacer>
                                     <v-btn class="mr-2" @click="getMinStat">
@@ -264,9 +259,8 @@ export default class StatBox extends Vue {
 .limit-break-groups
     border: 0
     min-width: 0
+    margin: 0
     padding: 0
-    ::v-deep label
-        overflow-wrap: anywhere
 .pot-indicator
     display: inline-block
     position: relative
