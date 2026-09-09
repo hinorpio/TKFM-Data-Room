@@ -645,4 +645,7 @@ export enum UnitCode {
     lilyelsa = 'SSR-179',
     w_noma = 'SSR-180',
     ciel = 'SSR-181',
+    calibur = 'SSR-182',
+    vita = 'SSR-183',
+    fujihana = 'SSR-184',
 }
