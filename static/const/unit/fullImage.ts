@@ -257,6 +257,9 @@ const SSR = {
     [UnitCode.lilyelsa]: getUnitFullImagePath('10208'),
     [UnitCode.w_noma]: getUnitFullImagePath('10209'),
     [UnitCode.ciel]: getUnitFullImagePath('10210'),
+    [UnitCode.calibur]: getUnitFullImagePath('10211'),
+    [UnitCode.vita]: getUnitFullImagePath('10212'),
+    [UnitCode.fujihana]: getUnitFullImagePath('10213'),
 }
 
 export const FullImage = {
