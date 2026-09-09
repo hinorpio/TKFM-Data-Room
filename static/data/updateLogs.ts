@@ -2,6 +2,33 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.9.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `新增角色「限界突破」頁籤，顯示各角色的四組詞條選項。`,
+                    [Locale.sc]: `新增角色“限界突破”页签，显示各角色的四组词条选项。`,
+                    [Locale.en]: `Added a Quantum Leap tab showing each character's four groups of trait options.`,
+                    [Locale.jp]: `キャラに応じた4グループの特性候補を表示する「限界突破」タブを追加。`,
+                    [Locale.kr]: `캐릭터별 4개 그룹의 특성 선택지를 확인할 수 있는 「한계 돌파」 탭 추가.`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `數值計算器支援 ELv 的 HP/ATK 加成及限界突破所需材料計算。`,
+                    [Locale.sc]: `数值计算器支持 ELv 的 HP/ATK 加成及限界突破所需材料计算。`,
+                    [Locale.en]: `Updated the stat calculator to include ELv HP/ATK bonuses and Quantum Leap material costs.`,
+                    [Locale.jp]: `ステータス計算機がELvによるHP・ATK補正と限界突破の必要素材数に対応。`,
+                    [Locale.kr]: `능력치 계산기에 ELv에 따른 HP/ATK 증가량과 한계 돌파 필요 재료 계산 추가.`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.8.4',
         logs: [
             {
