@@ -233,14 +233,14 @@ async function checkCalculatorUI() {
         assert.equal(actions.parent, potential.parent);
         assert.ok(actions.attrsMap.class.includes('col-md-12'), 'Preserve original Min/Max md stacking');
         for (const size of ['sm', 'md', 'lg'])
-            assert.ok(potential.attrsMap.class.includes(`col-${size}-${size === 'md' && !eligible ? 12 : 6}`), 'Potential retains hidden-state widths and shares eligible row equally');
+            assert.ok(potential.attrsMap.class.includes(`col-${size}-${size === 'md' ? 12 : 6}`), 'Potential follows the current grid, stacking at md');
         for (const size of ['sm', 'lg', 'xl'])
             assert.ok(actions.attrsMap.class.includes(`col-${size}-${eligible ? 12 : 6}`), 'Min/Max moves to a full-width row only when ELv is shown');
         if (eligible) {
             const elv = column(byID(list, 'limit-break-target-elv'));
             assert.equal(elv.parent, potential.parent, 'Potential and ELv share a row');
             assert.ok(list.indexOf(potential) < list.indexOf(elv) && list.indexOf(elv) < list.indexOf(actions));
-            for (const size of ['sm', 'md', 'lg']) assert.ok(elv.attrsMap.class.includes(`col-${size}-6`));
+            for (const size of ['sm', 'md', 'lg']) assert.ok(elv.attrsMap.class.includes(`col-${size}-${size === 'md' ? 12 : 6}`));
             assert.equal(column(byID(list, 'limit-break-target-groups')), elv, 'ELv purchases sit beneath their selector');
         } else assert.ok(list.indexOf(potential) < list.indexOf(actions));
     }
