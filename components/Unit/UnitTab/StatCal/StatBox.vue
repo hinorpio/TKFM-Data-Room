@@ -62,7 +62,7 @@
                                     </template>
                                 </v-select>
                             </v-col>
-                            <v-col class="py-1" :cols="12" :xl="6" :lg="6" :md="isLimitBreakEligible ? 6 : 12" :sm="6" :xs="12">
+                            <v-col class="py-1" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
                                 <v-select :items="potLevelOptions" v-model="stat.pot.level" :label="$t('Potential')" dense outlined :append-icon="''">
                                     <template v-slot:prepend>
                                         <v-icon color="deep-purple">mdi-pot-steam</v-icon>
@@ -72,7 +72,7 @@
                                     <v-checkbox v-for="(slot, index) in 6" :key="index" v-model="stat.pot.slot[index]" :color="checkBoxColor(index)" :disabled="handleCheckBoxDisabled(index)" dense hide-details ></v-checkbox>
                                 </v-row>
                             </v-col>
-                            <v-col v-if="isLimitBreakEligible" class="py-1" :cols="12" :xl="6" :lg="6" :md="6" :sm="6" :xs="12">
+                            <v-col v-if="isLimitBreakEligible" class="py-1" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
                                 <v-select :id="limitBreakId + '-elv'" v-model="stat.limitBreak.elv" :items="limitBreakLevelOptions" :label="$t('limitBreak.elv')" color="deep-purple lighten-2" dense outlined :append-icon="''">
                                     <template v-slot:prepend>
                                         <v-icon color="deep-purple lighten-2" aria-hidden="true">mdi-creation</v-icon>
