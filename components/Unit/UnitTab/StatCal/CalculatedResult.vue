@@ -43,6 +43,7 @@
             <lib-result v-if="libSummary.summary.length > 0" :libSummary="libSummary" />
             <star-result v-if="starSummary.summary.length > 0" :starSummary="starSummary" />
             <room-result v-if="roomSummary.summary.length > 0" :roomSummary="showRoomItem" :roomItemLevel="roomItemLevel" />
+            <limit-break-result v-if="limitBreakSummary.summary.length > 0" :limitBreakSummary="limitBreakSummary" />
             <pot-result v-if="potSummary.summary.length > 0" :potSummary="potSummary"/>
         </div>
 
@@ -58,11 +59,13 @@ import { CalculatedLibSummary } from "~/interface/stat/lib";
 import { CalculatedStarSummary } from "~/interface/stat/star";
 import { CalculatedRoomSummary } from "~/interface/stat/room";
 import { CalculatedPotSummary } from "~/interface/stat/potential";
+import { CalculatedLimitBreakSummary } from "~/interface/stat/limitBreak";
 import LevelResult from "./ResultBox/LevelResult.vue";
 import LibResult from "./ResultBox/LibResult.vue";
 import StarResult from "./ResultBox/StarResult.vue";
 import RoomResult from "./ResultBox/RoomResult.vue";
 import PotResult from "./ResultBox/PotResult.vue";
+import LimitBreakResult from "./ResultBox/LimitBreakResult.vue";
 import TotalResult from "./ResultBox/TotalResult.vue";
 
 
@@ -73,6 +76,7 @@ import TotalResult from "./ResultBox/TotalResult.vue";
         StarResult,
         RoomResult,
         PotResult,
+        LimitBreakResult,
         TotalResult
     }
 })
@@ -91,6 +95,9 @@ export default class CalculateResult extends Vue {
 
     @Prop({ type: Object, required: true, default: {} })
     potSummary!: CalculatedPotSummary;
+
+    @Prop({ type: Object, required: true })
+    limitBreakSummary!: CalculatedLimitBreakSummary;
 
     @Prop({ type: Boolean, required: true, default: false })
     showTotal!: boolean;
@@ -187,6 +194,14 @@ export default class CalculateResult extends Vue {
                 existing.quantity = (existing.quantity as number) + (roomItem.quantity as number)
             else
                 result.push({ code: roomItem.code, quantity: roomItem.quantity });
+        }
+
+        for(const limitBreakItem of this.limitBreakSummary.summary){
+            const existing = result.find(s => s.code === limitBreakItem.code);
+            if(existing)
+                existing.quantity = (existing.quantity as number) + (limitBreakItem.quantity as number)
+            else
+                result.push({ code: limitBreakItem.code, quantity: limitBreakItem.quantity });
         }
 
         return result

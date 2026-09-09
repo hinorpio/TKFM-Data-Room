@@ -88,4 +88,8 @@ export const Icon = {
     [ItemCode.EXP_LV2]: getItemIconPath('IP21002'),
     [ItemCode.EXP_LV3]: getItemIconPath('IP21003'),
     [ItemCode.EXP_LV4]: getItemIconPath('IP21004'),
+    [ItemCode.WORLD_TREE_PETAL]: `${cdnURL}/general/world_tree_petal.png`,
+    [ItemCode.WORLD_TREE_FLOWER]: `${cdnURL}/general/world_tree_flower.png`,
+    [ItemCode.MEMORY_CRYSTAL]: `${cdnURL}/general/memory_crystal.png`,
+    [ItemCode.QUANTUM_LEAP_POTION]: `${cdnURL}/general/quantum_leap_potion.png`,
 }

@@ -1,5 +1,6 @@
 import { Unit, StatGroup } from '@/interface/unit';
 import PotentialService from './Potential';
+import LimitBreakService from './LimitBreak';
 import { log } from 'console';
 
 export default {
@@ -14,6 +15,7 @@ export default {
             star: (unit.rarity == 'SSR')? 3 :(unit.rarity == 'SR')? 2 :(unit.rarity == 'R')? 1 :0,
             room: (unit.discipline != undefined && unit.discipline?.length > 0) ? 0 : null,
             pot: { level: 1, slot: [false, false, false, false, false, false] },
+            limitBreak: { elv: 0, groups: [false, false, false, false] },
             lib: (unit.liberateSkillSet != undefined && unit.liberateSkillSet?.length > 0) ? 0 : null
         }
     },
@@ -30,7 +32,7 @@ export default {
         ).statSummary.find(f => f.code == type)?.value ?? 0) / 100);
 
         const buffBase = (type == 'HP')?stat.initHP :stat.initATK
-        return Math.floor(buffBase * levelBuff * libBuff * starBuff * roomBuff * potBuff)
+        return Math.floor(buffBase * levelBuff * libBuff * starBuff * roomBuff * potBuff * LimitBreakService.getLimitBreakStatMultiplier(stat, type))
     },
     getInitStatus(value: number): number {
         let result = value / Math.pow(1.1, 59)

@@ -3,6 +3,7 @@
         <v-tabs v-model="activeTab" background-color="transparent" show-arrows>
             <v-tab>{{$t('General Information')}}</v-tab>
             <v-tab>{{$t('Skill Set')}}</v-tab>
+            <v-tab id="unit-limit-break-tab" aria-controls="unit-limit-break-panel">{{$t('limitBreak.title')}}</v-tab>
             <v-tab v-if="isLiberate">{{$t('Liberation')}}</v-tab>
             <!-- <v-tab>{{$t('Potential Calculator')}}</v-tab> -->
             <v-tab>{{$t('Stat Calculator')}}</v-tab>
@@ -18,6 +19,9 @@
             </v-tab-item>
             <v-tab-item>
                 <skill-set-tab :unit="unit" />
+            </v-tab-item>
+            <v-tab-item>
+                <limit-break-tab :unit="unit" />
             </v-tab-item>
             <v-tab-item v-if="isLiberate">
                 <liberation-tab :unit="unit" />
@@ -51,6 +55,7 @@ import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
 import GeneralTab from './GeneralTab.vue';
 import SkillSetTab from './SkillSetTab.vue';
+import LimitBreakTab from './LimitBreakTab.vue';
 import LiberationTab from './LiberationTab.vue';
 import DisciplineTab from './DisciplineTab.vue';
 import PotentialTab from './PotentialTab.vue';
@@ -65,6 +70,7 @@ import { Unit } from '@/interface/unit'
     components: {
         GeneralTab,
         SkillSetTab,
+        LimitBreakTab,
         LiberationTab,
         DisciplineTab,
         PotentialTab,

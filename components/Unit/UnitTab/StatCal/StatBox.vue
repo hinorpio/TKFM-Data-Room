@@ -72,7 +72,23 @@
                                     <v-checkbox v-for="(slot, index) in 6" :key="index" v-model="stat.pot.slot[index]" :color="checkBoxColor(index)" :disabled="handleCheckBoxDisabled(index)" dense hide-details ></v-checkbox>
                                 </v-row>
                             </v-col>
-                            <v-col class="py-4" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
+                            <v-col v-if="isLimitBreakEligible" class="py-1 pt-2 pt-sm-1 pt-md-2 pt-lg-1" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
+                                <v-select :id="limitBreakId + '-elv'" v-model="stat.limitBreak.elv" :items="limitBreakLevelOptions" :label="$t('limitBreak.elv')" color="deep-purple lighten-2" dense outlined :append-icon="''">
+                                    <template v-slot:prepend>
+                                        <v-icon color="deep-purple lighten-2" aria-hidden="true">mdi-creation</v-icon>
+                                    </template>
+                                </v-select>
+                                <fieldset :id="limitBreakId + '-groups'" :aria-label="$t('limitBreak.groups')" class="limit-break-groups">
+                                    <v-row class="ml-8 flex-nowrap">
+                                        <v-checkbox v-for="(group, index) in limitBreakGroups" :key="group.key"
+                                            :id="limitBreakId + '-' + group.key" v-model="stat.limitBreak.groups[index]"
+                                            :aria-label="$t('limitBreak.groupCost', { group: $t('limitBreak.' + group.key), elv: group.gate, flowers: group.flowers })"
+                                            :disabled="stat.limitBreak.elv < group.gate || (type === 'TARGET' && ownedLimitBreak.groups[index])"
+                                            color="deep-purple lighten-2" dense hide-details />
+                                    </v-row>
+                                </fieldset>
+                            </v-col>
+                            <v-col class="py-4" :cols="12" :xl="isLimitBreakEligible ? 12 : 6" :lg="isLimitBreakEligible ? 12 : 6" :md="12" :sm="isLimitBreakEligible ? 12 : 6" :xs="12">
                                 <v-row class="mt-2 pr-6">
                                     <v-spacer></v-spacer>
                                     <v-btn class="mr-2" @click="getMinStat">
@@ -99,6 +115,8 @@ import { Component, Prop, Watch } from "vue-property-decorator";
 import { Potential, PotentialSelectGroup } from '~/interface/stat/potential'
 import { StatGroup, Unit } from "~/interface/unit";
 import { Rarity } from "~/plugins/utils/enums";
+import { limitBreakGroups, limitBreakLevels } from '@/static/data/stat/limitBreak';
+import { LimitBreakState } from '@/interface/stat/limitBreak';
 
 @Component
 export default class StatBox extends Vue {
@@ -135,6 +153,24 @@ export default class StatBox extends Vue {
 
     isMounted: boolean = false;
     showDetail: boolean = true;
+    limitBreakGroups = limitBreakGroups;
+
+    get limitBreakId(): string {
+        return `limit-break-${this.type.toLowerCase()}`;
+    }
+
+    get isLimitBreakEligible(): boolean {
+        return this.$util.isLimitBreakEligible(this.stat);
+    }
+
+    get ownedLimitBreak(): LimitBreakState {
+        return this.$util.getNormalizedLimitBreak(this.compareStat);
+    }
+
+    get limitBreakLevelOptions(): number[] {
+        const minimum = this.type === 'TARGET' ? this.ownedLimitBreak.elv : 0;
+        return limitBreakLevels.map(level => level.elv).filter(elv => elv >= minimum);
+    }
 
     toggleShowDetail(): void {
         this.showDetail = !this.showDetail;
@@ -193,12 +229,14 @@ export default class StatBox extends Vue {
                 level: 1,
                 slot: [false, false, false, false, false, false]
             }
+            this.stat.limitBreak = { elv: 0, groups: [false, false, false, false] };
         }else{
             this.stat.level = this.compareStat.level
             this.stat.lib = (!this.noLib)?this.compareStat.lib :null;
             this.stat.star = this.compareStat.star
             this.stat.room = (!this.noRoom)?this.compareStat.room :null;
             this.stat.pot = this.$util.deepClone(this.compareStat.pot)
+            this.stat.limitBreak = this.$util.getNormalizedLimitBreak(this.compareStat);
         }
     }
 
@@ -211,12 +249,18 @@ export default class StatBox extends Vue {
             level: this.potLevelOptions[this.potLevelOptions.length - 1],
             slot: [true, true, true, true, true, true]
         }
+        this.stat.limitBreak = { elv: 20, groups: [true, true, true, true] };
     }
 
 
 }
 </script>
 <style lang="sass" scoped>
+.limit-break-groups
+    border: 0
+    min-width: 0
+    margin: 0
+    padding: 0
 .pot-indicator
     display: inline-block
     position: relative
