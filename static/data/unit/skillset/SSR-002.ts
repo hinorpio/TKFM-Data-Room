@@ -63,7 +63,7 @@ export const SkillSet_10002: SkillSet[] =  [
                     description: `使自身防禦時的減傷效果增加10%%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
@@ -117,7 +117,7 @@ export const SkillSet_10002: SkillSet[] =  [
                     description: `使自身防御时的减伤效果增加10%%`
                 },
                 [SkillType.GENERAL_2]: {
-                    name: `免疫沉默`,
+                    name: `免疫睡眠`,
                     description: `使自身免疫睡眠`
                 }
             },
