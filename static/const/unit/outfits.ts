@@ -53,6 +53,15 @@ const OUTFIT_22061_LV3 = `${cdnURL}/character/outfit/22061-Lv3.png`
 const OUTFIT_22081_LV1 = `${cdnURL}/character/outfit/22081-Lv1.png`
 const OUTFIT_22081_LV2 = `${cdnURL}/character/outfit/22081-Lv2.png`
 const OUTFIT_22081_LV3 = `${cdnURL}/character/outfit/22081-Lv3.png`
+const OUTFIT_22111_LV1 = `${cdnURL}/character/outfit/22111-Lv1.png`
+const OUTFIT_22111_LV2 = `${cdnURL}/character/outfit/22111-Lv2.png`
+const OUTFIT_22111_LV3 = `${cdnURL}/character/outfit/22111-Lv3.png`
+const OUTFIT_22121_LV1 = `${cdnURL}/character/outfit/22121-Lv1.png`
+const OUTFIT_22121_LV2 = `${cdnURL}/character/outfit/22121-Lv2.png`
+const OUTFIT_22121_LV3 = `${cdnURL}/character/outfit/22121-Lv3.png`
+const OUTFIT_22131_LV1 = `${cdnURL}/character/outfit/22131-Lv1.png`
+const OUTFIT_22131_LV2 = `${cdnURL}/character/outfit/22131-Lv2.png`
+const OUTFIT_22131_LV3 = `${cdnURL}/character/outfit/22131-Lv3.png`
 const OUTFIT_28021_LV1 = `${cdnURL}/character/outfit/28021-Lv1.png`
 const OUTFIT_28021_LV2 = `${cdnURL}/character/outfit/28021-Lv2.png`
 const OUTFIT_28021_LV3 = `${cdnURL}/character/outfit/28021-Lv3.png`
@@ -147,6 +156,21 @@ const SSR = {
         [ OUTFIT_22081_LV1 ],
         [ OUTFIT_22081_LV2 ],
         [ OUTFIT_22081_LV3 ],
+    ],
+    [UnitCode.calibur]: [
+        [ OUTFIT_22111_LV1 ],
+        [ OUTFIT_22111_LV2 ],
+        [ OUTFIT_22111_LV3 ],
+    ],
+    [UnitCode.vita]: [
+        [ OUTFIT_22121_LV1 ],
+        [ OUTFIT_22121_LV2 ],
+        [ OUTFIT_22121_LV3 ],
+    ],
+    [UnitCode.fujihana]: [
+        [ OUTFIT_22131_LV1 ],
+        [ OUTFIT_22131_LV2 ],
+        [ OUTFIT_22131_LV3 ],
     ]
 }
 
