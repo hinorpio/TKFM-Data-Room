@@ -72,7 +72,7 @@
                                     <v-checkbox v-for="(slot, index) in 6" :key="index" v-model="stat.pot.slot[index]" :color="checkBoxColor(index)" :disabled="handleCheckBoxDisabled(index)" dense hide-details ></v-checkbox>
                                 </v-row>
                             </v-col>
-                            <v-col v-if="isLimitBreakEligible" class="py-1" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
+                            <v-col v-if="isLimitBreakEligible" class="py-1 pt-2 pt-sm-1 pt-md-2 pt-lg-1" :cols="12" :xl="6" :lg="6" :md="12" :sm="6" :xs="12">
                                 <v-select :id="limitBreakId + '-elv'" v-model="stat.limitBreak.elv" :items="limitBreakLevelOptions" :label="$t('limitBreak.elv')" color="deep-purple lighten-2" dense outlined :append-icon="''">
                                     <template v-slot:prepend>
                                         <v-icon color="deep-purple lighten-2" aria-hidden="true">mdi-creation</v-icon>
