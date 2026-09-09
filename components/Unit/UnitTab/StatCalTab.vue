@@ -92,6 +92,7 @@ export default class StatCalTab extends Vue {
             star: (unit.rarity == 'SSR')? 3 :(unit.rarity == 'SR')? 2 :(unit.rarity == 'R')? 1 :0,
             room: (unit.discipline != undefined && unit.discipline?.length > 0) ? 0 : null,
             pot: { level: 1, slot: [false, false, false, false, false, false] },
+            limitBreak: { elv: 0, groups: [false, false, false, false] },
             lib: (unit.liberateSkillSet != undefined && unit.liberateSkillSet?.length > 0) ? 0 : null
         }
     }

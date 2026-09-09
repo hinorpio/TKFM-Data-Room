@@ -1111,6 +1111,19 @@ const items: Item[] = [
             kr: "기억의 보주"
         },
     },
+    {
+        type: ItemType.GENERAL,
+        code: ItemCode.QUANTUM_LEAP_POTION,
+        icon: ItemIcon.QUANTUM_LEAP_POTION,
+        name: {
+            tc: "限界突破藥水",
+            sc: "限界突破药水",
+            en: "Quantum Leap Potion",
+            jp: "限界突破ポーション",
+            kr: "한계 돌파 포션"
+        },
+        usageValue: 100
+    },
 ];
 
 export default items;
