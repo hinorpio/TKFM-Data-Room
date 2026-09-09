@@ -25,7 +25,7 @@ export default {
     "General Information": "General Information",
     "Skill Set": "Skill Set",
     limitBreak: {
-        title: "Limit Break",
+        title: "Quantum Leap",
         profession1: "Class I",
         common: "Common",
         element: "Element",

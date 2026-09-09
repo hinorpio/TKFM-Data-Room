@@ -6,7 +6,7 @@ const ts = require('typescript');
 const root = path.resolve(__dirname, '..');
 const cache = new Map();
 
-// Evaluate only the real modules used by this feature, with Nuxt's local alias.
+// Evaluate the real feature modules, including Nuxt aliases and directory barrels.
 function loadModule(filename, source = fs.readFileSync(filename, 'utf8')) {
     if (cache.has(filename)) return cache.get(filename);
     const { outputText, diagnostics } = ts.transpileModule(source, {
@@ -22,13 +22,15 @@ function loadModule(filename, source = fs.readFileSync(filename, 'utf8')) {
     assert.deepEqual(diagnostics, [], `Compile ${filename}`);
     const module = { exports: {} };
     const localRequire = request => {
-        if (!request.startsWith('@/') && !request.startsWith('.')) return require(request);
-        const resolved = request.startsWith('@/')
+        const alias = request.startsWith('@/') || request.startsWith('~/');
+        if (!alias && !request.startsWith('.')) return require(request);
+        const resolved = alias
             ? path.join(root, request.slice(2))
             : path.resolve(path.dirname(filename), request);
         return resolved.endsWith('.vue')
             ? loadComponent(resolved)
-            : loadModule(path.extname(resolved) ? resolved : `${resolved}.ts`);
+            : loadModule(path.extname(resolved) ? resolved
+                : fs.existsSync(`${resolved}.ts`) ? `${resolved}.ts` : path.join(resolved, 'index.ts'));
     };
     new Function('require', 'module', 'exports', outputText)(localRequire, module, module.exports);
     cache.set(filename, module.exports);
@@ -55,7 +57,7 @@ const locales = ['tc', 'sc', 'en', 'jp', 'kr'];
 const catalogPath = path.join(root, 'static/data/unit/limitBreak.ts');
 assert.ok(fs.existsSync(catalogPath), 'Shared limit-break catalog must exist');
 const { limitBreakSkills, getLimitBreakSkillGroups } = loadModule(catalogPath);
-const { Position, Element, Locale } = loadModule(path.join(root, 'plugins/utils/enums.ts'));
+const { Position, Element, Locale, ItemCode, ItemType } = loadModule(path.join(root, 'plugins/utils/enums.ts'));
 assert.deepEqual(Object.values(Position).sort(), Object.keys(professions).sort());
 assert.deepEqual(Object.values(Element).sort(), Object.keys(elements).sort());
 assert.deepEqual(Object.values(Locale).sort(), [...locales].sort());
@@ -115,6 +117,35 @@ for (const locale of locales) {
 }
 console.log('PASS catalog: 37 stable IDs, 5 locales, 25 exact mappings (2/2/2/3), shared entries, invalid inputs and source anchors');
 
+const ItemService = loadModule(path.join(root, 'plugins/utils/components/Items.ts')).default;
+const { ItemIcon } = loadModule(path.join(root, 'static/const/index.ts'));
+// Exercise the real service/barrel before asserting missing additions, so RED is not a loader error.
+assert.equal(ItemService.getItem(ItemCode.NAMELESS).name.en, 'Nameless Memory Crystal');
+assert.equal(ItemService.getItemIcon(ItemCode.NAMELESS), 'https://cdn.tkfmdata.com/item/IP28002.png');
+assert.equal(ItemService.isItemCode('NOT_AN_ITEM'), false);
+assert.equal(ItemService.getItemIcon('NOT_AN_ITEM'), undefined);
+assert.throws(() => ItemService.getItem('NOT_AN_ITEM'), /ITEM_NOT_FOUND/);
+const expectedItems = {
+    WORLD_TREE_PETAL: ['世界樹的花瓣', '世界树的花瓣', "World Tree's Petal", '世界樹の花びら', '위그드라실의 꽃잎'],
+    WORLD_TREE_FLOWER: ['世界樹的花朵', '世界树的花朵', "World Tree's Flower", '世界樹の花', '위그드라실의 꽃'],
+    MEMORY_CRYSTAL: ['記憶寶珠', '记忆宝珠', 'Memory Crystal', '記憶の宝玉', '기억의 보주'],
+};
+for (const [code, names] of Object.entries(expectedItems)) {
+    assert.equal(ItemCode[code], code, `Shared item code ${code} must exist`);
+    assert.equal(ItemService.isItemCode(code), true);
+    const item = ItemService.getItem(code);
+    assert.equal(item.type, ItemType.GENERAL);
+    assert.equal(item.code, code);
+    const icon = `https://cdn.tkfmdata.com/general/${code.toLowerCase()}.png`;
+    assert.equal(ItemIcon[code], icon);
+    assert.equal(ItemService.getItemIcon(code), icon);
+    assert.equal(item.icon, icon);
+    assert.deepEqual(item.name, Object.fromEntries(locales.map((locale, index) => [locale, names[index]])));
+    assert.deepEqual(Object.keys(item).sort(), ['code', 'icon', 'name', 'type']);
+    assert.equal(ItemService.getAllItems().filter(entry => entry.code === code).length, 1);
+}
+console.log('PASS items: 3 uppercase codes, GENERAL records, 15 exact source names, /general/ icons and real ItemService behavior');
+
 const Vue = require('vue');
 const Vuetify = require('vuetify');
 const VueI18n = require('vue-i18n');
@@ -147,6 +178,10 @@ function parseHtml(html) {
 }
 
 const componentPath = path.join(root, 'components/Unit/UnitTab/LimitBreakTab.vue');
+const groupCardPath = path.join(root, 'components/Unit/UnitTab/LimitBreak/LimitBreakGroupCard.vue');
+const skillCardPath = path.join(root, 'components/Unit/UnitTab/LimitBreak/LimitBreakSkillCard.vue');
+assert.ok(fs.existsSync(groupCardPath), 'Display-only outer group card must exist');
+assert.ok(fs.existsSync(skillCardPath), 'Display-only inner skill card must exist');
 const LimitBreakTab = loadComponent(componentPath);
 const messages = Object.fromEntries(locales.map(locale => [locale,
     loadModule(path.join(root, `lang/${locale}.js`)).default]));
@@ -156,6 +191,8 @@ for (const locale of locales) {
         assert.ok(messages[locale].limitBreak[key].trim());
     }
 }
+assert.deepEqual(locales.map(locale => messages[locale].limitBreak.title),
+    ['限界突破', '限界突破', 'Quantum Leap', '限界突破', '한계 돌파']);
 
 function assertContent(html, position, element, locale) {
     const tree = typeof html === 'string' ? parseHtml(html) : html;
@@ -164,6 +201,11 @@ function assertContent(html, position, element, locale) {
     assert.equal(groups.length, 4);
     assert.equal(rendered.filter(node => node.tag === 'h2').length, 4);
     assert.equal(rendered.filter(node => node.tag === 'h3').length, 9);
+    const cards = rendered.filter(node => node.tag === 'article');
+    assert.equal(cards.length, 9, 'Nine inner trait cards');
+    for (const card of [...groups, ...cards]) {
+        assert.ok(card.attrsMap.class.split(' ').includes('v-card'), 'Outer and inner Vuetify cards');
+    }
     const expected = [professions[position][0], [40511, 40512], elements[element], professions[position][1]];
     groups.forEach((group, index) => {
         const children = nodes(group);
@@ -172,7 +214,27 @@ function assertContent(html, position, element, locale) {
             expected[index].map(id => byId.get(id).skill[locale].name));
         assert.deepEqual(children.filter(node => node.tag === 'p').map(node => textContent(node).trim()),
             expected[index].map(id => byId.get(id).skill[locale].description));
+        const icon = index === 1 ? 'world_tree_petal'
+            : index === 2 ? `element_${element.toLowerCase()}` : `position_${position.toLowerCase()}`;
+        assert.deepEqual(children.filter(node => node.tag === 'img').map(node => node.attrsMap.src),
+            ['world_tree_flower', ...expected[index].map(() => icon)].map(name => `https://cdn.tkfmdata.com/general/${name}.png`));
+        assert.equal(children.filter(node => node.tag === 'header').length, expected[index].length + 1);
+        const groupHeading = children.find(node => node.tag === 'h2');
+        assert.equal(groupHeading.parent.tag, 'header');
+        for (const heading of children.filter(node => node.tag === 'h3')) {
+            assert.equal(heading.parent.tag, 'header');
+            assert.match(heading.parent.attrsMap.style, /background-color:\s*#f0b023/);
+        }
     });
+    const images = rendered.filter(node => node.tag === 'img');
+    assert.equal(images.length, 13);
+    for (const image of images) {
+        assert.equal(image.attrsMap.alt, '');
+        assert.equal(image.attrsMap['aria-hidden'], 'true');
+        assert.equal(image.attrsMap.width, '24');
+        assert.equal(image.attrsMap.height, '24');
+        assert.match(image.attrsMap.style, /object-fit:\s*contain/);
+    }
     assert.ok(!rendered.some(node => ['button', 'input', 'select', 'a', 'details'].includes(node.tag)), 'Static, expanded content');
     assert.ok(!rendered.some(node => ['button', 'radio', 'checkbox'].includes(node.attrsMap.role)), 'No equip-like controls');
     assert.ok(!/\b405\d{2}\b|Lv\.?\s*\d|\bunlock\b|\bequip\b/i.test(textContent(tree)), 'No debug IDs or speculative game UI');
@@ -216,7 +278,10 @@ async function checkUI() {
         const html = await renderer.renderToString(vm);
         assert.ok(html.includes('&lt;img src=x onerror=alert(1)&gt;'));
         assert.ok(html.includes('&lt;script&gt;alert(1)&lt;/script&gt;\nsecond line'));
-        assert.ok(!nodes(parseHtml(html)).some(node => ['img', 'script'].includes(node.tag)));
+        const rendered = nodes(parseHtml(html));
+        assert.equal(rendered.filter(node => node.tag === 'img').length, 13, 'Only intentional decorative icons');
+        assert.ok(!rendered.some(node => node.tag === 'script' || node.attrsMap.src === 'x'
+            || Object.keys(node.attrsMap).some(attribute => /^on/i.test(attribute))));
     } finally {
         byId.get(40501).skill.tc = original;
     }
@@ -224,7 +289,14 @@ async function checkUI() {
     const featureNodes = nodes(compiler.compile(descriptor.template.content).ast);
     assert.ok(featureNodes.some(node => node.attrsMap[':key'] === 'skill.id'), 'Numeric skill keys');
     assert.ok(!featureNodes.some(node => 'v-html' in node.attrsMap), 'Plain interpolation');
-    assert.match(descriptor.styles.map(style => style.content).join('\n'), /white-space:\s*pre-wrap/);
+    for (const cardPath of [groupCardPath, skillCardPath]) {
+        const card = compiler.parseComponent(fs.readFileSync(cardPath, 'utf8'));
+        const cardNodes = nodes(compiler.compile(card.template.content).ast);
+        assert.ok(!cardNodes.some(node => 'v-html' in node.attrsMap), 'Plain card interpolation');
+        assert.ok(!cardNodes.some(node => Object.keys(node.attrsMap).some(attribute => attribute.startsWith('@'))), 'Display-only cards');
+    }
+    const skillCard = compiler.parseComponent(fs.readFileSync(skillCardPath, 'utf8'));
+    assert.match(skillCard.styles.map(style => style.content).join('\n'), /white-space:\s*pre-wrap/);
     vm.$destroy();
 
     const unitTabPath = path.join(root, 'components/Unit/UnitTab/UnitTab.vue');
@@ -293,7 +365,7 @@ async function checkUI() {
         }
     }
     assert.deepEqual(warnings, [], 'No Vue runtime warnings');
-    console.log('PASS UI: actual Vue/Vuetify SSR, 25 locale/unit examples, reactive changes, empty states, escaped text, existing tab order/conditionals and rendered ARIA association');
+    console.log('PASS UI: actual Vue/Vuetify SSR, 25 locale/unit examples, 4 outer/9 inner cards, 13 decorative icons, full source text, Quantum Leap EN title, reactivity, empty states, escaped text, tab order/conditionals and ARIA association');
     console.log('SSR checks do not verify browser layout, keyboard/focus behavior, contrast or assistive technology.');
 }
 

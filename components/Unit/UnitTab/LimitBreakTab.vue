@@ -1,15 +1,9 @@
 <template>
     <div id="unit-limit-break-panel" role="tabpanel" aria-labelledby="unit-limit-break-tab" class="pa-3">
         <div v-if="groups.length" class="limit-break-groups">
-            <section v-for="group in groups" :key="group.key">
-                <h2 class="title mb-3">{{ $t('limitBreak.' + group.key) }}</h2>
-                <v-card v-for="skill in group.skills" :key="skill.id" tag="article" class="mb-4">
-                    <v-card-text class="text--primary">
-                        <h3 class="body-1 font-weight-bold mb-2">{{ skill.skill[locale].name }}</h3>
-                        <p class="body-1 mb-0 limit-break-description">{{ skill.skill[locale].description }}</p>
-                    </v-card-text>
-                </v-card>
-            </section>
+            <limit-break-group-card v-for="group in groups" :key="group.key" :title="$t('limitBreak.' + group.key)" :icon="flowerIcon">
+                <limit-break-skill-card v-for="skill in group.skills" :key="skill.id" :skill="skill.skill[locale]" :icon="getSkillIcon(group.key)" class="mb-4" />
+            </limit-break-group-card>
         </div>
         <p v-else class="body-1 mb-0">{{ $t('limitBreak.empty') }}</p>
     </div>
@@ -19,10 +13,16 @@
 import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
 import { Unit } from '@/interface/unit';
-import { Locale } from '@/plugins/utils/enums';
-import { getLimitBreakSkillGroups } from '@/static/data/unit/limitBreak';
+import { ItemCode, Locale } from '@/plugins/utils/enums';
+import { ElementIcon, PositionIcon } from '@/static/const/general';
+import ItemService from '@/plugins/utils/components/Items';
+import { getLimitBreakSkillGroups, LimitBreakGroupKey } from '@/static/data/unit/limitBreak';
+import LimitBreakGroupCard from './LimitBreak/LimitBreakGroupCard.vue';
+import LimitBreakSkillCard from './LimitBreak/LimitBreakSkillCard.vue';
 
-@Component
+@Component({
+    components: { LimitBreakGroupCard, LimitBreakSkillCard },
+})
 export default class LimitBreakTab extends Vue {
     @Prop({ type: Object, required: true })
     readonly unit!: Unit;
@@ -33,6 +33,16 @@ export default class LimitBreakTab extends Vue {
 
     get locale(): Locale {
         return this.$i18n.locale as Locale;
+    }
+
+    get flowerIcon(): string {
+        return ItemService.getItemIcon(ItemCode.WORLD_TREE_FLOWER) ?? '';
+    }
+
+    getSkillIcon(group: LimitBreakGroupKey): string {
+        if (group === 'common') return ItemService.getItemIcon(ItemCode.WORLD_TREE_PETAL) ?? '';
+        if (group === 'element') return ElementIcon[this.unit.element];
+        return PositionIcon[this.unit.position];
     }
 }
 </script>
@@ -45,12 +55,8 @@ export default class LimitBreakTab extends Vue {
     grid-template-columns: repeat(auto-fit, minmax(min(100%, max(20rem, calc(50% - 8px))), 1fr));
 }
 
-.limit-break-groups section {
+.limit-break-groups > section {
     min-width: 0;
     overflow-wrap: anywhere;
-}
-
-.limit-break-description {
-    white-space: pre-wrap;
 }
 </style>

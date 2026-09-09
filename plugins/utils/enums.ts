@@ -236,6 +236,9 @@ export enum ItemCode {
     EXP_LV2 = 'EXP_LV2',
     EXP_LV3 = 'EXP_LV3',
     EXP_LV4 = 'EXP_LV4',
+    WORLD_TREE_PETAL = 'WORLD_TREE_PETAL',
+    WORLD_TREE_FLOWER = 'WORLD_TREE_FLOWER',
+    MEMORY_CRYSTAL = 'MEMORY_CRYSTAL',
 }
 
 export enum DispatchType {
