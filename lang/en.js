@@ -26,6 +26,9 @@ export default {
     "Skill Set": "Skill Set",
     limitBreak: {
         title: "Quantum Leap",
+        elv: "ELv",
+        groups: "Trait groups",
+        groupCost: "{group} (requires ELv {elv}; flowers: {flowers})",
         profession1: "Class I",
         common: "Common",
         element: "Element",

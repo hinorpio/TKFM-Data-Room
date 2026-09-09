@@ -8,6 +8,7 @@
                 :starSummary="calculatedStarResult"
                 :roomSummary="calculatedRoomResult"
                 :potSummary="calculatedPotResult"
+                :limitBreakSummary="calculatedLimitBreakResult"
                 :showTotal.sync="showTotal"
                 :showCombined.sync="showCombined"
             />
@@ -54,16 +55,30 @@ export default class StatCalTab extends Vue {
         this.isMounted = true;
     }
 
+    @Watch('unit')
+    onUnitChange(): void {
+        this.currentStat = this.getInitStatGroup(this.unit);
+        this.targetStat = this.getInitStatGroup(this.unit);
+        this.currentPotential = this.currentStat.pot;
+        this.targetPotential = this.targetStat.pot;
+        this.potentialData = this.$util.getPotential(this.unit.potential);
+    }
+
     get isCalculated() {
         return this.calculatedLevelResult.summary.length > 0 ||
             this.calculatedLibResult.summary.length > 0 ||
             this.calculatedStarResult.summary.length > 0 ||
             this.calculatedRoomResult.summary.length > 0 ||
-            this.calculatedPotResult.summary.length > 0
+            this.calculatedPotResult.summary.length > 0 ||
+            this.calculatedLimitBreakResult.summary.length > 0
     }
 
     get calculatedLevelResult() {
         return this.$util.getCalculatedLvResult(this.currentStat.level, this.targetStat.level);
+    }
+
+    get calculatedLimitBreakResult() {
+        return this.$util.getCalculatedLimitBreakResult(this.currentStat, this.targetStat);
     }
 
     get calculatedLibResult() {

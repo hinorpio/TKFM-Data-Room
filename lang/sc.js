@@ -26,6 +26,9 @@ export default {
     "Skill Set": "技能组",
     limitBreak: {
         title: "限界突破",
+        elv: "ELv",
+        groups: "词条分组",
+        groupCost: "{group}（需要 ELv {elv}；世界树的花朵：{flowers}）",
         profession1: "职业 I",
         common: "通用",
         element: "属性",

@@ -16,7 +16,7 @@ function load(filename, source) {
         assert.deepEqual(compiler.compile(sfc.template.content).errors, [], filename);
         const component = load(`${filename}.ts`, sfc.script.content).default;
         Object.assign(component.options, compiler.compileToFunctions(sfc.template.content));
-        cache.set(filename, { default: component });
+        cache.set(filename, { __esModule: true, default: component });
         return cache.get(filename);
     }
     const compiled = ts.transpileModule(source, {
@@ -166,3 +166,219 @@ assert.deepEqual(Items.getItem(ItemCode.QUANTUM_LEAP_POTION), {
 assert.equal(Items.isItemCode('QUANTUM_LEAP_POTION'), true);
 assert.equal(Items.getItemIcon('QUANTUM_LEAP_POTION'), 'https://cdn.tkfmdata.com/general/quantum_leap_potion.png');
 console.log('PASS ELv: 21 rows, eligibility/gates/ownership, initialized independent states, seven-factor final floor, 42 experiment fits, differential costs and real potion registration');
+
+const Vuetify = require('vuetify');
+const VueI18n = require('vue-i18n');
+const renderer = require('vue-server-renderer').createRenderer();
+Vue.use(Vuetify);
+Vue.use(VueI18n);
+Vue.prototype.$util = { ...StatCal, ...Items,
+    deepClone: value => JSON.parse(JSON.stringify(value)),
+    formatNumberWithCommas: value => Number(value).toLocaleString('en-US'),
+    getValueByBreakPoint: (name, xs, sm, md, lg, xl) => ({ xs, sm, md, lg, xl }[name] ?? xs),
+};
+// These existing components hide their templates until mounted. Invoke their actual
+// DOM-free mounted hooks for Node SSR; this does not simulate browser lifecycle/interaction.
+Vue.mixin({ created() {
+    if (['StatBox', 'StatSelection', 'StatCalTab'].includes(this.$options.name)) {
+        for (const mounted of this.$options.mounted ?? []) mounted.call(this);
+    }
+} });
+const warnings = [];
+Vue.config.warnHandler = warning => warnings.push(warning);
+const locales = ['tc','sc','en','jp','kr'];
+const messages = Object.fromEntries(locales.map(locale => [locale, real(`lang/${locale}.js`).default]));
+const i18n = new VueI18n({ locale: 'en', fallbackLocale: 'en', messages });
+const vuetify = new Vuetify({ theme: { dark: true } });
+const StatBox = real('components/Unit/UnitTab/StatCal/StatBox.vue').default;
+const StatSelection = real('components/Unit/UnitTab/StatCal/StatSelection.vue').default;
+const CalculatedResult = real('components/Unit/UnitTab/StatCal/CalculatedResult.vue').default;
+const potentialData = Potential.getPotential(unit.potential);
+const options = { levelOptions: Array.from({length:60},(_,i)=>i+1), libOptions: [0,1,2,3],
+    starOptions: [3,4,5], roomOptions: [0,1,2,3], potLevelOptions: potentialData.detail.map((_,i)=>i+1) };
+const observable = value => Vue.observable(value);
+const box = (type, stat, compareStat) => new StatBox({ i18n, vuetify,
+    propsData: { unit, type, stat, compareStat, potentialData, ...options } });
+const selection = (currentStat, targetStat) => new StatSelection({ i18n, vuetify,
+    propsData: { unit, potentialData, currentStat, targetStat } });
+const tick = async () => { await Vue.nextTick(); await Vue.nextTick(); };
+function nodes(node) { return node?.type === 1 ? [node, ...node.children.flatMap(nodes)] : []; }
+function textContent(node) { return node.type === 1 ? node.children.map(textContent).join('') : node.text ?? ''; }
+const renderedNodes = html => nodes(compiler.compile(html, { whitespace: 'preserve' }).ast);
+const byID = (list, id) => list.find(node => node.attrsMap.id === id);
+
+async function checkCalculatorUI() {
+    const current = observable(General.getInitStatGroup(unit));
+    const target = observable(snapshot());
+    const pair = selection(current, target);
+    const currentBox = box('CURRENT', current, target);
+    const targetBox = box('TARGET', target, current);
+    let html = await renderer.renderToString(targetBox);
+    assert.ok(byID(renderedNodes(html), 'limit-break-target-elv'), 'Eligible calculator must render ELv selector');
+    assert.ok(!byID(renderedNodes(await renderer.renderToString(currentBox)), 'limit-break-current-elv'));
+    assert.deepEqual(targetBox.limitBreakLevelOptions, Array.from({length:21},(_,i)=>i));
+
+    for (const locale of locales) {
+        i18n.locale = locale;
+        for (const key of ['elv','groups','groupCost']) assert.equal(typeof messages[locale].limitBreak[key], 'string');
+        html = await renderer.renderToString(targetBox);
+        const list = renderedNodes(html);
+        assert.ok(list.some(node => node.tag === 'label' && node.attrsMap.for === 'limit-break-target-elv'
+            && textContent(node).trim() === messages[locale].limitBreak.elv));
+        const fieldset = byID(list, 'limit-break-target-groups');
+        assert.equal(fieldset.tag, 'fieldset');
+        assert.equal(textContent(nodes(fieldset).find(node => node.tag === 'legend')).trim(), messages[locale].limitBreak.groups);
+        assert.equal(nodes(fieldset).filter(node => node.tag === 'input' && node.attrsMap.type === 'checkbox').length, 4);
+        limitBreakGroups.forEach(group => {
+            const id = `limit-break-target-${group.key}`;
+            const label = list.find(node => node.tag === 'label' && node.attrsMap.for === id);
+            assert.equal(textContent(label).trim(), String(i18n.t('limitBreak.groupCost', {
+                group: i18n.t(`limitBreak.${group.key}`), elv: group.gate, flowers: group.flowers })));
+            assert.ok('disabled' in byID(list, id).attrsMap);
+        });
+        assert.ok(!nodes(fieldset).some(node => node.attrsMap.role === 'switch'), 'No common-stat switch');
+        const potentialLabel = list.find(node => node.tag === 'label' && textContent(node).trim() === i18n.t('Potential'));
+        assert.ok(list.indexOf(fieldset) < list.indexOf(potentialLabel), 'ELv row before potential');
+    }
+
+    for (const [below, gate] of [[4,5],[9,10],[14,15],[19,20]]) {
+        target.limitBreak.elv = below;
+        await tick();
+        let list = renderedNodes(await renderer.renderToString(targetBox));
+        const index = [5,10,15,20].indexOf(gate);
+        const id = `limit-break-target-${limitBreakGroups[index].key}`;
+        assert.ok('disabled' in byID(list,id).attrsMap);
+        target.limitBreak.elv = gate;
+        await tick();
+        list = renderedNodes(await renderer.renderToString(targetBox));
+        assert.ok(!('disabled' in byID(list,id).attrsMap));
+        assert.equal(target.limitBreak.groups[index], false, 'A gate enables without purchasing');
+        Vue.set(target.limitBreak.groups,index,true);
+        await tick();
+        target.limitBreak.elv = below;
+        await tick();
+        assert.equal(target.limitBreak.groups[index], false, 'Lower ELv clears invalid purchase');
+    }
+    target.limitBreak = state(20,Array(4).fill(true));
+    target.level = 59;
+    await tick();
+    assert.deepEqual(target.limitBreak,state());
+    assert.ok(!byID(renderedNodes(await renderer.renderToString(targetBox)),'limit-break-target-elv'));
+    target.level = 60;
+    target.pot = { level: 5, slot: [true,true,true,true,true,false] };
+    await tick();
+    assert.ok(!byID(renderedNodes(await renderer.renderToString(targetBox)),'limit-break-target-elv'));
+    Vue.set(target.pot.slot,5,true);
+    await tick();
+    assert.ok(byID(renderedNodes(await renderer.renderToString(targetBox)),'limit-break-target-elv'));
+
+    current.level = 60;
+    current.pot = { level: 5, slot: [true,true,true,true,true,false] };
+    target.pot = { level: 5, slot: [true,true,true,true,true,false] };
+    await tick();
+    assert.equal(LB.isLimitBreakEligible(target),false);
+    // Prime the actual target UI getter before the sixth current slot changes.
+    await renderer.renderToString(targetBox);
+    Vue.set(current.pot.slot,5,true);
+    current.limitBreak = state(10,[true,true,false,false]);
+    await tick();
+    assert.equal(target.pot.slot[5],true,'Sixth owned potential slot propagates');
+    assert.deepEqual(target.limitBreak,state(10,[true,true,false,false]));
+    assert.notEqual(target.pot.slot,current.pot.slot);
+    assert.notEqual(target.limitBreak.groups,current.limitBreak.groups);
+    assert.equal(targetBox.limitBreakLevelOptions[0],10);
+    html = await renderer.renderToString(pair);
+    const ids = renderedNodes(html).map(node=>node.attrsMap.id).filter(id=>id?.startsWith('limit-break-'));
+    assert.equal(ids.length,12,'Two uniquely named ELv inputs, groups and four purchases each');
+    assert.equal(new Set(ids).size,ids.length);
+
+    target.limitBreak = state(20,[true,true,false,true]);
+    await tick();
+    target.limitBreak.elv = 15;
+    await tick();
+    assert.deepEqual(target.limitBreak,state(15,[true,true,false,false]),'Retain valid owned flags on target ELv change');
+    target.limitBreak.elv = 20;
+    Vue.set(target.limitBreak.groups,0,false);
+    await tick();
+    assert.deepEqual(target.limitBreak,state(20,[true,true,false,false]),'No unpurchase or automatic re-purchase');
+    assert.deepEqual(costs(current,target),qty([['QUANTUM_LEAP_POTION',88]]),'Owned flowers never charged twice');
+    target.limitBreak.elv = 1;
+    await tick();
+    assert.deepEqual(target.limitBreak,state(10,[true,true,false,false]));
+    targetBox.getMinStat();
+    await tick();
+    assert.deepEqual(target.limitBreak,current.limitBreak);
+    assert.notEqual(target.limitBreak.groups,current.limitBreak.groups);
+    currentBox.getMaxStat();
+    await tick();
+    assert.deepEqual(current.limitBreak,state(20,Array(4).fill(true)));
+    assert.deepEqual(target.limitBreak,current.limitBreak);
+    currentBox.getMinStat();
+    await tick();
+    assert.deepEqual(current.limitBreak,state());
+    assert.deepEqual(target.limitBreak,state(20,Array(4).fill(true)),'Independently eligible target preserved');
+    targetBox.getMinStat();
+    await tick();
+    assert.deepEqual(target.limitBreak,state());
+    targetBox.getMaxStat();
+    await tick();
+    assert.deepEqual(target.limitBreak,state(20,Array(4).fill(true)));
+    pair.$destroy(); currentBox.$destroy(); targetBox.$destroy();
+
+    const tab = new StatCalTab({ i18n, vuetify, propsData: { unit } });
+    tab.currentStat = observable(snapshot(20));
+    tab.targetStat = observable(snapshot(20));
+    await tick();
+    assert.equal(tab.isCalculated,false);
+    Vue.set(tab.targetStat.limitBreak.groups,2,true);
+    await tick();
+    assert.equal(tab.isCalculated,true,'Flowers-only changes reveal all result paths');
+    assert.deepEqual(tab.calculatedLimitBreakResult,{exp:0,summary:qty([['WORLD_TREE_FLOWER',2]])});
+    for (const locale of locales) {
+        i18n.locale = locale;
+        html = await renderer.renderToString(tab);
+        const list = renderedNodes(html);
+        assert.ok(list.some(node=>node.tag==='h3' && textContent(node).trim()===i18n.t('limitBreak.title')));
+        assert.ok(html.includes(Items.getItem('WORLD_TREE_FLOWER').name[locale]));
+        assert.ok(html.includes('mdi-creation'));
+    }
+    const summary = LB.getCalculatedLimitBreakResult(snapshot(),snapshot(20,Array(4).fill(true)));
+    const results = new CalculatedResult({ i18n,vuetify, propsData: {
+        levelSummary:{exp:0,summary:[]},libSummary:{summary:[]},starSummary:{summary:[]},roomSummary:{exp:0,summary:[]},
+        potSummary:{summary:[],statSummary:[]},limitBreakSummary:summary,showTotal:false,showCombined:false,
+    } });
+    assert.deepEqual(results.totalData,summary.summary);
+    assert.deepEqual(results.totalOtherTypeData.map(item=>item.code),['MEMORY_CRYSTAL','QUANTUM_LEAP_POTION','WORLD_TREE_FLOWER']);
+    const ItemSetBox = real('components/Unit/UnitTab/StatCal/ResultBox/ItemSetBox.vue').default;
+    const itemBox = new ItemSetBox({i18n,vuetify,propsData:{summary:summary.summary}});
+    for (const item of summary.summary) assert.equal(itemBox.showMaterialIcon(item),Items.getItemIcon(item.code));
+    for (const locale of locales) {
+        i18n.locale=locale;
+        const grouped = renderedNodes(await renderer.renderToString(results));
+        const text = grouped.map(node=>node.tag==='span'?textContent(node):'').join(' ');
+        const names = summary.summary.map(item=>Items.getItem(item.code).name[locale]);
+        assert.ok(text.indexOf(names[0])<text.indexOf(names[1]) && text.indexOf(names[1])<text.indexOf(names[2]));
+        for (const item of summary.summary) assert.equal(itemBox.showMaterialText(item),Items.getItem(item.code).name[locale]);
+        results.showTotal=true;
+        await tick();
+        const totalHTML=await renderer.renderToString(results);
+        for (const name of names) assert.ok(totalHTML.includes(name));
+        results.showTotal=false;
+    }
+    results.potSummary={summary:qty([['MEMORY_CRYSTAL',2]]),statSummary:[]};
+    await tick();
+    assert.equal(results.totalData.find(item=>item.code==='MEMORY_CRYSTAL').quantity,32,'Total merges by item code');
+    const nextUnit={...unit,initHP:4000.1,potential:PotentialType.DEFENCE};
+    tab.unit=nextUnit;
+    await tick();
+    assert.deepEqual(tab.currentStat,General.getInitStatGroup(nextUnit));
+    assert.deepEqual(tab.targetStat,General.getInitStatGroup(nextUnit));
+    assert.equal(tab.potentialData,Potential.getPotential(nextUnit.potential));
+    assert.notEqual(tab.currentStat.limitBreak.groups,tab.targetStat.limitBreak.groups);
+    assert.equal(tab.isCalculated,false);
+    tab.$destroy(); results.$destroy(); itemBox.$destroy();
+    assert.deepEqual(warnings,[],'No Vue warning or watcher loop');
+    console.log('PASS calculator UI: actual StatBox/StatSelection/StatCalTab/results, five locales, eligibility/gates, sixth-slot propagation, ownership, Min/Max/reset, flower-only/grouped/total results and real item icons');
+    console.log('Node SSR and invoked mounted hooks do not establish browser layout, keyboard/focus, hydration, contrast or AT acceptance.');
+}
+checkCalculatorUI().catch(error=>{console.error(error);process.exitCode=1;});

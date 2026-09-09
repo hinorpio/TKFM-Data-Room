@@ -138,16 +138,30 @@ export default class StatSelection extends Vue {
     }
     @Watch("currentStat.pot.slot")
     onCurrentStatPotSlotChange(value: boolean[]): void {
-        for (let i = 0; i < value.length; i++) {
-            this.targetStat.pot.slot[i] = value[i] && this.isSameLevel ? value[i] : this.targetStat.pot.slot[i];
-        }
+        if (!this.isSameLevel) return;
+        const slots = this.targetStat.pot.slot.map((checked, index) => checked || value[index]);
+        if (slots.some((checked, index) => checked !== this.targetStat.pot.slot[index]))
+            this.targetStat.pot.slot = slots;
     }
     @Watch("targetStat.pot.level")
     onTargetStatPotLevelChange(value: number): void {
-        const currentSlot = this.currentStat.pot.slot;
-        const targetSlot = this.targetStat.pot.slot;
-        for (let i = 0; i < targetSlot.length; i++) {
-            this.targetStat.pot.slot[i] = currentSlot[i] && this.isSameLevel ? currentSlot[i] : this.targetStat.pot.slot[i];
+        this.onCurrentStatPotSlotChange(this.currentStat.pot.slot);
+    }
+
+    @Watch('currentStat', { deep: true, immediate: true })
+    @Watch('targetStat', { deep: true })
+    normalizeLimitBreakProgress(): void {
+        // Propagate prerequisites reactively before testing either snapshot's ELv eligibility.
+        this.onCurrentStatLevelChange(this.currentStat.level);
+        this.onCurrentStatPotLevelChange(this.currentStat.pot.level);
+        this.onCurrentStatPotSlotChange(this.currentStat.pot.slot);
+        for (const stat of [this.currentStat, this.targetStat]) {
+            const normalized = this.$util.getNormalizedLimitBreak(stat, stat === this.targetStat ? this.currentStat : undefined);
+            if (!stat.limitBreak || stat.limitBreak.elv !== normalized.elv
+                || stat.limitBreak.groups.length !== normalized.groups.length
+                || normalized.groups.some((checked: boolean, index: number) => checked !== stat.limitBreak.groups[index])) {
+                this.$set(stat, 'limitBreak', normalized);
+            }
         }
     }
     get isSameLevel(): boolean {

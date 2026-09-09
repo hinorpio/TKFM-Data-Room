@@ -26,6 +26,9 @@ export default {
     "Skill Set": "스킬 일람",
     limitBreak: {
         title: "한계 돌파",
+        elv: "ELv",
+        groups: "특성 그룹",
+        groupCost: "{group} (필요 ELv: {elv}; 위그드라실의 꽃: {flowers})",
         profession1: "클래스 I",
         common: "공통",
         element: "속성",
