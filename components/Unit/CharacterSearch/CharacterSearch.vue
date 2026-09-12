@@ -1,6 +1,6 @@
 <template>
     <v-card :style="{background: '#424242', width: dialogWidth}" :elevation="0">
-        <header-bar :isDialog="isDialog" :showFilter.sync="showFilter" :isDisplayIcon.sync="isDisplayIcon" @close="handleCloseDialog()" />
+        <header-bar :isDialog="isDialog" :showFilter.sync="showFilter" :isDisplayIcon.sync="isDisplayIcon" :searchKeyword.sync="searchKeyword" :searchResultCount="searchResultCount" @close="handleCloseDialog()" />
         <v-card-text>
             <v-expand-transition>
                 <div v-show="showFilter">
@@ -19,7 +19,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { Rarity, Element, Position } from '@/plugins/utils/enums'
+import { Rarity, Element, Position, Locale } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
 import HeaderBar from "./headerBar.vue";
 import FilterBar from "./filterBar.vue";
@@ -40,6 +40,7 @@ export default class CharacterSearch extends Vue {
 
     showFilter: Boolean = true;
     dataset: Unit[] = [];
+    searchKeyword: string = '';
     selectedRarities: Rarity[] = [];
     selectedElements: Element[] = [];
     selectedPositions: Position[] = [];
@@ -47,7 +48,9 @@ export default class CharacterSearch extends Vue {
     dialogWidth: String = '80em';
 
     get itemsForShow(): Unit[]{
+        const keyword = this.searchKeyword.trim().toLowerCase();
         return this.dataset
+            .filter(unit => !keyword || this.matchUnit(unit, keyword))
             .filter(unit =>  
                 (this.selectedRarities.length == 0)
                     ?true 
@@ -65,6 +68,26 @@ export default class CharacterSearch extends Vue {
                 )
             .sort((a, b) => b.ID.localeCompare(a.ID))
             .sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
+    }
+
+    get searchResultCount(): number {
+        return this.itemsForShow.length;
+    }
+
+    // Match the keyword against name, prefix and abbreviation of every locale so colloquial names written in another script still find their unit, e.g. traditional 奧菈 while browsing simplified Chinese.
+    matchUnit(unit: Unit, keyword: string): boolean {
+        for (const locale of Object.values(Locale)) {
+            const name = (unit.name[locale] ?? '').toLowerCase();
+            const prefix = (unit.prefix[locale] ?? '').toLowerCase();
+            if (name.includes(keyword) || prefix.includes(keyword)) {
+                return true;
+            }
+            const abbreviations = unit.abbreviation[locale] ?? [];
+            if (abbreviations.some(a => a.toLowerCase().includes(keyword))) {
+                return true;
+            }
+        }
+        return false;
     }
 
     get filterPropsPerRow (): number {
