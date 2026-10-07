@@ -1,25 +1,25 @@
 <template>
     <v-card :style="{background: '#424242', width: dialogWidth}" :elevation="0">
-        <header-bar :isDialog="isDialog" :showFilter.sync="showFilter" :isDisplayIcon.sync="isDisplayIcon" @close="handleCloseDialog()" />
+        <header-bar :isDialog="isDialog" :showFilter.sync="showFilter" :isDisplayIcon.sync="isDisplayIcon" :searchKeyword.sync="searchKeyword" :searchResultCount="searchResultCount" @close="handleCloseDialog()" />
         <v-card-text>
             <v-expand-transition>
                 <div v-show="showFilter">
                     <filter-bar :selectedRarities.sync="selectedRarities" :selectedElements.sync="selectedElements" :selectedPositions.sync="selectedPositions" />
                 </div>
             </v-expand-transition>
-            
+
             <v-divider class="my-4"></v-divider>
 
             <show-as-icon v-if="isDisplayIcon" :itemsForShow="itemsForShow" @select="handleSelectUnit" />
             <show-as-card v-else :itemsForShow="itemsForShow" @select="handleSelectUnit" />
-          
+
         </v-card-text>
     </v-card>
 </template>
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-import { Rarity, Element, Position } from '@/plugins/utils/enums'
+import { Rarity, Element, Position, Locale } from '@/plugins/utils/enums'
 import { Unit } from '@/interface/unit';
 import HeaderBar from "./headerBar.vue";
 import FilterBar from "./filterBar.vue";
@@ -40,6 +40,7 @@ export default class CharacterSearch extends Vue {
 
     showFilter: Boolean = true;
     dataset: Unit[] = [];
+    searchKeyword: string = '';
     selectedRarities: Rarity[] = [];
     selectedElements: Element[] = [];
     selectedPositions: Position[] = [];
@@ -47,24 +48,46 @@ export default class CharacterSearch extends Vue {
     dialogWidth: String = '80em';
 
     get itemsForShow(): Unit[]{
+        const keyword = this.searchKeyword.trim().toLowerCase();
         return this.dataset
-            .filter(unit =>  
+            .filter(unit => !keyword || this.matchUnit(unit, keyword))
+            .filter(unit =>
                 (this.selectedRarities.length == 0)
-                    ?true 
-                    :this.selectedRarities.includes(unit.rarity as Rarity) 
+                    ?true
+                    :this.selectedRarities.includes(unit.rarity as Rarity)
                 )
-            .filter(unit =>  
+            .filter(unit =>
                 (this.selectedElements.length == 0)
-                    ?true 
-                    :this.selectedElements.includes(unit.element as Element) 
+                    ?true
+                    :this.selectedElements.includes(unit.element as Element)
                 )
-            .filter(unit =>  
+            .filter(unit =>
                 (this.selectedPositions.length == 0)
-                    ?true 
-                    :this.selectedPositions.includes(unit.position as Position) 
+                    ?true
+                    :this.selectedPositions.includes(unit.position as Position)
                 )
             .sort((a, b) => b.ID.localeCompare(a.ID))
             .sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
+    }
+
+    get searchResultCount(): number {
+        return this.itemsForShow.length;
+    }
+
+    // 跨全部语种对 name、prefix 与 abbreviation 匹配关键词，使以其它文字书写的俗称也能命中对应角色，例如简中界面下输入繁体「奧菈」
+    matchUnit(unit: Unit, keyword: string): boolean {
+        for (const locale of Object.values(Locale)) {
+            const name = (unit.name[locale] ?? '').toLowerCase();
+            const prefix = (unit.prefix[locale] ?? '').toLowerCase();
+            if (name.includes(keyword) || prefix.includes(keyword)) {
+                return true;
+            }
+            const abbreviations = unit.abbreviation[locale] ?? [];
+            if (abbreviations.some(a => a.toLowerCase().includes(keyword))) {
+                return true;
+            }
+        }
+        return false;
     }
 
     get filterPropsPerRow (): number {
