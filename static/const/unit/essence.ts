@@ -253,6 +253,8 @@ const SSR = {
     [UnitCode.calibur]: getUnitEssencePath('10211'),
     [UnitCode.vita]: getUnitEssencePath('10212'),
     [UnitCode.fujihana]: getUnitEssencePath('10213'),
+    [UnitCode.h_baal]: getUnitEssencePath('10214'),
+    [UnitCode.h_bedard]: getUnitEssencePath('10215'),
 }
 
 export const Essence = {

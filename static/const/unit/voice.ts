@@ -342,6 +342,8 @@ const SSR = {
     [UnitCode.calibur]: getUnitVoicePath('10211'),
     [UnitCode.vita]: getUnitVoicePath('10212'),
     [UnitCode.fujihana]: getUnitVoicePath('10213'),
+    [UnitCode.h_baal]: getUnitVoicePath('10214'),
+    [UnitCode.h_bedard]: getUnitVoicePath('10215'),
 }
 
 export const Voice = {
