@@ -253,6 +253,8 @@ const SSR = {
     [UnitCode.calibur]: getUnitSelectionPath('10211'),
     [UnitCode.vita]: getUnitSelectionPath('10212'),
     [UnitCode.fujihana]: getUnitSelectionPath('10213'),
+    [UnitCode.h_baal]: getUnitSelectionPath('10214'),
+    [UnitCode.h_bedard]: getUnitSelectionPath('10215'),
 }
 
 export const Selection = {
