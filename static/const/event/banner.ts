@@ -251,3 +251,6 @@ export const EVENT_0235 = getEventBannerPath('ln30235');
 export const EVENT_0236 = getEventBannerPath('ln30236');
 export const EVENT_0237 = getEventBannerPath('ln30237');
 export const EVENT_0238 = getEventBannerPath('ln30238');
+export const EVENT_0239 = getEventBannerPath('ln30239');
+export const EVENT_0240 = getEventBannerPath('ln30240');
+export const EVENT_0241 = getEventBannerPath('ln30241');

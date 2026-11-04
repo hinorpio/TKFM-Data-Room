@@ -58,6 +58,9 @@ export default {
     "Version": "Version",
     "As of": "As of",
     "Search": "Search",
+    "Search by name or abbreviation": "Search by name or abbreviation",
+    "Search example": "H.Satan",
+    "Search result count": "Search results: {count} characters",
     "Opps...Something is wrong Nya": "Opps...Something is wrong Nya",
     "Character Essence": "Character Essence",
     "Previous Page": "Previous Page",
@@ -131,4 +134,5 @@ export default {
     "Battle": "Battle",
     "R18": "R18",
     "Feature": "Feature",
+    "Special Thanks": "Special Thanks",
 }

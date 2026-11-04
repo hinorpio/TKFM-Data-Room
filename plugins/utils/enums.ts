@@ -654,4 +654,6 @@ export enum UnitCode {
     fujihana = 'SSR-184',
     h_baal = 'SSR-185',
     h_bedard = 'SSR-186',
+    aramis = 'SSR-187',
+    herschel = 'SSR-188',
 }

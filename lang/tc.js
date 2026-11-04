@@ -58,6 +58,9 @@ export default {
     "Version": "版本",
     "As of": "截至",
     "Search": "搜尋",
+    "Search by name or abbreviation": "以名稱或別稱搜尋",
+    "Search example": "幼撒",
+    "Search result count": "搜尋結果：{count} 位角色",
     "Opps...Something is wrong Nya": "出事了喵...",
     "Character Essence": "角色記憶精碎",
     "Previous Page": "返回上一頁",
@@ -131,4 +134,5 @@ export default {
     "Battle": "戰鬥",
     "R18": "R18",
     "Feature": "特式",
+    "Special Thanks": "特別鳴謝",
 }
