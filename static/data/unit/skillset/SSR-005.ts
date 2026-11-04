@@ -48,11 +48,11 @@ export const SkillSet_10005: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `力量儲存`,
-                    description: `普攻時，觸發"使自身攻擊力傷害增加2.5%(6回合)"效果`
+                    description: `普攻時，觸發"使自身攻擊力增加2.5%(最多6層)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `屏氣凝神`,
-                    description: `每經過1回合，觸發"使自身攻擊力傷害增加5%(6回合)"效果`
+                    description: `每經過1回合，觸發"使自身攻擊力增加5%(最多6層)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `巨斧破龍的幻光`,
@@ -102,11 +102,11 @@ export const SkillSet_10005: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `力量储存`,
-                    description: `普攻时，触发"使自身攻击力伤害增加2.5%(6回合)"效果`
+                    description: `普攻时，触发"使自身攻击力增加2.5%(最多6层)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `屏气凝神`,
-                    description: `每经过1回合，触发"使自身攻击力伤害增加5%(6回合)"效果`
+                    description: `每经过1回合，触发"使自身攻击力增加5%(最多6层)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `巨斧破龙的幻光`,
@@ -331,11 +331,11 @@ export const SkillSet_10005: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `力量儲存`,
-                    description: `普攻時，觸發"使自身攻擊力傷害增加2.5%(6回合)"效果`
+                    description: `普攻時，觸發"使自身攻擊力增加2.5%(最多6層)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `屏氣凝神`,
-                    description: `每經過1回合，觸發"使自身攻擊力傷害增加5%(6回合)"效果`
+                    description: `每經過1回合，觸發"使自身攻擊力增加5%(最多6層)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `巨斧破龍的幻光`,
@@ -385,11 +385,11 @@ export const SkillSet_10005: SkillSet[] =  [
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `力量储存`,
-                    description: `普攻时，触发"使自身攻击力伤害增加2.5%(6回合)"效果`
+                    description: `普攻时，触发"使自身攻击力增加2.5%(最多6层)"效果`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `屏气凝神`,
-                    description: `每经过1回合，触发"使自身攻击力伤害增加5%(6回合)"效果`
+                    description: `每经过1回合，触发"使自身攻击力增加5%(最多6层)"效果`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `巨斧破龙的幻光`,

@@ -44,19 +44,19 @@ export const SkillSet_10003: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `魔王伊布力斯之傲慢`,
-                    description: `使自身攻擊力增加125%，但自身以外的隊員造成傷害減少10%`
+                    description: `使自身獲得"攻擊時，以75%攻擊力對敵全體進行追擊"效果`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `秘傳魔力儀式`,
-                    description: `使自身普攻傷害增加25%`
+                    description: `當前HP大於75%時，發動"攻擊力增加15%"效果`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `魔力汲取`,
-                    description: `被攻擊時，觸發"使自身攻勢力增加15%(最多2層)"效果`
+                    description: `普攻傷害增加20%；造成傷害時會以傷害值33%回復自身HP`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `眾生壓迫`,
-                    description: `必殺時，觸發"使自身當前必殺技CD減少1回合、目標當前必殺技CD增加2回合"效果`
+                    description: `每Wave的第1回合，觸發"使自身攻擊力增加25%(3回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `普攻傷害+`,
@@ -98,19 +98,19 @@ export const SkillSet_10003: SkillSet[] =  [
                 },
                 [SkillType.LEADER]: {
                     name: `魔王伊布力斯之傲慢`,
-                    description: `使自身攻击力增加125%，但自身以外的队员造成伤害减少10%`
+                    description: `使自身获得"攻击时，以75%攻击力对敌全体进行追击"效果`
                 },
                 [SkillType.PASSIVE_1]: {
                     name: `秘传魔力仪式`,
-                    description: `使自身普攻伤害增加25%`
+                    description: `当前HP大于75%时，发动"攻击力增加15%"效果`
                 },
                 [SkillType.PASSIVE_2]: {
                     name: `魔力汲取`,
-                    description: `被攻击时，触发"使自身攻势力增加15%(最多2层)"效果`
+                    description: `普攻伤害增加20%；造成伤害时会以伤害值33%回复自身HP`
                 },
                 [SkillType.PASSIVE_3]: {
                     name: `众生压迫`,
-                    description: `必杀时，触发"使自身当前必杀技CD减少1回合丶目标当前必杀技CD增加2回合"效果`
+                    description: `每Wave的第1回合，触发"使自身攻击力增加25%(3回合)"效果`
                 },
                 [SkillType.GENERAL_1]: {
                     name: `普攻伤害+`,

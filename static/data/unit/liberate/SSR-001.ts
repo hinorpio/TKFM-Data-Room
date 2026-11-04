@@ -224,7 +224,7 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.tc]: {
                         [SkillType.LEADER]: {
                             name: `魔王巴爾之狡詐`,
-                            description: `我方全體最大HP20%\n我方全體攻擊力增加40%\n我方全體造成傷害增加20%\n自身攻擊力增加125%\n自身必殺技傷害增加25%`
+                            description: `我方全體最大HP增加20%\n我方全體攻擊力增加40%\n我方全體造成傷害增加20%\n自身攻擊力增加125%\n自身必殺技傷害增加25%`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `不為人知的性格`,
@@ -238,7 +238,7 @@ export const LiberateSkillSet_10001: LiberateSkillSet[] = [
                     [Locale.sc]: {
                         [SkillType.LEADER]: {
                             name: `魔王巴尔之狡诈`,
-                            description: `我方全体最大HP20%\n我方全体攻击力增加40%\n我方全体造成伤害增加20%\n自身攻击力增加125%\n自身必杀技伤害增加25%`
+                            description: `我方全体最大HP增加20%\n我方全体攻击力增加40%\n我方全体造成伤害增加20%\n自身攻击力增加125%\n自身必杀技伤害增加25%`
                         },
                         [SkillType.PASSIVE_2]: {
                             name: `不为人知的性格`,
