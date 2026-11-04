@@ -652,4 +652,6 @@ export enum UnitCode {
     calibur = 'SSR-182',
     vita = 'SSR-183',
     fujihana = 'SSR-184',
+    h_baal = 'SSR-185',
+    h_bedard = 'SSR-186',
 }

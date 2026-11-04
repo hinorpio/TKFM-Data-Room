@@ -260,6 +260,8 @@ const SSR = {
     [UnitCode.calibur]: getUnitFullImagePath('10211'),
     [UnitCode.vita]: getUnitFullImagePath('10212'),
     [UnitCode.fujihana]: getUnitFullImagePath('10213'),
+    [UnitCode.h_baal]: getUnitFullImagePath('10214'),
+    [UnitCode.h_bedard]: getUnitFullImagePath('10215'),
 }
 
 export const FullImage = {
