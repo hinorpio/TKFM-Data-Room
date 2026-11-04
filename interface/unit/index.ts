@@ -3,6 +3,7 @@ import { SkillSet } from './skillset';
 import { LiberateSkillSet } from './liberateSkillSet';
 import { Discipline } from './discipline';
 import { PotentialSelectGroup } from '../stat/potential'
+import { LimitBreakState } from '../stat/limitBreak';
 
 export interface Unit {
     ID: string;
@@ -51,6 +52,7 @@ export interface StatGroup {
     star: number;
     room: null | number;
     pot: PotentialSelectGroup;
+    limitBreak: LimitBreakState;
     lib: null | number;
 }
 

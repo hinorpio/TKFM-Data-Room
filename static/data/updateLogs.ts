@@ -2,6 +2,397 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.8.4',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.calibur, UnitCode.vita, UnitCode.fujihana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.calibur, UnitCode.vita, UnitCode.fujihana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0233', '0234', '0235' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.8.3',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.w_noma, UnitCode.ciel ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0229', '0230', '0231', '0232', 'SPIRE_29' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.8.2',
+        logs: [
+            {
+                type: LogType.FIX,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `機靈古怪 賽露西亞 解放技能內容問題`,
+                    [Locale.sc]: `机灵古怪 赛露西亚 解放技能内容问题`,
+                    [Locale.en]: `Halloween Queen Salucia Liberation Skill Issue`,
+                    [Locale.jp]: `おてんば セルシア 解放スキル内容の問題`,
+                    [Locale.kr]: `할로 퀸 살루시아 해방 스킬 내용 문제`
+                }
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.8.1',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.se_noel, UnitCode.lilyelsa ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.lilyelsa ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.LIBERATE,
+                unitList: [ UnitCode.h_salucia ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0226', '0227', '0228' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.8.0',
+        logs: [
+            {
+                type: LogType.FIX,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `PWA Bug`,
+                    [Locale.sc]: `PWA Bug`,
+                    [Locale.en]: `PWA Bug`,
+                    [Locale.jp]: `PWA Bug`,
+                    [Locale.kr]: `PWA Bug`
+                }
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.13',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.otohime, UnitCode.s_britney, UnitCode.s_nanami, UnitCode.legora ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.legora ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.PUZZLE,
+                puzzleList: [ PuzzleCode.EVENT_2026_SUMMER_1, PuzzleCode.EVENT_2026_SUMMER_2, PuzzleCode.EVENT_2026_SUMMER_3, PuzzleCode.EVENT_2026_SUMMER_4 ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0223', '0224', '0225' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.12',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.m_momDaphne, UnitCode.nali ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0220', '0221', '0222', 'TIMERIFT_025' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.11',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.egypt_fiora, UnitCode.egypt_milae ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0215', '0216', '0217', '0218', '0219' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.PUZZLE,
+                puzzleList: [ PuzzleCode.EVENT_2026_APRIL_FOOL_1 ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.10',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.cos_yanko, UnitCode.cos_momo ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0211', '0214' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.ART,
+                ownerList: [ FanartOwner.PHOENIX_WRONG ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.9',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.b_aiko, UnitCode.b_ayane, UnitCode.b_lana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0209', '0210', '0212', '0213', 'TIMERIFT_024' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.prototype ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.8',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.b_shizuka, UnitCode.m_usagihime ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0205', '0206', '0207', '0208' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.7',
+        logs: [
+            {
+                type: LogType.FIX,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `魔王 娜娜, 貓妖 娜娜 簡易造型問題`,
+                    [Locale.sc]: `魔王 娜娜, 貓妖 娜娜 簡易造型問題`,
+                    [Locale.en]: `Archdemon Nana, Bakeneko Nana Simple Outfit Issue`,
+                    [Locale.jp]: `魔王 ナナ, 猫娘 ナナ 簡易スキンの問題`,
+                    [Locale.kr]: `마왕 나나, 바케네코 나나 간이 스킨 문제`
+                }
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.6',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.fifth_iblis, UnitCode.fifth_satan, UnitCode.fifth_baal, UnitCode.fifth_nana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0203', '0204' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.fifth_nana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.PUZZLE,
+                puzzleList: [ PuzzleCode.EVENT_2025_XMAS_1, PuzzleCode.EVENT_2025_XMAS_2 ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.5',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.m_salucia, UnitCode.lutty ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0200', '0201', '0202', 'TIMERIFT_023' ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.4',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.lamia, UnitCode.shiraka ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.3',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.h_momDaphne, UnitCode.lilinor ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0196', '0197', '0198', '0199' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.ART,
+                ownerList: [ FanartOwner.DOKGUN ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.2',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.l_ayane, UnitCode.ria, UnitCode.g_britney ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0191', '0192', '0193', '0194' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.OUTFIT,
+                unitList: [ UnitCode.harpy ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.PUZZLE,
+                puzzleList: [ PuzzleCode.HUMAN_PROTOTYPE ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.1',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.n_lulu, UnitCode.yuri ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0188', '0189', '0190', 'TIMERIFT_022' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.ART,
+                ownerList: [ FanartOwner.DOKGUN, FanartOwner.SEVEN_LEMON ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.7.0',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.LIBERATE,
+                unitList: [ UnitCode.c1_nana, UnitCode.o_nana ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0187' ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `角色語音`,
+                    [Locale.sc]: `角色语音`,
+                    [Locale.en]: `Unit Voice`,
+                    [Locale.jp]: `キャラクターボイス`,
+                    [Locale.kr]: `캐릭터 보이스`
+                }
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.ART,
+                ownerList: [ FanartOwner.DOKGUN ]
+            },
+            {
+                type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `外部連結`,
+                    [Locale.sc]: `外部连结`,
+                    [Locale.en]: `External Website`,
+                    [Locale.jp]: `外部リンク`,
+                    [Locale.kr]: `외부 링크`
+                }
+            },
+            {
+                type: LogType.CHANGE,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `更新日誌`,
+                    [Locale.sc]: `更新日志`,
+                    [Locale.en]: `Update Logs`,
+                    [Locale.jp]: `更新履歴`,
+                    [Locale.kr]: `업데이트 일지`
+                }
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.6.2',
         logs: [
             {

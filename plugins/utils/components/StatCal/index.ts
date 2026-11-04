@@ -4,6 +4,7 @@ import Lib from "./Lib";
 import Potential from "./Potential";
 import Star from "./Star";
 import Room from "./Room";
+import LimitBreak from "./LimitBreak";
 
 const StatCal = {
     ...General,
@@ -12,6 +13,7 @@ const StatCal = {
     ...Potential,
     ...Star,
     ...Room,
+    ...LimitBreak,
 }
 
 export default StatCal

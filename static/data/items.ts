@@ -1075,6 +1075,55 @@ const items: Item[] = [
         },
         usageValue: 2000
     },
+    {
+        type: ItemType.GENERAL,
+        code: ItemCode.WORLD_TREE_PETAL,
+        icon: ItemIcon.WORLD_TREE_PETAL,
+        name: {
+            tc: "世界樹的花瓣",
+            sc: "世界树的花瓣",
+            en: "World Tree's Petal",
+            jp: "世界樹の花びら",
+            kr: "위그드라실의 꽃잎"
+        },
+    },
+    {
+        type: ItemType.GENERAL,
+        code: ItemCode.WORLD_TREE_FLOWER,
+        icon: ItemIcon.WORLD_TREE_FLOWER,
+        name: {
+            tc: "世界樹的花朵",
+            sc: "世界树的花朵",
+            en: "World Tree's Flower",
+            jp: "世界樹の花",
+            kr: "위그드라실의 꽃"
+        },
+    },
+    {
+        type: ItemType.GENERAL,
+        code: ItemCode.MEMORY_CRYSTAL,
+        icon: ItemIcon.MEMORY_CRYSTAL,
+        name: {
+            tc: "記憶寶珠",
+            sc: "记忆宝珠",
+            en: "Memory Crystal",
+            jp: "記憶の宝玉",
+            kr: "기억의 보주"
+        },
+    },
+    {
+        type: ItemType.GENERAL,
+        code: ItemCode.QUANTUM_LEAP_POTION,
+        icon: ItemIcon.QUANTUM_LEAP_POTION,
+        name: {
+            tc: "限界突破藥水",
+            sc: "限界突破药水",
+            en: "Quantum Leap Potion",
+            jp: "限界突破ポーション",
+            kr: "한계 돌파 포션"
+        },
+        usageValue: 100
+    },
 ];
 
 export default items;
