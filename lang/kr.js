@@ -134,4 +134,5 @@ export default {
     "Battle": "전투",
     "R18": "R18",
     "Feature": "특징",
+    "Special Thanks": "Special Thanks",
 }

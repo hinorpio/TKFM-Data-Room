@@ -134,4 +134,5 @@ export default {
     "Battle": "Battle",
     "R18": "R18",
     "Feature": "Feature",
+    "Special Thanks": "Special Thanks",
 }

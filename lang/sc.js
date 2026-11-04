@@ -134,4 +134,5 @@ export default {
     "Battle": "战斗",
     "R18": "R18",
     "Feature": "特式",
+    "Special Thanks": "特别鸣谢",
 }
