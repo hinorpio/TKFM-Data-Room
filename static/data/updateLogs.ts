@@ -2,6 +2,37 @@ import { UpdateLogs } from '@/interface/updateLogs';
 import { Locale, LogGroup, LogType, UnitCode, FanartOwner, PuzzleCode } from '@/plugins/utils/enums';
 const events: UpdateLogs[] = [
     {
+        version: 'ver.beta-0.10.1',
+        logs: [
+            {
+                type: LogType.NEW,
+                group: LogGroup.GENERAL,
+                content: {
+                    [Locale.tc]: `新增角色別名搜尋，支援通過角色名稱，稱號及別名查找`,
+                    [Locale.sc]: `新增角色别名搜索，支持通过角色名称，称号及别名查找`,
+                    [Locale.en]: `Added character alias search, supporting names, titles, and aliases.`,
+                    [Locale.jp]: `キャラクターの別名検索を追加，名前・二つ名・別名で検索できます`,
+                    [Locale.kr]: `캐릭터 별칭 검색 추가. 이름, 칭호 및 별칭으로 검색할 수 있습니다.`
+                }
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.UNIT,
+                unitList: [ UnitCode.aramis, UnitCode.herschel ]
+            },
+            {
+                type: LogType.CHANGE,
+                group: LogGroup.SKILL,
+                unitList: [ UnitCode.h_bedard ]
+            },
+            {
+                type: LogType.NEW,
+                group: LogGroup.EVENT,
+                eventList: [ '0239', '0240', '0241', 'TIMERIFT_027' ]
+            },
+        ]
+    },
+    {
         version: 'ver.beta-0.9.1',
         logs: [
             {
@@ -23,10 +54,10 @@ const events: UpdateLogs[] = [
                 type: LogType.NEW,
                 group: LogGroup.GENERAL,
                 content: {
-                    [Locale.tc]: `新增角色「限界突破」頁籤，顯示各角色的四組詞條選項。`,
-                    [Locale.sc]: `新增角色“限界突破”页签，显示各角色的四组词条选项。`,
+                    [Locale.tc]: `新增角色「限界突破」頁籤，顯示各角色的四組詞條選項`,
+                    [Locale.sc]: `新增角色「限界突破」页签，显示各角色的四组词条选项`,
                     [Locale.en]: `Added a Quantum Leap tab showing each character's four groups of trait options.`,
-                    [Locale.jp]: `キャラに応じた4グループの特性候補を表示する「限界突破」タブを追加。`,
+                    [Locale.jp]: `キャラに応じた4グループの特性候補を表示する「限界突破」タブを追加`,
                     [Locale.kr]: `캐릭터별 4개 그룹의 특성 선택지를 확인할 수 있는 「한계 돌파」 탭 추가.`
                 }
             },
@@ -34,10 +65,10 @@ const events: UpdateLogs[] = [
                 type: LogType.CHANGE,
                 group: LogGroup.GENERAL,
                 content: {
-                    [Locale.tc]: `數值計算器支援 ELv 的 HP/ATK 加成及限界突破所需材料計算。`,
-                    [Locale.sc]: `数值计算器支持 ELv 的 HP/ATK 加成及限界突破所需材料计算。`,
+                    [Locale.tc]: `數值計算器支援 ELv 的 HP/ATK 加成及限界突破所需材料計算`,
+                    [Locale.sc]: `数值计算器支持 ELv 的 HP/ATK 加成及限界突破所需材料计算`,
                     [Locale.en]: `Updated the stat calculator to include ELv HP/ATK bonuses and Quantum Leap material costs.`,
-                    [Locale.jp]: `ステータス計算機がELvによるHP・ATK補正と限界突破の必要素材数に対応。`,
+                    [Locale.jp]: `ステータス計算機がELvによるHP・ATK補正と限界突破の必要素材数に対応`,
                     [Locale.kr]: `능력치 계산기에 ELv에 따른 HP/ATK 증가량과 한계 돌파 필요 재료 계산 추가.`
                 }
             },
