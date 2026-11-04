@@ -40,6 +40,11 @@
                 <a class="hyperlink-class" target="_blank" :href="getLocalStr(koreaTkfmWiki)">
                     <span :class="linkClass">{{ getLocalStr(koreaTkfmWiki_str) }}</span>
                 </a>
+                <v-divider class="mt-4" ></v-divider>
+                <h2 class="mt-8 mb-4">{{ $t('Special Thanks') }}</h2>
+                <a class="hyperlink-class" target="_blank" :href="getLocalStr(ebola_github)">
+                    <span :class="linkClass" v-html="$util.showPreLineText(getLocalStr(ebola_str))"></span>
+                </a>    
             </div>
         </base-expand-card>
         <v-spacer></v-spacer>
@@ -172,6 +177,22 @@ export default class About extends Vue {
         [Locale.en]: 'arca.live TKFM Wiki (Korea)',
         [Locale.jp]: 'arca.live 天下布魔Wiki (Korea)',
         [Locale.kr]: 'arca.live 텐카푸마Wiki (Korea)',
+    }
+
+    ebola_str: {[lang in Locale]: string} = {
+        [Locale.tc]: '埃波拉醬（機器人）',
+        [Locale.sc]: '埃博拉酱（机器人）',
+        [Locale.en]: 'Ebola-Chan-bot',
+        [Locale.jp]: 'Ebola-Chan-bot',
+        [Locale.kr]: 'Ebola-Chan-bot',
+    }
+
+    ebola_github:  {[lang in Locale]: string} = {
+        [Locale.tc]: 'https://github.com/Ebola-Chan-bot',
+        [Locale.sc]: 'https://github.com/Ebola-Chan-bot',
+        [Locale.en]: 'https://github.com/Ebola-Chan-bot',
+        [Locale.jp]: 'https://github.com/Ebola-Chan-bot',
+        [Locale.kr]: 'https://github.com/Ebola-Chan-bot',
     }
 
 }
