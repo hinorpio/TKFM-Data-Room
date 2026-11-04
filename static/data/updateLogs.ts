@@ -5,6 +5,21 @@ const events: UpdateLogs[] = [
         version: 'ver.beta-0.10.1',
         logs: [
             {
+                type: LogType.FIX,
+                group: LogGroup.SKILL,
+                unitList: [ UnitCode.lana, UnitCode.iblis ]
+            },
+            {
+                type: LogType.FIX,
+                group: LogGroup.LIBERATE,
+                unitList: [ UnitCode.baal ]
+            },
+        ]
+    },
+    {
+        version: 'ver.beta-0.10.0',
+        logs: [
+            {
                 type: LogType.NEW,
                 group: LogGroup.GENERAL,
                 content: {
