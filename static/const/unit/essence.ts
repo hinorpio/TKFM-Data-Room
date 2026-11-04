@@ -255,6 +255,8 @@ const SSR = {
     [UnitCode.fujihana]: getUnitEssencePath('10213'),
     [UnitCode.h_baal]: getUnitEssencePath('10214'),
     [UnitCode.h_bedard]: getUnitEssencePath('10215'),
+    [UnitCode.aramis]: getUnitEssencePath('10216'),
+    [UnitCode.herschel]: getUnitEssencePath('10217'),
 }
 
 export const Essence = {

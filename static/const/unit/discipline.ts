@@ -237,6 +237,8 @@ const SSR = {
     [UnitCode.fujihana]: getUnitDisplinePath('10213'),
     [UnitCode.h_baal]: getUnitDisplinePath('10214'),
     [UnitCode.h_bedard]: getUnitDisplinePath('10215'),
+    [UnitCode.aramis]: getUnitDisplinePath('10216'),
+    [UnitCode.herschel]: getUnitDisplinePath('10217'),
 }
 
 export const DisciplinePreview = {

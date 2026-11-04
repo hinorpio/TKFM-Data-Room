@@ -262,6 +262,8 @@ const SSR = {
     [UnitCode.fujihana]: getUnitFullImagePath('10213'),
     [UnitCode.h_baal]: getUnitFullImagePath('10214'),
     [UnitCode.h_bedard]: getUnitFullImagePath('10215'),
+    [UnitCode.aramis]: getUnitFullImagePath('10216'),
+    [UnitCode.herschel]: getUnitFullImagePath('10217'),
 }
 
 export const FullImage = {

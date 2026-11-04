@@ -255,6 +255,8 @@ const SSR = {
     [UnitCode.fujihana]: getUnitSelectionPath('10213'),
     [UnitCode.h_baal]: getUnitSelectionPath('10214'),
     [UnitCode.h_bedard]: getUnitSelectionPath('10215'),
+    [UnitCode.aramis]: getUnitSelectionPath('10216'),
+    [UnitCode.herschel]: getUnitSelectionPath('10217'),
 }
 
 export const Selection = {
