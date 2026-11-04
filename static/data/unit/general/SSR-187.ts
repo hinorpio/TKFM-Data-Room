@@ -20,8 +20,8 @@ export const General_10216: Unit = {
         [Locale.kr]: "아라미스"
     },
     abbreviation: {
-        [Locale.tc]: [],
-        [Locale.sc]: [],
+        [Locale.tc]: [ "槍匠" ],
+        [Locale.sc]: [ "枪匠" ],
         [Locale.en]: [],
         [Locale.jp]: [],
         [Locale.kr]: []
