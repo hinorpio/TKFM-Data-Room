@@ -35,7 +35,7 @@ export const General_10215: Unit = {
     },
     rarity: Rarity.SSR,
     element: Element.WIND,
-    position: Position.HEALER,
+    position: Position.SUPPORTER,
     potential: PotentialType.ATTACK,
     isLimited: true,
     releaseDate: "2026/10/07",
